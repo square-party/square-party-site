@@ -1,0 +1,60 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #2563eb;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --max-width: 70ch;
+}
+
+/* Foundation for the dark-side / light-side toggle.
+   Flipping this class on <body> swaps the entire palette. */
+body.dark-side {
+  --color-bg: #0a0a0a;
+  --color-text: #e5e5e5;
+  --color-accent: #60a5fa;
+  --color-muted: #9ca3af;
+  --color-border: #2a2a2a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+header nav a {
+  margin-right: 1.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover { color: var(--color-accent); }
+
+main {
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 { line-height: 1.2; }
+a { color: var(--color-accent); }
+
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  margin-top: 4rem;
+}
