@@ -5,7 +5,7 @@ title: Home
 
 # Square Party
 
-A party, a PA-3 campaign, and a set of ideas about representation, redistricting, and peace.
+A party, a PA-3 campaign, and a call for help.
 
 ## Explore
 
