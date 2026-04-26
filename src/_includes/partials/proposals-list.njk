@@ -1,0 +1,22 @@
+{# Proposals list — compact title list with state dot + project number.
+   Iterates collections.proposals (set up in eleventy.config.js).
+   Reuses the .domain-list / .domain-row CSS for visual consistency.
+
+   IMPORTANT: do not introduce blank lines inside the .domain-index HTML
+   block — they terminate markdown-it's HTML block parsing.
+#}
+<div class="domain-index" id="proposals">
+<ul class="domain-list">
+{%- for proposal in collections.proposals -%}
+{%- set state = proposal.data.state or "planned" -%}
+{%- if state == "published" %}{% set stateLabel = "Published" %}{% elif state == "in-review" %}{% set stateLabel = "Ready for review" %}{% elif state == "drafting" %}{% set stateLabel = "Drafting" %}{% else %}{% set stateLabel = "Planned" %}{% endif -%}
+<li class="domain-row"><a class="domain-row__link" href="{{ proposal.url }}" data-title="{{ proposal.data.title }}" data-description="{{ proposal.data.description | escape }}" data-state="{{ state }}" data-state-label="{{ stateLabel }}"><span class="dot" data-state="{{ state }}" aria-hidden="true"></span><span class="domain-row__title">{% if proposal.data.order %}<span class="proposal-row__num">{{ proposal.data.order }}.</span> {% endif %}{{ proposal.data.title }}</span>{% if state != "planned" %}<span class="domain-row__state" data-state="{{ state }}">{{ stateLabel }}</span>{% endif %}<span class="domain-row__arrow" aria-hidden="true">→</span></a><p class="domain-row__desc-mobile">{{ proposal.data.description }}</p></li>
+{%- endfor %}
+</ul>
+<aside class="domain-detail" aria-label="Proposal detail">
+<span class="domain-detail__state" data-state="planned" hidden></span>
+<h3 class="domain-detail__title">Proposal detail</h3>
+<p class="domain-detail__desc">Hover or focus a proposal to see what it covers. Click any row to open the full proposal.</p>
+<p class="domain-detail__cta"><a class="domain-detail__open" href="#" hidden>Open this proposal →</a></p>
+</aside>
+</div>

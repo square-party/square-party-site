@@ -27,11 +27,19 @@ The four corners on my own square — at least for now — are **Peace, Power, P
 
 ## What I'm running for
 
-I'm running for the U.S. House of Representatives in Pennsylvania's 3rd Congressional District as a write-in candidate. The campaign is the first applied test of the Square Party framework — a working demonstration of what it looks like when someone takes the empty-square idea and the People's Assembly seriously enough to actually run on them. [The campaign page →](/paul/campaign/)
+I'm running for the U.S. House of Representatives in Pennsylvania's 3rd Congressional District as a write-in candidate. The campaign is the first applied test of the Square Party framework: what it actually looks like when someone takes the empty-square idea and the People's Assembly seriously enough to run on them. [The campaign page →](/paul/campaign/)
+
+## Where the work lives
+
+- [The empower project →](/paul/campaign/empower/) — the PA-3 analytical work, the campaign's main project
+- [Ideas / Proposals →](/paul/proposals/) — federal- and state-level policy proposals, in various states of draft
+- [Square Party →](/) — the wider vehicle this campaign runs on
 
 ## Get in touch
 
-*(Email, social, however you want to handle this.)*
+Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>. The fastest way to reach me directly.
+
+For project-related work — corrections, sources, draft sub-domain analyses, policy proposals — the [contribute page](/paul/campaign/empower/contribute/) explains the GitHub-based workflow. If GitHub is a barrier, the same email gets you a person.
 
 <aside class="ai-disclaimer">
   <p><strong>About the writing on this site.</strong> Much of the prose across these pages was drafted by an AI assistant working from my direction, then reviewed and edited by me. The ideas, framings, and substantive choices are mine — the empty square, the two-axis representation model, the domain-as-assembly-seat move, the comprehensive-coverage thesis, the analytical methodology — but the assistance helped me get them onto the page faster than I could have alone.</p>

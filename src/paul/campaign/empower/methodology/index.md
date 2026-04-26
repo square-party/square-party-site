@@ -6,7 +6,7 @@ description: The analytical framework used across all twenty-two domains.
 
 # Methodology
 
-Every domain in this project gets analyzed through the same framework. The framework matters because consistency is what lets a reader compare across domains, and because the act of forcing every domain through the same questions reveals which domains the framework strains against — those strains are themselves findings.
+Every domain in this project gets analyzed through the same framework. Consistency lets readers compare across domains. Running every domain through the same questions also reveals which domains the framework strains against, and those strains are themselves findings.
 
 ## The five lenses
 
@@ -30,7 +30,7 @@ The core analytical move. Where the formal architecture and the operational real
 
 ### 5. Statutory stability vs administrative vulnerability
 
-A reformer's question: which parts of the formal architecture are durable (constitutional, statutory, well-defended) and which parts are vulnerable to administrative reinterpretation, defunding, or capture? Reform efforts that target the wrong layer waste energy. This lens helps identify where pressure does the most.
+A reformer's question: which parts of the formal architecture are durable (constitutional, statutory, well-defended) and which parts are vulnerable to administrative reinterpretation, defunding, or capture? Reform efforts that target the wrong layer waste energy. This lens helps identify where pressure has the most leverage.
 
 ## Sources
 

@@ -1,0 +1,48 @@
+{# Tally embed partial — wraps a single Tally form.
+
+   Set these variables in the calling page before including:
+     - tallyId      (string)  the form ID, last segment of the Tally URL
+     - tallyTitle   (string)  iframe title (used for a11y and noscript link)
+     - tallyHeight  (string)  initial iframe height in px (Tally auto-resizes)
+
+   Form IDs live in src/_data/site.js under site.tally.* so they update in
+   one place. Set a tally ID to `null` (or pass an empty tallyId) and the
+   partial renders a placeholder card — useful while a form is being built.
+
+   The Tally widget script is included alongside the iframe; it's idempotent,
+   so multiple embeds per page are safe.
+#}
+
+{%- if tallyId -%}
+<div class="tally-embed">
+<iframe
+  data-tally-src="https://tally.so/embed/{{ tallyId }}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+  loading="lazy"
+  width="100%"
+  height="{{ tallyHeight | default('320') }}"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+  title="{{ tallyTitle | escape }}"></iframe>
+<noscript>
+<p><a href="https://tally.so/r/{{ tallyId }}" rel="noopener">Open the form in a new tab →</a></p>
+</noscript>
+</div>
+<script>
+(function(){
+  var d=document,w="https://tally.so/widgets/embed.js",v=function(){
+    if("undefined"!=typeof Tally){Tally.loadEmbeds()}
+    else{d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){e.src=e.dataset.tallySrc})}
+  };
+  if("undefined"!=typeof Tally){v()}
+  else if(d.querySelector('script[src="'+w+'"]')==null){
+    var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);
+  }
+})();
+</script>
+{%- else -%}
+<aside class="tally-placeholder" aria-label="Form coming soon">
+<p class="tally-placeholder__title">{{ tallyTitle | default('Form') }}</p>
+<p class="tally-placeholder__hint">This form is being built. Once the Tally form exists, swap the form ID in <code>src/_data/site.js</code> and it'll appear here.</p>
+</aside>
+{%- endif -%}

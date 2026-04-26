@@ -8,9 +8,13 @@ description: Twenty-two topical domains where citizens specialize, organize, and
 
 A second axis of representation. Geographic representation tells us *who* lives where, and assigns one set of representatives to handle every issue across that geography. The People's Assembly proposes a complementary structure: representation organized by *what* a law concerns, not just *where* it applies.
 
-Every place government touches life is a domain. Twenty-two of them, mapped out below. Each domain becomes a potential seat — a topical specialization where members of the public can develop expertise, follow what's happening, and provide the kind of sustained, informed oversight that no single geographically-elected representative has the time or training to deliver across all twenty-two at once.
+Every place government touches life is a domain. Twenty-two of them, mapped out below. Each is a potential seat: a topical specialization where members of the public can build expertise, follow what's happening, and provide the kind of sustained citizen oversight that a single geographically-elected representative simply doesn't have time for across all twenty-two at once.
 
-This isn't a replacement for geography. It's an addition. The combination — district reps who represent place, plus topical reps who represent depth — is the model.
+This isn't a replacement for geography. It's an addition. District reps represent place. Topical reps represent depth. Both together is the model.
+
+<aside class="construction-note" aria-label="A note on framing">
+<p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The twenty-two domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal. Other sets could carve up the same scope differently. What's not negotiable is the comprehensive-coverage goal; the particular carve-up is.</p>
+</aside>
 
 ## Why twenty-two
 
@@ -23,33 +27,10 @@ Below: every domain, what it covers in broad strokes, and a way to express inter
 
 Tell us which domains you'd want to follow or organize around. Email plus checkboxes — the form takes about thirty seconds. We use the responses to see where there's energy and which domains are ready for organizing work.
 
-<div class="tally-embed">
-  <iframe
-    data-tally-src="https://tally.so/embed/EkBJGL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-    loading="lazy"
-    width="100%"
-    height="320"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-    title="People's Assembly: express interest"></iframe>
-  <noscript>
-    <p><a href="https://tally.so/r/EkBJGL" rel="noopener">Open the interest form in a new tab →</a></p>
-  </noscript>
-</div>
-
-<script>
-(function(){
-  var d=document,w="https://tally.so/widgets/embed.js",v=function(){
-    if("undefined"!=typeof Tally){Tally.loadEmbeds()}
-    else{d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){e.src=e.dataset.tallySrc})}
-  };
-  if("undefined"!=typeof Tally){v()}
-  else if(d.querySelector('script[src="'+w+'"]')==null){
-    var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);
-  }
-})();
-</script>
+{% set tallyId = site.tally.assembly %}
+{% set tallyTitle = "People's Assembly: express interest" %}
+{% set tallyHeight = "320" %}
+{% include "partials/tally-embed.njk" %}
 
 ## The twenty-two
 

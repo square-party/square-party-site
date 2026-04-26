@@ -6,17 +6,44 @@ description: How to verify, correct, and add to this project. The mechanics of G
 
 # Contribute
 
-This project gets better when readers push back on it. Every page is editable. Every change is tracked. Every contributor is credited at whatever level of identity they choose.
+Many ways to help, ranging from thirty seconds of clicking to drafting policy. The lightest options come first. The editorial track (where the project actually gets edited) is below that.
 
-The mechanics use GitHub. That's a real barrier for non-technical contributors, and we're aware of it — but it gives us versioning, attribution, public review, and a permanent record without us having to build any of those things from scratch. A future version of this project will lower the barrier (probably with a magic-link form for the lightest contributions); for now, the GitHub path is the path.
+## Lightest ways to help
 
-## Three rungs
+Three things take less than five minutes apiece, and each one feeds real infrastructure: knowing who's interested, growing the audience, and getting a baseline read on what people care about.
+
+### Sign up as an interested voter
+
+Tell us which of the twenty-two domains you care about. Email plus checkboxes.
+
+[Express interest →](/square-party/assembly/#express-interest)
+
+### Share the party link
+
+If you think this is worth a look, send it to one person who'd think the same, or post it on social.
+
+The link: **squareparty.org**
+
+### Answer broad-issue preferences
+
+A short, low-background survey on the rough shape of taxation, healthcare, immigration, environment, and the rest. We use the responses to see where ordinary preferences cluster.
+
+{% set tallyId = site.tally.prefs %}
+{% set tallyTitle = "Broad-issue preferences" %}
+{% set tallyHeight = "320" %}
+{% include "partials/tally-embed.njk" %}
+
+These are real contributions. Most people will never do more than this, and that's fine — most of the value of an open project comes from people who show up at the lightest tier and stick around.
+
+## Editorial contribution
+
+The editorial track is where the project itself gets edited: fixing errors, adding sources, drafting analysis, proposing policy language. The mechanics are GitHub-based. That's a real barrier for non-technical contributors, and we know it. In exchange we get versioning, public review, and a permanent attribution record without building any of that from scratch. A future version will lower the barrier (probably a magic-link form for the lightest editorial contributions). For now, GitHub is the path.
 
 ### Read
 
 No account needed. Read anything on the site, follow citations, decide for yourself whether the analysis holds. This is the default mode and the only one most visitors will ever use. That's fine.
 
-### Contribute (small fixes, sources, narrative edits)
+### Suggest a fix or add a source
 
 Spotted a typo, a broken link, a missing source, or a framing problem? Open a pull request on GitHub.
 
@@ -32,7 +59,7 @@ That's it. Your edit lands in a queue. Paul (or a delegated reviewer) looks at i
 
 If you don't have a GitHub account, [creating one is free and takes about two minutes](https://github.com/signup). Yes, this is friction. We know.
 
-### Propose (new analysis, sub-domains, profiles, policy proposals)
+### Propose new analysis or policy
 
 Bigger ideas — a new sub-domain analysis, a constituent profile, a policy proposal — go through a longer review. Same PR mechanism, more conversation around it.
 
@@ -78,6 +105,6 @@ For conversation that isn't tied to a specific edit — questions, debates, meth
 
 A magic-link auth system, an in-page comment system, an upvote/bookmark/flag mechanism. Those are all sensible features and they're all in scope for a v2. They aren't in v1 because they require backend infrastructure that the GitHub PR path lets us defer — and starting with the simplest workable system that produces a real public record is more important than starting with the prettiest one.
 
-If GitHub is a real barrier for you and you want to contribute anyway, email the project (address forthcoming) and we'll figure something out manually.
+If GitHub is a real barrier for you and you want to contribute anyway, email <a href="mailto:{{ site.email }}">{{ site.email }}</a> and we'll figure something out manually.
 
 {% include "partials/page-meta.njk" %}

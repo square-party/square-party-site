@@ -14,6 +14,20 @@ export default function(eleventyConfig) {
       });
   });
 
+  // Proposals collection — drives the proposals list on /paul/proposals/.
+  // One folder per proposal under src/paul/proposals/<slug>/index.md.
+  // Sorted by `order` frontmatter (use the project number, e.g. 8 for Project 8).
+  eleventyConfig.addCollection("proposals", function(collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/paul/proposals/*/index.md")
+      .sort((a, b) => {
+        const ao = a.data.order ?? 999;
+        const bo = b.data.order ?? 999;
+        if (ao !== bo) return ao - bo;
+        return (a.data.title || "").localeCompare(b.data.title || "");
+      });
+  });
+
   return {
     dir: {
       input: "src",

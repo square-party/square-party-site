@@ -1698,3 +1698,145 @@ main:has(.home-hero) {
   color: var(--ink);
   margin: 0;
 }
+
+/* ============================================================
+   HELP BLOCK — "Help us make our laws better!"
+   Used as a recurring CTA on home, /paul/campaign/, and the
+   empower project home. Visually prominent, gold-accented.
+   ============================================================ */
+.help-block {
+  background: rgba(184, 134, 11, 0.06);
+  border-left: 4px solid #b8860b;
+  padding: 1.5rem 1.75rem;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 2.5rem 0;
+  font-family: var(--font-body);
+}
+.help-block__heading {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin: 0 0 0.85rem;
+  color: var(--ink);
+  line-height: 1.2;
+}
+.help-block p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
+  color: var(--ink);
+}
+.help-block p:last-child {
+  margin-bottom: 0;
+}
+.help-block__github {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(184, 134, 11, 0.2);
+  margin-top: 0.5rem;
+}
+
+/* ============================================================
+   SCHOOLHOUSE HOOK — "Remember Schoolhouse Rock?" onramp
+   Conversational warm-up at the top of explainer pages.
+   ============================================================ */
+.schoolhouse-hook {
+  background: var(--color-bg-alt);
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-md);
+  margin: 1.5rem 0 2rem;
+  font-family: var(--font-body);
+  border: 1px solid var(--color-border);
+}
+.schoolhouse-hook__lead {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.schoolhouse-hook p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--ink);
+}
+.schoolhouse-hook strong {
+  color: var(--accent);
+}
+
+/* ============================================================
+   TALLY PLACEHOLDER — shown when a Tally form ID is "TBD-..."
+   so unfinished forms don't render as broken iframes.
+   ============================================================ */
+.tally-placeholder {
+  margin: 1.25rem 0 2rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-bg-alt);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+}
+.tally-placeholder__title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+.tally-placeholder__hint {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.5;
+}
+.tally-placeholder__hint code {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 0.05rem 0.35rem;
+  font-size: 0.92em;
+}
+
+/* ============================================================
+   MAP FRAME — wrapper for embedded maps (parks map iframe)
+   ============================================================ */
+.map-frame-wrap {
+  margin: 1.5rem 0 1rem;
+}
+.map-frame {
+  display: block;
+  width: 100%;
+  height: 75vh;
+  min-height: 480px;
+  max-height: 820px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-alt);
+  box-shadow: var(--color-shadow);
+}
+.map-frame__hint {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.55rem 0 0;
+  text-align: center;
+}
+.map-frame__hint a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+.map-frame__hint a:hover {
+  color: var(--accent-warm);
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .map-frame {
+    height: 65vh;
+    min-height: 360px;
+  }
+}

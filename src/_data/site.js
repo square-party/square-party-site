@@ -17,6 +17,21 @@ export default {
   // to the build date.
   buildDate: new Date().toISOString().slice(0, 10),
 
+  // Contact email for the project. Used in mailto: links and as a fallback
+  // when GitHub-based contribution isn't workable for someone.
+  email: "paul@squareparty.org",
+
+  // Tally form IDs (last segment of the Tally form URL).
+  // Update these in one place; templates pull from site.tally.*.
+  // Set a value to `null` for forms that don't exist yet — the embed partial
+  // will render a placeholder card instead of a broken iframe.
+  tally: {
+    voter: "BzLAVA",     // home page — Square Party voter sign-up (lightest touch)
+    assembly: "EkBJGL",  // /square-party/assembly/ — per-domain interest sign-up
+    pledge: null,        // /paul/campaign/ — write-in pledge (TBD: create in Tally, paste ID here)
+    prefs: null          // /paul/campaign/empower/contribute/ — broad-issue preferences (TBD)
+  },
+
   // Project-level structure for the empower project's nav and breadcrumb
   empower: {
     title: "How to empower through representation",

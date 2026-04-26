@@ -21,7 +21,20 @@ The party's square is empty on purpose. What goes inside is whatever each member
   </div>
 </div>
 
-## Three threads
+{% include "partials/help-block.njk" %}
+
+## Sign up
+
+The lightest possible ask: name and email, takes a few seconds. Get on our voter list, hear when there's something to hear, decide later how involved you want to be.
+
+{% set tallyId = site.tally.voter %}
+{% set tallyTitle = "Square Party voter sign-up" %}
+{% set tallyHeight = "260" %}
+{% include "partials/tally-embed.njk" %}
+
+Want to go deeper? [Pick the policy domains you care about →](/square-party/assembly/#express-interest) (about thirty seconds, twenty-two checkboxes), or [pledge a write-in vote for Paul →](/paul/campaign/#voter-track).
+
+## Where to go from here
 
 - **[The Party](/square-party/)** — what Square Party is, the empty square, the People's Assembly, the basic tenets.
 - **[Empower](/paul/campaign/empower/)** — the 22-domain civic representation project, applied to PA-3.

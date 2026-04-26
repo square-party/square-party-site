@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PA-3 Parks &amp; Open Space Map — Square Party</title>
+  <meta name="description" content="An interactive descriptive map of every park, recreation center, pool, playground, trail, and community garden in Pennsylvania&#39;s 3rd Congressional District (plus a 2-mile buffer).">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-nav__brand" href="/">Square Party</a>
+      <ul class="site-nav__links">
+        <li><a href="/square-party/">The Party</a></li>
+        <li><a href="/paul/campaign/empower/">Empower</a></li>
+        <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/saved/">Saved</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Paul <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">Bio &amp; campaign</li>
+            <li><a href="/paul/">About Paul</a></li>
+            <li><a href="/paul/campaign/">PA-3 campaign</a></li>
+            <li><a href="/paul/campaign/empower/">Empower (PA-3 application)</a></li>
+            <li><a href="/paul/campaign/empower/parks/">PA-3 parks map</a></li>
+            <li><a href="/paul/proposals/">Ideas / Proposals</a></li>
+            <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<aside class="layer-toggle" role="region" aria-label="Layer toggles">
+  <p class="layer-toggle__label">Layers</p>
+  <button class="layer-toggle__btn" data-layer="light" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Light</span>
+    <span class="layer-toggle__hint">hope · agency</span>
+  </button>
+  <button class="layer-toggle__btn" data-layer="dark" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Dark</span>
+    <span class="layer-toggle__hint">stakes · costs</span>
+  </button>
+</aside>
+
+
+  <main id="main">
+    
+<div class="project project--empower">
+
+  <header class="project-header" aria-label="Project">
+    <div class="project-header__primary">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        
+          
+          
+            <li><a href="/">Square Party</a> <span aria-hidden="true">›</span></li>
+          
+            <li><a href="/paul/">Paul</a> <span aria-hidden="true">›</span></li>
+          
+            <li><a href="/paul/campaign/">Campaign</a> <span aria-hidden="true">›</span></li>
+          
+            <li><a href="/paul/campaign/empower/">Empower through representation</a> <span aria-hidden="true">›</span></li>
+          
+          
+            <li><a href="/paul/campaign/empower/parks/">Reference</a> <span aria-hidden="true">›</span></li>
+          
+          <li aria-current="page">PA-3 Parks &amp; Open Space Map</li>
+        
+      </ol>
+    </nav>
+    <button type="button" class="save-button" data-save-button data-url="/paul/campaign/empower/parks/" data-title="PA-3 Parks &amp; Open Space Map" data-description="An interactive descriptive map of every park, recreation center, pool, playground, trail, and community garden in Pennsylvania&#39;s 3rd Congressional District (plus a 2-mile buffer)." data-context="Empower · PA-3 reference" aria-pressed="false" aria-label="Save this page for later">
+<svg class="save-button__icon save-button__icon--outline" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+<svg class="save-button__icon save-button__icon--filled" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+<span class="save-button__label save-button__label--save">Save</span>
+<span class="save-button__label save-button__label--saved">Saved</span>
+</button>
+    </div>
+
+    <nav class="project-nav" aria-label="Empower project">
+      
+        <ul>
+          
+            <li><a href="/paul/campaign/empower/">Home</a></li>
+          
+            <li><a href="/paul/campaign/empower/#domains">Domains</a></li>
+          
+            <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
+          
+            <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+          
+            <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
+          
+            <li><a href="/paul/campaign/empower/about/">About</a></li>
+          
+        </ul>
+      
+    </nav>
+  </header>
+
+  <article class="project-content">
+    <h1>PA-3 Parks &amp; Open Space</h1>
+<p class="domain-lead">A descriptive map of every park, recreation center, pool, playground, trail, and community garden inside PA-3 — plus the 2-mile buffer around the district, since people who live near the edge cross it for these facilities all the time. Data is fetched live from <a href="https://opendataphilly.org/">OpenDataPhilly</a> each time the map opens, so what you see is what the city is publishing today. Click any marker for the facility's name, address, sub-area, acreage, PPR use type, and Friends-group status.</p>
+<div class="map-frame-wrap">
+<iframe src="/assets/maps/pa3-parks-map.html" title="PA-3 Parks & Open Space Map" class="map-frame" width="100%" height="600" loading="eager" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+<p class="map-frame__hint"><a href="/assets/maps/pa3-parks-map.html" target="_blank" rel="noopener">Open the map fullscreen ↗</a> · Toggle categories from the legend · First open can take a few seconds while live data loads</p>
+</div>
+<h2>What's on the map</h2>
+<p>Markers are color-coded by facility type. Categories are derived from the PPR <code>ppr_use</code> field with <code>property_classification</code> as a tiebreaker:</p>
+<ul>
+<li><strong>Parks</strong> — neighborhood parks, regional parks, nature areas, watershed parks</li>
+<li><strong>Recreation centers</strong> — recreation sites and Older Adult Centers</li>
+<li><strong>Pools</strong> — swimming pools and spraygrounds</li>
+<li><strong>Playgrounds</strong> — anything named &quot;...Playground&quot; (the name overrides <code>ppr_use</code>, since PPR classifies many name-titled playgrounds as recreation sites because PPR programs them)</li>
+<li><strong>Squares &amp; plazas</strong></li>
+<li><strong>Greenways</strong> — pathways, named greenways</li>
+<li><strong>Gardens</strong> — community gardens</li>
+<li><strong>Trails</strong> — line segments from the PPR Trails dataset</li>
+<li><strong>Other</strong> — anything that didn't classify cleanly</li>
+</ul>
+<p>Click any legend item to toggle that category on or off.</p>
+<h2>Sub-areas</h2>
+<p>Each facility is tagged with a rough sub-area for navigation — Northwest (East Falls / Manayunk), North/Northwest Core (Strawberry Mansion, Sharswood, North Central), South/Southwest (Kingsessing, Eastwick, South Philly portion), and West Philadelphia Core (Mantua, Powelton, Cedar Park, etc.). Sub-area assignment is approximate (lat/lng heuristic) and meant as a navigation aid, not as a measurement. A future version will do point-in-polygon against neighborhood polygons for precision.</p>
+<h2>Inclusion zone</h2>
+<p>The map draws the PA-3 boundary as a bold navy outline. The actual inclusion zone for facilities is <strong>PA-3 plus a 2-mile (3.2 km) buffer</strong>. Facilities outside the district but inside the buffer are styled identically to in-district ones — the navy outline is the only visual cue distinguishing them. This is intentional. People who live near the edge of the district routinely cross the line for parks, pools, and rec centers, and a strict in-boundary cut would hide nearby options.</p>
+<h2>Data sources</h2>
+<p>All facility data is from the City of Philadelphia via OpenDataPhilly:</p>
+<ul>
+<li><a href="https://opendataphilly.org/datasets/ppr-properties/">PPR Properties</a> — master inventory of PPR-managed properties</li>
+<li><a href="https://opendataphilly.org/datasets/ppr-playgrounds/">PPR Playgrounds</a></li>
+<li><a href="https://opendataphilly.org/datasets/ppr-swimming-pools/">PPR Swimming Pools</a></li>
+<li><a href="https://opendataphilly.org/datasets/ppr-spraygrounds/">PPR Spraygrounds</a></li>
+<li><a href="https://opendataphilly.org/datasets/parks-and-recreation-ppr-trails/">PPR Trails</a></li>
+<li><a href="https://opendataphilly.org/datasets/ppr-friends-group/">PPR Friends Groups</a></li>
+<li><a href="https://opendataphilly.org/datasets/parks-recreation-program-sites/">PPR Program Sites</a></li>
+</ul>
+<p>PA-3 boundary: <a href="https://github.com/JeffreyBLewis/congressional-district-boundaries">JeffreyBLewis/congressional-district-boundaries</a> v2.0.0 (Nov 2025), using US Census TIGER 2024 shapes for the 119th Congress (Jan 2025 – Jan 2027).</p>
+<h2>Known limitations</h2>
+<ul>
+<li><strong>Live fetch can be slow on first open.</strong> The largest single dataset (PPR Properties with full polygon geometry) is ~10 MB. Most fetches finish in a few seconds; on slow connections the loading overlay may be visible for 10–20 seconds.</li>
+<li><strong>Some fields are sparse.</strong> Hours of operation, phone numbers, and amenities aren't in the PPR Properties dataset. When a field is empty, the popup shows &quot;Information not in source data&quot; rather than guessing. Hours and amenity details live on individual phila.gov/parks facility pages.</li>
+<li><strong>Friends-group join is name-based.</strong> Mismatched names (e.g. &quot;FDR Park&quot; vs &quot;Franklin Delano Roosevelt Park&quot;) can miss associations.</li>
+<li><strong>Trails are line segments.</strong> Continuous trails like the Schuylkill River Trail appear as multiple distinct popups rather than one named route.</li>
+<li><strong>Privately operated greenspace</strong> (Bartram's Garden, Laurel Hill Cemetery, etc.) isn't included. The PPR Properties dataset is PPR-managed only. Future versions could overlay these from separate datasets.</li>
+</ul>
+<h2>Why this is here</h2>
+<p>This is a reference asset for the empower project. Several domains use it directly — environment &amp; natural resources, public health, social welfare, physical infrastructure — and contributors writing those domain analyses can pull from it. The map is also a small proof of the project's broader thesis: most of what citizens need to engage meaningfully with a domain is already public data; the missing piece is the analytical layer that turns it into something usable.</p>
+<p>If you spot facilities that look misclassified, missing, or wrongly placed, the source data is the place to fix it — both PPR's own records and the OpenDataPhilly publications. The map updates automatically when those upstream sources do.</p>
+<div class="page-meta" role="complementary">
+<p><span class="page-meta__updated">Last updated <time datetime="Sat Apr 25 2026 20:00:00 GMT-0400 (Eastern Daylight Time)">Sat Apr 25 2026 20:00:00 GMT-0400 (Eastern Daylight Time)</time></span>
+<span class="page-meta__sep" aria-hidden="true">·</span>
+<a class="page-meta__history" href="https://github.com/REPLACE-ME/square-party-site/commits/main/src/paul/campaign/empower/parks/index.md" rel="noopener">View history</a>
+<span class="page-meta__sep" aria-hidden="true">·</span>
+<a class="page-meta__edit" href="https://github.com/REPLACE-ME/square-party-site/edit/main/src/paul/campaign/empower/parks/index.md" rel="noopener">Suggest an edit</a></p>
+</div>
+
+  </article>
+
+  <footer class="project-footer">
+    <p class="project-footer__title">How to empower through representation</p>
+    <ul class="project-footer__links">
+      <li><a href="/paul/campaign/empower/">Project home</a></li>
+      <li><a href="/paul/campaign/empower/#domains">All 22 domains</a></li>
+      <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
+      <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
+      <li><a href="/paul/campaign/empower/about/">About this project</a></li>
+      <li><a href="/paul/campaign/empower/methodology/">Methodology</a></li>
+      <li><a href="/paul/campaign/empower/law/">Legal text appendix</a></li>
+      <li><a href="/paul/campaign/empower/glossary/">Glossary</a></li>
+      <li><a href="/paul/campaign/empower/parks/">PA-3 parks map</a></li>
+      <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+    </ul>
+    <p class="project-footer__ecosystem">
+      Part of <a href="/">Square Party</a> ·
+      <a href="/paul/">About Paul</a> ·
+      <a href="/paul/campaign/">PA-3 campaign</a>
+    </p>
+  </footer>
+
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Square Party</p>
+    <p class="site-footer__meta">
+      A vehicle for civic reform. Every member makes their own square.
+    </p>
+  </footer>
+
+  <script src="/assets/js/site.js" defer></script>
+</body>
+</html>
