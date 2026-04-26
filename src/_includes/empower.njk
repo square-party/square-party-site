@@ -1,0 +1,77 @@
+---
+layout: base.njk
+---
+
+<div class="project project--empower">
+
+  <header class="project-header" aria-label="Project">
+    <div class="project-header__primary">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        {% if breadcrumbExtras %}
+          {# Deep page: all global crumbs become links, page extras follow, page title is current #}
+          {% for crumb in site.empower.breadcrumb %}
+            <li><a href="{{ crumb.href }}">{{ crumb.label }}</a> <span aria-hidden="true">›</span></li>
+          {% endfor %}
+          {% for crumb in breadcrumbExtras %}
+            <li><a href="{{ crumb.href }}">{{ crumb.label }}</a> <span aria-hidden="true">›</span></li>
+          {% endfor %}
+          <li aria-current="page">{{ title }}</li>
+        {% else %}
+          {# Top-level page: last global crumb is current #}
+          {% for crumb in site.empower.breadcrumb %}
+            {% if loop.last %}
+              <li aria-current="page">{{ crumb.label }}</li>
+            {% else %}
+              <li><a href="{{ crumb.href }}">{{ crumb.label }}</a> <span aria-hidden="true">›</span></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ol>
+    </nav>
+    {% include "partials/save-button.njk" %}
+    </div>
+
+    <nav class="project-nav" aria-label="{% if sectionNav %}{{ sectionNav.label }}{% else %}Empower project{% endif %}">
+      {% if sectionNav %}
+        {% if sectionNav.label %}<p class="project-nav__label">{{ sectionNav.label }}</p>{% endif %}
+        <ul>
+          {% for item in sectionNav.items %}
+            <li><a href="{{ item.href }}"{% if item.href == page.url %} aria-current="page" class="is-current"{% endif %}>{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <ul>
+          {% for item in site.empower.nav %}
+            <li><a href="{{ item.href }}"{% if item.href == page.url %} aria-current="page" class="is-current"{% endif %}>{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </nav>
+  </header>
+
+  <article class="project-content">
+    {{ content | safe }}
+  </article>
+
+  <footer class="project-footer">
+    <p class="project-footer__title">{{ site.empower.title }}</p>
+    <ul class="project-footer__links">
+      <li><a href="/paul/campaign/empower/">Project home</a></li>
+      <li><a href="/paul/campaign/empower/#domains">All 22 domains</a></li>
+      <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
+      <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
+      <li><a href="/paul/campaign/empower/about/">About this project</a></li>
+      <li><a href="/paul/campaign/empower/methodology/">Methodology</a></li>
+      <li><a href="/paul/campaign/empower/law/">Legal text appendix</a></li>
+      <li><a href="/paul/campaign/empower/glossary/">Glossary</a></li>
+      <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+    </ul>
+    <p class="project-footer__ecosystem">
+      Part of <a href="/">{{ site.name }}</a> ·
+      <a href="/paul/">About Paul</a> ·
+      <a href="/paul/campaign/">PA-3 campaign</a>
+    </p>
+  </footer>
+
+</div>

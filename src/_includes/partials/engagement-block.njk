@@ -1,0 +1,40 @@
+{# Engagement block — explains the 3-rung ladder (Read / Contribute / Propose).
+   v1 routes Contribute and Propose through GitHub PRs. React (upvote/bookmark/flag)
+   is deferred to v2 when there's a database backend.
+
+   Usage: {% include "partials/engagement-block.njk" %}
+   Optional: set `engagementContext` in frontmatter to a short string
+   (e.g., "for this domain") to localize the block.
+#}
+
+<aside class="engagement-block" aria-label="How to engage">
+  <h2 class="engagement-block__heading">Verify &amp; contribute{% if engagementContext %} <span class="engagement-block__context">{{ engagementContext }}</span>{% endif %}</h2>
+  <p class="engagement-block__lead">
+    This project gets better when readers push back on it. Every page is editable, every change is tracked, every contributor is credited at whatever level of identity they choose.
+  </p>
+
+  <ol class="engagement-block__ladder">
+    <li class="rung rung--read">
+      <h3>Read</h3>
+      <p>No account needed. Read anything on the site, follow citations, decide for yourself whether the analysis holds.</p>
+    </li>
+    <li class="rung rung--contribute">
+      <h3>Contribute</h3>
+      <p>Spot a factual error, missing source, or framing problem? Open a pull request on GitHub. Quick fixes, source additions, narrative edits — all welcome.</p>
+      <p class="rung__action">
+        <a href="/paul/campaign/empower/contribute/">How to contribute →</a>
+      </p>
+    </li>
+    <li class="rung rung--propose">
+      <h3>Propose</h3>
+      <p>Bigger ideas — a new sub-domain analysis, a constituent profile, a policy proposal — go through a longer review. Same PR mechanism, more conversation around it.</p>
+      <p class="rung__action">
+        <a href="/paul/campaign/empower/contribute/#propose">How to propose →</a>
+      </p>
+    </li>
+  </ol>
+
+  <p class="engagement-block__privacy">
+    Privacy: every contribution is attributed at the level you pick — anonymous, first name + neighborhood, full name + neighborhood, or full name with link. <a href="/paul/campaign/empower/contribute/#privacy">Privacy options →</a>
+  </p>
+</aside>

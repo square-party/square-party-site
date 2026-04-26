@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Labor & Employment
 state: planned
+order: 14
+description: Wages, working conditions, unions and collective bargaining, workplace safety, unemployment insurance, gig and platform work, the full architecture of the employer-employee relationship.
+updated: 2026-04-25
 ---
 
 # Labor & Employment
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Labor and employment covers the regulation of paid work — federal (FLSA, NLRA, OSHA), state (Pennsylvania's wage payment laws, unemployment insurance system, workers' comp), and the layer of more recent law trying to keep up with platform-mediated and gig work. The PA-3 piece will look at how these frameworks actually operate for residents in different sectors, including the substantial unionized and non-unionized workforces in the district.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}

@@ -1,0 +1,21 @@
+{# Save button partial.
+   Only renders when `saveable: true` is set in the page's frontmatter.
+   The button toggles the page's saved state in localStorage; the saved list
+   lives at /saved/. JS in site.js handles the toggling and visual state.
+
+   Required frontmatter when saveable: true is set:
+   - title (used in the saved list)
+   - description (used as a subtitle in the saved list)
+
+   Optional:
+   - savedContext (a short string like "Finance & Taxation" shown above the
+     title in the saved list, for orientation when many pages are saved)
+#}
+{%- if saveable -%}
+<button type="button" class="save-button" data-save-button data-url="{{ page.url }}" data-title="{{ title | escape }}" data-description="{{ description | default('') | escape }}" data-context="{{ savedContext | default('') | escape }}" aria-pressed="false" aria-label="Save this page for later">
+<svg class="save-button__icon save-button__icon--outline" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+<svg class="save-button__icon save-button__icon--filled" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+<span class="save-button__label save-button__label--save">Save</span>
+<span class="save-button__label save-button__label--saved">Saved</span>
+</button>
+{%- endif -%}

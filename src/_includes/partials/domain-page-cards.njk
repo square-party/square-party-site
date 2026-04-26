@@ -1,0 +1,72 @@
+{# Per-domain page entry cards — A+D layout: action strip + 2 featured + 4 standard.
+   IMPORTANT: do not introduce blank lines inside the <section> HTML block.
+   markdown-it terminates type-6 HTML blocks at the first blank line, which
+   would break the card structure. Pack tightly; use {%- -%} for control tags.
+#}
+{%- set isPublished = state == "published" -%}
+{%- set domainSlug = page.fileSlug -%}
+{%- set c = cards or {} -%}
+<section class="domain-page-cards" aria-label="Ways into this domain">
+<h2 class="domain-page-cards__heading">Six ways into this domain</h2>
+<div class="action-strip">
+<span class="action-strip__label">Quick:</span>
+<a href="/paul/campaign/empower/timeline/?domain={{ domainSlug }}">Latest changes</a>
+<a href="/paul/campaign/empower/contribute/">Propose an edit</a>
+<a href="/paul/campaign/empower/contribute/#discuss">Discuss</a>
+</div>
+<div class="featured-row">
+<a class="entry-card entry-card--featured" href="{{ c.neighbors.href or '#neighbors' }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="people" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5"/><path d="M15 18c0-2 1.7-4 4-4"/></svg></span>
+<span class="entry-card__head-text"><span class="entry-card__title">Meet the neighbors</span><span class="entry-card__hint">Profiles from PA-3 · start here if you're new</span></span>
+</div>
+<span class="entry-card__desc">{{ c.neighbors.desc or "Profiles of PA-3 residents whose lived experience illustrates the structural findings in this domain. Names and neighborhoods at the resident's discretion." }}</span>
+<span class="entry-card__cta">{{ c.neighbors.cta or "Start with a story" }} →</span>
+</a>
+<a class="entry-card entry-card--featured" href="{{ c.contribute.href or '/paul/campaign/empower/contribute/' }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="contribute" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11"/></svg></span>
+<span class="entry-card__head-text"><span class="entry-card__title">Verify &amp; contribute</span><span class="entry-card__hint">Test claims · correct · draft</span></span>
+</div>
+<span class="entry-card__desc">{{ c.contribute.desc or "Every finding here can be checked. Walk through sources, propose a correction, draft sub-domain analysis, or submit policy language." }}</span>
+<span class="entry-card__cta">{{ c.contribute.cta or "Get involved" }} →</span>
+</a>
+</div>
+<div class="standard-row">
+<a class="entry-card" href="{{ c.changes.href or '/paul/campaign/empower/timeline/?domain=' + domainSlug }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="time" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+<span class="entry-card__title">What changed recently</span>
+</div>
+<span class="entry-card__desc">{{ c.changes.desc or "Recent changes affecting this domain — external events (legislation, court decisions, rate updates) and internal contributions, with dates." }}</span>
+<span class="entry-card__cta">{{ c.changes.cta or "See the timeline" }} →</span>
+</a>
+<a class="entry-card" href="{{ c.gaps.href or '#gaps' }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="gap" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h7"/><path d="M13 7h7"/><path d="M4 12h5"/><path d="M15 12h5"/><path d="M4 17h7"/><path d="M13 17h7"/></svg></span>
+<span class="entry-card__title">The gaps</span>
+</div>
+<span class="entry-card__desc">{{ c.gaps.desc or "Where formal architecture and operational reality diverge in PA-3 — under-resourcing, discretionary implementation, statutory ambiguity, capture." }}</span>
+<span class="entry-card__cta">{{ c.gaps.cta or "Read the findings" }} →</span>
+</a>
+<a class="entry-card" href="{{ c.subdomains.href or '#subdomains' }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="grid" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
+<span class="entry-card__title">Sub-domains</span>
+</div>
+<span class="entry-card__desc">{{ c.subdomains.desc or "Specific instruments within this domain — particular taxes, programs, agencies, statutes — analyzed in depth." }}</span>
+<span class="entry-card__cta">{{ c.subdomains.cta or "Browse sub-domains" }} →</span>
+</a>
+<a class="entry-card" href="{{ c.law.href or '/paul/campaign/empower/law/' + domainSlug + '/' }}">
+<div class="entry-card__head">
+<span class="entry-card__icon" data-tone="doc" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h7"/><path d="M9 17h5"/></svg></span>
+<span class="entry-card__title">The law itself</span>
+</div>
+<span class="entry-card__desc">{{ c.law.desc or "The legal chain behind this domain — federal, state, and local — with plain-language framing and direct links to authoritative texts." }}</span>
+<span class="entry-card__cta">{{ c.law.cta or "Open the appendix" }} →</span>
+</a>
+</div>
+{%- if not isPublished %}
+<p class="domain-page-cards__note">This domain is <em>{{ state | replace("-", " ") }}</em>. The cards above describe what each entry path will contain once the analysis is written. The structure exists; the content will follow.</p>
+{%- endif %}
+</section>

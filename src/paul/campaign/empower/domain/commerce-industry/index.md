@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Commerce & Industry
 state: planned
+order: 5
+description: Trade regulation, antitrust, business formation, industrial policy, supply chains, sector-specific regulation outside the carve-outs that have their own domains.
+updated: 2026-04-25
 ---
 
 # Commerce & Industry
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Commerce and industry as a domain covers the rules that govern how businesses form, compete, combine, and operate — what's left after the more specialized regulatory regimes (financial, energy, food/drug, labor) are pulled out into their own domains. Antitrust is here. Business formation law is here. Sector-specific industrial policy is here. The PA-3 piece will look at how these federal and state frameworks shape the actual business landscape of the district.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}

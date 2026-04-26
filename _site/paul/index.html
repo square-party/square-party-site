@@ -3,27 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Paul — Square Party</title>
+  <title>Paul Plonski — Square Party</title>
+  <meta name="description" content="Scientist, educator, and the first candidate running on a Square Party ticket. PA-3.">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/square-party/">Square Party</a>
-      <a href="/ideas/">Ideas</a>
-      <a href="/paul/">About Paul</a>
+<body class="">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-nav__brand" href="/">Square Party</a>
+      <ul class="site-nav__links">
+        <li><a href="/square-party/">The Party</a></li>
+        <li><a href="/paul/campaign/empower/">Empower</a></li>
+        <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/saved/">Saved</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Paul <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">Bio &amp; campaign</li>
+            <li><a href="/paul/">About Paul</a></li>
+            <li><a href="/paul/campaign/">PA-3 campaign</a></li>
+            <li><a href="/paul/campaign/empower/">Empower (PA-3 application)</a></li>
+            <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <h1>About Paul</h1>
-<p><em>(Placeholder. scientist, educator, amateur civil servant.)</em></p>
+  
+<aside class="layer-toggle" role="region" aria-label="Layer toggles">
+  <p class="layer-toggle__label">Layers</p>
+  <button class="layer-toggle__btn" data-layer="light" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Light</span>
+    <span class="layer-toggle__hint">hope · agency</span>
+  </button>
+  <button class="layer-toggle__btn" data-layer="dark" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Dark</span>
+    <span class="layer-toggle__hint">stakes · costs</span>
+  </button>
+</aside>
+
+
+  <main id="main">
+    <h1>Paul Plonski</h1>
+<img src="/assets/svg/paul-square.svg" class="bio-square" alt="Paul's square — Peace, Power, Planet, People around a celestial body">
+<p><em>(Bio to be written by Paul. The structural shell is below — fill in as needed, or restructure entirely. The headings are suggestions, not constraints.)</em></p>
+<h2>In brief</h2>
+<p><em>(One or two sentences. Who you are at a glance.)</em></p>
+<h2>Background</h2>
+<p><em>(A paragraph or two. Scientific training, teaching, the path to civic work. Whatever level of detail feels right for a public-facing page.)</em></p>
+<h2>My square</h2>
+<p>The four corners on my own square — at least for now — are <strong>Peace, Power, Planet, People</strong>. It's an attempt to express what I think matters at the structural level, not what I think any particular policy should look like. Each member of Square Party makes their own.</p>
+<p><em>(Optional: a paragraph on what each corner means to you, or a link to a longer essay.)</em></p>
+<h2>What I'm running for</h2>
+<p>I'm running for the U.S. House of Representatives in Pennsylvania's 3rd Congressional District as a write-in candidate. The campaign is the first applied test of the Square Party framework — a working demonstration of what it looks like when someone takes the empty-square idea and the People's Assembly seriously enough to actually run on them. <a href="/paul/campaign/">The campaign page →</a></p>
+<h2>Get in touch</h2>
+<p><em>(Email, social, however you want to handle this.)</em></p>
+<aside class="ai-disclaimer">
+  <p><strong>About the writing on this site.</strong> Much of the prose across these pages was drafted by an AI assistant working from my direction, then reviewed and edited by me. The ideas, framings, and substantive choices are mine — the empty square, the two-axis representation model, the domain-as-assembly-seat move, the comprehensive-coverage thesis, the analytical methodology — but the assistance helped me get them onto the page faster than I could have alone.</p>
+  <p>I think this is the honest way to use these tools, and saying so explicitly is part of the honesty. Pages I've personally read through and edited carry a small <em>Reviewed</em> indicator in the page footer. Pages without it should be assumed AI-drafted, awaiting my eyes. Either way, every claim of fact is sourced and every change is tracked publicly.</p>
+</aside>
 
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>Square Party</p>
+    <p class="site-footer__meta">
+      A vehicle for civic reform. Every member makes their own square.
+    </p>
   </footer>
+
+  <script src="/assets/js/site.js" defer></script>
 </body>
 </html>

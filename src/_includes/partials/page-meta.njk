@@ -1,0 +1,27 @@
+{# Page meta — last-updated, GitHub history link, suggest-edit link.
+   Optional review flag: set `reviewed: true` in frontmatter to surface
+   a small "Reviewed by Paul" indicator. Silent default — pages without
+   `reviewed: true` show no indicator at all.
+
+   Usage: {% include "partials/page-meta.njk" %}
+#}
+
+{% set updatedDate = updated or site.buildDate %}
+{% set pagePath = page.inputPath | replace("./src/", "src/") %}
+{% set historyUrl = site.repoUrl + "/commits/" + site.defaultBranch + "/" + pagePath %}
+{% set editUrl = site.repoUrl + "/edit/" + site.defaultBranch + "/" + pagePath %}
+
+<div class="page-meta" role="complementary">
+  {% if reviewed %}
+    <span class="review-flag" title="This page has been reviewed by Paul">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+      Reviewed
+    </span>
+    <span class="page-meta__sep" aria-hidden="true">·</span>
+  {% endif %}
+  <span class="page-meta__updated">Last updated <time datetime="{{ updatedDate }}">{{ updatedDate }}</time></span>
+  <span class="page-meta__sep" aria-hidden="true">·</span>
+  <a class="page-meta__history" href="{{ historyUrl }}" rel="noopener">View history</a>
+  <span class="page-meta__sep" aria-hidden="true">·</span>
+  <a class="page-meta__edit" href="{{ editUrl }}" rel="noopener">Suggest an edit</a>
+</div>

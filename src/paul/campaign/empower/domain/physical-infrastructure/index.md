@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Physical Infrastructure
 state: planned
+order: 22
+description: Roads, transit, water systems, ports, bridges, the built environment that everyone uses regardless of whether they think about it.
+updated: 2026-04-25
 ---
 
 # Physical Infrastructure
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Physical infrastructure is the substrate. Roads, bridges, transit (SEPTA in PA-3), water and sewer systems, ports, airports, the public works that everyone relies on. The domain is shaped by federal funding formulas, state DOT structures, regional authorities (DRPA, SEPTA), and municipal works departments. The gap between formal investment levels and actual condition is a recurring theme everywhere in the country and almost certainly in PA-3.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}

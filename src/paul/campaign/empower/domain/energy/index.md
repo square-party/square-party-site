@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Energy
 state: planned
+order: 8
+description: Electricity grid, fuels, energy policy, transition planning, utility regulation, the public-private architecture of energy delivery.
+updated: 2026-04-25
 ---
 
 # Energy
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Energy as a domain covers electricity (generation, transmission, distribution, regulation), fuels (oil, gas, coal — production, transport, regulation), the transition between them, and the public infrastructure that supports all of the above. The PA-3 piece is shaped by Pennsylvania's particular energy economics — significant natural gas production statewide, the legacy and ongoing presence of coal, the grid operator (PJM) covering the region, and the Public Utility Commission as the state-level regulator.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}

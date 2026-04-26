@@ -4,28 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ideas — Square Party</title>
+  <meta name="description" content="Policy essays and analyses that cut across the project.">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/square-party/">Square Party</a>
-      <a href="/ideas/">Ideas</a>
-      <a href="/paul/">About Paul</a>
+<body class="">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-nav__brand" href="/">Square Party</a>
+      <ul class="site-nav__links">
+        <li><a href="/square-party/">The Party</a></li>
+        <li><a href="/paul/campaign/empower/">Empower</a></li>
+        <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/saved/">Saved</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Paul <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">Bio &amp; campaign</li>
+            <li><a href="/paul/">About Paul</a></li>
+            <li><a href="/paul/campaign/">PA-3 campaign</a></li>
+            <li><a href="/paul/campaign/empower/">Empower (PA-3 application)</a></li>
+            <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </header>
 
-  <main>
+  
+<aside class="layer-toggle" role="region" aria-label="Layer toggles">
+  <p class="layer-toggle__label">Layers</p>
+  <button class="layer-toggle__btn" data-layer="light" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Light</span>
+    <span class="layer-toggle__hint">hope · agency</span>
+  </button>
+  <button class="layer-toggle__btn" data-layer="dark" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Dark</span>
+    <span class="layer-toggle__hint">stakes · costs</span>
+  </button>
+</aside>
+
+
+  <main id="main">
     <h1>Ideas</h1>
-<p>Organizing is not just physical.</p>
-<p><em>(Placeholder. maybe Policy essays Border, Healthcare, Capitalism, redistricting, fossil fuels)</em></p>
-<pre><code></code></pre>
+<p>Long-form policy essays and analyses, sourced. These are the deeper arguments — about representation, about reform, about specific structural problems — that inform the project but aren't tied to any single domain or campaign.</p>
+<p><em>(Essays to be added. Likely starting topics include border healthcare, the case that capitalism is a game that can be won, redistricting reform, fossil fuel transition planning, prescription drug advertising, and the People's Assembly proposal itself in extended form.)</em></p>
 
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>Square Party</p>
+    <p class="site-footer__meta">
+      A vehicle for civic reform. Every member makes their own square.
+    </p>
   </footer>
+
+  <script src="/assets/js/site.js" defer></script>
 </body>
 </html>

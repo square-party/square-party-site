@@ -1,0 +1,35 @@
+{
+  "sectionNav": {
+    "label": "Finance & Taxation",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/finance-taxation/"
+      },
+      {
+        "label": "Neighbors",
+        "href": "/paul/campaign/empower/domain/finance-taxation/neighbors/"
+      },
+      {
+        "label": "Sub-Domains",
+        "href": "/paul/campaign/empower/domain/finance-taxation/sub-domains/"
+      },
+      {
+        "label": "Recent Changes",
+        "href": "/paul/campaign/empower/domain/finance-taxation/recent-changes/"
+      },
+      {
+        "label": "The Gaps",
+        "href": "/paul/campaign/empower/domain/finance-taxation/gaps/"
+      },
+      {
+        "label": "Legal Text",
+        "href": "/paul/campaign/empower/law/finance-taxation/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

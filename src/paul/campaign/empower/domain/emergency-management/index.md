@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Emergency Management
 state: planned
+order: 20
+description: Disaster preparedness and response, FEMA, civil defense, mutual aid, the layered federal/state/local emergency apparatus.
+updated: 2026-04-25
 ---
 
 # Emergency Management
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Emergency management covers the full cycle: preparedness, response, recovery, mitigation. The federal layer (FEMA, declared disasters), the state layer (PEMA in Pennsylvania), the local layer (county and municipal emergency management agencies), and the mutual-aid relationships that knit them together. The domain analysis attends to where the layers are well-integrated and where they fail at the seams — typically the gap between federal declaration and local capacity to actually receive and use the resources.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}

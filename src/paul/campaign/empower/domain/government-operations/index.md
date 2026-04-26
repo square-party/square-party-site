@@ -1,11 +1,16 @@
 ---
-layout: base.njk
+layout: empower.njk
 title: Government Operations
 state: planned
+order: 7
+description: How government runs itself — civil service, procurement, transparency, internal accountability, the meta-domain that shapes how every other domain actually functions.
+updated: 2026-04-25
 ---
 
 # Government Operations
 
-*(This domain is planned but not yet researched. Scaffolded as part of the project's 20-domain map.)*
+<p class="domain-lead">Government operations is the meta-domain. It's the rules about how the rules get implemented — civil service law, procurement law, internal transparency mechanisms, the inspector general system, the FOIA architecture (which also lives partly in Historical & Public Records). The domain matters because most failures in other domains turn out, on inspection, to be operational failures: under-resourced agencies, captured procurement, weak internal accountability.</p>
 
-[Back to project home](/paul/campaign/empower/)
+{% include "partials/domain-page-cards.njk" %}
+
+{% include "partials/page-meta.njk" %}
