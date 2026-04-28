@@ -1,13 +1,13 @@
 ---
 layout: base.njk
-title: The Gray Area — Asylum Law Reform
+title: U.S. Asylum Law
 description: Statutory fixes for the gap between what asylum law says and how it actually operates. Hearing rights, court independence, staffing floors, nationality-blind processing, fee reform.
 state: drafting
 order: 3
 updated: 2026-04-26
 ---
 
-# Project 3 — The Gray Area
+# Project 3 — U.S. Asylum Law
 
 <p class="domain-lead">U.S. asylum law promises a functioning adjudication system that resolves cases within 180 days, applies uniformly to anyone physically present, and provides independent judicial review. The actual system has 557 immigration judges for 3.8 million cases, average wait times of 4.3 years, and executive directives that compress judicial independence and impose nationality-based restrictions found nowhere in statute. This proposal lays out seven statutory fixes that would bring the system back into alignment with the law that already exists — or, alternatively, force an honest reckoning that the United States has substantially narrowed its asylum commitment without saying so.</p>
 

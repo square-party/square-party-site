@@ -1,15 +1,19 @@
 ---
 layout: base.njk
-title: Corporations speak for money
+title: Corporations Speak for Money
 description: A reform package addressing the post-Citizens United campaign finance system. Disclosure first, public-financing second, structural change as the long-term campaign.
 state: drafting
 order: 7
 updated: 2026-04-26
 ---
 
-# Project 7 — Corporations speak for money
+# Project 7 — Corporations Speak for Money
 
-<p class="domain-lead">Campaign Finance After Citizens United. In the 2024 federal election cycle, total spending reached approximately $15.9 billion. Outside spending by super PACs hit $4.5 billion — a record. Dark money — spending by groups that don't disclose donors — reached an estimated $1.9 billion, more than the previous two cycles combined. These numbers are the downstream consequence of a single Supreme Court decision (Citizens United, 2010) and its companion D.C. Circuit decision SpeechNow.org. This proposal works within the constraints the Court has set, while supporting the longer-term work to change those constraints.</p>
+<p class="domain-lead">Campaign Finance After Citizens United.  
+  
+Unfortunately, I think the courts made a serious mistake. By protecting freedom of expression for CORPORATIONS, entities which are MANDATED to care ONLY about money at the bottom line, the courts have effectively nullified the representation of the PEOPLE from whom governmental power is intended to derive. The analysis below is an objective, evidence-based assessment of the situation. It differs in tone and urgency from my personal opinion. Please, learn about this and form an opinion. We need everyone's help to solve this problem.  
+  
+In the 2024 federal election cycle, total spending reached approximately $15.9 billion. Outside spending by super PACs hit $4.5 billion — a record. Dark money — spending by groups that don't disclose donors — reached an estimated $1.9 billion, more than the previous two cycles combined. These numbers are the downstream consequence of a single Supreme Court decision (Citizens United, 2010) and its companion D.C. Circuit decision SpeechNow.org. This proposal works within the constraints the Court has set, while supporting the longer-term work to change those constraints.</p>
 
 ## The argument
 
