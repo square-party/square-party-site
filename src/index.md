@@ -21,8 +21,6 @@ The party's square is empty on purpose. What goes inside is whatever each member
   </div>
 </div>
 
-{% include "partials/help-block.njk" %}
-
 ## Sign up
 
 The lightest possible ask: name and email, takes a few seconds. Get on our voter list, hear when there's something to hear, decide later how involved you want to be.

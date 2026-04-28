@@ -32,7 +32,8 @@ I'm running for the U.S. House of Representatives in Pennsylvania's 3rd Congress
 ## Where the work lives
 
 - [The empower project →](/paul/campaign/empower/) — the PA-3 analytical work, the campaign's main project
-- [Ideas / Proposals →](/paul/proposals/) — federal- and state-level policy proposals, in various states of draft
+- [Process areas →](/paul/process/) — proposals that change how the system works (market rules, civic engagement, planning around finitude)
+- [Policy areas →](/paul/policy/) — proposals inside specific issue domains (immigration, food, agriculture, civil service, campaign finance, and more)
 - [Square Party →](/) — the wider vehicle this campaign runs on
 
 ## Get in touch

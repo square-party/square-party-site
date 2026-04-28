@@ -7,7 +7,7 @@ the repo for the first time. Companion to `website_decisions.md` (the
 this doc explains what is actually here, how it fits together, and the
 conventions to follow when adding to it.
 
-Last regenerated: 2026-04-26 (post-Phase-4 voice sweep).
+Last regenerated: 2026-04-27 (post Process/Policy split + representation pulled into its own root section).
 
 ---
 
@@ -42,8 +42,9 @@ Three non-default things:
 2. **`domains` collection** — globs every `src/paul/campaign/empower/domain/*/index.md`
    and sorts by the `order` frontmatter field (alphabetical fallback). Drives
    the 22-domain grid.
-3. **`proposals` collection** — globs every `src/paul/proposals/*/index.md`
-   and sorts by `order`. Drives the proposals list at `/paul/proposals/`.
+3. **`processProposals` and `policyProposals` collections** — each globs every
+   `src/paul/process/*/index.md` or `src/paul/policy/*/index.md` and sorts by
+   `order`. Drive the two proposal lists at `/paul/process/` and `/paul/policy/`.
 
 `markdownTemplateEngine` and `htmlTemplateEngine` are both `njk`, so Markdown
 files can use Nunjucks tags (`{% include %}`, `{{ var }}`) inline.
@@ -75,6 +76,7 @@ or the Paul dropdown:
 /                                    Home — hero, voter signup, "where to go"
 /square-party/                       The party itself — empty square, assembly, tenets
 /square-party/assembly/              People's Assembly + per-domain interest form
+/representation/                     Standalone framing-idea network (rooted; not in any collection)
 /paul/                               Paul's bio + AI-drafting disclosure + email
 /paul/campaign/                      PA-3 write-in campaign overview + pledge embed
 /paul/campaign/how-to-vote/          Write-in mechanics + a few name options
@@ -82,8 +84,11 @@ or the Paul dropdown:
 /paul/campaign/empower/              The 22-domain analytical project
 /paul/campaign/empower/parks/        Live PA-3 parks & open space map
 /paul/campaign/empower/contribute/   Tiered contribution on-ramp
-/paul/proposals/                     Numbered policy-proposal series (11 slots)
-/paul/proposals/01-border-healthcare/  IBPHTC white paper (and 10 others)
+/paul/process/                       Proposals that change how the system works (3 slots)
+/paul/process/01-game-maintenance/   ...the first of those (and 2 others)
+/paul/policy/                        Proposals inside specific issue domains (7 slots)
+/paul/policy/01-border-healthcare/   ...the first of those (and 6 others)
+/paul/proposals/                     Redirect stub — points to /paul/process/
 /ideas/                              Square Party-level long-form essays (placeholder)
 /saved/                              User's localStorage-bookmarked pages
 ```
@@ -92,7 +97,7 @@ or the Paul dropdown:
 exposed in the global nav.
 
 The Paul dropdown in the header includes: About Paul · PA-3 campaign · Empower
-(PA-3 application) · Ideas / Proposals · Contribute.
+(PA-3 application) · PA-3 parks map · Process areas · Policy areas · Contribute.
 
 ---
 
@@ -143,34 +148,50 @@ from OpenDataPhilly each visit; categories color-coded; covers PA-3 plus a
 
 ---
 
-## 4. The proposals series
+## 4. The proposals series — Process and Policy
 
-`/paul/proposals/` lists 11 federal- and state-level structural proposals,
-each in its own folder under a numbered slug. All current slots are at
-`drafting` state with substantive content.
+The proposals series is split into two parallel sections. **Process areas**
+target *how the system works* — rules, structures, incentives behind
+decision-making. **Policy areas** target *what the system does* — substantive
+interventions inside specific issue domains. Both use bucket-internal
+numbering (each starts at 01).
 
 ```
-/paul/proposals/
-├── index.md                                   list driven by `proposals` collection
-├── 01-border-healthcare/      IBPHTC integrated processing complexes
-├── 02-game-maintenance/       Capitalism as a game that can be won
-├── 03-representation-reform/  Constituent organizing → convention → redesign
-├── 04-fossil-fuels/           "The math is the math" — finitude argument
-├── 05-american-experiment/    "The Reins Are Loose" — civic revival
-├── 06-mandatory-civil-service/ "Everyone Serves"
-├── 07-gambling-regulation/    "The House Always Wins" — prediction markets
-├── 08-campaign-finance/       "The Megaphone Problem" — post-Citizens United
-├── 09-asylum-law/             "The Gray Area" — closing the law/reality gap
-├── 10-ag-competition/         Seed sovereignty + antitrust
-└── 11-community-kitchens/     Community Kitchen and Open Table Act
+/paul/process/                                  list driven by `processProposals`
+├── index.md
+├── 01-game-maintenance/        Capitalism as a game that can be won
+├── 02-american-experiment/     "The Reins Are Loose" — civic revival
+└── 03-fossil-fuels/            Fossil Fuels — case for planning around finitude
+
+/paul/policy/                                   list driven by `policyProposals`
+├── index.md
+├── 01-border-healthcare/       IBPHTC integrated processing complexes
+├── 02-gambling-regulation/     "The House Always Wins" — prediction markets
+├── 03-asylum-law/              "The Gray Area" — closing the law/reality gap
+├── 04-ag-competition/          Seed sovereignty + antitrust
+├── 05-community-kitchens/      Community Kitchen and Open Table Act
+├── 06-mandatory-civil-service/ "Growing up with civil service"
+└── 07-campaign-finance/        "Corporations speak for money" — post-Citizens United
+
+/representation/                                standalone, not in any collection
+└── index.md                    Three nested proposals on representation; intended as a framing-idea network in development (peer-level to /paul/ and /square-party/).
 ```
 
-`partials/proposals-list.njk` reuses the same `.domain-list` / `.domain-row`
-CSS as the empower domain grid, with project numbers prefixed.
+All current slots are at `drafting` state with substantive content.
 
-To add a new proposal: create `<NN-slug>/index.md` with frontmatter (`title`,
-`description`, `state`, `order`, `updated`) and a `domain-lead` paragraph,
-then write the body. The collection picks it up automatically.
+`partials/proposals-list.njk` is parameterized: callers must
+`{% set proposalsList = collections.processProposals %}` (or
+`policyProposals`) before including. It reuses the same `.domain-list` /
+`.domain-row` CSS as the empower domain grid, with project numbers prefixed.
+
+The old `/paul/proposals/` URL still resolves — it's been repurposed as a
+3-second meta-refresh redirect to `/paul/process/`, with `eleventyExcludeFromCollections: true`.
+
+To add a new proposal: decide whether it's a process- or policy-level change,
+create `<NN-slug>/index.md` under the appropriate section (NN = next available
+number in that bucket), with frontmatter (`title`, `description`, `state`,
+`order`, `updated`) and a `domain-lead` paragraph, then write the body. The
+collection picks it up automatically.
 
 ---
 
@@ -187,7 +208,7 @@ src/_includes/
     ├── help-block.njk            "Help us make our laws better!" CTA
     ├── layer-toggle.njk          Light/Dark layer toggles (currently hidden)
     ├── page-meta.njk             updated date + history/edit links + reviewed flag
-    ├── proposals-list.njk        proposals collection grid (mirrors domain grid)
+    ├── proposals-list.njk        proposals grid — pass `proposalsList` (mirrors domain grid)
     ├── save-button.njk           bookmark button (renders only if saveable: true)
     ├── schoolhouse-hook.njk      "Remember Schoolhouse Rock?" onramp
     └── tally-embed.njk           parameterized Tally form embed (with placeholder fallback)
@@ -295,8 +316,8 @@ Pages typically pull from this set. Most are optional.
 | `layout`             | Eleventy             | `base.njk` for site-level pages, `empower.njk` for the project     |
 | `title`              | base/empower/save    | Title tag, breadcrumb current crumb, save list label               |
 | `description`        | base/save            | `<meta description>`, save list subtitle                           |
-| `state`              | empower domains, proposals | `published` / `in-review` / `drafting` / `planned`             |
-| `order`              | empower domains, proposals | Sort key for the relevant collection                            |
+| `state`              | empower domains, process/policy proposals | `published` / `in-review` / `drafting` / `planned`              |
+| `order`              | empower domains, process/policy proposals | Sort key for the relevant collection (bucket-internal for proposals) |
 | `updated`            | page-meta            | YYYY-MM-DD; falls back to `site.buildDate`                         |
 | `reviewed`           | page-meta            | `true` shows the green "Reviewed" flag                             |
 | `saveable`           | save-button          | `true` to render the bookmark button                               |
@@ -370,14 +391,20 @@ Quick summary of patterns to preserve when adding content:
 5. If section nav is needed, drop a `<slug>.11tydata.json` next to `index.md`.
 6. Create child pages under `<slug>/neighbors/`, `<slug>/sub-domains/`, etc.
 
-### A new proposal
+### A new proposal (process or policy)
 
-1. Create `src/paul/proposals/<NN-slug>/index.md` (NN = the project number).
-2. Frontmatter: `layout: base.njk`, `title`, `description`, `state: drafting`,
+1. Decide which bucket: process (changes how the system works) or policy
+   (substantive intervention in an issue domain).
+2. Create `src/paul/process/<NN-slug>/index.md` or
+   `src/paul/policy/<NN-slug>/index.md` (NN = next available number in that
+   bucket; numbering is bucket-internal).
+3. Frontmatter: `layout: base.njk`, `title`, `description`, `state: drafting`,
    `order: NN`, `updated: YYYY-MM-DD`.
-3. Open with `<p class="domain-lead">…</p>` then sections.
-4. End with cross-project connections, references, and `{% include "partials/page-meta.njk" %}`.
-5. The proposals collection picks it up automatically.
+4. Open with `<p class="domain-lead">…</p>` then sections. The H1 follows the
+   pattern `# Project NN — Title`.
+5. End with cross-project connections, references, and
+   `{% include "partials/page-meta.njk" %}`.
+6. The matching collection picks it up automatically.
 
 ### A new top-level page
 
@@ -410,10 +437,14 @@ These are surfaced for awareness — not necessarily things to fix today.
   hidden by CSS. Re-enable per the inline note in `main.css` if the layered
   content concept is still wanted; otherwise the partial and the JS block
   can be removed.
-- **`/paul/proposals/03-redistricting/` is a redirect stub.** Was renamed
-  to `03-representation-reform`. The sandbox couldn't unlink the old folder;
-  it has `eleventyExcludeFromCollections: true` and a meta-refresh. Delete
-  the folder when convenient.
+- **`/paul/proposals/` is now a redirect stub.** The whole proposals series
+  was split into `/paul/process/` and `/paul/policy/` (2026-04-27). The old
+  `/paul/proposals/index.md` is a meta-refresh redirect to `/paul/process/`,
+  with `eleventyExcludeFromCollections: true`. The earlier
+  `/paul/proposals/03-redistricting/` per-page redirect stub is now under a
+  defunct parent — keep it for now or remove with the rest of the old
+  folder. Stale `_site/paul/proposals/<NN>-…/` build artifacts may remain
+  from prior builds; an `rm -rf _site && npm run build` clears them.
 - **Two Tally forms still TBD.** `pledge` (Paul write-in) and `prefs`
   (broad-issue preferences survey). Placeholder cards explain this in
   rendered pages.
@@ -432,13 +463,13 @@ These are surfaced for awareness — not necessarily things to fix today.
 | Change the global header / footer        | `src/_includes/base.njk`                                              |
 | Change the empower project shell         | `src/_includes/empower.njk`                                           |
 | Edit the domain card grid                | `src/_includes/partials/domain-card-grid.njk` + `.domain-row` CSS     |
-| Edit the proposals list                  | `src/_includes/partials/proposals-list.njk`                           |
+| Edit the proposals list partial          | `src/_includes/partials/proposals-list.njk` (parameterized — pass `proposalsList`) |
 | Edit the six per-domain entry cards      | `src/_includes/partials/domain-page-cards.njk` + `.entry-card` CSS    |
 | Edit the engagement / verify-and-contribute block | `src/_includes/partials/engagement-block.njk`              |
 | Edit the "Help us make our laws better" block | `src/_includes/partials/help-block.njk`                          |
 | Edit the Schoolhouse Rock onramp         | `src/_includes/partials/schoolhouse-hook.njk`                         |
 | Add a new domain                         | new `src/paul/campaign/empower/domain/<slug>/index.md`               |
-| Add a new proposal                       | new `src/paul/proposals/<NN-slug>/index.md`                          |
+| Add a new proposal                       | new `src/paul/process/<NN-slug>/index.md` or `src/paul/policy/<NN-slug>/index.md` |
 | Update the parks map                     | replace `src/assets/maps/pa3-parks-map.html`; map is self-contained   |
 | Add a section nav under a domain         | `<slug>.11tydata.json` next to `index.md`                            |
 | Change global accents or fonts           | `:root` in `src/assets/css/main.css`                                 |

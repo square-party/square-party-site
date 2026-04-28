@@ -14,18 +14,27 @@ export default function(eleventyConfig) {
       });
   });
 
-  // Proposals collection — drives the proposals list on /paul/proposals/.
-  // One folder per proposal under src/paul/proposals/<slug>/index.md.
-  // Sorted by `order` frontmatter (use the project number, e.g. 8 for Project 8).
-  eleventyConfig.addCollection("proposals", function(collectionApi) {
+  // Process & Policy collections — drive the two proposal lists on
+  // /paul/process/ and /paul/policy/. One folder per proposal under each
+  // section, with bucket-internal numbering. Sorted by `order` frontmatter.
+  // Sort helper shared by both.
+  const proposalSort = (a, b) => {
+    const ao = a.data.order ?? 999;
+    const bo = b.data.order ?? 999;
+    if (ao !== bo) return ao - bo;
+    return (a.data.title || "").localeCompare(b.data.title || "");
+  };
+
+  eleventyConfig.addCollection("processProposals", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/paul/proposals/*/index.md")
-      .sort((a, b) => {
-        const ao = a.data.order ?? 999;
-        const bo = b.data.order ?? 999;
-        if (ao !== bo) return ao - bo;
-        return (a.data.title || "").localeCompare(b.data.title || "");
-      });
+      .getFilteredByGlob("src/paul/process/*/index.md")
+      .sort(proposalSort);
+  });
+
+  eleventyConfig.addCollection("policyProposals", function(collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/paul/policy/*/index.md")
+      .sort(proposalSort);
   });
 
   return {

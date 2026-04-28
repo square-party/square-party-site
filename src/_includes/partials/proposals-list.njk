@@ -1,5 +1,6 @@
 {# Proposals list — compact title list with state dot + project number.
-   Iterates collections.proposals (set up in eleventy.config.js).
+   Parameterized: callers must `{% set proposalsList = collections.processProposals %}`
+   (or collections.policyProposals) before including this partial.
    Reuses the .domain-list / .domain-row CSS for visual consistency.
 
    IMPORTANT: do not introduce blank lines inside the .domain-index HTML
@@ -7,7 +8,7 @@
 #}
 <div class="domain-index" id="proposals">
 <ul class="domain-list">
-{%- for proposal in collections.proposals -%}
+{%- for proposal in proposalsList -%}
 {%- set state = proposal.data.state or "planned" -%}
 {%- if state == "published" %}{% set stateLabel = "Published" %}{% elif state == "in-review" %}{% set stateLabel = "Ready for review" %}{% elif state == "drafting" %}{% set stateLabel = "Drafting" %}{% else %}{% set stateLabel = "Planned" %}{% endif -%}
 <li class="domain-row"><a class="domain-row__link" href="{{ proposal.url }}" data-title="{{ proposal.data.title }}" data-description="{{ proposal.data.description | escape }}" data-state="{{ state }}" data-state-label="{{ stateLabel }}"><span class="dot" data-state="{{ state }}" aria-hidden="true"></span><span class="domain-row__title">{% if proposal.data.order %}<span class="proposal-row__num">{{ proposal.data.order }}.</span> {% endif %}{{ proposal.data.title }}</span>{% if state != "planned" %}<span class="domain-row__state" data-state="{{ state }}">{{ stateLabel }}</span>{% endif %}<span class="domain-row__arrow" aria-hidden="true">→</span></a><p class="domain-row__desc-mobile">{{ proposal.data.description }}</p></li>
