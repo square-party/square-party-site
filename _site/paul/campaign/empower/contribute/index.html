@@ -14,10 +14,23 @@
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">Square Party</a>
       <ul class="site-nav__links">
-        <li><a href="/square-party/">The Party</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            The Party <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">What it is</li>
+            <li><a href="/square-party/">Overview</a></li>
+            <li><a href="/square-party/lineage/">Lineage</a></li>
+            <li><a href="/square-party/assembly/">People's Assembly</a></li>
+            <li><a href="/square-party/connections/">Connections</a></li>
+            <li><a href="/square-party/tenets/">Tenets</a></li>
+          </ul>
+        </li>
         <li><a href="/representation/">Representation</a></li>
         <li><a href="/paul/campaign/empower/">Empower</a></li>
         <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/contribute/">Contribute</a></li>
         <li><a href="/saved/">Saved</a></li>
         <li data-dropdown>
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
@@ -112,7 +125,7 @@
 <h2>Lightest ways to help</h2>
 <p>Three things take less than five minutes apiece, and each one feeds real infrastructure: knowing who's interested, growing the audience, and getting a baseline read on what people care about.</p>
 <h3>Sign up as an interested voter</h3>
-<p>Tell us which of the twenty-two domains you care about. Email plus checkboxes.</p>
+<p>Tell us which of the twenty-six domains you care about. Email plus checkboxes.</p>
 <p><a href="/square-party/assembly/#express-interest">Express interest →</a></p>
 <h3>Share the party link</h3>
 <p>If you think this is worth a look, send it to one person who'd think the same, or post it on social.</p>
@@ -175,7 +188,7 @@
 <p>A magic-link auth system, an in-page comment system, an upvote/bookmark/flag mechanism. Those are all sensible features and they're all in scope for a v2. They aren't in v1 because they require backend infrastructure that the GitHub PR path lets us defer — and starting with the simplest workable system that produces a real public record is more important than starting with the prettiest one.</p>
 <p>If GitHub is a real barrier for you and you want to contribute anyway, email <a href="mailto:paul@squareparty.org">paul@squareparty.org</a> and we'll figure something out manually.</p>
 <div class="page-meta" role="complementary">
-<p><span class="page-meta__updated">Last updated <time datetime="2026-04-28">2026-04-28</time></span>
+<p><span class="page-meta__updated">Last updated <time datetime="2026-04-29">2026-04-29</time></span>
 <span class="page-meta__sep" aria-hidden="true">·</span>
 <a class="page-meta__history" href="https://github.com/REPLACE-ME/square-party-site/commits/main/src/paul/campaign/empower/contribute/index.md" rel="noopener">View history</a>
 <span class="page-meta__sep" aria-hidden="true">·</span>
@@ -188,7 +201,7 @@
     <p class="project-footer__title">How to empower through representation</p>
     <ul class="project-footer__links">
       <li><a href="/paul/campaign/empower/">Project home</a></li>
-      <li><a href="/paul/campaign/empower/#domains">All 22 domains</a></li>
+      <li><a href="/paul/campaign/empower/#domains">All 26 domains</a></li>
       <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
       <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
       <li><a href="/paul/campaign/empower/about/">About this project</a></li>

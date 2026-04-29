@@ -8,7 +8,7 @@ description: What the empower project is, why it exists, and how it fits into th
 
 ## What it is
 
-A systematic mapping of the gap between formal representation and lived experience across twenty-two policy domains, applied to Pennsylvania's 3rd Congressional District.
+A systematic mapping of the gap between formal representation and lived experience across twenty-six policy domains, applied to Pennsylvania's 3rd Congressional District.
 
 For each domain, the project asks the same questions: What does the law actually say? How does it actually operate, in practice, for people in PA-3? Where do those two diverge? What would it take to close the gap?
 
@@ -20,7 +20,7 @@ Two reasons.
 
 **One:** to make a working example of what a [People's Assembly framework](/square-party/assembly/) looks like when applied to a real place. The assembly is an idea — a second axis of representation organized by topic rather than geography. Ideas need demonstrations. PA-3 is the demonstration.
 
-**Two:** to give Paul's campaign something more substantive than slogans. A write-in campaign without a serious analytical project behind it is just a person asking for votes. A write-in campaign with twenty-two domains of careful analysis behind it is an argument for a different way of doing representation.
+**Two:** to give Paul's campaign something more substantive than slogans. A write-in campaign without a serious analytical project behind it is just a person asking for votes. A write-in campaign with twenty-six domains of careful analysis behind it is an argument for a different way of doing representation.
 
 ## What it's not
 

@@ -30,7 +30,7 @@ The two tracks feed each other but don't block each other. Pledging a vote doesn
 
 ## Projects within the campaign
 
-- **[How to empower through representation →](/paul/campaign/empower/)** — the 22-domain civic representation project, applied to PA-3. The campaign's main analytical work.
+- **[How to empower through representation →](/paul/campaign/empower/)** — the 26-domain civic representation project, applied to PA-3. The campaign's main analytical work.
 - **[Process areas →](/paul/process/)** — proposals that change how the system works.
 - **[Policy areas →](/paul/policy/)** — proposals inside specific issue domains.
 

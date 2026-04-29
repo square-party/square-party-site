@@ -1,7 +1,7 @@
 ---
 layout: empower.njk
 title: Methodology
-description: The analytical framework used across all twenty-two domains.
+description: The analytical framework used across all twenty-six domains.
 ---
 
 # Methodology

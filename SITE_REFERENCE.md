@@ -453,6 +453,12 @@ These are surfaced for awareness — not necessarily things to fix today.
   and home page but contains only a "to be added" note.
 - **The `finance-taxation` domain** is `state: drafting` but is the most-
   developed domain on the site; could be promoted to `in-review`.
+- **Deferred concept (Paul, 2026-04-29): "representation at the edges."** The
+  framing idea that Paul's effort goes to making things work the way they're
+  *supposed* to after appropriations and laws are passed, rather than into
+  appropriation and law announcements themselves. Not yet drafted; will need
+  a home in `/representation/` or as a sibling. Surface to Paul when working
+  on `/representation/` next.
 
 ---
 

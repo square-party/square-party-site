@@ -14,7 +14,7 @@ Three things take less than five minutes apiece, and each one feeds real infrast
 
 ### Sign up as an interested voter
 
-Tell us which of the twenty-two domains you care about. Email plus checkboxes.
+Tell us which of the twenty-six domains you care about. Email plus checkboxes.
 
 [Express interest →](/square-party/assembly/#express-interest)
 

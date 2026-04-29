@@ -30,11 +30,11 @@ The lightest possible ask: name and email, takes a few seconds. Get on our voter
 {% set tallyHeight = "260" %}
 {% include "partials/tally-embed.njk" %}
 
-Want to go deeper? [Pick the policy domains you care about →](/square-party/assembly/#express-interest) (about thirty seconds, twenty-two checkboxes), or [pledge a write-in vote for Paul →](/paul/campaign/#voter-track).
+Want to go deeper? [Pick the policy domains you care about →](/square-party/assembly/#express-interest) (about thirty seconds, twenty-six checkboxes), or [pledge a write-in vote for Paul →](/paul/campaign/#voter-track).
 
 ## Where to go from here
 
 - **[The Party](/square-party/)** — what Square Party is, the empty square, the People's Assembly, the basic tenets.
-- **[Empower](/paul/campaign/empower/)** — the 22-domain civic representation project, applied to PA-3.
+- **[Empower](/paul/campaign/empower/)** — the 26-domain civic representation project, applied to PA-3.
 - **[Ideas](/ideas/)** — policy essays and analyses that cut across the project.
 - **[Paul](/paul/)** — Paul Plonski, the first candidate running on a Square Party ticket.

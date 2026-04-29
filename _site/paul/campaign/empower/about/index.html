@@ -14,10 +14,23 @@
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">Square Party</a>
       <ul class="site-nav__links">
-        <li><a href="/square-party/">The Party</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            The Party <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">What it is</li>
+            <li><a href="/square-party/">Overview</a></li>
+            <li><a href="/square-party/lineage/">Lineage</a></li>
+            <li><a href="/square-party/assembly/">People's Assembly</a></li>
+            <li><a href="/square-party/connections/">Connections</a></li>
+            <li><a href="/square-party/tenets/">Tenets</a></li>
+          </ul>
+        </li>
         <li><a href="/representation/">Representation</a></li>
         <li><a href="/paul/campaign/empower/">Empower</a></li>
         <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/contribute/">Contribute</a></li>
         <li><a href="/saved/">Saved</a></li>
         <li data-dropdown>
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
@@ -109,13 +122,13 @@
   <article class="project-content">
     <h1>About this project</h1>
 <h2>What it is</h2>
-<p>A systematic mapping of the gap between formal representation and lived experience across twenty-two policy domains, applied to Pennsylvania's 3rd Congressional District.</p>
+<p>A systematic mapping of the gap between formal representation and lived experience across twenty-six policy domains, applied to Pennsylvania's 3rd Congressional District.</p>
 <p>For each domain, the project asks the same questions: What does the law actually say? How does it actually operate, in practice, for people in PA-3? Where do those two diverge? What would it take to close the gap?</p>
 <p>The questions don't change across domains; the answers do.</p>
 <h2>Why it exists</h2>
 <p>Two reasons.</p>
 <p><strong>One:</strong> to make a working example of what a <a href="/square-party/assembly/">People's Assembly framework</a> looks like when applied to a real place. The assembly is an idea — a second axis of representation organized by topic rather than geography. Ideas need demonstrations. PA-3 is the demonstration.</p>
-<p><strong>Two:</strong> to give Paul's campaign something more substantive than slogans. A write-in campaign without a serious analytical project behind it is just a person asking for votes. A write-in campaign with twenty-two domains of careful analysis behind it is an argument for a different way of doing representation.</p>
+<p><strong>Two:</strong> to give Paul's campaign something more substantive than slogans. A write-in campaign without a serious analytical project behind it is just a person asking for votes. A write-in campaign with twenty-six domains of careful analysis behind it is an argument for a different way of doing representation.</p>
 <h2>What it's not</h2>
 <p>It's not a personal platform. The analytical work is meant to surface where representation is failing in PA-3, not to advocate for any particular fix. Fixes are the contributor's job — through <a href="/paul/campaign/empower/contribute/">pull requests on GitHub</a>, or through the policy-proposal track at the deepest tier of contribution.</p>
 <p>It's also not a Roosevelt revival. The Square Deal is a name lineage and a historical reference, not a model. Roosevelt was an executive with the federal government as his lever; this project is an organizing exercise. Different theory of change. The <a href="#">linkages document</a> (forthcoming) lays this out at length.</p>
@@ -126,7 +139,7 @@
 <p>Square Party is the wider vehicle. The People's Assembly is a Square Party-level idea about how representation can be organized. The empower project is <em>Paul's PA-3 application</em> of that idea. Other people in other districts could apply the same framework to their districts; nothing about the framework is PA-3-specific. The framework is meant to be portable.</p>
 <p>If the empower project goes well, the obvious next step is to make a clean version of it that someone in another district could fork and start filling in.</p>
 <div class="page-meta" role="complementary">
-<p><span class="page-meta__updated">Last updated <time datetime="2026-04-28">2026-04-28</time></span>
+<p><span class="page-meta__updated">Last updated <time datetime="2026-04-29">2026-04-29</time></span>
 <span class="page-meta__sep" aria-hidden="true">·</span>
 <a class="page-meta__history" href="https://github.com/REPLACE-ME/square-party-site/commits/main/src/paul/campaign/empower/about/index.md" rel="noopener">View history</a>
 <span class="page-meta__sep" aria-hidden="true">·</span>
@@ -139,7 +152,7 @@
     <p class="project-footer__title">How to empower through representation</p>
     <ul class="project-footer__links">
       <li><a href="/paul/campaign/empower/">Project home</a></li>
-      <li><a href="/paul/campaign/empower/#domains">All 22 domains</a></li>
+      <li><a href="/paul/campaign/empower/#domains">All 26 domains</a></li>
       <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
       <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
       <li><a href="/paul/campaign/empower/about/">About this project</a></li>

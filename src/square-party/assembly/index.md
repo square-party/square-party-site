@@ -1,24 +1,24 @@
 ---
 layout: base.njk
 title: The People's Assembly
-description: Twenty-two topical domains where citizens specialize, organize, and oversee the laws that affect them.
+description: Twenty-six topical domains where citizens specialize, organize, and oversee the laws that affect them.
 ---
 
 # The People's Assembly
 
 A second axis of representation. Geographic representation tells us *who* lives where, and assigns one set of representatives to handle every issue across that geography. The People's Assembly proposes a complementary structure: representation organized by *what* a law concerns, not just *where* it applies.
 
-Every place government touches life is a domain. Twenty-two of them, mapped out below. Each is a potential seat: a topical specialization where members of the public can build expertise, follow what's happening, and provide the kind of sustained citizen oversight that a single geographically-elected representative simply doesn't have time for across all twenty-two at once.
+Every place government touches life is a domain. Twenty-six of them, mapped out below. Each is a potential seat: a topical specialization where members of the public can build expertise, follow what's happening, and provide the kind of sustained citizen oversight that a single geographically-elected representative simply doesn't have time for across all twenty-six at once.
 
 This isn't a replacement for geography. It's an addition. District reps represent place. Topical reps represent depth. Both together is the model.
 
 <aside class="construction-note" aria-label="A note on framing">
-<p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The twenty-two domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal. Other sets could carve up the same scope differently. What's not negotiable is the comprehensive-coverage goal; the particular carve-up is.</p>
+<p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The twenty-six domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal. Other sets could carve up the same scope differently. What's not negotiable is the comprehensive-coverage goal; the particular carve-up is.</p>
 </aside>
 
-## Why twenty-two
+## Why twenty-six
 
-The number isn't sacred. The aim is *comprehensive coverage*. If a domain is missing — if government does something significant that doesn't fall into one of the twenty-two — the map isn't yet honest, and the assembly has a gap. The list will grow as gaps surface. (It already grew from the original twenty when we noticed we'd left out arts, sciences, and the entire infrastructure of public records.)
+The number isn't sacred. The aim is *comprehensive coverage*. If a domain is missing — if government does something significant that doesn't fall into one of the twenty-six — the map isn't yet honest, and the assembly has a gap. The list will grow as gaps surface. (It already grew from the original twenty when we noticed we'd left out arts, sciences, and the entire infrastructure of public records — and again to twenty-six when healthcare delivery, civil rights, election law, and veterans affairs surfaced as needing their own analytical homes rather than being scattered across the existing domains.)
 
 Below: every domain, what it covers in broad strokes, and a way to express interest in a topical seat. Express interest in as many or as few as you'd like. We track the responses to see where there's energy and which domains are ready to organize.
 
@@ -32,7 +32,7 @@ Tell us which domains you'd want to follow or organize around. Email plus checkb
 {% set tallyHeight = "320" %}
 {% include "partials/tally-embed.njk" %}
 
-## The twenty-two
+## The twenty-six
 
 {% include "partials/domain-card-grid.njk" %}
 
@@ -47,5 +47,5 @@ If you'd like to do that work for a domain, the [contribute page](/paul/campaign
 ## Related
 
 - [Square Party →](/square-party/) — the empty-square primitive and the wider party context
-- [Paul's PA-3 application →](/paul/campaign/empower/) — what these twenty-two domains look like when actually applied to one congressional district
+- [Paul's PA-3 application →](/paul/campaign/empower/) — what these twenty-six domains look like when actually applied to one congressional district
 - [Ideas →](/ideas/) — longer essays on representation and structural reform

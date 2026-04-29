@@ -1,13 +1,13 @@
 ---
 layout: empower.njk
-title: Public Safety, Law Enforcement & Security
+title: Public Safety & Justice
 state: planned
 order: 19
 description: Policing, prosecution, corrections, courts, national security, intelligence, the full enforcement and adjudication apparatus.
 updated: 2026-04-25
 ---
 
-# Public Safety, Law Enforcement & Security
+# Public Safety & Justice
 
 <p class="domain-lead">Public safety, law enforcement, and security is a large domain by design — combining municipal police, sheriff and state police, prosecutors and public defenders, courts, jails and prisons, parole and probation, and the federal national-security apparatus. The combination is intentional because separating them obscures how they function as a system. The PA-3 analysis will need to handle Philadelphia (its own police department, its own DA, its own jail system) separately from the surrounding municipalities and from the federal layer.</p>
 

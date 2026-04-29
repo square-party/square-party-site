@@ -14,10 +14,23 @@
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">Square Party</a>
       <ul class="site-nav__links">
-        <li><a href="/square-party/">The Party</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            The Party <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">What it is</li>
+            <li><a href="/square-party/">Overview</a></li>
+            <li><a href="/square-party/lineage/">Lineage</a></li>
+            <li><a href="/square-party/assembly/">People's Assembly</a></li>
+            <li><a href="/square-party/connections/">Connections</a></li>
+            <li><a href="/square-party/tenets/">Tenets</a></li>
+          </ul>
+        </li>
         <li><a href="/representation/">Representation</a></li>
         <li><a href="/paul/campaign/empower/">Empower</a></li>
         <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/contribute/">Contribute</a></li>
         <li><a href="/saved/">Saved</a></li>
         <li data-dropdown>
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
@@ -239,7 +252,7 @@
     <p class="project-footer__title">How to empower through representation</p>
     <ul class="project-footer__links">
       <li><a href="/paul/campaign/empower/">Project home</a></li>
-      <li><a href="/paul/campaign/empower/#domains">All 22 domains</a></li>
+      <li><a href="/paul/campaign/empower/#domains">All 26 domains</a></li>
       <li><a href="/paul/campaign/empower/timeline/">Timeline</a></li>
       <li><a href="/paul/campaign/empower/contributors/">Contributors</a></li>
       <li><a href="/paul/campaign/empower/about/">About this project</a></li>
