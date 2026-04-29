@@ -8,7 +8,7 @@ description: What Square Party draws from Theodore Roosevelt's Square Deal — w
 
 Square Party takes its name from Theodore Roosevelt's Square Deal, the domestic program of his presidency from 1901 to 1909. The lineage is deliberate. The page below is what we mean by *deliberate* — what's drawn from the historical record, what isn't, and where the comparison strains.
 
-## What the Square Deal actually was
+## What the Square Deal was
 
 Roosevelt didn't coin the phrase "square deal." It was a common nineteenth-century American idiom for fair dealing, in print since at least the 1880s. He started using it consistently around 1902, and after his mediation of the anthracite coal strike that fall, it became publicly associated with him. By the 1904 campaign, it was his de facto slogan.
 
@@ -20,9 +20,9 @@ The phrase carried more than procedural weight. Roosevelt explicitly distinguish
 
 The Square Deal also included Roosevelt's intervention in the 1902 anthracite coal strike — the first time a U.S. president publicly mediated a labor dispute, and arguably the first time on the side of workers.
 
-## The 1912 split — the most directly usable piece
+## 1912
 
-The single piece of TR history that maps most closely onto what Square Party is doing is what Roosevelt did in 1912.
+The single piece of TR history that maps most closely onto what Square Party might be doing is what Roosevelt did in 1912.
 
 After leaving office in 1909, Roosevelt grew dissatisfied with his hand-picked successor William Howard Taft, ran in the new Republican primaries, and won decisively. The convention nevertheless awarded the nomination to Taft on the strength of party-boss-controlled delegates from non-primary states. Roosevelt walked out and formed the Progressive Party — popularly called the Bull Moose Party — on a platform that included campaign-finance restrictions, the eight-hour workday, women's suffrage, national social insurance, direct election of senators, a graduated income tax, and tariff reduction. Items that read as remarkably contemporary.
 
@@ -30,7 +30,7 @@ In the general election, Roosevelt won 27.4% of the popular vote and 88 electora
 
 The Progressive Party largely collapsed by 1916, when Roosevelt declined its nomination. Its platform, however, shaped the next half-century of American reform: Wilson's New Freedom, FDR's New Deal, and Johnson's Great Society are commonly cited as inheritors.
 
-What's directly usable for Square Party: a third-party project can change the conversation without winning the office. That's the realistic frame for a write-in House campaign in PA-3.
+What's directly usable for Square Party: a third-party project can change the conversation without winning the office. That's the realistic frame.
 
 ## Now and then — structural rhyme
 

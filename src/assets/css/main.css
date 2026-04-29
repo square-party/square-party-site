@@ -263,6 +263,14 @@ p { margin: 0 0 1rem; }
   list-style: none;
   margin: 0;
   z-index: 60;
+  max-width: calc(100vw - 1.5rem);
+}
+/* Dropdowns whose trigger sits on the left side of the nav anchor their
+   panel to the left edge of the trigger so it extends rightward. Without
+   this, mobile pushes the panel off the left edge of the viewport. */
+.dropdown--align-left .dropdown-panel {
+  left: 0;
+  right: auto;
 }
 [data-dropdown].is-open .dropdown-panel { display: block; }
 .dropdown-panel li { display: block; }
