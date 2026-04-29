@@ -59,6 +59,7 @@ The **[School Income Tax](/paul/campaign/empower/glossary/#sit) (SIT)** applies 
 These profiles illustrate the structural features above. Names are illustrative; the income levels, rates, and Schedule SP take-up figures are verified.
 
 ### Constituent 1: Home care aide — Strawberry Mansion
+<a id="home-care-aide-strawberry-mansion"></a>
 
 Single parent, two qualifying children, $28,000 wages through a home health agency. Strawberry Mansion has among the lowest median household incomes in PA-3 and one of the highest [EITC](/paul/campaign/empower/glossary/#eitc) eligibility concentrations.
 
@@ -76,6 +77,7 @@ Single parent, two qualifying children, $28,000 wages through a home health agen
 *Gap at the person level:* The federal government's primary anti-poverty cash transfer for working families, the new state EITC supplement, and the city's wage tax act on the same wages simultaneously. The federal and state credits total roughly $6,780; the city wage tax is roughly $1,047, reducible to ~$420 if she successfully navigates Schedule SP. About 4.5% of eligible filers complete that navigation, so the most likely outcome is that she pays the full $1,047 while the state and federal systems refund $6,780. The three layers of government do not integrate.
 
 ### Constituent 2: Self-employed electrician — Kingsessing
+<a id="self-employed-electrician-kingsessing"></a>
 
 Sole proprietorship, two years in business, first full year above the 2024 BIRT threshold (note: 2025 BIRT threshold eliminated — see Sub-Domain 3). $55,000 net self-employment income on $220,000 gross revenue.
 
@@ -98,6 +100,7 @@ Sole proprietorship, two years in business, first full year above the 2024 BIRT 
 The annual difference between operating as a sole proprietor and operating as a wage employee at identical compensation is approximately **$7,015** in additional combined local and federal payroll-equivalent obligations. This follows from the documented structure of three separately-legislated instruments stacking on the same income base without any integrating mechanism. It is not the product of higher statutory rates; it is the product of the multiplication of independent obligations.
 
 ### Constituent 3: Mixed-income household — Mt. Airy
+<a id="mixed-income-household-mt-airy"></a>
 
 Dual-earner household: $80,000 in wages plus $40,000 in investment income (dividends and realized capital gains). The profile illustrates the effective-rate asymmetry produced by the investment-income exclusion.
 

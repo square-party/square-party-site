@@ -55,7 +55,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$28,000 wages · two qualifying children · single parent</p>
 <p class="neighbor-card__insight">Federal EITC delivers $6,164. State WPTC adds $616. The Philadelphia wage tax takes $1,047 — recoverable to $420 only if she navigates the Schedule SP application that 95% of eligible filers don't complete. The credits and the local tax don't talk to each other.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/">Read the full Wage Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#home-care-aide-strawberry-mansion">Read the full Wage Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="wage-tax" data-subarea="west-core">
@@ -66,7 +66,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$220,000 gross receipts · $55,000 net SE income · Philadelphia resident</p>
 <p class="neighbor-card__insight">Three independent obligations on the same income stream: NPT $2,057 + BIRT $3,141 (gross receipts) and $310 (net income) + SE FICA $7,772 = $13,280 stack. About $7,015 more than an employee at the same compensation would face — the misclassification burden made arithmetic.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/">Read the full Wage Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#self-employed-electrician-kingsessing">Read the full Wage Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card neighbor-card--compare" data-subdomain="wage-tax" data-subarea="northwest">
@@ -90,7 +90,7 @@ updated: 2026-04-25
 </div>
 </div>
 <p class="neighbor-card__insight">The wage tax falls on earned income only — capital gains, dividends, and interest are excluded from the base. The same $120,000 produces a 33% lower effective rate when income is diversified, generating a $1,496 annual difference structurally embedded in the tax design.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/">Read the full Wage Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#mixed-income-household-mt-airy">Read the full Wage Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="property-tax" data-subarea="south-southwest">
@@ -101,7 +101,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">29-year owner · Assessment $98K → $201K (post-AVI) · Currently paying $2,814</p>
 <p class="neighbor-card__insight">She's eligible for both the Homestead Exemption ($1,400 in annual savings) and LOOP (caps the assessment, saves more). She's enrolled in neither. The forms exist; the protection exists; the bridge between her and them does not. Approximately 107,000 Philadelphia owner-occupied units are in the same gap.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/">Read the full Property Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/#retired-school-aide-point-breeze">Read the full Property Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="property-tax" data-subarea="south-southwest">
@@ -112,7 +112,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">Delinquent property tax: $5,800 · Penalty + interest: $940 · Lien sold to private investor</p>
 <p class="neighbor-card__insight">The investor is no longer collecting tax — under PA RETSL, they're seeking the property through judicial sale. OOPA exists for low-income owner-occupants (some plans qualify at zero-dollar monthly payments), but he didn't know it existed. The pathway from minor delinquency to ownership loss is statutory, not anomalous.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/">Read the full Property Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/#construction-worker-grays-ferry">Read the full Property Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card neighbor-card--compare" data-subdomain="property-tax" data-subarea="north-core northwest">
@@ -136,7 +136,7 @@ updated: 2026-04-25
 </div>
 </div>
 <p class="neighbor-card__insight">The October-deadline BRT appeal is a universal right and a non-universal practice. Documented research (Pew 2024; Berry 2021) finds that assessments in lower-income census tracts run at higher ratios to market value than in higher-income tracts. The right to appeal is the channel through which that pattern becomes outcome.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/">Read the full Property Tax analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/property-tax/#brt-appeal-utilization-comparison">Read the full Property Tax analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="birt" data-subarea="south-southwest">
@@ -147,7 +147,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$280,000 gross receipts · 3.5% margin · 18 employees · $9,800 net income</p>
 <p class="neighbor-card__insight">BIRT due: $955 — that's 9.7% of net income. The 2025 elimination of the $100K gross receipts exemption added approximately $140 to her bill (the exemption had previously zeroed out the gross receipts component for businesses below the threshold). A law firm at the same revenue with a 24% margin pays the same gross receipts amount but a much smaller share of its net.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/birt/">Read the full BIRT analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/birt/#restaurant-owner-east-passyunk">Read the full BIRT analysis →</a></p>
 </article>
 
 <article class="neighbor-card neighbor-card--compare" data-subdomain="birt" data-subarea="west-core north-core">
@@ -171,7 +171,7 @@ updated: 2026-04-25
 </div>
 </div>
 <p class="neighbor-card__insight">Both businesses pay an identical $1,128 in BIRT gross receipts component (0.141% of $800K). Against the high-margin business, that's 0.29% of net income. Against the low-margin business, it's 1.76% — a 6× differential. The gross receipts component operates as a regressive flat tax in margin terms. The 2039 phase-out targets exactly this feature.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/birt/">Read the full BIRT analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/birt/#margin-based-comparison">Read the full BIRT analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="tax-exempt" data-subarea="west-core">
@@ -182,7 +182,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">School District per-pupil expenditure constrained by ~$26-92M annual revenue gap from foregone institutional property tax (after PILOET)</p>
 <p class="neighbor-card__insight">Her school lacks functioning science labs. The University of Pennsylvania, eight blocks away, holds approximately $25 billion in endowment and pays voluntary PILOET in the low millions of dollars annually. The structural relationship is between Penn's Article VIII §2(a)(v) exemption and the School District's revenue floor. The experienced relationship for her is a science class without equipment.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-exempt-institutions/">Read the full Tax-Exempt analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-exempt-institutions/#7th-grade-student-mantua">Read the full Tax-Exempt analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="tax-exempt" data-subarea="north-core">
@@ -193,7 +193,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">Discovers PILOET via news coverage · Attends a City Council oversight hearing · Searches the city's CAFR</p>
 <p class="neighbor-card__insight">The Comprehensive Annual Financial Report lists what was paid in PILOET. Aggregate institutional foregone tax is reported nowhere as an integrated figure. He can find what was paid; he cannot find what was not paid. The fiscal relationship at City scale is real and consequential; the public record at constituent scale is fragmentary.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-exempt-institutions/">Read the full Tax-Exempt analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-exempt-institutions/#homeowner-cecil-b-moore">Read the full Tax-Exempt analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="eitc-vita" data-subarea="north-core">
@@ -204,7 +204,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$21,000 wages · 3 qualifying children · Has not filed federal taxes in 4 years</p>
 <p class="neighbor-card__insight">Cumulative forgone refunds: approximately $31,320. Federal EITC at $7,830/year + state WPTC at $805/year + a Schedule SP wage tax refund — none claimed. The instruments are statutorily designed for her household; the administrative pathway from her household to the instrument has not been built.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/">Read the full EITC/VITA analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/#home-care-worker-nicetown-tioga">Read the full EITC/VITA analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="eitc-vita" data-subarea="west-core">
@@ -215,7 +215,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$26,000 wages · 1 qualifying child · Filed early February · Audit notice received day 28 of the 30-day response window</p>
 <p class="neighbor-card__insight">Couldn't reach the (limited-staffed) Taxpayer Advocate Service in time. EITC denied for failure to substantiate. Forgone refund: $4,761. The audit was administrative, not fraudulent — the substantiation existed; the response window did not. Low-income filers face EITC audit rates approximately 5× higher than the general filer population.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/">Read the full EITC/VITA analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/#warehouse-worker-cobbs-creek">Read the full EITC/VITA analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="eitc-vita" data-subarea="south-southwest">
@@ -226,7 +226,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$26,000 wages · Limited English · Eligible for ~$3,000 federal EITC + $300 WPTC</p>
 <p class="neighbor-card__insight">Pays $265 to a commercial preparer. Nearest Spanish-speaking VITA site is 50 minutes by bus. Net refund after preparer fee: $3,035. With VITA: $3,300. With no filing: $0. The $265 represents the value of language access that VITA was statutorily designed to provide and that funding constraints have not delivered at sufficient scale.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/">Read the full EITC/VITA analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/eitc-vita/#restaurant-worker-passyunk-square">Read the full EITC/VITA analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="tax-incentives" data-subarea="north-core">
@@ -237,7 +237,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">Census tract designated Opportunity Zone in 2018 · QOF-financed development now operating · Rents have increased</p>
 <p class="neighbor-card__insight">He had no formal role in the QOZ designation or in any QOF investment review. The zone was nominated by the Pennsylvania Governor; the QOF was capitalized by deferred capital gains; the tax benefit accrues to investors after 10 years; the rent change accrues to him now. The program's geographic targeting is real; its community-input mechanism does not exist.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/">Read the full Tax Incentives analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/#renter-sharswood-qoz">Read the full Tax Incentives analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="tax-incentives" data-subarea="northwest">
@@ -248,7 +248,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$180,000 rehabilitation · NPS three-part historic certification · 20% federal HTC = $36,000</p>
 <p class="neighbor-card__insight">Professional fees (preservation consultant, architect, syndication) consumed $11-16K of the $36K credit. Net benefit: $20-25K. The HTC is statutorily favorable for income-producing historic rehabilitation. Its delivery cost — driven by certification complexity and the stack of professionals required — falls disproportionately on small owners who cannot amortize the fees against larger projects.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/">Read the full Tax Incentives analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/#commercial-owner-germantown-ave">Read the full Tax Incentives analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="tax-incentives" data-subarea="north-core">
@@ -259,7 +259,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$6.5M NMTC-financed expansion · 3,200 patients served in two years · Federally qualified health center designation</p>
 <p class="neighbor-card__insight">An NMTC outcome that worked. The CDE's mission alignment was tight. The deployed financing was below market. The community benefit — primary care capacity, with documented patient volume — is concrete. The case illustrates what NMTC can produce when conditions converge: aligned CDE, mission-fit project, documented community need. The conditions converge unevenly across allocation rounds; this outcome is possible, not typical.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/">Read the full Tax Incentives analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/tax-incentives/#community-clinic-north-philly">Read the full Tax Incentives analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="burden" data-subarea="west-core">
@@ -270,7 +270,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$32,000 wages · 1 qualifying child</p>
 <p class="neighbor-card__insight">Aggregate burden before the federal refund: 16-17% of gross — wage tax, state PIT, FICA, sales tax. After federal EITC and (with Schedule SP) WPTC: 8-11% net. The federal refund is the single largest progressive instrument in his stack; without it, the local-state burden alone would be regressive at his income.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/">Read the full Burden Distribution analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/#warehouse-worker-haddington">Read the full Burden Distribution analysis →</a></p>
 </article>
 
 <article class="neighbor-card neighbor-card--compare" data-subdomain="burden" data-subarea="north-core northwest">
@@ -294,7 +294,7 @@ updated: 2026-04-25
 </div>
 </div>
 <p class="neighbor-card__insight">The PA Personal Income Tax exempts Social Security, pensions, and retirement account distributions. The exemption applies as a flat 3.07% saved on the exempt amount. The same statutory provision saves one household $645 and the other $5,833 — a 9:1 absolute-dollar ratio. The exemption is structurally regressive in absolute dollars by design.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/">Read the full Burden Distribution analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/#retirement-exemption-comparison">Read the full Burden Distribution analysis →</a></p>
 </article>
 
 <article class="neighbor-card" data-subdomain="burden" data-subarea="north-core">
@@ -305,7 +305,7 @@ updated: 2026-04-25
 </header>
 <p class="neighbor-card__facts">$40,000 net SE income · Classified as 1099 contractor</p>
 <p class="neighbor-card__insight">Pays the full 14.13% SE FICA (employer + employee shares), not the 7.65% an employee at the same compensation would face. The employer share, $2,592, is the misclassification burden — a fiscal cost imposed by classification rules made elsewhere. State and federal classification standards are jurisdictionally fragmented; the worker's effective tax rate is the sum of structural choices made above his head.</p>
-<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/">Read the full Burden Distribution analysis →</a></p>
+<p class="neighbor-card__link"><a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/burden-distribution/#rideshare-driver-kensington">Read the full Burden Distribution analysis →</a></p>
 </article>
 
 </div>

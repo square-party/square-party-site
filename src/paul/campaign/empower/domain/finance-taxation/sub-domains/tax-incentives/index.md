@@ -77,6 +77,7 @@ The constituent position for all three programs is structurally the same: PA-3 r
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: Longtime renter, QOZ tract — Sharswood
+<a id="renter-sharswood-qoz"></a>
 
 Female, 49, two adult children. 24-year renter in Sharswood. Her census tract was designated as a QOZ in 2018. A new mixed-use development is rising two blocks away, financed partly through a Qualified Opportunity Fund.
 
@@ -89,6 +90,7 @@ Female, 49, two adult children. 24-year renter in Sharswood. Her census tract wa
 *Gap at the person level:* Her neighborhood is a legal vehicle for investors' capital gains tax deferral and future appreciation exclusion. The legal framework that created this opportunity for investors created no corresponding obligation to benefit her or her neighbors.
 
 ### Constituent 2: Commercial property owner — Germantown Avenue
+<a id="commercial-owner-germantown-ave"></a>
 
 Female, 61. Owns a three-story mixed-use building (ground-floor commercial, two rental units above) on Germantown Avenue. Built 1912. Contributing to the Germantown Avenue National Register Historic District. Wants to rehabilitate.
 
@@ -109,6 +111,7 @@ Female, 61. Owns a three-story mixed-use building (ground-floor commercial, two 
 *Gap at the person level:* The program that should make historic rehabilitation economically viable for a small property owner on a PA-3 commercial corridor is calibrated for sophisticated developers with professional teams. A 61-year-old building owner managing her own property faces transaction costs that consume a significant fraction of the gross credit.
 
 ### Constituent 3: Community health clinic — North Philadelphia LIC tract (NMTC positive case)
+<a id="community-clinic-north-philly"></a>
 
 Non-profit operator. Received $6.5 million in below-market-rate financing through an NMTC structure (illustrative scale consistent with NMTC community facility transactions).
 

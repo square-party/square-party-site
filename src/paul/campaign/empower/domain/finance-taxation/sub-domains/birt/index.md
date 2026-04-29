@@ -64,6 +64,7 @@ breadcrumbExtras:
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: First-year restaurant owner — East Passyunk Avenue
+<a id="restaurant-owner-east-passyunk"></a>
 
 Caribbean cuisine restaurant on the East Passyunk Avenue commercial corridor (South/Southwest). Opened six months ago. $280,000 first-year gross revenue; 3.5% net margin ($9,800 net income); 18 employees.
 
@@ -89,6 +90,7 @@ Under the pre-2025 structure, this constituent illustrated the threshold discont
 **2025 elimination of the exemption:** the notch is gone, but the tax now applies to businesses at much lower gross receipts than before — a distributional change that increases the number of very small businesses with BIRT filing obligations.
 
 ### Constituent 3: Margin-based comparison
+<a id="margin-based-comparison"></a>
 
 *Profile A:* Management consulting firm in University City — $800,000 revenue, 48% margin ($384,000 net income).
 

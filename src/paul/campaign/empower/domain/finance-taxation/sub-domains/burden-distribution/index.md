@@ -80,6 +80,7 @@ Philadelphia wage tax, BIRT, property tax — pointers to those sub-domains. Thi
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: Warehouse worker — Haddington (cumulative burden illustration)
+<a id="warehouse-worker-haddington"></a>
 
 Female, 41, renter. $32,000 annual wages. One qualifying child. A typical PA-3 lower-income wage earner.
 
@@ -105,6 +106,7 @@ Female, 41, renter. $32,000 annual wages. One qualifying child. A typical PA-3 l
 *Gap at the person level:* Five separate tax systems (plus federal income tax and sales tax embedded in purchases) apply to her income. The systems are administered separately; no single statement shows her total obligation. The federal refund can mask the fact that wage tax, FICA, and sales tax have already taken approximately **16-17% of her gross earnings** before the federal refund arrives.
 
 ### Constituent 2: Retirement exemption comparison
+<a id="retirement-exemption-comparison"></a>
 
 The PA Personal Income Tax retirement income exemption is a single statutory provision. Its distributional effect depends entirely on who has retirement income and how much.
 
@@ -123,6 +125,7 @@ The PA Personal Income Tax retirement income exemption is a single statutory pro
 *Comparison:* The same statutory provision saves one person $645 and the other $5,833 — a ratio of approximately **9:1**. The distribution of the exemption's benefits corresponds to the distribution of qualifying retirement income, which corresponds to lifetime earnings and wealth accumulation. **The exemption is regressive in absolute dollar terms by design.**
 
 ### Constituent 3: Misclassification burden — Kensington (the gig economy driver)
+<a id="rideshare-driver-kensington"></a>
 
 Male, 35. Net income after expenses: approximately $40,000. Classified as an independent contractor by two platforms (rideshare + food delivery).
 

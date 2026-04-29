@@ -79,6 +79,7 @@ LOOP cannot be combined with the Homestead Exemption — homeowners must choose 
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: Retired school aide — Point Breeze
+<a id="retired-school-aide-point-breeze"></a>
 
 Female, 71, 29-year owner. Point Breeze has documented appreciation through the gentrification trajectory. Her OPA assessment increased from $98,000 to $201,000 following neighborhood appreciation and the 2025 revaluation. She is LOOP-eligible — 29 years of ownership, a 105% increase over five years, income below $96,350 — but is not enrolled.
 
@@ -95,6 +96,7 @@ Female, 71, 29-year owner. Point Breeze has documented appreciation through the 
 She has been paying the higher amount for the year since revaluation. For her, LOOP protection is prospective only — no retroactive refund for the gap year.
 
 ### Constituent 2: Construction worker, lien sale pathway — Grays Ferry
+<a id="construction-worker-grays-ferry"></a>
 
 Male, 52, homeowner. Accumulated $5,800 in delinquent property taxes during a period of income disruption. Missed Department of Revenue notices. The city sold the tax lien to a private investor.
 
@@ -111,6 +113,7 @@ Male, 52, homeowner. Accumulated $5,800 in delinquent property taxes during a pe
 *Gap at the person level:* The transition from public tax obligation to private foreclosure risk — where the collecting entity has a profit incentive, not a housing-stability mandate — is the moment at which decades of homeownership equity become vulnerable to a single acute income disruption.
 
 ### Constituent 3: BRT appeal utilization gap — comparison
+<a id="brt-appeal-utilization-comparison"></a>
 
 *Profile A:* New homeowner, 38, financial services professional — Chestnut Hill. Received an OPA assessment of $720,000; hired a licensed appraiser ($475); filed a BRT appeal before the October deadline; BRT reduced the assessment to $640,000. Annual tax savings: $80,000 × 1.3998% ≈ **$1,120**.
 

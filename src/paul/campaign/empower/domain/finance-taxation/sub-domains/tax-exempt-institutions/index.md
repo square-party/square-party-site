@@ -98,6 +98,7 @@ The formal absence of participation is itself a representation finding.
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: 7th-grade student — West Philadelphia public middle school in Mantua
+<a id="7th-grade-student-mantua"></a>
 
 Age 13, public middle school student. The school is in Mantua, immediately adjacent to Penn's University City campus. The school lacks functioning science labs due to deferred capital maintenance traceable to School District fiscal constraint.
 
@@ -108,6 +109,7 @@ Age 13, public middle school student. The school is in Mantua, immediately adjac
 *Gap at the person level:* The decisions about how much of the institutional exemption's fiscal cost is offset by voluntary PILOET payments — decisions made in negotiations in which her family has no formal standing — shape the resources available at her school. She is a downstream recipient of fiscal outcomes determined upstream by parties who have no legal obligation to consider her.
 
 ### Constituent 2: North Philadelphia homeowner — Cecil B. Moore (adjacent to Temple)
+<a id="homeowner-cecil-b-moore"></a>
 
 Age 55, homeowner. Learns about PILOET through a newspaper article. Attends a City Council oversight hearing to advocate for higher Temple contributions.
 

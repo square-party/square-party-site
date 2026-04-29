@@ -92,6 +92,7 @@ breadcrumbExtras:
 <h2 id="constituent-profiles">Constituent profiles</h2>
 
 ### Constituent 1: Home care worker — Nicetown-Tioga (the non-filer)
+<a id="home-care-worker-nicetown-tioga"></a>
 
 Age 32, female, three qualifying children. $21,000 wages. Has not filed a federal return in four years: "I don't owe anything so I don't need to file."
 
@@ -102,6 +103,7 @@ Age 32, female, three qualifying children. $21,000 wages. Has not filed a federa
 *Gap at the person level:* The federal government's most significant anti-poverty cash transfer for working families, now supplemented by the state's first EITC, is fully available to her and worth zero because no one told her she needed to file to claim it. The IRS does not notify eligible non-filers. Pennsylvania does not yet have an automatic WPTC outreach mechanism for EITC-eligible non-filers.
 
 ### Constituent 2: Warehouse worker — Cobbs Creek (the audit pathway)
+<a id="warehouse-worker-cobbs-creek"></a>
 
 Age 28, male, one qualifying child. Filed an EITC claim of approximately $4,328 for 2025; received an IRS correspondence audit letter questioning qualifying-child residency.
 
@@ -112,6 +114,7 @@ Age 28, male, one qualifying child. Filed an EITC claim of approximately $4,328 
 *Gap at the person level:* A legitimate $4,761 combined credit was lost not because the claim was wrong but because a government letter in a stack of mail wasn't opened in 30 days. Without professional representation during the response window, the default outcome is denial regardless of substantive eligibility. The state credit, linked to federal determination, amplifies the consequence of the federal administrative failure.
 
 ### Constituent 3: Restaurant worker, limited English — Passyunk Square (the access pathway)
+<a id="restaurant-worker-passyunk-square"></a>
 
 Age 44, female, Dominican immigrant. $26,000 wages, one qualifying child. Legitimately eligible for approximately $4,328 federal EITC plus $433 WPTC.
 
