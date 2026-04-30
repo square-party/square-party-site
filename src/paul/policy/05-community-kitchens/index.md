@@ -156,7 +156,7 @@ At $150 million per year, the program could support approximately 100–125 comm
 ## Cross-project connections
 
 - [Agricultural Competition](/paul/policy/04-ag-competition/) — community kitchens are downstream consumers of the agricultural system; production-side reform and consumption-side infrastructure complement each other.
-- [The American Experiment](/paul/process/02-american-experiment/) — shared meals are one of the most ancient cross-cutting institutions; community kitchens are infrastructure for the cross-cutting strategy in the renewal section.
+- [The American Experiment](/ideas/02-american-experiment/) — shared meals are one of the most ancient cross-cutting institutions; community kitchens are infrastructure for the cross-cutting strategy in the renewal section.
 - [Growing up with civil service](/paul/policy/06-mandatory-civil-service/) — community kitchens are natural placement sites for service members in elder care, education, and public administration tracks.
 
 ## References

@@ -10,7 +10,7 @@ The project gets better when people push back on it, fix it, add to it, and spre
 
 ## Engage with the work
 
-**Read.** Read what's here. The site has [an overview of the party](/square-party/), the [representation framing](/representation/), the [empower project](/paul/campaign/empower/) (the analytical PA-3 work), and the [process](/paul/process/) and [policy](/paul/policy/) proposal series. Tell us what doesn't make sense — that itself is a contribution.
+**Read.** Read what's here. The site has [an overview of the party](/square-party/), the [representation framing](/representation/), the [empower project](/paul/campaign/empower/) (the analytical PA-3 work), and the [ideas](/ideas/) and [policy](/paul/policy/) proposal series. Tell us what doesn't make sense — that itself is a contribution.
 
 **React.** Send feedback, push back, ask questions, suggest sources, point out where the writing fails. Email [paul@squareparty.org](mailto:paul@squareparty.org) for anything that's faster as a conversation than a tracked change.
 
@@ -18,7 +18,7 @@ The project gets better when people push back on it, fix it, add to it, and spre
 
 ## Add to the work
 
-**Draft.** Pick a [process](/paul/process/) or [policy](/paul/policy/) area and draft it (or a piece of it). Pick a [domain](/paul/campaign/empower/) and analyze it. The propose-tier workflow on the empower contribute page covers how this is supposed to go. Open an issue first to align on scope before writing anything substantial.
+**Draft.** Pick an [idea](/ideas/) or [policy](/paul/policy/) area and draft it (or a piece of it). Pick a [domain](/paul/campaign/empower/) and analyze it. The propose-tier workflow on the empower contribute page covers how this is supposed to go. Open an issue first to align on scope before writing anything substantial.
 
 **Organize.** Claim a domain to follow over time. Take responsibility for a region as the project moves beyond PA-3. Host a square-making session or a People's Assembly meetup in your area. None of this has formal infrastructure yet; if you want to do it, write to Paul and we'll figure out what it looks like together.
 

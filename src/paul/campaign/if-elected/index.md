@@ -34,7 +34,7 @@ The [PA-3 implementation of the empower project](/paul/campaign/empower/) is the
 
 ## Federal policies
 
-I have a handful of federal-level ideas — less specified than the PA-3 work, but with the kind of shape that might draw national interest if the movement reaches that scale. They're being written up across two sections: [Process areas](/paul/process/) (changes to how the system works) and [Policy areas](/paul/policy/) (substantive interventions in specific issue domains). I think they're good ideas. I also haven't done enough work yet on policy execution and task implementation to be confident about every detail. Major changes are still possible.
+I have a handful of federal-level ideas — less specified than the PA-3 work, but with the kind of shape that might draw national interest if the movement reaches that scale. They're being written up across two sections: [Ideas](/ideas/) (essays about how the system works) and [Policy areas](/paul/policy/) (substantive interventions in specific issue domains). I think they're good ideas. I also haven't done enough work yet on policy execution and task implementation to be confident about every detail. Major changes are still possible.
 
 This is the honest picture. The campaign is real. The plan is real. The plan also has gaps, and naming them feels better than pretending they aren't there.
 

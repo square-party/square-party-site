@@ -164,7 +164,7 @@ The asylum system needs structural repair, not just policy adjustment. The follo
 
 - [IBPHTC](/paul/policy/01-border-healthcare/) — the mega-station concept addresses the infrastructure deficit that contributes to asylum processing chaos. Integrated processing centers with on-site immigration courts, legal services, and healthcare could dramatically reduce processing times and improve outcomes.
 - [Growing up with civil service](/paul/policy/06-mandatory-civil-service/) — service members in the public administration corps could staff immigration courts and processing centers, addressing the human capital shortage.
-- [The American Experiment](/paul/process/02-american-experiment/) — the asylum system is a test case for whether American institutions can function under stress. The gap between statutory promise and operational reality is precisely the kind of institutional failure the American Experiment diagnostic identifies.
+- [The American Experiment](/ideas/02-american-experiment/) — the asylum system is a test case for whether American institutions can function under stress. The gap between statutory promise and operational reality is precisely the kind of institutional failure the American Experiment diagnostic identifies.
 
 ## Find the flaw
 

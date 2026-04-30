@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy",
+    "clean": "rm -rf _site",
+    "build": "npm run clean && eleventy",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {

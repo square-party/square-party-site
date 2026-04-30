@@ -112,9 +112,9 @@ The cost is primarily to prediction market platforms, which would face increased
 
 ## Cross-project connections
 
-- [Capitalism Game Maintenance](/paul/process/01-game-maintenance/) — the prediction market explosion is regulatory arbitrage, the same phenomenon the game-maintenance framework identifies as a system failure. When the rules allow one class of companies to offer identical services without bearing the costs that competitors must pay, the game is broken.
+- [Capitalism Game Maintenance](/ideas/01-game-maintenance/) — the prediction market explosion is regulatory arbitrage, the same phenomenon the game-maintenance framework identifies as a system failure. When the rules allow one class of companies to offer identical services without bearing the costs that competitors must pay, the game is broken.
 - [Corporations speak for money](/paul/policy/07-campaign-finance/) — prediction markets on political events create a new channel through which money can influence democratic outcomes, intersecting with the campaign finance challenge.
-- [The American Experiment](/paul/process/02-american-experiment/) — the question of who regulates gambling — states or the federal government — is a live experiment in federalism that connects to the broader democratic governance questions.
+- [The American Experiment](/ideas/02-american-experiment/) — the question of who regulates gambling — states or the federal government — is a live experiment in federalism that connects to the broader democratic governance questions.
 
 ## Find the flaw
 

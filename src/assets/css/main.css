@@ -576,6 +576,9 @@ main:has(.home-hero) {
   gap: 1.75rem;
   margin: 1.5rem 0 2.5rem;
   align-items: start;
+  /* Headroom for fragment links targeting #domains so the section heading
+     above the grid stays in view after the scroll. */
+  scroll-margin-top: 4rem;
 }
 
 .domain-list {

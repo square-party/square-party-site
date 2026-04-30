@@ -104,7 +104,7 @@ The argument for a composite index is the same as the argument for GDP: imperfec
 
 - [Corporations speak for money](/paul/policy/07-campaign-finance/) — concentrated political spending is one mechanism by which winners of the economic game capture the rule-making process. Game maintenance and campaign-finance reform reinforce each other; neither works alone.
 - [Gambling Regulation](/paul/policy/02-gambling-regulation/) — illustrates the same dynamic in a more specific setting. Concentrated industry shapes the rules of its own market.
-- [The American Experiment](/paul/process/02-american-experiment/) — declining trust in institutions is partly downstream of the perception (often correct) that the game has been won. Restoring competitive dynamics is one route to restoring institutional credibility.
+- [The American Experiment](/ideas/02-american-experiment/) — declining trust in institutions is partly downstream of the perception (often correct) that the game has been won. Restoring competitive dynamics is one route to restoring institutional credibility.
 
 ## Find the flaw
 

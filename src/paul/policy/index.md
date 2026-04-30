@@ -4,11 +4,13 @@ title: Policy Areas
 description: Federal- and state-level proposals that intervene inside specific issue domains — substantive programs in immigration, gambling, food infrastructure, civil service, campaign finance, and more.
 ---
 
-# Policy Areas
+# Paul's Policy Areas
 
+Not everyone in the Square Party will like or support these ideas. In fact, even I (Paul) think that they should be improved. But these are good faith efforts to start conversations that could make a difference.  
+  
 Proposals that intervene *inside* specific issue domains — immigration and asylum, healthcare workforce, gambling regulation, agricultural markets, food infrastructure, civil service, campaign finance. These are the *what to actually do* drafts: the substance of a program, drawn out in enough depth to be argued for, criticized, or contributed to.
 
-These differ from [Process Areas](/paul/process/), which target the rules and structures behind how policy gets made, and from the [PA-3 empower project](/paul/campaign/empower/), the analytical work mapping representation gaps in one district. Policy work depends on functional process; process work creates the room for honest policy.
+These differ from the [Ideas](/ideas/) essays, which target the rules and structures behind how policy gets made, and from the [PA-3 empower project](/paul/campaign/empower/), the analytical work mapping representation gaps in one district. Policy work depends on functional process; the Ideas work creates the room for honest policy.
 
 State indicators describe drafting state, not importance. *Drafting* means a substantive draft exists. *In review* means ready for outside scrutiny. *Planned* would be a slot identified but not yet written.
 

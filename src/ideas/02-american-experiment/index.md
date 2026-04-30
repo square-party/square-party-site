@@ -123,7 +123,7 @@ The experiment requires feedback. Citizens act. Government responds. Citizens ev
 
 This is the hardest because identity operates at a level that policy can't easily reach. But it's not hopeless.
 
-**Common-purpose framing.** The game-maintenance framework (see [Game Maintenance](/paul/process/01-game-maintenance/)) offers a model: reframe political disagreements as disagreements about *how to achieve shared goals* rather than as conflicts between *good people and bad people.* This isn't naive — it requires acknowledging that some disagreements are genuine and that compromise isn't always possible. The frame matters. "We disagree about how to fix this" is a fundamentally different starting point than "you're the enemy."
+**Common-purpose framing.** The game-maintenance framework (see [Game Maintenance](/ideas/01-game-maintenance/)) offers a model: reframe political disagreements as disagreements about *how to achieve shared goals* rather than as conflicts between *good people and bad people.* This isn't naive — it requires acknowledging that some disagreements are genuine and that compromise isn't always possible. The frame matters. "We disagree about how to fix this" is a fundamentally different starting point than "you're the enemy."
 
 **Cross-cutting institutions.** Organizations and experiences that bring people into contact across political lines: national service programs (see [Growing up with civil service](/paul/policy/06-mandatory-civil-service/)), community organizations, civic infrastructure (libraries, parks, community centers), local governance bodies. The Putnam thesis on declining social capital is well-known and probably overstated in some dimensions, but the core observation holds: people who interact with people unlike themselves are less likely to demonize them.
 
@@ -139,11 +139,6 @@ Sixty years of declining trust, escalating polarization, and structural barriers
 
 The question isn't whether we've outgrown the experiment. The question is whether we've become too comfortable, too distracted, too cynical, or too manipulated to continue it. And that's a question only the experimenters can answer.
 
-The reins are still hanging from the horse's neck.
-
-Find the part of that logic that breaks.
-
-I'll wait.
 
 ## References
 

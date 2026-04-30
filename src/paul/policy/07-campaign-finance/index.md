@@ -132,10 +132,10 @@ At some point, the Court will be asked to confront the empirical reality that it
 
 ## Cross-project connections
 
-- [Capitalism Game Maintenance](/paul/process/01-game-maintenance/) — unlimited corporate political spending is one mechanism through which winners of the economic game capture the rule-making process. Campaign finance reform is a precondition for the game-maintenance framework's transparency and competition provisions.
+- [Capitalism Game Maintenance](/ideas/01-game-maintenance/) — unlimited corporate political spending is one mechanism through which winners of the economic game capture the rule-making process. Campaign finance reform is a precondition for the game-maintenance framework's transparency and competition provisions.
 - [Representation Reform](/representation/) — competitive districts and accountable representation are less vulnerable to the effects of concentrated spending; the two reforms reinforce each other.
 - [Gambling Regulation](/paul/policy/02-gambling-regulation/) — the prediction market debate illustrates how concentrated financial interests can shape regulatory outcomes — the same dynamic that unreformed campaign finance enables.
-- [The American Experiment](/paul/process/02-american-experiment/) — the decline of civic participation is partly driven by the perception that the political system is captured by money.
+- [The American Experiment](/ideas/02-american-experiment/) — the decline of civic participation is partly driven by the perception that the political system is captured by money.
 
 ## Find the flaw
 

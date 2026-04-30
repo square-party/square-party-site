@@ -20,9 +20,9 @@ export default function(eleventyConfig) {
       });
   });
 
-  // Process & Policy collections — drive the two proposal lists on
-  // /paul/process/ and /paul/policy/. One folder per proposal under each
-  // section, with bucket-internal numbering. Sorted by `order` frontmatter.
+  // Ideas & Policy collections — drive the two proposal lists on
+  // /ideas/ and /paul/policy/. One folder per proposal under each section,
+  // with bucket-internal numbering. Sorted by `order` frontmatter.
   // Sort helper shared by both.
   const proposalSort = (a, b) => {
     const ao = a.data.order ?? 999;
@@ -31,9 +31,9 @@ export default function(eleventyConfig) {
     return (a.data.title || "").localeCompare(b.data.title || "");
   };
 
-  eleventyConfig.addCollection("processProposals", function(collectionApi) {
+  eleventyConfig.addCollection("ideas", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/paul/process/*/index.md")
+      .getFilteredByGlob("src/ideas/*/index.md")
       .sort(proposalSort);
   });
 

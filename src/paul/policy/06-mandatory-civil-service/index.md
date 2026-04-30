@@ -100,8 +100,8 @@ Countries with mandatory service report measurably different civic attitudes. Is
 
 ## Cross-project connections
 
-- [The American Experiment](/paul/process/02-american-experiment/) — mandatory service is a direct intervention in the civic disengagement that the American Experiment diagnostic identifies. It creates the shared experience the diagnostic finds missing.
-- [Capitalism Game Maintenance](/paul/process/01-game-maintenance/) — service provides cross-class exposure that undermines the social stratification the game-maintenance framework identifies as a system failure. People who have served together are harder to polarize against each other.
+- [The American Experiment](/ideas/02-american-experiment/) — mandatory service is a direct intervention in the civic disengagement that the American Experiment diagnostic identifies. It creates the shared experience the diagnostic finds missing.
+- [Capitalism Game Maintenance](/ideas/01-game-maintenance/) — service provides cross-class exposure that undermines the social stratification the game-maintenance framework identifies as a system failure. People who have served together are harder to polarize against each other.
 - [IBPHTC](/paul/policy/01-border-healthcare/) — healthcare corps service members could staff border healthcare mega-stations, creating a natural pipeline for the healthcare workforce training pillar.
 - [Asylum Law](/paul/policy/03-asylum-law/) — public administration corps members could help close the immigration-court staffing gap.
 

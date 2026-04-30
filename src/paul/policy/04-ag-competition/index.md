@@ -153,7 +153,7 @@ The primary opposition will come from the four companies whose market position t
 
 ## Cross-project connections
 
-- [Capitalism Game Maintenance](/paul/process/01-game-maintenance/) — agricultural input concentration is a textbook case of the game-maintenance problem; tying arrangements and patent overreach are how the game gets won.
+- [Capitalism Game Maintenance](/ideas/01-game-maintenance/) — agricultural input concentration is a textbook case of the game-maintenance problem; tying arrangements and patent overreach are how the game gets won.
 - [Community Kitchens and Open Table](/paul/policy/05-community-kitchens/) — the food infrastructure work pairs with this; production-side competition reform plus consumption-side community infrastructure.
 
 ## References
