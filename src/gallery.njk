@@ -1,0 +1,34 @@
+---
+layout: base.njk
+title: Gallery
+permalink: /gallery/index.html
+---
+<link rel="stylesheet" href="/assets/square-app/square-app.css">
+
+<main class="sq-page">
+  <header class="sq-page__hdr">
+    <a class="sq-page__back" href="/">← back</a>
+    <h1 class="sq-page__title">The gallery.</h1>
+    <p class="sq-page__sub">
+      Every square here was made by a real person and approved by a
+      human. <a href="/square/">Add yours.</a>
+    </p>
+  </header>
+
+  <!-- Server-rendered count for non-JS users; replaced by live count once
+       the gallery script fetches the real list. -->
+  <div class="sq-gallery__count" id="square-count">
+    <span data-count>—</span> squares
+  </div>
+
+  <div id="square-gallery" data-api-base="{{ site.apiBase }}"></div>
+
+  <noscript>
+    <p class="sq-page__noscript">
+      The gallery needs JavaScript to load the squares. Sorry.
+    </p>
+  </noscript>
+</main>
+
+<script type="module" src="/assets/square-app/square-renderer.js"></script>
+<script type="module" src="/assets/square-app/gallery.js"></script>

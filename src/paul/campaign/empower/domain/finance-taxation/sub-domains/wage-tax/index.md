@@ -4,7 +4,7 @@ title: Philadelphia Wage Tax
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: The wage tax is Philadelphia's largest own-source revenue stream. A flat 3.74% on residents, earned income only, with an income-based refund mechanism reaching about 4.5% of eligible filers.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -14,7 +14,7 @@ breadcrumbExtras:
 
 # Philadelphia Wage Tax
 
-<p class="domain-lead">The Philadelphia wage tax is the city's largest own-source revenue stream — about $1.9 billion in fiscal year 2024 — and the primary tax obligation for most PA-3 households. A flat 3.74% on residents and 3.43% on non-residents (effective July 1, 2025), the tax falls on wages, salaries, and net profits from self-employment. Capital gains, dividends, and interest are entirely excluded from the base. An income-based refund mechanism reduces the effective rate to 1.5% for filers who qualify for Pennsylvania [Schedule SP](/paul/campaign/empower/glossary/#schedule-sp) — but reaches roughly 4.5% of eligible filers, about 2,700 of an estimated 50,000.</p>
+<p class="domain-lead">The Philadelphia wage tax is the city's largest own-source revenue stream — about $1.9 billion in fiscal year 2024 — and the primary tax obligation for most PA-3 households. A flat 3.74% on residents and 3.43% on non-residents (effective July 1, 2025), the tax falls on wages, salaries, and net profits from self-employment. Capital gains, dividends, and interest are entirely excluded from the base. An income-based refund mechanism reduces the effective rate to 1.5% for filers who qualify for Pennsylvania <a href="/paul/campaign/empower/glossary/#schedule-sp">Schedule SP</a> — but reaches roughly 4.5% of eligible filers, about 2,700 of an estimated 50,000.</p>
 
 ## Legal Architecture
 

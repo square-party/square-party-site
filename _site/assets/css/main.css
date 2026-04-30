@@ -720,7 +720,8 @@ main:has(.home-hero) {
   color: var(--ink);
 }
 
-.domain-row__state {
+.domain-row__state,
+.entry-card__state {
   font-family: var(--font-ui);
   font-size: 0.62rem;
   font-weight: 600;
@@ -729,9 +730,16 @@ main:has(.home-hero) {
   padding: 0.08rem 0.4rem;
   border-radius: 3px;
 }
-.domain-row__state[data-state="published"] { color: var(--state-published); background: var(--state-published-bg); }
-.domain-row__state[data-state="in-review"] { color: var(--state-in-review); background: var(--state-in-review-bg); }
-.domain-row__state[data-state="drafting"] { color: var(--state-drafting); background: var(--state-drafting-bg); }
+.entry-card__state {
+  /* badge sits within the head-text column — give it a width that hugs the label */
+  align-self: flex-start;
+}
+.domain-row__state[data-state="published"],
+.entry-card__state[data-state="published"] { color: var(--state-published); background: var(--state-published-bg); }
+.domain-row__state[data-state="in-review"],
+.entry-card__state[data-state="in-review"] { color: var(--state-in-review); background: var(--state-in-review-bg); }
+.domain-row__state[data-state="drafting"],
+.entry-card__state[data-state="drafting"] { color: var(--state-drafting); background: var(--state-drafting-bg); }
 
 .domain-row__arrow {
   font-family: var(--font-ui);
@@ -1962,6 +1970,18 @@ main:has(.home-hero) {
 .schoolhouse-hook strong {
   color: var(--accent);
 }
+/* On wide enough viewports, float the hook to the right of the text column
+   so the surrounding prose wraps around it instead of getting pushed below.
+   Below the breakpoint it stays full-width as before. */
+@media (min-width: 900px) {
+  .schoolhouse-hook {
+    float: right;
+    width: 320px;
+    max-width: 40%;
+    margin: 0.4rem 0 1.25rem 1.75rem;
+    clear: right;
+  }
+}
 
 /* ============================================================
    TALLY PLACEHOLDER — shown when a Tally form ID is "TBD-..."
@@ -2035,4 +2055,178 @@ main:has(.home-hero) {
     height: 65vh;
     min-height: 360px;
   }
+}
+
+/* ============================================================
+   VISUAL PATTERNS — bar charts, vertical timelines, stat cards.
+   Ported from earlier prototype mockups (representation.html /
+   web_v3_draft.html). CSS-only; no JS dependencies. Use inline
+   in markdown via raw HTML.
+   ============================================================ */
+
+/* ---- Horizontal bar chart ---- */
+.bar-chart {
+  margin: 2rem 0;
+  padding: 1.5rem 1.75rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+.bar-chart__title {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin: 0 0 1.25rem;
+}
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+.bar-label {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 600;
+  width: 160px;
+  flex-shrink: 0;
+  text-align: right;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.bar-track {
+  flex: 1;
+  height: 28px;
+  background: rgba(26, 26, 46, 0.05);
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.7rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+  min-width: fit-content;
+  background: var(--ink);
+}
+.bar-fill[data-tone="accent"]      { background: var(--accent); }
+.bar-fill[data-tone="warm"]        { background: var(--accent-warm); }
+.bar-fill[data-tone="published"]   { background: var(--state-published); }
+.bar-fill[data-tone="in-review"]   { background: var(--state-in-review); }
+.bar-fill[data-tone="drafting"]    { background: var(--state-drafting); }
+.bar-note {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.85rem 0 0;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .bar-chart { padding: 1rem 1.1rem; }
+  .bar-row { flex-direction: column; align-items: stretch; gap: 0.3rem; }
+  .bar-label { width: auto; text-align: left; }
+}
+
+/* ---- Vertical timeline ---- */
+.timeline {
+  margin: 1.75rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid var(--divider);
+}
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.6rem;
+}
+.timeline-item:last-child { padding-bottom: 0; }
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.4rem;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--color-bg);
+  transform: translateX(-5px);
+  box-sizing: border-box;
+}
+.timeline-item .tl-label {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
+}
+.timeline-item .tl-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0.2rem 0 0.3rem;
+  color: var(--ink);
+}
+.timeline-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+/* ---- Stat cards (featured numbers) ---- */
+.stat-row {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin: 1.75rem 0;
+}
+.stat-card {
+  flex: 1;
+  min-width: 140px;
+  background: var(--color-card);
+  border-top: 4px solid var(--accent);
+  padding: 1.1rem 1.2rem;
+  text-align: center;
+}
+.stat-card[data-tone="published"]   { border-top-color: var(--state-published); }
+.stat-card[data-tone="in-review"]   { border-top-color: var(--state-in-review); }
+.stat-card[data-tone="drafting"]    { border-top-color: var(--state-drafting); }
+.stat-card[data-tone="warm"]        { border-top-color: var(--accent-warm); }
+.stat-card .stat-num {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--accent);
+  display: block;
+  line-height: 1.1;
+}
+.stat-card[data-tone="published"]   .stat-num { color: var(--state-published); }
+.stat-card[data-tone="in-review"]   .stat-num { color: var(--state-in-review); }
+.stat-card[data-tone="drafting"]    .stat-num { color: var(--state-drafting); }
+.stat-card[data-tone="warm"]        .stat-num { color: var(--accent-warm); }
+.stat-card .stat-label {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-top: 0.45rem;
+  display: block;
+  line-height: 1.35;
+}
+@media (max-width: 600px) {
+  .stat-row { gap: 0.7rem; }
+  .stat-card { min-width: 110px; padding: 0.85rem 0.8rem; }
+  .stat-card .stat-num { font-size: 1.35rem; }
 }

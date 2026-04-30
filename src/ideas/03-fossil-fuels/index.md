@@ -7,7 +7,7 @@ order: 3
 updated: 2026-04-26
 ---
 
-# Project 3 — Fossil Fuels
+# Idea 3 — Fossil Fuels
 
 ## Fossil fuels are finite. Therefore we must plan to stop using them. That's it. That's the argument.
 

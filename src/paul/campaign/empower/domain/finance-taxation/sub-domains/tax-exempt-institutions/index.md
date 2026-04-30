@@ -4,7 +4,7 @@ title: Tax-Exempt Institutions & PILOET
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: Penn, Temple, Drexel, Jefferson Health, UPHS, and Temple Health hold property tax exemptions worth approximately $100-200 million in foregone tax annually. Combined PILOET payments total $20-30 million.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -14,7 +14,7 @@ breadcrumbExtras:
 
 # Tax-Exempt Institutions & [PILOET](/paul/campaign/empower/glossary/#piloet)
 
-<p class="domain-lead">The University of Pennsylvania, Temple University, Drexel University, Jefferson Health / Thomas Jefferson University, the University of Pennsylvania Health System (UPHS / Penn Medicine), and Temple University Health System hold property tax exemptions constitutionally authorized by PA Article VIII §2(a)(v) and implemented through [Act 55 of 1997](/paul/campaign/empower/glossary/#act-55) (the Institutions of Purely Public Charity Act). University exemption claims for core educational activities are legally robust. Hospital exemption claims are legally more contestable under [Act 55](/paul/campaign/empower/glossary/#act-55)'s "substantial portion gratuitously" standard, given charity care percentages typically reported in the 1-5% range. The structural estimate of foregone property tax from covered institutions is $100-200 million annually; combined PILOET (Payment In Lieu Of Eligibility for Tax) payments total approximately $20-30 million. The School District of Philadelphia bears approximately 56% of the foregone tax. PILOET is voluntary — Philadelphia cannot compel payment.</p>
+<p class="domain-lead">The University of Pennsylvania, Temple University, Drexel University, Jefferson Health / Thomas Jefferson University, the University of Pennsylvania Health System (UPHS / Penn Medicine), and Temple University Health System hold property tax exemptions constitutionally authorized by PA Article VIII §2(a)(v) and implemented through <a href="/paul/campaign/empower/glossary/#act-55">Act 55 of 1997</a> (the Institutions of Purely Public Charity Act). University exemption claims for core educational activities are legally robust. Hospital exemption claims are legally more contestable under <a href="/paul/campaign/empower/glossary/#act-55">Act 55</a>'s "substantial portion gratuitously" standard, given charity care percentages typically reported in the 1-5% range. The structural estimate of foregone property tax from covered institutions is $100-200 million annually; combined PILOET (Payment In Lieu Of Eligibility for Tax) payments total approximately $20-30 million. The School District of Philadelphia bears approximately 56% of the foregone tax. PILOET is voluntary — Philadelphia cannot compel payment.</p>
 
 ## Legal Architecture
 

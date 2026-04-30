@@ -4,7 +4,7 @@ title: Tax Incentive Programs (NMTC, QOZ, HTC)
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: Three federal place-based incentive programs whose statutory benefits flow to investors. OBBBA (July 2025) made NMTC and QOZ permanent. Geographic targeting is real; community benefit is voluntary on the part of investors and CDEs.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -14,7 +14,7 @@ breadcrumbExtras:
 
 # Tax Incentive Programs (NMTC, QOZ, HTC)
 
-<p class="domain-lead">The federal place-based tax incentive programs — the [New Markets Tax Credit](/paul/campaign/empower/glossary/#nmtc) (IRC § 45D), [Opportunity Zones](/paul/campaign/empower/glossary/#qoz) (IRC §§ 1400Z-1 and 1400Z-2), and the [Historic Tax Credit](/paul/campaign/empower/glossary/#htc) (IRC § 47) — share a constitutional feature that defines them: benefits flow to investors, not to residents of designated areas. PA-3 residents in designated tracts are objects of the programs, not subjects. A census tract doesn't benefit from being designated as an Opportunity Zone any more than a building benefits from being painted red on a map. The designation makes that tract a location where investors can defer capital gains taxes (QOZ), claim a 39% federal tax credit over seven years (NMTC), or receive a 20% credit on rehabilitation expenditures (HTC). Whether anything good happens to the people who live there depends on voluntary decisions by investors. <strong>[OBBBA](/paul/campaign/empower/glossary/#obbba) (July 4, 2025) made both NMTC and QOZ permanent</strong>, materially changing each program's statutory stability rating. December 2025 Treasury reforms shifted NMTC criteria toward "lasting job creation" and increased rural allocation by 20%.</p>
+<p class="domain-lead">The federal place-based tax incentive programs — the <a href="/paul/campaign/empower/glossary/#nmtc">New Markets Tax Credit</a> (IRC § 45D), <a href="/paul/campaign/empower/glossary/#qoz">Opportunity Zones</a> (IRC §§ 1400Z-1 and 1400Z-2), and the <a href="/paul/campaign/empower/glossary/#htc">Historic Tax Credit</a> (IRC § 47) — share a constitutional feature that defines them: benefits flow to investors, not to residents of designated areas. PA-3 residents in designated tracts are objects of the programs, not subjects. A census tract doesn't benefit from being designated as an Opportunity Zone any more than a building benefits from being painted red on a map. The designation makes that tract a location where investors can defer capital gains taxes (QOZ), claim a 39% federal tax credit over seven years (NMTC), or receive a 20% credit on rehabilitation expenditures (HTC). Whether anything good happens to the people who live there depends on voluntary decisions by investors. <strong><a href="/paul/campaign/empower/glossary/#obbba">OBBBA</a> (July 4, 2025) made both NMTC and QOZ permanent</strong>, materially changing each program's statutory stability rating. December 2025 Treasury reforms shifted NMTC criteria toward "lasting job creation" and increased rural allocation by 20%.</p>
 
 ## Legal Architecture
 

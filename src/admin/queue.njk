@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Moderation queue
+permalink: /admin/queue/index.html
+eleventyExcludeFromCollections: true
+robots: noindex, nofollow
+---
+{# This page MUST be gated by Cloudflare Access — there is no other auth.
+   See INTEGRATION.md §1d. If you can read this and you didn't set up
+   Access, anyone on the internet can approve squares. Stop and fix it. #}
+
+<link rel="stylesheet" href="/assets/square-app/square-app.css">
+
+<main class="sq-page sq-admin">
+  <header class="sq-page__hdr">
+    <h1 class="sq-page__title">Moderation queue</h1>
+    <p class="sq-page__sub">
+      Pending submissions. Approve to publish to the gallery, reject to
+      remove. Both actions are logged.
+    </p>
+  </header>
+
+  <div id="admin-queue" data-api-base="{{ site.apiBase }}"></div>
+</main>
+
+<script type="module" src="/assets/square-app/square-renderer.js"></script>
+<script type="module" src="/assets/square-app/admin-queue.js"></script>

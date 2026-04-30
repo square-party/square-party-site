@@ -7,7 +7,7 @@ order: 1
 updated: 2026-04-26
 ---
 
-# Project 1 — Capitalism as a Game That Can Be Won
+# Idea 1 — Capitalism as a Game That Can Be Won
 
 <p class="domain-lead">Capitalism is a game that can be won. Not "capitalism is unfair" — that's a moral debate. Not "capitalism is broken" — that's a systems argument. Just this: the system, as currently structured, allows a player to accumulate enough wealth, market power, and political influence to exit the competitive dynamics that make the system work. Once that happens, the engine that drives capitalism's value proposition — competition, price discovery, creative destruction — slows down. The proposal here is a framework called <strong>game maintenance</strong>: the same kind of ongoing competitive-balance design that every successful league, tournament, and market already uses, applied to the actual rules of the economy.</p>
 
@@ -62,6 +62,12 @@ Mechanisms that adjust automatically as concentration rises — analogous to the
 Tier 3 is the most novel and the most politically demanding. It is also the most resilient: once the thermostat is in place, partisan oscillation matters less than the underlying metrics.
 
 ## The empirical case
+
+<aside class="layered-section layered-section--light" aria-label="Related visualization">
+<h3 style="margin-top:0">See it at scale</h3>
+<p>The standard income visualizations — pie charts, quintile bars, bell curves — fail at the one thing they need to do: convey the magnitude of the gap between the median household and the top of the distribution. Three concepts that try to fix that, with the linear-vs-log axis question made explicit:</p>
+<p><strong><a href="/income-viz/">What happens when one player wins? — three concepts for visualizing income at scale →</a></strong></p>
+</aside>
 
 The framework is meant to be tested against data. Some of the relevant series, with sources:
 

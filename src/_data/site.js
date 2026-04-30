@@ -21,6 +21,16 @@ export default {
   // when GitHub-based contribution isn't workable for someone.
   email: "paul@squareparty.org",
 
+  // Square generator (handoff/INTEGRATION.md). The frontend works against
+  // a Cloudflare Worker exposing /api/* endpoints; Turnstile validates
+  // submissions. Both must be deployed before the form will accept input.
+  // - apiBase: route the Worker is mounted at (default /api).
+  // - turnstileSiteKey: public key from Cloudflare dashboard → Turnstile.
+  //   Set to a non-empty value (placeholder OK) so the form attempts to
+  //   render the widget; replace with your real key before going live.
+  apiBase: "/api",
+  turnstileSiteKey: "REPLACE-WITH-CLOUDFLARE-TURNSTILE-SITE-KEY",
+
   // Tally form IDs (last segment of the Tally form URL).
   // Update these in one place; templates pull from site.tally.*.
   // Set a value to `null` for forms that don't exist yet — the embed partial

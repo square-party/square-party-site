@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Representation Problem</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --parchment: #f5f0e8;
+    --parchment-light: #faf7f2;
+    --accent: #b8860b;
+    --accent-warm: #d4a017;
+    --accent-muted: rgba(184,134,11,0.12);
+    --muted: #6b6b7b;
+    --divider: #d4cbb8;
+    --text: #2a2a3e;
+    --card-bg: #ffffff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--parchment);
+    color: var(--text);
+    line-height: 1.75;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== SITE NAV ===== */
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background: var(--ink);
+    border-bottom: 3px solid var(--accent);
+    padding: 0 2rem;
+  }
+
+  .site-nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+
+  .site-logo {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--parchment);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .site-nav-links {
+    display: flex;
+    gap: 0.25rem;
+    list-style: none;
+  }
+
+  .site-nav-links a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(245,240,232,0.6);
+    text-decoration: none;
+    padding: 0.5rem 0.85rem;
+    border-radius: 4px;
+    transition: color 0.2s, background 0.2s;
+  }
+
+  .site-nav-links a:hover,
+  .site-nav-links a.active {
+    color: var(--parchment);
+    background: rgba(245,240,232,0.08);
+  }
+
+  .site-nav-links .donate-link {
+    color: var(--accent-warm);
+    border: 1px solid rgba(184,134,11,0.4);
+    margin-left: 0.5rem;
+  }
+
+  .site-nav-links .donate-link:hover {
+    background: rgba(184,134,11,0.15);
+    color: var(--accent-warm);
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 6rem 2rem 5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 59px, rgba(245,240,232,0.02) 59px, rgba(245,240,232,0.02) 60px),
+      repeating-linear-gradient(90deg, transparent, transparent 59px, rgba(245,240,232,0.02) 59px, rgba(245,240,232,0.02) 60px);
+    pointer-events: none;
+  }
+
+  .hero-content { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.4rem, 5vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h1 span { color: var(--accent-warm); }
+
+  .hero-body {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    opacity: 0.85;
+    max-width: 620px;
+    margin: 0 auto 2.5rem;
+  }
+
+  .hero-cta {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink);
+    background: var(--accent-warm);
+    padding: 0.9rem 2.2rem;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .hero-cta:hover { background: #e6b422; transform: translateY(-1px); }
+
+  /* ===== SECTION NAVIGATION ===== */
+  .section-nav {
+    background: var(--parchment);
+    border-bottom: 1px solid var(--divider);
+    padding: 0 2rem;
+    position: sticky;
+    top: 56px;
+    z-index: 100;
+  }
+
+  .section-nav ul {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .section-nav a {
+    display: block;
+    padding: 0.85rem 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .section-nav a:hover,
+  .section-nav a.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* ===== MAIN CONTENT ===== */
+  main {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .chunk {
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .chunk:last-of-type { border-bottom: none; }
+
+  .chunk-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--ink);
+  }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--ink);
+  }
+
+  p { margin-bottom: 1.2rem; }
+
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.85;
+    color: var(--ink);
+  }
+
+  strong { color: var(--ink); }
+
+  /* ===== RATIO VISUAL ===== */
+  .ratio-visual {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2.5rem;
+    margin: 2rem -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .ratio-side {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .ratio-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  .ratio-dots-small {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    max-width: 120px;
+    margin: 0 auto 0.75rem;
+  }
+
+  .ratio-dots-small .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--accent-warm);
+    border-radius: 50%;
+  }
+
+  .ratio-dots-large {
+    width: 140px;
+    height: 80px;
+    margin: 0 auto 0.75rem;
+    background:
+      radial-gradient(circle 1.5px, rgba(184,134,11,0.7) 99%, transparent 100%) 0 0 / 6px 6px;
+    border-radius: 2px;
+  }
+
+  .ratio-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent-warm);
+  }
+
+  .ratio-year {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .ratio-divider {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    opacity: 0.3;
+  }
+
+  .ratio-caption {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 1rem;
+    font-style: italic;
+    width: 100%;
+  }
+
+  /* ===== ISSUE GRID ===== */
+  .issue-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 2rem 0;
+  }
+
+  .issue-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.45rem 0.9rem;
+    background: var(--card-bg);
+    border: 1px solid var(--divider);
+    border-radius: 3px;
+    color: var(--text);
+    transition: border-color 0.2s, background 0.2s;
+    cursor: default;
+  }
+
+  .issue-tag:hover {
+    border-color: var(--accent);
+    background: var(--accent-muted);
+  }
+
+  /* ===== FLOW DIAGRAM ===== */
+  .flow-diagram {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background: var(--parchment-light);
+    border: 1px solid var(--divider);
+  }
+
+  .flow-step {
+    text-align: center;
+    padding: 1.2rem 0.75rem;
+    background: var(--card-bg);
+    border: 1px solid var(--divider);
+    border-top: 3px solid var(--accent);
+  }
+
+  .flow-step .flow-icon {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  .flow-step p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+
+  .flow-arrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--accent);
+    text-align: center;
+  }
+
+  .flow-caption {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 600px) {
+    .flow-diagram {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .flow-arrow { transform: rotate(90deg); padding: 0.3rem 0; }
+  }
+
+  /* ===== BAR CHART ===== */
+  .bar-chart {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--parchment-light);
+    border: 1px solid var(--divider);
+  }
+
+  .bar-chart-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+  }
+
+  .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .bar-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    width: 130px;
+    flex-shrink: 0;
+    text-align: right;
+    color: var(--ink);
+  }
+
+  .bar-track {
+    flex: 1;
+    height: 32px;
+    background: rgba(0,0,0,0.04);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    transition: width 0.8s ease-out;
+  }
+
+  .bar-fill.current { background: var(--ink); width: 4%; }
+  .bar-fill.cuberoot { background: var(--accent); width: 6.3%; }
+  .bar-fill.original { background: var(--accent-warm); width: 100%; }
+
+  .bar-fill .bar-number {
+    position: absolute;
+    right: -3.5rem;
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .bar-note {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  /* ===== TIER DIAGRAM ===== */
+  .tier-diagram {
+    margin: 2.5rem 0;
+  }
+
+  .tier {
+    padding: 1.5rem 2rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid var(--divider);
+    background: var(--card-bg);
+  }
+
+  .tier.highlight {
+    border-left-color: var(--accent);
+    background: var(--accent-muted);
+  }
+
+  .tier-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tier h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .tier .tier-meta {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .tier p {
+    font-size: 0.95rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+  }
+
+  .tier-arrow {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    color: var(--muted);
+    padding: 0.25rem 0;
+  }
+
+  .tier-annotation {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* ===== EVIDENCE CARDS ===== */
+  .evidence-cards {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .evidence-card {
+    background: var(--card-bg);
+    border: 1px solid var(--divider);
+    padding: 1.5rem;
+    border-left: 4px solid var(--accent);
+  }
+
+  .evidence-card .stat {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+
+  .evidence-card p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .evidence-card .source {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    color: var(--accent);
+    margin-top: 0.4rem;
+    display: block;
+  }
+
+  /* ===== CTA / SIGN UP ===== */
+  .cta-block {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 3.5rem 2.5rem;
+    margin: 3rem -1rem 0;
+    text-align: center;
+  }
+
+  .cta-block h2 {
+    color: var(--parchment);
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+  }
+
+  .cta-block p {
+    opacity: 0.8;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink);
+    background: var(--accent-warm);
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .cta-button:hover { background: #e6b422; transform: translateY(-1px); }
+
+  .cta-note {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    opacity: 0.5;
+    margin-top: 1rem;
+  }
+
+  /* ===== PLACEHOLDER SECTIONS ===== */
+  .section-placeholder {
+    padding: 5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .section-placeholder h2 {
+    color: var(--muted);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-placeholder p {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 3rem 2rem;
+  }
+
+  .footer-inner {
+    max-width: 740px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .footer-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    opacity: 0.5;
+  }
+
+  .footer-donate {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    color: var(--accent-warm);
+    text-decoration: none;
+    border: 1px solid rgba(184,134,11,0.4);
+    padding: 0.5rem 1.2rem;
+    border-radius: 3px;
+    transition: background 0.2s;
+  }
+
+  .footer-donate:hover { background: rgba(184,134,11,0.15); }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 600px) {
+    .site-nav-links { gap: 0; }
+    .site-nav-links a { padding: 0.5rem 0.5rem; font-size: 0.7rem; }
+    .ratio-visual { flex-direction: column; gap: 1.5rem; padding: 2rem 1.5rem; }
+    .ratio-divider { transform: rotate(90deg); }
+    .bar-label { width: 80px; font-size: 0.75rem; }
+    .cta-block { margin: 3rem 0 0; padding: 3rem 1.5rem; }
+    .section-nav a { padding: 0.75rem 0.75rem; font-size: 0.72rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== SITE NAVIGATION ===== -->
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a href="#" class="site-logo">The Representation Problem</a>
+    <ul class="site-nav-links">
+      <li><a href="#representation" class="active">Representation</a></li>
+      <li><a href="#convention">Convention</a></li>
+      <li><a href="#redesign">Redesign</a></li>
+      <li><a href="#about">About</a></li>
+      <!-- DONATION LINK: Replace # with your Venmo link, e.g. https://venmo.com/yourusername -->
+      <li><a href="#" class="donate-link" target="_blank" rel="noopener">Support This</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="representation">
+  <div class="hero-content">
+    <h1>Representation: <span>Start Now</span></h1>
+    <p class="hero-body">
+      Any elected representative — or anyone running for office — can start building a more representative
+      government <strong>right now</strong>, without changing a single law.
+    </p>
+    <p class="hero-body">
+      Everyone says the government is broken. But you wouldn't let a mechanic replace your engine without
+      looking under the hood first. Before we fix anything, we need to understand how government is actually
+      working — and the only way to do that is to hear from you. Not pundits. Not lobbyists. <em>You.</em>
+    </p>
+    <a href="#signup" class="hero-cta">Sign Up to Speak</a>
+  </div>
+</header>
+
+<!-- ===== SECTION NAV ===== -->
+<nav class="section-nav">
+  <ul>
+    <li><a href="#numbers">The Numbers</a></li>
+    <li><a href="#missing-piece">You're the Missing Piece</a></li>
+    <li><a href="#practice">In Practice</a></li>
+    <li><a href="#more-reps">More Representatives</a></li>
+    <li><a href="#assembly">People's Assembly</a></li>
+    <li><a href="#evidence">Evidence</a></li>
+    <li><a href="#signup">Sign Up</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ===== CHUNK 1: THE NUMBERS DON'T WORK ===== -->
+  <section class="chunk" id="numbers">
+    <div class="chunk-label">The Foundation</div>
+    <h2>The Numbers Don't Work</h2>
+
+    <p class="lead">
+      When the Constitution was written, one member of Congress represented about 30,000 people. George
+      Washington thought that number was already too high — it was the only thing he spoke up about during
+      the entire Constitutional Convention.
+    </p>
+
+    <p>Today, one House member represents roughly 761,000 people.</p>
+
+    <p>
+      That's not a partisan problem. It's a math problem. No human being can meaningfully understand the
+      needs, priorities, and daily realities of three-quarters of a million people. It doesn't matter how
+      talented or well-intentioned they are. The information load is simply beyond what one person can
+      process across dozens of policy areas. Your representative is not failing you because they're corrupt
+      or lazy — they're failing you because <strong>the job is structurally impossible at this scale.</strong>
+    </p>
+
+    <!-- Ratio Visual -->
+    <div class="ratio-visual">
+      <div class="ratio-side">
+        <span class="ratio-icon">🧑‍⚖️</span>
+        <div class="ratio-dots-small">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="ratio-number">1 : 30,000</div>
+        <div class="ratio-year">1790</div>
+      </div>
+
+      <div class="ratio-divider">→</div>
+
+      <div class="ratio-side">
+        <span class="ratio-icon">🧑‍⚖️</span>
+        <div class="ratio-dots-large"></div>
+        <div class="ratio-number">1 : 761,000</div>
+        <div class="ratio-year">Today</div>
+      </div>
+
+      <p class="ratio-caption">The job hasn't scaled. The country has.</p>
+    </div>
+  </section>
+
+  <!-- ===== CHUNK 2: YOU'RE THE MISSING PIECE ===== -->
+  <section class="chunk" id="missing-piece">
+    <div class="chunk-label">The Core Ask</div>
+    <h2>You're the Missing Piece</h2>
+
+    <p>
+      Here's what most reform proposals get wrong: they start with the fix. More seats in Congress. New
+      districts. New rules. But that skips the most important step — actually understanding what people need.
+    </p>
+
+    <p>
+      The government is supposed to represent the will of the people. That means it's supposed to be guided,
+      directed, and maintained by the people. Right now, your representative probably doesn't know what you
+      think about housing policy, or water infrastructure, or how federal education funding affects your
+      kids' school. Not because they don't care. Because there's no system for asking you, and no system
+      for listening to 761,000 answers.
+    </p>
+
+    <p>
+      We want to build that system. And it starts with something simple:
+      <strong>organizing people around the issues they actually care about.</strong>
+    </p>
+
+    <p>
+      We're not asking you to become an activist or join a movement. We're asking you to raise your hand
+      on one thing — one issue, one area where you have an opinion or some experience — and let your voice
+      be counted. That's it. That's the foundation.
+    </p>
+
+    <!-- Issue Grid -->
+    <div class="issue-grid">
+      <span class="issue-tag">Healthcare</span>
+      <span class="issue-tag">Housing</span>
+      <span class="issue-tag">Education (K–12)</span>
+      <span class="issue-tag">Higher Education</span>
+      <span class="issue-tag">Climate & Environment</span>
+      <span class="issue-tag">Criminal Justice</span>
+      <span class="issue-tag">Immigration</span>
+      <span class="issue-tag">Labor & Wages</span>
+      <span class="issue-tag">Veterans' Affairs</span>
+      <span class="issue-tag">Technology & Privacy</span>
+      <span class="issue-tag">Agriculture & Food</span>
+      <span class="issue-tag">Infrastructure</span>
+      <span class="issue-tag">Tax Policy</span>
+      <span class="issue-tag">Small Business</span>
+      <span class="issue-tag">Social Security</span>
+      <span class="issue-tag">Disability Rights</span>
+      <span class="issue-tag">Foreign Policy</span>
+      <span class="issue-tag">Energy</span>
+      <span class="issue-tag">Gun Policy</span>
+      <span class="issue-tag">Childcare & Family</span>
+      <span class="issue-tag">Tribal & Indigenous</span>
+      <span class="issue-tag">Voting Access</span>
+      <span class="issue-tag">Civil Rights</span>
+      <span class="issue-tag">National Debt</span>
+      <span class="issue-tag">Trade & Tariffs</span>
+    </div>
+  </section>
+
+  <!-- ===== CHUNK 3: WHAT THIS LOOKS LIKE IN PRACTICE ===== -->
+  <section class="chunk" id="practice">
+    <div class="chunk-label">The Proposal</div>
+    <h2>What This Looks Like in Practice</h2>
+
+    <p>
+      Picture your congressional district divided not by geography, but by what people care about. Twenty to
+      thirty groups, each organized around a policy area — healthcare, housing, education, criminal justice,
+      agriculture, energy, veterans' affairs, and so on. Each group has a coordinator. Each coordinator's job
+      is simple: collect opinions from the people in that group before any relevant vote or proposal, and make
+      sure the representative sees the results.
+    </p>
+
+    <p>
+      This isn't hypothetical. This is how politics used to work at the local level in America. Before the
+      professionalization of campaigns, ward leaders and precinct captains knew their neighbors and carried
+      their concerns directly to elected officials. The structure worked — what failed was the incentive
+      system around it, not the idea of local organization itself.
+    </p>
+
+    <p>
+      The modern version is better. We have tools the ward captains didn't: surveys that take two minutes
+      on your phone, platforms that can map where opinion clusters and where it divides, and transparency
+      tools that let everyone see the results. A representative who adopts this model doesn't just
+      <em>claim</em> to represent their district. They can <em>show</em> it — with data, in real time.
+    </p>
+
+    <p>
+      <strong>Any sitting representative or any candidate can do this tomorrow.</strong> No new laws. No
+      constitutional amendments. No permission from anyone. Just a decision to actually ask the people what
+      they think, organized well enough that the answers are useful.
+    </p>
+
+    <!-- Flow Diagram -->
+    <div class="flow-diagram">
+      <div class="flow-step">
+        <span class="flow-icon">✋</span>
+        <p>You sign up for an issue area</p>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">📋</span>
+        <p>Before a vote, you get a short survey</p>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">📊</span>
+        <p>Your representative sees the results</p>
+      </div>
+      <p class="flow-caption">That's it. That's the whole system at the starting level.</p>
+    </div>
+  </section>
+
+  <!-- ===== CHUNK 4: MORE REPRESENTATIVES ===== -->
+  <section class="chunk" id="more-reps">
+    <div class="chunk-label">The Structural Argument</div>
+    <h2>But We Actually Need More Representatives</h2>
+
+    <p>
+      Organizing within existing districts is the starting point, not the destination. Even with perfect
+      constituent feedback, one person still can't do the job of meaningful representation for 761,000 people.
+    </p>
+
+    <p>
+      The United States House of Representatives has had 435 members since 1929. That number wasn't chosen
+      because it's the right size for a democracy. It was frozen in place because rural states in the 1920s
+      didn't want to lose seats to fast-growing cities after the Census. That's it. The cap is a political
+      accident that's almost a hundred years old.
+    </p>
+
+    <p>
+      Political scientists who study legislatures around the world have found that effective representative
+      bodies tend to grow with population — specifically, they tend to follow a "cube root" pattern, where
+      the legislature is roughly the cube root of the country's population. For the U.S. today, that math
+      points to somewhere around 650 to 700 members. Not 10,000. Not 3,000. A few hundred more than we have now.
+    </p>
+
+    <p>
+      That's a modest change with enormous consequences. Smaller districts mean representatives who can
+      actually know their communities. It means more voices in the room when policy gets made. And it means
+      the constituent organizing system described above gets even more powerful — because the groups are
+      smaller, the feedback loops are tighter, and the connection between citizens and their government gets real.
+    </p>
+
+    <!-- Bar Chart -->
+    <div class="bar-chart">
+      <div class="bar-chart-title">House Seats: Current vs. What the Math Says</div>
+
+      <div class="bar-row">
+        <span class="bar-label">Current (435)</span>
+        <div class="bar-track">
+          <div class="bar-fill current" style="width: 4%; min-width: 50px;">435</div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <span class="bar-label">Cube Root (~690)</span>
+        <div class="bar-track">
+          <div class="bar-fill cuberoot" style="width: 6.3%; min-width: 70px;">~690</div>
+        </div>
+      </div>
+
+      <div class="bar-row">
+        <span class="bar-label">Original Ratio</span>
+        <div class="bar-track">
+          <div class="bar-fill original">~11,000</div>
+        </div>
+      </div>
+
+      <p class="bar-note">Most democracies are near their cube root. The U.S. is one of the furthest below.</p>
+    </div>
+  </section>
+
+  <!-- ===== CHUNK 5: PEOPLE'S ASSEMBLY ===== -->
+  <section class="chunk" id="assembly">
+    <div class="chunk-label">The Bigger Vision</div>
+    <h2>The People's Assembly</h2>
+
+    <p>
+      Even 700 House members won't bring representation back to the scale the founders intended. To do
+      that — to create a layer of government where your representative actually knows your neighborhood —
+      you'd need something new.
+    </p>
+
+    <p>
+      One version of that idea: a People's Assembly. Not a replacement for Congress, but a layer beneath it.
+      Think of it as a formalized, permanent version of the constituent organizing system — built into the
+      structure of government rather than depending on the goodwill of individual representatives.
+    </p>
+
+    <p>
+      Representatives in the People's Assembly would each serve roughly 100,000 constituents — about the size
+      of a small city or a few towns. That's approximately 3,300 members nationwide. They would serve short
+      terms — one or two years — to stay close to the people they represent. They'd handle issues that most
+      directly affect daily life: local infrastructure, housing, education funding, community services. Most
+      of their work would happen through digital platforms, with periodic in-person assemblies.
+    </p>
+
+    <p>
+      The key structural feature: all legislation would pass through the People's Assembly as a "first
+      reading" before reaching the House. Not as a veto — as a filter. A way of making sure that the people
+      who will be affected by a law have had a structured opportunity to weigh in before it moves forward.
+    </p>
+
+    <p>
+      This isn't Congress 2.0. It's closer to a national version of the New England town meeting — one of
+      the oldest democratic traditions in America. The difference is scale, and the tools to make it work
+      at scale now exist.
+    </p>
+
+    <!-- Tier Diagram -->
+    <div class="tier-diagram">
+      <div class="tier">
+        <div class="tier-header">
+          <h4>Senate</h4>
+          <span class="tier-meta">100 members · state-level representation</span>
+        </div>
+      </div>
+      <div class="tier-arrow">↑ legislation flows upward</div>
+      <div class="tier">
+        <div class="tier-header">
+          <h4>House of Representatives</h4>
+          <span class="tier-meta">~650–700 members · district-level</span>
+        </div>
+      </div>
+      <div class="tier-arrow">↑ first reading passes upward</div>
+      <div class="tier highlight">
+        <div class="tier-header">
+          <h4>People's Assembly</h4>
+          <span class="tier-meta">~3,300 members · community-level</span>
+        </div>
+        <p>Short terms. Digital deliberation. Closest to you. <strong>That's the point.</strong></p>
+      </div>
+      <p class="tier-annotation">You're closest to the bottom layer. That's by design.</p>
+    </div>
+  </section>
+
+  <!-- ===== CHUNK 6: EVIDENCE ===== -->
+  <section class="chunk" id="evidence">
+    <div class="chunk-label">The Evidence</div>
+    <h2>This Has Been Tried — and It Works</h2>
+
+    <p>
+      The idea of giving citizens a structured voice in policy isn't new, and it isn't foreign. American
+      cities have been doing versions of this for years. Participatory budgeting, citizens' assemblies, and
+      structured deliberation have been tested in real governments, with real results. The consistent finding:
+      when you give regular people real information and real deliberation time, they produce thoughtful,
+      nuanced policy recommendations — often more thoughtful than what legislatures produce, because the
+      participants aren't performing for donors or media.
+    </p>
+
+    <div class="evidence-cards">
+      <div class="evidence-card">
+        <div class="stat">$240M+</div>
+        <p>Allocated by New York City residents through participatory budgeting since 2011.</p>
+        <span class="source">NYC Civic Engagement Commission</span>
+      </div>
+      <div class="evidence-card">
+        <div class="stat">1,500+ cities</div>
+        <p>Worldwide have used some form of participatory budgeting.</p>
+        <span class="source">Sintomer, Herzberg & Röcke, 2008; updated estimates</span>
+      </div>
+      <div class="evidence-card">
+        <div class="stat">Higher-quality deliberation</div>
+        <p>Citizens' assemblies consistently produce more nuanced policy recommendations than standard legislative processes.</p>
+        <span class="source">OECD, Innovative Citizen Participation, 2020</span>
+      </div>
+    </div>
+
+    <p>
+      The tools exist. The evidence exists. What's missing is the decision to use them — and that decision
+      can start with one representative, one candidate, or one district that decides to try.
+    </p>
+  </section>
+
+  <!-- ===== CHUNK 7: SIGN UP ===== -->
+  <section class="chunk" id="signup">
+    <div class="cta-block">
+      <h2>Pick an Issue. Raise Your Hand.</h2>
+      <p>
+        We'll ask for your name, your zip code, and one issue you care about.
+        That's it. Takes about 90 seconds.
+      </p>
+
+      <!--
+        =====================================================
+        TALLY FORM INTEGRATION
+        =====================================================
+        Replace the URL below with your actual Tally form URL.
+        To get it:
+        1. Create your form at tally.so
+        2. Publish it
+        3. Copy the share URL (e.g., https://tally.so/r/abc123)
+        4. Replace YOUR_TALLY_FORM_ID below
+
+        Option A: Link button (sends people to Tally)
+        Option B: Embed (shows form inline — uncomment the iframe below)
+        =====================================================
+      -->
+
+      <!-- Option A: Link to Tally form -->
+      <a href="https://tally.so/r/YOUR_TALLY_FORM_ID" target="_blank" rel="noopener" class="cta-button">
+        Sign Up to Speak →
+      </a>
+
+      <!-- Option B: Embed Tally form inline (uncomment to use instead of button)
+      <iframe
+        data-tally-src="https://tally.so/embed/YOUR_TALLY_FORM_ID?alignLeft=1&hideTitle=1&transparentBackground=1"
+        loading="lazy"
+        width="100%"
+        height="500"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Sign Up to Speak"
+        style="border-radius: 4px; max-width: 500px;"
+      ></iframe>
+      <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s)}</script>
+      -->
+
+      <p class="cta-note">We don't sell your data. We don't share it with advertisers. This is civic infrastructure.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== PLACEHOLDER SECTIONS (for future content) ===== -->
+<div id="convention" class="section-placeholder">
+  <h2>The Convention Question</h2>
+  <p>Coming soon — why structural reform requires paths outside ordinary legislation.</p>
+</div>
+
+<div id="redesign" class="section-placeholder">
+  <h2>A Ground-Up Redesign</h2>
+  <p>Coming soon — tripartite at three levels.</p>
+</div>
+
+<div id="about" class="section-placeholder">
+  <h2>About This Project</h2>
+  <p>Coming soon.</p>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-inner">
+    <span class="footer-text">All proposals are public domain. The Representation Problem, 2026.</span>
+    <!-- DONATION LINK: Replace # with your Venmo link -->
+    <a href="#" class="footer-donate" target="_blank" rel="noopener">Support This Project</a>
+  </div>
+</footer>
+
+<script>
+  // Section nav active state tracking
+  const chunks = document.querySelectorAll('.chunk');
+  const sectionLinks = document.querySelectorAll('.section-nav a');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        sectionLinks.forEach(link => link.classList.remove('active'));
+        const id = entry.target.getAttribute('id');
+        const activeLink = document.querySelector(`.section-nav a[href="#${id}"]`);
+        if (activeLink) activeLink.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-30% 0px -70% 0px' });
+
+  chunks.forEach(chunk => observer.observe(chunk));
+</script>
+
+</body>
+</html>

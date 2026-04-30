@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The American Experiment — A Project in Democratic Infrastructure</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --parchment: #f5f0e8;
+    --parchment-dark: #e8e0d0;
+    --accent: #8b2500;
+    --accent-light: #c4440a;
+    --muted: #6b6b7b;
+    --divider: #d4cbb8;
+    --highlight: #fef3c7;
+    --section-bg: #faf7f2;
+    --section2-accent: #2d5a3d;
+    --section2-accent-light: #3d7a52;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--parchment);
+    color: var(--ink);
+    line-height: 1.7;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---- HEADER / HERO ---- */
+  header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    background: var(--ink);
+    color: var(--parchment);
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(245,240,232,0.03) 39px, rgba(245,240,232,0.03) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(245,240,232,0.03) 39px, rgba(245,240,232,0.03) 40px);
+    pointer-events: none;
+  }
+
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+    color: var(--parchment); /* FLAG-COLOR: explicit declaration added */
+    animation: fadeSlideUp 1s ease-out both;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--accent-light);
+  }
+
+  .hero-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    font-weight: 400;
+    max-width: 640px;
+    margin: 1.5rem auto 2.5rem;
+    opacity: 0.8; /* FLAG-OPACITY: ends at 0.8, confirm intentional */
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+    color: var(--parchment);
+    animation: fadeIn 1s ease-out 0.4s both;
+  }
+
+  .hero-stat-row {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    animation: fadeIn 1s ease-out 0.7s both; /* FLAG-OPACITY: same */
+  }
+
+  .hero-stat { text-align: center; }
+
+  .hero-stat .number {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--accent-light);
+    display: block;
+  }
+
+  .hero-stat .label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    opacity: 0.6;
+  }
+
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 0.8; }
+  }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: 0.4;
+    animation: pulse 2s ease-in-out infinite;
+    z-index: 1;
+    color: var(--parchment);
+  }
+
+  .scroll-hint::after {
+    content: '↓';
+    display: block;
+    text-align: center;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.7; }
+  }
+
+  /* ---- NAVIGATION ---- */
+  nav {
+    position: sticky;
+    top: 0;
+    background: var(--parchment);
+    border-bottom: 2px solid var(--ink);
+    z-index: 100;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-width: max-content;
+  }
+
+  nav li { text-align: center; }
+
+  nav a {
+    display: block;
+    padding: 0.85rem 0.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 0.2s, border-color 0.2s;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+  }
+
+  nav a:hover, nav a.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  nav a.s2 { color: var(--section2-accent); }
+  nav a.s2:hover, nav a.s2.active {
+    color: var(--section2-accent);
+    border-bottom-color: var(--section2-accent);
+  }
+
+  /* ---- MAIN CONTENT ---- */
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  section {
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  section:last-of-type { border-bottom: none; }
+
+  .section-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--accent);
+    opacity: 0.15;
+    line-height: 1;
+    margin-bottom: -1.2rem;
+  }
+
+  .section-number.s2 { color: var(--section2-accent); }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+    color: var(--ink);
+  }
+
+  .section-tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .section-tagline.s2 { color: var(--section2-accent); }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--ink);
+  }
+
+  p { margin-bottom: 1.2rem; color: #2a2a3e; }
+
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--ink);
+    font-weight: 300;
+  }
+
+  /* ---- PART DIVIDER ---- */
+  .part-divider {
+    background: var(--ink);
+    color: var(--parchment);
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 0 -2rem;
+    position: relative;
+  }
+
+  .part-divider.s2 { background: var(--section2-accent); }
+
+  .part-divider h2 {
+    color: var(--parchment);
+    margin-bottom: 0.5rem;
+  }
+
+  .part-divider p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--parchment);
+    opacity: 0.7;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* ---- CALLOUT ---- */
+  .callout {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1.8rem 2rem;
+    margin: 2rem 0;
+    position: relative;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .callout::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: var(--accent);
+  }
+
+  .callout.s2::before { background: var(--section2-accent); }
+
+  /* ---- EVIDENCE BLOCK ---- */
+  .evidence-block {
+    background: var(--section-bg);
+    border: 1px solid var(--divider);
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+  }
+
+  .evidence-block .evidence-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .evidence-block p {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .evidence-block p:last-child { margin-bottom: 0; }
+
+  /* Citation text inside evidence blocks */
+  .evidence-block small {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    color: var(--muted);
+    display: block;
+    margin-top: 0.2rem;
+  }
+
+  /* ---- STAT ROW ---- */
+  .stat-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+
+  .stat-card {
+    flex: 1;
+    min-width: 140px;
+    max-width: 200px;
+    background: white;
+    border-top: 4px solid var(--accent);
+    padding: 1.2rem;
+    text-align: center;
+  }
+
+  .stat-card.s2 { border-top-color: var(--section2-accent); }
+
+  .stat-card .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--accent);
+    display: block;
+  }
+
+  .stat-card.s2 .stat-num { color: var(--section2-accent); }
+
+  .stat-card .stat-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-top: 0.3rem;
+  }
+
+  /* ---- TRIPARTITE GRID ---- */
+  .tripartite-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  @media (min-width: 640px) {
+    .tripartite-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .tri-card {
+    background: white;
+    border-top: 4px solid var(--accent);
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .tri-card.s2 { border-top-color: var(--section2-accent); }
+
+  .tri-card .tri-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .tri-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .tri-card p {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  /* ---- PATHWAY CARDS ---- */
+  .pathway-card {
+    background: white;
+    border: 2px solid var(--divider);
+    padding: 1.8rem;
+    margin: 1.5rem 0;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+
+  .pathway-card:hover { border-color: var(--accent); }
+
+  .pathway-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .pathway-card p { font-size: 0.95rem; }
+
+  /* ---- FIX CARD ---- */
+  .fix-card {
+    background: white;
+    border-left: 4px solid var(--section2-accent);
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+  }
+
+  .fix-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .fix-card .fix-problem {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .fix-card p { font-size: 0.95rem; }
+
+  /* ---- TIMELINE ---- */
+  .timeline {
+    margin: 2rem 0;
+    padding-left: 2rem;
+    border-left: 3px solid var(--divider);
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-bottom: 1.8rem;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.4rem;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 3px solid var(--parchment);
+    transform: translateX(-5px);
+  }
+
+  .timeline-item .tl-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .timeline-item .tl-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.2rem 0 0.3rem;
+  }
+
+  .timeline-item p { font-size: 0.95rem; margin: 0; }
+
+  /* ---- THE DARE ---- */
+  .dare {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2.5rem;
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+
+  .dare p {
+    color: var(--parchment);
+    font-style: italic;
+    font-size: 1.1rem;
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  /* ---- DONATE BUTTON ---- */
+  .donate-btn {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--parchment) !important;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.75rem 1.75rem;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  .donate-btn:hover { background: var(--accent-light); }
+  .donate-btn.s2 { background: var(--section2-accent); }
+  .donate-btn.s2:hover { background: var(--section2-accent-light); }
+
+  /* ---- FOOTER ---- */
+  footer {
+    background: var(--ink);
+    color: var(--parchment);
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 3rem;
+  }
+
+  footer .footer-tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    opacity: 0.5;
+    color: var(--parchment);
+    margin-bottom: 0.5rem;
+  }
+
+  footer .donate-btn {
+    margin-top: 1.5rem;
+    opacity: 1;
+  }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 600px) {
+    nav ul { justify-content: flex-start; padding: 0 0.5rem; }
+    nav a { font-size: 0.65rem; padding: 0.7rem 0.5rem; letter-spacing: 0.04em; }
+    .hero-stat-row { gap: 1.5rem; }
+    .callout { padding: 1.5rem; }
+    section { padding: 3rem 0 2rem; }
+    .part-divider { margin: 0 -2rem; padding: 2rem 2rem; }
+    .stat-row { gap: 0.8rem; }
+    .stat-card { min-width: 110px; padding: 1rem 0.8rem; }
+    .stat-card .stat-num { font-size: 1.4rem; }
+    main { padding: 0 1.25rem; }
+    .evidence-block { padding: 1.2rem; }
+    .fix-card { padding: 1.2rem; }
+    .pathway-card { padding: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header>
+  <div class="hero-title">The Reins Are <em>Loose</em></div>
+  <p class="hero-subtitle">
+    The American Experiment was designed to be run by its citizens. Sixty years of data suggest 
+    they've stopped running it. This project asks whether the experiment can be revived — and 
+    proposes structural answers.
+  </p>
+  <div class="hero-stat-row">
+    <div class="hero-stat">
+      <span class="number">17%</span>
+      <span class="label">Trust the Federal<br>Government (2025)</span>
+    </div>
+    <div class="hero-stat">
+      <span class="number">1:761k</span>
+      <span class="label">Representative-to-<br>Constituent Ratio</span>
+    </div>
+    <div class="hero-stat">
+      <span class="number">$18.3T</span>
+      <span class="label">Global Billionaire<br>Wealth (2025)</span>
+    </div>
+    <div class="hero-stat">
+      <span class="number">47 yrs</span>
+      <span class="label">Oil Reserves at<br>Current Rates</span>
+    </div>
+  </div>
+  <div class="scroll-hint">Read More</div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <ul>
+    <li><a href="#experiment">The Experiment</a></li>
+    <li><a href="#representation">Representation</a></li>
+    <li><a href="#capitalism">The Game</a></li>
+    <li><a href="#fossil" class="s2">Fossil Fuels</a></li>
+    <li><a href="#asylum" class="s2">Asylum</a></li><!-- FLAG-NAV-ASYLUM -->
+    <li><a href="#kitchens" class="s2">Kitchens</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- PART I DIVIDER -->
+<div class="part-divider" style="margin-top:0;">
+  <h2>Part I — The Big Ideas</h2>
+  <p>Structural diagnosis. What broke, why it broke, and frameworks for repair.</p>
+</div>
+
+<!-- SECTION: THE AMERICAN EXPERIMENT -->
+<section id="experiment">
+  <div class="section-number">§</div>
+  <h2>The American Experiment</h2>
+  <div class="section-tagline">Did we stop running it?</div>
+
+  <p class="lead">
+    An experiment requires three things: a hypothesis, a method, and someone paying attention 
+    to the results. The United States was founded as all three. The hypothesis was that ordinary 
+    people could govern themselves. The method was constitutional democracy. And the experimenters 
+    were the citizens themselves.
+  </p>
+
+  <p>
+    Trust in the federal government has declined from 77% in 1964 to 17% as of September 2025 
+    (Pew Research Center). This is a sixty-year secular trend that has persisted through every 
+    administration, every economic cycle, every war and peace. It is structural.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card">
+      <span class="stat-num">77%</span>
+      <span class="stat-label">Trusted Gov't<br>1964</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">17%</span>
+      <span class="stat-label">Trust Gov't<br>2025</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">52%</span>
+      <span class="stat-label">Young Adults<br>Low Trust</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">68%</span>
+      <span class="stat-label">Believe Vote<br>Matters</span>
+    </div>
+  </div>
+
+  <p>
+    Among young adults aged 18–24, the most-cited barrier to participation is not apathy but 
+    <em>feeling uninformed</em>. 80% of those who score high on civic knowledge plan to engage 
+    civically, versus only 40% of those who score low. Knowledge isn't just correlated with 
+    participation — it's a prerequisite.
+  </p>
+
+  <div class="callout">
+    The founders didn't promise us a good government. They gave us the tools to build one 
+    and said <em>your turn.</em> The experiment isn't over. It's just not being run.
+  </div>
+
+  <h3>Four Forces Behind the Drift</h3>
+
+  <p>
+    <strong>The complexity barrier.</strong> Democracy accumulated complexity as it tried to solve 
+    complex problems — raising the barrier to participation until most people couldn't meaningfully 
+    participate. The experiment generated conditions that excluded the experimenters.
+  </p>
+
+  <p>
+    <strong>The incentive structure.</strong> Safe seats reward ideological intensity over governance 
+    competence. Media rewards conflict over deliberation. Campaign finance shifts the relevant 
+    constituency from voters to donors.
+  </p>
+
+  <p>
+    <strong>The identity trap.</strong> Political identity shifted from "what I want the government to do" 
+    to "who I am." When politics is identity, compromise is betrayal and the other side isn't wrong — 
+    they're <em>bad</em>.
+  </p>
+
+  <p>
+    <strong>Manufactured disengagement.</strong> Voter suppression, gerrymandering, underfunded civic 
+    education, and disinformation campaigns are deliberate strategies to reduce participation. Not all 
+    of the drift is emergent. Some of it is being steered.
+  </p>
+
+  <h3>The Opening</h3>
+
+  <p>
+    The data shows that people are disconnected, not opposed. 68% of young adults believe their vote 
+    matters. 51% describe themselves as near the ideological middle. 61% don't identify with either 
+    major party. This is a population that has given up on the <em>current implementation</em> of 
+    self-governance — not the idea itself. The raw material for re-engagement exists. The question is 
+    whether the system can be redesigned to make engagement meaningful.
+  </p>
+
+  <p>Two projects follow from this diagnosis. Each addresses a different dimension of the structural problem.</p>
+</section>
+
+<!-- SECTION: REPRESENTATION REFORM -->
+<section id="representation">
+  <div class="section-number">I</div>
+  <h2>The Map Is the Territory</h2>
+  <div class="section-tagline">The representation problem — and what to do about it</div>
+
+  <p class="lead">
+    George Washington used his only substantive intervention at the Constitutional Convention to 
+    argue for <em>more</em> representation. Today each House member serves 761,000 constituents. 
+    The House was frozen at 435 in 1929 — not as democratic theory, but because rural states 
+    blocked reapportionment.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card">
+      <span class="stat-num">435</span>
+      <span class="stat-label">House Members<br>Since 1929</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">~690</span>
+      <span class="stat-label">Cube Root Law<br>Prediction</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">~11,000</span>
+      <span class="stat-label">At the Founders'<br>Ratio</span>
+    </div>
+  </div>
+
+  <p>
+    Political scientist Rein Taagepera observed that effective legislatures worldwide scale as the 
+    cube root of their population. For the U.S., that predicts ~690 members. The gap between what 
+    we have and what representation requires is not marginal. It is structural.
+  </p>
+
+  <h3>Three Sequential Proposals</h3>
+
+  <div class="pathway-card">
+    <h4>I. Constituent Organizing — Start Now</h4>
+    <p>
+      Any candidate subdivides their district into 20–30 issue-based constituent groups, each with 
+      a volunteer coordinator. When policy questions arise, constituents respond to short surveys. 
+      The representative publishes accountability reports showing what constituents said, how they 
+      voted, and why. No new laws required.
+    </p>
+  </div>
+
+  <div class="pathway-card">
+    <h4>II. The Convention Question</h4>
+    <p>
+      People with power don't dilute their own power. Article V's convention mechanism — never used 
+      but close several times — offers a pathway for structural reform that Congress has no incentive 
+      to pursue itself. Three approaches: a limited convention with pre-ratification safeguards, a 
+      shadow convention as proof of concept, or an amendment-first strategy that establishes 
+      procedural rules before invoking the mechanism.
+    </p>
+  </div>
+
+  <div class="pathway-card">
+    <h4>III. A Ground-Up Redesign</h4>
+    <p>
+      Tripartite at three levels. Three executives (Administrator, Diplomat, Arbiter — modeled on 
+      the Swiss Federal Council and Roman consuls). Three legislatures (Senate, House, and a new 
+      People's Assembly at 1:100,000). Three judiciaries (Case Law, Arbitration, External Affairs 
+      — modeled on the French and German systems). Every precedent has been tested. Some for centuries.
+    </p>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="tl-label">Immediate</span>
+      <div class="tl-title">Constituent Organizing</div>
+      <p>Proof of concept. Any candidate, any district.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tl-label">1–3 Years</span>
+      <div class="tl-title">Shadow Convention</div>
+      <p>Build public trust in the mechanism.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tl-label">5–15 Years</span>
+      <div class="tl-title">Convention Call</div>
+      <p>34 state legislatures.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tl-label">15–30 Years</span>
+      <div class="tl-title">Ratification</div>
+      <p>38 states agree.</p>
+    </div>
+  </div>
+
+  <p>
+    Each step reduces the risk of the next. No step requires faith — only evidence from the step before.
+  </p>
+</section>
+
+<!-- SECTION: CAPITALISM -->
+<section id="capitalism">
+  <div class="section-number">II</div>
+  <h2>Capitalism Is a Game That Can Be Won</h2>
+  <div class="section-tagline">And a won game is a dead game</div>
+
+  <p class="lead">
+    Capitalism, as currently structured, permits a win state — a point at which a player has 
+    accumulated so much capital, market control, and political influence that they've exited 
+    the competitive dynamics that make the system function. They're not playing the game anymore. 
+    They've won it.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card">
+      <span class="stat-num">$18.3T</span>
+      <span class="stat-label">Billionaire<br>Wealth (2025)</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">+81%</span>
+      <span class="stat-label">Since<br>2020</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">40%</span>
+      <span class="stat-label">S&amp;P 500 in<br>Top 10 Stocks</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">~50%</span>
+      <span class="stat-label">Born '80s Out-earn<br>Parents</span>
+    </div>
+  </div>
+
+  <p>
+    Every successful competitive system has solved this problem. The NFL shares revenue and caps 
+    salaries — not to punish great teams, but because a league where one team wins every year is 
+    a league no one watches. The result: the most profitable sports league on Earth.
+  </p>
+
+  <div class="callout">
+    Rules are not anti-game. Rules <em>are</em> the game. Without them, you don't have 
+    competition — you have a parking lot fight.
+  </div>
+
+  <h3>Game Maintenance: Five Principles</h3>
+
+  <div class="tripartite-grid">
+    <div class="tri-card">
+      <div class="tri-icon">⚖</div>
+      <h4>Dynamic Balancing</h4>
+      <p>Rules that respond to conditions like a thermostat. Tie regulatory intensity to concentration metrics.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">🔄</div>
+      <h4>Competition Preservation</h4>
+      <p>Antitrust for the networked age. Prevent dominance in one domain from converting to dominance everywhere.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">🏗</div>
+      <h4>Game Infrastructure</h4>
+      <p>Education, healthcare, broadband — not welfare, but the court the game is played on.</p>
+    </div>
+  </div>
+
+  <div class="tripartite-grid" style="margin-top:0;">
+    <div class="tri-card">
+      <div class="tri-icon">🔍</div>
+      <h4>Transparency</h4>
+      <p>In poker, you can bluff. You can't mark the cards. Full lobbying disclosure, algorithmic accountability.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">📊</div>
+      <h4>Scorecard Expansion</h4>
+      <p>Supplement GDP with game-health metrics. A scoreboard that only tracks the winner isn't a scoreboard.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">🤝</div>
+      <h4>Non-Partisan</h4>
+      <p>"Is the game still playable?" doesn't ask whether you lean left or right. It asks if you want the system to work.</p>
+    </div>
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- FLAG-NEXTGAME: Everything below this line through the   -->
+  <!-- closing </h3> "A Framework for the Next Game" is new    -->
+  <!-- original writing. Please review carefully.              -->
+  <!-- ======================================================= -->
+
+  <h3>The Next Game</h3>
+
+  <p>
+    Every competitive system that has lasted eventually faced a question its designers didn't 
+    anticipate: <em>what do you do when someone actually wins?</em> Chess has checkmate. Football 
+    seasons end. Monopoly — the board game — ends when one player holds everything and the others 
+    go home.
+  </p>
+
+  <p>
+    American capitalism was not designed to end. It was built before anyone could actually win — 
+    before a single entity could hold more wealth than most nations, before capital could compound 
+    automatically, generating returns independent of what its owner builds, produces, or contributes 
+    to the market.
+  </p>
+
+  <p>
+    We've entered territory the designers never mapped. We have, for the first time in history, 
+    clear winners — not people doing exceptionally well at the game, but people who have 
+    functionally <em>exited</em> it. Whose wealth is self-generating. Who no longer need to 
+    compete, innovate, or respond to market pressure the way everyone else does.
+  </p>
+
+  <div class="callout">
+    This isn't a moral failure of the winners. It's a design gap. We built a marathon with 
+    no finish line — and no plan for when someone laps the field and keeps running.
+  </div>
+
+  <h3>What History Did With Its Winners</h3>
+
+  <div class="evidence-block">
+    <div class="evidence-label">Three Historical Models</div>
+    <p>
+      <strong>Noblesse oblige.</strong> European aristocracies operated on the premise that great 
+      wealth carried great obligation — to maintain the village, fund the commons, keep 
+      infrastructure functional. It failed because the obligation was voluntary, and voluntarism 
+      fails at scale. But the underlying logic wasn't wrong: wealth is downstream of a functional 
+      society. The winner has a direct stake in maintaining what they won within.
+    </p>
+    <p>
+      <strong>The Carnegie principle.</strong> "The man who dies rich dies disgraced." Accumulation 
+      was acceptable. Perpetual hoarding was not. Carnegie built 2,509 libraries. He was also a 
+      ruthless monopolist who violently suppressed his workers. The model is morally incomplete — 
+      but the core premise, that winning creates obligation to the game itself, is worth serious 
+      examination.
+    </p>
+    <p>
+      <strong>The Norwegian model.</strong> When Norway struck oil, the government asked: who does 
+      this belong to? The answer was everyone, including people not yet born. The result is the 
+      Government Pension Fund Global — one of the largest sovereign wealth funds in the world — 
+      held in trust for future generations. Norway designed the next game before the first one ended.
+      <!-- FLAG-NORWAY: Add verified current fund value here -->
+    </p>
+  </div>
+
+  <h3>A Framework for the Next Game</h3>
+
+  <p>
+    The next game doesn't require philanthropy or redistribution in the pejorative sense. It can 
+    be structured as a logical continuation — a higher level of play, where the challenge shifts 
+    from accumulation to stewardship. Not punishment. The next level.
+  </p>
+
+  <div class="tripartite-grid">
+    <div class="tri-card">
+      <div class="tri-icon">🏆</div>
+      <h4>Win Recognition</h4>
+      <p>When capital becomes self-sustaining independent of competition, the rules shift. Like an athlete who earns a spot on the coaching staff — same game, different role.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">🌱</div>
+      <h4>Stewardship Mode</h4>
+      <p>The winner's new objective: maintain the conditions that made winning possible. Competitive markets. A playable field. A functional commons the next entrant can actually enter.</p>
+    </div>
+    <div class="tri-card">
+      <div class="tri-icon">🔁</div>
+      <h4>Regenerative Design</h4>
+      <p>Sovereign wealth structures, public endowments, investment in game infrastructure. These tools already exist in capitalism's own history. They're the rules of the next level.</p>
+    </div>
+  </div>
+
+  <p>
+    A game that can only be won once isn't a game — it's a heist. The most pro-capitalist 
+    position available is to design the next level before the current one collapses under the 
+    weight of its own winners.
+  </p>
+
+  <!-- end FLAG-NEXTGAME section -->
+
+  <div class="dare">
+    <p>
+      Nothing here requires the abolition of private property or state ownership. Every mechanism 
+      already exists in capitalism's own history. The most pro-capitalist thing you can do is keep 
+      the game alive.
+    </p>
+  </div>
+</section>
+
+<!-- PART II DIVIDER -->
+<div class="part-divider s2">
+  <h2>Part II — From Theory to Practice</h2>
+  <p>Three concrete proposals. A finite resource. A broken system. A kitchen table.</p>
+</div>
+
+<!-- SECTION: FOSSIL FUELS -->
+<section id="fossil">
+  <div class="section-number s2">III</div>
+  <h2>The Math Is the Math</h2>
+  <div class="section-tagline s2">Fossil fuels are finite. Plan accordingly.</div>
+
+  <p class="lead">
+    This is not an argument about climate change. It is an argument about arithmetic. Fossil 
+    fuels exist in measurable, finite quantities. When they're burned, they're gone. They do not 
+    regenerate on any timescale relevant to human civilization.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card s2">
+      <span class="stat-num">~47 yrs</span>
+      <span class="stat-label">Oil at Current<br>Consumption</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">50–60 yrs</span>
+      <span class="stat-label">Natural Gas<br>Reserves</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">70–100+ yrs</span>
+      <span class="stat-label">Coal<br>Reserves</span>
+    </div>
+  </div>
+
+  <p>
+    These numbers have caveats — in both directions. New reserves may be discovered. Consumption 
+    is rising, not stable. But no caveat changes the core fact: the number is not infinity. It is 
+    a specific, finite, measurable quantity.
+  </p>
+
+  <div class="callout s2">
+    If a resource is finite, and you depend on it, and no substitute is deployed at scale, then 
+    at some point you face a crisis. The only variable is whether it's planned or unplanned.
+  </div>
+
+  <p>
+    The entire argument rests on three facts and one inference. <strong>Fact 1:</strong> Fossil fuels 
+    are finite. <strong>Fact 2:</strong> We depend on them. <strong>Fact 3:</strong> No adequate 
+    replacement is currently deployed at scale. <strong>Inference:</strong> We need a plan.
+  </p>
+
+  <p>
+    If you disagree, identify which fact is wrong. Not exaggerated. Wrong. The essay doesn't 
+    prescribe a specific plan — it prescribes the commitment to planning, organized around five 
+    principles: acknowledge the timeline, invest while the current system works, protect affected 
+    communities, use current revenue to fund the transition, and measure and adapt.
+  </p>
+
+  <p>
+    The answer to "when do we start planning?" has never, in the history of resource management, 
+    been "later."
+  </p>
+</section>
+
+<!-- SECTION: ASYLUM — FLAG-ASYLUM-TITLE: renamed from "The Gray Area" -->
+<section id="asylum">
+  <div class="section-number s2">IV</div>
+  <h2>An Honest Discussion</h2>
+  <!-- FLAG-ASYLUM-TAGLINE: updated from "Asylum law says one thing. The system does another." -->
+  <div class="section-tagline s2">What the law says. What the system does.</div>
+
+  <!-- FLAG-ASYLUM-LAW: New legal definitions block. Direct quotes from statutes,
+       treaty, and Supreme Court. Legal review recommended before publishing. -->
+  <div class="evidence-block">
+    <div class="evidence-label">The Law — Definitions &amp; Sources</div>
+
+    <p><strong>U.S. Law — Definition of Refugee</strong><br>
+    "...any person who is outside any country of such person's nationality...and who is unable 
+    or unwilling to return to, and is unable or unwilling to avail himself or herself of the 
+    protection of, that country because of persecution or a well-founded fear of persecution 
+    on account of <em>race, religion, nationality, membership in a particular social group, 
+    or political opinion.</em>"
+    <small>Immigration and Nationality Act § 101(a)(42)(A) / 8 U.S.C. § 1101(a)(42)(A)</small></p>
+
+    <p><strong>U.S. Law — Right to Apply</strong><br>
+    "Any alien who is physically present in the United States or who arrives in the United States 
+    (whether or not at a designated port of arrival and including an alien who is brought to the 
+    United States after having been interdicted in international or United States waters), 
+    irrespective of such alien's status, may apply for asylum..."
+    <small>INA § 208(a)(1) / 8 U.S.C. § 1158(a)(1)</small></p>
+
+    <p><strong>International Law — Definition of Refugee</strong><br>
+    A refugee is any person who, "owing to well-founded fear of being persecuted for reasons of 
+    race, religion, nationality, membership of a particular social group or political opinion, is 
+    outside the country of his nationality and is unable or, owing to such fear, is unwilling to 
+    avail himself of the protection of that country."
+    <small>1951 Convention Relating to the Status of Refugees, Art. 1A(2), United Nations</small></p>
+
+    <p><strong>International Law — Non-Refoulement</strong><br>
+    "No Contracting State shall expel or return ('refouler') a refugee in any manner whatsoever 
+    to the frontiers of territories where his life or freedom would be threatened on account of 
+    his race, religion, nationality, membership of a particular social group or political opinion."
+    <small>1951 Refugee Convention, Art. 33(1). The U.S. acceded to the 1967 Protocol (which 
+    incorporates the 1951 definition) in 1968. <!-- FLAG-1968: verify date --></small></p>
+
+    <p><strong>Standard of Proof — Supreme Court</strong><br>
+    The Court held that "well-founded fear" requires only a reasonable possibility of 
+    persecution — as low as a 10% probability. This is intentionally lower than the "clear 
+    probability" standard required for withholding of removal.
+    <small>INS v. Cardoza-Fonseca, 480 U.S. 421 (1987)</small></p>
+  </div>
+
+  <p class="lead">
+    The United States has a law that says anyone physically present may apply for asylum. It has 
+    a system that takes 4.3 years to decide. It has 557 judges for 3.8 million cases. The law 
+    says cases should be resolved in six months.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card s2">
+      <span class="stat-num">3.8M</span>
+      <span class="stat-label">Pending<br>Cases</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">557</span>
+      <span class="stat-label">Immigration<br>Judges</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">4.3 yrs</span>
+      <span class="stat-label">Average<br>Wait Time</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">180 days</span>
+      <span class="stat-label">Statutory<br>Requirement</span>
+    </div>
+  </div>
+
+  <p>
+    This is not primarily a debate about who should be allowed into the country. It is a question 
+    about whether the government should do what the law says. If the law is wrong, Congress should 
+    change it honestly — not leave the executive to override it through administrative action.
+  </p>
+
+  <h3>Seven Structural Fixes</h3>
+
+  <div class="fix-card">
+    <h4>1. Statutory Right to Hearing</h4>
+    <div class="fix-problem">Problem: Judges instructed to dismiss cases without hearings.</div>
+    <p>No asylum application dismissed without an evidentiary hearing, unless voluntarily withdrawn.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>2. Court Independence</h4>
+    <div class="fix-problem">Problem: Immigration judges are DOJ employees subject to political directives.</div>
+    <p>Establish an independent Article I court, modeled on the U.S. Tax Court. Fixed terms. Removable only for cause.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>3. Mandatory Staffing Floors</h4>
+    <div class="fix-problem">Problem: Judge count dropped from 735 to 557 while caseload grew.</div>
+    <p>Require a minimum judge-to-case ratio (e.g., 1:1,500). Mandatory appropriations when exceeded.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>4. Processing Timeline Enforcement</h4>
+    <div class="fix-problem">Problem: 180-day requirement is unenforceable.</div>
+    <p>If not adjudicated within 365 days, applicants receive automatic work authorization. Incentivize efficiency.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>5. Nationality-Blind Processing</h4>
+    <div class="fix-problem">Problem: Categorical bars based on country of origin, not individual assessment.</div>
+    <p>Eligibility determined by individual circumstances. No executive-imposed nationality-based bars without congressional authorization.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>6. Fee Reform</h4>
+    <div class="fix-problem">Problem: Mandatory annual fees on applicants who can't work.</div>
+    <p>Waive fees below 200% poverty level. Eliminate recurring fees. One-time filing fee only.</p>
+  </div>
+
+  <div class="fix-card">
+    <h4>7. Credible Fear Codification</h4>
+    <div class="fix-problem">Problem: Standard fluctuates with each administration.</div>
+    <p>Codify "significant possibility" at ≥10% probability, consistent with INS v. Cardoza-Fonseca (1987).</p>
+  </div>
+
+  <p>
+    The core question: should reform bring the system into alignment with the law that exists, or 
+    should Congress amend the law to match the system that has emerged? Which is more honest? 
+    Which is more functional?
+  </p>
+</section>
+
+<!-- SECTION: COMMUNITY KITCHENS -->
+<section id="kitchens">
+  <div class="section-number s2">V</div>
+  <h2>Community Kitchen &amp; Open Table Act</h2>
+  <div class="section-tagline s2">Rebuilding the social infrastructure around food</div>
+
+  <p class="lead">
+    When people can't afford to eat well, they don't just lose nutrition — they lose access to 
+    one of the most basic human activities: sitting down to a shared meal. Eating together is how 
+    communities form. It's how cooking knowledge passes between generations. It's how neighbors 
+    become something more than strangers.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-card s2">
+      <span class="stat-num">13.7%</span>
+      <span class="stat-label">U.S. Households<br>Food Insecure</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">18.3M</span>
+      <span class="stat-label">Households<br>Affected</span>
+    </div>
+    <div class="stat-card s2">
+      <span class="stat-num">30–40%</span>
+      <span class="stat-label">Food Supply<br>Wasted</span>
+    </div>
+  </div>
+
+  <p>
+    Existing programs address food <em>access</em> (SNAP, WIC, food banks) and food <em>availability</em> 
+    (Healthy Food Financing Initiative). Neither addresses the social and educational infrastructure 
+    that makes access translate into good nutritional outcomes — what the WHO calls food 
+    <em>utilization</em>.
+  </p>
+
+  <h3>Three Components</h3>
+
+  <div class="tripartite-grid">
+    <div class="tri-card s2">
+      <div class="tri-icon">👨‍🍳</div>
+      <h4>Cooking Education</h4>
+      <p>Free classes in budget-conscious meal prep, nutritional literacy, food safety, and cultural foodways.</p>
+    </div>
+    <div class="tri-card s2">
+      <div class="tri-icon">🍽</div>
+      <h4>Open Table Dinners</h4>
+      <p>Twice-monthly community dinners. RSVP-based with 10% planned surplus. Communal seating. Not a soup kitchen — a dinner party.</p>
+    </div>
+    <div class="tri-card s2">
+      <div class="tri-icon">🏪</div>
+      <h4>Shared Kitchen Access</h4>
+      <p>Subsidized commercial kitchen space for food entrepreneurs. Business incubator at marginal cost.</p>
+    </div>
+  </div>
+
+  <div class="callout s2">
+    The "not a soup kitchen" framing is essential. Communal seating. Social time. Cultural menus. 
+    No solicitation of payment. The goal is a community dinner, not a charity meal — because the 
+    social function of shared meals is destroyed when the experience is reduced to standing in 
+    line for a tray.
+  </div>
+
+  <div class="evidence-block">
+    <div class="evidence-label">Federal Investment</div>
+    <p>
+      $150 million per year supports 100–125 community kitchens annually, or 500–625 over the 
+      authorization period. A modest investment relative to the $100+ billion annual SNAP budget. 
+      The program builds physical and social infrastructure that outlasts the grant period.
+    </p>
+  </div>
+
+  <p>
+    Eligible grantees include municipal governments, nonprofits, Tribal governments, school 
+    districts, and houses of worship. The 20% match can include in-kind contributions. Annual 
+    reporting covers attendance, food waste metrics, kitchen utilization, and sourcing data.
+  </p>
+
+  <p>
+    This is what positive-sum policy looks like: a program that feeds people, teaches skills, 
+    reduces waste, incubates businesses, and rebuilds community — all from the same investment.
+  </p>
+</section>
+
+<!-- SECTION: ABOUT — FLAG-ABOUT: placeholder, Paul to complete -->
+<section id="about">
+  <div class="section-number s2">VI</div>
+  <h2>About This Project</h2>
+  <div class="section-tagline s2">The project. The person. The case for getting involved.</div>
+
+  <p class="lead">
+    [Introduce yourself here — who you are, your background, and what motivated this project.]
+  </p>
+
+  <p>
+    [Describe what you hope visitors take away, what actions you want them to consider, 
+    and how they can follow the project as it grows.]
+  </p>
+
+  <h3>A Note on This Work</h3>
+
+  <p>
+    Every proposal on this site is public domain. Use them, adapt them, share them. 
+    The goal is better systems, not attribution.
+  </p>
+
+  <div class="callout s2">
+    "Find the part of that logic that breaks." That's the invitation. Not agreement — 
+    engagement. If something here is wrong, the right response is to say so clearly and 
+    explain why.
+  </div>
+
+  <h3>Support This Work</h3>
+
+  <p>
+    This project has no institutional funding, no advertising, and no corporate backing. 
+    If it's useful to you, consider supporting it directly.
+  </p>
+
+  <!-- FLAG-VENMO: replace [YOUR-VENMO-HANDLE] with your Venmo username before publishing -->
+  <a href="https://venmo.com/[YOUR-VENMO-HANDLE]"
+     class="donate-btn s2"
+     target="_blank"
+     rel="noopener noreferrer">
+    Support via Venmo ↗
+  </a>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-tagline">"Find the part of that logic that breaks."</div>
+  <p>A project in democratic infrastructure. All proposals are public domain.</p>
+  <!-- FLAG-VENMO: same placeholder — replace before publishing -->
+  <a href="https://venmo.com/[YOUR-VENMO-HANDLE]"
+     class="donate-btn"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="opacity:1;">
+    Support via Venmo ↗
+  </a>
+</footer>
+
+<!-- SCRIPTS -->
+<script>
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('nav a');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => link.classList.remove('active'));
+        const id = entry.target.getAttribute('id');
+        const activeLink = document.querySelector(`nav a[href="#${id}"]`);
+        if (activeLink) activeLink.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -60% 0px' });
+
+  sections.forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>

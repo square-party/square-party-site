@@ -1,0 +1,31 @@
+{
+  "sectionNav": {
+    "label": "Food & Medicine",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/food-medicine/"
+      },
+      {
+        "label": "Neighbors",
+        "href": "/paul/campaign/empower/domain/food-medicine/neighbors/"
+      },
+      {
+        "label": "Sub-Domains",
+        "href": "/paul/campaign/empower/domain/food-medicine/sub-domains/"
+      },
+      {
+        "label": "Recent Changes",
+        "href": "/paul/campaign/empower/domain/food-medicine/recent-changes/"
+      },
+      {
+        "label": "The Gaps",
+        "href": "/paul/campaign/empower/domain/food-medicine/gaps/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@ title: State and Federal Burden Distribution
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: The synthesis sub-domain. Federal and state tax instruments above the Philadelphia-specific layer, and how all the layers compound for a PA-3 household.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -16,7 +16,7 @@ breadcrumbExtras:
 
 <p class="domain-tag">The synthesis sub-domain</p>
 
-<p class="domain-lead">Six sub-domains analyze specific instruments. This one steps back. It covers the federal and state instruments above the Philadelphia-specific layer — [FICA](/paul/campaign/empower/glossary/#fica), federal income tax post-[OBBBA](/paul/campaign/empower/glossary/#obbba), the Pennsylvania flat 3.07% personal income tax, the 8% Philadelphia sales tax — and synthesizes how all the layers compound for an actual PA-3 household. A warehouse worker in Haddington at $32,000 with one qualifying child pays roughly 16-17% of gross earnings in tax before her federal refund arrives — across five separate tax systems administered separately, with no single statement showing her total obligation. ITEP's 7th Edition <em>Who Pays?</em> documents that Pennsylvania's lowest-income 20% pay 15.1% of income in combined state and local taxes — the highest rate on low-income families of any state. PA-3, with household incomes concentrated in the lower quintiles, sits at the sharp end of that distribution.</p>
+<p class="domain-lead">Six sub-domains analyze specific instruments. This one steps back. It covers the federal and state instruments above the Philadelphia-specific layer — <a href="/paul/campaign/empower/glossary/#fica">FICA</a>, federal income tax post-<a href="/paul/campaign/empower/glossary/#obbba">OBBBA</a>, the Pennsylvania flat 3.07% personal income tax, the 8% Philadelphia sales tax — and synthesizes how all the layers compound for an actual PA-3 household. A warehouse worker in Haddington at $32,000 with one qualifying child pays roughly 16-17% of gross earnings in tax before her federal refund arrives — across five separate tax systems administered separately, with no single statement showing her total obligation. ITEP's 7th Edition <em>Who Pays?</em> documents that Pennsylvania's lowest-income 20% pay 15.1% of income in combined state and local taxes — the highest rate on low-income families of any state. PA-3, with household incomes concentrated in the lower quintiles, sits at the sharp end of that distribution.</p>
 
 ## Legal Architecture
 

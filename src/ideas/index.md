@@ -12,8 +12,17 @@ These cut across specific domains and campaigns. They differ from the [Policy Ar
 
 State indicators describe drafting state, not importance. *Drafting* means a substantive draft exists. *In review* means ready for outside scrutiny. *Planned* would be a slot identified but not yet written.
 
-{% set proposalsList = collections.ideas %}
-{% include "partials/proposals-list.njk" %}
+<div class="standard-row" id="ideas-grid">
+{%- for idea in collections.ideas -%}
+{%- set state = idea.data.state or "planned" -%}
+{%- if state == "published" %}{% set stateLabel = "Published" %}{% elif state == "in-review" %}{% set stateLabel = "Ready for review" %}{% elif state == "drafting" %}{% set stateLabel = "Drafting" %}{% else %}{% set stateLabel = "Planned" %}{% endif -%}
+<a class="entry-card" href="{{ idea.url }}">
+<div class="entry-card__head"><span class="entry-card__head-text"><span class="entry-card__title">{{ idea.data.title }}</span>{% if state != "planned" %}<span class="entry-card__state" data-state="{{ state }}">{{ stateLabel }}</span>{% endif %}</span></div>
+<span class="entry-card__desc">{{ idea.data.description }}</span>
+<span class="entry-card__cta">Read the essay →</span>
+</a>
+{%- endfor -%}
+</div>
 
 ## How to engage
 

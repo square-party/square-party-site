@@ -4,7 +4,7 @@ title: Philadelphia Property Tax
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: Combined 2025 millage 1.3998%. Homestead Exemption raised to $100,000. The 2025 OPA revaluation increased the average single-family bill by approximately $330. The residential share of property tax burden rose from 71% to 75% between 2022 and 2024.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -14,7 +14,7 @@ breadcrumbExtras:
 
 # Philadelphia Property Tax
 
-<p class="domain-lead">The combined 2025 millage rate is 1.3998% (0.6159% city + 0.7839% school district), producing approximately $2.05 billion across the city and the School District of Philadelphia. The [Homestead Exemption](/paul/campaign/empower/glossary/#homestead-exemption) was raised to $100,000 in 2025 (up from $80,000), saving roughly $1,399 a year for owner-occupants who apply — but reaches about 237,000 of an estimated 344,000 eligible owner-occupied homes, leaving a take-up gap of approximately 107,000 households. The [Longtime Owner Occupants Program](/paul/campaign/empower/glossary/#loop) (LOOP) caps assessment growth for residents who meet appreciation, tenure, and income tests; LOOP enrollment data is not publicly reported. Documented research (Lincoln Institute; Christopher Berry, 2021; Pew Charitable Trusts, 2024) finds Philadelphia's low-value homes assessed at systematically higher ratios than high-value homes — a uniformity violation hiding inside formal compliance.</p>
+<p class="domain-lead">The combined 2025 millage rate is 1.3998% (0.6159% city + 0.7839% school district), producing approximately $2.05 billion across the city and the School District of Philadelphia. The <a href="/paul/campaign/empower/glossary/#homestead-exemption">Homestead Exemption</a> was raised to $100,000 in 2025 (up from $80,000), saving roughly $1,399 a year for owner-occupants who apply — but reaches about 237,000 of an estimated 344,000 eligible owner-occupied homes, leaving a take-up gap of approximately 107,000 households. The <a href="/paul/campaign/empower/glossary/#loop">Longtime Owner Occupants Program</a> (LOOP) caps assessment growth for residents who meet appreciation, tenure, and income tests; LOOP enrollment data is not publicly reported. Documented research (Lincoln Institute; Christopher Berry, 2021; Pew Charitable Trusts, 2024) finds Philadelphia's low-value homes assessed at systematically higher ratios than high-value homes — a uniformity violation hiding inside formal compliance.</p>
 
 ## Legal Architecture
 

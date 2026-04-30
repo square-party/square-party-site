@@ -4,7 +4,7 @@ title: Finance & Taxation
 shortTitle: Finance & Tax
 saveable: true
 savedContext: "Empower · Finance & Taxation"
-state: drafting
+state: in-review
 cluster: C
 order: 3
 description: Tax policy, public finance, banking regulation, the fiscal architecture across federal, state, and local layers.

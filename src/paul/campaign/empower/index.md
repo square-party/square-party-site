@@ -16,17 +16,39 @@ Policy proposals are out of scope on these analytical pages. They get generated 
 
 The framework — domains as topical seats of a People's Assembly — is the Square Party-level idea this project applies in one place. [Express interest in any of the topical seats →](/square-party/assembly/#express-interest)
 
+## Start here — domains with content
+
+<div class="standard-row" id="domains-with-content">
+{%- for stateOrder in ["published", "in-review", "drafting"] -%}
+{%- for domain in collections.domains -%}
+{%- if (domain.data.state or "planned") == stateOrder -%}
+{%- if stateOrder == "published" %}{% set stateLabel = "Published" %}{% elif stateOrder == "in-review" %}{% set stateLabel = "Ready for review" %}{% else %}{% set stateLabel = "Drafting" %}{% endif -%}
+<a class="entry-card" href="{{ domain.url }}">
+<div class="entry-card__head"><span class="entry-card__head-text"><span class="entry-card__title">{{ domain.data.title }}</span><span class="entry-card__state" data-state="{{ stateOrder }}">{{ stateLabel }}</span></span></div>
+<span class="entry-card__desc">{{ domain.data.description }}</span>
+<span class="entry-card__cta">Open the analysis →</span>
+</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+</div>
+
 ## The twenty-six domains, in PA-3
 
 State indicators describe analytical state, not domain importance. *Published* domains have verified PA-3 content. *In review* is drafted but unchecked. *Drafting* is research underway. *Planned* is scaffolded, not yet researched. The honest current state: one domain is being adapted from a separate research document; the rest are scaffolded and await contributors.
 
 {% include "partials/domain-card-grid.njk" %}
 
-## PA-3 reference
+## Tools & references
 
-A descriptive map of every park, recreation center, pool, playground, trail, and community garden inside PA-3 (and a 2-mile buffer). Live-fetched from OpenDataPhilly. Used by several domain analyses as a shared reference.
+**A descriptive map of every park, recreation center, pool, playground, trail, and community garden inside PA-3** (and a 2-mile buffer). Live-fetched from OpenDataPhilly. Used by several domain analyses as a shared reference.
 
-[Open the parks & open space map →](/paul/campaign/empower/parks/)
+[Open the parks &amp; open space map →](/paul/campaign/empower/parks/)
+
+**What happens when one player wins?** Three concepts for visualizing income distribution at scale: the bell-curve myth drawn to scale, real-income-growth-by-percentile-band over time, and a physical-metaphor view (football field vs. house). Useful for thinking about the distributional findings in [Finance &amp; Taxation](/paul/campaign/empower/domain/finance-taxation/).
+
+[Open the income visualizations →](/income-viz/)
+
 
 {% include "partials/help-block.njk" %}
 

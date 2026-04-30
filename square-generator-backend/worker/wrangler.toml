@@ -1,0 +1,24 @@
+name = "square-generator"
+main = "src/index.ts"
+compatibility_date = "2026-04-01"
+
+# Route to your domain so the page can hit /api/* same-origin.
+# Replace yoursite.com with your actual domain.
+[[routes]]
+pattern = "yoursite.com/api/*"
+zone_name = "yoursite.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "squares"
+database_id = "REPLACE_ME_WITH_d1_create_OUTPUT"
+
+[vars]
+# Tunable knobs. Override per-environment with --var on deploy if needed.
+RATE_LIMIT_WINDOW_SECONDS = "3600"     # 1 hour
+RATE_LIMIT_MAX_PER_WINDOW = "1"        # 1 submission per IP per hour
+GALLERY_PAGE_SIZE = "60"
+ALLOW_ORIGINS = "https://yoursite.com" # comma-separated; CORS allowlist
+
+# Secrets (set with `wrangler secret put`):
+#   TURNSTILE_SECRET   — Cloudflare Turnstile secret key

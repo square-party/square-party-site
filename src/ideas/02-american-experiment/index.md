@@ -7,7 +7,7 @@ order: 2
 updated: 2026-04-26
 ---
 
-# Project 2 — American Experiment
+# Idea 2 — American Experiment
 
 ## On the American Experiment, its abandonment, and whether it can be revived
 

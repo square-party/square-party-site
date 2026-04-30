@@ -16,8 +16,10 @@ The party's square is empty on purpose. What goes inside is whatever each member
   </div>
 
   <div class="home-hero__visual">
-    <img src="/assets/svg/party-square.svg" class="home-hero__square" alt="The party's square — an empty frame awaiting your four corners">
-    <p class="home-hero__caption">The party's square. Empty on purpose.</p>
+    <a href="/square/" class="home-hero__square-link" aria-label="Make your square — open the square generator">
+      <img src="/assets/svg/party-square.svg" class="home-hero__square" alt="The party's square — an empty frame awaiting your four corners">
+    </a>
+    <p class="home-hero__caption">The party's square. Empty on purpose. <a href="/square/">Make yours →</a></p>
   </div>
 </div>
 

@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects.
+# Format: <from>  <to>  <status>  (whitespace-separated)
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# /paul/process/ moved to /ideas/ on 2026-04-29.
+/paul/process              /ideas/                   301
+/paul/process/             /ideas/                   301
+/paul/process/*            /ideas/:splat             301

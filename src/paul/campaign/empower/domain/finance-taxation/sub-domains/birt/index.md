@@ -4,7 +4,7 @@ title: Business Income & Receipts Tax (BIRT)
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: A gross-receipts-plus-net-income tax structurally unusual among major U.S. cities. 2025 rates 0.141% gross + 5.71% net. The $100,000 exemption was eliminated for Tax Year 2025. Phase-out runs to 2039.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }

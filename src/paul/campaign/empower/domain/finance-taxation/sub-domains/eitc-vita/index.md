@@ -4,7 +4,7 @@ title: EITC, VITA, and the new state credit (WPTC)
 saveable: true
 savedContext: "Finance & Taxation · Sub-Domain"
 description: The federal EITC has high statutory stability and high administrative-delivery vulnerability. Pennsylvania enacted its first state EITC — the Working Pennsylvanians Tax Credit, at 10% of federal — in November 2025.
-state: drafting
+state: in-review
 updated: 2026-04-25
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
@@ -14,7 +14,7 @@ breadcrumbExtras:
 
 # EITC, [VITA](/paul/campaign/empower/glossary/#vita), and the new state credit (WPTC)
 
-<p class="domain-lead">The federal Earned Income Tax Credit (IRC § 32) is often described as the most effective anti-poverty program in the United States. In aggregate, this is accurate — it lifted approximately 4.4 million people above the poverty line in 2024, including 2.3 million children. For a specific PA-3 family that has never filed a federal return, the EITC is worth zero. The credit's statutory stability is high; its administrative-delivery vulnerability is also high. About 1 in 5 eligible filers nationally do not claim. Pennsylvania enacted its first state EITC — the <strong>[Working Pennsylvanians Tax Credit](/paul/campaign/empower/glossary/#wptc)</strong>, at 10% of the federal credit (up to $805) — on November 12, 2025. After 54 years without one, Pennsylvania joined 31 states plus DC. The state credit is automatic via PA-40 filing for anyone who claims federal EITC — but inherits all the access barriers of the federal credit.</p>
+<p class="domain-lead">The federal Earned Income Tax Credit (IRC § 32) is often described as the most effective anti-poverty program in the United States. In aggregate, this is accurate — it lifted approximately 4.4 million people above the poverty line in 2024, including 2.3 million children. For a specific PA-3 family that has never filed a federal return, the EITC is worth zero. The credit's statutory stability is high; its administrative-delivery vulnerability is also high. About 1 in 5 eligible filers nationally do not claim. Pennsylvania enacted its first state EITC — the <strong><a href="/paul/campaign/empower/glossary/#wptc">Working Pennsylvanians Tax Credit</a></strong>, at 10% of the federal credit (up to $805) — on November 12, 2025. After 54 years without one, Pennsylvania joined 31 states plus DC. The state credit is automatic via PA-40 filing for anyone who claims federal EITC — but inherits all the access barriers of the federal credit.</p>
 
 ## Legal Architecture
 

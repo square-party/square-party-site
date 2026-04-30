@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Make a square
+permalink: /square/index.html
+eleventyExcludeFromCollections: true
+---
+<!-- Square generator page. Loads the vanilla JS bundle and Turnstile. -->
+<link rel="stylesheet" href="/assets/square-app/square-app.css">
+
+<main class="sq-page">
+  <header class="sq-page__hdr">
+    <a class="sq-page__back" href="/">← back</a>
+    <h1 class="sq-page__title">Make a square.</h1>
+    <p class="sq-page__sub">
+      Two colors. Four words. One small mark. It joins the gallery once
+      we've taken a quick look.
+    </p>
+  </header>
+
+  <!-- The generator mounts here. It's an island; the rest of the page is
+       static so it loads instantly even on slow connections. -->
+  <div id="square-app" data-api-base="{{ site.apiBase }}"></div>
+
+  <!-- Turnstile widget. Hidden until the user is about to submit; the
+       generator UI calls window.turnstile.render() on demand. -->
+  <div id="square-turnstile" data-sitekey="{{ site.turnstileSiteKey }}"></div>
+
+  <noscript>
+    <p class="sq-page__noscript">
+      The square-maker needs JavaScript. Sorry about that — it's a
+      drawing tool, not a form. If that's a dealbreaker, send your two
+      colors and four words to <a href="mailto:paul@squareparty.org">paul@squareparty.org</a>
+      and I'll add one for you.
+    </p>
+  </noscript>
+</main>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+<script type="module" src="/assets/square-app/square-renderer.js"></script>
+<script type="module" src="/assets/square-app/word-suggestions.js"></script>
+<script type="module" src="/assets/square-app/generator.js"></script>

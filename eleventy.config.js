@@ -1,5 +1,7 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+  // Cloudflare Pages reads _redirects from the published root.
+  eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
 
   // Domain collection — drives the 26-domain grid on the empower home page.
   // Sorts by cluster letter (A–H per DOMAIN_FRAMEWORK Section 6), then by
