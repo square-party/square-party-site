@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Food & Medicine
+shortTitle: Food & Drugs
 state: planned
-order: 6
+cluster: B
+order: 4
 description: Food safety, drug regulation, supply chains for both, the FDA's regulatory domain, medical device regulation, the gray areas (supplements, off-label).
 updated: 2026-04-25
 ---

@@ -1,10 +1,12 @@
 ---
 layout: empower.njk
 title: Finance & Taxation
+shortTitle: Finance & Tax
 saveable: true
 savedContext: "Empower · Finance & Taxation"
 state: drafting
-order: 9
+cluster: C
+order: 3
 description: Tax policy, public finance, banking regulation, the fiscal architecture across federal, state, and local layers.
 updated: 2026-04-25
 breadcrumbExtras:

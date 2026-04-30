@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Agriculture
+shortTitle: Agriculture
 state: planned
-order: 11
+cluster: D
+order: 5
 description: Farms, food systems at the source, agricultural labor, USDA programs, water for irrigation, soil and land use.
 updated: 2026-04-25
 ---

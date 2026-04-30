@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Mental Health
+shortTitle: Mental Health
 state: planned
-order: 3
+cluster: B
+order: 2
 description: Mental health care access, mental health parity, crisis response systems, public mental health services, the institutional architecture for serious mental illness.
 updated: 2026-04-25
 ---

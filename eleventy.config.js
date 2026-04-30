@@ -1,12 +1,18 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  // Domain collection — drives the 22-domain grid on the empower home page.
-  // Sorts by `order` frontmatter field, falling back to alphabetical.
+  // Domain collection — drives the 26-domain grid on the empower home page.
+  // Sorts by cluster letter (A–H per DOMAIN_FRAMEWORK Section 6), then by
+  // within-cluster `order`, then alphabetical title as a final tiebreaker.
+  // The grid partial walks this sorted list and emits a section heading
+  // whenever the cluster changes.
   eleventyConfig.addCollection("domains", function(collectionApi) {
     return collectionApi
       .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.md")
       .sort((a, b) => {
+        const ac = a.data.cluster || "Z";
+        const bc = b.data.cluster || "Z";
+        if (ac !== bc) return ac.localeCompare(bc);
         const ao = a.data.order ?? 999;
         const bo = b.data.order ?? 999;
         if (ao !== bo) return ao - bo;

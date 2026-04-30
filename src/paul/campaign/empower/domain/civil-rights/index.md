@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Civil Rights
+shortTitle: Civil Rights
 state: planned
-order: 24
+cluster: A
+order: 2
 description: The cross-cutting anti-discrimination enforcement architecture — Titles VI, VII, IX, ADA, FHA, Section 504, Voting Rights Act, and the federal enforcement bodies that operate under them.
 updated: 2026-04-29
 ---

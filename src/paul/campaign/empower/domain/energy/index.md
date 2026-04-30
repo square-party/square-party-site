@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Energy
+shortTitle: Energy
 state: planned
-order: 8
+cluster: D
+order: 3
 description: Electricity grid, fuels, energy policy, transition planning, utility regulation, the public-private architecture of energy delivery.
 updated: 2026-04-25
 ---

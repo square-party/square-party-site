@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Public Benefits & Social Support
+shortTitle: Public Benefits
 state: planned
-order: 10
+cluster: C
+order: 1
 description: Income support, SNAP, TANF, housing assistance, social insurance — the architecture of public support for people whose circumstances put them outside what the labor market alone provides.
 updated: 2026-04-25
 ---

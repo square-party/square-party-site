@@ -13,7 +13,16 @@
   <header class="site-header">
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">{{ site.name }}</a>
-      <ul class="site-nav__links">
+      <button class="site-nav__toggle" type="button"
+              data-nav-toggle
+              aria-controls="site-nav-menu"
+              aria-expanded="false"
+              aria-label="Open menu">
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="site-nav__links" id="site-nav-menu">
         <li data-dropdown class="dropdown--align-left">
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
             The Party <span class="caret" aria-hidden="true">▾</span>

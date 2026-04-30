@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Public Safety & Justice
+shortTitle: Public Safety
 state: planned
-order: 19
+cluster: G
+order: 1
 description: Policing, prosecution, corrections, courts, national security, intelligence, the full enforcement and adjudication apparatus.
 updated: 2026-04-25
 ---

@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Education
+shortTitle: Education
 state: planned
-order: 13
+cluster: E
+order: 1
 description: Schools from pre-K through higher education, curriculum, funding formulas, accreditation, the public/private/charter mix, special education, libraries qua educational institutions.
 updated: 2026-04-25
 ---

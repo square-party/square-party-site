@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Veterans Affairs
+shortTitle: Veterans
 state: planned
-order: 26
+cluster: B
+order: 5
 description: Title 38 architecture — VA healthcare system, GI Bill / Post-9/11 education benefits, USERRA, veteran preference in employment, VBA disability and pension benefits.
 updated: 2026-04-29
 ---

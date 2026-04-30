@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Physical Infrastructure
+shortTitle: Infrastructure
 state: planned
-order: 22
+cluster: D
+order: 2
 description: Roads, transit, water systems, ports, bridges, the built environment that everyone uses regardless of whether they think about it.
 updated: 2026-04-25
 ---

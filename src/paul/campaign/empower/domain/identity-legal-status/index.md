@@ -1,7 +1,9 @@
 ---
 layout: empower.njk
 title: Identity & Legal Status
+shortTitle: Identity
 state: planned
+cluster: A
 order: 1
 description: Citizenship, immigration, vital records, legal personhood, identification systems, the architecture of \"who counts as what\" for governmental purposes.
 updated: 2026-04-25

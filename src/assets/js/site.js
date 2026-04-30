@@ -57,8 +57,10 @@
   });
 
   // ---------- 2. Domain index — sticky detail panel ----------
-  // Pre-populate the detail panel with the first domain on page load so it's
-  // never empty. Update on hover / focus. Click on a row navigates normally.
+  // The panel updates on hover / focus of a domain row. Click on a row
+  // navigates normally. With cluster sections collapsed by default (see 2b),
+  // the panel starts in its intro state rather than pre-populating with a
+  // domain that isn't visible in the grid.
   var grid = document.querySelector('.domain-index');
   if (grid) {
     var detail = grid.querySelector('.domain-detail');
@@ -100,8 +102,56 @@
       link.addEventListener('focus', function () { showDomain(link); });
     });
 
-    // Pre-populate with first domain so the panel is never empty.
-    if (links.length > 0) showDomain(links[0]);
+    // The panel intentionally starts in its intro/empty state. With
+    // clusters collapsed by default, pre-populating with a domain that
+    // isn't visible in the grid would be confusing.
+  }
+
+  // ---------- 2b. Domain cluster collapse/expand ----------
+  // Each cluster heading on the Empower index is a button that toggles the
+  // visibility of its list. State persists per cluster across visits.
+  // Default (no stored state) is COLLAPSED for every cluster — the index
+  // wants to lead with the eight cluster names, then let the visitor open
+  // whichever neighborhoods they care about.
+  // Storage records ONLY the affirmatively-expanded clusters; absence of a
+  // key means "use the default, which is collapsed." A new cluster added
+  // later gets the default treatment for returning visitors automatically.
+  var CLUSTER_KEY = 'sq.clusters.v2';
+  var clusterToggles = document.querySelectorAll('[data-cluster-toggle]');
+  if (clusterToggles.length > 0) {
+    function readClusterState() {
+      try {
+        var raw = localStorage.getItem(CLUSTER_KEY);
+        return raw ? (JSON.parse(raw) || {}) : {};
+      } catch (_e) {
+        return {};
+      }
+    }
+    function writeClusterState(state) {
+      try { localStorage.setItem(CLUSTER_KEY, JSON.stringify(state)); }
+      catch (_e) { /* private mode etc. — fine */ }
+    }
+    var clusterState = readClusterState();
+    clusterToggles.forEach(function (btn) {
+      var key = btn.getAttribute('data-cluster-toggle');
+      // Apply persisted state. If the value is missing, leave the
+      // server-rendered default (collapsed) in place.
+      if (key && clusterState[key] === true) {
+        btn.setAttribute('aria-expanded', 'true');
+      }
+      btn.addEventListener('click', function () {
+        var nowOpen = btn.getAttribute('aria-expanded') !== 'true';
+        btn.setAttribute('aria-expanded', String(nowOpen));
+        if (key) {
+          clusterState = readClusterState();
+          // Only store affirmative-expanded so storage stays compact and
+          // any cluster we add later defaults to collapsed.
+          if (nowOpen) clusterState[key] = true;
+          else delete clusterState[key];
+          writeClusterState(clusterState);
+        }
+      });
+    });
   }
 
   // ---------- 3. Nav dropdown ----------
@@ -150,6 +200,40 @@
       if (!wrap.contains(e.target) && wrap.classList.contains('is-open')) close();
     });
   });
+
+  // ---------- 3b. Mobile nav (hamburger) toggle ----------
+  // Below the mobile breakpoint (see main.css @media max-width: 600px) the
+  // link list is hidden until the user taps the hamburger. Tapping a link
+  // closes the menu so navigation feels right; Esc and resize-up also close.
+  var navToggle = document.querySelector('[data-nav-toggle]');
+  var navMenu = document.getElementById('site-nav-menu');
+  if (navToggle && navMenu) {
+    function setNav(open) {
+      navMenu.classList.toggle('is-open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    navToggle.addEventListener('click', function () {
+      setNav(!navMenu.classList.contains('is-open'));
+    });
+    // Tapping a real link inside the menu closes it (dropdown triggers are
+    // <button>s, so they're naturally excluded from this selector).
+    navMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setNav(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navMenu.classList.contains('is-open')) {
+        setNav(false);
+      }
+    });
+    // If the viewport grows back to desktop while the menu is open, close it
+    // so the desktop layout doesn't carry a stuck "is-open" state.
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 600 && navMenu.classList.contains('is-open')) {
+        setNav(false);
+      }
+    });
+  }
 
   // ---------- 4. Save / bookmark feature ----------
   var SAVED_KEY = 'sq.saved.v1';

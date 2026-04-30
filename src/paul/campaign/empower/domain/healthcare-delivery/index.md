@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Healthcare Delivery
+shortTitle: Healthcare
 state: planned
-order: 23
+cluster: B
+order: 3
 description: Provider-side institutional architecture and the regulatory regimes governing it — hospitals, FQHCs, Medicare delivery-payment, ACA marketplaces, provider licensure.
 updated: 2026-04-29
 ---

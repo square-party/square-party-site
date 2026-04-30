@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Emergency Management
+shortTitle: Emergency Mgmt.
 state: planned
-order: 20
+cluster: G
+order: 2
 description: Disaster preparedness and response, FEMA, civil defense, mutual aid, the layered federal/state/local emergency apparatus.
 updated: 2026-04-25
 ---

@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Government Operations
+shortTitle: Government Itself
 state: planned
-order: 7
+cluster: H
+order: 1
 description: How government runs itself — civil service, procurement, transparency, internal accountability, the meta-domain that shapes how every other domain actually functions.
 updated: 2026-04-25
 ---

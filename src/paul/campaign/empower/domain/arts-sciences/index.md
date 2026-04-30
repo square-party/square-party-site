@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Arts & Sciences
+shortTitle: Arts & Sciences
 state: planned
-order: 16
+cluster: E
+order: 2
 description: Public funding and infrastructure for the arts, the sciences, and the public communication of both — grants, institutions, public broadcasting, research universities qua research.
 updated: 2026-04-25
 ---

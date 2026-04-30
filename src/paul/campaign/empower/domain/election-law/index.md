@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Election Law & Democratic Process
+shortTitle: Elections
 state: planned
-order: 25
+cluster: A
+order: 3
 description: The architecture of representation itself — Voting Rights Act, NVRA, HAVA, state election administration, voter registration, redistricting, campaign finance, ballot access, election security.
 updated: 2026-04-29
 ---

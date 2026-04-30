@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Historical & Public Records
+shortTitle: Public Records
 state: planned
-order: 2
+cluster: E
+order: 4
 description: Public records, archives, FOIA, the census, historical preservation, transparency law, the records infrastructure that makes everything else possible to verify.
 updated: 2026-04-25
 ---

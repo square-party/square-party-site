@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Foreign Policy & International Relations
+shortTitle: Foreign Policy
 state: planned
-order: 17
+cluster: H
+order: 2
 description: Diplomacy, foreign aid, international agreements, military action abroad, the institutional architecture of how the U.S. interacts with the rest of the world.
 updated: 2026-04-25
 ---

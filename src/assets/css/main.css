@@ -206,6 +206,49 @@ p { margin: 0 0 1rem; }
   text-decoration: none;
 }
 .site-nav__brand:hover { color: var(--accent-warm); }
+
+/* Hamburger toggle — hidden on desktop, shown on mobile via the
+   responsive block at the bottom of the file. */
+.site-nav__toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--parchment);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.site-nav__toggle:hover { background: rgba(245, 240, 232, 0.08); }
+.site-nav__toggle:focus-visible {
+  outline: 2px solid var(--accent-warm);
+  outline-offset: 2px;
+}
+.site-nav__toggle-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  transition: transform 0.2s ease, opacity 0.15s ease;
+  transform-origin: center;
+}
+.site-nav__toggle[aria-expanded="true"] .site-nav__toggle-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.site-nav__toggle[aria-expanded="true"] .site-nav__toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.site-nav__toggle[aria-expanded="true"] .site-nav__toggle-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 .site-nav__links {
   list-style: none;
   margin: 0;
@@ -536,11 +579,104 @@ main:has(.home-hero) {
 }
 
 .domain-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cluster sections (one per A–H, see DOMAIN_FRAMEWORK §6 / clusters.json).
+   Default state is collapsed: the eight cluster labels behave as primary
+   navigation. When a cluster is opened, its label shrinks to an eyebrow
+   so the domain rows underneath can lead the visitor's attention. */
+.domain-cluster {
+  margin: 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.domain-cluster:last-child {
+  border-bottom: 0;
+}
+/* Expanded clusters get internal breathing room so the domain list reads
+   as a contained sub-section rather than spilling into the next cluster. */
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) {
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+.domain-cluster__heading {
+  margin: 0;
+  font-size: 1rem; /* normalized; the visible label uses .domain-cluster__title */
+  line-height: 1;
+}
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__heading {
+  margin-bottom: 0.3rem;
+}
+.domain-cluster__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0.7rem 0.65rem;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  transition: color 0.12s, background 0.12s, padding 0.12s;
+}
+.domain-cluster__toggle:hover,
+.domain-cluster__toggle:focus-visible {
+  background: var(--accent-soft);
+  outline: none;
+}
+/* Default (collapsed) label: primary-nav feel */
+.domain-cluster__title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.domain-cluster__caret {
+  display: inline-block;
+  font-size: 0.85rem;
+  line-height: 1;
+  width: 0.8em;
+  text-align: center;
+  color: var(--muted);
+  transition: transform 0.18s ease, font-size 0.12s;
+}
+.domain-cluster__toggle[aria-expanded="false"] .domain-cluster__caret {
+  transform: rotate(-90deg);
+}
+/* Expanded state — shrink heading to eyebrow so domain rows lead the section.
+   Modern browsers (Safari 15.4+, Chrome 105+, Firefox 121+) support :has();
+   older browsers gracefully fall back to always-collapsed-look but the
+   list visibility is still toggled correctly via the JS-set aria attribute. */
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__toggle {
+  padding: 0.3rem 0.65rem;
+  color: var(--muted);
+}
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__title {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__caret {
+  font-size: 0.7rem;
+}
+.domain-cluster__list {
   list-style: none;
   margin: 0;
   padding: 0;
   border-top: 1px solid var(--color-border);
+  overflow: hidden;
 }
+.domain-cluster:has(.domain-cluster__toggle[aria-expanded="false"]) .domain-cluster__list {
+  display: none;
+}
+
 .domain-row {
   margin: 0;
   padding: 0;
@@ -1116,7 +1252,42 @@ main:has(.home-hero) {
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .site-nav { height: auto; padding: 0.65rem 1rem; }
-  .site-nav__links { gap: 0; }
+  .site-nav__toggle { display: inline-flex; }
+
+  /* Collapse the link list into a vertical panel that drops below the
+     header when the hamburger is opened. */
+  .site-nav__links {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0.4rem 0 0.2rem;
+  }
+  .site-nav__links.is-open { display: flex; }
+  .site-nav__links > li { width: 100%; }
+  .site-nav__links a,
+  .site-nav__links button.dropdown-trigger {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.85rem 0.6rem;
+    font-size: 0.85rem;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Inline the dropdown panels instead of floating them as popovers. */
+  .dropdown-panel {
+    position: static;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0 0 0.4rem 1rem;
+    min-width: 0;
+    max-width: none;
+  }
+  .dropdown-panel a { padding: 0.5rem 0.6rem; }
+  .dropdown-panel__hint { padding: 0.4rem 0.6rem 0.2rem; }
+
   h1 { font-size: 1.7rem; }
   .featured-row, .standard-row { grid-template-columns: 1fr; }
 }

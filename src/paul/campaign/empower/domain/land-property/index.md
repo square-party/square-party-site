@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Land & Property
+shortTitle: Land & Property
 state: planned
-order: 21
+cluster: D
+order: 1
 description: Real property law, zoning, eminent domain, housing, public land, the legal infrastructure of who owns what and what they can do with it.
 updated: 2026-04-25
 ---

@@ -13,7 +13,16 @@
   <header class="site-header">
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">Square Party</a>
-      <ul class="site-nav__links">
+      <button class="site-nav__toggle" type="button"
+              data-nav-toggle
+              aria-controls="site-nav-menu"
+              aria-expanded="false"
+              aria-label="Open menu">
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="site-nav__links" id="site-nav-menu">
         <li data-dropdown class="dropdown--align-left">
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
             The Party <span class="caret" aria-hidden="true">▾</span>
@@ -81,7 +90,7 @@
 <p><a id="peace"></a></p>
 <p>Peace, here, is more concrete than the word usually implies. It means resolving disputes without violence — at home, in policing and criminal justice; abroad, in the conduct of foreign policy. It also means the everyday peace of being able to live without constant threat to your safety, your family, your livelihood, or your place. The structural commitment is to building and defending the systems that make those forms of peace possible.</p>
 <div class="page-meta" role="complementary">
-<p><span class="page-meta__updated">Last updated <time datetime="2026-04-29">2026-04-29</time></span>
+<p><span class="page-meta__updated">Last updated <time datetime="2026-04-30">2026-04-30</time></span>
 <span class="page-meta__sep" aria-hidden="true">·</span>
 <a class="page-meta__history" href="https://github.com/REPLACE-ME/square-party-site/commits/main/src/square-party/tenets/index.md" rel="noopener">View history</a>
 <span class="page-meta__sep" aria-hidden="true">·</span>

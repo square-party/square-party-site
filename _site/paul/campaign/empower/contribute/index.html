@@ -13,7 +13,16 @@
   <header class="site-header">
     <nav class="site-nav" aria-label="Site">
       <a class="site-nav__brand" href="/">Square Party</a>
-      <ul class="site-nav__links">
+      <button class="site-nav__toggle" type="button"
+              data-nav-toggle
+              aria-controls="site-nav-menu"
+              aria-expanded="false"
+              aria-label="Open menu">
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="site-nav__links" id="site-nav-menu">
         <li data-dropdown class="dropdown--align-left">
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
             The Party <span class="caret" aria-hidden="true">▾</span>
@@ -188,7 +197,7 @@
 <p>A magic-link auth system, an in-page comment system, an upvote/bookmark/flag mechanism. Those are all sensible features and they're all in scope for a v2. They aren't in v1 because they require backend infrastructure that the GitHub PR path lets us defer — and starting with the simplest workable system that produces a real public record is more important than starting with the prettiest one.</p>
 <p>If GitHub is a real barrier for you and you want to contribute anyway, email <a href="mailto:paul@squareparty.org">paul@squareparty.org</a> and we'll figure something out manually.</p>
 <div class="page-meta" role="complementary">
-<p><span class="page-meta__updated">Last updated <time datetime="2026-04-29">2026-04-29</time></span>
+<p><span class="page-meta__updated">Last updated <time datetime="2026-04-30">2026-04-30</time></span>
 <span class="page-meta__sep" aria-hidden="true">·</span>
 <a class="page-meta__history" href="https://github.com/REPLACE-ME/square-party-site/commits/main/src/paul/campaign/empower/contribute/index.md" rel="noopener">View history</a>
 <span class="page-meta__sep" aria-hidden="true">·</span>

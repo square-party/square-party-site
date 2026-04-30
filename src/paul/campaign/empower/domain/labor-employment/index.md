@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Labor & Employment
+shortTitle: Labor
 state: planned
-order: 14
+cluster: C
+order: 2
 description: Wages, working conditions, unions and collective bargaining, workplace safety, unemployment insurance, gig and platform work, the full architecture of the employer-employee relationship.
 updated: 2026-04-25
 ---

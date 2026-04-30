@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Environment & Natural Resources
+shortTitle: Environment
 state: planned
-order: 12
+cluster: D
+order: 4
 description: Air, water, lands, wildlife, climate policy, environmental regulation across federal, state, and local layers.
 updated: 2026-04-25
 ---

@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Digital Infrastructure
+shortTitle: Internet & Telecom
 state: planned
-order: 18
+cluster: E
+order: 3
 description: Broadband access, telecommunications, internet governance, public digital services, the public-private edges of digital infrastructure.
 updated: 2026-04-25
 ---

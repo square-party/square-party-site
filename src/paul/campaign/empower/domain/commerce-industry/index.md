@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Commerce & Industry
+shortTitle: Commerce
 state: planned
-order: 5
+cluster: F
+order: 1
 description: Trade regulation, antitrust, business formation, industrial policy, supply chains, sector-specific regulation outside the carve-outs that have their own domains.
 updated: 2026-04-25
 ---

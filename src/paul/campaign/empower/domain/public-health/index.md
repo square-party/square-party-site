@@ -1,8 +1,10 @@
 ---
 layout: empower.njk
 title: Public Health
+shortTitle: Public Health
 state: planned
-order: 4
+cluster: B
+order: 1
 description: Disease surveillance, public health agencies, vaccination, health emergencies, environmental health, the population-level health apparatus distinct from individual medical care.
 updated: 2026-04-25
 ---
