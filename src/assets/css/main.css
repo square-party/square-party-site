@@ -1319,6 +1319,20 @@ main:has(.home-hero) {
 }
 
 /* ============================================================
+   PAGE FOOTNOTE — small note at the bottom of a page, used for
+   scoping or attribution that doesn't warrant a heavier callout.
+   ============================================================ */
+.page-footnote {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* ============================================================
    DOMAIN TAG — used to mark synthesis sub-domains
    ============================================================ */
 .domain-tag {

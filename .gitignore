@@ -16,6 +16,11 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Build output (if applicable)
+# Build output
 dist/
 build/
+_site/
+
+# Personal drafts — Substack and other pre-publication writing.
+# Kept local for Claude access; never pushed to the public repo.
+drafts/

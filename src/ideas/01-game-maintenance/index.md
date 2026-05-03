@@ -11,55 +11,15 @@ updated: 2026-04-26
 
 <p class="domain-lead">Capitalism is a game that can be won. Not "capitalism is unfair" — that's a moral debate. Not "capitalism is broken" — that's a systems argument. Just this: the system, as currently structured, allows a player to accumulate enough wealth, market power, and political influence to exit the competitive dynamics that make the system work. Once that happens, the engine that drives capitalism's value proposition — competition, price discovery, creative destruction — slows down. The proposal here is a framework called <strong>game maintenance</strong>: the same kind of ongoing competitive-balance design that every successful league, tournament, and market already uses, applied to the actual rules of the economy.</p>
 
-<aside class="status-callout">
-This proposal sits at the boundary between Paul-level policy work and Square Party-level framework. The substance below is the policy version. The wider movement-launch strategy lives in a separate working document and may eventually live at the Square Party level rather than under Paul's proposals. For now, treat this page as the policy-mechanism layer.
-</aside>
-
 ## The premise
 
-What happens when someone wins Monopoly? The board gets flipped. The game stops being fun. Not because of some moral injustice — because the mechanics broke. One player accumulated so much that everyone else was just going through the motions.
+What happens when someone wins Monopoly? The board gets flipped. The game stops being fun. Not because of some moral injustice — because the mechanics broke. One player accumulated so much that everyone else was just going through the motions. They sit around the board, miserable. And the rulebook offers no protection.
 
-The same dynamic operates in real markets, with the same root cause. A player accumulates enough that the things that normally check accumulation (price competition, new entrants, regulatory pushback) stop functioning. They've exited the game. And when one player exits the game from the top, the game stops being a game.
+The same dynamic operates in real markets, with the same root cause. Markets should check accumulation through three mechanisms: price competition between sellers, the entry of new competitors attacking incumbent profits, and regulatory pushback when behavior tips into rule-breaking. As one player accumulates enough, all three bend. Prices stop being signals; entrants can't enter past network effects and acquired choke-points; regulators are out-resourced or captured. The player has exited the game. And when one player exits the game from the top, the game stops being a game.
 
 This isn't a moral claim. It's a mechanical one. Capitalism's entire value proposition is competition: many players, price discovery, creative destruction, the constant pressure to innovate. That engine requires the game to be playable. When it isn't — when outcomes are predetermined, when new entrants can't enter, when one player controls the board — competition stops. And without competition, capitalism stops being capitalism.
 
 The solution isn't to abolish the game. It's to maintain it.
-
-## The framework: game maintenance
-
-Every well-designed competitive system in history builds in mechanisms that keep competition functional. The NFL has a salary cap and revenue sharing — the league with the most aggressive competitive-balance rules is also the most profitable league in American sports. Chess uses Elo ratings and tournament seeding to keep matchups meaningful. Video games ship balance patches. Standardized testing recalibrates scoring curves. None of these mechanisms are anti-game. **They are the game.**
-
-Game maintenance applied to capitalism is the same idea: a continuous, evidence-based process of rule adjustment to keep the market functioning as a market. Three categories of mechanism, in increasing order of friction:
-
-### Tier 1 — Transparency (lowest friction)
-
-Visibility doesn't restrict the game; it lets you see the score. Without it, no other intervention has a basis.
-
-- **Full lobbying disclosure** — building on STOCK Act and Lobbying Disclosure Act precedents.
-- **Beneficial ownership registries** — building on the Corporate Transparency Act (2024); piercing the shell company veil.
-- **Algorithmic accountability** — disclosure of decisive algorithms in lending, hiring, pricing, and content distribution; modeled in part on the EU AI Act.
-- **Game-health reporting** — concentration metrics published alongside GDP in standard economic reporting. (See "Game health metrics" below.)
-
-These have the strongest legal and political footing of the three tiers. The *Citizens United* majority explicitly endorsed disclosure as a constitutionally-blessed counterweight, and disclosure-based reform polls 80%+ across the ideological spectrum.
-
-### Tier 2 — Competition preservation (medium friction)
-
-The set of policies that keep new entrants able to enter and existing competitors able to compete.
-
-- **Platform interoperability mandates** — building on the proposed ACCESS Act and the EU Digital Markets Act. Allows new entrants to plug into network effects rather than rebuild them.
-- **Data portability requirements** — building on GDPR Article 20. Reduces switching costs.
-- **Strengthened acquisition scrutiny** — particularly for serial acquisitions of nascent competitors ("buying the draft class" in game-maintenance shorthand). Builds on existing FTC/DOJ merger guidelines with sharper triggers when concentration is already high.
-- **Standards and protocols as public infrastructure** — recognition that some interfaces (payment rails, identity, basic interconnection) function as public goods that lose their public character when captured.
-
-### Tier 3 — Dynamic balancing (higher friction, requires new architecture)
-
-Mechanisms that adjust automatically as concentration rises — analogous to the salary cap that recalibrates each year based on league-wide revenue.
-
-- **Concentration-indexed corporate tax** — pilot at the state level. Marginal rates that scale with the firm's share of its market, not just with profit.
-- **Automatic antitrust review triggers** — when concentration metrics in a sector cross thresholds, scrutiny tightens without needing political will to initiate.
-- **Game health reporting requirements** — composite indices of market concentration, mobility, and dynamism, published quarterly. Forces the question "is the game still playable?" into routine economic discourse.
-
-Tier 3 is the most novel and the most politically demanding. It is also the most resilient: once the thermostat is in place, partisan oscillation matters less than the underlying metrics.
 
 ## The empirical case
 
@@ -75,13 +35,48 @@ The framework is meant to be tested against data. Some of the relevant series, w
 - **Market concentration.** RBC Wealth Management (2026) reported the S&P 500 top-10 share at 40.7% — "The Great Narrowing." J.P. Morgan Global Research (2026) describes the dynamic as "winner-takes-all." ITIF (2025) provides a competing read using Economic Census C4 ratios (2002–2022) that questions some of the headline narrative.
 - **Business dynamism.** U.S. Census Bureau Business Formation Statistics show ~430K applications/month in 2024 vs. ~287K in 2019 — a real uptick. Business Dynamics Statistics (1978–2023) show longer-run decline in firm entry rates that the recent uptick may or may not reverse.
 - **Social mobility.** Chetty et al. (2017) found that 92% of the 1940 birth cohort exceeded their parents' income; only ~50% of the 1980s cohort did. The Great Gatsby Curve (Corak, 2013) connects intergenerational mobility to inequality across countries.
-- **Sports balance as analogy.** NFL revenue sharing distributes ~$400M/team; the salary cap exceeded $300M in 2026. Larsen et al. (2006) documented the cap's measurable effect on competitive balance. Rottenberg's 1956 *Journal of Political Economy* article (the Invariance Principle) established the underlying theory.
 
 These are starting points. The point of game-health metrics is that they should be publicly reported and routinely contested.
 
+## The framework: game maintenance
+
+Every well-designed competitive system in history builds in mechanisms that keep competition functional. The NFL has a salary cap (over $300M per team in 2026) and revenue sharing of roughly $400M per team — the league with the most aggressive competitive-balance rules is also the most profitable in American sports, and the cap's measurable effect on competitive balance has been documented since Rottenberg's 1956 *Journal of Political Economy* article on the underlying theory and Larsen et al.'s 2006 empirical analysis. Chess uses Elo ratings and tournament seeding to keep matchups meaningful. Video games ship balance patches. Standardized testing recalibrates scoring curves. None of these mechanisms are anti-game. **They are the game.**
+
+Game maintenance applied to capitalism is the same idea: a continuous, evidence-based process of rule adjustment to keep the market functioning as a market. Three categories of mechanism, in increasing order of friction:
+
+### Tier 1 — Transparency (lowest friction)
+
+Visibility doesn't restrict the game; it lets you see the score. Without it, no other intervention has a basis.
+
+- **Full lobbying disclosure** — building on [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038) and [Lobbying Disclosure Act](https://www.law.cornell.edu/uscode/text/2/chapter-26) precedents.
+- **Beneficial ownership registries** — building on the [Corporate Transparency Act (2024)](https://www.law.cornell.edu/uscode/text/31/5336); piercing the shell company veil.
+- **Algorithmic accountability** — disclosure of decisive algorithms in lending, hiring, pricing, and content distribution; modeled in part on the [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689).
+- **Game-health reporting** — concentration metrics published alongside GDP in standard economic reporting. (See "Game health metrics" below.)
+
+These have the strongest legal and political footing of the three tiers. The [*Citizens United*](https://www.supremecourt.gov/opinions/09pdf/08-205.pdf) majority explicitly endorsed disclosure as a constitutionally-blessed counterweight, and disclosure-based reform polls 80%+ across the ideological spectrum.
+
+### Tier 2 — Competition preservation (medium friction)
+
+The set of policies that keep new entrants able to enter and existing competitors able to compete.
+
+- **Platform interoperability mandates** — building on the proposed [ACCESS Act](https://www.congress.gov/bill/117th-congress/house-bill/3849) and the [EU Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R1925). Allows new entrants to plug into network effects rather than rebuild them.
+- **Data portability requirements** — building on [GDPR Article 20](https://gdpr-info.eu/art-20-gdpr/). Reduces switching costs.
+- **Strengthened acquisition scrutiny** — particularly for serial acquisitions of nascent competitors ("buying the draft class" in game-maintenance shorthand). Builds on existing FTC/DOJ merger guidelines with sharper triggers when concentration is already high.
+- **Standards and protocols as public infrastructure** — recognition that some interfaces (payment rails, identity, basic interconnection) function as public goods that lose their public character when captured.
+
+### Tier 3 — Dynamic balancing (higher friction, requires new architecture)
+
+Mechanisms that adjust automatically as concentration rises — analogous to the salary cap that recalibrates each year based on league-wide revenue.
+
+- **Concentration-indexed corporate tax** — pilot at the state level. Marginal rates that scale with the firm's share of its market, not just with profit.
+- **Automatic antitrust review triggers** — when concentration metrics in a sector cross thresholds, scrutiny tightens without needing political will to initiate.
+- **Game health reporting requirements** — composite indices of market concentration, mobility, and dynamism, published quarterly. Forces the question "is the game still playable?" into routine economic discourse.
+
+Tier 3 is the most novel and the most politically demanding. It is also the most resilient: once the thermostat is in place, partisan oscillation matters less than the underlying metrics.
+
 ## Game health metrics
 
-A composite index, modeled on existing economic indicators (GDP, unemployment, CPI), built from components that are already measured separately:
+The most operational piece of the framework, and the one that ties Tier 1 transparency to Tier 3 dynamic balancing, is a composite index modeled on existing economic indicators (GDP, unemployment, CPI), built from components that are already measured separately:
 
 | Component | Existing source |
 |---|---|
@@ -143,5 +138,7 @@ If the framework is wrong, where does it break? The candidate weak points: conce
 ---
 
 *This is the v1 web version of the Project 2 draft (April 2026), adapted from the comprehensive plan and core-premise documents. The launch-strategy material in those documents is not reproduced here.*
+
+<p class="page-footnote"><em>Note: This is one of Paul's policy proposals. The Square Party is a separate framework; its positions may diverge from any individual proposal here.</em></p>
 
 {% include "partials/page-meta.njk" %}
