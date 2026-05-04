@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Square Party
-description: A vehicle for civic reform. Every member makes their own square.
+description: A vehicle for civic reform.
 ---
 
 <div class="home-hero">
@@ -9,9 +9,9 @@ description: A vehicle for civic reform. Every member makes their own square.
 
 # Square Party
 
-A vehicle for civic reform. Every member makes their own square.
+A vehicle for civic reform.
 
-The party's square is empty on purpose. What goes inside is whatever each member decides matters most — four corners, picked and named by you, that say what you stand for. Squares overlap rather than tile. A round world gets covered by enough of them.
+The party's square is empty on purpose. What goes inside is whatever each member decides matters most — four corners, picked and named by you, that say what you stand for.
 
   </div>
 
@@ -33,6 +33,12 @@ The lightest possible ask: name and email, takes a few seconds. Get on our voter
 {% include "partials/tally-embed.njk" %}
 
 Want to go deeper? [Pick the policy domains you care about →](/square-party/assembly/#express-interest) (about thirty seconds, twenty-six checkboxes), or [pledge a write-in vote for Paul →](/paul/campaign/#voter-track).
+
+## Newsletter
+
+<div class="newsletter-embed">
+<iframe src="https://squareparty.substack.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+</div>
 
 ## Where to go from here
 

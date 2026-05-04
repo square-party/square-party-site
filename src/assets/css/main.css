@@ -1333,6 +1333,18 @@ main:has(.home-hero) {
 }
 
 /* ============================================================
+   NEWSLETTER EMBED — wrapper for the Substack iframe.
+   Centers the fixed-width iframe; constrains on mobile.
+   ============================================================ */
+.newsletter-embed {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.newsletter-embed iframe {
+  max-width: 100%;
+}
+
+/* ============================================================
    DOMAIN TAG — used to mark synthesis sub-domains
    ============================================================ */
 .domain-tag {

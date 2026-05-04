@@ -33,6 +33,12 @@ A short, low-background survey on the rough shape of taxation, healthcare, immig
 {% set tallyHeight = "320" %}
 {% include "partials/tally-embed.njk" %}
 
+### Subscribe to the newsletter
+
+Occasional pieces on the problems we're trying to address — and the experiments in addressing them.
+
+[Read the newsletter →](/newsletter/)
+
 These are real contributions. Most people will never do more than this, and that's fine — most of the value of an open project comes from people who show up at the lightest tier and stick around.
 
 ## Editorial contribution
@@ -58,6 +64,14 @@ If you've never done this before, here's the short version:
 That's it. Your edit lands in a queue. Paul (or a delegated reviewer) looks at it, asks questions if needed, and either merges it in or explains why not.
 
 If you don't have a GitHub account, [creating one is free and takes about two minutes](https://github.com/signup). Yes, this is friction. We know.
+
+### Help review contributions
+
+If you've made a few pull requests yourself and want to go deeper, the next tier is reviewing other people's: reading new pull requests as they come in, checking sources, flagging voice or framing problems, asking questions when something is unclear. Email Paul if you want to be added to the reviewer list.
+
+### Attend an event
+
+We host periodic events — talks, working groups, in-person and virtual. Schedule and signups will live at [/events/](/events/). Coming soon.
 
 ### Propose new analysis or policy
 

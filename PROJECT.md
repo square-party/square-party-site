@@ -40,7 +40,17 @@ Review the output. If the local branch is behind origin, pull before working. If
 
 **Done:**
 - Substack post-1 drafted (`drafts/substack-01-draft-01.md` working draft; `drafts/substack-01-final.md` Substack-ready). Topic: "If we don't want a King, what do we want?" — Charles addressing Congress as foil for Trump, cognitive science of personality politics. Ends in inquiry mode; does not reveal the Square Party. Not yet published.
-- `PROJECT.md` and `scripts/check-updates.sh` created (this handoff, Sonnet, 2026-05-03).
+- `PROJECT.md` and `scripts/check-updates.sh` created (Sonnet, 2026-05-03).
+- Game-maintenance idea (`src/ideas/01-game-maintenance/index.md`) reorganized and revised: section reorder, premise paragraph edits, sports-analogy deduplication, law/act hyperlinks, status callout removed (Sonnet, 2026-05-03).
+- Pre-launch hygiene batch (Sonnet, 2026-05-03):
+  - `site.repoUrl` updated to `https://github.com/square-party/square-party-site`; `site.description` added.
+  - Footer GitHub links (`page-footer-links.njk`) on every page via `base.njk` and `empower.njk`.
+  - Tools submenu extracted from "The Party" into its own top-level nav item (Make a square, Square gallery, Income visualizations).
+  - Substack cross-linking: `/newsletter/` page, homepage embed, footer link, contribute page "Subscribe" subsection.
+  - Contribute page: three new subsections added (Subscribe to newsletter, Help review contributions, Attend an event).
+  - `src/404.md` created — builds to `/404.html`.
+  - og:image meta tags added to `base.njk`; `og-image.png` generated (1200×630, SVG square + wordmark, DejaVu Serif — Playfair not available in build env; flag for swap when Paul supplies preferred font).
+  - `.page-footer-links` and `.newsletter-embed` CSS rules added to `main.css`.
 
 **In flight:**
 - Nothing else active as of this writing.
@@ -55,3 +65,7 @@ Review the output. If the local branch is behind origin, pull before working. If
 
 - **Post-2 timing and scope.** Blocked on post-1 publication. Scope is roughly settled (see above) but the exact framing hasn't been drafted. Admin window to brief when ready.
 - **Empower — Domains organization approach.** The section has substantial content. The question is how to surface and sequence it. No decision yet; admin window to assess and brief.
+- **og:image font.** Generated with DejaVu Serif (build env default). If Paul wants Playfair Display, supply the font file and re-run the generator script, or replace `og-image.png` manually.
+- **per-page og:image overrides.** Base template supports `ogImage` frontmatter (relative to `/assets/img/`). No per-page overrides set yet.
+- **`/events/` page.** Contribute page links to it; page doesn't exist yet. Will 404 until created. Admin window to brief when ready.
+- **Light/dark theme on `/paul` subpages.** Paul flagged as pending. Admin window to assess scope and brief.

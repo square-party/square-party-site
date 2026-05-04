@@ -4,10 +4,10 @@
 export default {
   name: "Square Party",
   url: "https://squareparty.org",
+  description: "A vehicle for civic reform.",
 
   // GitHub-based contribution workflow.
-  // Replace with your actual repo when set up.
-  repoUrl: "https://github.com/REPLACE-ME/square-party-site",
+  repoUrl: "https://github.com/square-party/square-party-site",
   // Used to build per-page "Edit on GitHub" / "View history" links.
   // Pattern: ${repoUrl}/blob/main/${pagePath} for view, /edits/main/${pagePath} for edit
   defaultBranch: "main",
