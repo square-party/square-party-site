@@ -11,15 +11,13 @@ reviewed: true
 
 ## In brief
 
-Paul Plonski. Cognitive scientist and educator. The PA-3 empower project and Square Party are mine — both designed to give better candidates the tools to run substantive campaigns. I'm not running. The invitation is to write in someone you'd actually want to represent you.
+Paul Plonski. Cognitive scientist and educator. The PA-3 empower project and Square Party are mine — both designed to give better candidates the tools to run substantive campaigns. I'm not running, but modeling an invitation to write in someone you'd actually want to represent you.
 
 ## Background
 
-I grew up in small-town North Carolina, took the long route through suburban Virginia, a small Virginia city, a college town in Arizona, and a few years near Boston, and landed in Philadelphia. The geography wasn't planned. The pattern, in retrospect, was paying attention to how communities with different shapes hold themselves together.
+From small-town North Carolina and suburban Virginia then moving through Richmond VA, Flagstaff AZ, Somerville MA, and now Philadelphia PA. The geography wasn't planned. But I have gotten to see many communities hold themselves together.
 
-I trained as a cognitive scientist — emotion, belief, the messy intersections where people form mental representations of complicated things and act on them. My research is on climate emotion regulation: how people maintain (or fail to maintain) the affective and cognitive scaffolding that lets them keep functioning while watching a slow catastrophe. I teach. I write — academic, civic, sometimes personal.
-
-The civic work started as side reading. Then it became the work.
+I am an interdisciplinary cognitive scientist — interested in regulatory systems and often applying that interest to emotion and messy intersections where people form mental representations of complicated things and act on them. Much of my current research is on climate emotion regulation: how people maintain (or fail to maintain) the affective and cognitive scaffolding that lets them keep functioning and work against a catastrophe unfolding evermore quickly.  
 
 ## My square
 
