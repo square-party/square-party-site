@@ -123,7 +123,7 @@ export default function(eleventyConfig) {
   // whenever the cluster changes.
   eleventyConfig.addCollection("domains", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.md")
+      .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.{md,njk}")
       .sort((a, b) => {
         const ac = a.data.cluster || "Z";
         const bc = b.data.cluster || "Z";
@@ -148,13 +148,13 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addCollection("ideas", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/ideas/*/index.md")
+      .getFilteredByGlob("src/ideas/*/index.{md,njk}")
       .sort(proposalSort);
   });
 
   eleventyConfig.addCollection("policyProposals", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/paul/policy/*/index.md")
+      .getFilteredByGlob("src/paul/policy/*/index.{md,njk}")
       .sort(proposalSort);
   });
 
