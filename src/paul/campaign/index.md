@@ -6,6 +6,8 @@ description: Paul Plonski's write-in campaign for the U.S. House, Pennsylvania's
 
 # PA-3 Campaign
 
+This page is partly a real campaign and partly an example of what I think one should look like — a demonstration of what running on Square Party terms can be. The structure is meant to be reused by people who actually want to win.
+
 Paul is running as a write-in candidate for the U.S. House of Representatives in Pennsylvania's 3rd Congressional District. The campaign runs on Square Party terms: it's as much about the framework as the office.
 
 {% include "partials/help-block.njk" %}

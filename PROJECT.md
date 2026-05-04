@@ -36,6 +36,38 @@ Review the output. If the local branch is behind origin, pull before working. If
 
 ---
 
+## Tooling access for Claude windows (added 2026-05-04)
+
+All Claude windows operating in this project — admin and execution, PUBLIC_CONTENT and WEBSITE_MANAGE — have:
+
+- Read/write access to files in the workspace.
+- `npm run build` — one-shot eleventy build to `_site/` (verification of edits).
+- `npm run clean` — removes `_site/`. Safe; idempotent.
+- Read access to `_site/` after build for output inspection.
+
+No window is authorized to:
+
+- `git commit`, `git push`, or any git write operation.
+- `npm run deploy`, `wrangler deploy`, `wrangler publish`, any deploy command.
+- Modify `package.json` / `package-lock.json` (no `npm install` / `npm update`).
+
+**Build is verification, not deployment.** Paul runs the canonical build before deploy with his full local environment. Claude builds are sanity checks: catch Nunjucks errors, missing includes, broken layouts, frontmatter typos before the work lands in front of Paul. If a Claude build surfaces an issue that doesn't reproduce on Paul's local machine, treat it as a sandbox-environment artifact and report; don't paper over.
+
+`_site/` is in `.gitignore`, so Claude builds don't pollute commits. `_site/` state is ephemeral; regenerated each build.
+
+## Build & deploy ownership
+
+Paul builds and deploys; sandboxes do syntactic verification only.
+
+**Why not full builds in sandboxes:** Cross-session file ownership in the sandbox makes any persistent build output (`_site/`, `_site-sandbox/`, etc.) unable to be cleared by a subsequent session — files written by session A appear with permissions session B can't unlink, so Eleventy's passthrough-copy step fails on EPERM. The `build:sandbox` script and `_site-sandbox/` gitignore entry are retained but not recommended; rely on syntactic checks plus Paul's local build for visual verification.
+
+- **Sandbox CAN**: edit source files, validate syntax (`npx @11ty/eleventy --dry-run` parses templates without writing files), inspect source for changes, run linters and other read-only or write-to-source checks.
+- **Sandbox CANNOT (reliably)**: run a full Eleventy build that writes to disk, deploy, modify `.git/` internals, commit.
+- **Paul does**: full builds (`npm run build`), Wrangler deploys to Cloudflare Workers Pages, GitHub commits.
+- Acceptance criteria in execution-window briefs should target source-file outcomes and `--dry-run` parse success — NOT build-output outcomes. If a brief needs visual verification, Paul does the build locally and reports back.
+
+---
+
 ## Current state — 2026-05-03
 
 **Done:**
@@ -53,10 +85,39 @@ Review the output. If the local branch is behind origin, pull before working. If
   - `.page-footer-links` and `.newsletter-embed` CSS rules added to `main.css`.
 
 **In flight:**
-- Nothing else active as of this writing.
+- **Aspect-toggle + multi-mode content system (PUBLIC_CONTENT M3 = WEBSITE_MANAGE WM-1).** Handed off from PUBLIC_CONTENT 2026-05-04. Source artifacts (spec + addendum + M1 architecture prototype + M2 content prototype) referenced in `_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-handoff_2026-05-04.md`. PUBLIC_CONTENT M4 (content authoring across all four modes for D9 home + a sub-domain page) picks up after WM-1 ships.
+
+  Architectural decisions locked in WEBSITE_MANAGE admin (2026-05-04):
+  - Render-all-four-modes server-side; CSS-driven visibility on `[data-mode]` wrapper attribute.
+  - Stack-bar viz with mode-aware emphasis for v1; flow-diagram is M2 follow-up.
+  - URL query-string mode persistence (`?mode=synthesis|design|gap|neutral`).
+  - Static toggle (not sticky); 200ms opacity fade with `prefers-reduced-motion` respect.
+  - Supplementary blocks always inline desktop, expand-on-click mobile.
+  - Primary palette ships (sky-teal #5d8a9e + aubergine #3d2e4a); warm-tone alternative parked for visual review.
+  - Per-aspect `proseByMode` for tooltips/citations/neutral-fallback; per-profile `leadByMode` for paragraph-level swaps.
+
+  Sub-milestones:
+  - **WM-1A** — Toggle widget + state machine. **Done** 2026-05-04. Sandbox HTML at `_not-site-content/website-manage/prototype/wm1a-toggle-widget.html`.
+  - **WM-1B** — Data file + mode-aware Nunjucks partials + CSS contract. **Done** 2026-05-04. Profile card emitted spurious `data-mode` attributes; admin patched post-return.
+  - **WM-1C** — Stack-bar viz partial (server-rendered SVG, CSS-driven mode emphasis). **Done** 2026-05-04. Geometry verified; neutral-mode swaps hatch for solid muted fill (consistent with spec's no-kind-coding rule).
+  - **WM-1D** — D9 page restructure. **Done** 2026-05-04. Toggle widget extracted to partial + JS; D9 page wrapped in `data-mode-root`; framingByMode populated with M3-prototype starter content for PUBLIC_CONTENT M4 to rewrite.
+  - **Whitespace cleanup pass** (admin, post-WM-1D) — markdown-it was wrapping `<dl>` and other block elements in `<p>` because Nunjucks partials emit blank lines between block elements when included in `.md` files. Applied `{#- ... #}` left-trim modifier across profile-card, prose-block, cta-block, supplementary-block, framing-block to consume the inter-block blank lines.
+  - **WM-1E** — Response file to PUBLIC_CONTENT at `_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-response_2026-05-04.md`. **Done** 2026-05-04 evening, after Paul's browser-review iteration cycle.
+  - **Browser-review iteration pass** (admin, post-WM-1D) — Paul's local review surfaced four issues, all fixed:
+    1. SVG rendering as escaped text — caused by markdown-it block-element chunking on a missed blank line in `stack-bar.njk`. Compacted with `{#- ... #}` left-trim pattern.
+    2. Toggle stuck under site-header — sticky offset corrected to `top: 56px` (desktop), `top: 64px` (≤768px mobile) to match site-header height.
+    3. Viz too small / too big iterations — settled at viewBox `480 × 160` (aspect 3:1), bars at `BAR_H = 40`. Renders ~230px tall in the typical 700px column. `viz-slot` had inherited a placeholder-era `display: flex` that was squeezing the SVG into a column; converted to `display: block`.
+    4. Mode-accent-strip CSS rules were targeting `data-mode` on the profile-card (which was removed in the F5 cascade fix); moved selectors to read from page-wrapper `[data-mode]` so the 3px left border now tracks active mode.
+  - **Legend added** to stack-bar.njk between the SVG and net-summary — three swatches (design / neutral / gap-with-hatch) with labels. Each item carries `data-aspect-kind` so the same mode-emphasis CSS dims swatches in lockstep with bars.
+
+  Carried over to follow-up:
+  - **`.md` → `.njk` conversion for D9 home page.** The current `.md` integrating template is fragile — any blank line introduced between block elements will re-trigger markdown-it wrapping. Converting to `.njk` removes the markdown processing layer entirely and is the clean structural fix. Not urgent for v1; do before M5 (D7 brief) so the D7 page can use the cleaner pattern from the start.
+  - **TBD links inside supplementary-block contentMarkdown.** The CTA partial strips `href="TBD"` to no-link; the markdown filter in supplementary blocks does not. Several supplementary blocks contain `[Text →](TBD)` links that render as `<a href="TBD">` and 404. PUBLIC_CONTENT M4 should either supply real URLs or rewrite the markdown to drop the linked TBDs.
+  - **Flow-diagram viz** for profiles flagged with `vizFallbackFlag: true` (currently just home-care-aide-Strawberry-Mansion). Stack-bar with annotation ships in v1; flow-diagram is an M2 follow-up.
+  - **Final chart-size calibration.** Paul flagged 2026-05-04 evening that the chart at viewBox 480×160 may still be slightly larger than ideal. Defer fine-tuning until either (a) PUBLIC_CONTENT M4 authors more profiles and the size question can be tested across a real curated set, or (b) the flow-diagram viz lands and the visual hierarchy gets re-evaluated. Likely a single-line geometry tweak when the time comes.
 
 **Planned, in order:**
-1. "Empower — Domains" content organization — substantial content exists; needs organizing, not drafting.
+1. "Empower — Domains" content organization — substantial content exists; needs organizing, not drafting. Note: the aspect-toggle architecture in flight changes the architectural target; sequencing this after M3 lands is appropriate.
 2. Substack post-2 (Square Party reveal piece) — only after post-1 is published. Will absorb the geographic-plus-topical-representation idea and the empty-square-as-symbol move cut from post-1's "What a different show might look like" section.
 
 ---

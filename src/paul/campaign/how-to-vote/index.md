@@ -21,15 +21,11 @@ For polling-place lookup, sample ballots, and mail-in deadlines, check the Penns
 
 ## Who to write in
 
-You have options.
+You can write in anyone. That's the most important thing.
 
-**Write in "Paul Plonski."** The straightforward one.
+**Write in someone you actually want to represent you.** Anyone, even if they have no chance, even if they're already on the ballot. The act of writing in any name is a signal that you wanted more options than the ones offered. Write-in totals get reported, and they're one of the only public measurements of "voters who weren't satisfied with the field." That signal carries weight regardless of who you write in.
 
-**Write in "pp" or "pee pee" if you want to be funny.** Both should count for me under PA write-in rules, which look for voter intent. Initials and nicknames are usually credited when they're unambiguous. Worst case, the elections office reviews it and decides.
-
-**Write in "Pauly poo poo" if you don't like me.** Same rule. Probably still credited. Up to you.
-
-**Write in your preferred candidate, even if they're already on the ticket.** This sounds counterproductive. It isn't. The act of writing in any name is a signal that you wanted more options than the ones offered. Write-in totals get reported even when the named candidate is on the ballot, and they're one of the only public measurements of "voters who weren't satisfied with the field."
+**Write in "Paul Plonski"** if you want to participate via the Square Party / empower project framework specifically. The campaign infrastructure on this site exists to support that, including a [pledge form](/paul/campaign/#voter-track). But don't write me in unless you've read what that actually means — see the [bio](/paul/) for the full picture.
 
 ## Why it matters even when it doesn't win
 

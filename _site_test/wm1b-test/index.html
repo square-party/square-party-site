@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WM-1B Smoke Test — Profile Card — Square Party</title>
+  <meta name="description" content="End-to-end render test for the mode-aware profile card partial.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Open Graph / Twitter Card -->
+  <meta property="og:title" content="WM-1B Smoke Test — Profile Card">
+  <meta property="og:description" content="End-to-end render test for the mode-aware profile card partial.">
+  <meta property="og:image" content="https://squareparty.org/assets/img/og-image.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://squareparty.org/wm1b-test/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WM-1B Smoke Test — Profile Card">
+  <meta name="twitter:description" content="End-to-end render test for the mode-aware profile card partial.">
+  <meta name="twitter:image" content="https://squareparty.org/assets/img/og-image.png">
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Site">
+      <a class="site-nav__brand" href="/">Square Party</a>
+      <button class="site-nav__toggle" type="button"
+              data-nav-toggle
+              aria-controls="site-nav-menu"
+              aria-expanded="false"
+              aria-label="Open menu">
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+        <span class="site-nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="site-nav__links" id="site-nav-menu">
+        <li data-dropdown class="dropdown--align-left">
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            The Party <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">What it is</li>
+            <li><a href="/square-party/">Overview</a></li>
+            <li><a href="/square-party/lineage/">Lineage</a></li>
+            <li><a href="/square-party/assembly/">People's Assembly</a></li>
+            <li><a href="/square-party/connections/">Connections</a></li>
+            <li><a href="/square-party/tenets/">Tenets</a></li>
+          </ul>
+        </li>
+        <li><a href="/representation/">Representation</a></li>
+        <li><a href="/paul/campaign/empower/">Empower</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Tools <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li><a href="/square/">Make a square</a></li>
+            <li><a href="/gallery/">Square gallery</a></li>
+            <li><a href="/income-viz/">Income visualizations</a></li>
+          </ul>
+        </li>
+        <li><a href="/ideas/">Ideas</a></li>
+        <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="/saved/">Saved</a></li>
+        <li data-dropdown>
+          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
+            Paul <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-panel" data-dropdown-panel>
+            <li class="dropdown-panel__hint">Bio &amp; campaign</li>
+            <li><a href="/paul/">About Paul</a></li>
+            <li><a href="/paul/campaign/">PA-3 campaign</a></li>
+            <li><a href="/paul/campaign/empower/">Empower (PA-3 application)</a></li>
+            <li><a href="/paul/campaign/empower/parks/">PA-3 parks map</a></li>
+            <li><a href="/paul/policy/">Policy areas</a></li>
+            <li><a href="/paul/campaign/empower/contribute/">Contribute</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<aside class="layer-toggle" role="region" aria-label="Layer toggles">
+  <p class="layer-toggle__label">Layers</p>
+  <button class="layer-toggle__btn" data-layer="light" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Light</span>
+    <span class="layer-toggle__hint">hope · agency</span>
+  </button>
+  <button class="layer-toggle__btn" data-layer="dark" type="button" aria-pressed="false">
+    <span class="layer-toggle__name">Dark</span>
+    <span class="layer-toggle__hint">stakes · costs</span>
+  </button>
+</aside>
+
+
+  <main id="main">
+    <p style="font-family: var(--font-ui); font-size: 0.8rem; color: var(--muted); margin-bottom: 1.5rem; border: 1px dashed var(--color-border); padding: 0.5rem 0.75rem; border-radius: 4px;">
+  <strong>WM-1B smoke test.</strong> Not published. Verifies that the profile data, Nunjucks partials, and CSS rules compose end-to-end. Default mode: synthesis. WM-1A's toggle JS drives mode transitions at runtime when wired in WM-1D.
+</p>
+<div data-mode-root data-mode="synthesis" data-design="on" data-gap="on">
+<article
+  class="profile-card"
+  id="home-care-aide-strawberry-mansion"
+  aria-label="Home care aide, Strawberry Mansion"
+>
+  <header class="profile-card__header">
+    <div class="profile-card__identity">
+      <h3 class="profile-card__occupation">Home care aide</h3>
+      <p class="profile-card__location">
+        <span class="profile-card__neighborhood">Strawberry Mansion</span><span class="profile-card__sub-area"> · North Core</span></p>
+    </div>
+      <span class="profile-card__composite" title="This is a composite profile, not a named individual">Composite</span>
+    <dl class="profile-card__facts">
+        <div class="profile-card__fact">
+          <dt>Income</dt>
+          <dd>$28,000</dd>
+        </div>
+        <div class="profile-card__fact">
+          <dt>Qualifying children</dt>
+          <dd>2</dd>
+        </div>
+        <div class="profile-card__fact">
+          <dt>Filing status</dt>
+          <dd>Single</dd>
+        </div>
+        <div class="profile-card__fact">
+          <dt>Employment</dt>
+          <dd>W-2 WAGE EARNER</dd>
+        </div>
+    </dl>
+  </header>
+  <div class="profile-card__leads">
+<div class="mode-content mode-content--lead" data-mode-show="synthesis">
+  <p class="profile-card__lead">Federal EITC delivers $6,164. State WPTC adds $616, and the Philadelphia wage tax takes $1,047, of which $627 stays unrecovered — 95% of eligible filers don&#39;t complete the Schedule SP application that would refund the rest. The federal credits and the local tax don&#39;t talk to each other — the design itself prevents the anti-poverty mechanism from offsetting the local extraction.</p>
+</div>
+<div class="mode-content mode-content--lead" data-mode-show="design">
+    <p class="profile-card__lead">The federal-state anti-poverty architecture delivers $6,780 to this household. Federal EITC contributes $6,164 — the largest single transfer in the federal-state-local stack for a worker at $28,000 with two qualifying children. Pennsylvania&#39;s first state EITC, the Working Pennsylvanians Tax Credit enacted in November 2025 at 10% of the federal credit, adds another $616. Both credits arrive automatically through tax filing. The federal anti-poverty architecture is, in this case, doing what its statutory design intends.</p>
+</div>
+<div class="mode-content mode-content--lead" data-mode-show="gap">
+    <p class="profile-card__lead">Of $1,047 in Philadelphia wage tax extracted from this household&#39;s $28,000 in earnings, $627 stays unrecovered. The wage tax has an income-based refund mechanism — Phila. Code § 19-1500 — that would recover $627 of the $1,047. The mechanism is gate-kept by Pennsylvania&#39;s Schedule SP eligibility, requiring a separate state approval that 95% of eligible Philadelphia filers don&#39;t navigate. The federal EITC and state WPTC both arrive automatically through tax filing. The Schedule SP refund does not. Federal, state, and local credit and tax systems run on independent administrative rails; no mechanism reconciles them at the household level. The architecture is not integrated: the federal anti-poverty credit cannot offset the local extraction.</p>
+</div>
+<div class="mode-content mode-content--lead" data-mode-show="neutral">
+    <p class="profile-card__lead profile-card__lead--neutral">Household income $28,000; two qualifying children; single parent. Federal EITC: $6,164. State WPTC: $616. Philadelphia wage tax: $1,047. Recoverable via Schedule SP: $420. Unrecovered: $627. Federal, state, and local revenue/credit systems administratively independent.</p>
+</div>
+  </div>
+  <div
+    class="viz-slot"
+    data-viz-target="home-care-aide-strawberry-mansion"
+    data-viz-fallback-flag="true"
+    aria-label="Visualization for Home care aide, Strawberry Mansion"
+  >
+<svg class="viz-stack" viewBox="0 0 480 160" role="img" aria-label="Stack bar: $6,780 inflows (design aspects), $1,047 wage-tax outflow ($420 recoverable via Schedule SP, $627 unrecovered gap). Net to household: $5,733.">
+  <defs>
+    <pattern id="hatch-gap-home-care-aide-strawberry-mansion" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" style="fill: var(--gap-bg);"/>
+      <line x1="0" y1="0" x2="0" y2="6" style="stroke: var(--gap-color); stroke-width: 1.6;"/>
+    </pattern>
+  </defs>
+  <text class="viz-bar-label" x="62" y="40" text-anchor="end">Inflows</text>
+  <text class="viz-bar-label" x="62" y="104" text-anchor="end">Outflows</text>
+  <g class="viz-segment" data-aspect-kind="design" data-aspect-id="federal-eitc">
+    <title>Federal EITC — $6,164</title>
+    <rect x="70" y="16" width="291" height="40" rx="2"/>
+  </g>
+  <line class="viz-segment-divider" x1="361" y1="16" x2="361" y2="56"/>
+  <g class="viz-segment" data-aspect-kind="design" data-aspect-id="pa-wptc">
+    <title>PA Working Pennsylvanians Tax Credit — $616</title>
+    <rect x="361" y="16" width="29" height="40" rx="2"/>
+  </g>
+  <text class="viz-bar-amount" x="398" y="40">$6,780</text>
+  <g class="viz-segment" data-aspect-kind="neutral" data-aspect-id="phila-wage-tax">
+    <title>Philadelphia wage tax — recoverable portion via Schedule SP, $420</title>
+    <rect x="70" y="80" width="20" height="40" rx="2"/>
+  </g>
+  <g class="viz-segment" data-aspect-kind="gap" data-aspect-id="schedule-sp-non-recovery">
+    <title>Schedule SP non-recovery — $627 unrecovered, structural shortfall</title>
+    <rect x="90" y="80" width="30" height="40" rx="2" fill="url(#hatch-gap-home-care-aide-strawberry-mansion)"/>
+  </g>
+  <text class="viz-bar-amount" x="127" y="104">−$1,047</text>
+  <line class="viz-axis-line" x1="70" y1="134" x2="390" y2="134"/>
+</svg>
+<ul class="viz-legend" aria-label="Chart legend">
+  <li class="viz-legend__item" data-aspect-kind="design">
+    <span class="viz-legend__swatch viz-legend__swatch--design" aria-hidden="true"></span>
+    <span class="viz-legend__label">Design — what the system delivers (federal EITC, state WPTC)</span>
+  </li>
+  <li class="viz-legend__item" data-aspect-kind="neutral">
+    <span class="viz-legend__swatch viz-legend__swatch--neutral" aria-hidden="true"></span>
+    <span class="viz-legend__label">Neutral — recoverable wage-tax portion</span>
+  </li>
+  <li class="viz-legend__item" data-aspect-kind="gap">
+    <span class="viz-legend__swatch viz-legend__swatch--gap" aria-hidden="true"></span>
+    <span class="viz-legend__label">Gap — unrecovered, where the system fails to deliver</span>
+  </li>
+</ul>
+<p class="viz-frame__net">
+  <strong>Net to household:</strong> $5,733 — the typical case, with Schedule SP not claimed.
+  If claimed, the household recovers another $420.
+</p>
+  <p
+    class="viz-arch-gap-note"
+    data-aspect-id="federal-local-non-integration"
+    data-aspect-kind="gap"
+  >
+    <strong>Architectural gap (no magnitude shown above):</strong>
+    The federal credits and the local tax don&#39;t talk to each other — the design itself prevents the anti-poverty mechanism from offsetting the local extraction.
+  </p>
+<p><p class="viz-fallback-note" data-mode-show="gap">
+Note: gap view of this profile would render more clearly as a flow diagram
+showing the three parallel pathways and their non-integration. v1 ships
+with the stack bar; flow-diagram is a follow-up.
+</p></p>
+  </div>
+  <div class="profile-card__ctas">
+<div class="cta-block mode-content" data-mode-show="synthesis">
+  <ul class="cta-block__list" aria-label="Next steps — synthesis view">
+  <li class="cta-block__item cta-block__item--read-more">
+      <a class="cta-block__link" href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#home-care-aide-strawberry-mansion">Read the full Wage Tax analysis</a>
+  </li>
+  </ul>
+</div>
+<div class="cta-block mode-content" data-mode-show="design">
+  <ul class="cta-block__list" aria-label="Next steps — design view">
+  <li class="cta-block__item cta-block__item--claim-benefit">
+      <a class="cta-block__link" href="https://www.irs.gov/individuals/find-a-location-for-free-tax-help">Find a VITA site near Strawberry Mansion</a>
+      <span class="cta-block__desc">Find free tax help to file and claim the benefit</span>
+  </li>
+  <li class="cta-block__item cta-block__item--read-more">
+      <a class="cta-block__link" href="/paul/campaign/empower/domain/finance-taxation/recent-changes/#pa-wptc-2025">Read about the Working Pennsylvanians Tax Credit</a>
+      <span class="cta-block__desc">Understand the new state credit</span>
+  </li>
+  <li class="cta-block__item cta-block__item--read-more">
+      <a class="cta-block__link" href="https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc">Read the EITC eligibility rules</a>
+      <span class="cta-block__desc">Check eligibility for the federal credit</span>
+  </li>
+  </ul>
+</div>
+<div class="cta-block mode-content" data-mode-show="gap">
+  <ul class="cta-block__list" aria-label="Next steps — gap view">
+  <li class="cta-block__item cta-block__item--read-more">
+      <span class="cta-block__link cta-block__link--pending" title="Link destination pending — check back after M4 content authoring">Read the People&#39;s Tax Plan: Schedule SP automation</span>
+      <span class="cta-block__desc">Read the proposal that would close this gap</span>
+  </li>
+  <li class="cta-block__item cta-block__item--civic-engagement">
+      <a class="cta-block__link" href="/paul/campaign/empower/domain/finance-taxation/contribute/">Contact your City Councilmember about wage tax reform</a>
+      <span class="cta-block__desc">Civic engagement pathway</span>
+  </li>
+  <li class="cta-block__item cta-block__item--read-more">
+      <a class="cta-block__link" href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#schedule-sp-take-up-gap">See sub-domain analysis of Schedule SP take-up</a>
+      <span class="cta-block__desc">Deeper analytical reading</span>
+  </li>
+  </ul>
+</div>
+  </div>
+  <div class="profile-card__supplementary">
+<div class="mode-content" data-mode-show="synthesis">
+  <section class="supplementary-block supplementary-block--summary">
+    <details>
+      <summary class="supplementary-block__heading">
+        How both sides interact
+        <span class="supplementary-block__kind-tag">summary</span>
+      </summary>
+      <div class="supplementary-block__content">
+        <p><strong>The architectural math for this household:</strong></p>
+<p>Federal-state anti-poverty architecture delivers: <strong>$6,780</strong>
+($6,164 federal EITC + $616 state WPTC, both automatic via tax filing)</p>
+<p>Philadelphia wage tax extracts: <strong>$1,047</strong>
+($420 recoverable via Schedule SP if navigated; $627 stays unrecovered in 95% of cases)</p>
+<p>Net experience for this household: <strong>$5,733</strong> (typical case, Schedule SP not claimed)</p>
+<p>The federal-state architecture is doing what its design intends; the local extraction is doing what its design intends; the architectural failure is that the two don't reconcile. Both findings are true at once.</p>
+<p></div>
+</details></p>
+  </section>
+</div>
+<div class="mode-content" data-mode-show="design">
+  <section class="supplementary-block supplementary-block--action">
+    <details>
+      <summary class="supplementary-block__heading">
+        How to claim what&#39;s owed to this household
+        <span class="supplementary-block__kind-tag">action</span>
+      </summary>
+      <div class="supplementary-block__content">
+        <p><strong>Concrete steps:</strong></p>
+<ol>
+<li><strong>File a federal tax return</strong> — even if income is below the filing threshold, federal EITC requires filing. Free options: IRS Free File (income under $79,000), VITA in-person assistance.</li>
+<li><strong>Find a VITA site near Strawberry Mansion</strong> — VITA preparers are trained to claim EITC and don't charge fees. Nearest sites are typically open January through April. <a href="https://www.irs.gov/individuals/find-a-location-for-free-tax-help">Find a site →</a></li>
+<li><strong>Confirm WPTC is claimed automatically</strong> — when the federal return is filed, the PA-40 state return picks up WPTC eligibility. No separate application.</li>
+<li><strong>Apply for Schedule SP wage-tax refund</strong> — separate from the federal and state filing. Requires PA Department of Revenue Schedule SP determination of low-income eligibility. <a href="https://www.phila.gov/services/payments-assistance-taxes/income-taxes/earnings-tax-employees/income-based-wage-tax-refund-petition/">Phila wage tax refund info →</a></li>
+</ol>
+<p></div>
+</details></p>
+  </section>
+</div>
+<div class="mode-content" data-mode-show="gap">
+  <section class="supplementary-block supplementary-block--reform">
+    <details>
+      <summary class="supplementary-block__heading">
+        Where this gap could close
+        <span class="supplementary-block__kind-tag">reform</span>
+      </summary>
+      <div class="supplementary-block__content">
+        <p><strong>Reform pathways currently in development:</strong></p>
+<p><strong>Schedule SP automation (Philadelphia, City Council):</strong> Cross-agency automation of Schedule SP eligibility — pulling the SP determination from PA filing data rather than requiring a separate state approval — is within the City Council's existing legal authority under the Local Tax Enabling Act. Councilmembers Brooks and O'Rourke have proposed this as part of the People's Tax Plan. <a href="TBD">Read the proposal →</a></p>
+<p><strong>VITA expansion (federal-state-local):</strong> The administrative-access failure here is partly a VITA capacity gap. Expanded VITA funding, language access, and outreach would close measurable fractions of the $627-per-household unrecovered amount. Federal VITA appropriations are currently a federal matter; state and city co-investment is within Pennsylvania and Philadelphia's existing authority.</p>
+<p><strong>Federal-state-local credit integration:</strong> A statutory mechanism reconciling federal EITC, state WPTC, and Philadelphia wage tax at the household level would close the architectural gap. No such proposal is currently in development; this is structural reform territory.</p>
+<p><strong>Civic engagement:</strong>
+<a href="TBD">Contact your City Councilmember →</a>
+<a href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#schedule-sp-take-up-gap">See the Schedule SP take-up sub-domain analysis →</a></p>
+<p></div>
+</details></p>
+  </section>
+</div>
+<div class="mode-content" data-mode-show="neutral">
+  <section class="supplementary-block supplementary-block--data">
+    <details>
+      <summary class="supplementary-block__heading">
+        The numbers
+        <span class="supplementary-block__kind-tag">data</span>
+      </summary>
+      <div class="supplementary-block__content">
+        <p><strong>Household profile:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Income</td>
+<td>$28,000</td>
+</tr>
+<tr>
+<td>Qualifying children</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Filing status</td>
+<td>Single</td>
+</tr>
+<tr>
+<td>Employment</td>
+<td>W-2 wage earner</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Federal-state-local stack:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Amount</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Federal EITC</td>
+<td>+$6,164</td>
+<td>IRC § 32</td>
+</tr>
+<tr>
+<td>PA WPTC</td>
+<td>+$616</td>
+<td>PA Act 39 of 2025</td>
+</tr>
+<tr>
+<td>Phila wage tax</td>
+<td>-$1,047</td>
+<td>Phila. Code § 19-1500</td>
+</tr>
+<tr>
+<td>Recoverable via Schedule SP</td>
+<td>+$420</td>
+<td>Phila. Code § 19-1500(c)</td>
+</tr>
+<tr>
+<td>Unrecovered</td>
+<td>-$627</td>
+<td>(administrative gap)</td>
+</tr>
+<tr>
+<td><strong>Net (typical case)</strong></td>
+<td><strong>+$5,733</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Net (with Schedule SP claimed)</strong></td>
+<td><strong>+$6,153</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></div>
+</details></p>
+  </section>
+</div>
+  </div>
+  <footer class="profile-card__provenance">
+    <span class="profile-card__source" data-source="verified">
+      Verified
+    </span>
+      · <a class="profile-card__subdomain-link" href="/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/">
+        See wage tax sub-domain analysis
+      </a>
+  </footer>
+</article>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Square Party</p>
+    <p class="site-footer__meta">
+      A vehicle for civic reform.
+    </p>
+    <p class="site-footer__meta">
+      <a href="/newsletter/">Newsletter →</a>
+    </p>
+  </footer>
+
+  <script src="/assets/js/site.js" defer></script>
+</body>
+</html>

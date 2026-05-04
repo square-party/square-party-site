@@ -1,0 +1,28 @@
+{#-
+  toggle-widget.njk — pill-button bar for the four-mode content toggle.
+
+  Emits the widget chrome only — button bar, hint text, ARIA live region.
+  Does NOT carry [data-mode-root]; that lives on the page-level wrapper in
+  finance-taxation/index.md so the mode-show CSS cascade reaches all sibling
+  partials (framing-block, profile-card, etc.).
+
+  IMPORTANT — no blank lines inside the <div class="toggle-widget"> block.
+  This partial is included into a Markdown (.md) file. CommonMark type-6 HTML
+  blocks terminate at the first blank line, so blank lines inside the div would
+  cause subsequent elements to be processed as Markdown and escaped. All button
+  elements are single-line; no blank lines between sibling elements.
+
+  State contract (written by toggle-widget.js on the [data-mode-root] ancestor):
+    [data-mode]   = "synthesis" | "design" | "gap" | "neutral"
+    [data-design] = "on" | "off"
+    [data-gap]    = "on" | "off"
+
+  JS file: src/assets/js/toggle-widget.js — loaded via empower.njk with defer.
+-#}
+<div class="toggle-widget" role="group" aria-labelledby="toggle-widget-label">
+<span class="toggle-widget__label" id="toggle-widget-label">Show:</span>
+<button class="pill" data-toggle="design" type="button" aria-pressed="false" aria-describedby="toggle-widget-label">Show design aspects</button>
+<button class="pill" data-toggle="gap" type="button" aria-pressed="false" aria-describedby="toggle-widget-label">Show gap aspects</button>
+<span class="toggle-widget__hint" aria-hidden="true">Both on: synthesis. One off: focus that lens. Both off: neutral analytical.</span>
+<div class="visually-hidden" role="status" aria-live="polite" data-mode-announce></div>
+</div>

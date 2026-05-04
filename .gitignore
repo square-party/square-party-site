@@ -20,7 +20,16 @@ Thumbs.db
 dist/
 build/
 _site/
+_site-sandbox/
 
-# Personal drafts — Substack and other pre-publication writing.
-# Kept local for Claude access; never pushed to the public repo.
+# Personal pre-publication content — Substack drafts, verified domain analysis,
+# and other working materials. Kept local for Claude access; never pushed to
+# the public repo. (Renamed from _drafts/ → _not-site-content/ on 2026-05-04.)
+_not-site-content/
 drafts/
+_drafts/
+
+# WM-1 smoke-test pages — build locally but never commit.
+# Note: wm1b-test.md intentionally not listed here; Eleventy 3 respects .gitignore
+# and would skip the file. The file stays untracked — admin to remove after WM-1D.
+src/_not-published/_site_test/

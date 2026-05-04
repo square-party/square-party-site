@@ -679,3 +679,62 @@ body::before {
   margin-bottom: 8px;
 }
 .gen__submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+/* ── Mobile calibration — WM-3c (2026-05-04) ─────────────────────────────
+   480px and 720px viewport passes. CSS-only; no HTML/JS changes.
+   Desktop layout (≥960px) is untouched.
+
+   Problem at ≤960px stacked layout:
+   - gen__preview-inner max-width: 560px → at 480px the square renders
+     ~416×416px (≈87% viewport height) before controls are visible.
+   - gen__controls min-height: 600px forces a tall box on narrow screens.
+   - gen__controls padding: 28px is heavy relative to available width.
+*/
+
+@media (max-width: 720px) {
+  /* Reduce preview cap so it doesn't dominate the stacked layout.
+     At 720px the natural width would be ~656px; 420px is more proportionate. */
+  .gen__preview-inner { max-width: 420px; }
+
+  /* Strip the desktop minimum height; let content dictate height on mobile. */
+  .gen__controls {
+    min-height: 0;
+    padding: 22px 22px 18px;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Preview: cap to ~280px so preview + controls both visible near fold.
+     min() ensures it still shrinks on very narrow phones (320px → 230px). */
+  .gen__preview-inner { max-width: min(280px, 72vw); }
+
+  /* Reduce gap between preview hint and preview itself */
+  .gen__preview { gap: 14px; }
+
+  /* Controls: compact padding and tighter internal gap */
+  .gen__controls {
+    padding: 16px 16px 14px;
+    gap: 14px;
+  }
+
+  /* Title: step down from 24px */
+  .gen__title { font-size: 20px; }
+
+  /* Word input row: tighten label column and count column */
+  .wi {
+    grid-template-columns: 88px 1fr 40px;
+    gap: 8px;
+  }
+
+  /* Color swatch: slightly smaller at narrow widths */
+  .cp__swatch-big { width: 44px; height: 44px; }
+
+  /* Quadrant selector: tighter padding and bottom margin */
+  .gen__quad { padding: 8px 10px; }
+  .gen__quad-row { gap: 6px; margin-bottom: 16px; }
+
+  /* Submit button: reduce vertical padding */
+  .gen__submit { padding: 14px 18px; }
+  .gen__submit-label { font-size: 14px; }
+}

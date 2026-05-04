@@ -11,7 +11,7 @@ breadcrumbExtras:
 updated: 2026-04-25
 ---
 
-# Meet the Neighbors — Finance & Taxation
+<h1>Meet the Neighbors — Finance &amp; Taxation</h1>
 
 <p class="domain-lead">These profiles are illustrative composites. The numbers — incomes, tax burdens, credit amounts, refund eligibility — are derived from current law applied to documented PA-3 conditions. The neighborhoods are real and their statistical character is real. The people are constructed to make the structural patterns visible at the scale of a household. They have no names and are not based on any identifiable individual. They are devices for seeing what current policy means for a household at a specific address — what the system produces for households like this one.</p>
 
@@ -19,7 +19,28 @@ updated: 2026-04-25
 <p><strong>Why this form.</strong> The structural finding is what's verified, not any individual story. A statement attributed to a real named person would be either fabricated or cherry-picked. The composite says: this is the typical experience of a household in this position. The "Composite" tag travels with each card so the framing doesn't fade as you scroll.</p>
 </aside>
 
-## Filter the profiles
+<div data-mode-root data-mode="neutral" data-design="off" data-gap="off">
+
+{% include "partials/toggle-widget.njk" %}
+
+<details class="construction-note">
+  <summary>Reading guide</summary>
+  <p>Each profile below combines facts about a household in PA-3 with the system components that affect that household. The toggles above let you read the page through four analytical lenses:</p>
+  <ul>
+    <li><strong>Neutral analytical</strong> (both off, default) — the mechanical facts without editorial framing. Useful when you want the data without the interpretation.</li>
+    <li><strong>Synthesis</strong> (both on) — the full picture; both how the system delivers and where it fails.</li>
+    <li><strong>Design view</strong> — what the system delivers, framed around the mechanism. Useful for understanding what's available, who can claim it, how to engage with the system as it currently operates.</li>
+    <li><strong>Gap view</strong> — where the system fails, framed around the failure pathway. Useful for understanding what's not working, who falls through, what reform proposals address it.</li>
+  </ul>
+  <p>All four are valid lenses on the same underlying data. The page is not reduced or filtered in any mode; you are reading the same analytical work with different emphasis.</p>
+</details>
+
+{% set profile = profiles["finance-taxation"].profiles["home-care-aide-strawberry-mansion"] %}
+{% include "partials/profile-card.njk" %}
+
+</div>
+
+<h2>Filter the profiles</h2>
 
 <div class="neighbors-filter" role="region" aria-label="Filter profiles">
 <fieldset class="neighbors-filter__group">

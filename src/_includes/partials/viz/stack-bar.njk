@@ -1,0 +1,95 @@
+{#
+  stack-bar.njk — server-rendered SVG stack bar.
+  Reads `profile` from scope (set by the calling page or profile-card.njk).
+
+  Geometry is pre-computed by the `stackBarGeometry` JS filter registered in
+  eleventy.config.js. Nunjucks lacks Math.abs, Math.max, and scoped variable
+  accumulation for the inflow cursor loop — so geometry lives in JS, rendering
+  lives here.
+
+  Hatch pattern id is per-profile-unique: hatch-gap-{{ profile.id }}.
+  On pages with multiple stack-bars the ids do not collide.
+
+  This partial emits NO mode-state attributes ([data-mode], [data-design],
+  [data-gap], [data-mode-root]). Those live only on the page-wrapper set
+  by the integrating template (or the smoke-test's static wrapper).
+  CSS rules cascade through from the wrapper to the viz-segment elements.
+
+  Source compaction: this partial is included into a `.md` file. CommonMark
+  type-6 HTML blocks close on the next blank line, so any blank line inside
+  the <svg>...</svg> output causes markdown-it to wrap the SVG in <p> and
+  escape its inner content as text. All inter-element blank lines are
+  eliminated; Nunjucks comment markers use the left-trim modifier (hyphen
+  immediately after the opening brace-pound) to consume any whitespace
+  introduced by comment removal.
+#}
+{%- set geo = profile | stackBarGeometry -%}
+{%- if geo %}
+<svg class="viz-stack" viewBox="0 0 {{ geo.VB_W }} {{ geo.VB_H }}" role="img" aria-label="Stack bar: {{ geo.inflowTotalFmt }} inflows (design aspects), {{ geo.wageTaxTotalFmt }} wage-tax outflow ({{ geo.neutralAmountFmt }} recoverable via Schedule SP, {{ geo.gapAmountFmt }} unrecovered gap). Net to household: {{ geo.netResultFmt }}.">
+  <defs>
+    {#- Hatch for gap segment — synthesis/design/gap modes. Colors via CSS vars
+       so [data-mode="neutral"] override on the ancestor can swap the palette. #}
+    <pattern id="hatch-gap-{{ profile.id }}" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" style="fill: var(--gap-bg);"/>
+      <line x1="0" y1="0" x2="0" y2="6" style="stroke: var(--gap-color); stroke-width: 1.6;"/>
+    </pattern>
+  </defs>
+  {#- Row labels #}
+  <text class="viz-bar-label" x="{{ geo.rowLabelX }}" y="{{ geo.rowLabelYInflow }}" text-anchor="end">Inflows</text>
+  <text class="viz-bar-label" x="{{ geo.rowLabelX }}" y="{{ geo.rowLabelYOutflow }}" text-anchor="end">Outflows</text>
+  {#- Inflow segments (one per design aspect, e.g. EITC + WPTC) #}
+  {%- for seg in geo.designSegments %}
+  <g class="viz-segment" data-aspect-kind="design" data-aspect-id="{{ seg.aspect.id }}">
+    <title>{{ seg.aspect.label }} — {{ seg.amtFmt }}</title>
+    <rect x="{{ seg.x }}" y="{{ seg.y }}" width="{{ seg.w }}" height="{{ seg.h }}" rx="2"/>
+  </g>
+  {%- if not loop.last %}
+  {#- Thin internal divider between adjacent inflow segments for legibility. #}
+  <line class="viz-segment-divider" x1="{{ seg.x + seg.w }}" y1="{{ seg.y }}" x2="{{ seg.x + seg.w }}" y2="{{ seg.y + seg.h }}"/>
+  {%- endif %}
+  {%- endfor %}
+  {#- Inflow amount label — right of bar #}
+  <text class="viz-bar-amount" x="{{ geo.inflowLabelX }}" y="{{ geo.inflowLabelY }}">{{ geo.inflowTotalFmt }}</text>
+  {#- Outflow: neutral (recoverable) + gap (hatched, unrecovered) #}
+  <g class="viz-segment" data-aspect-kind="neutral" data-aspect-id="{{ geo.wageTaxAspect.id }}">
+    <title>{{ geo.wageTaxAspect.label }} — recoverable portion via Schedule SP, {{ geo.neutralAmountFmt }}</title>
+    <rect x="{{ geo.outflowX }}" y="{{ geo.Y_OUTFLOW }}" width="{{ geo.neutralW }}" height="{{ geo.BAR_H }}" rx="2"/>
+  </g>
+  {#- Gap segment: fill set via SVG presentation attribute → CSS can override. #}
+  <g class="viz-segment" data-aspect-kind="gap" data-aspect-id="{{ geo.gapAspect.id }}">
+    <title>{{ geo.gapAspect.label }} — {{ geo.gapAmountFmt }} unrecovered, structural shortfall</title>
+    <rect x="{{ geo.outflowX + geo.neutralW }}" y="{{ geo.Y_OUTFLOW }}" width="{{ geo.gapW }}" height="{{ geo.BAR_H }}" rx="2" fill="url(#hatch-gap-{{ profile.id }})"/>
+  </g>
+  {#- Outflow amount label — right of bar, prefixed with minus sign #}
+  <text class="viz-bar-amount" x="{{ geo.outflowLabelX }}" y="{{ geo.outflowLabelY }}">−{{ geo.wageTaxTotalFmt }}</text>
+  {#- Horizontal divider rule below the outflow bar (visual close to chart) #}
+  <line class="viz-axis-line" x1="{{ geo.PAD_LEFT }}" y1="{{ geo.dividerY }}" x2="{{ geo.VB_W - geo.PAD_RIGHT }}" y2="{{ geo.dividerY }}"/>
+</svg>
+{#- Legend — small color key explaining what each segment represents.
+    Each item carries data-aspect-kind so the same mode-emphasis CSS rules
+    that dim/saturate the SVG segments also dim/saturate the legend swatches.
+    Synthesis: all three visible at full saturation. Design view: gap dims.
+    Gap view: design dims. Neutral: all swatches go muted. #}
+<ul class="viz-legend" aria-label="Chart legend">
+  <li class="viz-legend__item" data-aspect-kind="design">
+    <span class="viz-legend__swatch viz-legend__swatch--design" aria-hidden="true"></span>
+    <span class="viz-legend__label">Design — what the system delivers (federal EITC, state WPTC)</span>
+  </li>
+  <li class="viz-legend__item" data-aspect-kind="neutral">
+    <span class="viz-legend__swatch viz-legend__swatch--neutral" aria-hidden="true"></span>
+    <span class="viz-legend__label">Neutral — recoverable wage-tax portion</span>
+  </li>
+  <li class="viz-legend__item" data-aspect-kind="gap">
+    <span class="viz-legend__swatch viz-legend__swatch--gap" aria-hidden="true"></span>
+    <span class="viz-legend__label">Gap — unrecovered, where the system fails to deliver</span>
+  </li>
+</ul>
+{#- Net summary outside the SVG — easier to style as prose; more accessible
+    as HTML text; no SVG-text overflow risk.
+    Typical case: Schedule SP NOT claimed (95% non-take-up rate).
+    Recovery amount ($420) is what the household would gain if it were claimed. #}
+<p class="viz-frame__net">
+  <strong>Net to household:</strong> {{ geo.netResultFmt }} — the typical case, with Schedule SP not claimed.
+  If claimed, the household recovers another {{ geo.neutralAmountFmt }}.
+</p>
+{%- endif %}

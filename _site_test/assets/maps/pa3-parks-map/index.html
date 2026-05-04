@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parks & Open Space in PA-3 — A Descriptive Map</title>
+<meta name="description" content="An interactive map of every park, recreation center, pool, trail, and community garden in Pennsylvania's 3rd Congressional District.">
+
+<!-- Fonts: Fraunces (display serif, distinctive) + IBM Plex Sans (institutional sans) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,30..100,0..1&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<!-- MarkerCluster -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<!-- Turf.js for in-browser geometry clipping (booleanIntersects + centroid) -->
+<script src="https://unpkg.com/@turf/turf@7.1.0/turf.min.js"></script>
+
+<style>
+  :root {
+    --paper:        #f4ecdb;       /* warm cream — kraft / parchment */
+    --paper-deep:   #e8dfc7;
+    --ink:          #1a2332;       /* deep navy ink */
+    --ink-soft:     #3a4a60;
+    --rule:         #c9bfa3;       /* hairline rule color */
+    --accent:       #b54a23;       /* brick / signal red */
+
+    /* Facility category colors — earth-tone civic palette */
+    --cat-park:        #4a6b3a;    /* forest green */
+    --cat-rec:         #b54a23;    /* brick red */
+    --cat-pool:        #2c6e8f;    /* slate blue */
+    --cat-playground:  #c08a2e;    /* mustard ochre */
+    --cat-trail:       #5d7c8a;    /* dusty teal */
+    --cat-garden:      #7a8f3d;    /* moss */
+    --cat-square:      #4f3e6b;    /* aubergine */
+    --cat-greenway:    #2d5a4a;    /* deep green */
+    --cat-other:       #6b6b6b;    /* neutral grey */
+
+    --boundary:     #1a2332;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== LAYOUT ===== */
+  .app {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: 100vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  @media (max-width: 820px) {
+    .app {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+    }
+  }
+
+  /* ===== SIDEBAR ===== */
+  .sidebar {
+    background: var(--paper);
+    border-right: 1px solid var(--rule);
+    overflow-y: auto;
+    padding: 36px 32px 28px;
+    position: relative;
+  }
+
+  @media (max-width: 820px) {
+    .sidebar {
+      border-right: none;
+      border-bottom: 1px solid var(--rule);
+      max-height: 50vh;
+      padding: 22px 22px 18px;
+    }
+  }
+
+  /* Decorative thin rule above the title */
+  .sidebar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 32px;
+    right: 32px;
+    height: 4px;
+    background: var(--ink);
+  }
+
+  .eyebrow {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "opsz" 144, "SOFT" 50, "WONK" 1;
+    font-size: 38px;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    margin: 0 0 4px;
+    color: var(--ink);
+  }
+  h1 em {
+    font-style: italic;
+    font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
+    color: var(--accent);
+  }
+
+  .subtitle {
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--ink-soft);
+    margin: 0 0 24px;
+    font-variation-settings: "opsz" 30;
+  }
+
+  .blurb {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin: 0 0 22px;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--rule);
+    margin: 22px 0;
+    border: 0;
+  }
+
+  /* Stats row */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 0 0 22px;
+  }
+  .stat {
+    text-align: left;
+  }
+  .stat-num {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1;
+    color: var(--ink);
+    font-variation-settings: "opsz" 60;
+    display: block;
+  }
+  .stat-label {
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 4px;
+    line-height: 1.3;
+  }
+
+  /* Legend */
+  .legend-title {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 12px;
+  }
+  .legend {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px 12px;
+  }
+  .legend li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 12px;
+    color: var(--ink);
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.15s;
+  }
+  .legend li.off { opacity: 0.32; }
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1.5px solid var(--paper);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.18);
+  }
+  .legend-dot.line {
+    border-radius: 0;
+    height: 3px;
+    width: 14px;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* Footer / source */
+  .source {
+    font-size: 10.5px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid var(--rule);
+  }
+  .source a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .source a:hover { color: var(--ink); }
+
+  /* ===== MAP ===== */
+  #map {
+    height: 100%;
+    width: 100%;
+    background: var(--paper-deep);
+  }
+  .leaflet-container {
+    font-family: "IBM Plex Sans", sans-serif;
+    background: var(--paper-deep);
+  }
+
+  /* PA-3 boundary styling — thick navy outline */
+  .pa3-boundary {
+    fill: rgba(180, 74, 35, 0.04);
+    stroke: var(--ink);
+    stroke-width: 2.2;
+    stroke-linejoin: round;
+  }
+
+  /* Custom marker — small filled circle with thin halo */
+  .facility-marker {
+    border-radius: 50%;
+    border: 2px solid var(--paper);
+    box-shadow: 0 0 0 1px rgba(26,35,50,0.4), 0 1px 4px rgba(0,0,0,0.18);
+    cursor: pointer;
+  }
+
+  /* Popup styling */
+  .leaflet-popup-content-wrapper {
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 2px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    border: 1px solid var(--rule);
+    padding: 0;
+  }
+  .leaflet-popup-content {
+    margin: 0;
+    padding: 18px 20px 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    width: 280px !important;
+    max-height: 380px;
+    overflow-y: auto;
+  }
+  .leaflet-popup-tip { background: var(--paper); border: 1px solid var(--rule); }
+
+  .popup-cat {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .popup-name {
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 4px;
+    color: var(--ink);
+    font-variation-settings: "opsz" 60;
+  }
+  .popup-alias {
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+    font-variation-settings: "opsz" 30;
+  }
+  .popup-section {
+    border-top: 1px solid var(--rule);
+    padding-top: 9px;
+    margin-top: 9px;
+  }
+  .popup-row { margin: 3px 0; font-size: 12.5px; }
+  .popup-label {
+    color: var(--ink-soft);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 84px;
+  }
+  .popup-val { color: var(--ink); }
+  .popup-val.empty { color: #b8a888; font-style: italic; }
+  .popup-id {
+    font-size: 10px;
+    color: var(--ink-soft);
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", monospace;
+    letter-spacing: 0.02em;
+  }
+
+  /* Cluster customization — match palette */
+  .marker-cluster-small,
+  .marker-cluster-medium,
+  .marker-cluster-large {
+    background: rgba(26, 35, 50, 0.18);
+  }
+  .marker-cluster-small div,
+  .marker-cluster-medium div,
+  .marker-cluster-large div {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  /* Loading overlay */
+  .loading {
+    position: absolute;
+    inset: 0;
+    background: var(--paper-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    flex-direction: column;
+    gap: 16px;
+    transition: opacity 0.4s ease, visibility 0.4s;
+  }
+  .loading.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+  .loading-text {
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-size: 17px;
+    color: var(--ink-soft);
+    font-variation-settings: "opsz" 60;
+    text-align: center;
+    max-width: 280px;
+  }
+  .loading-progress {
+    font-family: "IBM Plex Mono", "Courier New", monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    margin-top: 4px;
+  }
+  .pulse {
+    width: 14px;
+    height: 14px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; transform: scale(0.85); }
+    50%      { opacity: 1.0; transform: scale(1.15); }
+  }
+
+  /* Error banner */
+  .err-banner {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-size: 12.5px;
+    z-index: 1000;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    max-width: 90%;
+  }
+
+  /* Custom scrollbar (subtle) */
+  .sidebar::-webkit-scrollbar { width: 6px; }
+  .sidebar::-webkit-scrollbar-track { background: transparent; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+
+  /* Filter pills (sub-area filter) */
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 16px;
+  }
+  .filter-pill {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 5px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .filter-pill:hover { color: var(--ink); border-color: var(--ink-soft); }
+  .filter-pill.active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <p class="eyebrow">Pennsylvania&apos;s 3rd Congressional District</p>
+    <h1>Parks &amp; <em>Open Space</em></h1>
+    <p class="subtitle">A descriptive map of every public facility &mdash; named, located, and sourced.</p>
+
+    <p class="blurb">
+      This map shows parks, recreation centers, pools, playgrounds, trails, and community gardens within PA-3 and a two-mile buffer around it &mdash; so facilities just over the district line are included for residents who routinely cross it. The bold outline marks the district itself. Click any marker for details, or the legend to filter.
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-num" id="stat-total">&mdash;</span>
+        <span class="stat-label">Total facilities</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-acres">&mdash;</span>
+        <span class="stat-label">Acres mapped</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-trails">&mdash;</span>
+        <span class="stat-label">Trail segments</span>
+      </div>
+    </div>
+
+    <p class="legend-title">Sub-area</p>
+    <div class="filter-row" id="subarea-filter">
+      <button class="filter-pill active" data-sub="all">All</button>
+      <button class="filter-pill" data-sub="N">North/NW Core</button>
+      <button class="filter-pill" data-sub="W">West Philly</button>
+      <button class="filter-pill" data-sub="NW">Northwest</button>
+      <button class="filter-pill" data-sub="S">South/SW</button>
+    </div>
+
+    <p class="legend-title">Facility type</p>
+    <ul class="legend" id="legend"></ul>
+
+    <p class="source">
+      <strong>Data:</strong> Philadelphia Parks &amp; Recreation via <a href="https://opendataphilly.org" target="_blank" rel="noopener">OpenDataPhilly</a> &amp; ArcGIS Hub (live fetch). PA-3 boundary from <a href="https://github.com/JeffreyBLewis/congressional-district-boundaries" target="_blank" rel="noopener">JeffreyBLewis</a> v2.0.0 (US Census TIGER 2024, 119th Congress).
+      <br><br>
+      <strong>Built:</strong> April 2026. Map is descriptive only &mdash; no analytical or evaluative framing.
+      <br><br>
+      <strong>Tiles:</strong> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OSM</a> &middot; CartoDB.
+    </p>
+  </aside>
+
+  <div style="position: relative;">
+    <div id="map"></div>
+    <div class="loading" id="loading">
+      <div class="pulse"></div>
+      <div class="loading-text" id="loading-text">Drawing the district boundary&hellip;</div>
+      <div class="loading-progress" id="loading-progress">0 of 7 datasets loaded</div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================================
+ * PA-3 PARKS MAP
+ * Loads data live from Philadelphia OpenDataPhilly / ArcGIS Hub at runtime.
+ * Clips to PA-3 boundary in browser via turf.js.
+ * ============================================================================ */
+
+// ---- INLINE PA-3 BOUNDARY (extracted from JeffreyBLewis Census 2024 119th Congress) ----
+const PA3_BOUNDARY = {"type":"FeatureCollection","name":"pa3-boundary-simplified","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:EPSG::4269"}},"features":[{"type":"Feature","properties":{"statename":"Pennsylvania","district":3.0,"startcong":118.0,"endcong":119.0,"id":"042118119003","source":"JeffreyBLewis/congressional-district-boundaries v2.0.0 (US Census TIGER 2024)"},"geometry":{"type":"Polygon","coordinates":[[[-75.27754,39.97113],[-75.27539,39.96957],[-75.2706,39.96866],[-75.27,39.96748],[-75.26545,39.96526],[-75.26049,39.96631],[-75.25908,39.96569],[-75.25711,39.96372],[-75.25414,39.9654],[-75.25031,39.96507],[-75.24806,39.96407],[-75.24769,39.96282],[-75.24855,39.96027],[-75.25088,39.95902],[-75.2495,39.95719],[-75.24901,39.95691],[-75.25158,39.95213],[-75.25161,39.95147],[-75.25012,39.94697],[-75.24721,39.9439],[-75.24703,39.94341],[-75.24037,39.94217],[-75.2399,39.94004],[-75.24063,39.93919],[-75.23957,39.93804],[-75.23688,39.93843],[-75.23487,39.93746],[-75.22953,39.94102],[-75.22908,39.94064],[-75.2304,39.93942],[-75.22836,39.9377],[-75.22548,39.93973],[-75.22429,39.93873],[-75.22566,39.93776],[-75.22439,39.93668],[-75.22301,39.93764],[-75.22034,39.93541],[-75.21898,39.93637],[-75.21557,39.93349],[-75.21586,39.93307],[-75.20607,39.93537],[-75.20632,39.93476],[-75.21125,39.92852],[-75.21243,39.92523],[-75.21079,39.92209],[-75.20853,39.92103],[-75.2034,39.92101],[-75.2017,39.91983],[-75.19504,39.92101],[-75.19249,39.92127],[-75.18142,39.92334],[-75.17978,39.92311],[-75.17986,39.92269],[-75.17664,39.92271],[-75.17708,39.92021],[-75.17561,39.92001],[-75.17618,39.91738],[-75.1746,39.91718],[-75.1743,39.91856],[-75.17112,39.91815],[-75.17142,39.91676],[-75.17021,39.91663],[-75.16991,39.918],[-75.16737,39.91768],[-75.16553,39.91872],[-75.16396,39.91852],[-75.16453,39.91587],[-75.15984,39.91529],[-75.15928,39.91791],[-75.13647,39.9149],[-75.12928,39.91502],[-75.13502,39.92731],[-75.13612,39.93391],[-75.13584,39.94329],[-75.14493,39.94449],[-75.1448,39.94508],[-75.14554,39.94518],[-75.1454,39.94596],[-75.14658,39.9461],[-75.14719,39.94333],[-75.15034,39.94373],[-75.14979,39.94624],[-75.15135,39.94652],[-75.1531,39.94591],[-75.15369,39.94322],[-75.15527,39.94342],[-75.15549,39.94241],[-75.16558,39.94366],[-75.16534,39.94466],[-75.1652,39.94465],[-75.16386,39.95086],[-75.16356,39.95158],[-75.16259,39.95224],[-75.16332,39.95336],[-75.15495,39.99235],[-75.15972,39.99297],[-75.15992,39.99459],[-75.15459,39.99394],[-75.13943,40.06336],[-75.1634,40.07695],[-75.17644,40.08465],[-75.18846,40.07275],[-75.2094,40.08493],[-75.21187,40.08609],[-75.21237,40.08599],[-75.21357,40.08715],[-75.22361,40.09291],[-75.24329,40.07349],[-75.26443,40.05409],[-75.25765,40.04761],[-75.25468,40.04592],[-75.2513,40.04351],[-75.24792,40.04076],[-75.2456,40.03766],[-75.24241,40.03592],[-75.2404,40.0339],[-75.23476,40.03016],[-75.23204,40.02804],[-75.22369,40.02371],[-75.22215,40.02261],[-75.21962,40.02191],[-75.21628,40.01956],[-75.21222,40.01546],[-75.20598,40.01172],[-75.20738,40.01048],[-75.20822,40.00995],[-75.21375,40.00716],[-75.254,39.9883],[-75.26369,39.98266],[-75.27587,39.97725],[-75.28027,39.97496],[-75.27754,39.97113]]]}}]};
+
+// ---- DATA SOURCES ----
+// All from OpenDataPhilly. Each is GeoJSON via ArcGIS Hub's standard download endpoint.
+const SOURCES = [
+  { id: 'properties',   label: 'PPR Properties (parks, rec centers, etc.)',
+    url: 'https://hub.arcgis.com/api/v3/datasets/d52445160ab14380a673e5849203eb64_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'playgrounds',  label: 'Playgrounds',
+    url: 'https://hub.arcgis.com/api/v3/datasets/899c807e205244278b3f39421be8489c_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'pools',        label: 'Swimming pools',
+    url: 'https://hub.arcgis.com/api/v3/datasets/c6f6176968f04d3f88adbc4c362af55d_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'spraygrounds', label: 'Spraygrounds',
+    url: 'https://hub.arcgis.com/api/v3/datasets/a148cc904d374b22bd456e44a044d554_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'trails',       label: 'Trails',
+    url: 'https://hub.arcgis.com/api/v3/datasets/48323d574068405bbf5336b9b5b29455_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'friends',      label: 'Friends groups',
+    url: 'https://hub.arcgis.com/api/v3/datasets/b75b5f7d119841a2812609162c4fac0e_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+  { id: 'programsites', label: 'Program sites (rec centers, OACs)',
+    url: 'https://hub.arcgis.com/api/v3/datasets/9eb26a787a6e448ba426eea7f9f0d93a_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1' },
+];
+
+// ---- CATEGORY DEFINITIONS ----
+// Maps the PPR_USE field to a display category, marker color, and human label.
+// Order matters for legend display.
+const CATEGORIES = [
+  { key: 'park',       label: 'Parks',                color: 'var(--cat-park)',       css: '#4a6b3a' },
+  { key: 'rec',        label: 'Recreation centers',   color: 'var(--cat-rec)',        css: '#b54a23' },
+  { key: 'pool',       label: 'Pools',                color: 'var(--cat-pool)',       css: '#2c6e8f' },
+  { key: 'playground', label: 'Playgrounds',          color: 'var(--cat-playground)', css: '#c08a2e' },
+  { key: 'trail',      label: 'Trails',               color: 'var(--cat-trail)',      css: '#5d7c8a', isLine: true },
+  { key: 'garden',     label: 'Gardens',              color: 'var(--cat-garden)',     css: '#7a8f3d' },
+  { key: 'square',     label: 'Squares & plazas',     color: 'var(--cat-square)',     css: '#4f3e6b' },
+  { key: 'greenway',   label: 'Greenways',            color: 'var(--cat-greenway)',   css: '#2d5a4a' },
+  { key: 'other',      label: 'Other PPR sites',      color: 'var(--cat-other)',      css: '#6b6b6b' },
+];
+
+const CAT_BY_KEY = Object.fromEntries(CATEGORIES.map(c => [c.key, c]));
+
+/** Classify a PPR property by its ppr_use field, with a name override
+ *  for facilities that read like playgrounds. The PPR Properties dataset
+ *  classifies many name-titled "Playground" sites as RECREATION_SITE
+ *  because PPR programs them; users perceive them as playgrounds, so
+ *  we promote name-based classification ahead of the use-code path. */
+function classifyByUse(props) {
+  const name = String(
+    props.official_name || props.site_name || props.park_name || props.label || ''
+  ).toLowerCase();
+
+  // Name-based override for playgrounds (catches "...Playground" sites
+  // that ppr_use would otherwise route to "rec" via RECREATION_SITE).
+  if (/\bplayground\b/.test(name))                 return 'playground';
+
+  const use = (props.ppr_use || '').toUpperCase();
+  const cls = (props.property_classification || '').toUpperCase();
+  if (use.includes('POOL'))                        return 'pool';
+  if (use.includes('SPRAYGROUND'))                 return 'pool';
+  if (use === 'RECREATION_SITE')                   return 'rec';
+  if (use === 'OLDER_ADULT' || use.includes('OAC'))return 'rec';
+  if (use.includes('PLAYGROUND'))                  return 'playground';
+  if (use.includes('GARDEN'))                      return 'garden';
+  if (use === 'SQUARE_PLAZA' || use.includes('PLAZA') || use.includes('SQUARE')) return 'square';
+  if (use === 'GREENWAY' || cls === 'PATHWAY')     return 'greenway';
+  if (use === 'NEIGHBORHOOD_PARK' ||
+      use === 'REGIONAL_PARK'     ||
+      use === 'NATURE_AREA'       ||
+      use === 'COMMUNITY_PARK'    ||
+      cls === 'PARK'              ||
+      cls === 'WATERSHED_PARK')                    return 'park';
+  return 'other';
+}
+
+/** Sub-area assignment based on lat/lng. Approximate; documented in README. */
+function subArea(lat, lng) {
+  // 1. Northwest (East Falls / Manayunk): generally lat > 40.005 and lng west of ~ -75.18
+  if (lat > 40.005)                                            return 'NW';
+  // 2. North/Northwest Core (Strawberry Mansion, Sharswood, North Central within PA-3):
+  //    roughly 39.97 < lat <= 40.005, in the eastern slice of the district (lng > -75.20)
+  if (lat > 39.97 && lng > -75.20)                             return 'N';
+  // 3. South / Southwest: south Philly + Kingsessing/Eastwick
+  if (lat < 39.945)                                            return 'S';
+  if (lat < 39.96 && lng < -75.21)                             return 'S';
+  // 4. West Philly Core (Mantua, Powelton, Cedar Park, Mill Creek, Cobbs Creek)
+  return 'W';
+}
+
+const SUBAREA_LABELS = {
+  N:  'North/Northwest Core',
+  W:  'West Philadelphia Core',
+  NW: 'Northwest (East Falls / Manayunk)',
+  S:  'South/Southwest',
+};
+
+// ---- STATE ----
+const state = {
+  byCategory: {},      // category key -> array of feature records
+  visible: new Set(CATEGORIES.map(c => c.key)),
+  subFilter: 'all',
+  pa3Boundary: null,
+  loadedCount: 0,
+};
+
+// ---- MAP INIT ----
+const map = L.map('map', {
+  center: [39.985, -75.20],
+  zoom: 13,
+  zoomControl: true,
+  preferCanvas: true,
+});
+
+// CartoDB Voyager: warm cream base that matches our palette.
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19,
+}).addTo(map);
+
+// Draw PA-3 boundary
+const boundaryLayer = L.geoJSON(PA3_BOUNDARY, {
+  style: {
+    color: '#1a2332',
+    weight: 2.4,
+    opacity: 0.85,
+    fillColor: '#b54a23',
+    fillOpacity: 0.04,
+    lineJoin: 'round',
+    interactive: false,
+  },
+}).addTo(map);
+
+// Fit map to PA-3 boundary
+map.fitBounds(boundaryLayer.getBounds(), { padding: [22, 22] });
+state.pa3Boundary = PA3_BOUNDARY.features[0];
+
+// Inclusion zone: PA-3 + 2-mile (3.2 km) buffer.
+// We display the PA-3 outline only — but include facilities anywhere
+// in the buffered zone so people who live near the edge of the
+// district can still see what's a short distance over the line.
+state.inclusionZone = turf.buffer(state.pa3Boundary, 3.2, { units: 'kilometers' });
+
+// Marker cluster group
+const clusterGroup = L.markerClusterGroup({
+  maxClusterRadius: 38,
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: false,
+  disableClusteringAtZoom: 16,
+  iconCreateFunction: function(cluster) {
+    const count = cluster.getChildCount();
+    const size = count < 10 ? 32 : count < 50 ? 40 : 48;
+    const cls = count < 10 ? 'marker-cluster-small'
+              : count < 50 ? 'marker-cluster-medium'
+              : 'marker-cluster-large';
+    return L.divIcon({
+      html: `<div><span>${count}</span></div>`,
+      className: 'marker-cluster ' + cls,
+      iconSize: L.point(size, size),
+    });
+  },
+}).addTo(map);
+
+// Layer for trail line segments (separate, not clustered)
+const trailLayer = L.layerGroup().addTo(map);
+
+// ---- HELPERS ----
+
+/** Make a colored circle div-icon. */
+function categoryIcon(catKey) {
+  const cat = CAT_BY_KEY[catKey] || CAT_BY_KEY.other;
+  return L.divIcon({
+    className: '',
+    html: `<div class="facility-marker" style="width:14px;height:14px;background:${cat.css};"></div>`,
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -7],
+  });
+}
+
+function escapeHtml(s) {
+  if (s === null || s === undefined || s === '') return '';
+  return String(s).replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[ch]));
+}
+
+/** Build a popup row. Empty values render as "Information not in source data". */
+function popupRow(label, value) {
+  const v = (value !== null && value !== undefined && String(value).trim() !== '')
+    ? `<span class="popup-val">${escapeHtml(value)}</span>`
+    : `<span class="popup-val empty">Information not in source data</span>`;
+  return `<div class="popup-row"><span class="popup-label">${escapeHtml(label)}</span>${v}</div>`;
+}
+
+/** Format an acreage number nicely. */
+function fmtAcres(a) {
+  if (a === null || a === undefined || a === '') return '';
+  const n = Number(a);
+  if (!isFinite(n)) return '';
+  if (n >= 100) return n.toFixed(0) + ' ac';
+  if (n >= 10)  return n.toFixed(1) + ' ac';
+  return n.toFixed(2) + ' ac';
+}
+
+/** Build the popup HTML for a property record. */
+function buildPopup(rec) {
+  const p   = rec.props;
+  const cat = CAT_BY_KEY[rec.cat];
+  const sub = SUBAREA_LABELS[rec.sub] || '';
+  const name  = p.official_name || p.site_name || p.park_name || p.label || 'Unnamed facility';
+  const alias = (p.alias && String(p.alias).trim()) ? p.alias : null;
+  const addr  = (p.address_911 && String(p.address_911).trim())
+              ? p.address_911 + (p.zip_code ? ', ' + p.zip_code : '')
+              : '';
+  const acres = fmtAcres(p.acreage);
+  const friendsName = rec.friendsName || '';
+  const friendsActive = rec.friendsName ? 'Yes' : '';
+
+  return `
+    <div class="popup-cat" style="color:${cat.css}">${cat.label}</div>
+    <div class="popup-name">${escapeHtml(name)}</div>
+    ${alias ? `<div class="popup-alias">${escapeHtml(alias)}</div>` : ''}
+    <div class="popup-section">
+      ${popupRow('Address', addr)}
+      ${popupRow('Sub-area', sub)}
+      ${popupRow('Size', acres)}
+      ${popupRow('PPR-managed', 'Yes')}
+    </div>
+    <div class="popup-section">
+      ${popupRow('Friends grp.', friendsActive)}
+      ${friendsName ? popupRow('Group name', friendsName) : ''}
+      ${popupRow('PPR use', p.ppr_use || '')}
+      ${popupRow('Park', p.park_name || '')}
+      ${p.comments ? popupRow('Notes', p.comments) : ''}
+    </div>
+    <div class="popup-id">PPR site ID: ${escapeHtml(p.ppr_site_id || p.ppr_park_id || '')}</div>
+  `;
+}
+
+/** Get a centroid as [lng, lat] from any GeoJSON geometry. */
+function centroidLngLat(geom) {
+  try {
+    const c = turf.centroid({ type: 'Feature', geometry: geom, properties: {} });
+    return c.geometry.coordinates;   // [lng, lat]
+  } catch (e) {
+    return null;
+  }
+}
+
+/** Test whether a geometry intersects the inclusion zone (PA-3 + 2-mile buffer). */
+function intersectsPA3(geom) {
+  try {
+    return turf.booleanIntersects(geom, state.inclusionZone);
+  } catch (e) {
+    return false;
+  }
+}
+
+/** Update progress text in loading overlay. */
+function setProgress(msg, n) {
+  document.getElementById('loading-text').textContent = msg;
+  if (typeof n === 'number') {
+    document.getElementById('loading-progress').textContent =
+      `${n} of ${SOURCES.length} datasets loaded`;
+  }
+}
+
+// ---- DATA LOAD ----
+
+async function fetchJSON(src) {
+  try {
+    const r = await fetch(src.url);
+    if (!r.ok) throw new Error(`HTTP ${r.status} for ${src.id}`);
+    return await r.json();
+  } catch (err) {
+    console.warn(`Failed to load ${src.id}:`, err);
+    return null;
+  }
+}
+
+async function loadAll() {
+  setProgress('Loading data from OpenDataPhilly\u2026', 0);
+
+  // Fetch all sources in parallel
+  const promises = SOURCES.map(async (src, i) => {
+    const data = await fetchJSON(src);
+    state.loadedCount += 1;
+    setProgress(`Loaded ${src.label}`, state.loadedCount);
+    return { src, data };
+  });
+
+  const results = await Promise.all(promises);
+  const byId = Object.fromEntries(results.map(r => [r.src.id, r.data]));
+
+  setProgress('Clipping to district + buffer\u2026', state.loadedCount);
+
+  // Build a lookup of friends groups by site name (lowercase) so we can join
+  const friendsBySite = {};
+  if (byId.friends && byId.friends.features) {
+    for (const f of byId.friends.features) {
+      const p = f.properties;
+      const key = String(p.site_name || p.park_name || p.label || '').trim().toLowerCase();
+      if (key) {
+        friendsBySite[key] = p.group_name || p.organization_name || p.name || 'Active Friends group';
+      }
+    }
+  }
+
+  // ---- Process the main PPR Properties dataset ----
+  const records = [];
+  if (byId.properties && byId.properties.features) {
+    for (const feat of byId.properties.features) {
+      // Only include if the polygon intersects PA-3
+      if (!intersectsPA3(feat.geometry)) continue;
+
+      const cll = centroidLngLat(feat.geometry);
+      if (!cll) continue;
+      const [lng, lat] = cll;
+
+      const cat = classifyByUse(feat.properties);
+      const sub = subArea(lat, lng);
+
+      // Lookup friends group via site_name
+      const sn  = String(feat.properties.site_name || feat.properties.park_name || feat.properties.label || '').trim().toLowerCase();
+      const friendsName = friendsBySite[sn] || null;
+
+      records.push({
+        lat, lng, cat, sub,
+        props: feat.properties,
+        geom: feat.geometry,
+        friendsName,
+      });
+    }
+  }
+
+  // ---- Process Trails (linestring features) separately ----
+  const trailRecords = [];
+  if (byId.trails && byId.trails.features) {
+    for (const feat of byId.trails.features) {
+      if (!intersectsPA3(feat.geometry)) continue;
+      trailRecords.push({
+        cat: 'trail',
+        props: feat.properties,
+        geom: feat.geometry,
+      });
+    }
+  }
+
+  // ---- Render markers ----
+  state.byCategory = Object.fromEntries(CATEGORIES.map(c => [c.key, []]));
+  for (const rec of records) {
+    const m = L.marker([rec.lat, rec.lng], { icon: categoryIcon(rec.cat) });
+    m.bindPopup(() => buildPopup(rec), { maxWidth: 320, autoPan: true });
+    rec.marker = m;
+    state.byCategory[rec.cat].push(rec);
+    clusterGroup.addLayer(m);
+  }
+
+  // Render trails as polylines
+  for (const rec of trailRecords) {
+    const layer = L.geoJSON(rec.geom, {
+      style: { color: CAT_BY_KEY.trail.css, weight: 3.5, opacity: 0.85, lineCap: 'round' },
+    });
+    const trailName = rec.props.trail_name || rec.props.name || rec.props.label || 'Trail segment';
+    const trailType = rec.props.trail_type || rec.props.surface || '';
+    layer.bindPopup(`
+      <div class="popup-cat" style="color:${CAT_BY_KEY.trail.css}">Trail</div>
+      <div class="popup-name">${escapeHtml(trailName)}</div>
+      <div class="popup-section">
+        ${popupRow('Type', trailType)}
+        ${popupRow('PPR-managed', 'Yes')}
+      </div>
+    `);
+    rec.layer = layer;
+    state.byCategory.trail.push(rec);
+    layer.addTo(trailLayer);
+  }
+
+  // ---- Stats ----
+  const totalAll = records.length + trailRecords.length;
+  const totalAcres = records.reduce((s, r) => s + (Number(r.props.acreage) || 0), 0);
+  document.getElementById('stat-total').textContent  = totalAll.toLocaleString();
+  document.getElementById('stat-acres').textContent  = totalAcres < 100
+                                                       ? totalAcres.toFixed(0)
+                                                       : Math.round(totalAcres).toLocaleString();
+  document.getElementById('stat-trails').textContent = trailRecords.length.toLocaleString();
+
+  // ---- Build legend ----
+  buildLegend();
+
+  // ---- Hide loader ----
+  setTimeout(() => {
+    document.getElementById('loading').classList.add('hidden');
+  }, 250);
+}
+
+function buildLegend() {
+  const ul = document.getElementById('legend');
+  ul.innerHTML = '';
+  for (const cat of CATEGORIES) {
+    const count = (state.byCategory[cat.key] || []).length;
+    if (count === 0) continue;
+    const li = document.createElement('li');
+    li.dataset.cat = cat.key;
+    li.innerHTML = `
+      <span class="legend-dot ${cat.isLine ? 'line' : ''}" style="background:${cat.css}"></span>
+      <span>${cat.label} <span style="color:var(--ink-soft);font-size:11px">(${count})</span></span>
+    `;
+    li.addEventListener('click', () => toggleCategory(cat.key, li));
+    ul.appendChild(li);
+  }
+}
+
+function toggleCategory(key, li) {
+  if (state.visible.has(key)) {
+    state.visible.delete(key);
+    li.classList.add('off');
+  } else {
+    state.visible.add(key);
+    li.classList.remove('off');
+  }
+  applyFilters();
+}
+
+function applyFilters() {
+  // Re-add markers based on current visible set + sub-area filter
+  clusterGroup.clearLayers();
+  trailLayer.clearLayers();
+  for (const cat of CATEGORIES) {
+    if (!state.visible.has(cat.key)) continue;
+    const items = state.byCategory[cat.key] || [];
+    for (const rec of items) {
+      // Sub-area filter only applies to point markers (records with .sub)
+      if (rec.sub && state.subFilter !== 'all' && rec.sub !== state.subFilter) continue;
+      if (cat.isLine && rec.layer) {
+        rec.layer.addTo(trailLayer);
+      } else if (rec.marker) {
+        clusterGroup.addLayer(rec.marker);
+      }
+    }
+  }
+}
+
+// ---- Sub-area filter pills ----
+document.getElementById('subarea-filter').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-pill');
+  if (!btn) return;
+  document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  state.subFilter = btn.dataset.sub;
+  applyFilters();
+});
+
+// Kick it off
+loadAll().catch(err => {
+  console.error('Fatal load error:', err);
+  document.getElementById('loading-text').textContent = 'Could not load data. Check console for details.';
+  document.getElementById('loading-progress').textContent = String(err);
+});
+
+</script>
+</body>
+</html>

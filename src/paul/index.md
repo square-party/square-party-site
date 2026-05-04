@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Paul Plonski
-description: Scientist, educator, and the first candidate running on a Square Party ticket. PA-3.
+description: Cognitive scientist and educator. The PA-3 empower project and Square Party are mine. I'm not running.
 reviewed: true
 ---
 
@@ -9,32 +9,40 @@ reviewed: true
 
 <img src="/assets/svg/paul-square.svg" class="bio-square" alt="Paul's square — Peace, Power, Planet, People around a celestial body">
 
-*(Bio to be written by Paul. The structural shell is below — fill in as needed, or restructure entirely. The headings are suggestions, not constraints.)*
-
 ## In brief
 
-*(One or two sentences. Who you are at a glance.)*
+Paul Plonski. Cognitive scientist and educator. The PA-3 empower project and Square Party are mine — both designed to give better candidates the tools to run substantive campaigns. I'm not running. The invitation is to write in someone you'd actually want to represent you.
 
 ## Background
 
-*(A paragraph or two. Scientific training, teaching, the path to civic work. Whatever level of detail feels right for a public-facing page.)*
+I grew up in small-town North Carolina, took the long route through suburban Virginia, a small Virginia city, a college town in Arizona, and a few years near Boston, and landed in Philadelphia. The geography wasn't planned. The pattern, in retrospect, was paying attention to how communities with different shapes hold themselves together.
+
+I trained as a cognitive scientist — emotion, belief, the messy intersections where people form mental representations of complicated things and act on them. My research is on climate emotion regulation: how people maintain (or fail to maintain) the affective and cognitive scaffolding that lets them keep functioning while watching a slow catastrophe. I teach. I write — academic, civic, sometimes personal.
+
+The civic work started as side reading. Then it became the work.
 
 ## My square
 
 The four corners on my own square — at least for now — are **Peace, Power, Planet, People**. It's an attempt to express what I think matters at the structural level, not what I think any particular policy should look like. Each member of Square Party makes their own.
 
-*(Optional: a paragraph on what each corner means to you, or a link to a longer essay.)*
+## What I'm doing
 
-## What I'm running for
+I'm not running for office. There's no candidacy.
 
-I'm running for the U.S. House of Representatives in Pennsylvania's 3rd Congressional District as a write-in candidate. The campaign is the first applied test of the Square Party framework: what it actually looks like when someone takes the empty-square idea and the People's Assembly seriously enough to run on them. [The campaign page →](/paul/campaign/)
+The empower project and the Square Party framework are tools and a structural model I think candidates better suited than me — and there are many — could use to run substantive campaigns and serve effectively. The goal is conversation-changing about what representation could look like, not winning a particular seat.
+
+Writing in my name is one option for participating, and I want to be explicit that the option exists. The website, the pledge form, the issue-mapping work — real, usable. But it's one option among many.
+
+Don't write me in unless you want to see what happens when a non-political person ends up holding power. Unless you want to see the inside of the sausage factory. I'll do it. But none of us knows what we'll find. That's the radical option. The safe option is to write in someone — anyone — you'd actually trust to represent you, even if they have no chance. The point isn't to win. The point is to make 'who would you actually want' a question that gets asked at every level of every election.
+
+[More on the project →](/paul/campaign/)
 
 ## Where the work lives
 
-- [The empower project →](/paul/campaign/empower/) — the PA-3 analytical work, the campaign's main project
+- [The empower project →](/paul/campaign/empower/) — the PA-3 analytical work; the project's main analytical surface
 - [Ideas →](/ideas/) — long-form essays about how the system works (market rules, civic engagement, planning around finitude)
 - [Policy areas →](/paul/policy/) — proposals inside specific issue domains (immigration, food, agriculture, civil service, campaign finance, and more)
-- [Square Party →](/) — the wider vehicle this campaign runs on
+- [Square Party →](/) — the wider framework
 
 ## Get in touch
 

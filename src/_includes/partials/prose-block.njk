@@ -1,0 +1,50 @@
+{#
+  prose-block.njk — mode-aware lead paragraphs.
+  Emits one lead block per mode with data-mode-show attributes so the
+  CSS mode-visibility rules (driven by [data-mode] on the profile-card
+  wrapper) reveal the right paragraph for the active mode.
+
+  Required in scope: profile.leadByMode
+
+  Fallback rule: if a mode-specific lead is missing, synthesis is used.
+  A comment is emitted in the rendered HTML to flag the fallback for debugging.
+
+  Mode ↔ data-mode-show mapping:
+    synthesis  → data-mode-show="synthesis"
+    designView → data-mode-show="design"
+    gapView    → data-mode-show="gap"
+    neutral    → data-mode-show="neutral"
+#}
+
+{%- set leads = profile.leadByMode -%}
+{#- Synthesis #}
+<div class="mode-content mode-content--lead" data-mode-show="synthesis">
+  <p class="profile-card__lead">{{ leads.synthesis }}</p>
+</div>
+{#- Design view — fallback to synthesis if not authored #}
+<div class="mode-content mode-content--lead" data-mode-show="design">
+  {%- if leads.designView %}
+    <p class="profile-card__lead">{{ leads.designView }}</p>
+  {%- else %}
+    <!-- mode-fallback: designView lead not authored; using synthesis lead -->
+    <p class="profile-card__lead">{{ leads.synthesis }}</p>
+  {%- endif %}
+</div>
+{#- Gap view — fallback to synthesis if not authored #}
+<div class="mode-content mode-content--lead" data-mode-show="gap">
+  {%- if leads.gapView %}
+    <p class="profile-card__lead">{{ leads.gapView }}</p>
+  {%- else %}
+    <!-- mode-fallback: gapView lead not authored; using synthesis lead -->
+    <p class="profile-card__lead">{{ leads.synthesis }}</p>
+  {%- endif %}
+</div>
+{#- Neutral — fallback to synthesis if not authored #}
+<div class="mode-content mode-content--lead" data-mode-show="neutral">
+  {%- if leads.neutral %}
+    <p class="profile-card__lead profile-card__lead--neutral">{{ leads.neutral }}</p>
+  {%- else %}
+    <!-- mode-fallback: neutral lead not authored; using synthesis lead -->
+    <p class="profile-card__lead profile-card__lead--neutral">{{ leads.synthesis }}</p>
+  {%- endif %}
+</div>

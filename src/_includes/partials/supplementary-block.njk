@@ -1,0 +1,97 @@
+{#
+  supplementary-block.njk — mode-aware auxiliary content blocks.
+  Each mode carries one supplementary block with a heading, kind tag,
+  and markdown content. The block is optional per profile; this partial
+  silently skips modes that have no supplementaryByMode entry.
+
+  Required in scope: profile.supplementaryByMode
+
+  Content rendering: block.contentMarkdown is rendered via the `markdown`
+  filter (added to eleventy.config.js as part of WM-1B). Filter converts
+  markdown-it-rendered HTML; use `| safe` to output without escaping.
+  markdown-it config: html: true (allows table markup in neutral-mode
+  data block), linkify: false.
+
+  Note on TBD links in supplementary markdown: some contentMarkdown fields
+  (gapView) contain links with href="TBD" that will render as <a href="TBD">.
+  These are placeholder links from the M2 prototype. The CTA TBD check applies
+  to cta-block.njk only; markdown content TBD links are left as-is for v1.
+  Flag: admin to decide whether to post-process or hand-write around TBD
+  links in supplementaryByMode markdown (PUBLIC_CONTENT M4 or later).
+
+  Mobile behavior: <details>/<summary> handles expand-on-click natively with
+  no JS. CSS forces the content visible on desktop regardless of open state.
+  On mobile (≤768px), browser manages show/hide via the details element.
+
+  Kind tag values and their CSS modifiers:
+    summary → .supplementary-block--summary
+    action  → .supplementary-block--action
+    reform  → .supplementary-block--reform
+    data    → .supplementary-block--data
+#}
+
+{%- set supp = profile.supplementaryByMode -%}
+{#- Synthesis #}
+{%- if supp.synthesis %}
+<div class="mode-content" data-mode-show="synthesis">
+  <section class="supplementary-block supplementary-block--{{ supp.synthesis.kind }}">
+    <details>
+      <summary class="supplementary-block__heading">
+        {{ supp.synthesis.title }}
+        <span class="supplementary-block__kind-tag">{{ supp.synthesis.kind }}</span>
+      </summary>
+      <div class="supplementary-block__content">
+        {{ supp.synthesis.contentMarkdown | markdown | safe }}
+      </div>
+    </details>
+  </section>
+</div>
+{%- endif %}
+{#- Design view #}
+{%- if supp.designView %}
+<div class="mode-content" data-mode-show="design">
+  <section class="supplementary-block supplementary-block--{{ supp.designView.kind }}">
+    <details>
+      <summary class="supplementary-block__heading">
+        {{ supp.designView.title }}
+        <span class="supplementary-block__kind-tag">{{ supp.designView.kind }}</span>
+      </summary>
+      <div class="supplementary-block__content">
+        {{ supp.designView.contentMarkdown | markdown | safe }}
+      </div>
+    </details>
+  </section>
+</div>
+{%- endif %}
+{#- Gap view #}
+{%- if supp.gapView %}
+<div class="mode-content" data-mode-show="gap">
+  <section class="supplementary-block supplementary-block--{{ supp.gapView.kind }}">
+    <details>
+      <summary class="supplementary-block__heading">
+        {{ supp.gapView.title }}
+        <span class="supplementary-block__kind-tag">{{ supp.gapView.kind }}</span>
+      </summary>
+      <div class="supplementary-block__content">
+        {{ supp.gapView.contentMarkdown | markdown | safe }}
+      </div>
+    </details>
+  </section>
+</div>
+{%- endif %}
+{#- Neutral #}
+{%- if supp.neutral %}
+<div class="mode-content" data-mode-show="neutral">
+  <section class="supplementary-block supplementary-block--{{ supp.neutral.kind }}">
+    <details>
+      <summary class="supplementary-block__heading">
+        {{ supp.neutral.title }}
+        <span class="supplementary-block__kind-tag">{{ supp.neutral.kind }}</span>
+      </summary>
+      <div class="supplementary-block__content">
+        {{ supp.neutral.contentMarkdown | markdown | safe }}
+      </div>
+    </details>
+  </section>
+</div>
+{%- endif %}

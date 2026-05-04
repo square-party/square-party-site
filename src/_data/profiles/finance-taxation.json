@@ -1,0 +1,193 @@
+{
+  "domain": "finance-taxation",
+  "profiles": {
+    "home-care-aide-strawberry-mansion": {
+      "id": "home-care-aide-strawberry-mansion",
+      "occupation": "Home care aide",
+      "neighborhood": "Strawberry Mansion",
+      "subArea": "north-core",
+      "composite": true,
+      "facts": {
+        "income": 28000,
+        "dependents": 2,
+        "filingStatus": "single",
+        "employment": "w2-wage-earner"
+      },
+      "appliesToSubdomain": "wage-tax",
+      "provenance": {
+        "source": "verified",
+        "verifiedFile": "D9_finance_verified_2026-04-15.md",
+        "verification": "2026-04-15"
+      },
+      "vizFallbackFlag": true,
+      "aspects": [
+        {
+          "id": "federal-eitc",
+          "kind": "design",
+          "label": "Federal EITC",
+          "magnitude": { "value": 6164, "units": "dollars", "direction": "inflow" },
+          "citation": "IRC § 32",
+          "proseByMode": {
+            "synthesis": "Federal EITC delivers $6,164.",
+            "designView": "Federal EITC delivers $6,164 — the largest single anti-poverty transfer in the federal-state-local stack for a worker at this income with two qualifying children.",
+            "gapView": "Federal EITC delivers $6,164 (design context — the mechanism that the local extraction can't offset).",
+            "neutral": "Federal EITC: $6,164."
+          },
+          "linkedLegal": {
+            "designView": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc"
+          }
+        },
+        {
+          "id": "pa-wptc",
+          "kind": "design",
+          "label": "PA Working Pennsylvanians Tax Credit",
+          "magnitude": { "value": 616, "units": "dollars", "direction": "inflow" },
+          "citation": "PA Act 39 of 2025",
+          "proseByMode": {
+            "synthesis": "State WPTC adds $616.",
+            "designView": "Pennsylvania's first state EITC — the Working Pennsylvanians Tax Credit, enacted November 2025 at 10% of the federal credit — adds $616, bringing federal-state anti-poverty delivery to $6,780.",
+            "gapView": "State WPTC adds $616 (design context — the new state credit, automatic via PA-40 filing).",
+            "neutral": "State WPTC: $616."
+          },
+          "linkedLegal": {
+            "designView": "/paul/campaign/empower/domain/finance-taxation/recent-changes/#pa-wptc-2025"
+          }
+        },
+        {
+          "id": "phila-wage-tax",
+          "kind": "neutral",
+          "label": "Philadelphia wage tax",
+          "magnitude": { "value": 1047, "units": "dollars", "direction": "outflow" },
+          "citation": "Phila. Code § 19-1500",
+          "proseByMode": {
+            "synthesis": "The Philadelphia wage tax takes $1,047.",
+            "designView": "The Philadelphia wage tax takes $1,047 (mechanical context).",
+            "gapView": "Of the $1,047 the Philadelphia wage tax extracts from this household, $627 stays unrecovered.",
+            "neutral": "Philadelphia wage tax: $1,047."
+          },
+          "linkedLegal": {
+            "designView": "https://www.phila.gov/services/payments-assistance-taxes/income-taxes/earnings-tax-employees/",
+            "gapView": "https://www.phila.gov/services/payments-assistance-taxes/income-taxes/earnings-tax-employees/"
+          }
+        },
+        {
+          "id": "schedule-sp-non-recovery",
+          "kind": "gap",
+          "gapKind": "administrative-access-failure",
+          "label": "Schedule SP non-recovery",
+          "magnitude": { "value": -627, "units": "dollars", "direction": "outflow-unrecovered" },
+          "subOf": "phila-wage-tax",
+          "citation": "Phila. Code § 19-1500(c)",
+          "proseByMode": {
+            "synthesis": "Of the $1,047 wage tax, $627 stays unrecovered — 95% of eligible filers don't complete the Schedule SP application that would refund the rest.",
+            "gapView": "The wage tax has an income-based refund mechanism that would recover $627 of the $1,047. The mechanism is gate-kept by Pennsylvania's Schedule SP eligibility — a separate state approval that 95% of eligible Philadelphia filers don't navigate. The federal EITC and state WPTC arrive automatically through tax filing. The Philadelphia Schedule SP refund does not. The architecture is gate-kept where the federal architecture is automatic.",
+            "neutral": "Recoverable via Schedule SP: $420. Unrecovered: $627."
+          },
+          "linkedLegal": {
+            "gapView": "TBD"
+          }
+        },
+        {
+          "id": "federal-local-non-integration",
+          "kind": "gap",
+          "gapKind": "architectural",
+          "label": "Federal-local credit non-integration",
+          "magnitude": null,
+          "citation": null,
+          "proseByMode": {
+            "synthesis": "The federal credits and the local tax don't talk to each other — the design itself prevents the anti-poverty mechanism from offsetting the local extraction.",
+            "gapView": "The design itself prevents the anti-poverty mechanism from offsetting the local extraction. Federal EITC, state WPTC, and Philadelphia wage tax run on independent administrative rails — the federal IRS pathway, the Pennsylvania Department of Revenue pathway, and the Philadelphia Department of Revenue pathway. No mechanism reconciles them at the household level. The federal anti-poverty credit cannot offset the local extraction; the local refund mechanism cannot pull from federal credit data; the state credit cannot bridge the two.",
+            "neutral": "Federal, state, and local revenue/credit systems administratively independent."
+          },
+          "linkedLegal": {
+            "gapView": "/paul/campaign/empower/domain/finance-taxation/gaps/#pattern-3-layered-architecture-no-integrating-mechanism"
+          }
+        }
+      ],
+      "leadByMode": {
+        "synthesis": "Federal EITC delivers $6,164. State WPTC adds $616, and the Philadelphia wage tax takes $1,047, of which $627 stays unrecovered — 95% of eligible filers don't complete the Schedule SP application that would refund the rest. The federal credits and the local tax don't talk to each other — the design itself prevents the anti-poverty mechanism from offsetting the local extraction.",
+        "designView": "The federal-state anti-poverty architecture delivers $6,780 to this household. Federal EITC contributes $6,164 — the largest single transfer in the federal-state-local stack for a worker at $28,000 with two qualifying children. Pennsylvania's first state EITC, the Working Pennsylvanians Tax Credit enacted in November 2025 at 10% of the federal credit, adds another $616. Both credits arrive automatically through tax filing. The federal anti-poverty architecture is, in this case, doing what its statutory design intends.",
+        "gapView": "Of $1,047 in Philadelphia wage tax extracted from this household's $28,000 in earnings, $627 stays unrecovered. The wage tax has an income-based refund mechanism — Phila. Code § 19-1500 — that would recover $627 of the $1,047. The mechanism is gate-kept by Pennsylvania's Schedule SP eligibility, requiring a separate state approval that 95% of eligible Philadelphia filers don't navigate. The federal EITC and state WPTC both arrive automatically through tax filing. The Schedule SP refund does not. Federal, state, and local credit and tax systems run on independent administrative rails; no mechanism reconciles them at the household level. The architecture is not integrated: the federal anti-poverty credit cannot offset the local extraction.",
+        "neutral": "Household income $28,000; two qualifying children; single parent. Federal EITC: $6,164. State WPTC: $616. Philadelphia wage tax: $1,047. Recoverable via Schedule SP: $420. Unrecovered: $627. Federal, state, and local revenue/credit systems administratively independent."
+      },
+      "ctaByMode": {
+        "synthesis": [
+          {
+            "label": "Read the full Wage Tax analysis",
+            "href": "/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#home-care-aide-strawberry-mansion",
+            "kind": "read-more"
+          }
+        ],
+        "designView": [
+          {
+            "label": "Find a VITA site near Strawberry Mansion",
+            "href": "https://www.irs.gov/individuals/find-a-location-for-free-tax-help",
+            "description": "Find free tax help to file and claim the benefit",
+            "kind": "claim-benefit"
+          },
+          {
+            "label": "Read about the Working Pennsylvanians Tax Credit",
+            "href": "/paul/campaign/empower/domain/finance-taxation/recent-changes/#pa-wptc-2025",
+            "description": "Understand the new state credit",
+            "kind": "read-more"
+          },
+          {
+            "label": "Read the EITC eligibility rules",
+            "href": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+            "description": "Check eligibility for the federal credit",
+            "kind": "read-more"
+          }
+        ],
+        "gapView": [
+          {
+            "label": "Read the People's Tax Plan: Schedule SP automation",
+            "href": "TBD",
+            "description": "Read the proposal that would close this gap",
+            "kind": "read-more"
+          },
+          {
+            "label": "Contact your City Councilmember about wage tax reform",
+            "href": "/paul/campaign/empower/domain/finance-taxation/contribute/",
+            "description": "Civic engagement pathway",
+            "kind": "civic-engagement"
+          },
+          {
+            "label": "See sub-domain analysis of Schedule SP take-up",
+            "href": "/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#schedule-sp-take-up-gap",
+            "description": "Deeper analytical reading",
+            "kind": "read-more"
+          }
+        ],
+        "neutral": []
+      },
+      "vizByMode": {
+        "synthesis": "stack-bar",
+        "designView": "stack-bar",
+        "gapView": "stack-bar",
+        "neutral": "stack-bar"
+      },
+      "supplementaryByMode": {
+        "synthesis": {
+          "title": "How both sides interact",
+          "kind": "summary",
+          "contentMarkdown": "**The architectural math for this household:**\n\nFederal-state anti-poverty architecture delivers: **$6,780**\n($6,164 federal EITC + $616 state WPTC, both automatic via tax filing)\n\nPhiladelphia wage tax extracts: **$1,047**\n($420 recoverable via Schedule SP if navigated; $627 stays unrecovered in 95% of cases)\n\nNet experience for this household: **$5,733** (typical case, Schedule SP not claimed)\n\nThe federal-state architecture is doing what its design intends; the local extraction is doing what its design intends; the architectural failure is that the two don't reconcile. Both findings are true at once."
+        },
+        "designView": {
+          "title": "How to claim what's owed to this household",
+          "kind": "action",
+          "contentMarkdown": "**Concrete steps:**\n\n1. **File a federal tax return** — even if income is below the filing threshold, federal EITC requires filing. Free options: IRS Free File (income under $79,000), VITA in-person assistance.\n2. **Find a VITA site near Strawberry Mansion** — VITA preparers are trained to claim EITC and don't charge fees. Nearest sites are typically open January through April. [Find a site →](https://www.irs.gov/individuals/find-a-location-for-free-tax-help)\n3. **Confirm WPTC is claimed automatically** — when the federal return is filed, the PA-40 state return picks up WPTC eligibility. No separate application.\n4. **Apply for Schedule SP wage-tax refund** — separate from the federal and state filing. Requires PA Department of Revenue Schedule SP determination of low-income eligibility. [Phila wage tax refund info →](https://www.phila.gov/services/payments-assistance-taxes/income-taxes/earnings-tax-employees/income-based-wage-tax-refund-petition/)"
+        },
+        "gapView": {
+          "title": "Where this gap could close",
+          "kind": "reform",
+          "contentMarkdown": "**Reform pathways currently in development:**\n\n**Schedule SP automation (Philadelphia, City Council):** Cross-agency automation of Schedule SP eligibility — pulling the SP determination from PA filing data rather than requiring a separate state approval — is within the City Council's existing legal authority under the Local Tax Enabling Act. Councilmembers Brooks and O'Rourke have proposed this as part of the People's Tax Plan. [Read the proposal →](TBD)\n\n**VITA expansion (federal-state-local):** The administrative-access failure here is partly a VITA capacity gap. Expanded VITA funding, language access, and outreach would close measurable fractions of the $627-per-household unrecovered amount. Federal VITA appropriations are currently a federal matter; state and city co-investment is within Pennsylvania and Philadelphia's existing authority.\n\n**Federal-state-local credit integration:** A statutory mechanism reconciling federal EITC, state WPTC, and Philadelphia wage tax at the household level would close the architectural gap. No such proposal is currently in development; this is structural reform territory.\n\n**Civic engagement:**\n[Contact your City Councilmember →](TBD)\n[See the Schedule SP take-up sub-domain analysis →](/paul/campaign/empower/domain/finance-taxation/sub-domains/wage-tax/#schedule-sp-take-up-gap)"
+        },
+        "neutral": {
+          "title": "The numbers",
+          "kind": "data",
+          "contentMarkdown": "**Household profile:**\n\n| Field | Value |\n|---|---|\n| Income | $28,000 |\n| Qualifying children | 2 |\n| Filing status | Single |\n| Employment | W-2 wage earner |\n\n**Federal-state-local stack:**\n\n| Component | Amount | Citation |\n|---|---|---|\n| Federal EITC | +$6,164 | IRC § 32 |\n| PA WPTC | +$616 | PA Act 39 of 2025 |\n| Phila wage tax | -$1,047 | Phila. Code § 19-1500 |\n| Recoverable via Schedule SP | +$420 | Phila. Code § 19-1500(c) |\n| Unrecovered | -$627 | (administrative gap) |\n| **Net (typical case)** | **+$5,733** | |\n| **Net (with Schedule SP claimed)** | **+$6,153** | |"
+        }
+      }
+    }
+  }
+}

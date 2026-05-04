@@ -1,0 +1,116 @@
+{#
+  profile-card.njk — top-level profile card partial.
+  Renders one profile across all four modes via mode-aware sub-partials.
+
+  Required variables in scope (set by the calling page):
+    profile     — the full profile object from finance-taxation.json
+                  e.g. {% set profile = profiles["finance-taxation"].profiles["home-care-aide-strawberry-mansion"] %}
+
+  Mode state contract (set by WM-1A's toggle widget JS on the PAGE-LEVEL
+  wrapper that carries [data-mode-root]):
+    [data-mode]  on the page wrapper — "synthesis" | "design" | "gap" | "neutral"
+    [data-design] on the page wrapper — "on" | "off"
+    [data-gap]    on the page wrapper — "on" | "off"
+
+  The profile-card itself does NOT carry [data-mode]. That attribute is the
+  single source of truth at the page-wrapper level; the toggle widget's JS
+  updates exactly one element. CSS rules cascade through to mode-show
+  children inside this card. (Earlier draft of this partial emitted
+  [data-mode] on the article — that broke the cascade because the closer
+  ancestor's data-mode dominates and the profile-card's static "synthesis"
+  would have masked the page wrapper's actual state.)
+
+  Coordination note (WM-1D): this partial does not touch page-level framing
+  (framingByMode); that is handled by framing-block.njk in the D9 restructure.
+  WM-1D's integrating template emits the [data-mode-root] wrapper around
+  both the toggle widget and the profile-card.
+#}
+
+<article
+  class="profile-card"
+  id="{{ profile.id }}"
+  aria-label="{{ profile.occupation }}, {{ profile.neighborhood }}"
+>
+  {#- ── Header — always visible ───────────────────────────────────────── #}
+  <header class="profile-card__header">
+    <div class="profile-card__identity">
+      <h3 class="profile-card__occupation">{{ profile.occupation }}</h3>
+      <p class="profile-card__location">
+        <span class="profile-card__neighborhood">{{ profile.neighborhood }}</span>
+        {%- if profile.subArea %}<span class="profile-card__sub-area"> · {{ profile.subArea | replace("-", " ") | title }}</span>{% endif -%}
+      </p>
+    </div>
+    {%- if profile.composite %}
+      <span class="profile-card__composite" title="This is a composite profile, not a named individual">Composite</span>
+    {%- endif %}
+    <dl class="profile-card__facts">
+      {%- if profile.facts.income %}
+        <div class="profile-card__fact">
+          <dt>Income</dt>
+          <dd>${{ profile.facts.income | string | replace("000", ",000") }}</dd>
+        </div>
+      {%- endif %}
+      {%- if profile.facts.dependents is not undefined and profile.facts.dependents !== null %}
+        <div class="profile-card__fact">
+          <dt>Qualifying children</dt>
+          <dd>{{ profile.facts.dependents }}</dd>
+        </div>
+      {%- endif %}
+      {%- if profile.facts.filingStatus %}
+        <div class="profile-card__fact">
+          <dt>Filing status</dt>
+          <dd>{{ profile.facts.filingStatus | replace("-", " ") | title }}</dd>
+        </div>
+      {%- endif %}
+      {%- if profile.facts.employment %}
+        <div class="profile-card__fact">
+          <dt>Employment</dt>
+          <dd>{{ profile.facts.employment | replace("-", " ") | upper | replace("W2", "W-2") }}</dd>
+        </div>
+      {%- endif %}
+    </dl>
+  </header>
+  {#- ── Mode-specific lead paragraphs ────────────────────────────────── #}
+  <div class="profile-card__leads">
+    {% include "partials/prose-block.njk" %}
+  </div>
+  {#- ── Visualization slot ────────────────────────────────────────────── #}
+  {#- WM-1C populates this element. data-viz-fallback-flag signals          #}
+  {#- whether flow-diagram would be the editorially-correct viz; stack-bar  #}
+  {#- is the v1 fallback regardless.                                        #}
+  <div
+    class="viz-slot"
+    data-viz-target="{{ profile.id }}"
+    data-viz-fallback-flag="{{ 'true' if profile.vizFallbackFlag else 'false' }}"
+    aria-label="Visualization for {{ profile.occupation }}, {{ profile.neighborhood }}"
+  >
+    {% include "partials/viz/stack-bar.njk" %}
+    {% include "partials/viz/arch-gap-annotation.njk" %}
+    {%- if profile.vizFallbackFlag %}
+    <p class="viz-fallback-note" data-mode-show="gap">
+      Note: gap view of this profile would render more clearly as a flow diagram
+      showing the three parallel pathways and their non-integration. v1 ships
+      with the stack bar; flow-diagram is a follow-up.
+    </p>
+    {%- endif %}
+  </div>
+  {#- ── Mode-specific CTA blocks ─────────────────────────────────────── #}
+  <div class="profile-card__ctas">
+    {% include "partials/cta-block.njk" %}
+  </div>
+  {#- ── Mode-specific supplementary blocks ───────────────────────────── #}
+  <div class="profile-card__supplementary">
+    {% include "partials/supplementary-block.njk" %}
+  </div>
+  {#- ── Provenance footer ─────────────────────────────────────────────── #}
+  <footer class="profile-card__provenance">
+    <span class="profile-card__source" data-source="{{ profile.provenance.source }}">
+      {{ profile.provenance.source | capitalize }}
+    </span>
+    {%- if profile.appliesToSubdomain %}
+      · <a class="profile-card__subdomain-link" href="/paul/campaign/empower/domain/finance-taxation/sub-domains/{{ profile.appliesToSubdomain }}/">
+        See {{ profile.appliesToSubdomain | replace("-", " ") }} sub-domain analysis
+      </a>
+    {%- endif %}
+  </footer>
+</article>

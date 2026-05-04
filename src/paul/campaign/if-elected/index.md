@@ -6,9 +6,9 @@ description: The candid version. Highly unlikely as a first-time write-in, but r
 
 # If I actually get elected
 
-This outcome is considered highly unlikely at the start. The math on a first-time write-in is what it is, and I'm not pretending otherwise.
+This outcome is considered highly unlikely, and that's by design. I'm not running. The point isn't to win the seat. But the option exists — anyone can write me in — and if enough people do, I'll serve.
 
-But I do have a plan, and I do think I'd be a good representative.
+If that happens, here's the plan.
 
 ## What the role would look like
 
