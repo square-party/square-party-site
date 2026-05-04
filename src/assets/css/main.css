@@ -643,10 +643,12 @@ main:has(.home-hero) {
   background: var(--accent-soft);
   outline: none;
 }
-/* Default (collapsed) label: primary-nav feel */
+/* Cluster heading — always larger than domain rows beneath (which are
+   0.98rem). Hierarchy holds in both collapsed and expanded states; the
+   prior expanded "eyebrow" shrink is removed below for that reason. */
 .domain-cluster__title {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: 0;
@@ -663,23 +665,13 @@ main:has(.home-hero) {
 .domain-cluster__toggle[aria-expanded="false"] .domain-cluster__caret {
   transform: rotate(-90deg);
 }
-/* Expanded state — shrink heading to eyebrow so domain rows lead the section.
-   Modern browsers (Safari 15.4+, Chrome 105+, Firefox 121+) support :has();
-   older browsers gracefully fall back to always-collapsed-look but the
-   list visibility is still toggled correctly via the JS-set aria attribute. */
+/* Expanded state — keep heading at full size so it remains visually larger
+   than the domain rows beneath. Earlier behavior shrank to an "eyebrow"
+   (font-ui, 0.7rem, uppercase); inverted Paul's intended hierarchy by
+   making domain rows (0.98rem) larger than their parent heading.
+   Caret rotation handled separately via the [aria-expanded] selector below. */
 .domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__toggle {
   padding: 0.3rem 0.65rem;
-  color: var(--muted);
-}
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__title {
-  font-family: var(--font-ui);
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__caret {
-  font-size: 0.7rem;
 }
 .domain-cluster__list {
   list-style: none;
