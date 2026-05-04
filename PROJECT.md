@@ -55,6 +55,10 @@ No window is authorized to:
 
 `_site/` is in `.gitignore`, so Claude builds don't pollute commits. `_site/` state is ephemeral; regenerated each build.
 
+## `.md → .njk` conversion gotcha
+
+When converting a page from `.md` to `.njk`, check `eleventy.config.js` for any `addCollection` glob that hardcodes `*/index.md`. Those collections silently exclude `.njk` files — pages disappear from listings, navigation, and any partial that walks the collection. Three known globs (all fixed 2026-05-04 to accept `{md,njk}`): `domains`, `ideas`, `policyProposals`. Re-check before any future conversion in case new collections get added.
+
 ## Build & deploy ownership
 
 Paul builds and deploys; sandboxes do syntactic verification only.
