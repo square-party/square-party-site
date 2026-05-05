@@ -1,8 +1,16 @@
 {
-  "name": "square-party",
-  "compatibility_date": "2026-04-19",
-  "assets": {
-    "directory": "./_site/",
-    "not_found_handling": "404-page"
-  }
+	"name": "square-party",
+	"compatibility_date": "2026-04-19",
+	"assets": {
+		"directory": "./_site/",
+		"not_found_handling": "404-page"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "squares",
+			"database_id": "352ba023-0604-4bac-bf86-a3d6b84969bf",
+			"remote": true
+		}
+	]
 }

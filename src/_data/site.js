@@ -29,7 +29,7 @@ export default {
   //   Set to a non-empty value (placeholder OK) so the form attempts to
   //   render the widget; replace with your real key before going live.
   apiBase: "/api",
-  turnstileSiteKey: "REPLACE-WITH-CLOUDFLARE-TURNSTILE-SITE-KEY",
+  turnstileSiteKey: "0x4AAAAAADJtVPXRJp8HBHJI",
 
   // Tally form IDs (last segment of the Tally form URL).
   // Update these in one place; templates pull from site.tally.*.
