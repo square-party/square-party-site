@@ -196,10 +196,11 @@ function validateSquare(b: any) {
   for (const k of ["tl", "tr", "bl", "br"]) {
     if (!HEX.test(colors[k] ?? "")) throw validationError(`colors.${k} must be hex`);
     const w = (words[k] ?? "").trim();
-    if (!w) throw validationError(`words.${k} required`);
+    // Empty words are allowed — a quadrant can render with no text. The
+    // length / regex / profanity checks only apply to non-empty entries.
     if (w.length > WORD_MAX) throw validationError(`words.${k} too long`);
-    if (!WORD_RE.test(w)) throw validationError(`words.${k} has invalid characters`);
-    if (containsProfanity(w)) throw validationError(`words.${k} not allowed`);
+    if (w && !WORD_RE.test(w)) throw validationError(`words.${k} has invalid characters`);
+    if (w && containsProfanity(w)) throw validationError(`words.${k} not allowed`);
   }
   if (!GLYPHS.has(b.glyph)) throw validationError("invalid glyph");
   if (!HEX.test(b.glyphColor ?? "")) throw validationError("glyphColor must be hex");

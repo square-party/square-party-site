@@ -559,12 +559,8 @@ async function handleSubmit() {
   state.submitError = null;
 
   // Basic client-side validation. Server validates again — never trust this.
-  const missing = state.words.findIndex((w) => !w.trim());
-  if (missing !== -1) {
-    state.submitError = `${QUADRANT_LABELS[missing]} word is empty.`;
-    render();
-    return;
-  }
+  // Empty words are allowed (a quadrant can render with no text); per-word
+  // length/regex/profanity checks still apply server-side for non-empty entries.
 
   const token = window.turnstile?.getResponse(turnstileWidgetId);
   if (!token) {
