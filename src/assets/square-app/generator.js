@@ -541,7 +541,17 @@ function renderSubmitButton() {
 
 function initTurnstile(slot) {
   const widget = document.getElementById("square-turnstile");
-  if (!widget || !window.turnstile || turnstileWidgetId !== null) return;
+  if (!widget || !window.turnstile) return;
+
+  // If we previously mounted but render() wiped the DOM (clear(root) on
+  // every state change), the iframe is gone but turnstileWidgetId still
+  // holds the stale id. Detect and re-mount fresh.
+  if (turnstileWidgetId !== null) {
+    if (slot.querySelector("iframe")) return; // still mounted, no-op
+    try { window.turnstile.remove(turnstileWidgetId); } catch (e) { /* ignore */ }
+    turnstileWidgetId = null;
+  }
+
   const sitekey = widget.dataset.sitekey;
   if (!sitekey) {
     console.warn("[square] Turnstile sitekey missing — submissions will fail.");
