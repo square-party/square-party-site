@@ -36,24 +36,32 @@ Review the output. If the local branch is behind origin, pull before working. If
 
 ---
 
-## Tooling access for Claude windows (added 2026-05-04)
+## Tooling access for Claude windows (revised 2026-05-04)
 
-All Claude windows operating in this project — admin and execution, PUBLIC_CONTENT and WEBSITE_MANAGE — have:
+All Claude windows in this project — admin and execution, PUBLIC_CONTENT and WEBSITE_MANAGE — have:
 
 - Read/write access to files in the workspace.
-- `npm run build` — one-shot eleventy build to `_site/` (verification of edits).
-- `npm run clean` — removes `_site/`. Safe; idempotent.
-- Read access to `_site/` after build for output inspection.
+- Permission to run `npm run build` (or `npx @11ty/eleventy`) **only when Paul explicitly asks for a build**.
+- Read access to `_site/` after a build, for output inspection.
 
 No window is authorized to:
 
 - `git commit`, `git push`, or any git write operation.
 - `npm run deploy`, `wrangler deploy`, `wrangler publish`, any deploy command.
 - Modify `package.json` / `package-lock.json` (no `npm install` / `npm update`).
+- Build on its own initiative, even when verification would be useful.
 
-**Build is verification, not deployment.** Paul runs the canonical build before deploy with his full local environment. Claude builds are sanity checks: catch Nunjucks errors, missing includes, broken layouts, frontmatter typos before the work lands in front of Paul. If a Claude build surfaces an issue that doesn't reproduce on Paul's local machine, treat it as a sandbox-environment artifact and report; don't paper over.
+**Why the explicit-request rule for builds.** The bash sandbox runs as a different user than Paul's local environment. When Paul has recently built or deployed locally, `_site/` is owned by his user; the sandbox can't unlink those files for the next build, and builds fail with permission errors on asset passthrough. The fix requires Paul to delete `_site/` so the sandbox can regenerate it cleanly.
 
-`_site/` is in `.gitignore`, so Claude builds don't pollute commits. `_site/` state is ephemeral; regenerated each build.
+**Per-request build protocol.** When Paul asks for a build:
+
+1. Paul deletes `_site/` (or confirms it's already absent).
+2. The window runs `npm run build` once. No rebuilds within the same request.
+3. The window reports outcome and any verification relevant to the edits.
+
+**Default behavior.** After a coherent set of edits, the window declares work done by reporting files edited + inspectable details (line counts, before/after diffs for substantive changes). No build runs unless Paul asks.
+
+`_site/` is in `.gitignore`, so any sandbox builds don't pollute commits. State is ephemeral; regenerated each build.
 
 ## `.md → .njk` conversion gotcha
 

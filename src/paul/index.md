@@ -11,13 +11,13 @@ reviewed: true
 
 ## In brief
 
-Paul Plonski. Cognitive scientist and educator. The PA-3 empower project and Square Party are mine — both designed to give better candidates the tools to run substantive campaigns. I'm not running, but modeling an invitation to write in someone you'd actually want to represent you.
+I am a cognitive scientist and educator. I started the PA-3 empower project and Square Party hoping that it might help normal people engage with politics and point non-political candidates to potential tools that they could use to run substantive campaigns. If I may ask, in return I'd appreciate it if you vote in every election and write in someone you'd actually want to represent you every time (even if that person is on the ballot as a listed candidate).
 
 ## Background
 
-From small-town North Carolina and suburban Virginia then moving through Richmond VA, Flagstaff AZ, Somerville MA, and now Philadelphia PA. The geography wasn't planned. But I have gotten to see many communities hold themselves together.
+I grew up in small-town North Carolina and have lived in several cities and suburbs. 
 
-I am an interdisciplinary cognitive scientist — interested in regulatory systems and often applying that interest to emotion and messy intersections where people form mental representations of complicated things and act on them. Much of my current research is on climate emotion regulation: how people maintain (or fail to maintain) the affective and cognitive scaffolding that lets them keep functioning and work against a catastrophe unfolding evermore quickly.  
+I am an interdisciplinary cognitive scientist and one big interest is emotion. Much of my current scientific research is on climate change and emotion regulation. See my [academic site](https://paulplonski.com) for more information. 
 
 ## My square
 
@@ -25,13 +25,11 @@ The four corners on my own square — at least for now — are **Peace, Power, P
 
 ## What I'm doing
 
-I'm not running for office. There's no candidacy.
+Honestly, not sure. But I felt like I had to do something that was not science and I had been thinking about ways to increase representation in the federal government for years, so here we are. I thought about trying to run for the house seat here in PA-3 and it is technically an option to write in my name on the ballot.  
 
-The empower project and the Square Party framework are tools and a structural model I think candidates better suited than me — and there are many — could use to run substantive campaigns and serve effectively. The goal is conversation-changing about what representation could look like, not winning a particular seat.
+But fair warning: don't write me in unless you want to see what happens when a non-political person ends up holding power. I'm pretty sure there's a nasty inside the sausage factory. I'll do it but none of us knows what would happen. I have no political experience and a ton of "good ideas". It would be a radical option. The safe option is to write in someone — anyone — you'd actually trust to represent you, even if they have no chance. The point isn't to win. The point is to make 'who would you actually want' a question that gets asked at every level of every election.
 
-Writing in my name is one option for participating, and I want to be explicit that the option exists. The website, the pledge form, the issue-mapping work — real, usable. But it's one option among many.
-
-Don't write me in unless you want to see what happens when a non-political person ends up holding power. Unless you want to see the inside of the sausage factory. I'll do it. But none of us knows what we'll find. That's the radical option. The safe option is to write in someone — anyone — you'd actually trust to represent you, even if they have no chance. The point isn't to win. The point is to make 'who would you actually want' a question that gets asked at every level of every election.
+The empower project and the Square Party framework are tools and a structural model I think candidates could adapt to run substantive campaigns and serve effectively. The goal can be to change what representation looks like, not drive political theater.
 
 [More on the project →](/paul/campaign/)
 

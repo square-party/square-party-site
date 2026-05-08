@@ -4,7 +4,7 @@
 export default {
   name: "Square Party",
   url: "https://squareparty.org",
-  description: "A vehicle for civic reform.",
+  description: "A Square Deal for our political future.",
 
   // GitHub-based contribution workflow.
   repoUrl: "https://github.com/square-party/square-party-site",

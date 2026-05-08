@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Square Party
-description: A vehicle for civic reform.
+description: A Square Deal for our political future.
 ---
 
 <div class="home-hero">
@@ -9,7 +9,7 @@ description: A vehicle for civic reform.
 
 # Square Party
 
-A vehicle for civic reform.
+A Square Deal for our political future.
 
 The party's square is empty on purpose. What goes inside is whatever each member decides matters most — four corners, picked and named by you, that say what you stand for.
 
@@ -23,9 +23,16 @@ The party's square is empty on purpose. What goes inside is whatever each member
   </div>
 </div>
 
+## A universal pledge
+
+I pledge allegiance to the square of the United States.  
+And to the democratic republic for which it stands.  
+One people, living in peace, under the faith and protection of us all and our beliefs.  
+With liberty and justice for all.  
+  
 ## Sign up
 
-The lightest possible ask: name and email, takes a few seconds. Get on our voter list, hear when there's something to hear, decide later how involved you want to be.
+The lightest possible ask: name and email, takes a few seconds. Get on the list so you can hear when there's something to hear.  
 
 {% set tallyId = site.tally.voter %}
 {% set tallyTitle = "Square Party voter sign-up" %}
@@ -42,7 +49,7 @@ Want to go deeper? [Pick the policy domains you care about →](/square-party/as
 
 ## Where to go from here
 
-- **[The Party](/square-party/)** — what Square Party is, the empty square, the People's Assembly, the basic tenets.
-- **[Empower](/paul/campaign/empower/)** — the 26-domain civic representation project, applied to PA-3.
-- **[Ideas](/ideas/)** — policy essays and analyses that cut across the project.
-- **[Paul](/paul/)** — Paul Plonski, the first candidate running on a Square Party ticket.
+- **[The Party](/square-party/)** — what Square Party is, the empty square, the People's Assembly, the basic tenets
+- **[Empower](/paul/campaign/empower/)** — a civic representation project applying the People's Assembly framework to Paul's district, PA-3
+- **[Ideas](/ideas/)** — big ideas to understand the present and plan for our future
+- **[Paul](/paul/)** — more info
