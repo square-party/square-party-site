@@ -38,7 +38,8 @@ export default {
   tally: {
     voter: "BzLAVA",     // home page — Square Party voter sign-up (lightest touch)
     assembly: "EkBJGL",  // /square-party/assembly/ — per-domain interest sign-up
-    pledge: null,        // /paul/campaign/ — write-in pledge (TBD: create in Tally, paste ID here)
+    pledge: null,        // /paul/campaign/ — write-in pledge for Paul specifically (TBD)
+    writeitin: null,     // /write-it-in/ — general pledge to write someone in (TBD: create in Tally, paste ID here)
     prefs: null          // /paul/campaign/empower/contribute/ — broad-issue preferences (TBD)
   },
 

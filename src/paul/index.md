@@ -7,29 +7,19 @@ reviewed: true
 
 # Paul Plonski
 
-<img src="/assets/svg/paul-square.svg" class="bio-square" alt="Paul's square — Peace, Power, Planet, People around a celestial body">
+<img src="/assets/svg/paul-square.svg" class="bio-square" alt="Paul's square — Peace, Power, Planet">
 
 ## In brief
 
-I am a cognitive scientist and educator. I started the PA-3 empower project and Square Party hoping that it might help normal people engage with politics and point non-political candidates to potential tools that they could use to run substantive campaigns. If I may ask, in return I'd appreciate it if you vote in every election and write in someone you'd actually want to represent you every time (even if that person is on the ballot as a listed candidate).
-
-## Background
-
-I grew up in small-town North Carolina and have lived in several cities and suburbs. 
-
-I am an interdisciplinary cognitive scientist and one big interest is emotion. Much of my current scientific research is on climate change and emotion regulation. See my [academic site](https://paulplonski.com) for more information. 
+I am a cognitive scientist and educator. Much of my current scientific research is on climate change and emotion regulation. I started the PA-3 empower project and Square Party website. I grew up outside a small town and now I live in a city.
 
 ## My square
 
-The four corners on my own square — at least for now — are **Peace, Power, Planet, People**. It's an attempt to express what I think matters at the structural level, not what I think any particular policy should look like. Each member of Square Party makes their own.
+My square has the words **Peace, Power, Planet, People**. These are topics I consider important and central to a well-functioning society.
 
 ## What I'm doing
 
-Honestly, not sure. But I felt like I had to do something that was not science and I had been thinking about ways to increase representation in the federal government for years, so here we are. I thought about trying to run for the house seat here in PA-3 and it is technically an option to write in my name on the ballot.  
-
-But fair warning: don't write me in unless you want to see what happens when a non-political person ends up holding power. I'm pretty sure there's a nasty inside the sausage factory. I'll do it but none of us knows what would happen. I have no political experience and a ton of "good ideas". It would be a radical option. The safe option is to write in someone — anyone — you'd actually trust to represent you, even if they have no chance. The point isn't to win. The point is to make 'who would you actually want' a question that gets asked at every level of every election.
-
-The empower project and the Square Party framework are tools and a structural model I think candidates could adapt to run substantive campaigns and serve effectively. The goal can be to change what representation looks like, not drive political theater.
+The empower project and the Square Party framework are tools and model increased representation.
 
 [More on the project →](/paul/campaign/)
 

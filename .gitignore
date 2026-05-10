@@ -22,12 +22,9 @@ build/
 _site/
 _site-sandbox/
 
-# Personal pre-publication content — Substack drafts, verified domain analysis,
-# and other working materials. Kept local for Claude access; never pushed to
-# the public repo. (Renamed from _drafts/ → _not-site-content/ on 2026-05-04.)
-_not-site-content/
-drafts/
-_drafts/
+# (2026-05-09: Pre-publication content — Substack drafts, verified domain
+# analysis, admin coordination — moved OUT of the site repo to
+# ../PA3_assembly_work/_not-site-content/. No longer needs gitignoring here.)
 
 # WM-1 smoke-test pages — build locally but never commit.
 # Note: wm1b-test.md intentionally not listed here; Eleventy 3 respects .gitignore

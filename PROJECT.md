@@ -127,7 +127,7 @@ Paul builds and deploys; sandboxes do syntactic verification only.
   - `.page-footer-links` and `.newsletter-embed` CSS rules added to `main.css`.
 
 **In flight:**
-- **Aspect-toggle + multi-mode content system (PUBLIC_CONTENT M3 = WEBSITE_MANAGE WM-1).** Handed off from PUBLIC_CONTENT 2026-05-04. Source artifacts (spec + addendum + M1 architecture prototype + M2 content prototype) referenced in `_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-handoff_2026-05-04.md`. PUBLIC_CONTENT M4 (content authoring across all four modes for D9 home + a sub-domain page) picks up after WM-1 ships.
+- **Aspect-toggle + multi-mode content system (PUBLIC_CONTENT M3 = WEBSITE_MANAGE WM-1).** Handed off from PUBLIC_CONTENT 2026-05-04. Source artifacts (spec + addendum + M1 architecture prototype + M2 content prototype) referenced in `../PA3_assembly_work/_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-handoff_2026-05-04.md` (admin work moved out of the site repo on 2026-05-09). PUBLIC_CONTENT M4 (content authoring across all four modes for D9 home + a sub-domain page) picks up after WM-1 ships.
 
   Architectural decisions locked in WEBSITE_MANAGE admin (2026-05-04):
   - Render-all-four-modes server-side; CSS-driven visibility on `[data-mode]` wrapper attribute.
@@ -139,12 +139,12 @@ Paul builds and deploys; sandboxes do syntactic verification only.
   - Per-aspect `proseByMode` for tooltips/citations/neutral-fallback; per-profile `leadByMode` for paragraph-level swaps.
 
   Sub-milestones:
-  - **WM-1A** — Toggle widget + state machine. **Done** 2026-05-04. Sandbox HTML at `_not-site-content/website-manage/prototype/wm1a-toggle-widget.html`.
+  - **WM-1A** — Toggle widget + state machine. **Done** 2026-05-04. Sandbox HTML at `../PA3_assembly_work/_not-site-content/website-manage/prototype/wm1a-toggle-widget.html`.
   - **WM-1B** — Data file + mode-aware Nunjucks partials + CSS contract. **Done** 2026-05-04. Profile card emitted spurious `data-mode` attributes; admin patched post-return.
   - **WM-1C** — Stack-bar viz partial (server-rendered SVG, CSS-driven mode emphasis). **Done** 2026-05-04. Geometry verified; neutral-mode swaps hatch for solid muted fill (consistent with spec's no-kind-coding rule).
   - **WM-1D** — D9 page restructure. **Done** 2026-05-04. Toggle widget extracted to partial + JS; D9 page wrapped in `data-mode-root`; framingByMode populated with M3-prototype starter content for PUBLIC_CONTENT M4 to rewrite.
   - **Whitespace cleanup pass** (admin, post-WM-1D) — markdown-it was wrapping `<dl>` and other block elements in `<p>` because Nunjucks partials emit blank lines between block elements when included in `.md` files. Applied `{#- ... #}` left-trim modifier across profile-card, prose-block, cta-block, supplementary-block, framing-block to consume the inter-block blank lines.
-  - **WM-1E** — Response file to PUBLIC_CONTENT at `_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-response_2026-05-04.md`. **Done** 2026-05-04 evening, after Paul's browser-review iteration cycle.
+  - **WM-1E** — Response file to PUBLIC_CONTENT at `../PA3_assembly_work/_not-site-content/public-content-admin/handoffs/aspect-toggle-multi-mode-response_2026-05-04.md`. **Done** 2026-05-04 evening, after Paul's browser-review iteration cycle.
   - **Browser-review iteration pass** (admin, post-WM-1D) — Paul's local review surfaced four issues, all fixed:
     1. SVG rendering as escaped text — caused by markdown-it block-element chunking on a missed blank line in `stack-bar.njk`. Compacted with `{#- ... #}` left-trim pattern.
     2. Toggle stuck under site-header — sticky offset corrected to `top: 56px` (desktop), `top: 64px` (≤768px mobile) to match site-header height.

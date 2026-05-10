@@ -12,11 +12,17 @@ Square Party takes its name from Theodore Roosevelt's Square Deal, the early-twe
 
 Square Party isn't a re-run of the Square Deal. It's a re-imagining of what a party can be. The four sections below are the working pieces.
 
+## The ground game
+
+The working mission of Square Party is direct: every election, every voter, every level — write someone in. Anyone you'd actually want to represent you. The structural pieces below explain why this works as a signal and why we think it scales. The ask is the action.
+
+[Write it in →](/write-it-in/)
+
 ## The empty square
 
 Most parties tell you what to think. Their platform is fixed; you sign on or you don't. Square Party inverts that: the party's square is empty on purpose. What goes inside is whatever each member picks — four corners, named by you, that say what you stand for.
 
-You make your own square. It can change. It can signal. It lets you take ownership of the ideas you actually care about, without those ideas getting diluted into a single shared platform. Squares overlap rather than tile. A round world gets covered by enough of them.
+You make your own square. It can change. It can signal. It lets you take ownership of the ideas you actually care about, without those ideas getting diluted into a single shared platform.
 
 *(A demo of the make-your-own-square primitive is planned for a later working session. For now, [Paul's square](/paul/) — Peace, Power, Planet, People — gives one example.)*
 

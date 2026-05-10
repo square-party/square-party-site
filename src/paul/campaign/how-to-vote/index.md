@@ -6,6 +6,8 @@ description: Mechanics of writing in a candidate for U.S. House in PA-3 — and 
 
 # How to vote
 
+For the action and the case for it, see **[Write it in →](/write-it-in/)**. This page covers the mechanics.
+
 ## The mechanics
 
 In Pennsylvania, writing in a candidate means marking the "write-in" line on the U.S. House race and writing the name. Every ballot type used in PA (paper, paper-with-scanner, electronic) has a write-in line on federal races.
