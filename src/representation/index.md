@@ -197,7 +197,7 @@ Constituent Organizing is the proof of concept. The Shadow Convention is the dem
 
 ## Cross-project connections
 
-- [Corporations speak for money](/paul/policy/07-campaign-finance/) — competitive districts and accountable representation are less vulnerable to concentrated spending; campaign finance reform and representation reform reinforce each other.
+- [Campaign Finance](/paul/policy/07-campaign-finance/) — competitive districts and accountable representation are less vulnerable to concentrated spending; campaign finance reform and representation reform reinforce each other.
 - [The American Experiment](/ideas/02-american-experiment/) — declining civic participation is partly a response to representation that doesn't feel responsive. Constituent organizing closes the loop.
 - [Capitalism Game Maintenance](/ideas/01-game-maintenance/) — diluted representation is one mechanism by which concentrated economic interests dominate the rule-making process.
 

@@ -8,35 +8,18 @@ description: Twenty-six topical domains where citizens specialize, organize, and
 
 A second axis of representation. Geographic representation tells us *who* lives where, and assigns one set of representatives to handle every issue across that geography. The People's Assembly proposes a complementary structure: representation organized by *what* a law concerns, not just *where* it applies.
 
-Every place government touches life is a domain. Twenty-six of them, mapped out below. Each is a potential seat: a topical specialization where members of the public can build expertise, follow what's happening, and provide the kind of sustained citizen oversight that a single geographically-elected representative simply doesn't have time for across all twenty-six at once.
+Every place government touches life can be identified (mostly). The idea is to map those places into conceptual domains so that people can actually understand the laws and reglations that they are subject to. Each area is an opportunity for someone with passion or topical specialization to organize members of the public to build expertise, communicate, and provide the kind of sustained citizen representation that a single geographically-elected representative simply doesn't have time for across three quarters of a million people and dozens of legal areas.
 
 This isn't a replacement for geography. It's an addition. District reps represent place. Topical reps represent depth. Both together is the model.
 
 <aside class="construction-note" aria-label="A note on framing">
-<p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The twenty-six domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal. Other sets could carve up the same scope differently. What's not negotiable is the comprehensive-coverage goal; the particular carve-up is.</p>
+<p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal.</p>
 </aside>
 
-## Why twenty-six
+## Why that number?
 
-The number isn't sacred. The aim is *comprehensive coverage*. If a domain is missing — if government does something significant that doesn't fall into one of the twenty-six — the map isn't yet honest, and the assembly has a gap. The list will grow as gaps surface. (It already grew from the original twenty when we noticed we'd left out arts, sciences, and the entire infrastructure of public records — and again to twenty-six when healthcare delivery, civil rights, election law, and veterans affairs surfaced as needing their own analytical homes rather than being scattered across the existing domains.)
+The number isn't sacred. The aim is *comprehensive coverage*. If a area is missing — if government does something significant that doesn't fall into one of the existing areas — the map isn't yet honest, and the assembly has a gap. The coverage will grow.
 
-Below: every domain, what it covers in broad strokes, and a way to express interest in a topical seat. Express interest in as many or as few as you'd like. We track the responses to see where there's energy and which domains are ready to organize.
-
-## Express interest
-<a id="express-interest"></a>
-
-Tell us which domains you'd want to follow or organize around. Email plus checkboxes — the form takes about thirty seconds. We use the responses to see where there's energy and which domains are ready for organizing work.
-
-{% set tallyId = site.tally.assembly %}
-{% set tallyTitle = "People's Assembly: express interest" %}
-{% set tallyHeight = "320" %}
-{% include "partials/tally-embed.njk" %}
-
-## The twenty-six
-
-{% include "partials/domain-card-grid.njk" %}
-
-Click any domain to see what's already been mapped within it. Most domains are scaffolded but not yet researched — that's where contributors come in.
 
 ## How specialization works in practice
 

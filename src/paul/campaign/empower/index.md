@@ -8,13 +8,14 @@ description: The PA-3 application of the People's Assembly framework — twenty-
 
 {% include "partials/schoolhouse-hook.njk" %}
 
-This project applies a [People's Assembly framework](/square-party/assembly/) to Pennsylvania's 3rd Congressional District — Philadelphia plus parts of Delaware and Montgomery Counties. The framework is twenty-six policy domains, organized to cover everything government touches. For each one, we document what the law says, how it actually runs in PA-3, and where the two diverge.
+This project applies a [People's Assembly framework](/square-party/assembly/) to Pennsylvania's 3rd Congressional District — Philadelphia plus parts of Delaware and Montgomery Counties. I identified close to 30 possible domains which each had discrete laws, regulations, and implications. In theory, a People's Assembly framework like this could be applied to the entire legal and governmental landscape, one section at a time. This type of transparency facilitates representation and accountability, as well as a cumulative public record. For the areas that I thought might be more directly relevant to the constituents in PA-3, I developeed a methodology to document what the law says, how it actually runs in the district, and where the two diverge.
 
-The methodology is the same across all twenty-six: five lenses (statutory architecture, administrative implementation, constituent experience, gap analysis, and statutory-vs-administrative durability), applied uniformly so readers can compare across domains. [Read the methodology in full →](/paul/campaign/empower/methodology/)
+The methodology applies five lenses (statutory architecture, administrative implementation, constituent experience, gap analysis, and statutory-vs-administrative durability) with rough standardization.
+[Read the methodology in full →](/paul/campaign/empower/methodology/)
 
-Policy proposals are out of scope on these analytical pages. They get generated downstream by contributors through the [propose tier](/paul/campaign/empower/contribute/#propose). Surfacing the gap is the job of the analysis; closing it is the job of whoever does the proposing.
+Policy proposals are out of scope on these analytical pages. My hope is that people can use projects like this to propose real legislation for their representatives [propose tier](/paul/campaign/empower/contribute/#propose). These analysis workflows might, howeever, reveal gaps where the intention of the law differs from the reality of the constituent experience.
 
-The framework — domains as topical seats of a People's Assembly — is the Square Party-level idea this project applies in one place. [Express interest in any of the topical seats →](/square-party/assembly/#express-interest)
+*Disclaimer* This workflow was developed with AI as an assistant. Claims should be checked by humans.
 
 ## Start here — domains with content
 
