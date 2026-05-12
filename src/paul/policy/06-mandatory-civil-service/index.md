@@ -1,13 +1,13 @@
 ---
 layout: base.njk
-title: Growing up with civil service
+title: Mandatory civil service
 description: A national service requirement for all U.S. residents — one year, with options spanning military, healthcare, infrastructure, conservation, and public administration. Built on existing legal architecture with a deliberate phase-in.
 state: drafting
 order: 6
 updated: 2026-04-26
 ---
 
-# Project 6 — Growing up with civil service
+# Project 6 — Mandatory civil service
 
 <p class="domain-lead">The United States asks almost nothing of its citizens. You must pay taxes, serve on a jury if called, and register with the Selective Service if you are male. That is the complete list. The most powerful nation in history has a thinner social contract than most democracies. This is not a moral complaint; it is a structural observation. A society that asks nothing of its citizens produces citizens who feel no ownership of their society. The proposal is mandatory civil service — not military conscription, but a requirement that all residents of the United States complete a period of service before age 26. Military, infrastructure, healthcare, education, conservation, disaster response, elder care, public administration. The point is not what you do. The point is that everyone does something.</p>
 

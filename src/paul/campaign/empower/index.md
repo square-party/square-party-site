@@ -8,14 +8,14 @@ description: The PA-3 application of the People's Assembly framework — issue d
 
 {% include "partials/schoolhouse-hook.njk" %}
 
-This project applies a [People's Assembly framework](/square-party/assembly/) to Pennsylvania's 3rd Congressional District — Philadelphia plus parts of Delaware and Montgomery Counties. I identified close to 30 possible domains which each had discrete laws, regulations, and implications. In theory, a People's Assembly framework like this could be applied to the entire legal and governmental landscape, one section at a time. This type of transparency facilitates representation and accountability, as well as a cumulative public record. For the areas that I thought might be more directly relevant to the constituents in PA-3, I developeed a methodology to document what the law says, how it actually runs in the district, and where the two diverge.
+This project applies a [People's Assembly framework](/square-party/assembly/) to Pennsylvania's 3rd Congressional District, which includes parts of Philadelphia county. I started by thinking about possible ways to classify ares by discrete laws, regulations, and implications for constituents. In theory, a People's Assembly framework could be applied in any district and it might look different. The idea is to break down the system into more manageable subsets that the public can meaningful engage with. In turn, a representative for the district gains a highly effecient constituent feedback system and real human connection. This type of transparency allows for greater representation and accountability, as well as a cumulative public record. For some areas that I thought might be most important for the constituents in PA-3, I developeed a methodology and documented what the law says, how it actually runs in the district, and where the two diverge.
 
 The methodology applies five lenses (statutory architecture, administrative implementation, constituent experience, gap analysis, and statutory-vs-administrative durability) with rough standardization.
 [Read the methodology in full →](/paul/campaign/empower/methodology/)
 
-Policy proposals are out of scope on these analytical pages. My hope is that people can use projects like this to propose real legislation for their representatives [propose tier](/paul/campaign/empower/contribute/#propose). These analysis workflows might, howeever, reveal gaps where the intention of the law differs from the reality of the constituent experience.
+Policy proposals are not found here, but one use for this work might be as the starting point for new legislation. In theory, anyone could [propose](/paul/campaign/empower/contribute/#propose) real legislation for their representatives. After verification, representatives could engage in an iterative process - on the public record - to integrate (or not) the proposal into a current set of legislation. Representatives can keep their legislative platform public (see the very beginnings of this idea [here](/paul/policy)).
 
-*Disclaimer* This workflow was developed with AI as an assistant. Claims should be checked by humans.
+*Disclaimer* This workflow was developed with AI as an assistant. Claims should be reasonably calibrated, but should be checked by humans. The workflow is public, but the nature of the project challenges direct reproducibility. 
 
 ## Start here — domains with content
 
