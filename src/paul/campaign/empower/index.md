@@ -1,7 +1,7 @@
 ---
 layout: empower.njk
 title: How to empower through representation
-description: The PA-3 application of the People's Assembly framework — twenty-six policy domains analyzed for the gap between formal representation and operational reality.
+description: The PA-3 application of the People's Assembly framework — issue domains analyzed for the gap between formal representation and operational reality.
 ---
 
 # How to empower through representation
@@ -34,7 +34,7 @@ Policy proposals are out of scope on these analytical pages. My hope is that peo
 {%- endfor -%}
 </div>
 
-## The twenty-six domains, in PA-3
+## Domains in PA-3
 
 State indicators describe analytical state, not domain importance. *Published* domains have verified PA-3 content. *In review* is drafted but unchecked. *Drafting* is research underway. *Planned* is scaffolded, not yet researched. The honest current state: one domain is being adapted from a separate research document; the rest are scaffolded and await contributors.
 

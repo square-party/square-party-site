@@ -1,0 +1,50 @@
+{# Reactive empty square — per variation-light-dark.jsx LDSquare component.
+   Four visual states driven by .layer-stage.layer-light / .layer-dark
+   classes (no JS here; CSS does the work).
+
+   - neutral: empty frame on page bg
+   - light:   gold fill, "let's go." in italic Playfair (Paul's tweak)
+   - dark:    black fill, strikethrough "tricks" in gold (Paul's tweak)
+   - both:    quartered pattern (placeholder per Paul's later redesign)
+
+   Wrap optional via <a href> for the "Make yours" link in neutral state.
+#}
+<div class="home-landing__square" aria-label="The party's square — empty on purpose">
+  <svg class="home-landing__square-svg"
+       viewBox="0 0 280 280"
+       width="280"
+       height="280"
+       xmlns="http://www.w3.org/2000/svg"
+       aria-hidden="true">
+    <rect class="home-landing__square-rect"
+          x="1" y="1" width="278" height="278" />
+  </svg>
+
+  {# Diagonal-split overlay — shown only in "both" state via CSS.
+     Top-left triangle maroon (light-toggle signature), bottom-right
+     triangle navy (dark-toggle signature). Layers the toggle-button
+     colors rather than the single-state square colors, per Paul's
+     direction (the gold/black combo reads poorly in this context). #}
+  <svg class="home-landing__square-diagonal"
+       viewBox="0 0 280 280"
+       width="280"
+       height="280"
+       xmlns="http://www.w3.org/2000/svg"
+       aria-hidden="true">
+    <polygon points="0,0 280,0 0,280" fill="#9c3c52" />
+    <polygon points="280,0 280,280 0,280" fill="#1f2a52" />
+    <rect x="1" y="1" width="278" height="278"
+          fill="none" stroke="#000" stroke-width="2" />
+  </svg>
+
+  {# Per-state word overlays. CSS reveals exactly one based on layer state. #}
+  <div class="home-landing__square-word home-landing__square-word--light">
+    <span>let&rsquo;s go.</span>
+  </div>
+  <div class="home-landing__square-word home-landing__square-word--dark">
+    <span>tricks</span>
+  </div>
+  <div class="home-landing__square-word home-landing__square-word--both">
+    <span>you.</span>
+  </div>
+</div>

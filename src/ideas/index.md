@@ -6,7 +6,7 @@ description: Long-form essays about how the system works — the rules, structur
 
 # Ideas
 
-Long-form essays. The unit of change is meta: the rules, structures, and incentives that shape how decisions get made. How markets stay competitive. How citizens engage with self-governance. How the country plans for finite resources. Get those right and the room for productive policy widens.
+About the language, structures, and incentives that shape how decisions get made. How markets stay competitive. How citizens engage with self-governance. How the country plans for finite resources. Get these right and the room for productive policy widens. As it stands, these areas might be preventing us from producitve discussions.
 
 These cut across specific domains and campaigns. They differ from the [Policy Areas](/paul/policy/), which are substantive interventions inside specific issue domains, and from the [PA-3 empower project](/paul/campaign/empower/), the analytical work of mapping where the system falls short in one district.
 

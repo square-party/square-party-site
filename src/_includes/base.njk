@@ -48,19 +48,10 @@
           </ul>
         </li>
         <li><a href="/representation/">Representation</a></li>
-        <li><a href="/paul/campaign/empower/">Empower</a></li>
-        <li data-dropdown>
-          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
-            Tools <span class="caret" aria-hidden="true">▾</span>
-          </button>
-          <ul class="dropdown-panel" data-dropdown-panel>
-            <li><a href="/square/">Make a square</a></li>
-            <li><a href="/gallery/">Square gallery</a></li>
-            <li><a href="/income-viz/">Income visualizations</a></li>
-          </ul>
-        </li>
+        <li><a href="/write-it-in/">Write it in</a></li>
         <li><a href="/ideas/">Ideas</a></li>
         <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="/paul/campaign/empower/">Empower</a></li>
         <li><a href="/saved/">Saved</a></li>
         <li data-dropdown>
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
@@ -80,10 +71,22 @@
     </nav>
   </header>
 
-  {% include "partials/layer-toggle.njk" %}
+  {#
+    The .layer-stage wrapper is where the four-state lens classes live
+    (layer-light, layer-dark, both, or neither = neutral). Keeping it
+    inside <main> means the site header and footer stay neutral across
+    all four states — see LAYERS.md.
 
+    The toggle UI is NOT included here so each page can place it
+    intentionally. To enable it sitewide instead, uncomment the include
+    at the top of the layer-stage and remove the per-page include from
+    individual templates.
+  #}
   <main id="main">
-    {{ content | safe }}
+    <div class="layer-stage" id="layer-stage">
+      {#  {% include "partials/layer-toggle.njk" %}  #}
+      {{ content | safe }}
+    </div>
   </main>
 
   <footer class="site-footer">

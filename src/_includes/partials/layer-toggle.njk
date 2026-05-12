@@ -1,15 +1,35 @@
-{# Layer toggle — two independent on/off layers (Light / Dark) that compose
-   freely on the neutral baseline. Persisted to localStorage by site.js.
-   On mobile collapses to a horizontal row at bottom-right.
+{# Layer toggle strip — sticky band that lets the visitor flip between the
+   four reading states (Neutral / Light / Dark / Both).
+
+   Renders as an inline strip, not a floating widget. Place wherever the
+   choice would feel earned on the page — typically below the lead/hero.
+
+   Drives:
+   - .layer-stage classes via site.js
+   - The .lens-aside [data-layer] reveals
+
+   See LAYERS.md.
 #}
-<aside class="layer-toggle" role="region" aria-label="Layer toggles">
-  <p class="layer-toggle__label">Layers</p>
-  <button class="layer-toggle__btn" data-layer="light" type="button" aria-pressed="false">
-    <span class="layer-toggle__name">Light</span>
-    <span class="layer-toggle__hint">hope · agency</span>
-  </button>
-  <button class="layer-toggle__btn" data-layer="dark" type="button" aria-pressed="false">
-    <span class="layer-toggle__name">Dark</span>
-    <span class="layer-toggle__hint">stakes · costs</span>
-  </button>
+<aside class="layer-toggle-strip"
+       role="region"
+       aria-label="Reading lens">
+  <div class="layer-toggle-strip__controls" role="group" aria-label="Side toggles">
+    <button class="layer-toggle-strip__btn"
+            type="button"
+            data-layer="light"
+            aria-pressed="false">
+      <span class="layer-toggle-strip__dot" aria-hidden="true"></span>
+      <span>Light side</span>
+    </button>
+    <button class="layer-toggle-strip__btn"
+            type="button"
+            data-layer="dark"
+            aria-pressed="false">
+      <span class="layer-toggle-strip__dot" aria-hidden="true"></span>
+      <span>Dark side</span>
+    </button>
+  </div>
+  <p class="layer-toggle-strip__summary" data-layer-summary aria-live="polite">
+    standard view
+  </p>
 </aside>

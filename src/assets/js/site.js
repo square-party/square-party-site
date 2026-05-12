@@ -1,17 +1,35 @@
 /* ============================================================
    Square Party — site-wide JavaScript
    ------------------------------------------------------------
-   Three things, kept small and dependency-free:
-   1. Layer toggle (Light / Dark) — independent on/off, persisted
+   Five things, kept small and dependency-free:
+   1. Layer toggle (Light / Dark) — wrapper-level four-state, persisted
    2. Domain pill grid preview panel
    3. Nav dropdown (click to open, hover to peek, Esc to close)
+   4. Save / bookmark feature
+   5. Neighbors filter
    ============================================================ */
 (function () {
   'use strict';
 
   // ---------- 1. Layer toggle ----------
+  // State is stored in localStorage under sq.layers.v1 and applied to
+  // .layer-stage (the wrapper inside <main>), NOT body. Keeps site
+  // header/footer neutral across all four states. See LAYERS.md.
   var STORAGE_KEY = 'sq.layers.v1';
-  var body = document.body;
+
+  // The wrapper element. If absent (e.g. error pages without base.njk),
+  // we no-op gracefully — the rest of the script still runs.
+  var stage = document.getElementById('layer-stage');
+
+  // Lens summary strings — shown in the toggle strip's aria-live region
+  // so screen readers and sighted users get a tiny semantic anchor for
+  // each state, not just a visual shift.
+  var LENS_SUMMARY = {
+    neutral: 'standard view',
+    light:   'light side filter',
+    dark:    'dark side filter',
+    both:    'the best of both worlds'
+  };
 
   function readState() {
     try {
@@ -27,9 +45,24 @@
     } catch (_e) { /* private mode etc. — fine */ }
   }
 
+  function currentLens(state) {
+    if (state.light && state.dark) return 'both';
+    if (state.light) return 'light';
+    if (state.dark) return 'dark';
+    return 'neutral';
+  }
+
   function applyState(state) {
-    body.classList.toggle('layer-light', !!state.light);
-    body.classList.toggle('layer-dark', !!state.dark);
+    if (!stage) return;
+    stage.classList.toggle('layer-light', !!state.light);
+    stage.classList.toggle('layer-dark', !!state.dark);
+
+    // Update lens summary line in any visible toggle strip.
+    var summaryEls = document.querySelectorAll('[data-layer-summary]');
+    var lens = currentLens(state);
+    summaryEls.forEach(function (el) {
+      el.textContent = LENS_SUMMARY[lens] || LENS_SUMMARY.neutral;
+    });
   }
 
   function syncButton(btn, active) {
@@ -41,8 +74,12 @@
   var state = readState();
   applyState(state);
 
-  // Wire toggle buttons.
-  var toggleBtns = document.querySelectorAll('.layer-toggle__btn');
+  // Wire toggle buttons. Selector matches both the new sticky strip
+  // (.layer-toggle-strip__btn) and any legacy widget that might still
+  // be on a page; they both share data-layer="light|dark" attributes.
+  var toggleBtns = document.querySelectorAll(
+    '.layer-toggle-strip__btn[data-layer], .layer-toggle__btn[data-layer]'
+  );
   toggleBtns.forEach(function (btn) {
     var layer = btn.getAttribute('data-layer');
     if (!layer) return;
@@ -52,7 +89,13 @@
       state[layer] = !state[layer];
       writeState(state);
       applyState(state);
-      syncButton(btn, !!state[layer]);
+      // Resync ALL buttons for this layer (page may have more than one strip)
+      document.querySelectorAll('[data-layer="' + layer + '"]').forEach(function (b) {
+        if (b.classList.contains('layer-toggle-strip__btn') ||
+            b.classList.contains('layer-toggle__btn')) {
+          syncButton(b, !!state[layer]);
+        }
+      });
     });
   });
 
@@ -123,12 +166,10 @@
       try {
         var raw = localStorage.getItem(CLUSTER_KEY);
         return raw ? (JSON.parse(raw) || {}) : {};
-      } catch (_e) {
-        return {};
-      }
+      } catch (_e) { return {}; }
     }
-    function writeClusterState(state) {
-      try { localStorage.setItem(CLUSTER_KEY, JSON.stringify(state)); }
+    function writeClusterState(s) {
+      try { localStorage.setItem(CLUSTER_KEY, JSON.stringify(s)); }
       catch (_e) { /* private mode etc. — fine */ }
     }
     var clusterState = readClusterState();
@@ -243,15 +284,12 @@
       var raw = localStorage.getItem(SAVED_KEY);
       var arr = raw ? JSON.parse(raw) : [];
       return Array.isArray(arr) ? arr : [];
-    } catch (_e) {
-      return [];
-    }
+    } catch (_e) { return []; }
   }
 
   function writeSaved(arr) {
-    try {
-      localStorage.setItem(SAVED_KEY, JSON.stringify(arr));
-    } catch (_e) { /* private mode etc. — fine */ }
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify(arr)); }
+    catch (_e) { /* private mode etc. — fine */ }
   }
 
   function isSavedUrl(url) {
@@ -305,22 +343,18 @@
 
   function escapeHtml(str) {
     return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
   }
 
   function formatSavedDate(iso) {
     try {
       var d = new Date(iso);
-      var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      var months = ['Jan','Feb','Mar','Apr','May','Jun',
+                    'Jul','Aug','Sep','Oct','Nov','Dec'];
       return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
-    } catch (_e) {
-      return '';
-    }
+    } catch (_e) { return ''; }
   }
 
   function renderSavedList(container) {
@@ -333,8 +367,7 @@
         'While reading any long-form page, click the bookmark icon at the top of ' +
         'the page to save it here for later. Saves are stored in this browser ' +
         'only — they don\'t follow you across devices.' +
-        '</p>' +
-        '</div>';
+        '</p></div>';
       return;
     }
     var html = '<ul class="saved-list">';
@@ -353,10 +386,9 @@
         '</li>';
     });
     html += '</ul>';
-    html +=
-      '<p class="saved-list__clear-row">' +
-      '<button class="saved-list__clear" type="button">Clear all saved pages</button>' +
-      '</p>';
+    html += '<p class="saved-list__clear-row">' +
+            '<button class="saved-list__clear" type="button">Clear all saved pages</button>' +
+            '</p>';
     container.innerHTML = html;
 
     // Wire remove buttons
@@ -390,7 +422,6 @@
     var clearFiltersBtn = document.querySelector('.neighbors-filter__clear');
     var countEl = document.getElementById('neighbors-count');
     var allCards = neighborsGrid.querySelectorAll('.neighbor-card');
-    var totalCards = allCards.length;
 
     var activeFilters = { subdomain: [], subarea: [] };
 

@@ -1,0 +1,24 @@
+{# Lens aside — an in-prose callout that appears only when one side is on.
+
+   Set these variables in the calling page before including:
+     - lensTag     (string)  "Light side" / "Dark side" / etc.
+     - lens        (string)  "light" or "dark" — drives data-layer + class
+     - lensBody    (string)  the aside's body text (can include <strong>/<em>)
+
+   Example:
+     {% set lens = "light" %}
+     {% set lensTag = "Light side" %}
+     {% set lensBody = "<p>Where the agency is.</p>" %}
+     {% include "partials/lens-aside.njk" %}
+
+   For more complex bodies, write the <aside> inline in the markdown
+   directly using the same classnames — this partial is a convenience
+   for short, structurally identical asides.
+#}
+<aside class="lens-aside lens-aside--{{ lens }}"
+       data-layer="{{ lens }}">
+  {%- if lensTag -%}
+  <p class="lens-aside__tag">{{ lensTag }}</p>
+  {%- endif -%}
+  {{ lensBody | safe }}
+</aside>
