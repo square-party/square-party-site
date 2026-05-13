@@ -183,9 +183,14 @@ async function moderate(id: string, email: string, req: Request, env: Env) {
 const HEX = /^#[0-9a-fA-F]{6}$/;
 const WORD_MAX = 18;
 const WORD_RE = /^[\p{L}\p{N}\s'’-]+$/u;
+// Allowed glyphs must match the frontend's glyph library exactly — see
+// src/assets/square-app/square-renderer.js (the GLYPHS object whose keys
+// are the user-facing options). Any drift between this set and the
+// frontend's keys → "invalid glyph" 400s on submission. Update both sides
+// together when adding/removing glyphs. 2026-05-12: aligned with frontend.
 const GLYPHS = new Set([
-  "star","heart","spiral","wave","leaf","mountain","sun","moon","feather",
-  "arrow","circle","triangle","square","diamond","cross",
+  "moon","sun","star","tree","mountain","wave","bird","flame","eye","seed",
+  "compass","heart","spiral","hand","key",
 ]);
 
 function validateSquare(b: any) {
