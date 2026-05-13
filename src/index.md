@@ -22,6 +22,7 @@ bodyClass: home-landing-page
     <p class="home-landing__body">
       <strong>Write it in.</strong> Every election, every voter, every level — write someone in. Anyone you'd actually want to represent you. <a href="/write-it-in/">Read more about the working mission →</a>
     </p>
+
     <p class="home-landing__body">
       The party's square is empty on purpose. What goes inside is for each member to decide for themself, at that time.
     </p>
@@ -79,9 +80,9 @@ bodyClass: home-landing-page
   <div class="home-landing__pledge-card">
     <p class="home-landing__pledge-eyebrow">A universal pledge</p>
     <p class="home-landing__pledge-body">
-      I pledge allegiance to the square of the United States.<br>
-      And to the democratic republic for which it stands.<br>
-      One people, living in peace, under the faith and protection of us all and our beliefs.<br>
+      I pledge allegiance to the square.<br>
+      And to representative government for which it stands.<br>
+      One people, living in peace, with faith and protection for us and our beliefs.<br>
       With liberty and justice for all.
     </p>
   </div>
