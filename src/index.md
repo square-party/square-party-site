@@ -12,7 +12,7 @@ bodyClass: home-landing-page
 
     <p class="home-landing__eyebrow">
       <span class="home-landing__eyebrow-dot" aria-hidden="true"></span>
-      A working draft · 2025
+      A work in progress · 2026
     </p>
 
     <h1 class="home-landing__title">Square Party</h1>
