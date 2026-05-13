@@ -20,7 +20,8 @@ bodyClass: home-landing-page
     <p class="home-landing__subhead">A Square Deal for our political future.</p>
 
     <p class="home-landing__body">
-      <strong>Write it in.</strong> Every election, every voter, every level — write someone in. Anyone you'd actually want to represent you. <a href="/write-it-in/">Read more about the working mission →</a>
+      <strong>Write it in.</strong> Every election, every voter, every level — write someone in. 
+      Anyone you'd actually want to represent you. <a href="/write-it-in/">Read more about the working mission →</a>
     </p>
 
     <p class="home-landing__body">
@@ -60,7 +61,7 @@ bodyClass: home-landing-page
       <div>
         <p class="home-landing__card-meta">the ground</p>
         <h3 class="home-landing__card-title">See my district</h3>
-        <p class="home-landing__card-blurb">PA-3, mapped domain by domain. Where formal representation falls short.</p>
+        <p class="home-landing__card-blurb">PA-3, mapped by issue domain. Where formal representation falls short.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
@@ -68,7 +69,7 @@ bodyClass: home-landing-page
       <div>
         <p class="home-landing__card-meta">the idea</p>
         <h3 class="home-landing__card-title">What is this?</h3>
-        <p class="home-landing__card-blurb">The empty square, the People's Assembly, the connective layer, the tenets.</p>
+        <p class="home-landing__card-blurb">The empty square, the People's Assembly, the guts and ideas.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
@@ -78,12 +79,12 @@ bodyClass: home-landing-page
 
 <section class="home-landing__pledge">
   <div class="home-landing__pledge-card">
-    <p class="home-landing__pledge-eyebrow">A universal pledge</p>
+    <p class="home-landing__pledge-eyebrow">we should have a universal pledge</p>
     <p class="home-landing__pledge-body">
       I pledge allegiance to the square.<br>
       And to representative government for which it stands.<br>
-      One people, living in peace, with faith and protection for us and our beliefs.<br>
-      With liberty and justice for all.
+      We are people living in peace, with faith and protection for us and our beliefs.<br>
+      Of course, with liberty and justice for all.
     </p>
   </div>
 </section>

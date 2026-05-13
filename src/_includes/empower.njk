@@ -75,7 +75,11 @@ layout: base.njk
     </p>
   </footer>
 
-  {# Toggle widget state machine — no-ops on pages without [data-mode-root]. #}
-  <script src="/assets/js/toggle-widget.js" defer></script>
+  {# Toggle-widget script removed 2026-05-13 — no domain pages use the
+     aspect-toggle now (D9 simplification). The JS file at
+     /assets/js/toggle-widget.js, the partials/toggle-widget.njk include,
+     and the framing-block.njk include are all preserved on disk in case
+     we want to reintroduce a toggle on a future page; nothing currently
+     references them. #}
 
 </div>

@@ -6,7 +6,7 @@
     "dev": "eleventy --serve",
     "clean": "rm -rf _site",
     "build": "npm run clean && eleventy",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "cd square-generator-backend/worker && npx wrangler deploy -c wrangler.toml",
     "build:sandbox": "eleventy --output=_site-sandbox"
   },
   "devDependencies": {
