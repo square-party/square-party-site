@@ -98,7 +98,7 @@ Each domain has its own page. Domains with their analysis still in progress are 
 <div class="subdomain-row subdomain-row--scaffold">
 <span class="subdomain-row__num">10</span>
 <span class="subdomain-row__body">
-<span class="subdomain-row__title">Food &amp; Medicine <span class="subdomain-row__tag">in progress</span></span>
+<span class="subdomain-row__title">Food, Drug &amp; Device Regulation <span class="subdomain-row__tag">in progress</span></span>
 <span class="subdomain-row__desc">FDA authorities, FSMA, PA Department of Health, and local food-safety regulation.</span>
 </span>
 </div>

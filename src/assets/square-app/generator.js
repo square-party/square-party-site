@@ -162,7 +162,7 @@ function renderEditor() {
       h("div", { class: "gen__header" }, [
         h("div", {}, [
           h("div", { class: "gen__eyebrow" }, "make your square"),
-          h("h2", { class: "gen__title" }, "Four corners. Make it yours. Submit to download and add it to the gallery."),
+          h("h2", { class: "gen__title" }, "Submit to download and add it to the gallery."),
         ]),
         h("button", { class: "gen__random", onClick: shuffle, title: "Randomize" }, [
           h("span", {}, "⤬"), " shuffle",

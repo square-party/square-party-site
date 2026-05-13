@@ -3,26 +3,21 @@
    views: the Generator (form + live preview) and the Gallery (mosaic).
 */
 
-:root {
-  --bg: #05080d;
-  --bg-1: #0a0e16;
-  --bg-2: #11161f;
-  --line: rgba(200, 232, 245, 0.08);
-  --line-2: rgba(200, 232, 245, 0.14);
-  --ink: #e8eef5;
-  --ink-dim: #8a93a0;
-  --ink-faint: #4a5260;
-  --accent: #c8e8f5;
-  --accent-warm: #ffd97a;
-  --danger: #ff9aa2;
-}
+/* Square-app uses the site's palette tokens — no separate :root block.
+   All generator-internal colors are defined as overrides on .gen below
+   so the variable scope stays tidy and the panel speaks the same color
+   language as the site header. 2026-05-12 (Path-3 simplification). */
 
 * { box-sizing: border-box; }
 
 html, body {
   margin: 0;
-  background: var(--bg);
-  color: var(--ink);
+  /* Removed body-level background and color: the /square/ page now uses
+     interpretation B (2026-05-12) — cream outer page (inherits from
+     main.css's body) with the dark .gen panel as a contained "studio"
+     surface inside. Generator typography (Space Grotesk) stays for
+     descendants that don't override; .sq-page restores the site's body
+     font for the outer page text. */
   font-family: var(--ui-font, "Space Grotesk", system-ui, sans-serif);
   font-size: 16px;
   line-height: 1.5;
@@ -30,15 +25,9 @@ html, body {
   min-height: 100%;
 }
 
-body::before {
-  content: "";
-  position: fixed; inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(50, 30, 92, 0.18), transparent 60%),
-    radial-gradient(ellipse 60% 50% at 100% 100%, rgba(10, 42, 82, 0.18), transparent 60%);
-  pointer-events: none;
-  z-index: 0;
-}
+/* The viewport-wide gradient overlay (was body::before) is now scoped
+   inside .gen below — see .gen::before — so its purple/blue tinting
+   stays within the dark panel and doesn't leak onto the cream page. */
 
 /* ── generator layout ─────────────────────────────────────────────────── */
 .gen {
@@ -48,9 +37,33 @@ body::before {
      dominates the visual field as the primary work surface. */
   grid-template-columns: minmax(0, 1fr) minmax(320px, 360px);
   gap: 56px;
-  padding: 24px 36px 80px;
+  padding: 40px 40px 64px;
   max-width: 1700px;
-  margin: 0 auto;
+  margin: 24px auto 56px;
+
+  /* Site-cohesive palette — Path-3 simplification (2026-05-12).
+     The generator panel uses the SAME color language as the site header:
+     dark navy background, cream text, gold accents. All the legacy
+     square-app variable names are kept (so the dozens of .gen__* rules
+     below don't need to change), but they now resolve to site palette
+     values rather than cool-blue space-cosmos values. One palette
+     across the site; fewer cascade gymnastics. */
+  --bg:         #1f1a2e;                       /* site dark navy = site header bg */
+  --bg-1:       #2a2a3e;                       /* site --ink-soft, lifted surface for controls */
+  --bg-2:       #353548;                       /* slightly more lifted for nested surfaces */
+  --line:       rgba(239, 231, 214, 0.10);     /* parchment at low alpha — hairlines */
+  --line-2:     rgba(239, 231, 214, 0.18);     /* parchment at higher alpha — emphasis */
+  --ink:        #efe7d6;                       /* site parchment cream */
+  --ink-dim:    rgba(239, 231, 214, 0.70);     /* muted cream — secondary text */
+  --ink-faint:  rgba(239, 231, 214, 0.45);     /* faint cream — eyebrows / hints */
+  --accent:     #a07835;                       /* site light-state gold */
+  --accent-warm:#c89c3d;                       /* brighter gold for emphasis (glyph etc.) */
+  --danger:     #ff9aa2;                       /* error red — unchanged */
+
+  position: relative;
+  background: var(--bg);
+  color: var(--ink);
+  border-radius: 12px;
 }
 @media (max-width: 960px) {
   .gen { grid-template-columns: 1fr; gap: 24px; padding: 16px; }
@@ -100,10 +113,13 @@ body::before {
   text-transform: uppercase;
 }
 .gen__title {
-  font-size: 24px;
+  font-size: 13px;
   font-weight: 400;
+  font-family: var(--font-ui, "DM Sans", system-ui, sans-serif);
   margin: 6px 0 0;
-  letter-spacing: -0.005em;
+  line-height: 1.5;
+  color: var(--ink-dim);
+  letter-spacing: 0;
 }
 .gen__random {
   background: transparent;
@@ -123,19 +139,25 @@ body::before {
 
 /* tabs */
 .gen__tabs {
-  display: flex; gap: 2px;
+  display: flex;
+  gap: 2px;
   background: var(--bg-2);
   padding: 4px;
   border-radius: 999px;
   align-self: flex-start;
+  /* Graceful overflow handling — at narrow column widths the tabs
+     wrap to a second row instead of running past the panel edge. */
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 .gen__tab {
   background: transparent; border: 0;
   color: var(--ink-dim);
-  font: inherit; font-size: 12px;
-  letter-spacing: 0.16em;
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 8px 18px;
+  padding: 7px 12px;
   border-radius: 999px;
   cursor: pointer;
   transition: all .2s;
@@ -367,6 +389,12 @@ body::before {
   font: inherit;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  /* Critical: input has an intrinsic min-content size (default 20-char
+     width). Without min-width: 0 it forces the grid track wider than
+     1fr, overflowing the controls panel. box-sizing keeps padding inside. */
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .wi__input:focus { outline: none; border-color: var(--line-2); }
 .wi__count { color: var(--ink-faint); font-size: 11px; font-family: ui-monospace, monospace; text-align: right; }
@@ -453,16 +481,35 @@ body::before {
 
 
 
-/* ── page chrome (wraps each Eleventy template) ────────────────────── */
+/* ── page chrome (wraps each Eleventy template) ──────────────────────
+   The outer page is cream (inherits from main.css). Restore the site's
+   dark ink palette and body font here so the cream-page text reads
+   correctly. The .gen panel inside re-overrides for its dark surface. */
 .sq-page {
   max-width: 1400px;
   margin: 0 auto;
   padding: 64px 36px 80px;
   position: relative;
   z-index: 1;
+  --ink: #1f1a2e;
+  --ink-dim: #6b5840;
+  --ink-faint: #8b8470;
+  font-family: var(--font-body, "Source Serif 4", Georgia, serif);
+  color: var(--ink);
 }
 @media (max-width: 720px) { .sq-page { padding: 32px 16px 48px; } }
 .sq-page__hdr { margin-bottom: 36px; max-width: 720px; }
+
+/* Nav strip — spans the full .sq-page width so the gallery-link right
+   edge aligns with the .gen panel's right edge below it (rather than
+   being constrained to the header's 720px max-width). */
+.sq-page__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 28px;
+}
 .sq-page__back {
   color: var(--ink-faint);
   text-decoration: none;
@@ -472,8 +519,9 @@ body::before {
 }
 .sq-page__back:hover { color: var(--ink-dim); }
 .sq-page__title {
+  font-family: var(--font-ui, "DM Sans", system-ui, sans-serif);
   font-size: clamp(32px, 5vw, 56px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.05;
   letter-spacing: -0.01em;
   margin: 18px 0 14px;
@@ -488,9 +536,13 @@ body::before {
 }
 .sq-page__sub a { color: var(--ink); }
 .sq-page__noscript {
+  /* No-JS fallback notice — rendered on the cream outer page. Inherits
+     --ink-dim from .sq-page (warm muted on cream); uses hardcoded faint
+     dark fill + dark hairline since --bg-1 and --line live inside .gen
+     now and don't apply on the outer page. */
   color: var(--ink-dim);
-  background: var(--bg-1);
-  border: 1px solid var(--line);
+  background: rgba(31, 26, 46, 0.05);
+  border: 1px solid rgba(31, 26, 46, 0.18);
   border-radius: 4px;
   padding: 24px;
   margin-top: 24px;

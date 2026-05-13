@@ -284,9 +284,9 @@ bodyClass: home-landing-page
   <div class="home-landing__pledge-card">
     <p class="home-landing__pledge-eyebrow">A universal pledge</p>
     <p class="home-landing__pledge-body">
-      I pledge allegiance to the square of the United States.<br>
-      And to the democratic republic for which it stands.<br>
-      One people, living in peace, under the faith and protection of us all and our beliefs.<br>
+      I pledge allegiance to the square.<br>
+      And to representative government for which it stands.<br>
+      One people, living in peace, with faith and protection for us all and our beliefs.<br>
       With liberty and justice for all.
     </p>
   </div>

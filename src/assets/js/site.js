@@ -269,8 +269,9 @@
     });
     // If the viewport grows back to desktop while the menu is open, close it
     // so the desktop layout doesn't carry a stuck "is-open" state.
+    // Threshold matches the .site-nav hamburger breakpoint in main.css (960px).
     window.addEventListener('resize', function () {
-      if (window.innerWidth > 600 && navMenu.classList.contains('is-open')) {
+      if (window.innerWidth > 960 && navMenu.classList.contains('is-open')) {
         setNav(false);
       }
     });

@@ -23,7 +23,25 @@
 
   <header class="site-header">
     <nav class="site-nav" aria-label="Site">
-      <a class="site-nav__brand" href="/">{{ site.name }}</a>
+      <div class="site-nav__brand-wrap dropdown--align-left" data-dropdown>
+        <a class="site-nav__brand" href="/">{{ site.name }}</a>
+        <button class="site-nav__brand-caret dropdown-trigger"
+                data-dropdown-trigger
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-label="Open The Party menu">
+          <span class="caret" aria-hidden="true">▾</span>
+        </button>
+        <ul class="dropdown-panel" data-dropdown-panel>
+          <li class="dropdown-panel__hint">What it is</li>
+          <li><a href="/square-party/">Overview</a></li>
+          <li><a href="/square-party/lineage/">Lineage</a></li>
+          <li><a href="/square-party/assembly/">People's Assembly</a></li>
+          <li><a href="/square-party/connections/">Connections</a></li>
+          <li><a href="/square-party/tenets/">Tenets</a></li>
+        </ul>
+      </div>
       <button class="site-nav__toggle" type="button"
               data-nav-toggle
               aria-controls="site-nav-menu"
@@ -34,25 +52,11 @@
         <span class="site-nav__toggle-bar" aria-hidden="true"></span>
       </button>
       <ul class="site-nav__links" id="site-nav-menu">
-        <li data-dropdown class="dropdown--align-left">
-          <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
-            The Party <span class="caret" aria-hidden="true">▾</span>
-          </button>
-          <ul class="dropdown-panel" data-dropdown-panel>
-            <li class="dropdown-panel__hint">What it is</li>
-            <li><a href="/square-party/">Overview</a></li>
-            <li><a href="/square-party/lineage/">Lineage</a></li>
-            <li><a href="/square-party/assembly/">People's Assembly</a></li>
-            <li><a href="/square-party/connections/">Connections</a></li>
-            <li><a href="/square-party/tenets/">Tenets</a></li>
-          </ul>
-        </li>
         <li><a href="/representation/">Representation</a></li>
         <li><a href="/write-it-in/">Write it in</a></li>
         <li><a href="/ideas/">Ideas</a></li>
         <li><a href="/contribute/">Contribute</a></li>
         <li><a href="/paul/campaign/empower/">Empower</a></li>
-        <li><a href="/saved/">Saved</a></li>
         <li data-dropdown>
           <button class="dropdown-trigger" data-dropdown-trigger aria-haspopup="true" aria-expanded="false">
             Paul <span class="caret" aria-hidden="true">▾</span>
@@ -96,6 +100,9 @@
     </p>
     <p class="site-footer__meta">
       <a href="/newsletter/">Newsletter →</a>
+    </p>
+    <p class="site-footer__meta">
+      <a href="/saved/">Saved pages →</a>
     </p>
   </footer>
 

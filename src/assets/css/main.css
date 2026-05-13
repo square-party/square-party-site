@@ -27,7 +27,7 @@
   --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
 
   /* Base palette — applies in all states. */
-  --ink: #1a1a2e;
+  --ink: #1f1a2e;
   --ink-soft: #2a2a3e;
   --parchment: #efe7d6;
   --parchment-light: #faf7f2;
@@ -293,6 +293,44 @@ p { margin: 0 0 1rem; }
   text-decoration: none;
 }
 .site-nav__brand:hover { color: var(--accent-warm); }
+
+/* Split-button brand: anchor (home link) + adjacent caret-button
+   (opens The Party dropdown). The wrap is the [data-dropdown]
+   anchor so the panel positions relative to it. */
+.site-nav__brand-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  position: relative;
+}
+.site-nav__brand-caret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--parchment);
+  padding: 0.2rem 0.35rem;
+  font-size: 0.7rem;
+  line-height: 1;
+  opacity: 0.6;
+  transition: opacity 0.15s, color 0.15s;
+}
+.site-nav__brand-caret:hover,
+.site-nav__brand-caret:focus-visible,
+.site-nav__brand-wrap.is-open .site-nav__brand-caret {
+  opacity: 1;
+  color: var(--accent-warm);
+  outline: none;
+}
+.site-nav__brand-caret .caret {
+  display: inline-block;
+  transition: transform 0.15s;
+}
+.site-nav__brand-wrap.is-open .site-nav__brand-caret .caret {
+  transform: rotate(180deg);
+}
 
 /* Hamburger toggle — hidden on desktop, shown on mobile via the
    responsive block at the bottom of the file. */
@@ -1460,8 +1498,11 @@ main:has(.home-hero) {
 /* ============================================================
    RESPONSIVE FINE-TUNING
    ============================================================ */
-@media (max-width: 600px) {
-  body { font-size: 16px; }
+/* Nav switches to hamburger at 960px (raised from 600px on 2026-05-12).
+   With 8 top-level items the desktop nav wraps awkwardly between ~700px
+   and ~1100px — wrapping below the dark header bar onto the cream body.
+   Hamburger kicks in earlier to avoid that band entirely. */
+@media (max-width: 960px) {
   .site-nav { height: auto; padding: 0.65rem 1rem; }
   .site-nav__toggle { display: inline-flex; }
 
@@ -1498,7 +1539,10 @@ main:has(.home-hero) {
   }
   .dropdown-panel a { padding: 0.5rem 0.6rem; }
   .dropdown-panel__hint { padding: 0.4rem 0.6rem 0.2rem; }
+}
 
+@media (max-width: 600px) {
+  body { font-size: 16px; }
   h1 { font-size: 1.7rem; }
   .featured-row, .standard-row { grid-template-columns: 1fr; }
 }
@@ -3388,6 +3432,21 @@ body.home-landing-page main {
   max-width: none;
   margin: 0 auto;
   padding: 0;
+}
+
+/* /square/ uses its own dark theme via square-app.css — neutralize
+   the .layer-stage cream surface and main's prose-width constraint so
+   the generator's full-bleed dark page shows through cleanly. */
+body.square-page main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.square-page .layer-stage {
+  background: transparent;
+  color: inherit;
+  transition: none;
 }
 
 .home-landing {

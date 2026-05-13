@@ -1,14 +1,14 @@
 ---
 layout: empower.njk
-title: Sub-Domains within Food & Medicine
-description: The seven sub-domains within Food & Medicine.
+title: Sub-Domains within Food, Drug & Device Regulation
+description: The seven sub-domains within Food, Drug & Device Regulation.
 updated: 2026-04-29
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
-  - { label: "Food & Medicine", href: "/paul/campaign/empower/domain/food-medicine/" }
+  - { label: "Food, Drug & Device Regulation", href: "/paul/campaign/empower/domain/food-medicine/" }
 ---
 
-# Sub-Domains within Food & Medicine
+# Sub-Domains within Food, Drug & Device Regulation
 
 <p class="domain-lead">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md — a one-paragraph framing of what the seven sub-domains are and how they decompose the domain._</p>
 

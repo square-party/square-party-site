@@ -2,18 +2,19 @@
 layout: base.njk
 title: Make a square
 permalink: /square/index.html
+bodyClass: square-page
 eleventyExcludeFromCollections: true
 ---
 <!-- Square generator page. Loads the vanilla JS bundle and Turnstile. -->
 <link rel="stylesheet" href="/assets/square-app/square-app.css">
 
 <main class="sq-page">
+  <div class="sq-page__nav">
+    <a class="sq-page__back" href="/">← to square party</a>
+    <a class="sq-page__back" href="/gallery/">to square gallery →</a>
+  </div>
   <header class="sq-page__hdr">
-    <a class="sq-page__back" href="/">← back</a>
     <h1 class="sq-page__title">Make a square.</h1>
-    <p class="sq-page__sub">
-      Four corners. Make it yours. Submit to download and add it to the gallery.
-    </p>
   </header>
 
   <!-- The generator mounts here. It's an island; the rest of the page is

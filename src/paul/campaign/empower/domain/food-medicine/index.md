@@ -1,9 +1,9 @@
 ---
 layout: empower.njk
-title: Food & Medicine
+title: Food, Drug & Device Regulation
 shortTitle: Food & Drugs
 saveable: true
-savedContext: "Empower · Food & Medicine"
+savedContext: "Empower · Food, Drug & Device Regulation"
 state: drafting
 cluster: B
 order: 4
@@ -36,7 +36,7 @@ cards:
     cta: "Open the legal chain"
 ---
 
-# Food & Medicine
+# Food, Drug & Device Regulation
 
 <p class="domain-lead">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md. Skeleton stub awaits SD-page transformation work in subsequent sessions per the established pattern (see `website-transform_process-log_2026-04-29.md`)._</p>
 
