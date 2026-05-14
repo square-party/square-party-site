@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: If I actually get elected
-description: The candid version. Highly unlikely as a first-time write-in, but real plans if it happens.
+description: The candid version. Highly unlikely and not exactly desireable, but real plans if it happens.
 ---
 
 # If I actually get elected
@@ -20,28 +20,19 @@ That's a real distinction. Most reps run on a personal platform and then spend t
 
 Here's one example of what coordination could look like.
 
-Every cycle, there's a Democratic primary field for federal offices. Most of those candidates lose, and most of their constituency-building, policy work, and field organizing dissolves with the loss. That's a waste.
+Every cycle, there are primary fields for federal offices. Most of those candidates lose, and most of their constituency-building, policy work, and field organizing dissolves with the loss. That's a waste.
 
-In a People's Assembly model, those candidates would all have a seat — each in a domain that fits their existing expertise. The person who ran on healthcare gets the healthcare seat. The person who ran on housing gets the housing seat. The losing primary field becomes a working assembly, organized by topic, doing the policy and constituent work that geography-based representation alone can't cover.
+In a People's Assembly model, those candidates would all be able to work for a different seat — in a domain that fits their existing expertise. The losing primary field becomes part of a working assembly, organized by topic, doing the policy and constituent work that geography-based representation alone can't cover.
 
-I'd help organize that. I wouldn't lead it.
+I'd help organize that. Probably not like a traditional leader, though.  
 
-## I'd need help
+## I would need help
 
-Honestly: this is not "me, by myself." It's "how do I get your voices represented properly?" Those are different jobs and they take different muscles. I think I have the second one. I'd absolutely need help on plenty of the first.
-
-The [PA-3 implementation of the empower project](/paul/campaign/empower/) is the foundation. It's where the analytical work happens, where contributors come in, where the gap between formal and lived representation gets mapped one domain at a time. If I'm in the seat, that work expands — same structure, more leverage.
-
-## Federal policies
-
-I have a handful of federal-level ideas — less specified than the PA-3 work, but with the kind of shape that might draw national interest if the movement reaches that scale. They're being written up across two sections: [Ideas](/ideas/) (essays about how the system works) and [Policy areas](/paul/policy/) (substantive interventions in specific issue domains). I think they're good ideas. I also haven't done enough work yet on policy execution and task implementation to be confident about every detail. Major changes are still possible.
-
-This is the honest picture. The campaign is real. The plan is real. The plan also has gaps, and naming them feels better than pretending they aren't there.
+If the question is "how do I get your voices represented properly?", I will need your help.  
 
 ## Related
 
 - [PA-3 campaign overview](/paul/campaign/)
-- [How to vote](/paul/campaign/how-to-vote/) — write-in mechanics
-- [The empower project](/paul/campaign/empower/) — the foundation work
+- [The empower project](/paul/campaign/empower/)
 
 {% include "partials/page-meta.njk" %}

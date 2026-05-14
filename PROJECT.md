@@ -67,19 +67,20 @@ No window is authorized to:
 
 When converting a page from `.md` to `.njk`, check `eleventy.config.js` for any `addCollection` glob that hardcodes `*/index.md`. Those collections silently exclude `.njk` files — pages disappear from listings, navigation, and any partial that walks the collection. Three known globs (all fixed 2026-05-04 to accept `{md,njk}`): `domains`, `ideas`, `policyProposals`. Re-check before any future conversion in case new collections get added.
 
-## Two-Worker architecture (added 2026-05-05)
+## Deploy architecture (corrected 2026-05-13)
 
-The site runs on TWO Cloudflare Workers, not one:
+**Canonical reference: `DEPLOY.md` at this repo root.** Open that first for the actual deploy commands and architecture.
 
-- **`square-party`** — static-site Worker. Serves `_site/` (Eleventy output). Config: root `wrangler.jsonc`. Deploys via `npm run deploy` (which runs `npm run build && wrangler deploy`) from project root. URL: `https://squareparty.org`.
-- **`square-generator`** — API Worker. TypeScript code at `square-generator-backend/worker/src/index.ts`. Handles `/api/*` routes (square submission, gallery, admin moderation). Bound to D1 (`squares` database) and Turnstile secret. Config: `square-generator-backend/worker/wrangler.toml`. Deploys via `npx wrangler deploy -c wrangler.toml` from the `worker/` subdirectory.
+Quick summary (overrides any earlier claims in this file):
 
-Routes:
+- **`square-party-site` Cloudflare Pages project** — bound to `squareparty.org`. Auto-builds from GitHub on push (Pages git integration runs Eleventy server-side). Serves all static content.
+- **`square-generator` Cloudflare Worker** — bound to `squareparty.org/api/*` via Worker Route in `square-generator-backend/worker/wrangler.toml`. Serves square submission, gallery API, admin moderation. Has D1 binding + Turnstile secret. Deploys via `npm run deploy` (repurposed 2026-05-13 to deploy this Worker) or directly: `cd square-generator-backend/worker && npx wrangler deploy -c wrangler.toml`.
 
-- `squareparty.org/*` (everything except `/api/*`) → static-site Worker via Cloudflare's default routing for `assets`-only Workers.
-- `squareparty.org/api/*` → API Worker via explicit route registered in `worker/wrangler.toml`'s `[[routes]]` block.
+Routing precedence: Worker Routes (e.g. `squareparty.org/api/*` → `square-generator`) take priority over Pages custom-domain bindings. Pages serves everything else; the two coexist cleanly.
 
-`/admin/*` (HTML page, served by static-site Worker) AND `/api/admin/*` (API endpoint, on API Worker) are both gated by ONE Cloudflare Access application. The Access app must include both paths in its configuration; missing the API path leaves the admin queue page broken with "unauthorized" because the JS-side fetch to `/api/admin/queue` reaches the Worker without the `Cf-Access-Authenticated-User-Email` header.
+`/admin/*` (HTML page, served by Pages) AND `/api/admin/*` (API endpoint, on the Worker) are both gated by ONE Cloudflare Access application. The Access app must include both paths in its configuration; missing the API path leaves the admin queue page broken with "unauthorized" because the JS-side fetch to `/api/admin/queue` reaches the Worker without the `Cf-Access-Authenticated-User-Email` header.
+
+The old `square-party` Worker (per root `wrangler.jsonc`) was unbound and unused; deleted from Cloudflare 2026-05-13. Root `wrangler.jsonc` lives in the repo as legacy but isn't deployed by the current `npm run deploy`.
 
 ## Wrangler config-discovery gotcha (added 2026-05-05)
 
@@ -105,7 +106,7 @@ Paul builds and deploys; sandboxes do syntactic verification only.
 
 - **Sandbox CAN**: edit source files, validate syntax (`npx @11ty/eleventy --dry-run` parses templates without writing files), inspect source for changes, run linters and other read-only or write-to-source checks.
 - **Sandbox CANNOT (reliably)**: run a full Eleventy build that writes to disk, deploy, modify `.git/` internals, commit.
-- **Paul does**: full builds (`npm run build`), Wrangler deploys to Cloudflare Workers Pages, GitHub commits.
+- **Paul does**: full builds (`npm run build`) for local preview, GitHub commits (Pages auto-deploys on push), Wrangler deploys via `npm run deploy` when the API Worker needs updating. See `DEPLOY.md` for the canonical reference.
 - Acceptance criteria in execution-window briefs should target source-file outcomes and `--dry-run` parse success — NOT build-output outcomes. If a brief needs visual verification, Paul does the build locally and reports back.
 
 ---
