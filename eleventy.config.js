@@ -116,6 +116,17 @@ export default function(eleventyConfig) {
   // Cloudflare Pages reads _redirects from the published root.
   eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
 
+  // income-viz: copy as plain files so Nunjucks doesn't try to parse the JSX
+  // `{{ ... }}` style objects inside the HTML, and so the Python-generated
+  // data.json is reachable at the relative fetch path the HTML uses
+  // (`./income-viz-src/data.json`).
+  // Both copy AND ignore are needed: addPassthroughCopy alone copies the file
+  // but doesn't prevent Eleventy from also trying to process it as a Nunjucks
+  // template (which fails because JSX uses `{{ ... }}` for inline objects).
+  eleventyConfig.addPassthroughCopy("src/income-viz.html");
+  eleventyConfig.addPassthroughCopy("src/income-viz-src/data.json");
+  eleventyConfig.ignores.add("src/income-viz.html");
+
   // Domain collection — drives the 26-domain grid on the empower home page.
   // Sorts by cluster letter (A–H per DOMAIN_FRAMEWORK Section 6), then by
   // within-cluster `order`, then alphabetical title as a final tiebreaker.
