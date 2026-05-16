@@ -10,7 +10,7 @@ A systematic mapping of the gap between formal representation and lived experien
 
 For each area, the project asks the same questions: What does the law actually say? How does it actually operate, in practice, for people in PA-3? Where do those two diverge? What would it take to close the gap?
 
-**This is** a working example of how a [People's Assembly framework](/square-party/assembly/) could apply to a real place. The assembly is an idea — a second axis of representation organized by topic rather than geography. This demonstration in PA-3 shows feasability and provides a vision.
+**This is** a working example of how a [People's Assembly framework](/paul/campaign/empower/) could apply to a real place. The assembly is an idea — a second axis of representation organized by topic rather than geography. This demonstration in PA-3 shows feasability and provides a vision.
 
 **Technically,** you could vote for me. This is a real project. But it's not a personal platform. The work is meant to surface where representation is failing in PA-3, not to advocate for any particular fix. I am working on some [policy ideas](/paul/policy/) separately, but my core platform is the Square Party - Write It In!
 

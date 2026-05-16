@@ -112,9 +112,9 @@ Or just <a href="/write-it-in/#pledge">pledge to write someone in →</a>
 </div>
 <div class="home-landing__sub-col">
 <p class="home-landing__section-eyebrow">The record</p>
-<h2 class="home-landing__section-title">Newsletter.</h2>
+<h2 class="home-landing__section-title">News and perspectives.</h2>
 <p class="home-landing__section-body">
-Ongoing diagnostic essays on what the system is actually doing.
+Essays, reports, perspectives, and other ways to understand the system.
 </p>
 <p class="home-landing__section-aux">
 <a href="https://squareparty.substack.com">squareparty.substack.com →</a>

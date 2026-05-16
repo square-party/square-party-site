@@ -39,6 +39,6 @@ It still does work. Write-in totals are public, and officials, journalists, futu
 
 - [PA-3 campaign overview](/paul/campaign/) — what the campaign is and how it's structured
 - [If I actually get elected](/paul/campaign/if-elected/) — the candid version of what happens next
-- [Express interest in Square Party](/square-party/assembly/#express-interest) — the longer-term project this campaign is one piece of
+- [Express interest in Square Party](/paul/campaign/empower/contribute/) — the longer-term project this campaign is one piece of
 
 {% include "partials/page-meta.njk" %}

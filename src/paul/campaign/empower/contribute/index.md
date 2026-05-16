@@ -16,7 +16,7 @@ Three things take less than five minutes apiece, and each one feeds real infrast
 
 Tell us which of the twenty-six domains you care about. Email plus checkboxes.
 
-[Express interest →](/square-party/assembly/#express-interest)
+[Express interest →](/paul/campaign/empower/)
 
 ### Share the party link
 

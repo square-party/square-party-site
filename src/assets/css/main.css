@@ -3542,7 +3542,7 @@ body.square-page .layer-stage {
 }
 
 .home-landing__hero-caption a {
-  border-bottom: 1px solid var(--muted-state);
+  text-decoration-color: var(--muted-state);
 }
 
 /* ── Reactive empty square ── */
@@ -3896,7 +3896,7 @@ body.square-page .layer-stage {
 
 .home-landing__section-aux a {
   color: var(--ink);
-  border-bottom: 1px solid var(--muted-state);
+  text-decoration-color: var(--muted-state);
 }
 
 /* ── Responsive ── */

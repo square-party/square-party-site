@@ -11,7 +11,7 @@ The tenets are non-political in the conventional sense. They're the basics — t
 ## Representation
 <a id="representation"></a>
 
-Decisions should reach the people they're going to affect. Not as a slogan — as a structural property of the system. Geography is one axis of representation, topical specialization (the [People's Assembly](/square-party/assembly/)) is another, and the practice of [staying connected](/square-party/connections/) to people in your community is a third. Square Party doesn't endorse any one ideal model. We commit to the goal of comprehensive coverage, and to redesigning the mechanisms when the existing ones aren't producing it.
+Decisions should reach the people they're going to affect. Not as a slogan — as a structural property of the system. Geography is one axis of representation, topical specialization (the [People's Assembly](/paul/campaign/empower/)) is another, and the practice of [staying connected](/square-party/connections/) to people in your community is a third. Square Party doesn't endorse any one ideal model. We commit to the goal of comprehensive coverage, and to redesigning the mechanisms when the existing ones aren't producing it.
 
 ## Reality
 <a id="reality"></a>

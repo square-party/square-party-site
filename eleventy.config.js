@@ -118,13 +118,14 @@ export default function(eleventyConfig) {
 
   // income-viz: copy as plain files so Nunjucks doesn't try to parse the JSX
   // `{{ ... }}` style objects inside the HTML, and so the Python-generated
-  // data.json is reachable at the relative fetch path the HTML uses
-  // (`./income-viz-src/data.json`).
-  // Both copy AND ignore are needed: addPassthroughCopy alone copies the file
-  // but doesn't prevent Eleventy from also trying to process it as a Nunjucks
-  // template (which fails because JSX uses `{{ ... }}` for inline objects).
+  // data.json + audit figures are reachable at the relative paths the HTML
+  // uses (`./income-viz-src/data.json`, `./income-viz-src/figures/*.png`).
+  // Both copy AND ignore are needed for the HTML: addPassthroughCopy alone
+  // copies the file but doesn't prevent Eleventy from also trying to process
+  // it as a Nunjucks template (which fails because JSX uses `{{ ... }}` for
+  // inline objects).
   eleventyConfig.addPassthroughCopy("src/income-viz.html");
-  eleventyConfig.addPassthroughCopy("src/income-viz-src/data.json");
+  eleventyConfig.addPassthroughCopy("src/income-viz-src");
   eleventyConfig.ignores.add("src/income-viz.html");
 
   // Domain collection — drives the 26-domain grid on the empower home page.

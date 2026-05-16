@@ -28,11 +28,11 @@ You make your own square. It can change. It can signal. It lets you take ownersh
 
 ## The People's Assembly
 
-If the empty square is how individuals participate, the **[People's Assembly](/square-party/assembly/)** is how that participation gets organized into something with leverage on the actual law.
+If the empty square is how individuals participate, the **[People's Assembly](/paul/campaign/empower/)** is how that participation gets organized into something with leverage on the actual law.
 
 The assembly is a topical structure. Twenty-two domains, organized to cover every place government touches life, each one a potential seat for the kind of sustained citizen oversight that geography-based representation alone can't provide. Geographic representation stays. Topical specialization joins it.
 
-[Visit the People's Assembly →](/square-party/assembly/)
+[Visit the People's Assembly →](/paul/campaign/empower/)
 
 ## Making sure we're all connected
 
@@ -48,6 +48,6 @@ Four for now: representation, reality, resource management, peace. Non-political
 
 ## Get involved
 
-- [The People's Assembly →](/square-party/assembly/) — express interest in a topical seat, or follow the project's analytical work
+- [The People's Assembly →](/paul/campaign/empower/) — the framework and its PA-3 application
 - [Paul's PA-3 campaign →](/paul/campaign/) — the first applied test
 - [Ideas →](/ideas/) — longer essays on the underlying questions

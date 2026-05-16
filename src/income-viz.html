@@ -1071,6 +1071,9 @@ function Page() {
 
       <footer className="footer-meta">
         <strong style={{ color: 'var(--ink)' }}>Sources:</strong> Census ASEC 2023, household income P10–P80 inflated to 2024 USD; Piketty-Saez-Zucman Realtime Inequality 2025 release, adult_households unit, for income thresholds P90+ and the 1980–2024 growth series; Federal Reserve SCF 2022 weighted percentiles, inflated to 2024 USD (CPI-U ×1.072), for wealth P10–P99; PSZ Realtime Inequality wealth thresholds for P99.9 and P99.99; EPI State of Working America for 1979–2023 wage growth.
+        <span style={{ display: 'block', marginTop: '14px' }}>
+          Skeptical of the framing? <a href="/income-viz-audit/" style={{ color: 'var(--accent)' }}>See the same data in plain matplotlib</a>, plus the Python script and source files that produced it.
+        </span>
       </footer>
     </div>
   );
