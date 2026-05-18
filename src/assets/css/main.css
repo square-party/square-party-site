@@ -14,8 +14,8 @@
   --font-ui: 'DM Sans', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
 
-  /* Base palette — applies in all states. */
-  --ink: #1f1a2e;
+  /* Base palette. */
+  --ink: #15192a;
   --ink-soft: #2a2a3e;
   --parchment: #efe7d6;
   --parchment-light: #faf7f2;
@@ -23,24 +23,30 @@
   --divider: #d4cbb8;
   --muted: #6b6b7b;
   --muted-soft: #8a8a98;
+  --muted-state: #6b6555;
 
-  /* Neutral baseline accent (no layers active) — dim, analytical. */
-  --accent: #5a5a6e;
-  --accent-warm: #7a7a8e;
-  --accent-soft: rgba(90, 90, 110, 0.10);
+  /* Surface tokens. */
+  --bg: var(--parchment);
+  --soft: #f5efe1;
+  --rule: rgba(21, 25, 42, 0.18);
+
+  /* Accent palette. */
+  --accent: #15192a;
+  --accent-warm: #2a2f44;
+  --accent-soft: rgba(21, 25, 42, 0.08);
   --accent-secondary: transparent;
   --accent-secondary-soft: transparent;
 
-  /* Surfaces and shapes */
-  --color-bg: var(--parchment);
+  /* Re-exported surfaces. */
+  --color-bg: var(--bg);
   --color-bg-alt: var(--parchment-light);
   --color-card: #ffffff;
   --color-text: var(--ink);
   --color-text-secondary: var(--ink-soft);
-  --color-border: var(--divider);
+  --color-border: var(--rule);
   --color-shadow: 0 1px 2px rgba(26, 26, 46, 0.04), 0 2px 8px rgba(26, 26, 46, 0.05);
 
-  /* State indicator colors — independent of layer state */
+  /* State indicator colors. */
   --state-published: #0f6e56;
   --state-published-bg: #e1f5ee;
   --state-in-review: #b45309;
@@ -55,115 +61,6 @@
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
-}
-
-/* === Layer palettes ===========================================
-   Three colors per state drive the whole system. Override them
-   here to recolor; everything else (--color-bg, --color-text,
-   --color-border, etc.) reads from these. See LAYERS.md.
-   ------------------------------------------------------------
-   The class lives on .layer-stage (inside <main>), not on body,
-   so site header and footer stay neutral across all four states.
-*/
-
-.layer-stage {
-  /* Neutral baseline — cream parchment, navy ink, dim accent.
-     Per variation-light-dark.jsx (Final Landing target). */
-  --bg: var(--parchment);
-  --ink: #15192a;
-  --rule: rgba(21, 25, 42, 0.18);
-  --accent: #15192a;
-  --accent-warm: #2a2f44;
-  --accent-soft: rgba(21, 25, 42, 0.08);
-  --accent-secondary: transparent;
-  --accent-secondary-soft: transparent;
-  --soft: #f5efe1;
-  --muted-state: #6b6555;
-
-  background: var(--bg);
-  color: var(--ink);
-  transition: background-color 220ms ease, color 220ms ease;
-}
-
-/* Light side ON — earth-paper ochre, warmer ink, muted gold accent.
-   Per variation-light-dark.jsx (Final Landing target). */
-.layer-stage.layer-light {
-  --bg: #e8d9b0;
-  --ink: #2a200c;
-  --rule: rgba(160, 120, 53, 0.42);
-  --accent: #a07835;
-  --accent-warm: #7a6432;
-  --accent-soft: rgba(160, 120, 53, 0.14);
-  --soft: #efe3c0;
-  --muted-state: #7a6432;
-}
-
-/* Dark side ON — cool pale blue-stone, deep navy ink, navy accent.
-   Per variation-light-dark.jsx (Final Landing target). */
-.layer-stage.layer-dark {
-  --bg: #c4ccd4;
-  --ink: #0f1a2e;
-  --rule: rgba(58, 72, 104, 0.45);
-  --accent: #3a4868;
-  --accent-warm: #4f5a72;
-  --accent-soft: rgba(58, 72, 104, 0.12);
-  --soft: #d2d9df;
-  --muted-state: #4f5a72;
-}
-
-/* Both sides ON — synthesis greige; warm brown primary + cool navy secondary. */
-.layer-stage.layer-light.layer-dark {
-  --bg: #d2c6b0;
-  --ink: #1f1810;
-  --rule: rgba(92, 74, 48, 0.42);
-  --accent: #5c4a30;
-  --accent-warm: #7a6432;
-  --accent-soft: rgba(92, 74, 48, 0.14);
-  --accent-secondary: #3a4868;
-  --accent-secondary-soft: rgba(58, 72, 104, 0.10);
-  --soft: #dcd1bb;
-  --muted-state: #6b5840;
-}
-
-/* Surface tokens read from layer-stage vars when content sits inside it.
-   Outside the stage (header/footer) these inherit from :root and stay neutral. */
-.layer-stage {
-  --color-bg: var(--bg);
-  --color-text: var(--ink);
-  --color-border: var(--rule);
-}
-
-/* Lens-aware content reveals based on active layer.
-   ACCUMULATION mode — multiple [data-layer] blocks can show at once.
-   Default: hidden. Reveal when the matching side is on.
-   See LAYERS.md §"Lens-aware content". */
-[data-layer="light"],
-[data-layer="dark"] { display: none; }
-.layer-stage.layer-light [data-layer="light"] { display: block; }
-.layer-stage.layer-dark  [data-layer="dark"]  { display: block; }
-
-/* Four-state REPLACEMENT mode — exactly one [data-lens-state] block visible
-   at a time, matching the current lens state. Used on the landing where
-   content swaps wholesale per state rather than accumulating.
-   Per variation-light-dark.jsx: "Content REPLACES rather than accumulates."
-
-   Attribute named `data-lens-state` to disambiguate from the existing
-   `data-state` attribute used sitewide for publication metadata
-   (published / in-review / drafting / planned) on domain rows and similar.
-   The two systems are independent.
-
-   Specificity note: prefixed with .layer-stage so the hide rule beats any
-   element-class display rule (e.g. .home-landing__cards-grid{display:grid})
-   that would otherwise win on source order. Reveal uses `display: revert`
-   to fall back to the UA default — which is why [data-lens-state] should
-   sit on plain <div> wrappers (block by default), not directly on elements
-   that have their own display value. */
-.layer-stage [data-lens-state] { display: none; }
-.layer-stage:not(.layer-light):not(.layer-dark) [data-lens-state="neutral"],
-.layer-stage.layer-light:not(.layer-dark) [data-lens-state="light"],
-.layer-stage.layer-dark:not(.layer-light) [data-lens-state="dark"],
-.layer-stage.layer-light.layer-dark [data-lens-state="both"] {
-  display: revert;
 }
 
 /* Visual treatment so layered sections read as distinct from neutral baseline */
@@ -478,169 +375,6 @@ main:has(.home-hero) {
 }
 .site-footer p { margin: 0.25rem 0; }
 .site-footer__meta { font-size: 0.8rem; color: var(--muted-soft); }
-
-/* ============================================================
-   LAYER TOGGLE STRIP — sticky inline band
-   Two on/off pills + a state-readout line, placed per-page near
-   the hero. The old fixed-position .layer-toggle widget was
-   removed; this is its replacement. See LAYERS.md.
-   ============================================================ */
-
-/* ============================================================
-   LAYER TOGGLE STRIP — mockup-spec inline band
-   Per variation-light-dark.jsx LDToggle component.
-   Quiet meta-controls: mono caps, small pills, ring-dot
-   indicator, white-translucent pressed state.
-   ============================================================ */
-
-.layer-toggle-strip {
-  /* Signature colors per kind (used by ::before ring + pressed border).
-     Set as custom props so each button can read its own. */
-  --sig-light: #9c3c52;
-  --sig-dark:  #1f2a52;
-
-  margin: 1.5rem 0 1.75rem;
-  padding: 1.125rem 1.25rem;
-
-  background: var(--soft, var(--bg));
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  gap: 0.65rem;
-  text-align: center;
-
-  transition: background-color 220ms ease, border-color 220ms ease;
-}
-
-.layer-toggle-strip__controls {
-  display: flex;
-  gap: 0.75rem;
-  justify-content: center;
-}
-
-.layer-toggle-strip__btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.45rem 0.95rem 0.45rem 0.65rem;
-  font-family: var(--font-mono);
-  font-size: 0.66rem;        /* ~10.5px per mockup */
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink);
-  background: transparent;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  cursor: pointer;
-  opacity: 0.72;
-  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
-}
-
-.layer-toggle-strip__btn:hover,
-.layer-toggle-strip__btn:focus-visible {
-  opacity: 1;
-  outline: none;
-}
-
-/* Pressed state — white-translucent fill + signature-colored border.
-   No solid-color fill; the button keeps the page palette and announces
-   itself via the ring and border. */
-.layer-toggle-strip__btn[aria-pressed="true"] {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.45);
-}
-.layer-toggle-strip__btn[data-layer="light"][aria-pressed="true"] {
-  border-color: var(--sig-light);
-}
-.layer-toggle-strip__btn[data-layer="dark"][aria-pressed="true"] {
-  border-color: var(--sig-dark);
-}
-
-/* Ring-dot indicator — outline-only when off, filled when on.
-   Signature color per button kind. */
-.layer-toggle-strip__dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: transparent;
-  flex: 0 0 auto;
-  transition: background 0.2s, border-color 0.2s;
-}
-.layer-toggle-strip__btn[data-layer="light"] .layer-toggle-strip__dot {
-  border: 1.5px solid var(--sig-light);
-}
-.layer-toggle-strip__btn[data-layer="dark"] .layer-toggle-strip__dot {
-  border: 1.5px solid var(--sig-dark);
-}
-.layer-toggle-strip__btn[data-layer="light"][aria-pressed="true"] .layer-toggle-strip__dot {
-  background: var(--sig-light);
-}
-.layer-toggle-strip__btn[data-layer="dark"][aria-pressed="true"] .layer-toggle-strip__dot {
-  background: var(--sig-dark);
-}
-
-.layer-toggle-strip__summary {
-  margin: 0;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  color: var(--ink);
-  opacity: 0.65;
-  line-height: 1.4;
-}
-
-@media (max-width: 720px) {
-  .layer-toggle-strip__btn {
-    font-size: 0.7rem;
-    padding: 0.5rem 1rem 0.5rem 0.75rem;
-  }
-}
-
-/* === Lens aside ==============================================
-   In-prose blocks that appear only when one side is on.
-   Used inline within long-reads. See LAYERS.md and
-   partials/lens-aside.njk for markup helper.
-*/
-
-.lens-aside {
-  margin: 1.5rem 0;
-  padding: 1rem 1.25rem;
-  border-left: 3px solid var(--accent);
-  background: var(--accent-soft);
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.lens-aside__tag {
-  margin: 0 0 0.4rem;
-  font-family: var(--font-ui);
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--accent);
-}
-
-.lens-aside p {
-  margin: 0 0 0.5rem;
-  color: var(--ink);
-}
-.lens-aside p:last-child { margin: 0; }
-
-.lens-aside--light {
-  --accent: #b8860b;
-  --accent-soft: rgba(184, 134, 11, 0.10);
-}
-.lens-aside--dark {
-  --accent: #8b2500;
-  --accent-soft: rgba(139, 37, 0, 0.08);
-}
 
 /* ============================================================
    PROJECT LAYOUT (empower.njk and any future project)
@@ -2649,19 +2383,13 @@ body.home-landing-page main {
   padding: 0;
 }
 
-/* /square/ uses its own dark theme via square-app.css — neutralize
-   the .layer-stage cream surface and main's prose-width constraint so
-   the generator's full-bleed dark page shows through cleanly. */
+/* /square/ uses its own dark theme via square-app.css — strip <main>'s
+   prose-width constraint so the generator's full-bleed dark page renders
+   cleanly. */
 body.square-page main {
   max-width: none;
   margin: 0;
   padding: 0;
-}
-
-body.square-page .layer-stage {
-  background: transparent;
-  color: inherit;
-  transition: none;
 }
 
 .home-landing {
@@ -2700,13 +2428,6 @@ body.square-page .layer-stage {
   border: 1.5px solid var(--muted-state);
   background: transparent;
   flex-shrink: 0;
-}
-
-.layer-stage.layer-light .home-landing__eyebrow-dot,
-.layer-stage.layer-dark .home-landing__eyebrow-dot,
-.layer-stage.layer-light.layer-dark .home-landing__eyebrow-dot {
-  background: var(--accent);
-  border-color: var(--accent);
 }
 
 .home-landing__title {
@@ -2760,11 +2481,13 @@ body.square-page .layer-stage {
   text-decoration-color: var(--muted-state);
 }
 
-/* ── Reactive empty square ── */
+/* ── Empty square ── */
 .home-landing__square {
   position: relative;
   width: 280px;
   height: 280px;
+  /* Change this to recolor the square independently of the page background. */
+  --square-fill: #efe7d6;
 }
 
 .home-landing__square-svg {
@@ -2776,70 +2499,11 @@ body.square-page .layer-stage {
 }
 
 .home-landing__square-rect {
-  fill: var(--bg);
+  fill: var(--square-fill);
   stroke: #000;
   stroke-width: 2;
-  transition: fill 220ms ease;
 }
 
-.home-landing__square-word {
-  position: absolute;
-  inset: 0;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: var(--ink);
-}
-
-/* State-driven fills + words for the reactive square. */
-.layer-stage.layer-light:not(.layer-dark) .home-landing__square-rect {
-  fill: #c89c3d;
-}
-.layer-stage.layer-light:not(.layer-dark) .home-landing__square-word--light {
-  display: flex;
-  color: #1a1a1a;
-}
-
-.layer-stage.layer-dark:not(.layer-light) .home-landing__square-rect {
-  fill: #1a1a1a;
-}
-.layer-stage.layer-dark:not(.layer-light) .home-landing__square-word--dark {
-  display: flex;
-  color: #c89c3d;
-  text-decoration: line-through;
-  text-decoration-thickness: 4px;
-}
-
-/* "Both" state — diagonal split (gold top-left, black bottom-right).
-   Stand-in per Paul's note that the both-state square is getting a
-   separate redesign later. */
-.layer-stage.layer-light.layer-dark .home-landing__square-rect {
-  fill: transparent;  /* let the diagonal pattern show through */
-}
-.layer-stage.layer-light.layer-dark .home-landing__square-diagonal {
-  display: block;
-}
-.home-landing__square-diagonal {
-  display: none;
-  position: absolute;
-  inset: 0;
-}
-.layer-stage.layer-light.layer-dark .home-landing__square-word--both {
-  display: flex;
-  color: #1a1a1a;
-}
-.layer-stage.layer-light.layer-dark .home-landing__square-word--both > span {
-  background: var(--bg);
-  padding: 4px 14px 6px;
-}
 
 /* ── Card grid ── */
 .home-landing__cards {
@@ -3133,9 +2797,6 @@ body.square-page .layer-stage {
   .home-landing__square {
     width: 220px;
     height: 220px;
-  }
-  .home-landing__square-word {
-    font-size: 40px;
   }
   .home-landing__cards {
     padding: 0.5rem 1.5rem 2.5rem;

@@ -30,6 +30,14 @@ The empower project and the Square Party framework are tools and model increased
 - [Policy areas →](/paul/policy/) — proposals inside specific issue domains (immigration, food, agriculture, civil service, campaign finance, and more)
 - [Square Party →](/) — the wider framework
 
+## News and updates
+
+Essays, reports, and other ways to understand the system. Read past issues at [squareparty.substack.com](https://squareparty.substack.com), or subscribe below.
+
+<div class="newsletter-embed">
+<iframe src="https://squareparty.substack.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+</div>
+
 ## Get in touch
 
 Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>. The fastest way to reach me directly.

@@ -1,107 +1,18 @@
 /* ============================================================
    Square Party — site-wide JavaScript
    ------------------------------------------------------------
-   Five things, kept small and dependency-free:
-   1. Layer toggle (Light / Dark) — wrapper-level four-state, persisted
-   2. Domain pill grid preview panel
-   3. Nav dropdown (click to open, hover to peek, Esc to close)
-   4. Save / bookmark feature
-   5. Neighbors filter
+   Four things, kept small and dependency-free:
+   1. Domain pill grid preview panel
+   2. Nav dropdown (click to open, hover to peek, Esc to close)
+   3. Save / bookmark feature
+   4. Neighbors filter
    ============================================================ */
 (function () {
   'use strict';
 
-  // ---------- 1. Layer toggle ----------
-  // State is stored in localStorage under sq.layers.v1 and applied to
-  // .layer-stage (the wrapper inside <main>), NOT body. Keeps site
-  // header/footer neutral across all four states. See LAYERS.md.
-  var STORAGE_KEY = 'sq.layers.v1';
-
-  // The wrapper element. If absent (e.g. error pages without base.njk),
-  // we no-op gracefully — the rest of the script still runs.
-  var stage = document.getElementById('layer-stage');
-
-  // Lens summary strings — shown in the toggle strip's aria-live region
-  // so screen readers and sighted users get a tiny semantic anchor for
-  // each state, not just a visual shift.
-  var LENS_SUMMARY = {
-    neutral: 'standard view',
-    light:   'light side filter',
-    dark:    'dark side filter',
-    both:    'the best of both worlds'
-  };
-
-  function readState() {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
-    } catch (_e) {
-      return {};
-    }
-  }
-
-  function writeState(state) {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (_e) { /* private mode etc. — fine */ }
-  }
-
-  function currentLens(state) {
-    if (state.light && state.dark) return 'both';
-    if (state.light) return 'light';
-    if (state.dark) return 'dark';
-    return 'neutral';
-  }
-
-  function applyState(state) {
-    if (!stage) return;
-    stage.classList.toggle('layer-light', !!state.light);
-    stage.classList.toggle('layer-dark', !!state.dark);
-
-    // Update lens summary line in any visible toggle strip.
-    var summaryEls = document.querySelectorAll('[data-layer-summary]');
-    var lens = currentLens(state);
-    summaryEls.forEach(function (el) {
-      el.textContent = LENS_SUMMARY[lens] || LENS_SUMMARY.neutral;
-    });
-  }
-
-  function syncButton(btn, active) {
-    btn.setAttribute('aria-pressed', String(active));
-    btn.classList.toggle('is-active', active);
-  }
-
-  // Apply persisted state immediately so the page paints with the right palette.
-  var state = readState();
-  applyState(state);
-
-  // Wire toggle buttons. Selector matches both the new sticky strip
-  // (.layer-toggle-strip__btn) and any legacy widget that might still
-  // be on a page; they both share data-layer="light|dark" attributes.
-  var toggleBtns = document.querySelectorAll(
-    '.layer-toggle-strip__btn[data-layer], .layer-toggle__btn[data-layer]'
-  );
-  toggleBtns.forEach(function (btn) {
-    var layer = btn.getAttribute('data-layer');
-    if (!layer) return;
-    syncButton(btn, !!state[layer]);
-    btn.addEventListener('click', function () {
-      state = readState();
-      state[layer] = !state[layer];
-      writeState(state);
-      applyState(state);
-      // Resync ALL buttons for this layer (page may have more than one strip)
-      document.querySelectorAll('[data-layer="' + layer + '"]').forEach(function (b) {
-        if (b.classList.contains('layer-toggle-strip__btn') ||
-            b.classList.contains('layer-toggle__btn')) {
-          syncButton(b, !!state[layer]);
-        }
-      });
-    });
-  });
-
-  // ---------- 2. Domain index — sticky detail panel ----------
+  // ---------- 1. Domain index — sticky detail panel ----------
   // The panel updates on hover / focus of a domain row. Click on a row
-  // navigates normally. With cluster sections collapsed by default (see 2b),
+  // navigates normally. With cluster sections collapsed by default (see 1b),
   // the panel starts in its intro state rather than pre-populating with a
   // domain that isn't visible in the grid.
   var grid = document.querySelector('.domain-index');
@@ -150,7 +61,7 @@
     // isn't visible in the grid would be confusing.
   }
 
-  // ---------- 2b. Domain cluster collapse/expand ----------
+  // ---------- 1b. Domain cluster collapse/expand ----------
   // Each cluster heading on the Empower index is a button that toggles the
   // visibility of its list. State persists per cluster across visits.
   // Default (no stored state) is COLLAPSED for every cluster — the index
@@ -195,7 +106,7 @@
     });
   }
 
-  // ---------- 3. Nav dropdown ----------
+  // ---------- 2. Nav dropdown ----------
   // Click-to-open with hover-peek. Esc closes. Click outside closes.
   var dropdowns = document.querySelectorAll('[data-dropdown]');
   dropdowns.forEach(function (wrap) {
@@ -242,7 +153,7 @@
     });
   });
 
-  // ---------- 3b. Mobile nav (hamburger) toggle ----------
+  // ---------- 2b. Mobile nav (hamburger) toggle ----------
   // Below the mobile breakpoint (see main.css @media max-width: 600px) the
   // link list is hidden until the user taps the hamburger. Tapping a link
   // closes the menu so navigation feels right; Esc and resize-up also close.
@@ -277,7 +188,7 @@
     });
   }
 
-  // ---------- 4. Save / bookmark feature ----------
+  // ---------- 3. Save / bookmark feature ----------
   var SAVED_KEY = 'sq.saved.v1';
 
   function readSaved() {
@@ -413,7 +324,7 @@
     }
   }
 
-  // ---------- 5. Neighbors filter ----------
+  // ---------- 4. Neighbors filter ----------
   // The Meet the Neighbors page renders a card grid with two filter dimensions
   // (sub-domain, sub-area). Filter chips toggle on click; cards whose
   // data-attributes don't match all active filters are hidden.
