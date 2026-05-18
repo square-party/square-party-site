@@ -9,6 +9,7 @@
    IMPORTANT: do not introduce blank lines inside the .domain-index HTML
    block — they terminate markdown-it's HTML block parsing. Pack tightly.
 #}
+{%- import "partials/domain-label.njk" as domainLabel -%}
 <div class="domain-index" id="domains">
 <div class="domain-list">
 {%- set currentCluster = "" -%}
@@ -21,8 +22,7 @@
 <section class="domain-cluster" data-cluster="{{ cluster }}"><h3 class="domain-cluster__heading"><button class="domain-cluster__toggle" type="button" data-cluster-toggle="{{ cluster }}" aria-expanded="false" aria-controls="domain-cluster-{{ cluster }}"><span class="domain-cluster__caret" aria-hidden="true">▾</span><span class="domain-cluster__title">{{ clusters[cluster] or "Other" }}</span></button></h3><ul class="domain-cluster__list" id="domain-cluster-{{ cluster }}">
 {%- set currentCluster = cluster -%}
 {%- endif -%}
-{%- set rowTitle = domain.data.shortTitle or domain.data.title -%}
-<li class="domain-row"><a class="domain-row__link" href="{{ domain.url }}" data-title="{{ domain.data.title }}" data-description="{{ domain.data.description | escape }}" data-state="{{ state }}" data-state-label="{{ stateLabel }}"><span class="dot" data-state="{{ state }}" aria-hidden="true"></span><span class="domain-row__title">{{ rowTitle }}</span>{% if state != "planned" %}<span class="domain-row__state" data-state="{{ state }}">{{ stateLabel }}</span>{% endif %}<span class="domain-row__arrow" aria-hidden="true">→</span></a><p class="domain-row__desc-mobile">{{ domain.data.description }}</p></li>
+<li class="domain-row"><a class="domain-row__link" href="{{ domain.url }}" data-title="{{ domainLabel.full(domain) }}" data-description="{{ domain.data.description | escape }}" data-state="{{ state }}" data-state-label="{{ stateLabel }}"><span class="dot" data-state="{{ state }}" aria-hidden="true"></span><span class="domain-row__title">{{ domainLabel.short(domain) }}</span>{% if state != "planned" %}<span class="domain-row__state" data-state="{{ state }}">{{ stateLabel }}</span>{% endif %}<span class="domain-row__arrow" aria-hidden="true">→</span></a><p class="domain-row__desc-mobile">{{ domain.data.description }}</p></li>
 {%- endfor -%}
 {%- if currentCluster != "" %}</ul></section>{% endif %}
 </div>

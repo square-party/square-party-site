@@ -1,0 +1,35 @@
+{#
+  domain-label.njk — single source of truth for emitting a domain's label.
+
+  This is the ONLY place anywhere on the site that knows how to derive a
+  human-facing label from a domain collection item. Every template that
+  wants to display a domain's name imports this module and calls its macros.
+  Never reach into domain.data.title or domain.data.shortTitle directly
+  from elsewhere — go through these macros so any future change to the data
+  shape (e.g., a move to _data/domains.json, a per-locale rename) lands in
+  exactly one file.
+
+  Usage:
+
+    Import once at the top of a template:
+      {%- import "partials/domain-label.njk" as domainLabel -%}
+
+    Then call:
+      {{ domainLabel.full(domain) }}      — canonical long title
+      {{ domainLabel.short(domain) }}     — compact label; falls back to full
+
+  Macros return strings, so they're safe inside attributes, e.g.:
+    <a data-title="{{ domainLabel.full(domain) }}" href="...">
+
+  Argument:
+    domain — a collection item (e.g., from collections.domains).
+             The macro reads domain.data.title and domain.data.shortTitle.
+#}
+
+{% macro full(domain) -%}
+{{- domain.data.title -}}
+{%- endmacro %}
+
+{% macro short(domain) -%}
+{{- domain.data.shortTitle or domain.data.title -}}
+{%- endmacro %}

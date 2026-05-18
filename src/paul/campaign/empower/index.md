@@ -44,12 +44,13 @@ Policy proposals are not found here, but one use for this work might be as the s
 ## Start here — domains with content
 
 <div class="standard-row" id="domains-with-content">
+{%- import "partials/domain-label.njk" as domainLabel -%}
 {%- for stateOrder in ["published", "in-review", "drafting"] -%}
 {%- for domain in collections.domains -%}
 {%- if (domain.data.state or "planned") == stateOrder -%}
 {%- if stateOrder == "published" %}{% set stateLabel = "Published" %}{% elif stateOrder == "in-review" %}{% set stateLabel = "Ready for review" %}{% else %}{% set stateLabel = "Drafting" %}{% endif -%}
 <a class="entry-card" href="{{ domain.url }}">
-<div class="entry-card__head"><span class="entry-card__head-text"><span class="entry-card__title">{{ domain.data.title }}</span><span class="entry-card__state" data-state="{{ stateOrder }}">{{ stateLabel }}</span></span></div>
+<div class="entry-card__head"><span class="entry-card__head-text"><span class="entry-card__title">{{ domainLabel.full(domain) }}</span><span class="entry-card__state" data-state="{{ stateOrder }}">{{ stateLabel }}</span></span></div>
 <span class="entry-card__desc">{{ domain.data.description }}</span>
 <span class="entry-card__cta">Open the analysis →</span>
 </a>
