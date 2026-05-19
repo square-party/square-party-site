@@ -8,6 +8,17 @@ description: A second axis of representation — organized by what a law concern
 
 A second axis of representation. Geographic representation tells us *who* lives where, and assigns one set of representatives to handle every issue across that geography. The People's Assembly proposes a complementary structure: representation organized by *what* a law concerns, not just *where* it applies.
 
+
+## Example: PA-3
+
+Thirteen domains (about half of those identified) were mapped from legal foundation to constituent experience. This methodology produced an analysis of 'gaps in representation', when the laws and regulations are and are not working for the peoplle. Click any cell to open that domain's analysis. There's no ordering, but these domains were selected for analysis because I thought they would be important for people in the district.  
+
+{% include "partials/domain-honeycomb.njk" %}
+
+*Disclaimer* This workflow was developed with AI as an assistant. Claims were based on rigorous sourcing, relying on public data whenever possible. The workflow is public and all claims and statistics include references that can be checked and verified.
+
+## Breaking it down
+
 Every place government touches life can be identified (mostly). The idea is to map those places into conceptual domains so that people can actually understand the laws and reglations that they are subject to. Each area is an opportunity for someone with passion or topical specialization to organize members of the public to build expertise, communicate, and provide the kind of sustained citizen representation that a single geographically-elected representative simply doesn't have time for across three quarters of a million people and dozens of legal areas.
 
 This isn't a replacement for geography. It's an addition. District reps represent place. Topical reps represent depth. Both together is the model.
@@ -16,15 +27,13 @@ This isn't a replacement for geography. It's an addition. District reps represen
 <p><strong>A small distinction worth keeping.</strong> <em>The</em> People's Assembly framework is the goal: representation organized across every domain government touches. The domains below are <em>a</em> People's Assembly framework &mdash; one attempt at that goal.</p>
 </aside>
 
-## Why that number?
+## Why X number?
 
 The number isn't sacred. The aim is *comprehensive coverage*. If a area is missing — if government does something significant that doesn't fall into one of the existing areas — the map isn't yet honest, and the assembly has a gap. The coverage will grow.
 
 ## How specialization works in practice
 
-The assembly is a long-term proposition. In the near term, before any formal structure exists, the work is more concrete: each domain is a place where someone with subject knowledge and time can do the analytical work — map the gaps between formal representation and lived experience, surface the relevant statutes and how they actually operate, write up findings, propose changes. That work is what makes a domain ready to be claimed.
-
-If you'd like to do that work for a domain, the [contribute page](/paul/campaign/empower/contribute/) explains how.
+The assembly is a long-term proposition. In the near term, before any formal structure exists, I can only ask that you learn more about at least one law that affects you.  
 
 ---
 
@@ -39,31 +48,13 @@ The methodology applies five lenses (statutory architecture, administrative impl
 
 Policy proposals are not found here, but one use for this work might be as the starting point for new legislation. In theory, anyone could [propose](/paul/campaign/empower/contribute/#propose) real legislation for their representatives. After verification, representatives could engage in an iterative process - on the public record - to integrate (or not) the proposal into a current set of legislation. Representatives can keep their legislative platform public (see the very beginnings of this idea [here](/paul/policy)).
 
-*Disclaimer* This workflow was developed with AI as an assistant. Claims should be reasonably calibrated, but should be checked by humans. The workflow is public, but the nature of the project challenges direct reproducibility. 
+{% include "partials/domain-honeycomb.njk" %}
 
-## Start here — domains with content
+## Other domains
 
-<div class="standard-row" id="domains-with-content">
-{%- import "partials/domain-label.njk" as domainLabel -%}
-{%- for stateOrder in ["published", "in-review", "drafting"] -%}
-{%- for domain in collections.domains -%}
-{%- if (domain.data.state or "planned") == stateOrder -%}
-{%- if stateOrder == "published" %}{% set stateLabel = "Published" %}{% elif stateOrder == "in-review" %}{% set stateLabel = "Ready for review" %}{% else %}{% set stateLabel = "Drafting" %}{% endif -%}
-<a class="entry-card" href="{{ domain.url }}">
-<div class="entry-card__head"><span class="entry-card__head-text"><span class="entry-card__title">{{ domainLabel.full(domain) }}</span><span class="entry-card__state" data-state="{{ stateOrder }}">{{ stateLabel }}</span></span></div>
-<span class="entry-card__desc">{{ domain.data.description }}</span>
-<span class="entry-card__cta">Open the analysis →</span>
-</a>
-{%- endif -%}
-{%- endfor -%}
-{%- endfor -%}
-</div>
+The remaining thirteen domains are in the project's framework but not yet under analytical pass. Several need methodological adjustment before the current approach applies cleanly; others are amenable but unscheduled. Click a name to jump to its short note.
 
-## Domains in PA-3
-
-State indicators describe analytical state, not domain importance. *Published* domains have verified PA-3 content. *In review* is drafted but unchecked. *Drafting* is research underway. *Planned* is scaffolded, not yet researched. The honest current state: one domain is being adapted from a separate research document; the rest are scaffolded and await contributors.
-
-{% include "partials/domain-card-grid.njk" %}
+{% include "partials/domain-others.njk" %}
 
 ## Tools & references
 

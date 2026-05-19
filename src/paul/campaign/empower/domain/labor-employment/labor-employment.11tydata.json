@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Labor & Employment",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/labor-employment/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/labor-employment/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

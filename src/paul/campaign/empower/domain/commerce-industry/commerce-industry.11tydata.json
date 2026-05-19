@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Commerce & Industry",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/commerce-industry/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/commerce-industry/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

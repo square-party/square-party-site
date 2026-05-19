@@ -1,0 +1,34 @@
+{#
+  domain-landing-explore.njk — bottom-of-page navigation grid.
+
+  Renders a "Continue exploring" block at the end of a domain landing so
+  readers who have scrolled past the section nav at the top can pick where
+  to go next without scrolling back.
+
+  Iterates the `sectionNav.items` from the domain's `*.11tydata.json` and
+  emits one link per entry, excluding the current page (filtered by url).
+
+  Optional: `exploreAdditional` (array of { label, href } from page
+  frontmatter) adds extras beyond the section nav — useful for surfacing
+  cross-page destinations that aren't in the main nav (e.g., a Contribute
+  link, an external resource).
+
+  No sticky nav, no floating button — just a quiet end-of-page block.
+#}
+{%- if sectionNav -%}
+<nav class="continue-exploring" aria-label="Continue exploring this domain">
+<h2>Continue exploring</h2>
+<ul class="continue-exploring__grid">
+{%- for item in sectionNav.items -%}
+{%- if item.href != page.url -%}
+<li><a href="{{ item.href }}"><span class="arrow" aria-hidden="true">→</span>{{ item.label | safe }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+{%- if exploreAdditional -%}
+{%- for item in exploreAdditional -%}
+<li><a href="{{ item.href }}"><span class="arrow" aria-hidden="true">→</span>{{ item.label | safe }}</a></li>
+{%- endfor -%}
+{%- endif -%}
+</ul>
+</nav>
+{%- endif -%}

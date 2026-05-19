@@ -6,6 +6,8 @@ state: planned
 cluster: E
 order: 2
 description: Public funding and infrastructure for the arts, the sciences, and the public communication of both — grants, institutions, public broadcasting, research universities qua research.
+methodologicalNote: >-
+  Public funding and infrastructure for the arts, the sciences, and the public communication of both — NEA/NEH, NSF/NIH, public broadcasting, research universities qua research, public libraries qua repositories. Methodology fits; awaiting analytical pass.
 updated: 2026-04-25
 ---
 

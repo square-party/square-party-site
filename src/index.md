@@ -52,8 +52,8 @@ bodyClass: home-landing-page
     <a class="home-landing__card" href="/income-viz/">
       <div>
         <p class="home-landing__card-meta">the picture</p>
-        <h3 class="home-landing__card-title">Let me see the wealth</h3>
-        <p class="home-landing__card-blurb">Income, mapped. Get a feel for how unevenly the country actually lives.</p>
+        <h3 class="home-landing__card-title">Show me the wealth</h3>
+        <p class="home-landing__card-blurb">Get a feel for income inequality. Why we need game maintenance.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>

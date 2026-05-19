@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Healthcare Delivery",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/healthcare-delivery/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/healthcare-delivery/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

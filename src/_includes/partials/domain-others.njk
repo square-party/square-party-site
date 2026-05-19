@@ -1,0 +1,36 @@
+{#
+  domain-others.njk — the non-verified-13 quick-reference list + prose sections.
+
+  Two visual elements:
+
+  1. A compact two-column list of just domain names at the top, each name an
+     in-page anchor link that jumps to the prose section below for that domain.
+     Sits at the same max-width as the honeycomb so the two visually share a
+     centered band.
+
+  2. Full prose sections beneath, one per domain. Each carries
+     id="domain-{slug}" so any link anywhere on the site can deep-link directly
+     (e.g., /paul/campaign/empower/#domain-civil-rights). Heading is the
+     domain's full title; body is the methodologicalNote frontmatter field.
+
+  Reads collections.otherDomains (the 13 non-verified) — alphabetical by title.
+  Labels go through partials/domain-label.njk so the single-source-of-truth
+  pattern is preserved.
+
+  Per-domain methodologicalNote frontmatter is the body copy. Edit each
+  domain's index.md/njk to revise that domain's note.
+#}
+{%- import "partials/domain-label.njk" as domainLabel -%}
+
+<ul class="domain-others-list" aria-label="Domains awaiting analysis — jump-to links">
+{%- for domain in collections.otherDomains -%}
+<li><a href="#domain-{{ domain.fileSlug }}">{{ domainLabel.full(domain) }}</a></li>
+{%- endfor -%}
+</ul>
+
+{% for domain in collections.otherDomains %}
+<section class="domain-others-section" id="domain-{{ domain.fileSlug }}">
+<h3 class="domain-others-section__heading">{{ domainLabel.full(domain) }}</h3>
+{% if domain.data.methodologicalNote %}<p class="domain-others-section__note">{{ domain.data.methodologicalNote | safe }}</p>{% endif %}
+</section>
+{% endfor %}

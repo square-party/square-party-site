@@ -6,6 +6,8 @@ state: planned
 cluster: H
 order: 2
 description: Diplomacy, foreign aid, international agreements, military action abroad, the institutional architecture of how the U.S. interacts with the rest of the world.
+methodologicalNote: >-
+  Diplomacy, foreign aid, international agreements, military action abroad. Awaiting methodological adjustment — the project's federal/state/local layered approach produces empty state and local sections for this domain, where authority sits almost entirely at the federal layer. A representative-action lens may suit better in a separate project.
 updated: 2026-04-25
 ---
 

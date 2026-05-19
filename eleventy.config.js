@@ -15,23 +15,41 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/income-viz-src");
   eleventyConfig.ignores.add("src/income-viz.html");
 
-  // Domain collection — drives the 26-domain grid on the empower home page.
-  // Sorts by cluster letter (A–H per DOMAIN_FRAMEWORK Section 6), then by
-  // within-cluster `order`, then alphabetical title as a final tiebreaker.
-  // The grid partial walks this sorted list and emits a section heading
-  // whenever the cluster changes.
+  // Domain collections. All 26 domains live under
+  // src/paul/campaign/empower/domain/*/index.{md,njk}. The framework groups
+  // them into "verified" (analytical work complete) and the rest. Two
+  // collections expose that split for templates; both sort alphabetically by
+  // title so honeycomb cell order and any future list ordering is stable.
+
+  const titleSort = (a, b) =>
+    (a.data.title || "").localeCompare(b.data.title || "");
+
+  // All 26 domains, alphabetical by title. Used by anything that wants the
+  // full inventory regardless of verification state.
   eleventyConfig.addCollection("domains", function(collectionApi) {
     return collectionApi
       .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.{md,njk}")
-      .sort((a, b) => {
-        const ac = a.data.cluster || "Z";
-        const bc = b.data.cluster || "Z";
-        if (ac !== bc) return ac.localeCompare(bc);
-        const ao = a.data.order ?? 999;
-        const bo = b.data.order ?? 999;
-        if (ao !== bo) return ao - bo;
-        return (a.data.title || "").localeCompare(b.data.title || "");
-      });
+      .sort(titleSort);
+  });
+
+  // Verified subset — domains whose analysis is complete per DOMAIN_FRAMEWORK.
+  // Identified by `verified: true` in each domain's frontmatter.
+  // Used by the honeycomb partial on the empower landing.
+  eleventyConfig.addCollection("verifiedDomains", function(collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.{md,njk}")
+      .filter(item => item.data.verified === true)
+      .sort(titleSort);
+  });
+
+  // Non-verified subset — the other 13 domains (mix of planned, deferred,
+  // structurally-distinct cases). Used by the "Others" section on the
+  // empower landing for the methodological-adjustment notes.
+  eleventyConfig.addCollection("otherDomains", function(collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/paul/campaign/empower/domain/*/index.{md,njk}")
+      .filter(item => item.data.verified !== true)
+      .sort(titleSort);
   });
 
   // Ideas & Policy collections — drive the two proposal lists on

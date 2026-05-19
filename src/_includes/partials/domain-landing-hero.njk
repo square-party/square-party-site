@@ -1,0 +1,36 @@
+{#
+  domain-landing-hero.njk — hero block for a domain landing page.
+
+  Renders a 200x200 signature visual on the left and a title + plain-language
+  subhead on the right. Reads from the page's frontmatter:
+
+    title    — the domain's full title (rendered as H1). Standard frontmatter.
+    subhead  — one-sentence plain-language orienting sentence.
+    signature:
+      glyph  — single character / short string rendered in Playfair Display.
+               Examples: "$" for finance, "+" for health, etc.
+      detail — optional inline SVG markup placed inside the frame BEHIND
+               the glyph. Use for domain-specific structural details (e.g.,
+               three horizontal lines for the federal/state/local fiscal
+               architecture). Pass valid SVG fragments only.
+
+  Square frame echoes the site's empty-square mark. Per-domain customization
+  happens via the inner glyph and the optional structural detail.
+#}
+<div class="domain-hero">
+  <div class="domain-hero__visual" aria-hidden="true">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="2" width="196" height="196" fill="none" stroke="#15192a" stroke-width="2.5"/>
+      {%- if signature.detail -%}{{ signature.detail | safe }}{%- endif -%}
+      {%- if signature.glyph -%}
+      <text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="Playfair Display, Georgia, serif" font-weight="700" font-size="135" fill="#15192a">{{ signature.glyph | safe }}</text>
+      {%- endif -%}
+    </svg>
+  </div>
+  <div class="domain-hero__text">
+    <h1>{{ title | safe }}</h1>
+    {%- if subhead %}
+    <p class="domain-hero__subhead">{{ subhead | safe }}</p>
+    {%- endif %}
+  </div>
+</div>

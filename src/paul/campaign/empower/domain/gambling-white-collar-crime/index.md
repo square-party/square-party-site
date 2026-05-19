@@ -6,6 +6,8 @@ state: planned
 cluster: F
 order: 2
 description: Casino and gambling regulation, financial crime, securities fraud, public corruption — the regulatory and enforcement architecture for the kinds of harm that don't show up in violent crime statistics.
+methodologicalNote: >-
+  Casino and gambling regulation, financial crime, securities fraud, public corruption. Methodology fits; awaiting analytical pass.
 updated: 2026-04-25
 ---
 

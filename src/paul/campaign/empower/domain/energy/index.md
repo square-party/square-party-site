@@ -6,6 +6,8 @@ state: planned
 cluster: D
 order: 3
 description: Electricity grid, fuels, energy policy, transition planning, utility regulation, the public-private architecture of energy delivery.
+methodologicalNote: >-
+  FERC, PJM, state PUC, utility regulation, energy transition policy. Methodology likely fits with one observation to surface during substructure — the energy system's federal/regional/state layering doesn't align perfectly with the federal/state/local default most other domains use. Pass scheduled after methodology lock.
 updated: 2026-04-25
 ---
 

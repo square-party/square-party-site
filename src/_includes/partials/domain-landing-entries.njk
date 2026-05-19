@@ -1,0 +1,32 @@
+{#
+  domain-landing-entries.njk — 2-3 entry-point cards for a domain landing.
+
+  Reads `entryPoints` from page frontmatter — an array of objects:
+
+    - tag      (string, optional) — small uppercase label above the title.
+                                     Examples: "Start here", "Deep dive", "Timeline".
+    - title    (string) — display-font card title.
+    - desc     (string) — one-sentence card description.
+    - href     (string) — link target.
+    - cta      (string) — call-to-action line (e.g., "See the profiles →").
+    - primary  (bool, optional) — if true, dark fill for emphasis.
+                                  Use sparingly — one per landing at most.
+
+  3 entries is the default; 2 or 4 also work (the grid auto-flows).
+  If `entryPoints` is absent, the partial renders nothing.
+
+  Cards have sharp corners — deliberate visual distinction from the site
+  landing's rounded card grid.
+#}
+{%- if entryPoints -%}
+<div class="entry-points">
+{%- for ep in entryPoints -%}
+<a class="entry-point{% if ep.primary %} entry-point--primary{% endif %}" href="{{ ep.href }}">
+{%- if ep.tag %}<p class="entry-point__tag">{{ ep.tag }}</p>{% endif -%}
+<h3 class="entry-point__title">{{ ep.title | safe }}</h3>
+<p class="entry-point__desc">{{ ep.desc | safe }}</p>
+{%- if ep.cta %}<p class="entry-point__cta">{{ ep.cta }}</p>{% endif -%}
+</a>
+{%- endfor -%}
+</div>
+{%- endif -%}

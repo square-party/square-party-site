@@ -6,6 +6,8 @@ state: planned
 cluster: H
 order: 1
 description: How government runs itself — civil service, procurement, transparency, internal accountability, the meta-domain that shapes how every other domain actually functions.
+methodologicalNote: >-
+  Civil service, procurement, internal transparency, inspector-general system, FOIA architecture. Methodology likely fits with one structural-distinctness observation — this is the meta-domain shaping how every other domain implements, which makes in-domain analysis a different shape than the others. Pass scheduled after methodology lock.
 updated: 2026-04-25
 ---
 

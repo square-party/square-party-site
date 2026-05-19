@@ -6,6 +6,8 @@ state: planned
 cluster: E
 order: 3
 description: Broadband access, telecommunications, internet governance, public digital services, the public-private edges of digital infrastructure.
+methodologicalNote: >-
+  FCC and state PUC architecture for broadband, telecommunications, public digital services, the public-private edges of digital infrastructure. Methodology fits; awaiting analytical pass.
 updated: 2026-04-25
 ---
 

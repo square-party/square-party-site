@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Mental Health",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/mental-health/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/mental-health/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

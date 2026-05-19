@@ -1,0 +1,39 @@
+{
+  "sectionNav": {
+    "label": "Public Benefits & Safety Net",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/social-welfare/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/social-welfare/overview/"
+      },
+      {
+        "label": "Neighbors",
+        "href": "/paul/campaign/empower/domain/social-welfare/neighbors/"
+      },
+      {
+        "label": "Sub-Domains",
+        "href": "/paul/campaign/empower/domain/social-welfare/sub-domains/"
+      },
+      {
+        "label": "Recent Changes",
+        "href": "/paul/campaign/empower/domain/social-welfare/recent-changes/"
+      },
+      {
+        "label": "The Gaps",
+        "href": "/paul/campaign/empower/domain/social-welfare/gaps/"
+      },
+      {
+        "label": "Legal Text",
+        "href": "/paul/campaign/empower/law/social-welfare/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

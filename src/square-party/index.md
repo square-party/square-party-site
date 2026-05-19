@@ -20,34 +20,40 @@ The working mission of Square Party is direct: every election, every voter, ever
 
 ## The empty square
 
-Most parties tell you what to think. Their platform is fixed; you sign on or you don't. Square Party inverts that: the party's square is empty on purpose. What goes inside is whatever each member picks — four corners, named by you, that say what you stand for.
+So far, parties in the U.S. seem to tell us what they think. Their platform is fixed; you sign on or you don't. Square Party inverts that: the party's square is empty on purpose. What goes inside is for the members to decide.  
 
-You make your own square. It can change. It can signal. It lets you take ownership of the ideas you actually care about, without those ideas getting diluted into a single shared platform.
+You make your own square. It can change. It can signal. It lets you take ownership of the ideas you actually care about, without those ideas getting diluted into a single shared platform. Then the party represents the members.
 
-*(A demo of the make-your-own-square primitive is planned for a later working session. For now, [Paul's square](/paul/) — Peace, Power, Planet, People — gives one example.)*
+[Make a square for the gallery here.](/square/)
 
 ## The People's Assembly
 
-If the empty square is how individuals participate, the **[People's Assembly](/paul/campaign/empower/)** is how that participation gets organized into something with leverage on the actual law.
+The **[People's Assembly](/paul/campaign/empower/)** is one part of a solution to the representation problem. The assmebly is an to organize representative participation into something with leverage on the actual law.
 
-The assembly is a topical structure. Twenty-two domains, organized to cover every place government touches life, each one a potential seat for the kind of sustained citizen oversight that geography-based representation alone can't provide. Geographic representation stays. Topical specialization joins it.
+The assembly is a topical structure. Designed to cover every place government touches life, issue domains point to leadership roles for the kind of sustained citizen oversight that geography-based representation alone can't provide. Geographic representation can stay. But topical specialization joins in.
 
 [Visit the People's Assembly →](/paul/campaign/empower/)
 
-## Making sure we're all connected
+## Connection
 
-A third primitive of participation, alongside the empty square and the assembly: the practice of staying connected to about ten people who aren't family and aren't coworkers. The connective layer is what the rest of this work sits on whether we say so or not — and we're saying so.
+Alongside the empty square and the assembly: the practice of staying connected. If you need a tangible, a list of about ten people who aren't family and aren't coworkers. The connective layer is society and without that, it won't work, whether we say so or not. So we're saying so.
 
 [See the practice →](/square-party/connections/)
 
 ## The basic tenets
 
-Four for now: representation, reality, resource management, peace. Non-political in the conventional sense — the basics a society needs to deliberate and act together, regardless of where any member lands on any specific issue.
+Four non-negotiable values:  
+- representation. 
+- reality. 
+- resource management. 
+- peace. 
+
+These are basics that a society needs to deliberate and act together, regardless of where any member lands on any specific issue. How those values translate into laws and regulations is an open question.
 
 [Read the tenets →](/square-party/tenets/)
 
 ## Get involved
 
 - [The People's Assembly →](/paul/campaign/empower/) — the framework and its PA-3 application
-- [Paul's PA-3 campaign →](/paul/campaign/) — the first applied test
-- [Ideas →](/ideas/) — longer essays on the underlying questions
+
+- [Ideas →](/ideas/) — starter pack

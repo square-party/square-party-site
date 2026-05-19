@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Environment",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/environment-natural-resources/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/environment-natural-resources/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

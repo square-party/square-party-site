@@ -490,8 +490,9 @@ main:has(.home-hero) {
 .project-footer__ecosystem { margin: 0; }
 
 /* ============================================================
-   DOMAIN INDEX — compact list with sticky detail panel
-   Used on /paul/campaign/empower/ and /square-party/assembly/
+   DOMAIN INDEX — compact list with sticky detail panel.
+   Used by partials/proposals-list.njk (for /ideas/ and /paul/policy/)
+   and by per-domain sub-domains/ index pages.
    ============================================================ */
 .domain-index {
   display: grid;
@@ -507,92 +508,6 @@ main:has(.home-hero) {
 .domain-list {
   margin: 0;
   padding: 0;
-}
-
-/* Cluster sections (one per A–H, see DOMAIN_FRAMEWORK §6 / clusters.json).
-   Default state is collapsed: the eight cluster labels behave as primary
-   navigation. When a cluster is opened, its label shrinks to an eyebrow
-   so the domain rows underneath can lead the visitor's attention. */
-.domain-cluster {
-  margin: 0;
-  border-bottom: 1px solid var(--color-border);
-}
-.domain-cluster:last-child {
-  border-bottom: 0;
-}
-/* Expanded clusters get internal breathing room so the domain list reads
-   as a contained sub-section rather than spilling into the next cluster. */
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) {
-  padding-bottom: 0.85rem;
-  margin-bottom: 0.4rem;
-}
-.domain-cluster__heading {
-  margin: 0;
-  font-size: 1rem; /* normalized; the visible label uses .domain-cluster__title */
-  line-height: 1;
-}
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__heading {
-  margin-bottom: 0.3rem;
-}
-.domain-cluster__toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  width: 100%;
-  background: transparent;
-  border: none;
-  padding: 0.7rem 0.65rem;
-  margin: 0;
-  cursor: pointer;
-  text-align: left;
-  border-radius: var(--radius-sm);
-  color: var(--ink);
-  transition: color 0.12s, background 0.12s, padding 0.12s;
-}
-.domain-cluster__toggle:hover,
-.domain-cluster__toggle:focus-visible {
-  background: var(--accent-soft);
-  outline: none;
-}
-/* Cluster heading — always larger than domain rows beneath (which are
-   0.98rem). Hierarchy holds in both collapsed and expanded states; the
-   prior expanded "eyebrow" shrink is removed below for that reason. */
-.domain-cluster__title {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: 0;
-}
-.domain-cluster__caret {
-  display: inline-block;
-  font-size: 0.85rem;
-  line-height: 1;
-  width: 0.8em;
-  text-align: center;
-  color: var(--muted);
-  transition: transform 0.18s ease, font-size 0.12s;
-}
-.domain-cluster__toggle[aria-expanded="false"] .domain-cluster__caret {
-  transform: rotate(-90deg);
-}
-/* Expanded state — keep heading at full size so it remains visually larger
-   than the domain rows beneath. Earlier behavior shrank to an "eyebrow"
-   (font-ui, 0.7rem, uppercase); inverted Paul's intended hierarchy by
-   making domain rows (0.98rem) larger than their parent heading.
-   Caret rotation handled separately via the [aria-expanded] selector below. */
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="true"]) .domain-cluster__toggle {
-  padding: 0.3rem 0.65rem;
-}
-.domain-cluster__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid var(--color-border);
-  overflow: hidden;
-}
-.domain-cluster:has(.domain-cluster__toggle[aria-expanded="false"]) .domain-cluster__list {
-  display: none;
 }
 
 .domain-row {
@@ -742,6 +657,337 @@ main:has(.home-hero) {
   .domain-row__desc-mobile { display: block; }
   .domain-row__link { padding: 0.6rem 0.65rem; }
   .domain-row__arrow { display: none; }
+}
+
+/* ============================================================
+   DOMAIN HONEYCOMB — visual grid of the verified-13 domains on the
+   empower landing. Two SVGs (4-5-4 desktop, 3-2-3-2-3 mobile) emitted
+   by partials/domain-honeycomb.njk; CSS controls which renders at
+   each viewport. Adjacency is purely geometric — no relational claim,
+   no imposed reading order. Click a cell to open the domain page.
+   ============================================================ */
+.domain-honeycomb {
+  margin: 1.5rem 0 2.5rem;
+}
+.domain-honeycomb__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.domain-honeycomb__svg--mobile { display: none; }
+
+.domain-honeycomb__cell {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.domain-honeycomb__shape {
+  fill: var(--soft);
+  stroke: rgba(21, 25, 42, 0.36);
+  stroke-width: 1.2;
+  transition: stroke 180ms ease, stroke-width 180ms ease;
+}
+.domain-honeycomb__cell:hover .domain-honeycomb__shape,
+.domain-honeycomb__cell:focus-visible .domain-honeycomb__shape {
+  stroke: var(--accent);
+  stroke-width: 2.4;
+}
+.domain-honeycomb__label {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  fill: var(--ink);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+.domain-honeycomb__label--sm {
+  font-size: 10px;
+}
+
+@media (max-width: 600px) {
+  .domain-honeycomb__svg--desktop { display: none; }
+  .domain-honeycomb__svg--mobile {
+    display: block;
+    max-width: 320px;
+  }
+}
+
+/* ============================================================
+   DOMAIN OTHERS — the non-verified-13 list (compact TOC + sections)
+   on the empower landing. Names list mirrors the honeycomb's
+   max-width so the two visually share a centered band. Sections
+   sit at the natural prose width and each carries an anchor id.
+   ============================================================ */
+.domain-others-list {
+  list-style: none;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0;
+  max-width: 580px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 1.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+}
+.domain-others-list li {
+  margin: 0;
+  padding: 0;
+}
+.domain-others-list a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.12s, border-color 0.12s;
+}
+.domain-others-list a:hover,
+.domain-others-list a:focus-visible {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  outline: none;
+}
+
+.domain-others-section {
+  margin: 2rem 0 2.5rem;
+  scroll-margin-top: 4rem;
+}
+.domain-others-section__heading {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.domain-others-section__note {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+@media (max-width: 600px) {
+  .domain-others-list {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
+}
+
+/* ============================================================
+   DOMAIN LANDING — hero + hook + entry-points + synthesis preview +
+   continue-exploring. Used on each verified domain's home page
+   (partials/domain-landing-hero.njk, domain-landing-entries.njk,
+   domain-landing-explore.njk).
+
+   Sharp corners on entry-points are a deliberate visual distinction
+   from the site landing's rounded card grid. Signature visual at left
+   echoes the site's empty-square mark; per-domain glyph inside.
+   ============================================================ */
+
+.domain-hero {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 1.5rem 0 2.5rem;
+}
+.domain-hero__visual {
+  width: 200px;
+  height: 200px;
+}
+.domain-hero__visual svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.domain-hero__text h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.1;
+  margin: 0 0 0.6rem;
+}
+.domain-hero__subhead {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 38ch;
+}
+
+/* Hook paragraph — high-impact opening below the hero. Left-border accent
+   draws the eye without a heavy card frame. */
+.hook {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0 0 2.5rem;
+  max-width: 70ch;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+}
+
+/* Entry points — 2-3 sharp-cornered cards. Primary is dark-filled (one per
+   landing at most); secondary cards are bordered against the cream bg. */
+.entry-points {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0 0 3.5rem;
+}
+.entry-point {
+  display: block;
+  background: var(--soft);
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  padding: 1.25rem 1.4rem;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+.entry-point:hover,
+.entry-point:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  outline: none;
+}
+.entry-point--primary {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+.entry-point--primary:hover,
+.entry-point--primary:focus-visible {
+  background: var(--accent-warm);
+  border-color: var(--accent-warm);
+}
+.entry-point__tag {
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.5rem;
+  opacity: 0.7;
+}
+.entry-point__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+.entry-point__desc {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin: 0 0 0.65rem;
+  opacity: 0.85;
+}
+.entry-point__cta {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* Synthesis preview — short paragraphs replacing the prior dense framing
+   block. Ends with a continue-reading callout linking to the Overview page. */
+.synthesis-preview {
+  margin: 0 0 3.5rem;
+  max-width: 70ch;
+}
+.synthesis-preview h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+.synthesis-preview p {
+  margin: 0 0 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.continue-reading {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+}
+.continue-reading a {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+.continue-reading a:hover { color: var(--accent-warm); text-decoration: underline; }
+
+/* Continue exploring — bottom-of-page link grid duplicating the section
+   nav for readers who have scrolled past it. Quiet, no chrome. */
+.continue-exploring {
+  margin: 4rem 0 0;
+  padding: 2rem 0 0;
+  border-top: 1px solid var(--rule);
+}
+.continue-exploring h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0 0 1.25rem;
+}
+.continue-exploring__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+}
+.continue-exploring__grid li { margin: 0; }
+.continue-exploring__grid a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.12s, color 0.12s;
+}
+.continue-exploring__grid a:hover,
+.continue-exploring__grid a:focus-visible {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}
+.continue-exploring__grid .arrow {
+  color: var(--muted);
+  margin-right: 0.4rem;
+}
+
+@media (max-width: 720px) {
+  .domain-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .domain-hero__visual {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
+  .domain-hero__subhead { max-width: none; }
+  .entry-points {
+    grid-template-columns: 1fr;
+  }
+  .continue-exploring__grid { grid-template-columns: 1fr 1fr; }
 }
 
 /* ============================================================

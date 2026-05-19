@@ -6,6 +6,8 @@ state: planned
 cluster: G
 order: 1
 description: Policing, prosecution, corrections, courts, national security, intelligence, the full enforcement and adjudication apparatus.
+methodologicalNote: >-
+  Policing, prosecution, corrections, courts, parole and probation, national security. Substructure work in progress; six methodology revision categories surfaced from the first cold-start cycle. Awaiting methodology lock so revisions can be absorbed before the analytical pass resumes.
 updated: 2026-04-25
 ---
 

@@ -6,6 +6,8 @@ state: planned
 cluster: D
 order: 5
 description: Farms, food systems at the source, agricultural labor, USDA programs, water for irrigation, soil and land use.
+methodologicalNote: >-
+  USDA programs, farm policy, conservation, agricultural labor, the field-to-loading-dock layer. The standard methodology likely fits with one structural-distinctness observation — agricultural regulation operates on a different geographic logic (commodity regions, watersheds) than the city/state/federal layering most other domains use. Pass scheduled after methodology lock.
 updated: 2026-04-25
 ---
 

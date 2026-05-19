@@ -61,51 +61,6 @@
     // isn't visible in the grid would be confusing.
   }
 
-  // ---------- 1b. Domain cluster collapse/expand ----------
-  // Each cluster heading on the Empower index is a button that toggles the
-  // visibility of its list. State persists per cluster across visits.
-  // Default (no stored state) is COLLAPSED for every cluster — the index
-  // wants to lead with the eight cluster names, then let the visitor open
-  // whichever neighborhoods they care about.
-  // Storage records ONLY the affirmatively-expanded clusters; absence of a
-  // key means "use the default, which is collapsed." A new cluster added
-  // later gets the default treatment for returning visitors automatically.
-  var CLUSTER_KEY = 'sq.clusters.v2';
-  var clusterToggles = document.querySelectorAll('[data-cluster-toggle]');
-  if (clusterToggles.length > 0) {
-    function readClusterState() {
-      try {
-        var raw = localStorage.getItem(CLUSTER_KEY);
-        return raw ? (JSON.parse(raw) || {}) : {};
-      } catch (_e) { return {}; }
-    }
-    function writeClusterState(s) {
-      try { localStorage.setItem(CLUSTER_KEY, JSON.stringify(s)); }
-      catch (_e) { /* private mode etc. — fine */ }
-    }
-    var clusterState = readClusterState();
-    clusterToggles.forEach(function (btn) {
-      var key = btn.getAttribute('data-cluster-toggle');
-      // Apply persisted state. If the value is missing, leave the
-      // server-rendered default (collapsed) in place.
-      if (key && clusterState[key] === true) {
-        btn.setAttribute('aria-expanded', 'true');
-      }
-      btn.addEventListener('click', function () {
-        var nowOpen = btn.getAttribute('aria-expanded') !== 'true';
-        btn.setAttribute('aria-expanded', String(nowOpen));
-        if (key) {
-          clusterState = readClusterState();
-          // Only store affirmative-expanded so storage stays compact and
-          // any cluster we add later defaults to collapsed.
-          if (nowOpen) clusterState[key] = true;
-          else delete clusterState[key];
-          writeClusterState(clusterState);
-        }
-      });
-    });
-  }
-
   // ---------- 2. Nav dropdown ----------
   // Click-to-open with hover-peek. Esc closes. Click outside closes.
   var dropdowns = document.querySelectorAll('[data-dropdown]');

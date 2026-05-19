@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Veterans Affairs",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/veterans-affairs/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/veterans-affairs/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

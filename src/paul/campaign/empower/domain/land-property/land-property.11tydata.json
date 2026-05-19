@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Land & Property",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/land-property/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/land-property/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

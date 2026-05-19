@@ -1,0 +1,19 @@
+{
+  "sectionNav": {
+    "label": "Education",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/paul/campaign/empower/domain/education/"
+      },
+      {
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/education/overview/"
+      },
+      {
+        "label": "Glossary",
+        "href": "/paul/campaign/empower/glossary/"
+      }
+    ]
+  }
+}

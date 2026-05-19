@@ -6,6 +6,8 @@ state: planned
 cluster: A
 order: 1
 description: Citizenship, immigration, vital records, legal personhood, identification systems, the architecture of \"who counts as what\" for governmental purposes.
+methodologicalNote: >-
+  Citizenship, vital records, immigration, legal personhood, identification systems. Awaiting methodological adjustment — the project's standard federal/state/local layered approach doesn't capture the population-fragmentation effects that drive this domain's lived experience, where the same statute applies very differently depending on documentation status.
 updated: 2026-04-25
 ---
 

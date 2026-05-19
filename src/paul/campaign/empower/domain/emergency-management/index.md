@@ -6,6 +6,8 @@ state: planned
 cluster: G
 order: 2
 description: Disaster preparedness and response, FEMA, civil defense, mutual aid, the layered federal/state/local emergency apparatus.
+methodologicalNote: >-
+  FEMA, state and local emergency apparatus, disaster preparedness, response, recovery, mitigation. Methodology fits; awaiting analytical pass.
 updated: 2026-04-25
 ---
 

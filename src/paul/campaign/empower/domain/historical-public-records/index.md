@@ -6,6 +6,8 @@ state: planned
 cluster: E
 order: 4
 description: Public records, archives, FOIA, the census, historical preservation, transparency law, the records infrastructure that makes everything else possible to verify.
+methodologicalNote: >-
+  FOIA, archives, the census, historical preservation, transparency law. Methodology fits; awaiting analytical pass.
 updated: 2026-04-25
 ---
 

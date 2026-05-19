@@ -7,20 +7,8 @@
         "href": "/paul/campaign/empower/domain/public-health/"
       },
       {
-        "label": "Neighbors",
-        "href": "/paul/campaign/empower/domain/public-health/neighbors/"
-      },
-      {
-        "label": "Sub-Domains",
-        "href": "/paul/campaign/empower/domain/public-health/sub-domains/"
-      },
-      {
-        "label": "Recent Changes",
-        "href": "/paul/campaign/empower/domain/public-health/recent-changes/"
-      },
-      {
-        "label": "The Gaps",
-        "href": "/paul/campaign/empower/domain/public-health/gaps/"
+        "label": "Overview",
+        "href": "/paul/campaign/empower/domain/public-health/overview/"
       },
       {
         "label": "Glossary",
