@@ -1,0 +1,70 @@
+---
+layout: empower.njk
+title: Sub-Domains within Veterans Affairs
+saveable: true
+savedContext: "Veterans Affairs · Sub-Domains"
+description: "The seven sub-domains within Veterans Affairs — SD1 VA Healthcare (CMCVAMC + MISSION Act + PACT Act + GAO February 2026 per MC-04 + Oracle Cerner April 2026 per MC-06); SD2 VBA Disability Compensation/Pension/VR&amp;E (claims backlog ~100,115 January 2026 per MC-01 + 2026 COLA $3,938.58/month per MC-03 + MC45 discharge characterization substrate); SD3 VA Education Benefits (Post-9/11 GI Bill + Yellow Ribbon at Penn/Drexel/Temple/TJU); SD4 VA Housing &amp; Homelessness (MC42 HUD-VASH Both/And + 20% Philadelphia veteran homelessness increase 2025 per MC-05 + voucher allocation history per MC-10); SD5 Veterans Employment &amp; SDVOSB (D24-Q1 PRIMARY HOM + VETS-4212 portal launch per MC-09 + VEVRAA enforcement resumed July 2, 2025); SD6 Veterans Access Architecture &amp; Representation Pathway (network-dependent VSO infrastructure as the integrating access layer); SD7 VA Appeals &amp; Adjudication (AMA + BVA processing times per MC-02 + pro-claimant standards Both/And)."
+state: in-review
+updated: 2026-05-20
+breadcrumbExtras:
+  - { label: "Domains", href: "/paul/campaign/empower/#domains" }
+  - { label: "Veterans Affairs", href: "/paul/campaign/empower/domain/veterans-affairs/" }
+---
+
+# Sub-Domains within Veterans Affairs
+
+<p class="domain-lead">Seven sub-domains organize the Veterans Affairs architecture in PA-3. The decomposition is benefit-system-based: six substantive sub-domains organized by federal benefit program (healthcare; disability compensation and rehabilitation; education; housing; employment and contracting; appeals) plus one integrating sub-domain (Veterans Access Architecture &amp; Representation Pathway) that holds the procedural and representational infrastructure through which veterans actually reach the substantive benefits. The 2024-2026 period has been one of substantial structural change across all seven — GAO February 2026 finding 17 of 27 <a href="/paul/campaign/empower/glossary/#mission-act">MISSION Act</a> recommendations remain unimplemented; the Dole Act 2025 expanding community care; the <a href="/paul/campaign/empower/glossary/#pact-act">PACT Act</a> enrollment acceleration of March 5, 2024 and <a href="/paul/campaign/empower/glossary/#oig">OIG</a>-documented adjudication-guidance gaps that <a href="/paul/campaign/empower/glossary/#va">VA</a> has committed to but not fully resolved; the 2026 <a href="/paul/campaign/empower/glossary/#cola">COLA</a> at 2.8% bringing 100% disability to $3,938.58/month; the <a href="/paul/campaign/empower/glossary/#vba">VBA</a> claims backlog reduced to ~100,115 by January 2026 (76.0% reduction from January 2024 peak); the **20% increase in Philadelphia veteran homelessness in 2025** documenting the first trend reversal after years of decline; the **VETS-4212 reporting threshold raised from $150K to $200K** plus the new <a href="/paul/campaign/empower/glossary/#dol">DOL</a> open data portal making company-specific data publicly accessible; the **<a href="/paul/campaign/empower/glossary/#bva">BVA</a> Direct Review at ~506 days FY2025 final** on an improving trajectory but still a substantial timeline for PA-3's aging Vietnam-era veteran population. The recurring finding across the sub-domains is the Both/And condition: formal design elements that are substantively pro-veteran (MISSION Act community care; PACT Act presumption expansion; <a href="/paul/campaign/empower/glossary/#hud-vash">HUD-VASH</a> joint architecture; pro-claimant appeals standards under § 5107 and § 5103A) coexist with operational-implementation conditions that limit their delivery (community-care scheduling gaps; PACT Act adjudication-guidance failures; HUD-VASH voucher-to-housing-placement conversion in Philadelphia's constrained market; BVA throughput timelines). <strong>D24-Q1 confirmed as a PRIMARY HOM</strong> at SD5 — the fourth confirmed held-open-at-magnitude instance project-wide; the anchor-employer veterans-targeted hiring magnitude at Penn Medicine, Temple Health, Jefferson Health, and Drexel is preserved without closure across four overlapping mechanisms. <strong>SD6 is the integrating access-architecture sub-domain</strong> — every gap finding in SD1 through SD5 and SD7 is partially or wholly mediated by whether the veteran is connected to the <a href="/paul/campaign/empower/glossary/#vso">VSO</a> representational infrastructure. <strong>MC45 (<a href="/paul/campaign/empower/glossary/#discharge-characterization">discharge characterization</a> eligibility gate at 38 U.S.C. § 5303)</strong> is the substrate-formation owned at SD2 and cross-referenced at every other SD.</p>
+
+<div class="subdomain-list">
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/vha/">
+<span class="subdomain-row__num">1</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">VA Healthcare (<a href="/paul/campaign/empower/glossary/#vha">VHA</a>)</span>
+<span class="subdomain-row__desc">Corporal Michael J. Crescenz VA Medical Center (CMCVAMC) at 3900 Woodland Ave as the primary federal facility (catchment historically 55,000-57,500 enrolled). MISSION Act P.L. 115-182 (2018) Veterans Community Care Program with Penn Medicine / Jefferson Health / Temple Health as VCCP partners; Dole Act 2025 (P.L. 118-210) expanding community care per MC-11; PACT Act P.L. 117-168 (2022) toxic-exposure expansion with March 5, 2024 enrollment acceleration. GAO February 2026 found 9 of 27 MISSION Act recommendations implemented; 17 remaining (per MC-04). Oracle Cerner EHR rollout resumed April 2026 with CMCVAMC still on VistA (per MC-06). OBBBA P.L. 119-21 indirect Medicaid work-requirement effects on ~1.75M veterans (per MC-08). MC41 Both/And: community care expansion AND care-coordination challenges at the federal-civilian seam.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/vba-disability/">
+<span class="subdomain-row__num">2</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">VBA Disability Compensation, Pension &amp; VR&amp;E</span>
+<span class="subdomain-row__desc">Philadelphia VA Regional Office at 5000 Wissahickon Avenue. Title 38 Ch. 11 disability compensation; Ch. 15 pension including A&amp;A enhanced pension; Ch. 31 VR&amp;E (5 rehabilitation tracks; 12-year time limit). PACT Act presumption pathway on the compensation side. 2026 COLA 2.8%; 100% disability rate $3,938.58/month (per MC-03). VBA claims backlog reduced to ~100,115 by January 2026 (76.0% reduction from January 2024 peak; ~75.7 days processing per MC-01). PACT Act corrective action committed but September 2025 OIG found ongoing accuracy problems on nonpresumptive conditions (per MC-07; G24-SD2-01 remains active gap). MC45 discharge characterization eligibility gate (38 U.S.C. § 5303) is substrate-formation owned at SD2.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/education-benefits/">
+<span class="subdomain-row__num">3</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">VA Education Benefits</span>
+<span class="subdomain-row__desc">Post-9/11 GI Bill Ch. 33 plus Yellow Ribbon Program (38 U.S.C. § 3317) at PA-3 anchor institutions — Penn (unlimited AY2024-25), Drexel (unlimited since 2009), Temple (unlimited undergraduate), Jefferson TJU. Forever GI Bill 2017 eliminated 15-year time limit. AY2025-26 private institution tuition cap $29,920.95; online-only MHA $1,169/month. Chapter 35 DEA structurally inferior to transferred Ch. 33 entitlement (no Yellow Ribbon; no separate housing stipend). Cross-reference D11 Education for HEA-side architecture of the same anchor institutions.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/housing-homelessness/">
+<span class="subdomain-row__num">4</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">VA Housing &amp; Veteran Homelessness Architecture</span>
+<span class="subdomain-row__desc">Title 38 Ch. 37 VA home loan guaranty (no down payment, no PMI); SAH/SHA grants for severely disabled veterans; HUD-VASH (42 U.S.C. § 1437f(o)(19) + 38 U.S.C. § 8(b)); <a href="/paul/campaign/empower/glossary/#ssvf">SSVF</a> rapid rehousing (38 U.S.C. § 2044) up to 4 months rental assistance; <a href="/paul/campaign/empower/glossary/#gpd">GPD</a> transitional housing (38 U.S.C. § 2011); Section 9103 FY2021 <a href="/paul/campaign/empower/glossary/#ndaa">NDAA</a> permanently extended HUD-VASH to <a href="/paul/campaign/empower/glossary/#oth">OTH</a>-discharge veterans. MC42 Both/And: ~50% national reduction in veteran homelessness over 14 years AND Philadelphia voucher-utilization-vs-allocation gap. MC-05: 284 veterans experienced homelessness in Philadelphia in 2025 — 20% increase from 2024 (Project HOME February 2026). MC-10: HUD-VASH voucher allocation history — 687 vouchers 2008-2016 vs. under 250 vouchers 2017-2024 plus 100 March 2024 addition.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/employment-sdvosb/">
+<span class="subdomain-row__num">5</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Veterans Employment &amp; SDVOSB Contracting Architecture</span>
+<span class="subdomain-row__desc">VA Vets First Contracting (38 U.S.C. § 8127; Kingdomware rule of two mandatory); <a href="/paul/campaign/empower/glossary/#sba">SBA</a> <a href="/paul/campaign/empower/glossary/#sdvosb">SDVOSB</a> (15 U.S.C. § 657f; FY2024 NDAA goal raised from 3% to 5%); SBA VetCert under Section 862 FY2021 NDAA with backlog cleared November 2025 and ~12-day processing. <a href="/paul/campaign/empower/glossary/#vevraa">VEVRAA</a> (38 U.S.C. § 4212) with threshold raised from $150K to $200K plus new DOL data.dol.gov open data portal launched February 18, 2026 (per MC-09); VEVRAA enforcement resumed July 2, 2025. <a href="/paul/campaign/empower/glossary/#wioa">WIOA</a> Veterans' Priority of Service via CareerLink; TAP (10 U.S.C. § 1142). <strong>D24-Q1 CONFIRMED PRIMARY HOM</strong> — anchor-employer veterans-targeted hiring magnitude at Penn Medicine / Temple Health / Jefferson Health / Drexel held open across four overlapping mechanisms.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/access-pathway/">
+<span class="subdomain-row__num">6</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Veterans Access Architecture &amp; Representation Pathway</span>
+<span class="subdomain-row__desc">VSO accreditation under 38 U.S.C. § 5902 + § 5904; duty-to-assist at 38 U.S.C. § 5103 + § 5103A. PA <a href="/paul/campaign/empower/glossary/#dmva">DMVA</a> at Fort Indiantown Gap; <a href="/paul/campaign/empower/glossary/#pa-disabled-veterans-exemption">PA Disabled Veterans Real Estate Tax Exemption</a> at 51 Pa.C.S. § 8904 (full exemption for 100% service-connected; no income test); PA Blind Veterans Pension. Philadelphia Mayor's Office of Veterans Affairs; <a href="/paul/campaign/empower/glossary/#cvso">CVSO</a>; <a href="/paul/campaign/empower/glossary/#pcvac">PCVAC</a>. Accredited VSOs (<a href="/paul/campaign/empower/glossary/#dav">DAV</a>, <a href="/paul/campaign/empower/glossary/#vfw">VFW</a>, American Legion, AMVETS, PVA) at no cost to the veteran. MC43 organizing-principle resolution: SD6 as access architecture rather than federalism residual. Network-dependence as structural feature; PA-3's predominantly African American veteran community has documented lower rates of VSO connection.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/veterans-affairs/sub-domains/appeals/">
+<span class="subdomain-row__num">7</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">VA Appeals &amp; Adjudication Architecture</span>
+<span class="subdomain-row__desc"><a href="/paul/campaign/empower/glossary/#ama">Appeals Modernization Act</a> (AMA, P.L. 115-55, 2017) three-lane structure — <a href="/paul/campaign/empower/glossary/#hlr">Higher-Level Review</a>, Supplemental Claim, BVA (Direct Review / Evidence Submission / Hearing). FY2025 final BVA processing times per MC-02: Direct Review ~506 days; Evidence Submission ~713 days; Hearing docket ~2-3 years; HLR ~60.7 days February 2026. Direct Review on improving trajectory (from ~640 days mid-2024); BVA projects 365-day target. Title 38 Ch. 71 BVA; Ch. 72 <a href="/paul/campaign/empower/glossary/#cavc">CAVC</a>; pro-claimant standards at 38 U.S.C. § 5107 (benefit of the doubt) and § 5103A (duty to assist) substantively articulated through CAVC case law (Q9 resolution). Both/And: pro-claimant standards substantively present AND throughput-as-access-barrier for PA-3's aging Vietnam-era veteran population.</span>
+</span>
+</a>
+</div>
+
+{% include "partials/page-meta.njk" %}

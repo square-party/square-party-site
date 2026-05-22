@@ -20,12 +20,9 @@ bodyClass: home-landing-page
     <p class="home-landing__subhead">A Square Deal for our political future.</p>
 
     <p class="home-landing__body">
-      <strong>Write it in.</strong> Every election, every voter, every level — write someone in. 
-      Anyone you'd actually want to represent you. <a href="/write-it-in/">Read more about the working mission →</a>
-    </p>
-
-    <p class="home-landing__body">
-      The party's square is empty on purpose. What goes inside is for each member to decide for themself, at that time.
+      <strong>Write it in.</strong> Every election, every voter, every level — write someone in.  
+      
+      <a href="/write-it-in/">Read more about the working mission →</a>
     </p>
 
   </div>
@@ -33,7 +30,7 @@ bodyClass: home-landing-page
   <div class="home-landing__hero-visual">
     {% include "partials/empty-square.njk" %}
     <p class="home-landing__hero-caption">
-      Empty on purpose. <a href="/square/">Make yours →</a>
+      Intentionally open. <a href="/square/">Make yours →</a>
     </p>
   </div>
 </section>

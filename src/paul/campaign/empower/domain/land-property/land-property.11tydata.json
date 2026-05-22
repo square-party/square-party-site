@@ -11,6 +11,26 @@
         "href": "/paul/campaign/empower/domain/land-property/overview/"
       },
       {
+        "label": "Neighbors",
+        "href": "/paul/campaign/empower/domain/land-property/neighbors/"
+      },
+      {
+        "label": "Sub-Domains",
+        "href": "/paul/campaign/empower/domain/land-property/sub-domains/"
+      },
+      {
+        "label": "Recent Changes",
+        "href": "/paul/campaign/empower/domain/land-property/recent-changes/"
+      },
+      {
+        "label": "The Gaps",
+        "href": "/paul/campaign/empower/domain/land-property/gaps/"
+      },
+      {
+        "label": "Legal Text",
+        "href": "/paul/campaign/empower/law/land-property/"
+      },
+      {
         "label": "Glossary",
         "href": "/paul/campaign/empower/glossary/"
       }

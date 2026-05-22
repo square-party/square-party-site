@@ -38,6 +38,18 @@ Every empirical claim in this project is sourced. The standard is **traceable to
 
 For external links, citations follow APA-style for academic sources and a flexible-but-auditable format for legislative and regulatory citations (statute number, section, jurisdiction, date of access).
 
+## How to read the citations
+
+A few markers appear inline across the domain pages that aren't standard outside this project. They're worth a moment of explanation, because once you see what they index, the analysis is much easier to follow.
+
+**Material Change codes** like `(MC-08)` mark a discrete legal, regulatory, or administrative change that the analysis is tracking. Each domain has its own numbering, so MC-08 in *Finance & Taxation* refers to a different change than MC-08 in *Physical Infrastructure*. Behind each domain sits a verified analytical file with a Citation Registry that lists every MC the domain tracks; the inline code is a stable handle for tracing any claim back to that file. The Recent Changes page for each domain reads top-to-bottom by MC number.
+
+**Gap-finding IDs** like `(G13-SD2-04)` identify a specific finding by domain, sub-domain, and finding number — Domain 13 (Physical Infrastructure), Sub-Domain 2 (Water &amp; Stormwater), Finding 4. The IDs let any reader, contributor, or future revision cite a specific finding stably. Gaps are the analytical payload of this project, and stable IDs are how the project keeps that payload citeable.
+
+**Glossary links** appear on the first occurrence of an acronym, statute short-name, or named doctrine on each page. They lead to a [single glossary](/paul/campaign/empower/glossary/) covering all domains — alphabetized, cross-linked, and intentionally monolithic so that a term that recurs across domains can be looked up from one place.
+
+**Bolded statute citations** and *italicized case names* follow standard legal-writing convention. The bolding on statute names is a site-specific aid for skim-readability in dense legal-architecture sections; the italics on case names are the convention every law-trained reader expects.
+
 ## Versioning
 
 Every page is versioned from day one — each edit creates a new commit, attributed to the contributor at their chosen privacy level. The [Timeline](/paul/campaign/empower/timeline/) page shows changes across the whole project. Per-page history is reachable from the "View history on GitHub" link at the bottom of every page.

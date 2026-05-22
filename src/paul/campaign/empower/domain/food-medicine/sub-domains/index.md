@@ -1,65 +1,68 @@
 ---
 layout: empower.njk
-title: Sub-Domains within Food, Drug & Device Regulation
-description: The seven sub-domains within Food, Drug & Device Regulation.
-updated: 2026-04-29
+title: Sub-Domains within Food, Drug &amp; Device
+description: "The seven sub-domains within Food, Drug &amp; Device — SD1 Food (SNAP benefit-vs-need gap; April 2025 FDA RIF; September 20, 2025 USDA ERS termination per MC-08; MoCRA implementation lag); SD2 Meat &amp; Poultry (April 25, 2025 Salmonella Framework withdrawal; December 2025 NRTE delay per MC-03; cheaper-cut Salmonella exposure pathway); SD3 Drugs (IRA MFP effective January 1, 2026 / pharmacy desert paradox per MC-04; CDER ~1,000-employee loss per MC-07); SD4 Biologics &amp; Devices (the Philadelphia paradox; ~164 cumulative US uptake through 2025 per MC-05; March 16, 2026 ACIP court ruling per MC-02); SD5 Tobacco (foreclosed-remediation pattern; menthol withdrawal January 21, 2025 per MC-06; CTP Office of Regulations RIF per MC-07); SD6 Controlled Substances (DEA Schedule III effective April 28, 2026 per MC-01); SD7 Federal Regulatory Architecture (synthesis)."
+saveable: true
+savedContext: "Food, Drug & Device · Sub-Domains"
+state: in-review
+updated: 2026-05-20
 breadcrumbExtras:
   - { label: "Domains", href: "/paul/campaign/empower/#domains" }
-  - { label: "Food, Drug & Device Regulation", href: "/paul/campaign/empower/domain/food-medicine/" }
+  - { label: "Food, Drug & Device", href: "/paul/campaign/empower/domain/food-medicine/" }
 ---
 
-# Sub-Domains within Food, Drug & Device Regulation
+# Sub-Domains within Food, Drug &amp; Device
 
-<p class="domain-lead">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md — a one-paragraph framing of what the seven sub-domains are and how they decompose the domain._</p>
+<p class="domain-lead">Seven sub-domains organize the food, drug, and device architecture in PA-3. The decomposition is substantive-cum-synthesis: six substantive sub-domains organized by product/regulatory category, plus a seventh that synthesizes the cross-cutting federal regulatory architecture under which the first six operate. The 2025-2026 period has been one of structural disruption across all seven — April 2025 <a href="/paul/campaign/empower/glossary/#fda">FDA</a> RIF (~3,500 = 19% workforce; <a href="/paul/campaign/empower/glossary/#cder">CDER</a> ~1,000 lost; <a href="/paul/campaign/empower/glossary/#cdrh">CDRH</a> ~260 fired; CTP Office of Regulations decimated per <strong>MC-07</strong>); April 2025 <a href="/paul/campaign/empower/glossary/#usda">USDA</a> workforce reductions (11,300+ deferred resignations); September 20, 2025 <a href="/paul/campaign/empower/glossary/#ers">USDA ERS</a> Household Food Security report series termination per <strong>MC-08</strong>; rule withdrawals at SD1-SD5 (menthol per <strong>MC-06</strong>; Salmonella per <strong>MC-03</strong>; <a href="/paul/campaign/empower/glossary/#ldt">LDT</a> vacatur March 31, 2025); <a href="/paul/campaign/empower/glossary/#acip">ACIP</a> litigation flux per <strong>MC-02</strong>; <a href="/paul/campaign/empower/glossary/#ira">IRA</a> <a href="/paul/campaign/empower/glossary/#mfp">MFP</a> effective January 1, 2026 with Round 2 effective January 1, 2027 per <strong>MC-04</strong>; <a href="/paul/campaign/empower/glossary/#obbba">OBBBA</a> $186B <a href="/paul/campaign/empower/glossary/#snap">SNAP</a> cut + orphan-drug exclusion broadening; today-effective <a href="/paul/campaign/empower/glossary/#dea">DEA</a> Schedule III for medical marijuana per <strong>MC-01</strong>. The recurring finding across all seven sub-domains is the structural mismatch between formal architectural provision and actual receipt — concentrated where the architecture's compound-disadvantage geography, the XC-11 independent / small organization differential, and the federal-cluster simultaneity (5 of 6 D4 SDs at HIGH or EXTREME federal-agency administrative vulnerability) intersect. The five-dimensional anchor accountability framework completed at D6 verified file (D7 + D9 + D8 + D10 + D6) is referenced as established context; D4 intersects at federal-regulatory-architecture-erosion without architecturally extending. Three Defining D4 Paradoxes — the Philadelphia paradox at SD4 (per <strong>MC-05</strong>); the IRA MFP / pharmacy desert intersection at SD3 (per <strong>MC-04</strong>); the foreclosed-remediation pattern at SD5 (per <strong>MC-06</strong> + <strong>MC-07</strong>) — co-occur at SD7 synthesis level and operate within compound-disadvantage geography simultaneously.</p>
 
 <div class="subdomain-list">
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/food/">
 <span class="subdomain-row__num">1</span>
 <span class="subdomain-row__body">
 <span class="subdomain-row__title">Food</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD1 — FDA Center for Food Safety & Applied Nutrition; Salmonella regulatory pathways; food safety enforcement._</span>
+<span class="subdomain-row__desc"><a href="/paul/campaign/empower/glossary/#ffdca">FFDCA</a> Chapter IV + <a href="/paul/campaign/empower/glossary/#fsma">FSMA</a> + <a href="/paul/campaign/empower/glossary/#dshea">DSHEA</a> + FALCPA-FASTER + <a href="/paul/campaign/empower/glossary/#mocra">MoCRA</a> federal product architecture; SNAP / <a href="/paul/campaign/empower/glossary/#wic">WIC</a> / <a href="/paul/campaign/empower/glossary/#nslp">NSLP</a> Spending Clause architecture; April 2025 FDA RIF affecting ~3,500 personnel (per MC-07); September 20, 2025 USDA ERS Household Food Security report series termination with final ERR-358 December 2025 documenting 13.7% household FI (Black 24.4% / Latinx 20.2% / White 10.1%) (per MC-08); OBBBA P.L. 119-21 $186B SNAP cut; MoCRA implementation lag through 2026-2028 with XC-11 small / Black-owned cosmetics manufacturer reach question; PA-3 documented FI rates 21.2% Greater Philadelphia / 28%+ Black Philadelphia / 36.9% North Philadelphia tracts; SNAP benefit-vs-need gap structural at corner-store unit-price premium intersection.</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">
 <span class="subdomain-row__num">2</span>
 <span class="subdomain-row__body">
-<span class="subdomain-row__title">Meat & Poultry</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD2 — USDA FSIS Salmonella adulterant pathway; April 2025 framework withdrawal; NRTE breaded stuffed chicken delay._</span>
+<span class="subdomain-row__title">Meat &amp; Poultry</span>
+<span class="subdomain-row__desc"><a href="/paul/campaign/empower/glossary/#fmia">FMIA</a> + <a href="/paul/campaign/empower/glossary/#ppia">PPIA</a> + <a href="/paul/campaign/empower/glossary/#epia">EPIA</a> federal-direct architecture; PA non-cooperative <a href="/paul/campaign/empower/glossary/#mpi">MPI</a> status concentrating demand on <a href="/paul/campaign/empower/glossary/#fsis">FSIS</a> Philadelphia District 60; April 25, 2025 Salmonella Framework for Raw Poultry Products withdrawal (90 FR 17344); December 2025 <a href="/paul/campaign/empower/glossary/#nrte">NRTE</a> breaded stuffed chicken sampling indefinite delay (per MC-03); cheaper-cut Salmonella exposure pathway quantitatively confirmed (4.14% chicken carcasses / 7.62% chicken parts / 24.2% comminuted chicken — 2022 data); January 14, 2026 FSIS public meeting; April 2025 USDA workforce reductions (11,300+ deferred resignations); XC-11 small / independent ritual-slaughter and ethnic-market retail differential at West Phila 52nd Street halal corridor + Mt. Airy kosher concentration + South Phila carnicería corridor + USDA-exempt retail under Title 6 §6-301.</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/drugs/">
 <span class="subdomain-row__num">3</span>
 <span class="subdomain-row__body">
-<span class="subdomain-row__title">Drugs (CDER + CVM + IRA pricing)</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD3 — FDA CDER/CVM regulatory architecture; IRA Medicare drug-price negotiation (Round 1 effective Jan 2026; Round 2 announced Nov 2025); GENEROUS Model._</span>
+<span class="subdomain-row__title">Drugs (CDER + <a href="/paul/campaign/empower/glossary/#cvm">CVM</a> + IRA pricing)</span>
+<span class="subdomain-row__desc">The defining D4 SD3 pricing-protection-vs-access-collapse paradox — IRA Medicare Drug Price Negotiation Program first-round MFPs effective January 1, 2026 (10 drugs; 38-79% off list per MC-04); Round 2 MFPs effective January 1, 2027 (15 drugs; 38-84%); OBBBA orphan-drug exclusion broadening (July 4, 2025; CBO +$8.8B Medicare); <a href="/paul/campaign/empower/glossary/#mfn">GENEROUS Model</a> Medicaid MFN launch January 1, 2026; ~20% PA pharmacy reduction post-Rite-Aid with <a href="/paul/campaign/empower/glossary/#svi">SVI</a> 30-40% closure correlation (4 of 5 documented PA-3 closures in South/Southwest); April 2025 FDA RIF with CDER ~1,000-employee loss over three months (per MC-07); <a href="/paul/campaign/empower/glossary/#pa-act-77">PA Act 77 of 2024</a> <a href="/paul/campaign/empower/glossary/#pbm">PBM</a> reform; XC-11 independent pharmacies as load-bearing case at SD3; specialty pharmacy access asymmetry by health-system affiliation.</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/biologics-devices/">
 <span class="subdomain-row__num">4</span>
 <span class="subdomain-row__body">
-<span class="subdomain-row__title">Biologics & Devices</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD4 — FDA CBER architecture; gene therapies (Casgevy / Lyfgenia uptake quantified); the Philadelphia paradox._</span>
+<span class="subdomain-row__title">Biologics &amp; Devices</span>
+<span class="subdomain-row__desc">The Philadelphia paradox — cell/gene therapy <a href="/paul/campaign/empower/glossary/#atc">ATC</a> concentration at Penn + <a href="/paul/campaign/empower/glossary/#chop">CHOP</a> University City + documented elevated <a href="/paul/campaign/empower/glossary/#scd">SCD</a> prevalence in predominantly Black PA-3 sub-areas + ~164 cumulative US uptake through 2025 (per MC-05); Casgevy globally infused 64 patients in 2025 / ~165 cumulative first cell collections / ~90% reimbursed access per Vertex; March 16, 2026 ACIP court ruling (Judge Brian E. Murphy, D. Mass.) finding ACIP appointments violated <a href="/paul/campaign/empower/glossary/#faca">FACA</a> (per MC-02); April 9, 2026 <a href="/paul/campaign/empower/glossary/#hhs">HHS</a> ACIP charter rewrite broadening scope to include mRNA vaccines; LDT framework vacated March 31, 2025; <a href="/paul/campaign/empower/glossary/#cber">CBER</a> + CDRH capacity erosion per MC-07 (CDRH ~260 fired including 40 from Digital Health Center of Excellence); Both/And substantive cell-and-gene-therapy availability AND Philadelphia paradox low uptake.</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/tobacco/">
 <span class="subdomain-row__num">5</span>
 <span class="subdomain-row__body">
 <span class="subdomain-row__title">Tobacco</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD5 — FDA CTP regulatory architecture; menthol withdrawal (January 21, 2025); AATCLC v. HHS pending litigation; nicotine reduction NPRM._</span>
+<span class="subdomain-row__desc">The foreclosed-remediation pattern — menthol cigarette ban (RIN 0910-AI60) withdrawn January 21, 2025 (per MC-06); characterizing-flavors-in-cigars rule (RIN 0910-AI28) withdrawn same day; <a href="/paul/campaign/empower/glossary/#aatclc">AATCLC</a> v. HHS pending in N.D. Cal.; April 2025 CTP Office of Regulations RIF described as "the entire office responsible for drafting new tobacco regulations" (per MC-07); CTP Director Brian King removed April 1, 2025; Bret Koplow appointed Acting Director; CTP RIF subject to Rhode Island injunction; menthol = 35% of US cigarette sales / ~85% of Black smokers use menthol; SNAP-authorized retailer interior advertising 3.43x pattern in compound-disadvantage sub-areas; XC-11 small tobacco retailer differential under Title 6 §6-700 density cap + 500-foot school buffer architecture.</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/controlled-substances/">
 <span class="subdomain-row__num">6</span>
 <span class="subdomain-row__body">
 <span class="subdomain-row__title">Controlled Substances</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD6 — DEA scheduling architecture; marijuana Schedule III rescheduling correction._</span>
+<span class="subdomain-row__desc">The only D4 sub-domain documenting federal architecture expansion rather than withdrawal — DEA Marijuana Schedule III Final Order effective April 28, 2026 (FR Doc. 2026-08176; per MC-01) pursuant to Trump EO 14370 (December 18, 2025); DEA Medical Marijuana Dispensary Registration Portal opens April 29, 2026 at 9:00 AM EST ($794 annual fee; 60-day priority window through ~June 27, 2026); new DEA hearing on broader rescheduling June 29 - July 15, 2026; Section 280E lifted for state-licensed medical cannabis; <a href="/paul/campaign/empower/glossary/#mat-act">MAT Act</a> 2022; DEA telemedicine flexibility through December 2026; Kensington compound-incidence (medetomidine 83% / <a href="/paul/campaign/empower/glossary/#btmps">BTMPS</a> 25% / xylazine); Both/And overdose mortality decline ~24% + Mayor Parker $100M+ wellness ecosystem + structurally entrenched compound factors; careful G1-SD6-02 framing on Black PA-3 <a href="/paul/campaign/empower/glossary/#oud">OUD</a> engagement pattern (gap-finding without pathologizing).</span>
 </span>
 </a>
 <a class="subdomain-row" href="/paul/campaign/empower/domain/food-medicine/sub-domains/federal-architecture/">
 <span class="subdomain-row__num">7</span>
 <span class="subdomain-row__body">
 <span class="subdomain-row__title">Federal Regulatory Architecture (Synthesis)</span>
-<span class="subdomain-row__desc">_To be drafted from uploads/D4_foodMed_verified_2026-04-29.md SD7 — FDA + USDA + DEA cross-agency synthesis; Compound Disadvantage Geography Matrix; cross-cutting structural findings._</span>
+<span class="subdomain-row__desc">The cross-cutting synthesis sub-domain. Statutory layer HIGH stability composite (federal statutes themselves not eroding); agency layer 5 of 6 D4 SDs at HIGH or EXTREME admin vulnerability (per MC-07 April 2025 FDA RIF ~3,500 = 19% workforce; CDER ~1,000 lost; CDRH ~260 fired; CTP Office of Regulations decimated; Rhode Island injunction); rule-availability layer heterogeneous (5 of 6 SDs document withdrawal/vacatur/redirection; SD6 documents expansion); MAHA-era three-pattern co-occurrence (rule withdrawal + capacity erosion + data-infrastructure rollback per MC-08 USDA ERS termination Sept 20, 2025); XC-11 cross-cutting independent / small organization pattern; Compound Disadvantage Geography Matrix; Three Defining D4 Paradoxes (Philadelphia paradox per MC-05; IRA MFP / pharmacy desert per MC-04; foreclosed-remediation pattern per MC-06 + MC-07); Both/And federal-floor-protections-stable AND federal-administrative-capacity-eroding.</span>
 </span>
 </a>
 </div>

@@ -1,0 +1,126 @@
+---
+layout: empower.njk
+title: "Sub-Domain 4 · Economic Development Zones and Place-Based Investment Tools"
+saveable: true
+savedContext: "Commerce & Industry · SD4"
+description: "Economic development zones and place-based investment tools in PA-3 — Qualified Opportunity Zones at IRC §§ 1400Z-1 and 1400Z-2; Keystone Opportunity Zones at 73 P.S. § 820.101 et seq.; New Markets Tax Credit at 12 U.S.C. § 4701 et seq.; Business Improvement Districts at Phila. Code Ch. 19-1600. MC04 OBBBA QOZ permanent (P.L. 119-21, July 4, 2025); new designation round effective January 1, 2027 with governors nominating by July 1, 2026. MC05 OBBBA NMTC permanent. D8-Q1 QOZ investment-vs-extraction in PA-3 HOM. BID Both/And designation: substantive corridor activation value AND property-value-based financing reproducing commercial corridor inequality."
+state: in-review
+updated: 2026-05-20
+breadcrumbExtras:
+  - { label: "Domains", href: "/paul/campaign/empower/#domains" }
+  - { label: "Commerce & Industry", href: "/paul/campaign/empower/domain/commerce-industry/" }
+  - { label: "Sub-Domains", href: "/paul/campaign/empower/domain/commerce-industry/sub-domains/" }
+---
+
+# Sub-Domain 4 · Economic Development Zones and Place-Based Investment Tools
+
+<p class="domain-lead">SD4 documents the legal and programmatic architecture of place-based investment tools operative in PA-3 — <strong>Qualified Opportunity Zones (<a href="/paul/campaign/empower/glossary/#qoz">QOZ</a>)</strong> at IRC §§ 1400Z-1 and 1400Z-2; <strong>Keystone Opportunity Zones (<a href="/paul/campaign/empower/glossary/#koz">KOZ</a>)</strong> at 73 P.S. § 820.101 et seq.; <strong>New Markets Tax Credit (<a href="/paul/campaign/empower/glossary/#nmtc">NMTC</a>)</strong> at 12 U.S.C. § 4701 et seq.; and <strong>Business Improvement Districts (<a href="/paul/campaign/empower/glossary/#bid">BIDs</a>)</strong> at Phila. Code Ch. 19-1600. Each tool deploys capital or organizational capacity in geographically defined areas with the stated aim of stimulating commercial development in economically distressed areas. <strong>SD4 is the primary engagement point for D8-Q1</strong> (QOZ investment-vs-extraction in PA-3 census tracts), the project's first held-open question. <strong>MC04 — OBBBA (P.L. 119-21, signed July 4, 2025) made the QOZ program permanent</strong>: new designation round effective January 1, 2027 (10-year designation period); governors designate new zones by July 1, 2026; Treasury and IRS were finalizing new-round implementation procedures as of April 2026; CDFI Fund opened public comment on the new nomination tool (comments due May 5, 2026). The original [TCJA](/paul/campaign/empower/glossary/#tcja) designation round's capital-gains-deferral benefit (December 31, 2026 deadline) still applies to existing investments made before December 31, 2026; post-2026 investments operate under a revised incentive structure (5-year deferral; 10% step-up in basis for non-rural zones; modified gain-exclusion terms). <strong>MC05 — OBBBA made NMTC permanent</strong> (indefinite statutory authorization); FY 2026 Consolidated Appropriations Act (February 3, 2026) maintains level funding; the CY 2024-2025 double-round NMTC allocation award announcement was delayed due to the federal government shutdown through November 2025. <strong>Both/And designation: SD4 — BID dimension only</strong>: BIDs in PA-3 provide substantive corridor activation value (marketing, placemaking, façade programs, sanitation supplements) AND BID resource inequality structurally reproduces commercial corridor disadvantage. Both findings documented simultaneously. The Both/And does NOT apply to QOZ (D8-Q1 held-open territory) or KOZ analysis (gap framing primary).</p>
+
+## Legal Architecture
+
+### Federal statutory layer
+
+**Tax Cuts and Jobs Act of 2017 / OBBBA of 2025 — IRC §§ 1400Z-1, 1400Z-2.** Established Qualified Opportunity Zones and Qualified Opportunity Funds under TCJA. Mechanism: investors roll existing capital gains into a Qualified Opportunity Fund (QOF) within 180 days of realization; gains are deferred; appreciation on the QOF investment itself is excluded from capital gains if held ≥10 years. Final regulations: T.D. 9889 (Dec. 2019), 84 Fed. Reg. 69442. Pennsylvania nominated census tracts for QOZ designation; the IRS published the final designated tract list (IRS Notice 2018-48). Multiple tracts in North and West Philadelphia PA-3 geographies were designated. **MC04 — OBBBA made the QOZ program permanent**; the new-round designations may change the PA-3 QOZ tract landscape materially by January 2027. *Statutory stability: HIGH (revised from MODERATE; program now permanent). Administrative vulnerability: MODERATE — new-round designation criteria and incentive structure create transition-period uncertainty.*
+
+**Community Development Banking and Financial Institutions Act of 1994 / OBBBA of 2025 — 12 U.S.C. § 4701 et seq.** CDFI Fund statutory authority including the New Markets Tax Credit (NMTC) Program (added by Community Renewal Tax Relief Act of 2000). **NMTC structure**: 39% federal tax credit spread over 7 years for qualified equity investments in **Community Development Entities ([CDEs](/paul/campaign/empower/glossary/#cde))** deploying capital in **Low-Income Communities ([LICs](/paul/campaign/empower/glossary/#lic) — census tracts with ≥20% poverty rate or median income ≤80% of [AMI](/paul/campaign/empower/glossary/#ami))**. CDFI Fund allocates NMTC authority to CDEs competitively; typical annual allocation approximately $5 billion. **MC05 — OBBBA made NMTC permanent** (indefinite statutory authorization). *Statutory stability: HIGH (revised from MODERATE). Administrative vulnerability: MODERATE — competitive allocation mechanism means not all PA-3 LIC tracts receive investment.*
+
+### State statutory layer
+
+**Keystone Opportunity Zone Act, 73 P.S. § 820.101 et seq.** State/local tax abatement (state income tax, local earned income tax, local real estate tax) zeroed out for qualifying businesses operating within designated KOZ tracts during the designation period. Administered by PA [DCED](/paul/campaign/empower/glossary/#dced). KOZ is structurally distinct from federal QOZ: **QOZ is an investor-side capital-gains incentive; KOZ is a business-side operating tax abatement.** A business can be in a tract designated as both QOZ and KOZ; the benefits are complementary but governed by entirely different statutory frameworks. Current PA-3 KOZ designation status F-flagged at F8-SD4-01.
+
+### Local statutory layer
+
+**Philadelphia Code, Chapter 19-1600 (Business Improvement Districts).** Authorizes BID formation through petition of commercial property owners in a defined geographic area; authorizes special assessment on commercial properties within BID boundaries to fund BID services; establishes governance and reporting requirements. **BID special assessment revenue is property-value-dependent, creating structural resource inequality across corridors.**
+
+### Local agency layer
+
+**Philadelphia City Planning Commission** maintains BID registry and commercial overlay district classifications. **Pennsylvania DCED** administers KOZ program including tract designation and business certification. **CDFI Fund** at 1500 Pennsylvania Avenue NW administers NMTC allocation and awards; maintains public database of NMTC investments by CDE and census tract. **The Reinvestment Fund ([TRF](/paul/campaign/empower/glossary/#trf))** at 1700 Market Street is the major NMTC allocatee with substantial Philadelphia deployment history — community facilities, commercial real estate, and grocery finance — and the **primary local vehicle through which NMTC capital has reached PA-3 LIC census tracts**.
+
+### Cross-cutting structural features
+
+Three structural mechanisms shape SD4.
+
+First, **QOZ investor-side incentive structurally rewarding investment in already-appreciating tracts**. Urban Institute research found QOZ investment concentrated in census tracts already showing pre-designation economic appreciation. **The QOZ capital gains incentive structure requires investors to have existing capital gains to reinvest** — a population that is overwhelmingly not representative of PA-3's residential or business population. **D8-Q1 PRIMARY HELD-OPEN** per substructure §8 discipline analogous to <a href="/paul/campaign/empower/domain/land-property/sub-domains/property-rights/">G7-SD1-03</a>.
+
+Second, **NMTC competitive allocation scale constraint**. NMTC deploys capital to LIC census tracts through a competitive allocation mechanism that is structurally incapable of reaching all eligible PA-3 tracts simultaneously. CDEs prioritize projects with the strongest financial viability and community development case, which may systematically favor projects in LICs at the upper end of the income distribution (closer to the 80% AMI threshold) over the most severely distressed tracts. **NMTC is the most equitably designed of the three major place-based tools analyzed**; its gap is scale and competitive allocation rather than structural investor-benefit misalignment (G8-SD4-03).
+
+Third, **BID property-value financing reproducing commercial corridor inequality (Both/And)**. BIDs generate substantive corridor activation value AND the special assessment revenue base is property-value-dependent — **well-resourced BIDs (East Passyunk, Chestnut Hill) serve already-appreciating corridors; under-resourced or absent BIDs serve the most distressed corridors where investment need is greatest**. The BID resource gap maps closely onto racial geography (G8-SD4-02).
+
+<h2 id="constituent-profiles">Constituent profiles</h2>
+
+### Profile 1: Existing small business in a North Philadelphia QOZ tract experiencing investment-driven cost pressure (D8-Q1 illustration)
+<a id="qoz-cost-pressure-displacement"></a>
+
+Constituent type: a Black-owned barbershop in a Strawberry Mansion (North/Northwest Core) census tract designated as both a QOZ and a LIC. Operated in a leased storefront for seven years.
+
+*Pathway and outcome.* In 2021, a Qualified Opportunity Fund invests in a mixed-use development two blocks away, bringing market-rate apartments and ground-floor retail. **Within eighteen months, the owner's landlord — who was not the QOZ investor — raises the commercial lease 35% citing "neighborhood improvement."** The owner's tenant lease has no escalation cap; commercial tenants have no right of first offer on lease renewal (cross-reference: <a href="/paul/campaign/empower/domain/commerce-industry/sub-domains/commercial-corridors/">SD6 commercial tenant protection gap</a>). The barbershop closes; the owner cannot afford the new rate.
+
+*D8-Q1 discipline.* This profile illustrates one documented mechanism (appreciation pressure from QOZ-adjacent investment); **it does NOT assert that all or most QOZ investment in PA-3 produces this outcome**. QOZ investment effects on surrounding property costs are documented in the Urban Institute and EIG research; PA-3-specific magnitude is D8-Q1 HELD-OPEN per substructure §8. The QOZ investor receives capital gains tax benefits; the existing neighborhood small business owner may receive displacement without remedy.
+
+### Profile 2: NMTC-financed grocery store in a West Philadelphia LIC tract
+<a id="nmtc-west-philly-grocery"></a>
+
+Constituent type: a full-service grocery store in a previously food-desert census tract in West Philadelphia (Cobbs Creek), financed in part through a TRF NMTC-structured loan — below-market capital that makes the project viable when conventional grocery financing would not pencil.
+
+*Pathway and outcome.* The store employs 45 workers, serves fresh produce access for approximately 8,000 residents, and anchors a commercial corridor that had been largely vacant. **Six years after opening, the store continues to operate.** This is a straightforward program success story at the specific project level, not a structural gap finding at the program level. **NMTC, unlike QOZ, requires deployment in LIC tracts and is structured for direct community benefit**; where it reaches, it produces documented community economic development outcomes. **The gap is in scale and reach — not all PA-3 LIC tracts receive NMTC investment.**
+
+### Profile 3: Commercial corridor businesses in BID-present (East Passyunk) vs. BID-absent (Germantown Ave) corridors
+<a id="bid-resource-inequality-comparison"></a>
+
+Constituent type: two PA-3 food service businesses — a South Philadelphia restaurant on East Passyunk Ave (within the East Passyunk BID) and a North Philadelphia restaurant on Germantown Ave (in a stretch outside the GSD boundary).
+
+*Pathway and outcome.* The East Passyunk BID business benefits from BID-funded marketing campaigns, annual festival events generating foot traffic, corridor-wide façade improvement grant programs, and supplemental sanitation that the City alone does not provide. **The Germantown Ave business does not. Both pay city business taxes. Both face the same formation regulatory burden.** The structural gap in corridor support resources — generated by the property-value difference between gentrifying and disinvested corridors — means the South Philadelphia business competes in a better-resourced commercial environment than its North Philadelphia equivalent, without either business owner making a choice that produces this outcome.
+
+*Both/And application.* BIDs create substantive corridor value — this is documented. BID resource inequality structurally reproduces commercial corridor disadvantage — this is also documented. Both are true simultaneously.
+
+## Conversational note
+
+Place-based investment tools occupy a distinctive position in the commerce policy landscape: they are designed to send capital to places that markets would otherwise bypass. The design logic is coherent; **the equity outcomes are where the analysis gets complicated**.
+
+**The QOZ program's structural problem is that its primary mechanism benefits investors, not residents.** Capital gains are a wealth threshold: you cannot participate in a QOZ deferral mechanism if you do not have capital gains to defer. The residents of North and West Philadelphia's designated QOZ tracts — predominantly low-income, largely not holding capital gains positions — are the intended beneficiaries of QOZ investment through economic development, but they are not the program's participants. The program asks whether outside investor capital, channeled through a tax incentive into designated tracts, will benefit the communities in those tracts. That is a reasonable hypothesis. **Whether it describes what actually happened in PA-3's designated tracts is D8-Q1** — and it is a question that requires tract-level investment data, displacement tracking, and business impact measurement that this analysis does not yet have.
+
+The BID story is more legible. BIDs create real value for commercial corridors. What is also not contested is that BID revenue is a function of the assessed value of commercial properties in the BID geography — **so BIDs in appreciating corridors (East Passyunk, Chestnut Hill) have more money to spend than BIDs in disinvested corridors (portions of Germantown Ave, the corridors without any BID at all), regardless of where the investment need is greatest**. The property value base that generates BID revenue is itself a product of decades of investment and disinvestment decisions documented in D7 and D9. **The BID financing model does not create this inequality; it reflects and reinforces it.**
+
+The NMTC operates on a different logic — it requires that CDEs deploy capital in Low-Income Communities, which means the most economically distressed tracts are at least eligible. TRF's track record in Philadelphia shows genuine LIC deployment; the West Philadelphia grocery example is a real community development outcome. **The gap is in scale and competitive allocation**: the aggregate NMTC deployment capacity in Philadelphia cannot close the commercial development gap in all PA-3 LIC tracts simultaneously.
+
+## Geography &amp; representation
+
+**Data provenance.** IRC §§ 1400Z-1, 1400Z-2 (TCJA 2017 / OBBBA 2025); IRS T.D. 9889 (Dec. 2019, 84 Fed. Reg. 69442); IRS Notice 2018-48 designated tract list; OBBBA P.L. 119-21 (July 4, 2025) — MC04. NMTC at 12 U.S.C. § 4701 et seq. (Community Renewal Tax Relief Act of 2000; OBBBA permanence — MC05); FY 2026 Consolidated Appropriations Act (February 3, 2026). Keystone Opportunity Zone Act at 73 P.S. § 820.101 et seq. (PA DCED at dced.pa.gov/programs-and-funding/opportunity-grants-and-zone-programs/keystone-opportunity-zones/). Philadelphia Code Ch. 19-1600. Novogradac QOZ Fund Index at novoco.com/resource-centers/opportunity-zone-resource-center/. Urban Institute (Theodos et al., 2020) at urban.org/research/publication/opportunity-zones-what-we-know-and-what-we-dont. [Economic Innovation Group (EIG)](/paul/campaign/empower/glossary/#eig) at eig.org/opportunity-zones/. [GAO](/paul/campaign/empower/glossary/#gao) QOZ reports at gao.gov/topics/opportunity-zones. CDFI Fund NMTC award database at cdfifund.gov/research-data/awards-data. The Reinvestment Fund (TRF) at reinvestmentfund.org/investments/. F8-SD4-01 KOZ designation status for PA-3; F8-SD4-02 current Novogradac QOZ investment tracking for PA-3 tracts; F8-SD4-03 most current GAO QOZ reports; F8-SD4-04 BID geographic boundaries / annual budgets / assessment rates from Philadelphia City Planning Commission; F8-SD4-05 CDFI Fund NMTC award database for Philadelphia investments F-flagged for institutional retrieval.
+
+**QOZ national investment patterns.** National QOZ investment estimated in the tens of billions of dollars across fund vehicles. **Urban Institute (Theodos et al., 2020) found that QOZ investment was disproportionately concentrated in census tracts showing economic improvement prior to designation. Tracts with the most severe economic distress — the stated target population of the program — received less QOZ investment than tracts showing pre-designation appreciation.** EIG offers a more favorable assessment of QOZ program reach; both perspectives are relevant to D8-Q1. **Key equity concern**: the QOZ capital gains incentive structure requires investors to have existing capital gains to reinvest; existing residents and businesses within PA-3 QOZ tracts predominantly do not hold significant capital gains positions.
+
+**BID resource inequality in PA-3.** BID budgets reflect the special assessment base generated by commercial property values within each BID boundary.
+
+- **East Passyunk Business Improvement District** (South Philadelphia): well-resourced; active commercial programming, marketing, placemaking. Serves a commercially gentrifying corridor.
+- **Germantown Special Services District**: more limited resources; serves a corridor with higher vacancy and lower property values.
+- **Mt. Airy BID / Chestnut Hill Business District**: relatively stable resource base aligned with Northwest Philadelphia's stronger commercial markets.
+- **PA-3 corridors lacking active BIDs or with underfunded BIDs**: 52nd Street; large portions of Cecil B. Moore Ave; portions of Kensington Ave; North Germantown Ave.
+
+**The BID resource gap maps closely onto racial geography**: better-resourced BIDs serve commercially gentrifying corridors in South Philadelphia and Northwest Philadelphia; the most distressed corridors — concentrated in North and West Philadelphia predominantly Black and Latino neighborhoods — either lack BIDs or have BIDs with insufficient assessment revenue to meaningfully invest.
+
+**Geographic variation.**
+
+- *North/Northwest Philadelphia Core.* Highest concentration of QOZ-designated tracts (Kensington, North Philadelphia corridors); highest commercial vacancy overlap with QOZ geography; multiple LIC-eligible tracts for NMTC; no active BID or underfunded BIDs on the principal commercial corridors.
+- *West Philadelphia Core.* University City District is the most sophisticated and resource-rich BID in or adjacent to PA-3; 52nd Street corridor lacks equivalent BID coverage; multiple QOZ and LIC tracts in the western portion of the sub-area.
+- *Northwest Philadelphia.* Chestnut Hill Business District and Mt. Airy BID are PA-3's best-resourced commercial corridor organizations; Germantown Ave (North end) has GSD with more limited resources; **intra-sub-area BID resource gradient is among the project's clearest commercial corridor inequality illustrations**.
+- *South/Southwest Philadelphia.* East Passyunk BID is PA-3's most commercially active BID (serving a gentrifying corridor); Washington Ave corridor investment dynamics include anchor development pressures.
+
+## Gap analysis
+
+**G8-SD4-01 — QOZ investment-vs-community-benefit gap (D8-Q1 HELD-OPEN) [SD] MEDIUM for the national pattern; LOW for PA-3-specific magnitude.** Urban Institute research documents national QOZ investment concentration in census tracts already showing pre-designation appreciation rather than in the most distressed designated tracts. The investment-vs-extraction question — whether QOZ capital in PA-3 tracts benefits existing residents and businesses or accelerates displacement — is **not resolved with available PA-3-specific data**. Per D8-Q1 discipline, this gap is documented as an empirical open question, not closed by analytical assertion. *Representation implication:* a program designed to channel capital toward distressed communities may function as an acceleration mechanism for communities already on an appreciation trajectory.
+
+**G8-SD4-02 — BID resource inequality structurally reproducing commercial corridor disadvantage (Both/And) [SD] HIGH for the structural mechanism; MEDIUM for the specific BID budget differential.** BIDs in PA-3 provide substantive corridor activation AND the property-value-based BID financing model concentrates organizational capacity and resources in already-appreciating corridors while the most distressed corridors either lack BIDs or have BIDs too under-resourced to meaningfully invest. *Representation implication:* the organizational infrastructure for commercial corridor revitalization is thinnest where revitalization need is greatest — a structural pattern that the BID financing model cannot correct without supplementary funding mechanisms.
+
+**G8-SD4-03 — NMTC scale constraint relative to PA-3 LIC commercial development need [SD] HIGH for the structural constraint.** NMTC deploys capital to LIC census tracts through a competitive allocation mechanism that is structurally incapable of reaching all eligible PA-3 tracts simultaneously. *Representation implication:* NMTC is the most equitably designed of the three major place-based tools analyzed; its gap is scale and competitive allocation rather than structural investor-benefit misalignment.
+
+**G8-SD4-04 — KOZ designation gap (uncertainty of current PA-3 status; F8-SD4-01) [F] LOW pending retrieval.** KOZ designation is time-limited and subject to renewal; the current status of KOZ designations in PA-3 census tracts is unconfirmed. *Representation implication:* a business-side tax benefit potentially material to startup economics in PA-3's most distressed tracts may or may not be currently available.
+
+**D8-Thread A at SD4 — the place-based-investment-tools-rewarding-already-appreciating-areas finding.** D8-Thread A operates at SD4 through QOZ investor-side incentives directing capital to already-appreciating tracts plus NMTC competitive-allocation scale constraint plus BID property-value financing reproducing commercial corridor inequality. Full cross-SD synthesis at <a href="/paul/campaign/empower/domain/commerce-industry/gaps/">The Gaps</a>.
+
+## Where this leads
+
+Federal House representation operates at SD4 through QOZ reform engagement (G8-SD4-01 D8-Q1; investor-side incentive structure modulation with community-benefit conditions; tract-level investment tracking and displacement-monitoring infrastructure); NMTC allocation expansion (G8-SD4-03 CDFI Fund competitive-allocation scaling); KOZ federal-state coordination (G8-SD4-04 F8-SD4-01 KOZ designation status). PA-state-level engagement at PA DCED KOZ tract designation and renewal; PA Department of Revenue KOZ business-side tax abatement utilization tracking. Local Philadelphia engagement is the densest layer: Philadelphia City Planning Commission BID registry transparency (G8-SD4-02 F8-SD4-04 budget and assessment-rate publication); supplemental BID funding mechanisms for under-resourced corridors (G8-SD4-02 financing-model supplementation); QOZ tract-level community-benefit-monitoring infrastructure (F8-SD4-02 Novogradac data integration with Philadelphia displacement-tracking); TRF NMTC deployment pipeline support for the most distressed LIC tracts.
+
+The next sub-domain — <a href="/paul/campaign/empower/domain/commerce-industry/sub-domains/consumer-protection/">Consumer Protection and Predatory Commercial Practices</a> — analyzes the FTC Act, PA UTPCPL, PA HICPA, and merchant cash advance regulatory no-man's-land. The protection gap is enforcement-architecture, not legal-substance; MCAs at 50-300% APR concentrate in majority-minority neighborhoods.
+
+{% include "partials/page-meta.njk" %}

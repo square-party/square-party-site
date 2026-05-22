@@ -1,0 +1,70 @@
+---
+layout: empower.njk
+title: Sub-Domains within Healthcare Delivery
+saveable: true
+savedContext: "Healthcare Delivery · Sub-Domains"
+description: "The seven sub-domains within D21 — Medicare delivery; Medicaid delivery; ACA marketplace and commercial insurance delivery; hospital institutional architecture; FQHC and safety-net delivery; behavioral-health and SUD delivery; specialty clinical and cross-cutting delivery."
+state: in-review
+updated: 2026-05-19
+breadcrumbExtras:
+  - { label: "Domains", href: "/paul/campaign/empower/#domains" }
+  - { label: "Healthcare Delivery", href: "/paul/campaign/empower/domain/healthcare-delivery/" }
+---
+
+# Sub-Domains within Healthcare Delivery
+
+<p class="domain-lead">Healthcare delivery in PA-3 is irreducibly multi-payer and multi-regulator. Seven sub-domains analyze how the federal-state-local provider-side architecture delivers (or fails to deliver) clinical care to PA-3 constituents. The first three decompose by payer instrument (Medicare; Medicaid; <a href="/paul/campaign/empower/glossary/#aca">ACA</a> marketplace plus commercial). The next three carve out structural architectures that operate across payer instruments — hospital institutional regulation; <a href="/paul/campaign/empower/glossary/#fqhc">FQHC</a> and safety-net delivery; and Pennsylvania's structurally-distinctive county-based behavioral-health single-MCO carve-out (the only such state-level architecture among the 50 states with this scope, operating in Philadelphia through <a href="/paul/campaign/empower/glossary/#dbhids">DBHIDS</a> / <a href="/paul/campaign/empower/glossary/#cbh">CBH</a>). The seventh closes at the convergence of six concurrent federal-policy-cycle disruption mechanisms: <a href="/paul/campaign/empower/glossary/#iija">IIJA</a> reauthorization, the 340B Rebate Pilot post-vacatur trajectory, the Title X 2025-2026 administrative-disruption sequence, Medicare telehealth post-2027, <a href="/paul/campaign/empower/glossary/#obbba">OBBBA</a> flow-through, and <a href="/paul/campaign/empower/glossary/#mhpaea">MHPAEA</a> non-enforcement. D21 owns the provider-side institutional architecture, payment-and-participation conditions, and clinical-pathway delivery; D12 Social Welfare owns coverage-eligibility, enrollment, redetermination, and means-testing for the same coverage populations.</p>
+
+<div class="subdomain-list">
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/medicare/">
+<span class="subdomain-row__num">1</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Medicare Delivery Architecture</span>
+<span class="subdomain-row__desc">Medicare Title XVIII federal entitlement architecture covering Parts A (hospital insurance), B (medical insurance), C (Medicare Advantage MCO architecture), and D (prescription drug coverage); federal regulatory framework conditioning provider participation, plan operations, and pharmacy delivery; Pennsylvania Insurance Department Medicare Advantage regulatory overlay; PA Department of Aging Medicare counseling architecture; Philadelphia Corporation for Aging APPRISE / PA MEDI counselor architecture; IRA Medicare Drug Price Negotiation Program delivery-side operationalization (10 Part D drugs effective January 1, 2026; ~$1.5 billion annual beneficiary out-of-pocket savings estimate); MC54 Medicare Advantage federal-administrative-vulnerability plus substantive coordination Both/And (including <a href="/paul/campaign/empower/glossary/#d-snp">D-SNP</a> behavioral integration architecture and one-way structural lock-in absent Pennsylvania state guaranteed-issue Medigap return rights outside the initial 6-month Open Enrollment Period).</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/medicaid/">
+<span class="subdomain-row__num">2</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Medicaid Delivery Architecture</span>
+<span class="subdomain-row__desc">Medicaid Title XIX federal entitlement architecture; Pennsylvania HealthChoices Physical Health <a href="/paul/campaign/empower/glossary/#ph-mco">PH-MCO</a> 4-plan Southeast Zone (Health Partners Plans, Keystone First, UPMC for You, AmeriHealth Caritas administered by Independence) plus 5th-plan re-procurement architecture; Community HealthChoices (<a href="/paul/campaign/empower/glossary/#chc-mco">CHC-MCO</a>) 5-plan re-procurement architecture serving dual-eligibles and <a href="/paul/campaign/empower/glossary/#ltss">LTSS</a>-eligible adults; PA Medicaid rate-setting trajectory; specialty network adequacy; BH-PH care coordination at the carve-out interface (cross-reference SD6); MC60 OBBBA Sections 71107 (6-month redetermination beginning December 2026), 71115 (provider-tax safe-harbor stepdown FY 2028-2032), 71117 (MCO-tax tightening), 71119 (work requirements January 2027), and 71401 (Rural Health Transformation Fund $10B/year FY 2026-2030) delivery-side flow-through; <a href="/paul/campaign/empower/glossary/#cms">CMS</a> implementation guidance chronology (November 18, 2025 CMCS Informational Bulletin; February 2026 CMS Final Rule "Preserving Medicaid Funding for Vulnerable Populations" provider-tax statistical-test tightening; June 1, 2026 Interim Final Rule due); CBO 9.1 million Medicaid recipients impacted by FY 2034 per the verified MC-05.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/aca-commercial/">
+<span class="subdomain-row__num">3</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">ACA Marketplace &amp; Commercial Insurance Delivery</span>
+<span class="subdomain-row__desc">ACA marketplace federal architecture; Pennsylvania State-Based Exchange <a href="/paul/campaign/empower/glossary/#pennie">Pennie</a> under Act 42 of 2019; IRA <a href="/paul/campaign/empower/glossary/#eptc">Enhanced Premium Tax Credit (EPTC)</a> December 31, 2025 expiration delivery-side coverage loss (Pennie 102% premium increase 2026; total enrollment decline from approximately 500,000 in 2025 to 452,525 as of May 1, 2026; cumulative cancellations exceeding 145,000; House-passed 3-year EPTC extension H.R. 1834 with 17 Republicans crossing including PA-1 Fitzpatrick, PA-7 Mackenzie, PA-8 Bresnahan; Senate CARE Act 2-year alternative draft circulating but not advanced; December 2025 failed Senate cloture votes on S. 3385 and S. 3386); OBBBA H.R. 1 ACA marketplace verification plus immigrant-eligibility modifications; PA Act 54 of 2024 State Health Insurance Exchange Affordability Program appropriation gap; MHPAEA commercial implementation network-adequacy and enforcement gap (parallels SD6 G21-SD6-02); No Surprises Act IDR architecture operational complexity; ERISA-preempted self-funded plan architecture; MC61 candidate Both/And.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/hospital/">
+<span class="subdomain-row__num">4</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Hospital Institutional Architecture</span>
+<span class="subdomain-row__desc">CMS Conditions of Participation (42 C.F.R. Parts 482-485); IRC § 501(r) community-benefit / <a href="/paul/campaign/empower/glossary/#fap">FAP</a> / <a href="/paul/campaign/empower/glossary/#chna">CHNA</a> / Schedule H architecture; <a href="/paul/campaign/empower/glossary/#emtala">EMTALA</a> emergency-stabilization-and-screening obligations; <a href="/paul/campaign/empower/glossary/#hipaa">HIPAA</a> institutional architecture; No Surprises Act hospital-side; Hospital Price Transparency Rule (only 30% of PA hospitals compliant per independent audit); <a href="/paul/campaign/empower/glossary/#acgme">ACGME</a> training architecture (specialty-distribution, primary-care-pipeline, and geographic-concentration Both/And); PA medical malpractice 2024 tort-reform 18-month-window architecture delivery-side implications (HUP $182.7M verdict; Temple $44.9M; Jefferson $2.5M; Hahnemann $32M); MC53 anchor community-benefit substantive contribution plus structural revenue-cycle impact on PA-3 household financial security via medical-debt architecture Both/And; commitment-vs-outcome HOM 7th-instance candidate at G21-SD4-01; six-dimensional anchor accountability framework completion via inheritance from D6 (D6 environmental + D7 real estate + D8 procurement + D9 fiscal + D10 employment + D21 SD4 healthcare delivery).</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/fqhc-safety-net/">
+<span class="subdomain-row__num">5</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">FQHC &amp; Safety-Net Delivery</span>
+<span class="subdomain-row__desc"><a href="/paul/campaign/empower/glossary/#hrsa">HRSA</a> Health Center Program § 330 architecture; <a href="/paul/campaign/empower/glossary/#340b">340B</a> Drug Pricing Program (42 U.S.C. § 256b); sliding-fee scale architecture; <a href="/paul/campaign/empower/glossary/#ftca">FTCA</a> medical malpractice coverage; Community Health Center Fund (<a href="/paul/campaign/empower/glossary/#chcf">CHCF</a>) reauthorization at $4.6 billion FY 2026 with December 31, 2026 cliff (chronic short-term extension pattern since 2019; <a href="/paul/campaign/empower/glossary/#nachc">NACHC</a>-requested $5.8B / 3-year multi-year reauthorization not granted); 340B Rebate Model Pilot Program court vacatur in <em>AHA v. Kennedy</em> (D. Me., February 10, 2026) and HRSA RFI trajectory (91 Fed. Reg. 7,287; comment period closed April 20, 2026; H.R. 7391 bipartisan legislative protection with PA cosponsors Bresnahan PA-8, Dean PA-4, Smucker PA-11); OBBBA Section 71109 noncitizen Medicaid restrictions effective October 1, 2026; Hahnemann-precedent institutional-fragility architectural context; PA-3 FQHC roster and <a href="/paul/campaign/empower/glossary/#pdph">PDPH</a> clinical operations; MC55 PA-3 FQHC + safety-net cumulative fiscal vulnerability emergent-from-interaction HOM (2nd confirmed-pending instance project-wide; within-shape sub-pattern variation cumulative-impact-on-institutions).</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/behavioral-health/">
+<span class="subdomain-row__num">6</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Behavioral Health &amp; SUD Delivery</span>
+<span class="subdomain-row__desc">MHPAEA federal parity architecture; 2024 Final Rule with Trump-administration partial non-enforcement (Tri-Agency statement May 15, 2025; <em>ERIC v. DOL/HHS/Treasury</em> in abeyance before Judge Timothy J. Kelly D.D.C.; ERIC litigation resolves plus 18 months; March 3, 2026 Tri-Agencies Fourth Report); 2013 Final Rule plus CAA 2021 obligations remain operative; SAMHSA 42 C.F.R. Part 8 OTP architecture; <a href="/paul/campaign/empower/glossary/#mat-act">MAT Act</a> DATA-Waiver elimination; DEA-HHS permanent telemedicine flexibility; 988 Suicide and Crisis Lifeline implementation; <strong>Pennsylvania Behavioral HealthChoices county-based BH-MCO carve-out architecture — the only such state-level architecture among the 50 states with this scope</strong>; 5 BH-MCOs across 67 counties with <strong>Community Behavioral Health (CBH) exclusively in Philadelphia County</strong>; CBH operational since February 1997; approximately 420,000 Philadelphia Medicaid recipients with behavioral-health coverage; 100,700+ active service users in 2023 with $860M+ expenditures; MC56 CBH single-MCO substantive innovation plus structural concentration risk Both/And; MHPAEA Both/And at G21-SD6-02; CCBHC participation architecture; PA <a href="/paul/campaign/empower/glossary/#omhsas">OMHSAS</a> plus DBHIDS overlay. Heavy cross-reference surface with D3 SD1, SD3, SD5, SD6.</span>
+</span>
+</a>
+<a class="subdomain-row" href="/paul/campaign/empower/domain/healthcare-delivery/sub-domains/specialty/">
+<span class="subdomain-row__num">7</span>
+<span class="subdomain-row__body">
+<span class="subdomain-row__title">Specialty Clinical &amp; Cross-Cutting Delivery</span>
+<span class="subdomain-row__desc">Specialty service-line architecture (oncology delivery at Penn Abramson, Temple Fox Chase, Jefferson Sidney Kimmel, <a href="/paul/campaign/empower/glossary/#chop">CHOP</a> pediatric oncology; cardiology; orthopedics; <a href="/paul/campaign/empower/glossary/#esrd">ESRD</a> / dialysis); cross-cutting workforce architecture (nursing, pharmacist, advanced practice, behavioral-health, ACGME-funded GME pipeline); medical respite and street medicine; pharmacy regulatory architecture; school-based clinical delivery; environmental-health clinical interface; three cross-domain principal-anchor deferrals from D13 (IIJA reauthorization September 30, 2026 inflection point; D13 cumulative-burden geography Eastwick / Cobbs Creek concentration; D13 PA-state-fiscal-architectural asymmetry); MC57 / 58 / 59 candidate Both/And designations (IIJA reauthorization + 340B Rebate Pilot post-court-vacatur + Title X 2025-2026 administrative-disruption sequence with Pennsylvania partial-affected exposure); Telehealth Both/And at G21-SD7-04 (Medicare telehealth post-December 31, 2027 reversion risk plus select permanent provisions); convergence-layer documentation of six concurrent federal-policy-cycle mechanisms; veterans-civilian boundary architecture (cross-reference D24 SD1 / SD4 / SD5).</span>
+</span>
+</a>
+</div>
+
+{% include "partials/page-meta.njk" %}
