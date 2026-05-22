@@ -24,6 +24,29 @@
 | MC-06 | PA UC Trust Fund solvency described as "post-COVID solvency history" with Trust Fund characterized as rebuilt by CARES Act/ARPA funding; specific current balance T-flagged | Confirmed: PA UC Trust Fund remains below solvency as of 2025–2026. PA L&I actuarial evaluation and PA House co-sponsorship memo (May 2025) confirm: not solvent; current forecasts project 10+ years to reach full solvency; solvency measures (employer surcharges, benefit freeze at $605/week, 3.2% benefit reduction) active. No federal loans in 2025; employer solvency surcharges operative. | Confirmed as of 2025 actuarial evaluation (January 2026 S&P forecast) | SD6 §2 Trust Fund solvency reference (PRINCIPAL ANCHOR); SD6 §9 T10-SD6-01; SD1 §9 T10-SD1-06. Case 2: full note at SD6 §2; brief cross-reference at flag entries. |
 | MC-07 | D10-Q2 (wage theft scale in PA-3) described as held-open pending Phase 3 retrieval; phase 3 marked as retrieval target for CLS Philadelphia annual reports, PUP advocacy reports, Sheller Center, EPI Philadelphia research | D10-Q2 disposition: HELD-OPEN maintained. Phase 3 three-search budget protocol applied to CLS/PUP/EPI Philadelphia-scale primary-source wage theft magnitude data. CLS website confirms wage theft caseload activity and ongoing advocacy but no primary-source annual aggregate Philadelphia-scale dollar figure retrieved within three-search budget. PUP advocacy data not retrieved in primary-source form. D10-Q2 remains held-open at magnitude level. Sequel candidates documented in UV-NN entries in unverified-items sidecar. | 2026-05-08 (Phase 3 three-search budget protocol applied) | Synthesis Section 3 (confidence calibration for D10-Q2, PRINCIPAL ANCHOR); SD2 §7 G10-SD2-04 flag notation; Synthesis Section 4 Cluster 4. Case 1 (single principal anchor in Synthesis Section 3 confidence calibration with notation). |
 
+*MC → Sources cross-reference (CR normalized 2026-05-22; S-NN entries in Citation Registry below):*
+
+<a id="mc-01"></a>
+*MC-01 Sources:* [S-02](#s-02), [S-06](#s-06)
+
+<a id="mc-02"></a>
+*MC-02 Sources:* [S-04](#s-04)
+
+<a id="mc-03"></a>
+*MC-03 Sources:* [S-01](#s-01)
+
+<a id="mc-04"></a>
+*MC-04 Sources:* [S-05](#s-05)
+
+<a id="mc-05"></a>
+*MC-05 Sources:* [S-08](#s-08)
+
+<a id="mc-06"></a>
+*MC-06 Sources:* [S-09](#s-09), [S-10](#s-10)
+
+<a id="mc-07"></a>
+*MC-07 Sources:* [no Phase 3 CR source — confidence calibration judgment; pre-Phase-3 body sources in D10 working files]
+
 ---
 
 ## Synthesis Section 1: What This Domain Established
@@ -1353,43 +1376,188 @@ The following D10 findings are high-confidence and available for cross-domain de
 
 ## Citation Registry
 
-*Phase 3 sources introduced during verification. Prior-cycle carry-forward sources (D8 MC-02: Source 2) noted with origin domain. Sources are keyed to the source workspace file (`D10_laborEmp_sources_2026-05-08.md`).*
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md` (§ "Citation Registry — normalized template"). Phase 3 sources only — pre-Phase-3 sources documented in D10 Phase 1 and Phase 2 working files and not re-listed here (see `D10_laborEmp_sources_2026-05-08.md` reference). One S-NN entry per unique Phase 3 source; Source 2 (D8 MC-02 carry-forward) included as it was introduced to D10 context at Phase 3. URLs not present in pre-normalization CR — `[pending retrieval]` used throughout; URL-retrieval is a separate pass.
 
 ---
 
-**Source 11 — Executive Order 14173 (January 21, 2025)**
-"Ending Illegal Discrimination and Restoring Merit-Based Opportunity." Signed January 21, 2025. Revoked Executive Order 11246 (September 24, 1965); Executive Order 11375 (October 13, 1967); Executive Order 12086 (October 5, 1978); and portions of Executive Order 13672 (July 21, 2014). *Federal Register* Vol. 90. Basis for MC-01 OFCCP EO 11246 revocation finding. Cited at: SD1 §2 (MC-01 PRINCIPAL ANCHOR); SD1 §7/§8/§9; SD5 §2/§7/§8/§9; Synthesis §1 Finding 13; Synthesis §2; Synthesis §4 Cluster 1.
+### Executive Orders
 
-**Source 12 — Crystal Carey Senate Confirmation, NLRB General Counsel (December 2025)**
-Senate confirmation of Crystal Carey as NLRB General Counsel, December 2025. Carey was previously a partner at Morgan Lewis & Bockius, representing management clients. Confirmed alongside Board Members James R. Murphy and Scott Mayer, restoring three-member quorum. Basis for MC-02 GC name correction. Cited at: SD1 §2 (MC-02 PRINCIPAL ANCHOR); SD4 §2/§9; Synthesis §4 Cluster 1.
+<a id="s-02"></a>
+#### S-02 — Executive Order 14173 (January 21, 2025) [VERIFIED]
 
-**Source 13 — NLRB Final Rule, Joint Employer Standard (February 2026)**
-National Labor Relations Board final rule formally reinstating the narrow "direct and immediate control" joint employer standard and formally withdrawing the Biden administration's October 2023 joint employer rule. Published Federal Register, February 2026. Basis for MC-03. Cited at: SD4 §2 (MC-03 PRINCIPAL ANCHOR); SD4 §7/§9; Synthesis §4 Cluster 1.
+**Citation:** Executive Order 14173, "Ending Illegal Discrimination and Restoring Merit-Based Opportunity," 90 *Federal Register* (January 21, 2025). Revoked Executive Order 11246 (September 24, 1965); Executive Order 11375 (October 13, 1967); Executive Order 12086 (October 5, 1978); and portions of Executive Order 13672 (July 21, 2014).
 
-**Source 14 — Federal Register Extension Notice, OSHA Heat Illness Prevention Rule (September 25, 2025)**
-OSHA notice extending post-hearing comment period for the proposed Heat Injury and Illness Prevention in Outdoor and Indoor Work Settings rule; comment period extended to October 30, 2025. *Federal Register* September 25, 2025 notice. Basis for MC-04 date correction (September 30 → October 30). Cited at: SD3 §1 (MC-04 PRINCIPAL ANCHOR); SD3 §9; Synthesis §4 Cluster 1.
+**URL:** [pending retrieval — Executive Order 14173 Federal Register January 21 2025]
 
-**Source 15 — Pennsylvania Bulletin, PA UC Maximum Weekly Benefit Notice (effective January 1, 2026)**
-Pennsylvania Department of Labor and Industry official notice published in the Pennsylvania Bulletin confirming maximum weekly UC benefit of $605/week effective January 1, 2026, following determination that the trigger percentage fell below 250% of the solvency threshold as of July 1, 2025, activating the 3.2% solvency reduction mechanism under 43 P.S. § 402(g)(1). Basis for MC-05. Standard 17 applied: $854/week preserved as prior-method baseline; $605/week as current operative. Cited at: SD6 §2 (MC-05 PRINCIPAL ANCHOR); SD6 §4/§5/§7/§8/§9; Synthesis §4 Cluster 3.
+**Supports claims:** MC-01 — basis for OFCCP EO 11246 revocation finding; SD1 §2 (MC-01 PRINCIPAL ANCHOR); SD1 §7/§8/§9; SD5 §2/§7/§8/§9; Synthesis §1 Finding 13; Synthesis §2; Synthesis §4 Cluster 1.
 
-**Source 16 — PA House of Representatives Co-Sponsorship Memorandum, PA UC Trust Fund (May 2025)**
-Pennsylvania House of Representatives co-sponsorship memorandum (May 2025) documenting the PA UC Trust Fund's below-solvency status and projecting 10+ years to full solvency under current contribution and benefit parameters. Cited as part of the MC-06 PRINCIPAL ANCHOR documentation base alongside Source 17. Cited at: SD6 §2 (MC-06 PRINCIPAL ANCHOR); SD6 §9; Synthesis §4 Cluster 3.
-
-**Source 17 — PA L&I Actuarial Evaluation, UC Trust Fund (2025)**
-Pennsylvania Department of Labor and Industry actuarial evaluation of the Pennsylvania UC Trust Fund (2025), confirming below-solvency status and documenting projected recovery trajectory of 10+ years under current parameters. Cited as part of the MC-06 PRINCIPAL ANCHOR documentation base alongside Source 16. Cited at: SD6 §2 (MC-06 PRINCIPAL ANCHOR); SD6 §9; Synthesis §4 Cluster 3.
-
-**Source 18 — *State of Texas v. DOL*, E.D. Tex. (November 15, 2024)**
-*State of Texas v. Department of Labor*, United States District Court for the Eastern District of Texas, order vacating the Biden administration's 2024 rule raising the FLSA white-collar exemption threshold to $58,656/year ($1,128/week), issued November 15, 2024. Nationwide vacatur. Threshold reverts to $684/week ($35,568/year) under the 2019 rule. Fifth Circuit appeal filed February 2025 by Biden DOL; Trump DOL expected not to pursue. Standard 17 applied: $58,656/year preserved as primary architectural finding; $35,568/year as current operative supplementary citation. Cited at: SD2 §2; SD1 §9; Synthesis §4 Cluster 1. Summarized from Sidley Austin client alert.
-
-**Source 19 — OFCCP Staffing and Operational Reduction Documentation (2025–2026)**
-Documentation of OFCCP workforce and operational reductions following Secretary's Order 03-2025 (January 24, 2025), including OFCCP reduction from approximately 479 employees in 55 offices to approximately 50 employees in 4 regional locations. FY2026 OBBBA (One Big Beautiful Budget Act) eliminates OFCCP funding entirely, pending Congressional action. Section 503 (disability) and VEVRAA (veterans) enforcement resumed under Secretary's Order 08-2025 (July 2, 2025). Cited at: SD1 §2 (MC-01 PRINCIPAL ANCHOR); SD5 §2/§7; Synthesis §4 Cluster 1.
-
-**Source 2 (D8 MC-02 carry-forward) — SBA 8(a) Race-Neutral Guidance (January 22, 2026)**
-Small Business Administration formal guidance confirming the 8(a) program has been restructured to race-neutral criteria as of January 22, 2026, following *Ultima Services Corp. v. USDA* (E.D. Tenn. 2023) and OLC guidance. Approximately 65 admissions in 2025 vs. hundreds historically; 1,000+ participants suspended in January 2026. Source originated in D8 Phase 3; carried forward operatively into D10. Cited at: SD1 §2 (D8 MC-02 carry-forward secondary); SD5 §2 (D8 MC-02 carry-forward secondary); Synthesis §5 carry-forwards.
+**Verification status:** VERIFIED.
 
 ---
 
-*Prior-phase sources (pre-Phase 3) are documented in the D10 Phase 1 and Phase 2 working files and are not re-listed here. The Citation Registry covers sources first introduced during Phase 3 verification.*
+### Court Decisions and Litigation
+
+<a id="s-03"></a>
+#### S-03 — *State of Texas v. Department of Labor*, E.D. Tex. (November 15, 2024) [VERIFIED]
+
+**Citation:** *State of Texas v. Department of Labor*, United States District Court for the Eastern District of Texas, order vacating Biden administration 2024 FLSA white-collar exemption threshold rule ($58,656/year; $1,128/week), November 15, 2024. Nationwide vacatur; threshold reverts to $684/week ($35,568/year) under 2019 rule. Fifth Circuit appeal filed February 2025 by Biden DOL; Trump DOL expected not to pursue. Summarized from Sidley Austin client alert.
+
+**URL:** [pending retrieval — State of Texas v Department of Labor ED Tex FLSA overtime threshold November 15 2024]
+
+**Supports claims:** SD2 §2; SD1 §9; Synthesis §4 Cluster 1 — FLSA white-collar exemption threshold vacatur (Standard 17: $58,656/year preserved as primary architectural finding; $35,568/year as current operative). No Phase 3 MC directly; body citation only.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Federal Statutes and Regulations
+
+<a id="s-01"></a>
+#### S-01 — NLRB Joint Employer Final Rule (February 2026) [VERIFIED]
+
+**Citation:** National Labor Relations Board, Final Rule, formally reinstating the "direct and immediate control" joint employer standard and formally withdrawing the Biden administration's October 2023 joint employer rule, *Federal Register*, February 2026.
+
+**URL:** [pending retrieval — NLRB joint employer standard final rule February 2026 Federal Register]
+
+**Supports claims:** MC-03; SD4 §2 (MC-03 PRINCIPAL ANCHOR); SD4 §7/§9; Synthesis §4 Cluster 1 — narrow standard formally codified by final rule, not merely by litigation default.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Federal Agency Materials
+
+<a id="s-04"></a>
+#### S-04 — Crystal Carey Senate Confirmation, NLRB General Counsel (December 2025) [VERIFIED]
+
+**Citation:** Senate confirmation of Crystal Carey as NLRB General Counsel, December 2025. Carey previously partner at Morgan Lewis & Bockius, representing management clients. Confirmed alongside Board Members James R. Murphy and Scott Mayer, restoring three-member quorum.
+
+**URL:** [pending retrieval — Crystal Carey NLRB General Counsel Senate confirmation December 2025]
+
+**Supports claims:** MC-02 — GC name correction; SD1 §2 (MC-02 PRINCIPAL ANCHOR); SD4 §2/§9; Synthesis §4 Cluster 1.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-05"></a>
+#### S-05 — OSHA Heat Illness Prevention Rule, Extension of Post-Hearing Comment Period (September 25, 2025) [VERIFIED]
+
+**Citation:** OSHA, Notice, "Heat Injury and Illness Prevention in Outdoor and Indoor Work Settings — Extension of Post-Hearing Comment Period," *Federal Register*, September 25, 2025. Comment period extended to October 30, 2025.
+
+**URL:** [pending retrieval — OSHA heat illness prevention rule comment period extension September 25 2025 Federal Register]
+
+**Supports claims:** MC-04 — date correction (comment period close September 30 → October 30); SD3 §1 (MC-04 PRINCIPAL ANCHOR); SD3 §9; Synthesis §4 Cluster 1.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-06"></a>
+#### S-06 — OFCCP Staffing and Operational Reduction Documentation (2025–2026) [VERIFIED]
+
+**Citation:** Documentation of OFCCP workforce and operational reductions following Secretary's Order 03-2025 (January 24, 2025), including reduction from approximately 479 employees in 55 offices to approximately 50 employees in 4 regional locations. Section 503 (disability) and VEVRAA (veterans) enforcement resumed under Secretary's Order 08-2025 (July 2, 2025). FY2026 OBBBA eliminates OFCCP funding entirely, pending Congressional action.
+
+**URL:** [pending retrieval — OFCCP staffing reduction Secretary Order 03-2025 2025-2026]
+
+**Supports claims:** MC-01 — OFCCP operational elimination documentation; SD1 §2 (MC-01 PRINCIPAL ANCHOR); SD5 §2/§7; Synthesis §4 Cluster 1.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-07"></a>
+#### S-07 — SBA 8(a) Race-Neutral Guidance (January 22, 2026) [VERIFIED] [D8 MC-02 carry-forward]
+
+**Citation:** Small Business Administration formal guidance confirming the 8(a) program restructured to race-neutral criteria as of January 22, 2026, following *Ultima Services Corp. v. USDA* (E.D. Tenn. 2023) and OLC guidance. Approximately 65 admissions in 2025 vs. hundreds historically; 1,000+ participants suspended in January 2026. Source originated in D8 Phase 3; carried forward operatively into D10.
+
+**URL:** [pending retrieval — SBA 8(a) race-neutral guidance January 22 2026 Ultima Services]
+
+**Supports claims:** SD1 §2 (D8 MC-02 carry-forward secondary); SD5 §2 (D8 MC-02 carry-forward secondary); Synthesis §5 carry-forwards. No D10 Phase 3 MC directly.
+
+**Verification status:** VERIFIED.
+
+---
+
+### State and Local Authority
+
+<a id="s-08"></a>
+#### S-08 — Pennsylvania Bulletin, PA UC Maximum Weekly Benefit Notice (effective January 1, 2026) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Labor and Industry, official notice published in the Pennsylvania Bulletin confirming maximum weekly UC benefit of $605/week effective January 1, 2026, following determination that the trigger percentage fell below 250% of the solvency threshold as of July 1, 2025, activating the 3.2% solvency reduction mechanism under 43 P.S. § 402(g)(1).
+
+**URL:** [pending retrieval — Pennsylvania Bulletin PA UC maximum weekly benefit $605 January 1 2026]
+
+**Supports claims:** MC-05 — PA UC maximum weekly benefit correction ($854 → $605); SD6 §2 (MC-05 PRINCIPAL ANCHOR); SD6 §4/§5/§7/§8/§9; Synthesis §4 Cluster 3. Standard 17: $854/week preserved as prior-method baseline; $605/week as current operative.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-09"></a>
+#### S-09 — PA House of Representatives Co-Sponsorship Memorandum, PA UC Trust Fund (May 2025) [VERIFIED]
+
+**Citation:** Pennsylvania House of Representatives co-sponsorship memorandum, May 2025, documenting the PA UC Trust Fund's below-solvency status and projecting 10+ years to full solvency under current contribution and benefit parameters.
+
+**URL:** [pending retrieval — PA House co-sponsorship memorandum PA UC Trust Fund solvency May 2025]
+
+**Supports claims:** MC-06 (part of PRINCIPAL ANCHOR documentation base alongside S-10); SD6 §2; SD6 §9; Synthesis §4 Cluster 3.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-10"></a>
+#### S-10 — PA Department of Labor and Industry Actuarial Evaluation, UC Trust Fund (2025) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Labor and Industry, actuarial evaluation of the Pennsylvania UC Trust Fund (2025), confirming below-solvency status and documenting projected recovery trajectory of 10+ years under current parameters.
+
+**URL:** [pending retrieval — PA Department of Labor and Industry UC Trust Fund actuarial evaluation 2025]
+
+**Supports claims:** MC-06 (part of PRINCIPAL ANCHOR documentation base alongside S-09); SD6 §2; SD6 §9; Synthesis §4 Cluster 3.
+
+**Verification status:** VERIFIED.
+
+---
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 10 | 10 |
+| New entries added during pass | — | 0 |
+| Entries retired (duplicate / superseded) | — | 0 |
+| Multi-URL bundles split | — | 0 |
+| Source-workspace entries promoted | — | N/A |
+
+**Old-ID → new S-NN mapping**
+
+| Old ID or label | New S-NN |
+|---|---|
+| Source 13 (NLRB joint employer final rule Feb 2026) | S-01 |
+| Source 11 (Executive Order 14173) | S-02 |
+| Source 18 (*State of Texas v. DOL*, E.D. Tex.) | S-03 |
+| Source 12 (Crystal Carey NLRB GC confirmation Dec 2025) | S-04 |
+| Source 14 (OSHA heat illness extension notice Sep 25 2025) | S-05 |
+| Source 19 (OFCCP staffing reduction documentation 2025-2026) | S-06 |
+| Source 2 / D8 carry-forward (SBA 8(a) race-neutral guidance Jan 22 2026) | S-07 |
+| Source 15 (PA Bulletin UC max weekly benefit Jan 1 2026) | S-08 |
+| Source 16 (PA House co-sponsorship memo UC Trust Fund May 2025) | S-09 |
+| Source 17 (PA L&I UC Trust Fund actuarial evaluation 2025) | S-10 |
+
+**Category decisions worth flagging**
+
+- D10 CR is Phase 3–only by design: pre-Phase-3 sources documented in Phase 1/2 working files, not promoted here. S-01 through S-10 cover Phase 3 sources only.
+- Source 2 (D8 MC-02 carry-forward) assigned S-07 in Federal Agency Materials. It does not directly support any D10 Phase 3 MC; no MC Sources line assignment; body citation only at SD1 §2 and SD5 §2 (carry-forward secondary).
+- S-03 (*State of Texas v. DOL*) supports FLSA Standard 17 architecture body content (SD2 §2; SD1 §9) but is not tied to a D10 Phase 3 MC. No MC Sources line assignment; body citation only.
+- All 10 CR entries lack URLs in the pre-normalization CR. `[pending retrieval]` used throughout. URL-retrieval pass required before Phase B source linking.
+- MC-07 (D10-Q2 wage theft confidence calibration) has no external Phase 3 CR source — the MC documents a held-open judgment, not an externally-sourced fact. Sources line flags this accordingly; pre-Phase-3 body sources in D10 working files.
+- Category ordering: S-02 (Executive Orders) precedes S-01 (Federal Statutes and Regulations) because EO 14173 anchors MC-01, the first and most analytically significant MC. Within-category ordering maintained sequentially (S-01 in Federal Statutes; S-02 in Executive Orders; S-03 in Court Decisions; S-04–S-07 in Federal Agency Materials; S-08–S-10 in State and Local Authority).
 
 ---
 

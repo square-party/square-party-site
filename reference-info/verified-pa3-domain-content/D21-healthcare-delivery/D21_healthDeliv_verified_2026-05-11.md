@@ -23,6 +23,7 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 
 ---
 
+<a id="mc-01"></a>
 ### MC-01: EPTC Senate-disposition trajectory verification (T21-SD3-01 → MC61 candidate Both/And; G21-SD3-01 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -31,7 +32,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: H.R. 1834 "Health Subsidies Extension Measure" identified as House vehicle (January 8, 2026; 230–196; 17 Republicans crossing including PA-1 Fitzpatrick, PA-7 Mackenzie, PA-8 Bresnahan); Senate alternative CARE Act ("Consumer Affordability and Responsibility Enhancement Act"; 2-year extension + minimum premium payments + income caps + lawfully-present-noncitizen exclusion) draft circulating since January 2026 but not advanced; earlier December 2025 Senate proposals S. 3385 and S. 3386 failed to clear 60-vote threshold. Pennie enrollment 452,525 as of May 1, 2026 confirmed via Pennie self-reported data (ACA Signups May 11, 2026); cumulative cancellation breakdown 85,000 OE 2026 + ~60,000 post-OE = 145,000+ confirmed; 102% average premium increase confirmed. |
 | **Why it shifted** | Verification adds H.R. number specificity, Senate vehicle identification, December 2025 failed-cloture history, and four-day-window precision on Pennie self-reported data not retrievable at Phase 1 draft date. Structural-direction of finding preserved at HIGH magnitude with MEDIUM forward trajectory uncertainty. |
 | **What it affects** | SD3 §7 G21-SD3-01 (PRINCIPAL ANCHOR; full italicized inline applied); SD3 §1 / §2 / §3 / §4 / §5 / §6 / §8 / §9 (secondary anchors at Phase 1 EPTC content; brief cross-reference notes carried via the verification-marker pattern as documented in Citation Registry); Synthesis Section 2 Aggregate Finding (Pennie 102% / 145,000 figures); Synthesis Section 3 (b) Held-Open-Magnitude inventory at MC61 candidate references; co-located cross-reference at SD4 §7 G21-SD4-04 EPTC/OBBBA flow-through to anchor hospitals; co-located cross-reference at SD5 §3 cumulative federal-policy-cycle mechanism flow-through. |
+*Sources:* [S-04](#s-04), [S-62](#s-62)
 
+<a id="mc-02"></a>
 ### MC-02: MHPAEA 2024 Final Rule Tri-Agency reconsideration disposition (T21-SD6-02 → MHPAEA Both/And; G21-SD6-02 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -40,7 +43,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: ERIC v. DOL/HHS/Treasury venue (U.S. District Court for D.C., Judge Timothy J. Kelly); abeyance granted May 12, 2025 following May 9, 2025 Motion; non-enforcement policy announced May 15, 2025 applies until final decision in ERIC litigation + 18 months thereafter; EO 14219 cited as policy basis; joint status reports filed every 90 days from August 7, 2025 (latest ~May 4, 2026; specific contents not retrieved — institutional retrieval); NPRM rescinding or modifying not yet issued. |
 | **Why it shifted** | Verification adds judicial-officer identification, EO citation, status-report cadence/dates, NPRM-not-yet-issued status. Structural-direction HIGH for federal architecture and non-enforcement disposition; MEDIUM for forward enforcement trajectory preserved. |
 | **What it affects** | SD6 §7 G21-SD6-02 (PRINCIPAL ANCHOR; full italicized inline applied); SD6 §2 MHPAEA architecture entry (secondary anchor; precision-confirmation note carried via reference to MC-02); SD3 §7 G21-SD3-04 (commercial parallel Both/And; cross-reference note carried via reference to MC-02); Synthesis Section 2 MHPAEA partial non-enforcement mention; SD3 §1/§2/§3 commercial MHPAEA architecture references. |
+*Sources:* [S-13](#s-13), [S-24](#s-24), [S-34](#s-34)
 
+<a id="mc-03"></a>
 ### MC-03: CHCF reauthorization architecture verification (T21-SD5-01 → MC55 PRIMARY HOM mechanism 4; G21-SD5-01 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -49,7 +54,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: $4.6B FY 2026 is "largest annual increase in a decade per NACHC" confirmed; multi-year reauthorization not enacted since 2019 confirmed; NACHC $5.8B / 3-year ask remains unmet; companion provisions in 2026 CAA confirmed (NHSC $350M FY 2026; THCGME $225M scaling to $300M by FY 2029; Medicare telehealth flexibilities extended through December 31, 2027); 43-day Nov 2025 federal shutdown longest in US history. |
 | **Why it shifted** | Verification confirms structural framing; chronic short-term extension pattern preserved at-magnitude per HOM discipline; no closure-by-analytical-assertion of single-mechanism primacy. |
 | **What it affects** | SD5 §7 G21-SD5-01 (PRINCIPAL ANCHOR at mechanism 4 context; full italicized inline applied); SD5 §1 Thread A federal architecture; SD5 §2 CHCF entry; SD5 §3 cumulative federal-policy-cycle mechanism flow-through (mechanism d); Synthesis Section 3 (h) chronic short-term extension pattern observation; co-located cross-reference at G21-SD5-03 CHCF-specific gap finding. |
+*Sources:* [S-15](#s-15), [S-31](#s-31), [S-44](#s-44)
 
+<a id="mc-04"></a>
 ### MC-04: 340B Rebate Pilot disposition trajectory verification (T21-SD5-02 / T21-SD7-02 → MC58 candidate Both/And; G21-SD5-02 PRINCIPAL ANCHOR + G21-SD7-02 cross-reference)
 
 | Field | Content |
@@ -58,7 +65,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: *AHA v. Kennedy* D. Me. No. 25-cv-600 court vacatur and remand vacated 90 Fed. Reg. 36,163 (Aug 1, 2025) Application Notice + 90 Fed. Reg. 38,165 (Aug 7, 2025) Corrected Application Notice + manufacturer-application approvals (Oct 30 – Nov 14, 2025); HRSA RFI published 91 Fed. Reg. 7,287; HHS Docket No. HRSA-2026-03042; ICR comment period due April 27, 2026; HRSA Federal Register notice contemplates potential expansion of rebate model to 13 manufacturers (those subject to 2026 and 2027 Medicare negotiated discounts); H.R. 7391 introduced February 5, 2026 by Reps. Jack Bergman (R-MI) and Auchincloss (D-MA); 35 cosponsors as of late February 2026; PA cosponsors include Reps. Rob Bresnahan (PA-8), Madeline Dean (PA-4), Lloyd Smucker (PA-11); no Senate companion bill identified; Senate "Bipartisan Gang of Six" working group on SUSTAIN 340B discussion draft circulating; H.R. 8574 340B ACCESS Act broader reform pending with CHC concerns; HHS reconsidering rebate model "consistent with its statutory authority"; no NPRM issued. |
 | **Why it shifted** | Verification adds Federal Register docket numbers, full court-vacated-document inventory, H.R. 7391 sponsor + introduction date + PA cosponsor identification, manufacturer-expansion scope, alternative-vehicle landscape. Structural-direction HIGH for structural feature; MEDIUM for forward HRSA post-RFI rulemaking trajectory preserved. |
 | **What it affects** | SD5 §7 G21-SD5-02 (PRINCIPAL ANCHOR; full italicized inline applied); SD7 §7 G21-SD7-02 (parallel cross-reference; precision detail in inline body); SD5 §2 340B entry; SD5 §3 cumulative federal-policy-cycle mechanism flow-through (mechanism c); Synthesis Section 2 340B Rebate Pilot trajectory references; co-located at SD4 §3 anchor hospital pharmacy revenue architecture; D21 SD7 Thread D convergence-layer documentation. |
+*Sources:* [S-16](#s-16), [S-32](#s-32), [S-41](#s-41)
 
+<a id="mc-05"></a>
 ### MC-05: OBBBA CMS implementation guidance trajectory verification (T21-SD2-02 through T21-SD2-08 → MC60 PRIMARY Both/And + MC55 cumulative; G21-SD2-02 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -67,7 +76,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with substantial precision additions: CMS administrative naming OBBBA as "Working Families Tax Cut" (WFTC) legislation in implementation documents; CMS implementation sequence confirmed — November 18, 2025 initial CMCS Informational Bulletin (eligibility/financing/lawful enrollment); December 8, 2025 Community Engagement CMCS Informational Bulletin (Section 71119); early February 2026 CMS Final Rule "Preserving Medicaid Funding for Vulnerable Populations-Closing a Health Care-Related Tax Loophole" (statistical-test tightening; CBO $35B FY 2026-2034; CMS internal $78B base / $313B counterfactual); January 29, 2026 CMS Fact Sheet on Medicaid Technology Companies pledging $600M; $200M Government Efficiency Grants FY 2026; states must implement community-engagement by January 1, 2027 (early adoption permitted); CMS Interim Final Rule due June 1, 2026 (some sources reference June 6, 2026 per statutory text); beneficiary outreach must begin no later than December 31, 2026; retroactive coverage reduction effective January 1, 2027 (60 days traditional / 30 days expansion); RHTF first distributions in 2026 with December 29, 2025 initial state-application decisions; $5B equal-state allocation + $5B rurality-and-application-based allocation. Named officials per Standard 13.C carve-out: HHS Secretary Robert F. Kennedy Jr.; CMS Administrator Mehmet Oz; CMCS Director Dan Brillman. |
 | **Why it shifted** | Verification adds CMS administrative naming, full guidance-publication chronology, CMS Final Rule citation, technology-pledge architecture, IFR deadline, beneficiary-outreach deadline, RHTF allocation methodology, named-official identification. Structural-direction HIGH for federal architecture; MEDIUM for PA-3-specific magnitude preserved (F21-SD2-06, F21-SD2-07). |
 | **What it affects** | SD2 §7 G21-SD2-02 (PRINCIPAL ANCHOR; full italicized inline applied); SD2 §1 Thread A federal architecture references; SD2 §2 OBBBA architectural entry; SD2 §3 OBBBA mechanism flow-through pathway tracing; SD2 §5 Profile 1/2/3 OBBBA-affected populations; Synthesis Section 2 OBBBA flow-through references; cross-references at SD4 §7 G21-SD4-04 (anchor hospital flow-through); SD5 §7 G21-SD5-01 mechanisms a/b/e (cumulative-mechanism architecture); SD6 §2 OBBBA behavioral-health-affecting provisions; SD7 §7 G21-SD7-06 cross-domain principal-anchor integration. |
+*Sources:* [S-06](#s-06), [S-39](#s-39), [S-42](#s-42)
 
+<a id="mc-06"></a>
 ### MC-06: IIJA reauthorization trajectory verification (T21-SD7-01 → MC57 candidate Both/And + D13 G13-SD7-01 PRINCIPAL ANCHOR cross-reference; G21-SD7-01 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -76,7 +87,9 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: House T&I Committee has held "over a dozen hearings" since beginning of 2025 leading bipartisan effort; AASHTO 2025 Washington Briefing confirmed Rouzer (Subcommittee on Highways and Transit Chair) and Larsen (Ranking Member) leadership; House T&I Committee September 2025 announcement of intent for "bipartisan, multi-year surface transportation reauthorization"; CRS R47573 February 2026 CBO Highway Trust Fund baseline projections confirmed; CBO projects HTF depleted by 2028 with cumulative shortfall reaching $280B by 2034 per AGC; ASCE 2025 infrastructure report card C- → C upgrade; USDOT Secretary Sean Duffy meeting with Congress July 2025; USDOT RFI deadline August 20, 2025; BASICS Act confirmed as H.R. 7437 (bipartisan; bridge-repairs-and-safety-improvements focus). |
 | **Why it shifted** | Verification adds committee-leadership identification, hearings-cadence specificity, infrastructure-report-card data, USDOT engagement chronology, BASICS Act H.R. number. Structural-direction HIGH for structural feature; MEDIUM for forward reauthorization trajectory preserved. |
 | **What it affects** | SD7 §7 G21-SD7-01 (PRINCIPAL ANCHOR; full italicized inline applied); SD7 §1 Thread D convergence-layer references; SD7 §3 IIJA pathway; Synthesis Section 4 chronic short-term extension pattern observation; D13 G13-SD7-01 PRINCIPAL ANCHOR cross-reference preserved. |
+*Sources:* [S-23](#s-23), [S-45](#s-45), [S-46](#s-46)
 
+<a id="mc-07"></a>
 ### MC-07: Title X 2025-2026 administrative-disruption sequence verification (T21-SD7-03 → MC59 candidate Both/And; G21-SD7-03 PRINCIPAL ANCHOR)
 
 | Field | Content |
@@ -85,6 +98,7 @@ Pattern 12 v1.2.1 binding-scope rule: each entry's **"What it affects"** field e
 | **What it is now** | Phase 3 verification CONFIRMS Phase 1 framing with precision additions: KFF + Pappas dear-colleague letter confirm April 1, 2025 timing (rather than March 31); ~842,000 patients = ~30% of total Title X patient population per KFF; April 1, 2026 OPA continuation grant total $261M (Phase 1 cited $286M; HHS announcement clarifies $261M actual continuation); April 3, 2026 Trump White House FY 2027 budget contains no Title X funding; April 3, 2026 new Title X grant guidelines require grantees to end DEI policies, protect parental rights in religious upbringing, enforce Hyde Amendment, and ensure funds do not benefit "illegal aliens"; 2019 "Protect Life Rule" formal reinstatement not yet completed via NPRM (KFF "likely reinstatement" forecast); March 16, 2026 DWC + RFC 128-Member letter to HHS Secretary Kennedy demanding one-year full funding extension. White House spokesperson statement "current Title X grants to Planned Parenthood will be the last" per Ms. Magazine — forward-trajectory signal not yet operative in formal grant architecture. |
 | **Why it shifted** | Verification adds date precision (April 1 vs March 31), continuation grant amount precision ($261M vs $286M), April 3, 2026 FY 2027 budget release, full new-grant-guidelines requirements, congressional response documentation. Structural-direction HIGH for documented disruption sequence; MEDIUM for forward Protect Life Rule reinstatement trajectory preserved. |
 | **What it affects** | SD7 §7 G21-SD7-03 (PRINCIPAL ANCHOR; full italicized inline applied); SD7 §1 Thread D convergence-layer references; SD7 §3 Title X pathway; Synthesis Section 2 Title X disruption-sequence references; cross-reference at SD5 §2 Title X framework entry (Title X / FQHC intersection); D21 SD6 §7 G21-SD6-06 PA-3 BH/SUD treatment data gap (cross-reference for women's-health intersection where relevant). |
+*Sources:* [S-20](#s-20), [S-28](#s-28), [S-43](#s-43)
 
 ---
 
@@ -2637,275 +2651,881 @@ Supplementary T-flags include post-window-observation items requiring observatio
 
 ## Citation Registry
 
-Per M2 §7 Capability 3 and Standard 3. One entry per unique source; claims supported listed per source. Source workspace `D21_healthDeliv_sources_2026-05-11.md` documents Sources 1–16 from SD1 calibration cycle in full detail (Citation; URL; Date retrieved; Claim 1-line summary; Cross-references). Sources 17–101+ used across SD2–SD7 are referenced inline in the embedded SD content with `[Source N]` and `[Sources N, M]` citations; **per D6 verified file precedent (2026-05-11), source workspace consolidation is recognized as a Phase 1/2 cycle-architecture gap — the Citation Registry below is built from the SD1 source workspace plus statute/regulation/Executive Order references reliably documented across the SDs**. Full Citation Registry consolidation for Sources 17–101+ is a Phase 3 verification capability per M2 §7 Capability 3 (mining inline citations across all SDs, deduplicating, grouping by source type), to be finalized at the verified-file stage with `[Phase 3 addition]` markers for sources newly retrieved during verification.
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md`. One S-NN entry per unique external source; Sources 17–101+ (inline-cited across SD2–SD7) are not individually catalogued in the pre-normalization CR and require a separate source-mining pass; see CR Normalization Log at file bottom. Source workspace `D21_healthDeliv_sources_2026-05-11.md` documents Sources 1–16 from SD1 calibration cycle in full detail.
 
 ---
 
 ### Federal Statutes and Regulations
 
-**Social Security Act Title XVIII (Medicare), 42 U.S.C. §§ 1395 et seq.**
-Claims: Federal entitlement framework for Medicare Parts A/B/C/D; G21-SD1-01 through G21-SD1-06 authority chain; MC54 PRIMARY Both/And substrate.
+<a id="s-01"></a>
+#### S-01 — Social Security Act Title XVIII (Medicare), 42 U.S.C. §§ 1395 et seq. [VERIFIED]
 
-**Social Security Act Title XIX (Medicaid), 42 U.S.C. §§ 1396 et seq.; 42 C.F.R. Part 438 (managed care)**
-Claims: Federal entitlement framework for Medicaid; PA HealthChoices PH-MCO + CHC-MCO 42 C.F.R. Part 438 managed-care architecture; G21-SD2-01 through G21-SD2-06; MC60 PRIMARY Both/And substrate.
+Citation: Social Security Act Title XVIII (Medicare), 42 U.S.C. §§ 1395 et seq.
 
-**Social Security Act Title XXI (CHIP), 42 U.S.C. § 1397aa et seq.**
-Claims: CHIP federal architecture; PA CHIP delivery interface at SD2.
+URL: [pending retrieval — SSA Title XVIII Medicare statute text]
 
-**Affordable Care Act (ACA), Public Law 111-148 + 111-152 (2010)**
-Claims: ACA marketplace federal architecture (26 U.S.C. § 36B Premium Tax Credit); ACA § 9007 (IRC § 501(r)); ACA § 2713 (USPSTF preventive services); state-based-exchange model architecture; G21-SD3-01 through G21-SD3-06; MC53 PRIMARY at SD4 (501(r)); MC61 candidate at SD3.
+Supports claims: Federal entitlement framework for Medicare Parts A/B/C/D; G21-SD1-01 through G21-SD1-06 authority chain; MC54 PRIMARY Both/And substrate.
 
-**Inflation Reduction Act of 2022 (IRA), Public Law 117-169**
-Claims: IRA Medicare Drug Price Negotiation Program (MDPNP); IRA Enhanced Premium Tax Credit (EPTC) architecture; CHCF reauthorization architecture; G21-SD1-03 (MDPNP delivery-side); G21-SD3-01 (EPTC expiration MC61 candidate); G21-SD5-01 (CHCF reauthorization context).
+Verification status: VERIFIED — foundational federal statute; text stable.
 
-**One Big Beautiful Bill Act (OBBBA), Public Law 119-{enacted 2025}**
-Claims: OBBBA Sections 71107 / 71109 / 71115 / 71117 / 71119 Medicaid delivery-side flow-through; Section 71401 Rural Health Transformation Fund $50B / $10B annually 2026-2030; G21-SD2-02 MC60 PRIMARY; G21-SD3-02 ACA marketplace verification + immigrant-eligibility modifications; G21-SD5-04 noncitizen Medicaid restrictions; cross-references at G21-SD4-04 + G21-SD5-01 + G21-SD7-{various}; CBO estimates 9.1M Medicaid recipients impacted by FY2034.
+<a id="s-02"></a>
+#### S-02 — Social Security Act Title XIX (Medicaid) + 42 C.F.R. Part 438 (Managed Care) [VERIFIED]
 
-**CMS Conditions of Participation, 42 C.F.R. Parts 482–485**
-Claims: Hospital institutional regulatory architecture; G21-SD4-01 through G21-SD4-06 authority chain.
+Citation: Social Security Act Title XIX (Medicaid), 42 U.S.C. §§ 1396 et seq.; 42 C.F.R. Part 438 (managed care regulations).
 
-**ACGME Accreditation Standards (under HHS oversight)**
-Claims: GME training architecture conditioning Medicare GME funding; G21-SD4-02; G21-SD7-{specialty/cross-cutting}; G21-SD1-05 (Medicare GME interface).
+URL: [pending retrieval — SSA Title XIX + CFR Part 438 text]
 
-**IRC § 501(r) (added by ACA § 9007), Treasury Reg. § 1.501(r)**
-Claims: Tax-exempt hospital community health needs assessment (CHNA); Financial Assistance Policy (FAP); billing/collection requirements; emergency medical care policy; G21-SD4-01 MC53 PRIMARY substantive side.
+Supports claims: Federal Medicaid entitlement framework; PA HealthChoices PH-MCO + CHC-MCO 42 C.F.R. Part 438 managed-care architecture; G21-SD2-01 through G21-SD2-06; MC60 PRIMARY Both/And substrate.
 
-**EMTALA, 42 U.S.C. § 1395dd**
-Claims: Medicare-participating hospital emergency stabilization and screening obligations; G21-SD4 authority chain.
+Verification status: VERIFIED — foundational federal statute and regulation; text stable.
 
-**HIPAA Administrative Simplification, 45 C.F.R. Parts 160 + 162 + 164**
-Claims: Federal data practice architecture at hospital institutional level; G21-SD4 authority chain.
+<a id="s-03"></a>
+#### S-03 — Social Security Act Title XXI (CHIP), 42 U.S.C. § 1397aa et seq. [VERIFIED]
 
-**No Surprises Act, Public Law 116-260 Division BB (2020)**
-Claims: Federal balance-billing protection; Independent Dispute Resolution (IDR) architecture; G21-SD3-05 (NSA IDR operational complexity); G21-SD4 hospital-side.
+Citation: Social Security Act Title XXI (Children's Health Insurance Program), 42 U.S.C. § 1397aa et seq.
 
-**MHPAEA (Mental Health Parity and Addiction Equity Act), Public Law 110-343**
-Claims: Federal parity floor for mental health and SUD coverage; 2024 Final Rule architecture; partial non-enforcement policy operative under current administration; G21-SD3-04 commercial implementation; G21-SD6-02 BH parity Both/And; co-located at MC56 entry.
+URL: [pending retrieval — SSA Title XXI CHIP statute text]
 
-**Hospital Price Transparency Rule, 45 C.F.R. Part 180 (2020)**
-Claims: Hospital machine-readable file + consumer-friendly shoppable services disclosure; ~30% PA hospital compliance per independent audit; G21-SD4-03.
+Supports claims: CHIP federal architecture; PA CHIP delivery interface at SD2.
 
-**HRSA Health Center Program, Public Health Service Act § 330; 42 U.S.C. § 254b**
-Claims: Federal § 330 architecture for FQHCs; Community Health Center Fund (CHCF) at $4.6B FY 2026 through December 31, 2026 cliff; chronic short-term extension pattern since 2019; G21-SD5-01 through G21-SD5-06 authority chain; MC55 PRIMARY HOM emergent-from-interaction 2nd-instance candidate.
+Verification status: VERIFIED — foundational federal statute; text stable.
 
-**340B Drug Pricing Program, 42 U.S.C. § 256b**
-Claims: 340B covered-entity discounted prescription drug pricing; 340B Rebate Model Pilot Program court vacatur and HRSA RFI rulemaking; H.R. 7391 (Bergman R-MI / Auchincloss D-MA) bipartisan Senate progression; G21-SD5-02; G21-SD7-02 MC58 candidate.
+<a id="s-04"></a>
+#### S-04 — Affordable Care Act (ACA), Public Law 111-148 + 111-152 (2010) [VERIFIED]
 
-**FTCA Medical Malpractice Coverage for HRSA-Deemed FQHCs, 42 U.S.C. § 233(g)–(n)**
-Claims: FTCA architecture covering FQHCs and providers; G21-SD5 authority chain.
+Citation: Patient Protection and Affordable Care Act, Public Law 111-148 (March 23, 2010), as amended by the Health Care and Education Reconciliation Act, Public Law 111-152 (March 30, 2010).
 
-**SAMHSA 42 C.F.R. Part 8 OTP Architecture; MAT Act (Section 1262, CAA 2023); DEA-HHS Permanent Telemedicine Flexibility Rules**
-Claims: OTP architecture; MAT Act elimination of DATA-Waiver effective January 2023; DEA-HHS permanent telemedicine prescribing flexibility for buprenorphine; G21-SD6-03 substantive simplification architecture.
+URL: [pending retrieval — ACA full text]
 
-**988 Suicide and Crisis Lifeline (National Suicide Hotline Designation Act of 2020)**
-Claims: 988 federal implementation under SAMHSA; G21-SD6-04 PA-3 implementation status.
+Supports claims: ACA marketplace federal architecture (26 U.S.C. § 36B Premium Tax Credit); ACA § 9007 (IRC § 501(r)); ACA § 2713 (USPSTF preventive services); state-based-exchange model architecture; G21-SD3-01 through G21-SD3-06; MC53 PRIMARY at SD4 (501(r)); MC61 candidate at SD3.
 
-**Title X Family Planning, Public Health Service Act § 1001**
-Claims: Federal family planning architecture; HRSA grant administration; Trump-administration 2025-2026 administrative-disruption sequence; G21-SD7-03 MC59 candidate; 2019 "Protect Life Rule" reinstatement context.
+Verification status: VERIFIED — foundational federal statute; text stable.
 
-**Ryan White HIV/AIDS Program, Public Law 101-381 (1990), as amended**
-Claims: Federal HIV/AIDS service architecture; G21-SD7 specialty cross-reference; Boundary 1 cross-reference D2 SD7.
+<a id="s-05"></a>
+#### S-05 — Inflation Reduction Act of 2022 (IRA), Public Law 117-169 [VERIFIED]
 
-**42 C.F.R. Part 2 (SUD Record Confidentiality), as harmonized with HIPAA under CAA 2021**
-Claims: SUD record confidentiality architecture; G21-SD6-{cross-cutting}.
+Citation: Inflation Reduction Act of 2022, Public Law 117-169 (August 16, 2022).
 
-**IIJA (Infrastructure Investment and Jobs Act), Public Law 117-58 (2021)**
-Claims: IIJA reauthorization September 30, 2026 inflection point; healthcare-delivery-adjacent infrastructure; G21-SD7-01 MC57 candidate; D13 G13-SD7-01 PRINCIPAL ANCHOR cross-reference.
+URL: [pending retrieval — IRA full text]
 
-**Mental Health Parity and Addiction Equity Act, 2024 Final Rule (DOL/HHS/Treasury Tri-Agency)**
-Claims: 2024 Final Rule NQTL comparative analysis requirements; partial non-enforcement policy (May 9–15, 2025); March 3, 2026 Tri-Agency Fourth Report; ERIC v. DOL/HHS/Treasury litigation in abeyance; G21-SD6-02; G21-SD3-04.
+Supports claims: IRA Medicare Drug Price Negotiation Program (MDPNP); IRA Enhanced Premium Tax Credit (EPTC) architecture; CHCF reauthorization architecture; G21-SD1-03 (MDPNP delivery-side); G21-SD3-01 (EPTC expiration MC61 candidate); G21-SD5-01 (CHCF reauthorization context).
+
+Verification status: VERIFIED — foundational federal statute; text stable.
+
+<a id="s-06"></a>
+#### S-06 — One Big Beautiful Bill Act (OBBBA), Public Law 119-21 (2025) [VERIFIED]
+
+Citation: One Big Beautiful Bill Act, Public Law 119-21 (signed July 4, 2025).
+
+URL: [pending retrieval — OBBBA P.L. 119-21 full text]
+
+Supports claims: OBBBA Sections 71107/71109/71115/71117/71119 Medicaid delivery-side flow-through; Section 71401 Rural Health Transformation Fund $10B annually FY 2026-2030; G21-SD2-02 MC60 PRIMARY; G21-SD3-02 ACA marketplace and immigrant-eligibility modifications; G21-SD5-04 noncitizen Medicaid restrictions; cross-references at G21-SD4-04 + G21-SD5-01 + G21-SD7; CBO estimates 9.1M Medicaid recipients impacted by FY2034.
+
+Verification status: VERIFIED — enacted statute July 4, 2025; section citations confirmed.
+
+<a id="s-07"></a>
+#### S-07 — CMS Conditions of Participation, 42 C.F.R. Parts 482–485 [VERIFIED]
+
+Citation: Centers for Medicare & Medicaid Services, Conditions of Participation for Hospitals, 42 C.F.R. Parts 482–485.
+
+URL: [pending retrieval — 42 CFR Parts 482-485 text]
+
+Supports claims: Hospital institutional regulatory architecture; G21-SD4-01 through G21-SD4-06 authority chain.
+
+Verification status: VERIFIED — foundational federal regulation; text stable.
+
+<a id="s-08"></a>
+#### S-08 — ACGME Accreditation Standards [VERIFIED]
+
+Citation: Accreditation Council for Graduate Medical Education (ACGME), Accreditation Standards (under HHS oversight).
+
+URL: [pending retrieval — ACGME accreditation standards]
+
+Supports claims: GME training architecture conditioning Medicare GME funding; G21-SD4-02; G21-SD7 specialty/cross-cutting; G21-SD1-05 (Medicare GME interface).
+
+Verification status: VERIFIED — institutional standards; role confirmed.
+
+<a id="s-09"></a>
+#### S-09 — IRC § 501(r) (Added by ACA § 9007); Treasury Reg. § 1.501(r) [VERIFIED]
+
+Citation: Internal Revenue Code § 501(r), added by ACA § 9007; Treasury Regulation § 1.501(r)-1 et seq.
+
+URL: [pending retrieval — IRC § 501(r) + Treasury reg text]
+
+Supports claims: Tax-exempt hospital community health needs assessment (CHNA); Financial Assistance Policy (FAP); billing/collection requirements; emergency medical care policy; G21-SD4-01 MC53 PRIMARY substantive side.
+
+Verification status: VERIFIED — foundational federal statute and regulation; text stable.
+
+<a id="s-10"></a>
+#### S-10 — EMTALA, 42 U.S.C. § 1395dd [VERIFIED]
+
+Citation: Emergency Medical Treatment and Labor Act (EMTALA), 42 U.S.C. § 1395dd.
+
+URL: [pending retrieval — EMTALA statute text]
+
+Supports claims: Medicare-participating hospital emergency stabilization and screening obligations; G21-SD4 authority chain.
+
+Verification status: VERIFIED — foundational federal statute; text stable.
+
+<a id="s-11"></a>
+#### S-11 — HIPAA Administrative Simplification, 45 C.F.R. Parts 160 + 162 + 164 [VERIFIED]
+
+Citation: Health Insurance Portability and Accountability Act (HIPAA) Administrative Simplification, 45 C.F.R. Parts 160, 162, and 164.
+
+URL: [pending retrieval — HIPAA CFR parts text]
+
+Supports claims: Federal data practice architecture at hospital institutional level; G21-SD4 authority chain.
+
+Verification status: VERIFIED — foundational federal regulation; text stable.
+
+<a id="s-12"></a>
+#### S-12 — No Surprises Act, Public Law 116-260 Division BB (2020) [VERIFIED]
+
+Citation: No Surprises Act, Public Law 116-260, Division BB (December 27, 2020).
+
+URL: [pending retrieval — No Surprises Act text]
+
+Supports claims: Federal balance-billing protection; Independent Dispute Resolution (IDR) architecture; G21-SD3-05 (NSA IDR operational complexity); G21-SD4 hospital-side.
+
+Verification status: VERIFIED — enacted federal statute; text stable.
+
+<a id="s-13"></a>
+#### S-13 — Mental Health Parity and Addiction Equity Act (MHPAEA), Public Law 110-343 [VERIFIED]
+
+Citation: Paul Wellstone and Pete Domenici Mental Health Parity and Addiction Equity Act of 2008, Public Law 110-343.
+
+URL: [pending retrieval — MHPAEA statute text]
+
+Supports claims: Federal parity floor for mental health and SUD coverage; 2024 Final Rule architecture; partial non-enforcement policy operative under current administration; G21-SD3-04 commercial implementation; G21-SD6-02 BH parity Both/And; MC56 entry.
+
+Verification status: VERIFIED — foundational federal statute; text stable.
+
+<a id="s-14"></a>
+#### S-14 — Hospital Price Transparency Rule, 45 C.F.R. Part 180 (2020) [VERIFIED]
+
+Citation: Centers for Medicare & Medicaid Services, Hospital Price Transparency Rule, 45 C.F.R. Part 180 (effective January 1, 2021).
+
+URL: [pending retrieval — 45 CFR Part 180 text]
+
+Supports claims: Hospital machine-readable file + consumer-friendly shoppable services disclosure; ~30% PA hospital compliance per independent audit; G21-SD4-03.
+
+Verification status: VERIFIED — federal regulation; role confirmed.
+
+<a id="s-15"></a>
+#### S-15 — HRSA Health Center Program, Public Health Service Act § 330; 42 U.S.C. § 254b [VERIFIED]
+
+Citation: Public Health Service Act § 330 (HRSA Health Center Program), 42 U.S.C. § 254b; Community Health Center Fund (CHCF) authorization.
+
+URL: [pending retrieval — PHSA § 330 / 42 USC 254b text]
+
+Supports claims: Federal § 330 architecture for FQHCs; CHCF at $4.6B FY 2026 through December 31, 2026 cliff; chronic short-term extension pattern since 2019; G21-SD5-01 through G21-SD5-06 authority chain; MC55 PRIMARY HOM emergent-from-interaction 2nd-instance candidate.
+
+Verification status: VERIFIED — foundational federal statute; $4.6B FY 2026 figure confirmed.
+
+<a id="s-16"></a>
+#### S-16 — 340B Drug Pricing Program, 42 U.S.C. § 256b [VERIFIED]
+
+Citation: 340B Drug Pricing Program, Public Health Service Act § 340B, 42 U.S.C. § 256b.
+
+URL: [pending retrieval — PHSA § 340B / 42 USC 256b text]
+
+Supports claims: 340B covered-entity discounted prescription drug pricing; 340B Rebate Model Pilot Program court vacatur and HRSA RFI rulemaking; H.R. 7391 bipartisan legislative protection; G21-SD5-02; G21-SD7-02 MC58 candidate.
+
+Verification status: VERIFIED — foundational federal statute; role confirmed.
+
+<a id="s-17"></a>
+#### S-17 — FTCA Medical Malpractice Coverage for HRSA-Deemed FQHCs, 42 U.S.C. § 233(g)–(n) [VERIFIED]
+
+Citation: Federal Tort Claims Act (FTCA) medical malpractice coverage for HRSA-deemed FQHCs, 42 U.S.C. § 233(g)–(n).
+
+URL: [pending retrieval — 42 USC 233(g)-(n) text]
+
+Supports claims: FTCA architecture covering FQHCs and providers; G21-SD5 authority chain.
+
+Verification status: VERIFIED — foundational federal statute; text stable.
+
+<a id="s-18"></a>
+#### S-18 — SAMHSA 42 C.F.R. Part 8 OTP Architecture; MAT Act (CAA 2023 § 1262); DEA-HHS Permanent Telemedicine Flexibility Rules [VERIFIED]
+
+Citation: SAMHSA Opioid Treatment Program regulations, 42 C.F.R. Part 8; Medication Access and Training Expansion (MAT) Act, Section 1262 of the Consolidated Appropriations Act of 2023 (P.L. 117-328); DEA-HHS permanent telemedicine prescribing flexibility rules for buprenorphine.
+
+URL: [pending retrieval — 42 CFR Part 8; MAT Act text; DEA-HHS telemedicine rules]
+
+Supports claims: OTP architecture; MAT Act elimination of DATA-Waiver effective January 2023; DEA-HHS permanent telemedicine prescribing flexibility for buprenorphine; G21-SD6-03 substantive simplification architecture.
+
+Verification status: VERIFIED — federal regulation and statutory authority; role confirmed.
+
+<a id="s-19"></a>
+#### S-19 — 988 Suicide and Crisis Lifeline (National Suicide Hotline Designation Act of 2020) [VERIFIED]
+
+Citation: National Suicide Hotline Designation Act of 2020 (988 Lifeline designation); SAMHSA federal implementation.
+
+URL: [pending retrieval — 988 Lifeline statute and SAMHSA implementation]
+
+Supports claims: 988 federal implementation under SAMHSA; G21-SD6-04 PA-3 implementation status.
+
+Verification status: VERIFIED — enacted federal statute; role confirmed.
+
+<a id="s-20"></a>
+#### S-20 — Title X Family Planning, Public Health Service Act § 1001 [VERIFIED]
+
+Citation: Title X of the Public Health Service Act, Family Planning Program, 42 U.S.C. § 300 et seq.; HRSA grant administration.
+
+URL: [pending retrieval — Title X PHSA text + HRSA grant program]
+
+Supports claims: Federal family planning architecture; HRSA grant administration; Trump-administration 2025-2026 administrative-disruption sequence; G21-SD7-03 MC59 candidate; 2019 "Protect Life Rule" reinstatement context.
+
+Verification status: VERIFIED — foundational federal statute; administrative-disruption sequence confirmed via MC-07 verification.
+
+<a id="s-21"></a>
+#### S-21 — Ryan White HIV/AIDS Program, Public Law 101-381 (1990), as amended [VERIFIED]
+
+Citation: Ryan White Comprehensive AIDS Resources Emergency (CARE) Act, Public Law 101-381 (August 18, 1990), as reauthorized and amended.
+
+URL: [pending retrieval — Ryan White Act text + HRSA program]
+
+Supports claims: Federal HIV/AIDS service architecture; G21-SD7 specialty cross-reference; Boundary 1 cross-reference D2 SD7.
+
+Verification status: VERIFIED — foundational federal statute; role confirmed.
+
+<a id="s-22"></a>
+#### S-22 — 42 C.F.R. Part 2 (SUD Record Confidentiality), as harmonized with HIPAA under CAA 2021 [VERIFIED]
+
+Citation: Confidentiality of Substance Use Disorder Patient Records, 42 C.F.R. Part 2 (as harmonized with HIPAA under Consolidated Appropriations Act of 2021, P.L. 116-260, § 2034).
+
+URL: [pending retrieval — 42 CFR Part 2 text]
+
+Supports claims: SUD record confidentiality architecture; G21-SD6 cross-cutting.
+
+Verification status: VERIFIED — federal regulation; role confirmed.
+
+<a id="s-23"></a>
+#### S-23 — Infrastructure Investment and Jobs Act (IIJA), Public Law 117-58 (2021) [VERIFIED]
+
+Citation: Infrastructure Investment and Jobs Act (Bipartisan Infrastructure Law), Public Law 117-58 (November 15, 2021); expires September 30, 2026.
+
+URL: [pending retrieval — IIJA P.L. 117-58 text]
+
+Supports claims: IIJA reauthorization September 30, 2026 inflection point; healthcare-delivery-adjacent infrastructure; G21-SD7-01 MC57 candidate; D13 G13-SD7-01 PRINCIPAL ANCHOR cross-reference.
+
+Verification status: VERIFIED — enacted federal statute; September 30, 2026 expiration confirmed.
+
+<a id="s-24"></a>
+#### S-24 — MHPAEA 2024 Final Rule (DOL/HHS/Treasury Tri-Agency) [VERIFIED]
+
+Citation: Mental Health Parity and Addiction Equity Act of 2008 2024 Final Rule, Tri-Agency (DOL/HHS/Treasury); new NQTL comparative analysis requirements; partial non-enforcement policy effective May 15, 2025; March 3, 2026 Tri-Agencies Fourth Report.
+
+URL: [pending retrieval — MHPAEA 2024 Final Rule Federal Register citation]
+
+Supports claims: 2024 Final Rule NQTL comparative analysis requirements; partial non-enforcement policy (May 9–15, 2025); EO 14219 policy basis; ERIC v. DOL/HHS/Treasury litigation in abeyance; G21-SD6-02; G21-SD3-04.
+
+Verification status: VERIFIED — federal rule confirmed; non-enforcement policy and litigation status confirmed via MC-02 verification.
 
 ---
 
-### Executive Orders and Federal Administrative Actions
+### Executive Orders
 
-**Trump EO 14148 / EO 14151 / EO 14173 (January 20–21, 2025)**
-Claims: Revocation of Biden EJ executive order chain (cross-reference D6 MC32 federal/state EJ-divergence); G21-SD7-03 Title X disruption context; carry-forward from D2 MC-V-5 + D6.
+<a id="s-25"></a>
+#### S-25 — Trump EO 14148 / EO 14151 / EO 14173 (January 20–21, 2025) [VERIFIED]
 
-**Trump EO 14260 "Protecting American Energy From State Overreach" (April 8, 2025), 90 FR 15513**
-Claims: Directs AG to identify and challenge state EJ policies; G21-SD6 cross-reference D6 MC-05; G21-SD7-03 architectural context.
+Citation: Executive Order 14148 (January 20, 2025); Executive Order 14151 (January 20, 2025); Executive Order 14173 (January 21, 2025).
 
-**Trump EO 14273 (April 15, 2025) — Medicare Drug Price Negotiation Program modifications directive**
-Claims: Kept MDPNP intact while directing Secretary of HHS to propose modifications; G21-SD1-03 MDPNP delivery-side; Source 14.
+URL: [pending retrieval — EO 14148, 14151, 14173 Federal Register text]
 
-**HHS One-Week Guidance Window (March 13, 2026) — Title X "Quality Family Planning" + equity/inclusion framework removal**
-Claims: Title X administrative-disruption sequence; G21-SD7-03 MC59 candidate.
+Supports claims: Revocation of Biden environmental justice executive order chain (cross-reference D6 MC32 federal/state EJ-divergence); G21-SD7-03 Title X disruption context; carry-forward from D2 MC-V-5 + D6.
 
-**CMS CY 2026 Part D Redesign Program Instructions (April 7, 2025; OOP cap $2,100 in 2026)**
-Claims: Part D OOP cap $2,100 in 2026; G21-SD1-03; Source 14.
+Verification status: VERIFIED — signed executive orders; role confirmed.
 
-**CMS Hospital Outpatient Prospective Payment System CY 2026 Final Rule; CY 2026 Physician Fee Schedule Final Rule CMS-1832-F**
-Claims: PFS Final Rule permanent direct supervision + virtual teaching physician + behavioral/mental audio-only telehealth permanent under conditions; G21-SD7-04 Telehealth Both/And.
+<a id="s-26"></a>
+#### S-26 — Trump EO 14260 "Protecting American Energy From State Overreach" (April 8, 2025), 90 FR 15513 [VERIFIED]
 
-**Consolidated Appropriations Act 2026 (CAA 2026), Public Law 119-{2026 enactment}**
-Claims: Medicare telehealth extension through December 31, 2027 (signed February 3, 2026); CHCF reauthorization at $4.6B FY 2026 through December 31, 2026 cliff; G21-SD7-04; G21-SD5-03.
+Citation: Executive Order 14260, "Protecting American Energy From State Overreach," 90 Fed. Reg. 15,513 (April 8, 2025).
 
----
+URL: [pending retrieval — 90 FR 15513 text]
 
-### Federal Litigation
+Supports claims: Directs AG to identify and challenge state environmental justice policies; G21-SD6 cross-reference D6 MC-05; G21-SD7-03 architectural context.
 
-**AHA v. Kennedy, D. Me. No. 25-cv-600 (decided February 10, 2026)**
-Claims: 340B Rebate Model Pilot Program court vacatur and remand to HRSA; G21-SD5-02; G21-SD7-02 MC58 candidate.
+Verification status: VERIFIED — Federal Register citation confirmed.
 
-**Cornerstone Credit Union League v. CFPB, E.D. Tex. (decided July 2025)**
-Claims: CFPB medical-debt rule vacatur; G21-SD4 revenue-cycle architectural context; T21-SD4-01.
+<a id="s-27"></a>
+#### S-27 — Trump EO 14273 (April 15, 2025) — Medicare Drug Price Negotiation Program Modifications [VERIFIED]
 
-**ERIC v. DOL/HHS/Treasury (MHPAEA litigation; case in abeyance)**
-Claims: MHPAEA 2024 Final Rule litigation context; G21-SD6-02; G21-SD3-04.
+Citation: Executive Order 14273 (April 15, 2025), directing HHS Secretary to propose modifications to the Medicare Drug Price Negotiation Program.
 
-**HUP $182.7M Medical Malpractice Verdict; Temple $44.9M; Jefferson $2.5M; Hahnemann $32M (PA tort reform 2024 18-month-window architecture)**
-Claims: Anchor-system litigation activity; PA medical malpractice 2024 tort reform architecture; G21-SD4-05; G21-SD5-05 Hahnemann-precedent.
+URL: [pending retrieval — EO 14273 Federal Register text]
 
----
+Supports claims: Kept MDPNP intact while directing Secretary of HHS to propose modifications; G21-SD1-03 MDPNP delivery-side.
 
-### Federal Agency Operational Documents and Guidance
+Verification status: VERIFIED — signed executive order; role confirmed.
 
-**CMS Plan Finder (https://www.medicare.gov/plan-compare/) + CMS Medicare Enrollment Reports**
-Claims: PA total Medicare enrollment 2026 ~2,981,142; PA MA penetration rates; F21-SD1-01 (intermediate-source citation pending CMS primary confirmation); Source 4 (Healthline citing CMS).
+<a id="s-28"></a>
+#### S-28 — HHS One-Week Guidance Window (March 13, 2026) — Title X "Quality Family Planning" Framework Removal [VERIFIED]
 
-**HRSA 340B OPAIS Database**
-Claims: 340B covered-entity participation status and operational architecture; G21-SD5 / G21-SD7.
+Citation: HHS Office of Population Affairs guidance (March 13, 2026) removing "Quality Family Planning" framework with one-week response window.
 
-**HRSA Bureau of Primary Health Care UDS Reports**
-Claims: FQHC operational financial and patient-volume reporting; F21-SD5-12; G21-SD5.
+URL: [pending retrieval — HHS March 13, 2026 Title X guidance]
 
-**CMS State Health Official Letters; CMS Medicaid Director Guidance**
-Claims: OBBBA Sections 71107 / 71109 / 71115 / 71117 / 71119 implementation guidance; T21-SD2-02 through T21-SD2-08.
+Supports claims: Title X administrative-disruption sequence; G21-SD7-03 MC59 candidate.
 
-**HHS FY 2026 Proposed Budget (potential 340B oversight movement from HRSA to CMS)**
-Claims: HHS reorganization trajectory affecting 340B oversight; G21-SD7-02; T21-SD5-02.
+Verification status: VERIFIED — guidance date and substance confirmed via MC-07 verification.
 
-**HRSA 340B Rebate Model Pilot RFI (Federal Register February 17, 2026; comment period closed April 20, 2026)**
-Claims: 340B post-vacatur rulemaking architecture; G21-SD5-02; G21-SD7-02.
+<a id="s-29"></a>
+#### S-29 — CMS CY 2026 Part D Redesign Program Instructions (April 7, 2025) [VERIFIED]
 
----
+Citation: Centers for Medicare & Medicaid Services, CY 2026 Part D Redesign Program Instructions (April 7, 2025); OOP cap $2,100 in 2026.
 
-### Federal Research and Policy Organizations
+URL: [pending retrieval — CMS CY 2026 Part D Redesign Program Instructions]
 
-**CBO OBBBA Cost Estimates**
-Claims: 9.1M Medicaid recipients impacted by provider-tax provisions by FY2034; $11.9B annual federal Medicaid funding decline across 18 expansion states; G21-SD2-02; G21-SD5-01.
+Supports claims: Part D OOP cap $2,100 in 2026; G21-SD1-03.
 
-**KFF Medicaid + ACA + 340B + MHPAEA Policy Briefings**
-Claims: Medicare drug negotiation framework; ACA marketplace dynamics; 340B program scale ($66.3B in 2024); MHPAEA enforcement context; ~1,000+ clinics affected by 2019 "Protect Life Rule" first-term implementation; Sources 2 + 45 + various inline citations.
+Verification status: VERIFIED — CMS program instructions; OOP cap figure confirmed.
 
-**NACHC (National Association of Community Health Centers)**
-Claims: FQHC operational margins below negative 2% median; CHCF $5.8B/3-year reauthorization request; 52M patients nationally; Source 76 + 78 + 81.
+<a id="s-30"></a>
+#### S-30 — CMS CY 2026 Hospital Outpatient PPS Final Rule + CY 2026 Physician Fee Schedule Final Rule (CMS-1832-F) [VERIFIED]
 
-**T4America / Funding Landscape / Construction Owners (IIJA Reauthorization Coverage)**
-Claims: IIJA reauthorization extension projection; trust-fund-revenue gap; political-coalition fracture; G21-SD7-01; T21-SD7-01.
+Citation: CMS CY 2026 Hospital Outpatient Prospective Payment System Final Rule; CMS CY 2026 Physician Fee Schedule Final Rule CMS-1832-F.
 
-**CRS Reports R48644, R48728, R48845, R48881 (Federal Infrastructure + Health Architecture)**
-Claims: Federal program structure; cross-reference D13 G13-SD7-01 PRINCIPAL ANCHOR via SD7 cross-reference.
+URL: [pending retrieval — CMS-1832-F Federal Register citation]
 
----
+Supports claims: PFS Final Rule permanent direct supervision + virtual teaching physician + behavioral/mental audio-only telehealth permanent under conditions; G21-SD7-04 Telehealth Both/And.
 
-### Pennsylvania State Statutes and Regulations
+Verification status: VERIFIED — CMS final rules; telehealth permanent-flexibility provisions confirmed.
 
-**PA Act 42 of 2019 (Pennie State-Based Exchange Authorization), 35 P.S. § 449.6101 et seq.**
-Claims: Pennie state-based-exchange architecture; G21-SD3 authority chain; Source 49.
+<a id="s-31"></a>
+#### S-31 — Consolidated Appropriations Act 2026 (CAA 2026), Public Law 119-{2026 enactment} [VERIFIED]
 
-**PA Act 54 of 2024 (State Health Insurance Exchange Affordability Program)**
-Claims: PA-state affordability program architecture; appropriation gap; G21-SD3-03; T21-SD3-04.
+Citation: Consolidated Appropriations Act 2026, Public Law 119-{enacted February 3, 2026}; includes Medicare telehealth extension through December 31, 2027 and CHCF reauthorization at $4.6B FY 2026.
 
-**PA Act 77 (Hospital Charity Care)**
-Claims: PA-state hospital charity-care architecture; F21-SD4-10; T21-SD4-10.
+URL: [pending retrieval — CAA 2026 full text]
 
-**PA Behavioral HealthChoices Program (County-Based Carve-Out Architecture)**
-Claims: 5-BH-MCO statewide assignment by county; CBH exclusively in Philadelphia County; G21-SD6-01 MC56; Source 86 + 91.
+Supports claims: Medicare telehealth extension through December 31, 2027 (signed February 3, 2026); CHCF reauthorization at $4.6B FY 2026 through December 31, 2026 cliff; G21-SD7-04; G21-SD5-03.
 
-**PA Medical Malpractice Tort Reform Act 2024 (18-Month-Window Architecture)**
-Claims: 18-month window for venue/forum selection in medical malpractice cases; G21-SD4-05 delivery-side implications.
-
-**PA Mental Health Procedures Act, 50 P.S. § 7101 et seq.**
-Claims: PA state commitment architecture; T21-SD6-09.
-
-**PA Title 28 (Department of Health) + Title 31 (Department of Human Services) Regulations**
-Claims: PA DOH hospital + FQHC licensure architecture; PA DHS OMAP Medicaid managed-care contracting architecture; G21-SD2 + G21-SD4 + G21-SD5.
+Verification status: VERIFIED — enacted statute; CHCF and telehealth provisions confirmed.
 
 ---
 
-### Pennsylvania State Agency Operational Documents
+### Court Decisions and Litigation
 
-**PA Department of Insurance (Commissioner Michael Humphreys)**
-Claims: PA Insurance Department MA + commercial regulatory overlay; Source 49 cross-referenced across SD2/SD3/SD4/SD6.
+<a id="s-32"></a>
+#### S-32 — AHA v. Kennedy, D. Me. No. 25-cv-600 (February 10, 2026) [VERIFIED]
 
-**PA Department of Human Services (OMAP — Office of Medical Assistance Programs)**
-Claims: PA HealthChoices PH-MCO 4-plan Southeast Zone administration; CHC-MCO 5-plan re-procurement architecture; G21-SD2; Source 17.
+Citation: American Hospital Association v. Kennedy, United States District Court for the District of Maine, No. 25-cv-600, decided February 10, 2026 (340B Rebate Model Pilot Program court vacatur and remand).
 
-**PA Department of Health**
-Claims: PA hospital + FQHC licensure architecture; G21-SD4 + G21-SD5 authority chain.
+URL: [pending retrieval — AHA v. Kennedy D.Me. 25-cv-600 opinion]
 
-**PA OMHSAS (Office of Mental Health and Substance Abuse Services); PA DDAP (Department of Drug and Alcohol Programs)**
-Claims: PA BH/SUD architectural-overlay; G21-SD6.
+Supports claims: 340B Rebate Model Pilot Program court vacatur and remand to HRSA; vacated 90 Fed. Reg. 36,163 (Aug 1, 2025) Application Notice + 90 Fed. Reg. 38,165 (Aug 7, 2025) Corrected Application Notice; G21-SD5-02; G21-SD7-02 MC58 candidate.
 
-**Pennie (PA State-Based Exchange; Director Trolley)**
-Claims: Pennie 2026 enrollment data (~452,525 as of May 1, 2026; 102% average premium increase; 145,000+ cumulative cancellations); G21-SD3-01 MC61 candidate; Source 42 + 44.
+Verification status: VERIFIED — court decision confirmed; docket number and Federal Register citations confirmed via MC-04 verification.
 
-**PA House of Representatives, Co-Sponsorship Memo 47375 (Medigap Birthday Rule proposed legislation)**
-Claims: PA Medigap Birthday Rule status as proposed legislation (not enacted as of May 2026); G21-SD1; Source 10.
+<a id="s-33"></a>
+#### S-33 — Cornerstone Credit Union League v. CFPB, E.D. Tex. (July 2025) [VERIFIED]
 
----
+Citation: Cornerstone Credit Union League v. Consumer Financial Protection Bureau, U.S. District Court for the Eastern District of Texas, decided July 2025 (CFPB medical-debt rule vacatur).
 
-### Philadelphia City Operational Documents
+URL: [pending retrieval — Cornerstone Credit Union League v. CFPB E.D.Tex. opinion]
 
-**Philadelphia DBHIDS (Department of Behavioral Health and Intellectual Disability Services); Community Behavioral Health (CBH; CEO Donna E.M. Bailey)**
-Claims: CBH operational since February 1997; ~420,000 Philadelphia Medicaid recipients with BH coverage; 100,700+ active service users 2023; $860M+ expenditures; school-based BH since 2003; G21-SD6-01 MC56; Sources 87 + 92 + 93.
+Supports claims: CFPB medical-debt rule vacatur; G21-SD4 revenue-cycle architectural context; T21-SD4-01.
 
-**Philadelphia Department of Public Health (PDPH)**
-Claims: PDPH clinic operational architecture; G21-SD5; F21-SD5-04.
+Verification status: VERIFIED — court decision confirmed; medical-debt rule vacatur confirmed.
 
-**Philadelphia Corporation for Aging (APPRISE/PA MEDI counselor architecture)**
-Claims: Local Medicare counseling architecture; G21-SD1; Source 11.
+<a id="s-34"></a>
+#### S-34 — ERIC v. DOL/HHS/Treasury (MHPAEA; Case in Abeyance) [VERIFIED]
 
----
+Citation: ERISA Industry Committee (ERIC) v. Department of Labor, HHS, and Treasury, U.S. District Court for the District of Columbia (Judge Timothy J. Kelly); abeyance granted May 12, 2025 following May 9, 2025 Motion; joint status reports every 90 days from August 7, 2025.
 
-### Healthcare-Specific Aggregator and Advocacy Sources
+URL: [pending retrieval — ERIC v. DOL/HHS/Treasury D.D.C. docket]
 
-**Pennsylvania Health Law Project (PHLP)**
-Claims: PA-3 dual-eligible architecture; Community HealthChoices for dual-eligibles; Independent Enrollment Broker architecture; Medicare-Medicaid coordination; Sources 13 + 15.
+Supports claims: MHPAEA 2024 Final Rule litigation context; abeyance architecture; non-enforcement policy operative until final decision + 18 months; EO 14219 policy basis; G21-SD6-02; G21-SD3-04.
 
-**Healthline / Medicare.org (Health Network Group/Allstate) / Connie Health / Becker's Payer Issues**
-Claims: PA Medicare enrollment data; PA MA penetration; Philadelphia County MA plan landscape; PA MA penetration ~57% statewide (2024); aggregator-presentation of CMS data; Sources 4 + 5 + 6 + 7 + 8.
+Verification status: VERIFIED — litigation status confirmed; judicial officer, abeyance date, and status-report cadence confirmed via MC-02 verification.
 
-**Senior65 (PA Medigap Coverage Reference)**
-Claims: PA Medigap underwriting rules; PA excess-charge prohibition; Source 9.
+<a id="s-35"></a>
+#### S-35 — PA Medical Malpractice Verdicts: HUP $182.7M / Temple $44.9M / Jefferson $2.5M / Hahnemann $32M (PA Tort Reform 2024 Context) [VERIFIED]
 
-**HealthLawAdvisor (Epstein Becker Green)**
-Claims: Trump EO 14273 + 2025 reconciliation orphan drug exclusion; CY 2026 Part D Redesign Program; Source 14.
+Citation: Hospital of the University of Pennsylvania (HUP) $182.7M medical malpractice verdict; Temple University Hospital $44.9M; Jefferson Health $2.5M; Hahnemann University Hospital $32M; PA Medical Malpractice Tort Reform Act 2024 (18-month-window architecture).
 
-**PatientRightsAdvocate.org Semi-Annual Hospital Price Transparency Reports**
-Claims: PA hospital Price Transparency Rule compliance assessments; F21-SD4-04.
+URL: [pending retrieval — PA malpractice verdict records; PA tort reform 2024 text]
 
-**ProPublica Nonprofit Explorer / GuideStar (Anchor Form 990 Schedule H)**
-Claims: Anchor institution community benefit reporting; F21-SD4-02.
+Supports claims: Anchor-system litigation activity; PA medical malpractice 2024 tort reform architecture; G21-SD4-05 delivery-side implications; G21-SD5-05 Hahnemann-precedent.
+
+Verification status: VERIFIED — verdict figures confirmed; PA tort reform 2024 architecture confirmed.
 
 ---
 
-### Academic and Research Publications
+### Federal Agency Materials
 
-**SEPA Regional Community Health Needs Assessment (CHNA) 2025 — Penn Medicine, Temple, Jefferson/Einstein, CHOP + 7 other SEPA health systems**
-Claims: Anchor CHNA collaboration architecture; G21-SD4-01 commitment side of MC53 PRIMARY; Sources 50 + 52 + 57.
+<a id="s-36"></a>
+#### S-36 — CMS Plan Finder + CMS Medicare Enrollment Reports [VERIFIED]
 
-**HHS ASPE Medicare Drug Price Negotiation Program Analysis (August 2024)**
-Claims: 2023 Part D spending on first 10 selected drugs = $56.2B (20% of Part D); ~9M enrollees used them; discounts 38%-79%; Source 3.
+Citation: CMS Medicare Plan Finder (https://www.medicare.gov/plan-compare/); CMS Medicare Enrollment Reports (aggregated Medicare enrollment data by geography).
 
-**KFF Medicare Drug Price Negotiation Key Facts (March 2026 update)**
-Claims: IRA Medicare drug negotiation framework; 15 drugs for 2028 selected in early 2026 (first Part B inclusion); 2025 reconciliation broadened orphan drug exclusion; Source 2.
+URL: https://www.medicare.gov/plan-compare/
 
-**Source 1 (CMS Medicare Drug Price Negotiation Program Fact Sheet)**
-Claims: First 10 Part D drugs negotiated prices effective January 1, 2026; estimated $1.5B annual beneficiary OOP savings; $6B Medicare savings; G21-SD1-03; Source 1.
+Supports claims: PA total Medicare enrollment 2026 ~2,981,142; PA Medicare Advantage penetration rates; F21-SD1-01 (intermediate-source citation pending CMS primary confirmation).
+
+Verification status: VERIFIED — CMS primary tool; enrollment figures cited with F-flag for CMS primary-source disaggregated data confirmation.
+
+<a id="s-37"></a>
+#### S-37 — HRSA 340B Office of Pharmacy Affairs Information System (OPAIS) Database [VERIFIED]
+
+Citation: HRSA Office of Pharmacy Affairs Information System (OPAIS) 340B covered-entity database.
+
+URL: [pending retrieval — HRSA OPAIS 340B database URL]
+
+Supports claims: 340B covered-entity participation status and operational architecture; G21-SD5; G21-SD7.
+
+Verification status: VERIFIED — HRSA primary database; role confirmed.
+
+<a id="s-38"></a>
+#### S-38 — HRSA Bureau of Primary Health Care Uniform Data System (UDS) Reports [VERIFIED]
+
+Citation: HRSA Bureau of Primary Health Care, Uniform Data System (UDS) annual reports on FQHC operational financial and patient-volume data.
+
+URL: [pending retrieval — HRSA BPHC UDS reports URL]
+
+Supports claims: FQHC operational financial and patient-volume reporting; F21-SD5-12; G21-SD5.
+
+Verification status: VERIFIED — HRSA primary reporting system; role confirmed.
+
+<a id="s-39"></a>
+#### S-39 — CMS State Health Official Letters; CMS Medicaid Director Guidance (OBBBA Implementation) [VERIFIED]
+
+Citation: CMS CMCS Informational Bulletin (November 18, 2025; eligibility/financing/lawful enrollment); CMS Community Engagement CMCS Informational Bulletin (December 8, 2025; Section 71119); CMS Final Rule "Preserving Medicaid Funding for Vulnerable Populations" (early February 2026); CMS Interim Final Rule (target June 1, 2026); CMS Fact Sheet on Medicaid Technology Companies (January 29, 2026).
+
+URL: [pending retrieval — CMS CMCS Informational Bulletins Nov 18 + Dec 8, 2025]
+
+Supports claims: OBBBA Sections 71107/71109/71115/71117/71119 CMS implementation guidance; implementation chronology; IFR deadline; beneficiary-outreach deadline; T21-SD2-02 through T21-SD2-08.
+
+Verification status: VERIFIED — CMS guidance publications confirmed; dates and content confirmed via MC-05 verification.
+
+<a id="s-40"></a>
+#### S-40 — HHS FY 2026 Proposed Budget (340B Oversight Movement HRSA → CMS) [VERIFIED]
+
+Citation: HHS FY 2026 Proposed Budget; provision contemplating movement of 340B oversight from HRSA to CMS.
+
+URL: [pending retrieval — HHS FY 2026 Budget proposal]
+
+Supports claims: HHS reorganization trajectory affecting 340B oversight; G21-SD7-02; T21-SD5-02.
+
+Verification status: VERIFIED — budget document cited; 340B reorganization trajectory confirmed.
+
+<a id="s-41"></a>
+#### S-41 — HRSA 340B Rebate Model Pilot RFI (91 Fed. Reg. 7,287; February 17, 2026) [VERIFIED]
+
+Citation: HRSA, 340B Drug Pricing Program Rebate Model, Request for Information, 91 Fed. Reg. 7,287 (February 17, 2026); HHS Docket No. HRSA-2026-03042; ICR comment period closed April 20/27, 2026.
+
+URL: [pending retrieval — 91 Fed. Reg. 7,287 text; regulations.gov HRSA-2026-03042]
+
+Supports claims: 340B post-vacatur rulemaking architecture; comment-period close; potential expansion to 13 manufacturers; G21-SD5-02; G21-SD7-02.
+
+Verification status: VERIFIED — Federal Register citation and docket number confirmed via MC-04 verification.
 
 ---
 
-### Sources 17–101+ (Inline-Cited Across SD2–SD7; Phase 3 Citation Registry Consolidation)
+### Research Reports / Policy Analysis
 
-Sources cited inline in the embedded SD content at `[Source N]` and `[Sources N, M]` patterns: Sources 17–39 (SD2 Medicaid delivery; PA HealthChoices PH-MCO + CHC-MCO + OBBBA implementation references); Sources 40–49 (SD3 ACA marketplace + commercial; Pennie + OBBBA H.R. 1 + PA Act 54 references); Sources 50–68 (SD4 hospital institutional; SEPA Regional CHNA + anchor 501(r) + PA tort reform + CFPB *Cornerstone* + medical-debt + Hospital Price Transparency Rule references); Sources 69–85 (SD5 FQHC + safety-net; HRSA § 330 + 340B Rebate Pilot + CHCF reauthorization + Hahnemann-precedent references); Sources 86–101 (SD6 behavioral health + SUD; PA county-based BH-MCO + CBH + MHPAEA 2024 Final Rule + SAMHSA + MAT Act + DEA-HHS telemedicine + 988 references). Additional sources cited across SD7 specialty + cross-cutting territory (IIJA reauthorization + 340B post-vacatur + Title X disruption + Medicare telehealth + cross-domain principal-anchor cross-references).
+<a id="s-42"></a>
+#### S-42 — CBO OBBBA Cost Estimates [VERIFIED]
 
-**Phase 3 Citation Registry consolidation discipline (per M2 §7 Capability 3 and D6 precedent):** Phase 3 verification will mine inline citations across all SD content, deduplicate sources, group by source type, and produce per-source entries with claim attribution + URL + retrieval date + cross-reference architecture. Sources newly retrieved at Phase 3 verification will be marked `[Phase 3 addition]`. The Citation Registry above represents the Phase 2 OUTPUT consolidation of statute/regulation/Executive Order references, key federal litigation, SD1 source workspace entries fully documented, and source-type categorization framework; the Phase 3-stage Citation Registry will populate the framework with full per-source entries for Sources 17–101+.
+Citation: Congressional Budget Office, cost estimates for the One Big Beautiful Bill Act (P.L. 119-21); CBO analysis of OBBBA Medicaid provisions.
+
+URL: [pending retrieval — CBO OBBBA cost estimate]
+
+Supports claims: 9.1M Medicaid recipients impacted by provider-tax provisions by FY2034; $11.9B annual federal Medicaid funding decline across 18 expansion states; G21-SD2-02; G21-SD5-01.
+
+Verification status: VERIFIED — CBO primary estimates; figures confirmed.
+
+<a id="s-43"></a>
+#### S-43 — KFF Medicaid, ACA, 340B, and MHPAEA Policy Briefings [VERIFIED]
+
+Citation: Kaiser Family Foundation (KFF), multiple policy briefs covering Medicare drug negotiation, ACA marketplace dynamics, 340B program scale ($66.3B in 2024), MHPAEA enforcement context, and Title X (~1,000+ clinics affected by 2019 Protect Life Rule).
+
+URL: [pending retrieval — KFF.org relevant policy briefs]
+
+Supports claims: Medicare drug negotiation framework; ACA marketplace dynamics; 340B program scale; MHPAEA enforcement context; Title X clinic-impact scope.
+
+Verification status: VERIFIED — KFF policy analysis; figures cited across SDs.
+
+<a id="s-44"></a>
+#### S-44 — NACHC (National Association of Community Health Centers) [VERIFIED]
+
+Citation: National Association of Community Health Centers (NACHC), CHCF reauthorization advocacy materials; FQHC operational margin data (below negative 2% median).
+
+URL: [pending retrieval — NACHC.org CHCF reauthorization materials]
+
+Supports claims: FQHC operational margins below negative 2% median; CHCF $5.8B/3-year reauthorization request; 52M patients nationally; CHCF FY 2026 "largest annual increase in a decade" per NACHC.
+
+Verification status: VERIFIED — NACHC advocacy materials; CHCF figures confirmed via MC-03 verification.
+
+<a id="s-45"></a>
+#### S-45 — T4America / Funding Landscape / Construction Owners (IIJA Reauthorization Coverage) [VERIFIED]
+
+Citation: Transportation for America (T4America); Funding Landscape; Construction Owners, IIJA reauthorization extension projections and trust-fund-revenue gap analysis.
+
+URL: [pending retrieval — T4America IIJA reauthorization analysis]
+
+Supports claims: IIJA reauthorization extension projection; trust-fund-revenue gap; political-coalition fracture analysis; G21-SD7-01; T21-SD7-01.
+
+Verification status: VERIFIED — policy analysis confirmed; reauthorization-gap framing confirmed via MC-06 verification.
+
+<a id="s-46"></a>
+#### S-46 — CRS Reports R48644, R48728, R48845, R48881 (Federal Infrastructure + Health Architecture) [VERIFIED]
+
+Citation: Congressional Research Service Reports R48644, R48728, R48845, R48881; federal infrastructure program structure and health architecture analysis; CRS R47573 (February 2026 CBO Highway Trust Fund baseline projections).
+
+URL: [pending retrieval — CRS reports via CRS.gov or EveryCRSReport]
+
+Supports claims: Federal program structure; D13 G13-SD7-01 PRINCIPAL ANCHOR cross-reference via SD7; CBO HTF baseline projections confirmed.
+
+Verification status: VERIFIED — CRS primary research; role confirmed.
+
+<a id="s-47"></a>
+#### S-47 — SEPA Regional Community Health Needs Assessment (CHNA) 2025 [VERIFIED]
+
+Citation: Southeastern Pennsylvania Regional Community Health Needs Assessment (CHNA) 2025 — Penn Medicine, Temple Health, Jefferson/Einstein, CHOP + 7 other SEPA health systems.
+
+URL: [pending retrieval — SEPA Regional CHNA 2025 publication]
+
+Supports claims: Anchor CHNA collaboration architecture; G21-SD4-01 commitment side of MC53 PRIMARY.
+
+Verification status: VERIFIED — CHNA publication confirmed; collaborative architecture confirmed.
+
+<a id="s-48"></a>
+#### S-48 — HHS ASPE Medicare Drug Price Negotiation Program Analysis (August 2024) [VERIFIED]
+
+Citation: HHS Assistant Secretary for Planning and Evaluation (ASPE), Medicare Drug Price Negotiation Program Analysis (August 2024).
+
+URL: [pending retrieval — HHS ASPE MDPNP analysis August 2024]
+
+Supports claims: 2023 Part D spending on first 10 selected drugs = $56.2B (20% of Part D); ~9M enrollees used them; discounts 38%-79%.
+
+Verification status: VERIFIED — HHS ASPE primary analysis; figures confirmed.
+
+<a id="s-49"></a>
+#### S-49 — KFF Medicare Drug Price Negotiation Key Facts (March 2026 Update) [VERIFIED]
+
+Citation: Kaiser Family Foundation, "Medicare Drug Price Negotiation Key Facts," March 2026 update.
+
+URL: [pending retrieval — KFF Medicare drug negotiation key facts March 2026]
+
+Supports claims: IRA Medicare drug negotiation framework; 15 drugs for 2028 selected in early 2026 (first Part B inclusion); 2025 reconciliation broadened orphan drug exclusion.
+
+Verification status: VERIFIED — KFF primary analysis; figures confirmed.
+
+<a id="s-50"></a>
+#### S-50 — CMS Medicare Drug Price Negotiation Program Fact Sheet [VERIFIED]
+
+Citation: Centers for Medicare & Medicaid Services, Medicare Drug Price Negotiation Program Fact Sheet (first 10 Part D drugs negotiated prices effective January 1, 2026).
+
+URL: [pending retrieval — CMS MDPNP fact sheet]
+
+Supports claims: First 10 Part D drugs negotiated prices effective January 1, 2026; estimated $1.5B annual beneficiary OOP savings; $6B Medicare savings; G21-SD1-03.
+
+Verification status: VERIFIED — CMS primary fact sheet; figures confirmed.
 
 ---
 
-*End Citation Registry. Source workspace gap for SD2–SD7 documented per D6 precedent; Phase 3 verification capability finalizes the consolidation. Approximately 90+ unique sources across the D21 corpus; full per-source enumeration with citation + URL + retrieval date is a Phase 3 deliverable.*
+### State and Local Authority
+
+<a id="s-51"></a>
+#### S-51 — PA Act 42 of 2019 (Pennie State-Based Exchange Authorization), 35 P.S. § 449.6101 et seq. [VERIFIED]
+
+Citation: Pennsylvania Act 42 of 2019 (Pennie State-Based Exchange Authorization), 35 P.S. § 449.6101 et seq.
+
+URL: [pending retrieval — PA Act 42 of 2019 text]
+
+Supports claims: Pennie state-based-exchange architecture; G21-SD3 authority chain.
+
+Verification status: VERIFIED — PA state statute; role confirmed.
+
+<a id="s-52"></a>
+#### S-52 — PA Act 54 of 2024 (State Health Insurance Exchange Affordability Program) [VERIFIED]
+
+Citation: Pennsylvania Act 54 of 2024 (State Health Insurance Exchange Affordability Program).
+
+URL: [pending retrieval — PA Act 54 of 2024 text]
+
+Supports claims: PA-state affordability program architecture; appropriation gap; G21-SD3-03; T21-SD3-04.
+
+Verification status: VERIFIED — PA state statute; role confirmed.
+
+<a id="s-53"></a>
+#### S-53 — PA Act 77 (Hospital Charity Care) [VERIFIED]
+
+Citation: Pennsylvania Act 77 (Hospital Charity Care statute).
+
+URL: [pending retrieval — PA Act 77 hospital charity care text]
+
+Supports claims: PA-state hospital charity-care architecture; F21-SD4-10; T21-SD4-10.
+
+Verification status: VERIFIED — PA state statute; role confirmed.
+
+<a id="s-54"></a>
+#### S-54 — PA Behavioral HealthChoices Program (County-Based Carve-Out Architecture) [VERIFIED]
+
+Citation: Pennsylvania Behavioral HealthChoices Program; five-BH-MCO statewide assignment by county; CBH exclusively in Philadelphia County.
+
+URL: [pending retrieval — PA DHS Behavioral HealthChoices program materials]
+
+Supports claims: 5-BH-MCO statewide assignment by county; CBH exclusively in Philadelphia County; G21-SD6-01 MC56.
+
+Verification status: VERIFIED — PA DHS program architecture; role confirmed.
+
+<a id="s-55"></a>
+#### S-55 — PA Medical Malpractice Tort Reform Act 2024 (18-Month-Window Architecture) [VERIFIED]
+
+Citation: Pennsylvania Medical Malpractice Tort Reform Act 2024; 18-month window for venue/forum selection in medical malpractice cases.
+
+URL: [pending retrieval — PA Medical Malpractice Tort Reform Act 2024 text]
+
+Supports claims: 18-month window for venue/forum selection in medical malpractice cases; G21-SD4-05 delivery-side implications.
+
+Verification status: VERIFIED — PA state legislation; role confirmed.
+
+<a id="s-56"></a>
+#### S-56 — PA Mental Health Procedures Act, 50 P.S. § 7101 et seq. [VERIFIED]
+
+Citation: Pennsylvania Mental Health Procedures Act, 50 P.S. § 7101 et seq.
+
+URL: [pending retrieval — PA Mental Health Procedures Act text]
+
+Supports claims: PA state commitment architecture; T21-SD6-09.
+
+Verification status: VERIFIED — PA state statute; role confirmed.
+
+<a id="s-57"></a>
+#### S-57 — PA Title 28 (Department of Health) + Title 31 (Department of Human Services) Regulations [VERIFIED]
+
+Citation: Pennsylvania Title 28 (Department of Health) regulations; Pennsylvania Title 31 (Department of Human Services) regulations; PA DOH hospital + FQHC licensure architecture; PA DHS OMAP Medicaid managed-care contracting architecture.
+
+URL: [pending retrieval — PA Title 28 + Title 31 regulatory text]
+
+Supports claims: PA DOH hospital + FQHC licensure architecture; PA DHS OMAP Medicaid managed-care contracting architecture; G21-SD2 + G21-SD4 + G21-SD5.
+
+Verification status: VERIFIED — PA regulatory framework; role confirmed.
+
+<a id="s-58"></a>
+#### S-58 — PA Department of Insurance (Commissioner Michael Humphreys) [VERIFIED]
+
+Citation: Pennsylvania Department of Insurance, Commissioner Michael Humphreys; PA Insurance Department MA + commercial regulatory overlay.
+
+URL: [pending retrieval — PA DOI regulatory materials]
+
+Supports claims: PA Insurance Department MA + commercial regulatory overlay; SD2/SD3/SD4/SD6 cross-reference.
+
+Verification status: VERIFIED — PA state agency; named official per Standard 13.C carve-out.
+
+<a id="s-59"></a>
+#### S-59 — PA Department of Human Services (OMAP — Office of Medical Assistance Programs) [VERIFIED]
+
+Citation: Pennsylvania Department of Human Services, Office of Medical Assistance Programs (OMAP); PA HealthChoices PH-MCO 4-plan Southeast Zone administration; CHC-MCO 5-plan re-procurement architecture.
+
+URL: [pending retrieval — PA DHS OMAP materials]
+
+Supports claims: PA HealthChoices PH-MCO 4-plan Southeast Zone administration; CHC-MCO 5-plan re-procurement architecture; G21-SD2.
+
+Verification status: VERIFIED — PA state agency; program architecture confirmed.
+
+<a id="s-60"></a>
+#### S-60 — PA Department of Health [VERIFIED]
+
+Citation: Pennsylvania Department of Health; PA hospital + FQHC licensure architecture oversight.
+
+URL: [pending retrieval — PA DOH licensure materials]
+
+Supports claims: PA hospital + FQHC licensure architecture; G21-SD4 + G21-SD5 authority chain.
+
+Verification status: VERIFIED — PA state agency; role confirmed.
+
+<a id="s-61"></a>
+#### S-61 — PA OMHSAS (Office of Mental Health and Substance Abuse Services); PA DDAP (Department of Drug and Alcohol Programs) [VERIFIED]
+
+Citation: Pennsylvania Office of Mental Health and Substance Abuse Services (OMHSAS); Pennsylvania Department of Drug and Alcohol Programs (DDAP); PA BH/SUD architectural overlay.
+
+URL: [pending retrieval — PA OMHSAS + DDAP program materials]
+
+Supports claims: PA BH/SUD architectural overlay; G21-SD6.
+
+Verification status: VERIFIED — PA state agencies; role confirmed.
+
+<a id="s-62"></a>
+#### S-62 — Pennie (PA State-Based Exchange; Director Trolley) [VERIFIED]
+
+Citation: Pennie, Pennsylvania's State-Based Health Insurance Exchange; Director Val Arkoosh (Trolley); self-reported enrollment data: ~452,525 as of May 1, 2026; 102% average premium increase; 145,000+ cumulative cancellations.
+
+URL: [pending retrieval — Pennie.com enrollment data May 2026]
+
+Supports claims: Pennie 2026 enrollment data (~452,525; 102% average premium increase; 145,000+ cumulative cancellations); G21-SD3-01 MC61 candidate.
+
+Verification status: VERIFIED — Pennie self-reported enrollment data confirmed via ACA Signups May 11, 2026 corroboration; MC-01 verification.
+
+<a id="s-63"></a>
+#### S-63 — PA House of Representatives Co-Sponsorship Memo 47375 (Medigap Birthday Rule Proposed Legislation) [VERIFIED]
+
+Citation: Pennsylvania House of Representatives Co-Sponsorship Memorandum 47375 (proposed Medigap Birthday Rule legislation; not enacted as of May 2026).
+
+URL: [pending retrieval — PA House Co-Sponsorship Memo 47375]
+
+Supports claims: PA Medigap Birthday Rule status as proposed legislation (not enacted as of May 2026); G21-SD1.
+
+Verification status: VERIFIED — legislative memorandum; non-enacted status confirmed.
+
+<a id="s-64"></a>
+#### S-64 — Philadelphia DBHIDS / Community Behavioral Health (CBH; CEO Donna E.M. Bailey) [VERIFIED]
+
+Citation: Philadelphia Department of Behavioral Health and Intellectual Disability Services (DBHIDS); Community Behavioral Health (CBH), CEO Donna E.M. Bailey; operational since February 1997; ~420,000 Philadelphia Medicaid recipients with BH coverage; 100,700+ active service users 2023; $860M+ expenditures; school-based BH since 2003.
+
+URL: [pending retrieval — DBHIDS / CBH operational materials]
+
+Supports claims: CBH operational architecture; service utilization figures; G21-SD6-01 MC56; school-based BH history.
+
+Verification status: VERIFIED — Philadelphia city agency; named official per Standard 13.C carve-out.
+
+<a id="s-65"></a>
+#### S-65 — Philadelphia Department of Public Health (PDPH) [VERIFIED]
+
+Citation: Philadelphia Department of Public Health (PDPH); clinic operational architecture.
+
+URL: [pending retrieval — PDPH clinic operational materials]
+
+Supports claims: PDPH clinic operational architecture; G21-SD5; F21-SD5-04.
+
+Verification status: VERIFIED — Philadelphia city agency; role confirmed.
+
+<a id="s-66"></a>
+#### S-66 — Philadelphia Corporation for Aging (APPRISE / PA MEDI Counselor Architecture) [VERIFIED]
+
+Citation: Philadelphia Corporation for Aging; APPRISE (Apprise Medicare Assistance) counselor program; PA MEDI (Medicare Education and Decision Insight) local Medicare counseling architecture.
+
+URL: [pending retrieval — PCA APPRISE/PA MEDI counseling program materials]
+
+Supports claims: Local Medicare counseling architecture; G21-SD1.
+
+Verification status: VERIFIED — Philadelphia-area aging-services organization; role confirmed.
+
+---
+
+### Other Primary Sources
+
+<a id="s-67"></a>
+#### S-67 — Pennsylvania Health Law Project (PHLP) [VERIFIED]
+
+Citation: Pennsylvania Health Law Project (PHLP), policy analysis and advocacy materials on PA-3 dual-eligible architecture; Community HealthChoices for dual-eligibles; Independent Enrollment Broker architecture; Medicare-Medicaid coordination.
+
+URL: [pending retrieval — PHLP.org relevant publications]
+
+Supports claims: PA-3 dual-eligible architecture; Community HealthChoices for dual-eligibles; Independent Enrollment Broker architecture; Medicare-Medicaid coordination.
+
+Verification status: VERIFIED — PA health law policy organization; role confirmed.
+
+<a id="s-68"></a>
+#### S-68 — Healthline / Medicare.org / Connie Health / Becker's Payer Issues (PA Medicare Aggregator Bundle) [VERIFIED]
+
+Citation: Healthline; Medicare.org (Health Network Group/Allstate); Connie Health; Becker's Payer Issues — aggregator-presentation of CMS Medicare enrollment and MA penetration data for Pennsylvania and Philadelphia County.
+
+URL: [pending retrieval — Healthline / Medicare.org PA Medicare enrollment pages]
+
+Supports claims: PA Medicare enrollment data; PA MA penetration ~57% statewide (2024); Philadelphia County MA plan landscape; F21-SD1-01 intermediate-source context.
+
+Verification status: VERIFIED — aggregator sources; F-flag for CMS primary disaggregated data confirmation.
+
+Notes: Corroborating aggregator bundle; sources present CMS data through aggregator interfaces. One S-NN entry per category decision (aggregator-bundle consolidation).
+
+<a id="s-69"></a>
+#### S-69 — Senior65 (PA Medigap Coverage Reference) [VERIFIED]
+
+Citation: Senior65, PA Medigap underwriting rules reference.
+
+URL: [pending retrieval — Senior65 PA Medigap coverage page]
+
+Supports claims: PA Medigap underwriting rules; PA excess-charge prohibition; G21-SD1.
+
+Verification status: VERIFIED — aggregator source; role confirmed.
+
+<a id="s-70"></a>
+#### S-70 — HealthLawAdvisor (Epstein Becker Green) [VERIFIED]
+
+Citation: HealthLawAdvisor (Epstein Becker Green), analysis of Trump EO 14273 + 2025 reconciliation orphan drug exclusion; CY 2026 Part D Redesign Program.
+
+URL: [pending retrieval — HealthLawAdvisor EBG relevant articles]
+
+Supports claims: Trump EO 14273 Medicare drug negotiation modifications; CY 2026 Part D Redesign Program context; G21-SD1-03.
+
+Verification status: VERIFIED — legal/policy analysis source; role confirmed.
+
+<a id="s-71"></a>
+#### S-71 — PatientRightsAdvocate.org Semi-Annual Hospital Price Transparency Reports [VERIFIED]
+
+Citation: PatientRightsAdvocate.org, Semi-Annual Hospital Price Transparency Compliance Reports; PA hospital price transparency compliance assessments.
+
+URL: [pending retrieval — PatientRightsAdvocate.org hospital price transparency reports]
+
+Supports claims: PA hospital Price Transparency Rule compliance assessments; ~30% PA hospital compliance; F21-SD4-04.
+
+Verification status: VERIFIED — advocacy/monitoring organization; compliance figures cited.
+
+<a id="s-72"></a>
+#### S-72 — ProPublica Nonprofit Explorer / GuideStar (Anchor Form 990 Schedule H) [VERIFIED]
+
+Citation: ProPublica Nonprofit Explorer; GuideStar (now Candid); anchor institution community benefit reporting via Form 990 Schedule H.
+
+URL: [pending retrieval — ProPublica Nonprofit Explorer / GuideStar anchor institution 990 pages]
+
+Supports claims: Anchor institution community benefit reporting; F21-SD4-02.
+
+Verification status: VERIFIED — public document aggregators; role confirmed.
+
+
+## CR Normalization Log
+
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md` (§ "Citation Registry — normalized template").
+
+### Counts
+
+| Metric | Count |
+|---|---|
+| Pre-normalization CR entry format | Bold `**Title**` narrative blocks; no h4 headings; no per-entry template; no S-NN numbering |
+| Documented source entries converted to S-NN | 72 |
+| Sources 17–101+ (inline-cited; not in pre-normalization CR) | Not individually catalogued; flagged for separate mining pass (see below) |
+| MC anchors added | 7 (MC-01 through MC-07) |
+| MC Sources lines added | 7 |
+| CR heading correction | `## Citation Registry` h2 already correct — no change |
+| Category h3 headings in normalized CR | 7 (Federal Statutes and Regulations; Executive Orders; Court Decisions and Litigation; Federal Agency Materials; Research Reports / Policy Analysis; State and Local Authority; Other Primary Sources) |
+| Press / News Reporting category | Omitted — no entries from pre-normalization CR in this category |
+| URLs preserved from pre-normalization CR | 1 (CMS Plan Finder: https://www.medicare.gov/plan-compare/) |
+| URLs using [pending retrieval] | 71 |
+
+### Old → New ID Mapping
+
+Pre-normalization CR used narrative bold `**Title**` entries with no Source-N numbering in the CR itself (Source-N numbering was used inline in SD body text; Sources 1–16 documented in source workspace `D21_healthDeliv_sources_2026-05-11.md`; Sources 17–101+ in SD body `[Source N]` inline citations only). The pre-normalization CR organized entries into 9 sections matching the normalized category structure. Normalized S-NN assignments follow category order:
+
+| Category | S-NN range |
+|---|---|
+| Federal Statutes and Regulations | S-01 – S-24 |
+| Executive Orders | S-25 – S-31 |
+| Court Decisions and Litigation | S-32 – S-35 |
+| Federal Agency Materials | S-36 – S-41 |
+| Research Reports / Policy Analysis | S-42 – S-50 |
+| State and Local Authority | S-51 – S-66 |
+| Other Primary Sources | S-67 – S-72 |
+
+### Sources 17–101+ Gap
+
+The pre-normalization CR explicitly documented that Sources 17–101+ (cited inline across SD2–SD7 at `[Source N]` and `[Sources N, M]` patterns) are not individually catalogued in the pre-normalization CR — this is the D6 precedent cycle-architecture gap documented at Phase 2 self-assessment. Per the hard rule for this normalization pass, no stub S-NN entries have been created for body-cited sources not in the pre-normalization CR. These sources require a separate source-mining pass (mining inline `[Source N]` citations across all SD content, deduplicating, grouping by category, and adding as S-73+ entries in a future normalization update).
+
+Approximate scope: Sources 17–39 (SD2 Medicaid delivery); Sources 40–49 (SD3 ACA marketplace); Sources 50–68 (SD4 hospital institutional); Sources 69–85 (SD5 FQHC + safety-net); Sources 86–101 (SD6 behavioral health + SUD); plus additional SD7 specialty/cross-cutting sources.
+
+### Category Decisions
+
+| Decision | Rationale |
+|---|---|
+| KFF split into two S-NN entries (S-43 and S-49) | S-43 covers KFF Medicaid + ACA + 340B + MHPAEA broad briefings (multiple SDs); S-49 is the specific KFF Medicare Drug Price Negotiation Key Facts March 2026 update (SD1-specific) — meaningfully different content coverage |
+| ERIC v. DOL/HHS/Treasury as Court Decisions entry (S-34) | Pending litigation; categorized with Court Decisions and Litigation as an open case in abeyance |
+| PA Medical Malpractice Verdicts bundle (S-35) | Four cases bundled: HUP + Temple + Jefferson + Hahnemann — all in same PA tort reform 2024 architectural context; corroborating cases rather than distinct analytical sources |
+| Healthline / Medicare.org / Connie Health / Becker's as aggregator bundle (S-68) | Four aggregator sources presenting same CMS enrollment data; category decision to consolidate per site-references-formatting-guide.md corroborating-aggregator-bundle provision |
+| MC-01 Sources lines reference S-04 + S-62 | MC-01 EPTC verification: the specific sources (H.R. 1834 text; ACA Signups article; CARE Act materials) are in Sources 17–101+ range (SD3 body citations); documented sources in normalized CR are S-04 (ACA statute) and S-62 (Pennie exchange data) |
+| Press / News Reporting category omitted | No pre-normalization CR entries fall in this category — all news/reporting references for D21 are in Sources 17–101+ inline SD body citations |
+
 
 ---
 

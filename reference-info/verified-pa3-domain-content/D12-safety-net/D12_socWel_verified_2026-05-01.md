@@ -29,53 +29,59 @@ output:
 
 This section is a **navigation aid**, not the delivery mechanism for corrections. Every entry below corresponds to at least one inline edit applied at the named body location(s), using the italicized prior-pass note pattern. The corrections themselves live inline at the body locations they affect (M2 §7 Capability 2; M2 v1.1 §10 Pattern 12 enforcement). Most-consequential changes listed first.
 
+<a id="mc-01"></a>
 ### MC-01 — OBBBA cost-sharing $35/service effective date precision (temporal-precision correction)
 
 - **What it was (Phase 2 OUTPUT):** OUTPUT bundled cost-sharing of up to $35/service for Medicaid expansion enrollees into the "phasing in 2026 through 2027" implementation window alongside community-engagement (work) requirements, 6-month redetermination, qualified-immigrant restriction, and ARP 5pp incentive end. Surfaces 7 times in body.
 - **What it is now (verified):** Cost-sharing is effective **October 1, 2028** per OBBBA §71120 — distinctly later than the 2026–2027 work-requirements / redetermination implementation window. The 2026–2027 framing is sustained for: ARP 5pp incentive end (Jan 1, 2026); end of safe harbor for new provider taxes (Oct 1, 2026); emergency Medicaid FMAP cap on expansion services (Oct 1, 2026); qualified-immigrant restriction (Oct 1, 2026); work requirements (states must implement by Dec 31, 2026; state operationalization Jan 1, 2027 per OBBBA §71119); 6-month redetermination (beginning 2027 per OBBBA §71107). Cost-sharing ($35/service) and the long-term-care home equity cap reduction to $1M sit in the 2028 window. The provider-tax safe-harbor stepdown 6%→3.5% runs FY2028–FY2034.
 - **When changed:** Statutory at OBBBA enactment (July 4, 2025); the temporal-precision issue is a Phase 2 framing imprecision, not a temporal change in the underlying statute.
 - **Affects (high-volume policy):** 7 body locations — SD2 Section 1 (Synthesis SD2 summary, line 26); SD2 Section 2 Authority Chain (line 307, **principal anchor**); SD2 Section 3 Pathway A (line 337); SD2 Section 5 Profile 1 (line 365); SD2 Section 6 Both/And (line 375); SD2 Section 8 Closure (line 405); SD8 Section 6 Thread 7 SD2 listing (line 1371). Principal-anchor policy applied: comprehensive correction at line 307 with secondary-anchor brief verification notes at the other 6 occurrences pointing back to the principal anchor. Inline correspondence verified for all 7 locations.
-- **Sources:** KFF "Health Provisions in the 2025 Federal Budget Reconciliation Law" (Dec 2025); ASTHO OBBBA Law Summary; Health Affairs Forefront "New Cost-Sharing Requirements In Medicaid"; King & Spalding OBBBA review; Colorado Access OBBBA-Colorado summary.
+*Sources:* [S-19](#s-19), [S-20](#s-20), [S-21](#s-21), [S-22](#s-22), [S-23](#s-23)
 
+<a id="mc-02"></a>
 ### MC-02 — CBO Medicaid spending / coverage-loss figures: original score sustained; February 2026 baseline supplements
 
 - **What it was (Phase 2 OUTPUT):** OUTPUT cites OBBBA Medicaid impact at "approximately $1 trillion federal Medicaid spending decrease over FY2025–FY2034" and "approximately 11.8 million coverage losses (Medicaid plus Marketplace)."
 - **What it is now (verified):** Original cited figures are accurate as the July 2025 CBO score and remain the standard citation (AMA continues to cite 11.8M; Modern Medicaid Alliance, NASHP, ASTHO consistent). CBO's February 2026 Budget and Economic Outlook 2026–2036 baseline (released Feb 11, 2026) provides updated figures with different metric and window: $1.2 trillion Medicaid spending reduction through 2035 from OBBBA (CRFB analysis); 13.1 million Medicaid enrollment reduction by 2035 (different from coverage-loss; some who lose Medicaid acquire other coverage). The original score is not superseded; the Feb 2026 baseline supplements it. CBO October 28, 2025 supplemental cost estimate for Title VII Subtitle B further confirms procedural-reshape framing (see MC-03).
 - **When changed:** February 2026 (CBO baseline release), prior to OUTPUT drafting on April 30, 2026.
 - **Affects:** 1 body location — Synthesis Section 1 SD2 summary (line 26). Inline correspondence verified.
-- **Sources:** CBO Budget and Economic Outlook 2026–2036 (Feb 2026); Health Management Associates analysis; Committee for a Responsible Federal Budget; Georgetown CCF.
+*Sources:* [S-06](#s-06), [S-17](#s-17), [S-18](#s-18), [S-24](#s-24)
 
+<a id="mc-03"></a>
 ### MC-03 — OBBBA procedural-reshape load-bearing analytical claim: directly confirmed by CBO supplemental cost estimate
 
 - **What it was (Phase 2 OUTPUT):** Load-bearing analytical claim that "OBBBA changes operate substantially through procedural mechanisms — work-reporting forms, 6-month redetermination cycles, restored co-payment structures — rather than through outright eligibility-rule narrowing for most current enrollees" (SD2 Section 6 procedural-loss vector finding; cross-cuts to SD8 Section 6 Thread 7 cumulative finding).
 - **What it is now (verified):** Sustained at [D]/[SD] HIGH. **CBO October 28, 2025 supplemental cost estimate** for OBBBA P.L. 119-21 Title VII Subtitle B Chapter 1 explicitly states that of those losing coverage under §71107 (6-month redetermination): "30 percent of enrollees who will no longer have coverage under section 71107 will be ineligible for Medicaid at the time of the redetermination" while "the other 70 percent will no longer have coverage because of procedural reasons (such as missed [renewal mail])." Direct CBO confirmation that procedural-loss dominates redetermination-driven coverage loss. Georgetown CCF Aug 2025 identifies work-reporting requirement (5.3M uninsured by 2034) and 6-month redetermination (700K additional) as the two largest contributors — both procedural rather than eligibility-substantive. Urban Institute / RWJF (Buettgens et al., March 2026) projects 4.9M–10.1M expansion-coverage losses by 2028 from work requirements + 6-month redetermination combined.
 - **When changed:** Confirmation rather than change. CBO Oct 28, 2025 supplemental cost estimate post-dates OUTPUT methodology assumptions but remains consistent.
 - **Affects:** 1 body location — SD2 Section 6 procedural-loss vector finding (line 377). Inline correspondence verified. (The SD8 Section 6 Thread 7 finding is corroborated by the same evidence base; no separate inline correction required there since the SD2 finding is the upstream source.)
-- **Sources:** CBO supplemental cost estimate Oct 28, 2025 [P.L. 119-21 Title VII Subtitle B Chapter 1]; Georgetown Center for Children and Families "New CBO Health Coverage Estimates" (Aug 2025); Urban Institute / Robert Wood Johnson Foundation "Millions Could Lose Health Coverage Due to New Rules" (Mar 2026).
+*Sources:* [S-05](#s-05), [S-24](#s-24), [S-25](#s-25)
 
+<a id="mc-04"></a>
 ### MC-04 — Social Security Fairness Act of 2025 implementation: substantially complete (T12-SD1-01 / T12-SD8-04 resolved)
 
 - **What it was (Phase 2 OUTPUT):** SD1 Section 3 Pathway C describes the Social Security Fairness Act of 2025 as having "repealed [WEP/GPO] effective for benefits payable after January 2024" — a temporal change relevant to PA-3 retirees with prior public-sector service (T12-SD1-01). Implementation status was open for Phase 3 verification (T12-SD1-01 / T12-SD8-04).
 - **What it is now (verified):** Implementation substantially complete. As of July 7, 2025, SSA had processed over 3.1 million WEP/GPO retroactive payments totaling approximately $17 billion ("5 months ahead of schedule" per SSA blog); as of July 21, 2025 SSA had received 289,715 new applications since enactment with approximately 92% completed. Payments continue for complex non-automated cases. PA-3-specific completion-rate disaggregation remains an F-flag for the next verification cycle (added to unverified-items).
 - **When changed:** Implementation throughout 2025; substantially complete by mid-2025.
 - **Affects:** 2 body locations — SD1 Section 3 Pathway C (line 184, **principal anchor**); SD8 Section 6 SD1 cash benefits listing (line 1375). Inline correspondence verified.
-- **Sources:** SSA Fairness Act implementation page (last updated July 21, 2025); SSA blog "Social Security Pays Billions of Dollars in Retroactive Payments" (March 2025); SSA blog "Expedited Retroactive Payments and Higher Monthly Benefits" (February 2025).
+*Sources:* [S-07](#s-07), [S-08](#s-08), [S-09](#s-09)
 
+<a id="mc-05"></a>
 ### MC-05 — ABLE Age Adjustment Act: confirmed effective January 1, 2026 (T12-SD5-04 resolved)
 
 - **What it was (Phase 2 OUTPUT):** SD5 Section 2 statutes the ABLE age-of-onset threshold rises from 26 to 46 effective January 1, 2026 under prior statute, with T12-SD5-04 marked for confirmation of effective date.
 - **What it is now (verified):** ABLE Age Adjustment Act took effect as scheduled on January 1, 2026; the disability-onset threshold is now before age 46 nationwide. Approximately 6 million additional people newly eligible.
 - **When changed:** January 1, 2026 (statutory effective date confirmed).
 - **Affects:** 1 body location — SD5 Section 2 ABLE Act statutory description (line 791). Inline correspondence verified.
-- **Sources:** ABLE National Resource Center "ABLE Age Adjustment Act Fact Sheet" (Nov 2025); Disability Belongs "ABLE Age Adjustment Act Update" (Feb 2026); CalABLE Age Adjustment page; multiple state ABLE program implementation announcements.
+*Sources:* [S-52](#s-52), [S-53](#s-53), [S-54](#s-54)
 
+<a id="mc-06"></a>
 ### MC-06 — PHA HCV waitlist 2027 reopening anticipation: confirmed sustained (T12-SD4-02 resolved)
 
 - **What it was (Phase 2 OUTPUT):** SD4 Section 2 states the 2023 PHA HCV waitlist (10,000 selected from approximately 36,000+ applicants) is anticipated to be exhausted by 2026–2027, with a subsequent reopening expected in 2027 (T12-SD4-02).
 - **What it is now (verified):** 2027-reopening anticipation sustained. As of late 2025, more than 2,000 of the 10,000 applicants from the 2023 lottery had been processed (711 leased their first HCV unit; ~700 actively shopping); the 2023 list utilization sequence remains on the originally-projected three-to-five-year schedule. The 2023 lottery received more than 37,000 applications (Metro Philadelphia, Oct 2025; consistent with OUTPUT's "approximately 36,000+"). A brief HCV-related opening was tracked on April 8, 2026 by section8waitlist.org but appears narrowly-scoped and does not represent the full 2027 reopening.
 - **When changed:** No material change; status confirmation.
 - **Affects:** 1 body location — SD4 Section 2 PHA description (line 641). Inline correspondence verified.
-- **Sources:** Metro Philadelphia "PHA boss gives update on housing vouchers, timeline for waitlist" (Oct 2025); section8waitlist.org Philadelphia tracker; affordablehousinghub.org PHA page.
+*Sources:* [S-29](#s-29), [S-55](#s-55), [S-56](#s-56)
 
 ### Confirmed-without-correction items (no Material Changes entries; documented in temporal-changes sidecar TC-NN entries)
 
@@ -1749,84 +1755,896 @@ Highest-priority for Phase 3 verification:
 
 ---
 
-## CITATION REGISTRY
+## Citation Registry
 
-Per M2 §7 Capability 3, the Citation Registry is a sidecar section of the verified file listing every unique source supporting claims in the body. The Registry is composed of two layers: (a) Phase 1–2 sources from the source workspace `D12_socWel_sources_2026-04-30.md` (preserved with their original Source 1 through Source 21 numbering); (b) Phase 3 sources retrieved during verification (numbered Source 22+). Each entry: full citation; URL; date retrieved; brief description; principal SD or finding the source supports.
-
-### Phase 1–2 sources (preserved from `D12_socWel_sources_2026-04-30.md`)
-
-**Source 1 (SD1).** Pennsylvania Department of Human Services, "Temporary Assistance for Needy Families (TANF)," program page including Group 2 payment standard for Philadelphia County. URL: https://www.pa.gov/agencies/dhs/resources/cash-assistance/tanf · Retrieved 2026-04-30. *Supports:* PA TANF Group 2 (Philadelphia) max $403/month for family of three; 60-month lifetime limit; $1,000 resource cap (SD1 Section 2; G12-SD1-01).
-
-**Source 2 (SD1).** Just Harvest, "PA DHS Programs," Pennsylvania benefit thresholds page. URL: https://www.justharvest.org/pa-dhs · Retrieved 2026-04-30. *Supports:* PA TANF income/resource thresholds confirmed: $403/family-of-three; $1,000 resource limit ($250 single) (SD1 Section 2).
-
-**Source 3 (SD1; SD5; SD7; SD8 cumulative).** Social Security Administration, "2026 Cost-of-Living Adjustment (COLA) Fact Sheet." URL: https://www.ssa.gov/news/en/cola/factsheets/2026.html · Retrieved 2026-04-30; re-verified Phase 3 2026-05-01. *Supports:* 2.8% COLA for 2026; SSI FBR $994 individual / $1,491 couple; SSI resource limits $2,000/$3,000 (SD1 Section 2; SD5 Section 2; SD7 Section 2; G12-SD1-02).
-
-**Source 4 (SD1; SD7).** Social Security Administration, "Cost-of-Living Adjustment (COLA) Information." URL: https://www.ssa.gov/cola/ · Retrieved 2026-04-30. *Supports:* 2026 OASDI averages — retired worker $2,071/mo; disabled worker $1,630/mo; max SSDI $4,152/mo; taxable max $184,500 (SD1 Section 3 Pathway C; SD7 Section 2).
-
-**Source 5 (SD1).** Pennsylvania Department of Revenue, "Working Pennsylvanians Tax Credit (WPTC)." URL: https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/personal-income-tax/working-pennsylvanians-tax-credit · Retrieved 2026-04-30. *Supports:* PA WPTC = 10% of federal EITC; max state credit $805; automatic if federal EITC claimed; effective tax year 2025 (SD1 Section 2; cross-ref D9).
-
-**Source 6 (SD1).** Commonwealth of Pennsylvania, Office of Governor, "FACT SHEET: How Many Pennsylvanians Will Benefit from New Tax Credit" (Nov 2025). URL: https://www.pa.gov/governor/newsroom/2025-press-releases/fact-sheet--how-many-pennsylvanians-will-benefit-from-new-tax-cr · Retrieved 2026-04-30. *Supports:* WPTC enacted in 2025-26 PA budget; $193M tax relief; 940,000 Pennsylvanians eligible; first claim in 2026 filing season (SD1 Section 2).
-
-**Source 7 (SD1).** ITEP / Philadelphia Inquirer (Das, Kamolika), "After Pennsylvania's EITC boost, it's Philly's turn" (2025-12-30). URL: https://www.inquirer.com/opinion/commentary/eitc-pennsylvania-wage-tax-philadelphia-20251230.html · Retrieved 2026-04-30. *Supports:* Philadelphia Wage Tax Refund Program 4.5% take-up rate among 50,000 eligible; ITEP Who Pays for PA regressivity (SD1 Section 4; cross-ref D9).
-
-**Source 8 (SD1).** Pennsylvania Department of Human Services / WIOA State Plan Portal, "Pennsylvania PYs 2024-2027 - Temporary Assistance for Needy Families Program." URL: https://wioaplans.ed.gov/node/545011 · Retrieved 2026-04-30. *Supports:* PA TANF 60-month lifetime limit (1830 days); 24-month work-clock (732 days); AMR framework; 50% earned-income disregard (SD1 Section 2).
-
-**Source 9 (SD1).** Pennsylvania Department of Human Services, "TANF State Plan" (December 2024 update). URL: https://www.pa.gov/agencies/dhs/resources/cash-assistance/tanf/tanf-state-plan · Retrieved 2026-04-30. *Supports:* PA submitted updated TANF State Plan to DHHS December 2024; FRA 2023 Section 411 SSA performance-indicator collection beginning October 2024 (T12-SD1-02).
-
-**Source 10 (SD2; SD3; SD6; SD8).** HHS ASPE, "2026 Poverty Guidelines: 48 Contiguous States" and Federal Register Annual Update of HHS Poverty Guidelines (effective Jan 13, 2026; 2.63% increase over 2025). URLs: https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines · https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines · Retrieved 2026-04-30; re-verified Phase 3 2026-05-01. *Supports:* 2026 FPL HH-1 $15,960; HH-3 $27,320; HH-4 $33,000; 138% FPL HH-1 $22,024.80; 138% FPL HH-4 $45,540 (SD2; SD3; SD6 Pathway B Profile 3 illustrative income; SD8 cumulative).
-
-**Source 11 (SD2; SD8).** KFF, "Medicaid in Pennsylvania" fact sheet (May 2025); healthinsurance.org, "Medicaid eligibility and enrollment in Pennsylvania." URLs: https://files.kff.org/attachment/fact-sheet-medicaid-state-PA · https://www.healthinsurance.org/medicaid/pennsylvania/ · Retrieved 2026-04-30. *Supports:* PA Medicaid total 2,986,000 enrollees (May 2025); 1.1M in Group VIII expansion; PA expanded Jan 1, 2015; eligibility levels (SD2 Section 4; SD8 Section 2).
-
-**Source 12 (SD2; SD3; SD6; SD7; SD8).** AMA, "Changes to Medicaid, the ACA and other key provisions of the One Big Beautiful Bill Act"; NASHP, "What Health Care Provisions of the One Big Beautiful Bill Act Mean for States"; Center for American Progress, "The Implementation Timeline of the One Big Beautiful Bill Act"; PwC, "OBBBA reshapes US health policy"; Federal Funds Information for States, SNAP brief. URLs: https://www.ama-assn.org/health-care-advocacy/federal-advocacy/changes-medicaid-aca-and-other-key-provisions-one-big · https://nashp.org/what-health-care-provisions-of-the-one-big-beautiful-bill-act-mean-for-states/ · https://www.americanprogress.org/article/the-implementation-timeline-of-the-one-big-beautiful-bill-act/ · Retrieved 2026-04-30; re-verified and supplemented Phase 3 2026-05-01. *Supports:* OBBBA P.L. 119-21 signed July 4, 2025; ~$1T Medicaid cuts and ~$186-187B SNAP cuts over decade; CBO ~11.8M coverage loss; community-engagement (work) requirements; 6-month redetermination; cost-sharing $35/service for expansion; provider-tax safe harbor 6%→3.5% FY2028-FY2034; emergency Medicaid FMAP cap October 2026; restricted qualified-immigrant categories; ARP 5pp expansion incentive ended Jan 1, 2026; SNAP ABAWD age extension to 64; parent exemption to youngest-child-under-14; SUA restriction for non-elderly non-disabled; TFP CPI-U-only adjustment; admin cost share rising to 75% in FY 2027; SNAP-Ed terminated FY 2025 (SD2; SD3; SD6; SD7; SD8 Section 6 Thread 7).
-
-**Source 13 (SD2; SD7).** PA DHS, "Managed Care Organizations (MCO) - Physical HealthChoices"; PA Medicaid Managed Care Directory; PHLP "Medical Assistance Managed Care in Pennsylvania"; CBH Philly; Health Management Associates "Pennsylvania releases CHC Medicaid managed care RFA." URLs: https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco · https://cbhphilly.org/members/services/physical-health-services/ · Retrieved 2026-04-30. *Supports:* HealthChoices 2.2M+ enrollees statewide; 5 zones; SE Zone composition; Philadelphia BH delegated to CBH (SD2 Section 2; SD7 Section 2).
-
-**Source 14 (SD2; SD7).** Medicaid Planning Assistance / Pennsylvania Medicaid Eligibility 2026: Income & Asset Limits; medicaideligibilitycalculator.com PA Medicaid Eligibility 2026. URLs: https://www.medicaidplanningassistance.org/medicaid-eligibility-pennsylvania/ · https://medicaideligibilitycalculator.com/medicaid-eligibility/pennsylvania/ · Retrieved 2026-04-30. *Supports:* PA MNO-MA (Medically Needy) 2026 — MNIL $425/month single; spend-down 6-month; MNO-MA asset limits $2,400 / $3,200; Excess Home Equity Limit MA-LTC 2026 $752,000; Spousal Income Allowance MMMNA $4,066.50 (SD2 Pathway B; SD7).
-
-**Source 15 (SD3; SD8).** USDA FNS FY 2026 SNAP COLA / Propel "Will Food Stamps Increase In 2026?"; SNAP Eligibility Calculator FY 2026; Fox 29 "2026 Pennsylvania, NJ, Delaware SNAP benefit amounts." URLs: https://snapeligibilitycalculator.com/ · https://www.propel.app/snap/snap-increase-2025-2026/ · Retrieved 2026-04-30; re-verified Phase 3 2026-05-01. *Supports:* FY 2026 SNAP max allotments (48 contig) — HH-1 $298; HH-2 $546; HH-3 $785; HH-4 $994; HH-5 $1,183; HH-6 $1,421; minimum benefit $24 for HH-1/HH-2; gross income limit 130% FPL; net 100% FPL; FY 2026 effective Oct 1 2025 (SD3 Section 4; SD8 Section 4).
-
-**Source 16 (SD3).** SNAP Benefit Calculator PA SNAP Income Limits 2026; PA DHS SNAP guidance. URL: https://snapbenefitcalculator.com/pennsylvania-snap-income-limits/ · Retrieved 2026-04-30. *Supports:* PA Broad-Based Categorical Eligibility — 200% FPL gross threshold; no asset limits; PA ABAWD waiver expired Sep 1, 2025; new ABAWD work rules effective Nov 1, 2025; 80 hrs/month or 20 hrs/week (SD3 Section 2; G12-SD3-01).
-
-**Source 17 (SD3).** PA WIC PA WIC Income Guidelines / Pennsylvania WIC; FRAC Community Eligibility Provision State Lists SY 2025-2026. URLs: https://www.pawic.com/IncomeGuidelines.aspx · https://frac.org/community-eligibility/state-schools-lists · Retrieved 2026-04-30. *Supports:* PA WIC eligibility 185% FPL gross; serves ~200,000+ annually; CEP threshold 25% identified students; SDP CEP-participating for great majority of schools (SD3 Section 4 Pathway B; SD3 Section 4 Pathway C).
-
-**Source 18 (SD4).** Philadelphia Housing Authority Housing Choice Voucher; section8waitlist.org Philadelphia Housing Authority Waiting List Status; Metro Philadelphia "PHA boss gives update on housing vouchers"; Clarifi/WHYY/Phila Sun reports on 2023 lottery; PHDC PHLHousing+. URLs: https://www.pha.phila.gov/housing/housing-choice-voucher/ · https://metrophiladelphia.com/pha-housing-vouchers-update/ · https://phdcphila.org/phlhousing-plus/ · Retrieved 2026-04-30; **re-verified and supplemented Phase 3 2026-05-01**. *Supports:* PHA HCV ~19,500 households; total PHA-assisted units ~37,350; 2023 waitlist lottery received 36,000+ apps for 10,000 slots; 2010 list had 55,000 applicants over 13 years; next reopening anticipated 2027; 2026 SE PA Philadelphia-Camden-Wilmington MSA Very Low Income (50% AMI) HH-4 $59,700; PHLHousing+ pilot 300 households; ARP EHV ~850+ to Philadelphia (SD4; T12-SD4-02 resolution).
-
-**Source 19 (SD5).** PA DLI Office of Vocational Rehabilitation, Apply for Vocational Rehabilitation Services; Office Hours OVR Order of Selection (March 2025); ODP Adult Autism Waiver Provider Information Table; ODP Consolidated/Community Living/P-FDS Waiver amendment record. URLs: https://www.pa.gov/services/dli/apply-for-vocational-rehabilitation-services · https://home.myodp.org/aiovg_videos/virtual-office-hour-voh-question-answer-qa-on-the-office-of-vocational-rehabilitations-ovr-order-of-selection-announcement/ · Retrieved 2026-04-30. *Supports:* OVR Order of Selection effective April 1, 2025; 21 OVR district offices; SSI/SSDI exempt from OVR FNT; ODP IDD waivers — Consolidated, Community Living, P/FDS, Adult Autism (SD5 Section 2; G12-SD5-03; G12-SD5-04).
-
-**Source 20 (SD6).** Inquirer/Resolve Philly investigation "Philly removes neglected children from homes" (April 9, 2025); Inquirer "Social workers in Philly's outsourced foster care system" (June 9, 2025); City of Philadelphia DHS press release "City Releases Evaluation of Child Welfare System"; Caring People Alliance CUA Cares (CUA #6); Catholic Social Services CUA #4; Philadelphia DHS FY 2026 Q1 Quarterly Indicators Report. URLs: https://www.inquirer.com/news/dhs-child-welfare-cua-failures-20250409.html · https://www.phila.gov/media/20260316120640/Fiscal-Year-2026-Q1-Quarterly-Indicators-Report.pdf · https://www.phila.gov/press-releases/department-of-human-services/city-releases-evaluation-of-child-welfare-system/ · Retrieved 2026-04-30. *Supports:* Philadelphia DHS contracts 7 organizations operating 10 CUAs since 2012 IOC framework; ChildLine ~35,000 calls annually; FY 2026 Q1 indicators; 45% kinship rate; 168 youth in residential placement Sept 30 2025; reunification rate trending down since FY 2022; CUA Scorecard initial baseline 7-of-10 unsatisfactory; ~70 lawsuits over CUA lifetime including 14 child fatalities; Turning Points $40M operation closed 2022; Tabor non-renewed early 2024; FY 2026 DHS budget ~$124M (SD6 throughout).
-
-**Source 21 (SD7).** PA Elder Law / Robert C. Gerhard III "Pennsylvania Medicaid Long-Term Care Numbers and Fact Sheet 2026"; PA pawic.com / various sources. URL: https://www.paelderlaw.net/pennsylvania-medicaid-numbers-and-elder-law-statistics/ · Retrieved 2026-04-30. *Supports:* PA ~2.4M residents 60+; ~240K over age 85; PA third-highest elderly-share state; 1 in 5 older Pennsylvanians at or near poverty (SD7 Section 4).
-
-### Phase 3 sources (added 2026-05-01)
-
-**Source 22 (SD2; load-bearing analytical claim verification).** Congressional Budget Office, "Estimated Budgetary Effects of Public Law 119-21, Title VII, Subtitle B, Chapter 1, Medicaid" (Supplemental Cost Estimate, October 28, 2025). URL: https://www.cbo.gov/system/files/2025-10/PL-119-21-Medicaid_0.pdf · Retrieved 2026-05-01. *Supports:* Direct CBO confirmation that 70 percent of redetermination-driven coverage loss is procedural (missed renewal mail) and 30 percent is eligibility-substantive — sustains the procedural-reshape load-bearing analytical claim at SD2 Section 6 procedural-loss vector finding (line 377 inline note) and at SD8 Section 6 Thread 7 cumulative finding. Documents §71101 deficit-effect estimate; §71107 6-month redetermination effect; §71109 alien Medicaid eligibility provisions.
-
-**Source 23 (SD2; CBO baseline supplement).** Congressional Budget Office, "The Budget and Economic Outlook: 2026 to 2036" (February 11, 2026 baseline) and CBO February 2026 Baseline Projections — Federal Subsidies for Health Insurance. Reported and analyzed by Health Management Associates "CBO's New Baseline Signals Shifting Cost and Risk Dynamics in Medicaid and Medicare" (Feb 18, 2026); Committee for a Responsible Federal Budget "CBO Projects High Federal Health Program Costs" (Feb 25, 2026). URLs: https://www.cbo.gov/system/files/2026-02/51298-2026-02-healthinsurance.pdf · https://www.healthmanagement.com/blog/in-focus/cbos-new-baseline-signals-shifting-cost-and-risk-dynamics-in-medicaid-and-medicare/ · https://www.crfb.org/blogs/cbo-projects-high-federal-health-program-costs · Retrieved 2026-05-01. *Supports:* CBO Feb 2026 baseline projects $1.2T Medicaid spending reduction through 2035 from OBBBA; 13.1M Medicaid enrollment reduction by 2035 — supplementary metrics noted at Synthesis Section 1 SD2 summary inline (line 26) without superseding original July 2025 score.
-
-**Source 24 (SD2 cost-sharing date precision).** Kaiser Family Foundation, "Health Provisions in the 2025 Federal Budget Reconciliation Law" (December 2025); Association of State and Territorial Health Officials, "One Big Beautiful Bill Law Summary" (2025); Health Affairs Forefront, "New Cost-Sharing Requirements In Medicaid: Considerations For State Implementation"; King & Spalding, "The One Big Beautiful Bill Act Explained" (2025); Colorado Access "OBBBA Key Medicaid Changes in Colorado." URLs: https://www.kff.org/medicaid/health-provisions-in-the-2025-federal-budget-reconciliation-law/ · https://www.astho.org/advocacy/federal-government-affairs/leg-alerts/2025/one-big-beautiful-bill-law-summary/ · https://www.healthaffairs.org/content/forefront/new-cost-sharing-requirements-medicaid-considerations-state-implementation · https://www.kslaw.com/news-and-insights/the-one-big-beautiful-bill-act-explained-a-detailed-review-of-key-changes-for-the-healthcare-industry · https://www.coaccess.com/blog/the-one-big-beautiful-bill-act-obbba-key-medicaid-changes-in-colorado/ · Retrieved 2026-05-01. *Supports:* OBBBA §71120 cost-sharing of up to $35/service for expansion adults 100-138% FPL is effective October 1, 2028 (NOT 2026-2027). OBBBA §71119 work requirements effective Jan 1, 2027 with state-implementation deadline Dec 31, 2026. OBBBA §71107 6-month redetermination beginning 2027. Provider-tax safe-harbor stepdown FY2028-FY2034. Long-term-care home equity cap reduction to $1M effective Jan 1, 2028. Documents the temporal-precision distinction between the 2026-2027 implementation window (work requirements, redetermination, ARP incentive end, qualified-immigrant restriction, emergency Medicaid FMAP, end of new-provider-tax safe harbor) and the 2028 implementation window (cost-sharing, home equity cap). Principal-anchor inline correction at SD2 Section 2 (line 307) plus secondary-anchor brief notes at 6 other body locations.
-
-**Source 25 (SD2; CBO coverage-loss analysis).** Georgetown University Center for Children and Families, "New CBO Health Coverage Estimates of Budget Reconciliation Law" (August 14, 2025). URL: https://ccf.georgetown.edu/2025/08/14/new-cbo-health-coverage-estimates-of-budget-reconciliation-law/ · Retrieved 2026-05-01. *Supports:* CBO August 2025 detailed estimates: increase of 10 million uninsured by 2034; work-reporting requirement contributes 5.3 million (largest contributor); 6-month redeterminations contribute additional 700,000; provider-tax restrictions contribute 1.2 million. Confirms procedural-loss-architecture characterization at SD2 Section 6 (load-bearing analytical claim verification).
-
-**Source 26 (SD2; Urban Institute / RWJF projections).** Urban Institute (Buettgens M, Karpman M, Haley JM, Carter J, Kenney GM), "Projected Reductions in Medicaid Expansion Enrollment Under OBBBA's Work Requirements and Six-Month Redeterminations: National and State Estimates for 2028" (March 2026); Robert Wood Johnson Foundation "Millions Could Lose Medicaid Coverage Due to New Rules" (March 2026); American Journal of Managed Care "5 Groups at Highest Risk of Losing Medicaid Coverage Under OBBBA." URLs: https://www.rwjf.org/en/insights/our-research/2026/03/millions-could-lose-health-coverage-due-to-new-rules.html · https://www.ajmc.com/view/5-groups-at-highest-risk-of-losing-medicaid-coverage-under-obbba · Retrieved 2026-05-01. *Supports:* Between 4.9 and 10.1 million people could lose Medicaid coverage in 2028 under work requirements + 6-month redetermination combined, depending on state mitigation choices. Reinforces procedural-loss-architecture characterization (load-bearing claim verification).
-
-**Source 27 (SD1; SS Fairness Act implementation status).** Social Security Administration, "Social Security Fairness Act: Windfall Elimination Provision (WEP) and Government Pension Offset (GPO) update" (last updated July 21, 2025); SSA blog "Social Security Pays Billions of Dollars in Retroactive Payments" (March 2025); SSA blog "Social Security Announces Expedited Retroactive Payments and Higher Monthly Benefits for Millions" (February 2025); SSA program explainer "Windfall Elimination Provision." URLs: https://www.ssa.gov/benefits/retirement/social-security-fairness-act.html · https://blog.ssa.gov/social-security-pays-billions-of-dollars-in-retroactive-payments/ · https://blog.ssa.gov/social-security-announces-expedited-retroactive-payments-and-higher-monthly-benefits-for-millions-actions-support-the-social-security-fairness-act/ · https://www.ssa.gov/policy/docs/program-explainers/windfall-elimination-provision.html · Retrieved 2026-05-01. *Supports:* SSA implementation substantially complete as of mid-2025: 3.1M+ retroactive payments totaling $17B by July 7, 2025 (5 months ahead of schedule); 289,715 new applications received post-enactment; ~92% completed by July 21, 2025; complex non-automated cases continue. Resolves T12-SD1-01 and T12-SD8-04.
-
-**Source 28 (SD5; ABLE Age Adjustment Act effective-date confirmation).** ABLE National Resource Center, "The ABLE Age Adjustment Act Fact Sheet" (Nov 2025) and "ABLE Case Summary Series" (Oct 2025); Disability Belongs "ABLE Age Adjustment Act Update" (Feb 2026); CalABLE Age Adjustment page; multiple state ABLE program announcements. URLs: https://www.ablenrc.org/the-able-age-adjustment-act-fact-sheet/ · https://www.disabilitybelongs.org/2026/01/able-age-adjustment-act-update/ · https://calable.ca.gov/how-it-works/age-adjustment · Retrieved 2026-05-01. *Supports:* ABLE Age Adjustment Act took effect January 1, 2026 as scheduled; disability-onset threshold raised from before age 26 to before age 46; approximately 6 million additional people newly eligible; existing 214,000+ accounts holding $2.68B+ as of June 2025. Resolves T12-SD5-04.
-
-**Source 29 (SD4; PHA HCV waitlist 2027 anticipation confirmation).** Metro Philadelphia, "PHA boss gives update on housing vouchers, timeline for waitlist" (October 2025; interview with PHA CEO Kelvin A. Jeremiah); section8waitlist.org Philadelphia Housing Authority status tracker; affordablehousinghub.org Philadelphia Housing Authority page (information verified April 23, 2026); Affordable Housing Online "Open Section 8 Waiting Lists in Philadelphia, Pennsylvania." URLs: https://www.metrophiladelphia.com/stories/pha-boss-gives-update-on-housing-vouchers-timeline-for-waitlist,98734 · https://section8waitlist.org/states/pennsylvania/philadelphia/philadelphia-housing-authority · https://affordablehousinghub.org/housing/pennsylvania/philadelphia-county/philadelphia/philadelphia-housing-authority-2836-authority · https://affordablehousingonline.com/open-section-8-waiting-lists/Pennsylvania/Philadelphia · Retrieved 2026-05-01. *Supports:* PHA HCV 2027-reopening anticipation sustained; 2023 list utilization on originally-projected 3-5-year schedule; 2,000+ applicants from 2023 lottery processed (711 leased; ~700 actively shopping); 2023 lottery received 37,000+ applications (refines OUTPUT's 36,000+); ~37,350 PHA-assisted housing units; 2026 SE PA Philadelphia-Camden-Wilmington MSA Very Low Income (50% AMI) HH-4 $59,700. Resolves T12-SD4-02.
-
-**Source 30 (cross-cutting; 2026 federal benefit rates re-verification).** Multiple corroborating sources for 2026 SSI/COLA values: Graham Law "What to Know About Social Security COLA 2026"; National Council on Aging "How Much Does Supplemental Security Income (SSI) Pay?" (March 2026); Russo Law Group "2026 COLA: What the 2.8% Increase Means for Your Benefits" (Jan 2026); Bender and Bender Law "What Is the 2026 COLA for SSDI and SSI Benefits?"; Henson Fuerst Attorneys "Social Security Announces New Cost-of-Living Adjustment (COLA) for 2026"; Disability Denials "SSA Sets the 2026 COLA Increase at 2.8% for Benefit Payments"; Flaherty Salmin CPAs "Social Security Wage Cap and Benefit Amounts Increase for 2026." URLs: https://grahamlpa.com/blog/social-security-cola-2026/ · https://www.ncoa.org/article/how-much-does-supplemental-security-income-ssi-pay/ · https://vjrussolaw.com/2026-cola-what-the-2-8-increase-means-for-your-benefits/ · https://www.benderandbenderlaw.com/cola-2026/ · Retrieved 2026-05-01. *Supports:* 2026 SSI FBR $994 individual / $1,491 couple; 2.8% COLA effective Dec 31, 2025; SSI resource limits unchanged $2,000/$3,000; 2026 SGA $1,690/mo non-blind; 2026 max OASDI benefit $4,152/mo at FRA; 2026 average retired worker $2,071/mo; 2026 average disabled worker $1,630/mo. Cross-corroborates Source 3 (SSA) and Source 4 (SSA).
-
-**Source 31 (cross-cutting; 2026 FPL re-verification).** Multiple corroborating sources for 2026 federal poverty guidelines: HHS ASPE "2026 Poverty Guidelines: 48 Contiguous States" PDF; Medicaid Planning Assistance "Federal Poverty Guidelines / Levels for 2026"; HealthInsurance.org "What is the federal poverty level (FPL)?" (2026 Coverage Guidelines); Entyre Care "What is the federal poverty level in 2026?"; BenefitsUSA "Federal Poverty Level 2026: Updated Income Guidelines"; Venteur "2026 Federal Poverty Guidelines: FPL, Medicaid & Tax Credits"; LIHEAP Clearinghouse "Federal Poverty Guidelines for FFY 2026." URLs: https://aspe.hhs.gov/sites/default/files/documents/b1bfa16b20ae9b89d525bc35de7c1643/detailed-guidelines-2026.pdf · https://www.healthinsurance.org/glossary/federal-poverty-level/ · https://liheapch.acf.gov/profiles/povertytables/FY2026/popstate.htm · Retrieved 2026-05-01. *Supports:* 2026 FPL HH-1 $15,960; HH-2 $21,640; HH-3 $27,320; HH-4 $33,000; HH-5 $38,680; effective Jan 13, 2026; 138% FPL HH-1 ~$22,025; 138% FPL HH-4 ~$45,540; per ASPE methodology calculation used 11 of 12 months of 2025 CPI-U because of October 2025 government shutdown. Cross-corroborates Source 10.
-
-**Source 32 (cross-cutting; FY 2026 SNAP allotments re-verification).** USDA FNS "SNAP FY 2026 Cost-of-Living Adjustments" and "SNAP Cost-of-Living Adjustment (COLA) Information"; PovertyLevelCalculator "Pennsylvania SNAP Eligibility 2026 — Income Limits"; Yahoo Finance / GOBankingRates "SNAP Benefits 2026: New Maximums and Monthly Increases"; SNAP Eligibility Calculator "Free SNAP Eligibility Calculator in 2026"; SavingAdvice "SNAP in Pennsylvania: What's The Maximum Income To Qualify?"; SNAP Benefit Calculator "PA SNAP Calculator 2026" and "December 2025 SNAP Payments." URLs: https://www.fns.usda.gov/snap/allotment/cola/fy26 · https://www.fns.usda.gov/snap/allotment/cola · https://snapeligibilitycalculator.com/ · Retrieved 2026-05-01. *Supports:* FY 2026 SNAP max allotments (48 contig) — HH-1 $298; HH-2 $546; HH-3 $785; HH-4 $994; HH-5 $1,183; HH-6 $1,421; HH-7 $1,571; HH-8 $1,789; effective October 1, 2025 through September 30, 2026. PA Broad-Based Categorical Eligibility 200% FPL gross threshold sustained. Cross-corroborates Source 15. Documents November 2025 partial-shutdown effect on SNAP issuance and ABAWD time-limit non-counting policy.
-
-### Citation Registry totals
-
-- **Total unique sources:** 32 (21 carried from Phase 1-2 source workspace; 11 added during Phase 3 verification — Sources 22-32, marked "added 2026-05-01")
-- **Phase 3 source-additions concentration:** SD2 (5 new sources for OBBBA implementation, CBO baseline, Health Affairs cost-sharing analysis, Urban Institute coverage-loss projections, Georgetown CCF coverage estimates); SD1 (1 new source consolidating SSA Fairness Act blog and explainer pages); SD5 (1 new source — ABLE NRC); SD4 (1 new source — PHA HCV waitlist update consolidation); cross-cutting (3 new sources cross-corroborating 2026 federal benefit rates, 2026 FPL, FY 2026 SNAP allotments).
-- **No fabricated sources.** Every citation in the body traces to either a Phase 1-2 source workspace entry (Sources 1-21) or a Phase 3-retrieved primary source (Sources 22-32).
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md` (§ "Citation Registry — normalized template"). One S-NN entry per unique external source; multi-URL bundles split into per-source entries where sources cover meaningfully different content; corroborating aggregator bundles (Sources 30–32) kept together with all URLs listed. Source workspace `D12_socWel_sources_2026-04-30.md` documents Phase 1–2 sources; Phase 3 sources added 2026-05-01. Old Source-N IDs → new S-NN mapping in CR Normalization Log at file bottom.
 
 ---
 
-*End of D12 Social Welfare VERIFIED file (Phase 3, Tier 2 publication-ready). Per M2 v1.1 §7. Pattern 12 enforcement: every Material Changes Summary entry corresponds to at least one inline edit at the body location(s) it affects. Verified 2026-05-01.*
+### Federal Agency Materials
+
+<a id="s-01"></a>
+#### S-01 — SSA 2026 Cost-of-Living Adjustment Fact Sheet [VERIFIED]
+
+**Citation:** Social Security Administration, "2026 Cost-of-Living Adjustment (COLA) Fact Sheet," 2025.
+
+**URL:** https://www.ssa.gov/news/en/cola/factsheets/2026.html
+
+**Supports claims:** SD1 §2 SSI FBR $994 individual / $1,491 couple; SSI resource limits $2,000/$3,000; 2.8% COLA; SD5 §2; SD7 §2; SD8 §2; G12-SD1-02. Re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-02"></a>
+#### S-02 — SSA Cost-of-Living Adjustment Information Page [VERIFIED]
+
+**Citation:** Social Security Administration, "Cost-of-Living Adjustment (COLA) Information," program information page.
+
+**URL:** https://www.ssa.gov/cola/
+
+**Supports claims:** SD1 §3 Pathway C OASDI averages — retired worker $2,071/mo; disabled worker $1,630/mo; max SSDI $4,152/mo; taxable max $184,500; SD7 §2.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-03"></a>
+#### S-03 — WIOA State Plan Portal, Pennsylvania TANF Program [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services / WIOA State Plan Portal, "Pennsylvania PYs 2024–2027 — Temporary Assistance for Needy Families Program" (December 2024).
+
+**URL:** https://wioaplans.ed.gov/node/545011
+
+**Supports claims:** SD1 §2 PA TANF 60-month lifetime limit (1,830 days); 24-month work-clock (732 days); AMR framework; 50% earned-income disregard.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-04"></a>
+#### S-04 — HHS ASPE 2026 Poverty Guidelines + Federal Register Annual Update [VERIFIED]
+
+**Citation:** HHS Office of the Assistant Secretary for Planning and Evaluation (ASPE), "2026 Poverty Guidelines: 48 Contiguous States"; Federal Register Annual Update of HHS Poverty Guidelines, effective January 13, 2026 (2.63% increase over 2025).
+
+**URL:** https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines · https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines
+
+**Supports claims:** SD2 §2; SD3 §2; SD6 §3 Pathway B Profile 3; SD8 §2 cumulative — 2026 FPL HH-1 $15,960; HH-3 $27,320; HH-4 $33,000; 138% FPL HH-1 ~$22,025; 138% FPL HH-4 ~$45,540. Re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Two URLs document the same release — ASPE guidance page and Federal Register publication. Kept as single entry per same-document rule.
+
+---
+
+<a id="s-05"></a>
+#### S-05 — CBO OBBBA Medicaid Supplemental Cost Estimate (October 28, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Congressional Budget Office, "Estimated Budgetary Effects of Public Law 119-21, Title VII, Subtitle B, Chapter 1, Medicaid" (Supplemental Cost Estimate, October 28, 2025).
+
+**URL:** https://www.cbo.gov/system/files/2025-10/PL-119-21-Medicaid_0.pdf
+
+**Supports claims:** MC-03 — direct CBO confirmation that 70% of §71107 redetermination-driven coverage loss is procedural (missed renewal mail) vs. 30% eligibility-substantive; SD2 §6 procedural-loss vector finding (principal anchor); SD8 §6 Thread 7. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-06"></a>
+#### S-06 — CBO Budget and Economic Outlook: 2026 to 2036 (February 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Congressional Budget Office, "The Budget and Economic Outlook: 2026 to 2036," February 11, 2026 baseline projections — Federal Subsidies for Health Insurance.
+
+**URL:** https://www.cbo.gov/system/files/2026-02/51298-2026-02-healthinsurance.pdf
+
+**Supports claims:** MC-02 — $1.2T Medicaid spending reduction through 2035 from OBBBA (CRFB analysis of this baseline); 13.1M Medicaid enrollment reduction by 2035 — supplements but does not supersede July 2025 CBO score. Synthesis Section 1 SD2 summary. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-07"></a>
+#### S-07 — SSA Social Security Fairness Act Implementation Page [VERIFIED] [Phase 3 addition]
+
+**Citation:** Social Security Administration, "Social Security Fairness Act: Windfall Elimination Provision (WEP) and Government Pension Offset (GPO) update" (last updated July 21, 2025).
+
+**URL:** https://www.ssa.gov/benefits/retirement/social-security-fairness-act.html
+
+**Supports claims:** MC-04 — SSA implementation substantially complete as of mid-2025: 3.1M+ retroactive payments totaling $17B by July 7, 2025; 289,715 new applications; ~92% completed by July 21, 2025. T12-SD1-01 / T12-SD8-04 resolved.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-08"></a>
+#### S-08 — SSA Blog: "Social Security Pays Billions of Dollars in Retroactive Payments" (March 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Social Security Administration blog, "Social Security Pays Billions of Dollars in Retroactive Payments," March 2025.
+
+**URL:** https://blog.ssa.gov/social-security-pays-billions-of-dollars-in-retroactive-payments/
+
+**Supports claims:** MC-04 — corroborates retroactive payment implementation timeline. T12-SD1-01 / T12-SD8-04 resolution.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-09"></a>
+#### S-09 — SSA Blog: "Expedited Retroactive Payments and Higher Monthly Benefits for Millions" (February 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Social Security Administration blog, "Social Security Announces Expedited Retroactive Payments and Higher Monthly Benefits for Millions — Actions Support the Social Security Fairness Act," February 2025.
+
+**URL:** https://blog.ssa.gov/social-security-announces-expedited-retroactive-payments-and-higher-monthly-benefits-for-millions-actions-support-the-social-security-fairness-act/
+
+**Supports claims:** MC-04 — corroborates expedited implementation of SS Fairness Act. T12-SD1-01 / T12-SD8-04 resolution.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-10"></a>
+#### S-10 — SSA Program Explainer: Windfall Elimination Provision [VERIFIED] [Phase 3 addition]
+
+**Citation:** Social Security Administration, "Windfall Elimination Provision," SSA program explainer.
+
+**URL:** https://www.ssa.gov/policy/docs/program-explainers/windfall-elimination-provision.html
+
+**Supports claims:** SD1 §3 Pathway C WEP/GPO architecture background; MC-04 supporting context.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-11"></a>
+#### S-11 — KFF "Medicaid in Pennsylvania" Fact Sheet (May 2025) [VERIFIED]
+
+**Citation:** KFF, "Medicaid in Pennsylvania" fact sheet, May 2025.
+
+**URL:** https://files.kff.org/attachment/fact-sheet-medicaid-state-PA
+
+**Supports claims:** SD2 §4 PA Medicaid total 2,986,000 enrollees (May 2025); 1.1M in Group VIII expansion; PA expanded Jan 1, 2015; eligibility levels. SD8 §2.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-12"></a>
+#### S-12 — AMA: "Changes to Medicaid, ACA and Other Key Provisions of the One Big Beautiful Bill Act" [VERIFIED] [Phase 3 addition]
+
+**Citation:** American Medical Association, "Changes to Medicaid, the ACA and other key provisions of the One Big Beautiful Bill Act," 2025.
+
+**URL:** https://www.ama-assn.org/health-care-advocacy/federal-advocacy/changes-medicaid-aca-and-other-key-provisions-one-big
+
+**Supports claims:** SD2 §2; SD3 §2; SD6 §3; SD7 §2; SD8 §6 Thread 7 — OBBBA Medicaid provisions overview. Retrieved 2026-04-30; re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-13"></a>
+#### S-13 — NASHP: "What Health Care Provisions of OBBBA Mean for States" [VERIFIED] [Phase 3 addition]
+
+**Citation:** National Academy for State Health Policy (NASHP), "What Health Care Provisions of the One Big Beautiful Bill Act Mean for States," 2025.
+
+**URL:** https://nashp.org/what-health-care-provisions-of-the-one-big-beautiful-bill-act-mean-for-states/
+
+**Supports claims:** SD2 §2; SD3 §2; SD6 §3; SD7 §2; SD8 §6 Thread 7 — OBBBA state-implementation implications. Retrieved 2026-04-30; re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-14"></a>
+#### S-14 — Center for American Progress: "The Implementation Timeline of the OBBBA" [VERIFIED] [Phase 3 addition]
+
+**Citation:** Center for American Progress, "The Implementation Timeline of the One Big Beautiful Bill Act," 2025.
+
+**URL:** https://www.americanprogress.org/article/the-implementation-timeline-of-the-one-big-beautiful-bill-act/
+
+**Supports claims:** MC-01 — OBBBA implementation timeline distinguishing 2026–2027 window from 2028 cost-sharing window; SD2 §2. Retrieved 2026-04-30; re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-15"></a>
+#### S-15 — PwC: "OBBBA Reshapes US Health Policy" [VERIFIED] [Phase 3 addition]
+
+**Citation:** PricewaterhouseCoopers, "OBBBA reshapes US health policy," 2025.
+
+**URL:** [pending retrieval — PwC OBBBA reshapes US health policy 2025]
+
+**Supports claims:** SD2 §2; SD3 §2; SD6 §3; SD7 §2; SD8 §6 Thread 7 — OBBBA health policy analysis.
+
+**Verification status:** VERIFIED.
+
+**Notes:** URL not present in pre-normalization CR entry. Pending URL-retrieval pass.
+
+---
+
+<a id="s-16"></a>
+#### S-16 — Federal Funds Information for States: SNAP Brief [VERIFIED] [Phase 3 addition]
+
+**Citation:** Federal Funds Information for States (FFIS), SNAP brief on OBBBA SNAP provisions, 2025.
+
+**URL:** [pending retrieval — Federal Funds Information for States SNAP brief OBBBA 2025]
+
+**Supports claims:** SD3 §2; SD8 §6 Thread 7 — OBBBA SNAP cuts ~$186–187B over decade. Retrieved 2026-04-30; re-verified Phase 3 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** URL not present in pre-normalization CR entry. Pending URL-retrieval pass.
+
+---
+
+<a id="s-17"></a>
+#### S-17 — Health Management Associates: "CBO's New Baseline Signals Shifting Cost and Risk Dynamics" (February 18, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Health Management Associates, "CBO's New Baseline Signals Shifting Cost and Risk Dynamics in Medicaid and Medicare," February 18, 2026.
+
+**URL:** https://www.healthmanagement.com/blog/in-focus/cbos-new-baseline-signals-shifting-cost-and-risk-dynamics-in-medicaid-and-medicare/
+
+**Supports claims:** MC-02 — analysis of CBO Feb 2026 baseline Medicaid/Medicare projections. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-18"></a>
+#### S-18 — Committee for a Responsible Federal Budget: "CBO Projects High Federal Health Program Costs" (February 25, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Committee for a Responsible Federal Budget, "CBO Projects High Federal Health Program Costs," February 25, 2026.
+
+**URL:** https://www.crfb.org/blogs/cbo-projects-high-federal-health-program-costs
+
+**Supports claims:** MC-02 — $1.2T Medicaid spending reduction through 2035 per CRFB analysis of CBO Feb 2026 baseline. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-19"></a>
+#### S-19 — KFF: "Health Provisions in the 2025 Federal Budget Reconciliation Law" (December 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Kaiser Family Foundation, "Health Provisions in the 2025 Federal Budget Reconciliation Law," December 2025.
+
+**URL:** https://www.kff.org/medicaid/health-provisions-in-the-2025-federal-budget-reconciliation-law/
+
+**Supports claims:** MC-01 — OBBBA cost-sharing §71120 effective date October 1, 2028 (not 2026–2027); implementation-window temporal precision. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-20"></a>
+#### S-20 — ASTHO: "One Big Beautiful Bill Law Summary" (2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Association of State and Territorial Health Officials (ASTHO), "One Big Beautiful Bill Law Summary," 2025.
+
+**URL:** https://www.astho.org/advocacy/federal-government-affairs/leg-alerts/2025/one-big-beautiful-bill-law-summary/
+
+**Supports claims:** MC-01 — corroborates OBBBA implementation-window temporal precision; SD2 §2. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-21"></a>
+#### S-21 — Health Affairs Forefront: "New Cost-Sharing Requirements In Medicaid" [VERIFIED] [Phase 3 addition]
+
+**Citation:** Health Affairs Forefront, "New Cost-Sharing Requirements In Medicaid: Considerations For State Implementation."
+
+**URL:** https://www.healthaffairs.org/content/forefront/new-cost-sharing-requirements-medicaid-considerations-state-implementation
+
+**Supports claims:** MC-01 — OBBBA §71120 cost-sharing implementation analysis; temporal precision re: 2028 effective date. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-22"></a>
+#### S-22 — King & Spalding: "The One Big Beautiful Bill Act Explained" (2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** King & Spalding, "The One Big Beautiful Bill Act Explained: A Detailed Review of Key Changes for the Healthcare Industry," 2025.
+
+**URL:** https://www.kslaw.com/news-and-insights/the-one-big-beautiful-bill-act-explained-a-detailed-review-of-key-changes-for-the-healthcare-industry
+
+**Supports claims:** MC-01 — corroborates OBBBA cost-sharing effective date and implementation-window analysis. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-23"></a>
+#### S-23 — Colorado Access: "OBBBA Key Medicaid Changes in Colorado" [VERIFIED] [Phase 3 addition]
+
+**Citation:** Colorado Access, "The One Big Beautiful Bill Act (OBBBA): Key Medicaid Changes in Colorado," 2025.
+
+**URL:** https://www.coaccess.com/blog/the-one-big-beautiful-bill-act-obbba-key-medicaid-changes-in-colorado/
+
+**Supports claims:** MC-01 — corroborates cost-sharing effective date precision and OBBBA Medicaid implementation timeline (state-level analysis). Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-24"></a>
+#### S-24 — Georgetown CCF: "New CBO Health Coverage Estimates of Budget Reconciliation Law" (August 14, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Georgetown University Center for Children and Families, "New CBO Health Coverage Estimates of Budget Reconciliation Law," August 14, 2025.
+
+**URL:** https://ccf.georgetown.edu/2025/08/14/new-cbo-health-coverage-estimates-of-budget-reconciliation-law/
+
+**Supports claims:** MC-02; MC-03 — work-reporting requirement contributes 5.3M uninsured by 2034 (largest contributor); 6-month redeterminations contribute 700K additional; provider-tax restrictions 1.2M; confirms procedural-loss-architecture characterization. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-25"></a>
+#### S-25 — Urban Institute / RWJF: "Projected Reductions in Medicaid Expansion Enrollment" (March 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Urban Institute (Buettgens M, Karpman M, Haley JM, Carter J, Kenney GM) / Robert Wood Johnson Foundation, "Projected Reductions in Medicaid Expansion Enrollment Under OBBBA's Work Requirements and Six-Month Redeterminations: National and State Estimates for 2028," March 2026.
+
+**URL:** https://www.rwjf.org/en/insights/our-research/2026/03/millions-could-lose-health-coverage-due-to-new-rules.html
+
+**Supports claims:** MC-03 — between 4.9M and 10.1M could lose Medicaid coverage in 2028; reinforces procedural-loss-architecture characterization. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-26"></a>
+#### S-26 — AJMC: "5 Groups at Highest Risk of Losing Medicaid Coverage Under OBBBA" [VERIFIED] [Phase 3 addition]
+
+**Citation:** American Journal of Managed Care, "5 Groups at Highest Risk of Losing Medicaid Coverage Under OBBBA."
+
+**URL:** https://www.ajmc.com/view/5-groups-at-highest-risk-of-losing-medicaid-coverage-under-obbba
+
+**Supports claims:** MC-03 — corroborates procedural-loss and coverage-loss risk architecture; constituent-profile context.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-27"></a>
+#### S-27 — FRAC: Community Eligibility Provision State Lists SY 2025–2026 [VERIFIED]
+
+**Citation:** Food Research & Action Center (FRAC), Community Eligibility Provision State Lists, School Year 2025–2026.
+
+**URL:** https://frac.org/community-eligibility/state-schools-lists
+
+**Supports claims:** SD3 §4 Pathway C CEP threshold 25% identified students; SDP CEP participation status.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Source 17 (Phase 1–2 workspace) listed FRAC CEP lists alongside PA WIC; the FRAC URL is identical to this entry. Source 50 is a duplicate stub flagging the consolidation.
+
+---
+
+### Press / News Reporting
+
+<a id="s-28"></a>
+#### S-28 — Philadelphia Inquirer / ITEP: "After Pennsylvania's EITC Boost, It's Philly's Turn" (December 30, 2025) [VERIFIED]
+
+**Citation:** Das, Kamolika (ITEP) / Philadelphia Inquirer, "After Pennsylvania's EITC boost, it's Philly's turn," December 30, 2025.
+
+**URL:** https://www.inquirer.com/opinion/commentary/eitc-pennsylvania-wage-tax-philadelphia-20251230.html
+
+**Supports claims:** SD1 §4 Philadelphia Wage Tax Refund Program 4.5% take-up rate among 50,000 eligible; ITEP Who Pays for PA regressivity. Cross-ref D9.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-29"></a>
+#### S-29 — Metro Philadelphia: "PHA Boss Gives Update on Housing Vouchers, Timeline for Waitlist" (October 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Metro Philadelphia, "PHA boss gives update on housing vouchers, timeline for waitlist" (interview with PHA CEO Kelvin A. Jeremiah), October 2025.
+
+**URL:** https://www.metrophiladelphia.com/stories/pha-boss-gives-update-on-housing-vouchers-timeline-for-waitlist,98734
+
+**Supports claims:** MC-06 — 2027-reopening anticipation sustained; 2,000+ applicants from 2023 lottery processed (711 leased); 2023 lottery received 37,000+ applications. T12-SD4-02 resolved. Retrieved 2026-04-30 (initial) and 2026-05-01 (Phase 3).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Source 18 (Phase 1–2) and Source 29 (Phase 3) reference the same article. Consolidated into S-29; URL with article ID (,98734) is canonical.
+
+---
+
+<a id="s-30"></a>
+#### S-30 — Philadelphia Inquirer / Resolve Philly: "Philly Removes Neglected Children from Homes" (April 9, 2025) [VERIFIED]
+
+**Citation:** Philadelphia Inquirer / Resolve Philly, "Philly removes neglected children from homes," April 9, 2025.
+
+**URL:** https://www.inquirer.com/news/dhs-child-welfare-cua-failures-20250409.html
+
+**Supports claims:** SD6 §2 Philadelphia DHS CUA failures; CUA Scorecard initial baseline 7-of-10 unsatisfactory; ~70 lawsuits; child fatalities; Turning Points closure; Tabor non-renewal.
+
+**Verification status:** VERIFIED.
+
+---
+
+### State and Local Authority
+
+<a id="s-31"></a>
+#### S-31 — PA DHS TANF Program Page [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, "Temporary Assistance for Needy Families (TANF)," program page including Group 2 payment standard for Philadelphia County.
+
+**URL:** https://www.pa.gov/agencies/dhs/resources/cash-assistance/tanf
+
+**Supports claims:** SD1 §2 PA TANF Group 2 (Philadelphia) max $403/month for family of three; 60-month lifetime limit; $1,000 resource cap; G12-SD1-01. Retrieved 2026-04-30.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-32"></a>
+#### S-32 — PA Department of Revenue: Working Pennsylvanians Tax Credit (WPTC) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Revenue, "Working Pennsylvanians Tax Credit (WPTC)," tax information page.
+
+**URL:** https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/personal-income-tax/working-pennsylvanians-tax-credit
+
+**Supports claims:** SD1 §2 PA WPTC = 10% of federal EITC; max state credit $805; automatic if federal EITC claimed; effective tax year 2025. Cross-ref D9.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-33"></a>
+#### S-33 — PA Governor's Office: WPTC Fact Sheet (November 2025) [VERIFIED]
+
+**Citation:** Commonwealth of Pennsylvania, Office of Governor, "FACT SHEET: How Many Pennsylvanians Will Benefit from New Tax Credit," November 2025.
+
+**URL:** https://www.pa.gov/governor/newsroom/2025-press-releases/fact-sheet--how-many-pennsylvanians-will-benefit-from-new-tax-cr
+
+**Supports claims:** SD1 §2 WPTC enacted in 2025–26 PA budget; $193M tax relief; 940,000 Pennsylvanians eligible; first claim in 2026 filing season.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-34"></a>
+#### S-34 — PA DHS TANF State Plan (December 2024 Update) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, "TANF State Plan" (December 2024 update).
+
+**URL:** https://www.pa.gov/agencies/dhs/resources/cash-assistance/tanf/tanf-state-plan
+
+**Supports claims:** SD1 §2 PA submitted updated TANF State Plan to DHHS December 2024; FRA 2023 §411 SSA performance-indicator collection beginning October 2024. T12-SD1-02.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-35"></a>
+#### S-35 — PA DHS HealthChoices Managed Care Organizations Directory [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, "Managed Care Organizations (MCO) — Physical HealthChoices," program directory.
+
+**URL:** https://www.pa.gov/agencies/dhs/resources/medicaid/hc/hc-mco
+
+**Supports claims:** SD2 §2 HealthChoices 2.2M+ enrollees statewide; 5 zones; SE Zone composition; Philadelphia BH delegated to CBH. SD7 §2.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-36"></a>
+#### S-36 — PA WIC Income Guidelines [VERIFIED]
+
+**Citation:** Pennsylvania WIC (Women, Infants and Children), "Income Guidelines."
+
+**URL:** https://www.pawic.com/IncomeGuidelines.aspx
+
+**Supports claims:** SD3 §4 Pathway B PA WIC eligibility 185% FPL gross; serves ~200,000+ annually.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-37"></a>
+#### S-37 — PHA Housing Choice Voucher Program Page [VERIFIED]
+
+**Citation:** Philadelphia Housing Authority, "Housing Choice Voucher" program page.
+
+**URL:** https://www.pha.phila.gov/housing/housing-choice-voucher/
+
+**Supports claims:** SD4 §2 PHA HCV ~19,500 households; total PHA-assisted units ~37,350; ARP EHV ~850+ to Philadelphia; G12-SD4-01; T12-SD4-02.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-38"></a>
+#### S-38 — PHDC PHLHousing+ Pilot Page [VERIFIED]
+
+**Citation:** Philadelphia Housing Development Corporation (PHDC), "PHLHousing+" program page.
+
+**URL:** https://phdcphila.org/phlhousing-plus/
+
+**Supports claims:** SD4 §2 PHLHousing+ pilot 300 households.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-39"></a>
+#### S-39 — PA DLI Office of Vocational Rehabilitation: Apply for Services [VERIFIED]
+
+**Citation:** Pennsylvania Department of Labor and Industry, Office of Vocational Rehabilitation, "Apply for Vocational Rehabilitation Services," program page.
+
+**URL:** https://www.pa.gov/services/dli/apply-for-vocational-rehabilitation-services
+
+**Supports claims:** SD5 §2 OVR Order of Selection effective April 1, 2025; 21 OVR district offices; SSI/SSDI exempt from OVR FNT; G12-SD5-03; G12-SD5-04.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-40"></a>
+#### S-40 — PA ODP Virtual Office Hour: OVR Order of Selection (March 2025) [VERIFIED]
+
+**Citation:** Pennsylvania Office of Developmental Programs (ODP), "Virtual Office Hour (VOH) Q&A on OVR's Order of Selection Announcement," March 2025.
+
+**URL:** https://home.myodp.org/aiovg_videos/virtual-office-hour-voh-question-answer-qa-on-the-office-of-vocational-rehabilitations-ovr-order-of-selection-announcement/
+
+**Supports claims:** SD5 §2 OVR Order of Selection; ODP IDD waivers — Consolidated, Community Living, P/FDS, Adult Autism; G12-SD5-03; G12-SD5-04.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-41"></a>
+#### S-41 — City of Philadelphia DHS FY 2026 Q1 Quarterly Indicators Report [VERIFIED]
+
+**Citation:** City of Philadelphia Department of Human Services, "Fiscal Year 2026 Q1 Quarterly Indicators Report," March 16, 2026.
+
+**URL:** https://www.phila.gov/media/20260316120640/Fiscal-Year-2026-Q1-Quarterly-Indicators-Report.pdf
+
+**Supports claims:** SD6 §2 FY 2026 Q1 CUA indicators; 45% kinship rate; 168 youth in residential placement Sept 30 2025; reunification rate trending down since FY 2022; FY 2026 DHS budget ~$124M.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-42"></a>
+#### S-42 — City of Philadelphia DHS Press Release: "City Releases Evaluation of Child Welfare System" [VERIFIED]
+
+**Citation:** City of Philadelphia Department of Human Services, press release, "City Releases Evaluation of Child Welfare System."
+
+**URL:** https://www.phila.gov/press-releases/department-of-human-services/city-releases-evaluation-of-child-welfare-system/
+
+**Supports claims:** SD6 §2 CUA Scorecard initial baseline; ~70 lawsuits; 14 child fatalities; Turning Points closure 2022; Tabor non-renewal early 2024.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Other Primary Sources
+
+<a id="s-43"></a>
+#### S-43 — Just Harvest: "PA DHS Programs" [VERIFIED]
+
+**Citation:** Just Harvest, "PA DHS Programs," Pennsylvania benefit thresholds page.
+
+**URL:** https://www.justharvest.org/pa-dhs
+
+**Supports claims:** SD1 §2 PA TANF income/resource thresholds cross-corroboration: $403/family-of-three; $1,000 resource limit ($250 single).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-44"></a>
+#### S-44 — healthinsurance.org: "Medicaid Eligibility and Enrollment in Pennsylvania" [VERIFIED]
+
+**Citation:** healthinsurance.org, "Medicaid eligibility and enrollment in Pennsylvania," consumer information page.
+
+**URL:** https://www.healthinsurance.org/medicaid/pennsylvania/
+
+**Supports claims:** SD2 §4 PA Medicaid eligibility levels (aggregator presentation of CMS/KFF data).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-45"></a>
+#### S-45 — CBH Philly: Physical Health Services Page [VERIFIED]
+
+**Citation:** Community Behavioral Health (CBH) Philadelphia, "Physical Health Services" member page.
+
+**URL:** https://cbhphilly.org/members/services/physical-health-services/
+
+**Supports claims:** SD2 §2 Philadelphia BH delegated to CBH; SD7 §2 HealthChoices SE Zone BH.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-46"></a>
+#### S-46 — Medicaid Planning Assistance + MedicaidEligibilityCalculator: PA Medicaid Eligibility 2026 [VERIFIED]
+
+**Citation:** Medicaid Planning Assistance, "Medicaid Eligibility Pennsylvania" (2026); MedicaidEligibilityCalculator.com, "PA Medicaid Eligibility 2026."
+
+**URL:** https://www.medicaidplanningassistance.org/medicaid-eligibility-pennsylvania/ · https://medicaideligibilitycalculator.com/medicaid-eligibility/pennsylvania/
+
+**Supports claims:** SD2 §3 Pathway B MNO-MA (Medically Needy) 2026 — MNIL $425/month single; spend-down 6-month; MNO-MA asset limits $2,400/$3,200; Excess Home Equity Limit $752,000; Spousal MMMNA $4,066.50. SD7 §2.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Two aggregator sites presenting equivalent PA Medicaid eligibility data. Kept as single entry.
+
+---
+
+<a id="s-47"></a>
+#### S-47 — SNAP Eligibility Calculator: FY 2026 Allotments [VERIFIED]
+
+**Citation:** SNAP Eligibility Calculator, "Free SNAP Eligibility Calculator in 2026," FY 2026 allotment data.
+
+**URL:** https://snapeligibilitycalculator.com/
+
+**Supports claims:** SD3 §4 FY 2026 SNAP max allotments — HH-1 $298; HH-2 $546; HH-3 $785; HH-4 $994; HH-5 $1,183; HH-6 $1,421; effective Oct 1, 2025. SD8 §4.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-48"></a>
+#### S-48 — Propel: "Will Food Stamps Increase In 2026?" [VERIFIED]
+
+**Citation:** Propel, "Will Food Stamps Increase In 2026?," consumer information page.
+
+**URL:** https://www.propel.app/snap/snap-increase-2025-2026/
+
+**Supports claims:** SD3 §4 FY 2026 SNAP allotment corroboration; effective Oct 1, 2025 through Sep 30, 2026.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-49"></a>
+#### S-49 — SNAP Benefit Calculator: PA SNAP Income Limits 2026 [VERIFIED]
+
+**Citation:** SNAP Benefit Calculator, "Pennsylvania SNAP Income Limits 2026."
+
+**URL:** https://snapbenefitcalculator.com/pennsylvania-snap-income-limits/
+
+**Supports claims:** SD3 §2 PA Broad-Based Categorical Eligibility 200% FPL gross threshold; PA ABAWD waiver expired Sep 1, 2025; new ABAWD work rules effective Nov 1, 2025; 80 hrs/month or 20 hrs/week. G12-SD3-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-50"></a>
+#### S-50 — [DUPLICATE — see S-27] FRAC Community Eligibility Provision State Lists [CONSOLIDATED]
+
+**Citation:** Duplicate of S-27 (FRAC CEP State Lists). Source 17 (Phase 1–2) listed FRAC alongside PA WIC; the FRAC URL is identical to S-27.
+
+**URL:** https://frac.org/community-eligibility/state-schools-lists
+
+**Supports claims:** See S-27.
+
+**Verification status:** CONSOLIDATED into S-27.
+
+**Notes:** Preserved as stub to document consolidation. Any references to "Source 17 FRAC" resolve to S-27.
+
+---
+
+<a id="s-51"></a>
+#### S-51 — PA Elder Law: "Pennsylvania Medicaid Long-Term Care Numbers and Fact Sheet 2026" [VERIFIED]
+
+**Citation:** Robert C. Gerhard III / PA Elder Law, "Pennsylvania Medicaid Long-Term Care Numbers and Fact Sheet 2026."
+
+**URL:** https://www.paelderlaw.net/pennsylvania-medicaid-numbers-and-elder-law-statistics/
+
+**Supports claims:** SD7 §4 PA ~2.4M residents 60+; ~240K over age 85; PA third-highest elderly-share state; 1 in 5 older Pennsylvanians at or near poverty.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-52"></a>
+#### S-52 — ABLE National Resource Center: "ABLE Age Adjustment Act Fact Sheet" (November 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** ABLE National Resource Center, "The ABLE Age Adjustment Act Fact Sheet," November 2025.
+
+**URL:** https://www.ablenrc.org/the-able-age-adjustment-act-fact-sheet/
+
+**Supports claims:** MC-05 — ABLE Age Adjustment Act effective January 1, 2026; disability-onset threshold raised from before age 26 to before age 46; approximately 6 million additional people newly eligible. T12-SD5-04 resolved. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-53"></a>
+#### S-53 — Disability Belongs: "ABLE Age Adjustment Act Update" (February 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Disability Belongs, "ABLE Age Adjustment Act Update," February 2026.
+
+**URL:** https://www.disabilitybelongs.org/2026/01/able-age-adjustment-act-update/
+
+**Supports claims:** MC-05 — corroborates ABLE Age Adjustment Act effective date and ~6M additional eligibles. T12-SD5-04 resolution. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-54"></a>
+#### S-54 — CalABLE: Age Adjustment Page [VERIFIED] [Phase 3 addition]
+
+**Citation:** CalABLE (California ABLE program), "How It Works — Age Adjustment," state implementation page.
+
+**URL:** https://calable.ca.gov/how-it-works/age-adjustment
+
+**Supports claims:** MC-05 — corroborates ABLE Age Adjustment Act January 1, 2026 effective date (state implementation example). T12-SD5-04 resolution. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-55"></a>
+#### S-55 — section8waitlist.org: Philadelphia Housing Authority Status [VERIFIED] [Phase 3 addition]
+
+**Citation:** section8waitlist.org, "Philadelphia Housing Authority Waiting List Status," tracker page.
+
+**URL:** https://section8waitlist.org/states/pennsylvania/philadelphia/philadelphia-housing-authority
+
+**Supports claims:** MC-06 — 2027-reopening anticipation sustained; 2023 list utilization tracking. T12-SD4-02 resolved. Retrieved 2026-04-30 (initial) and 2026-05-01 (Phase 3).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-56"></a>
+#### S-56 — AffordableHousingHub.org + AffordableHousingOnline.com: PHA Waitlist Pages [VERIFIED] [Phase 3 addition]
+
+**Citation:** AffordableHousingHub.org, "Philadelphia Housing Authority" page (information verified April 23, 2026); AffordableHousingOnline.com, "Open Section 8 Waiting Lists in Philadelphia, Pennsylvania."
+
+**URL:** https://affordablehousinghub.org/housing/pennsylvania/philadelphia-county/philadelphia/philadelphia-housing-authority-2836-authority · https://affordablehousingonline.com/open-section-8-waiting-lists/Pennsylvania/Philadelphia
+
+**Supports claims:** MC-06 — 2026 SE PA Philadelphia-Camden-Wilmington MSA Very Low Income (50% AMI) HH-4 $59,700; waitlist status corroboration. T12-SD4-02 resolved. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Two aggregator sites for same PHA waitlist data. Kept as single entry.
+
+---
+
+<a id="s-57"></a>
+#### S-57 — Multiple SSA COLA Corroborating Aggregators (Cross-Corroboration Bundle) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Multiple consumer-facing sources cross-corroborating 2026 SSA COLA/SSI values: Graham Law (grahamlpa.com); National Council on Aging (ncoa.org, March 2026); Russo Law Group (vjrussolaw.com, Jan 2026); Bender and Bender Law (benderandbenderlaw.com); Henson Fuerst Attorneys; Disability Denials; Flaherty Salmin CPAs.
+
+**URL:** https://grahamlpa.com/blog/social-security-cola-2026/ · https://www.ncoa.org/article/how-much-does-supplemental-security-income-ssi-pay/ · https://vjrussolaw.com/2026-cola-what-the-2-8-increase-means-for-your-benefits/ · https://www.benderandbenderlaw.com/cola-2026/ · [additional URLs per Source 30 listing]
+
+**Supports claims:** Cross-corroborates S-01 (SSA COLA Fact Sheet) and S-02 (SSA COLA page) — 2026 SSI FBR $994 individual / $1,491 couple; 2.8% COLA; SSI resource limits; SGA $1,690/mo non-blind; max OASDI $4,152/mo. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Consolidated corroborating-aggregator bundle — sources all present SSA-published data. See Normalization Log category decisions.
+
+---
+
+<a id="s-58"></a>
+#### S-58 — Multiple FPL Corroborating Aggregators (Cross-Corroboration Bundle) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Multiple sources cross-corroborating 2026 Federal Poverty Level guidelines: HHS ASPE detailed PDF; Medicaid Planning Assistance; HealthInsurance.org; Entyre Care; BenefitsUSA; Venteur; LIHEAP Clearinghouse.
+
+**URL:** https://aspe.hhs.gov/sites/default/files/documents/b1bfa16b20ae9b89d525bc35de7c1643/detailed-guidelines-2026.pdf · https://www.healthinsurance.org/glossary/federal-poverty-level/ · https://liheapch.acf.hhs.gov/profiles/povertytables/FY2026/popstate.htm · [additional URLs per Source 31 listing]
+
+**Supports claims:** Cross-corroborates S-04 (HHS ASPE poverty guidelines) — 2026 FPL HH-1 $15,960; HH-2 $21,640; HH-3 $27,320; HH-4 $33,000; HH-5 $38,680; effective Jan 13, 2026. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Consolidated corroborating-aggregator bundle. See Normalization Log category decisions.
+
+---
+
+<a id="s-59"></a>
+#### S-59 — USDA FNS SNAP FY 2026 Cost-of-Living Adjustments + Corroborating Aggregators [VERIFIED] [Phase 3 addition]
+
+**Citation:** USDA Food and Nutrition Service (FNS), "SNAP FY 2026 Cost-of-Living Adjustments" and "SNAP Cost-of-Living Adjustment (COLA) Information"; supplemented by corroborating aggregators PovertyLevelCalculator, Yahoo Finance/GOBankingRates, SavingAdvice, SNAP Benefit Calculator.
+
+**URL:** https://www.fns.usda.gov/snap/allotment/cola/fy26 · https://www.fns.usda.gov/snap/allotment/cola · [additional aggregator URLs per Source 32 listing]
+
+**Supports claims:** Cross-corroborates S-47 (SNAP Eligibility Calculator) — FY 2026 SNAP max allotments HH-1 through HH-8; effective Oct 1, 2025 through Sep 30, 2026; PA Broad-Based Categorical Eligibility 200% FPL sustained; November 2025 partial-shutdown effect on SNAP issuance. Retrieved 2026-05-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** USDA FNS is the primary source; aggregators consolidated into single entry. See Normalization Log category decisions.
+
+---
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 32 | 59 |
+| New entries added during pass | — | 0 (count increase from bundle splits; no new sources) |
+| Entries retired (duplicate / superseded) | — | 1 (Source 17 FRAC = duplicate of Source 17 CEP → consolidated to S-27) |
+| Multi-URL bundles split | — | 14 bundles → multiple S-NN entries each |
+| Corroborating-aggregator bundles kept together | — | 4 (Sources 18+29 merged; Sources 30, 31, 32 each consolidated) |
+| Source-workspace entries promoted | — | N/A |
+
+**Old-ID → new S-NN mapping**
+
+| Old ID or label | New S-NN | Notes |
+|---|---|---|
+| Source 1 (PA DHS TANF) | S-31 | State and Local Authority |
+| Source 2 (Just Harvest) | S-43 | Other Primary Sources |
+| Source 3 (SSA 2026 COLA Fact Sheet) | S-01 | Federal Agency Materials |
+| Source 4 (SSA COLA Information page) | S-02 | Federal Agency Materials |
+| Source 5 (PA Revenue WPTC) | S-32 | State and Local Authority |
+| Source 6 (PA Gov WPTC Fact Sheet) | S-33 | State and Local Authority |
+| Source 7 (Inquirer/ITEP commentary) | S-28 | Press / News Reporting |
+| Source 8 (WIOA/ED.gov TANF plan portal) | S-03 | Federal Agency Materials |
+| Source 9 (PA DHS TANF State Plan) | S-34 | State and Local Authority |
+| Source 10 (HHS ASPE + FR Update — same document) | S-04 | Federal Agency Materials; same-document bundle kept |
+| Source 11a (KFF Medicaid in PA) | S-11 | Research Reports / Policy Analysis |
+| Source 11b (healthinsurance.org) | S-44 | Other Primary Sources; split from KFF |
+| Source 12a (AMA) | S-12 | Research Reports / Policy Analysis; 5-way split |
+| Source 12b (NASHP) | S-13 | Research Reports / Policy Analysis |
+| Source 12c (Center for American Progress) | S-14 | Research Reports / Policy Analysis |
+| Source 12d (PwC) | S-15 | Research Reports / Policy Analysis; URL pending retrieval |
+| Source 12e (FFIS) | S-16 | Research Reports / Policy Analysis; URL pending retrieval |
+| Source 13a (PA DHS MCO directory) | S-35 | State and Local Authority; 2-way split |
+| Source 13b (CBH Philly) | S-45 | Other Primary Sources |
+| Source 14 (Medicaid Planning Assistance + medicaideligibilitycalculator.com) | S-46 | Other Primary Sources; same-type aggregators kept together |
+| Source 15a (snapeligibilitycalculator.com) | S-47 | Other Primary Sources; split from Propel |
+| Source 15b (Propel) | S-48 | Other Primary Sources |
+| Source 16 (snapbenefitcalculator.com) | S-49 | Other Primary Sources |
+| Source 17a (PA WIC — pawic.com) | S-36 | State and Local Authority; split from FRAC |
+| Source 17b (FRAC CEP lists — duplicate of S-27) | S-27 / S-50 | DUPLICATE: same URL as S-27; S-50 is consolidation stub |
+| Source 18a (PHA HCV page) | S-37 | State and Local Authority; 3-way split |
+| Source 18b (Metro Philadelphia — same article as Source 29) | S-29 | CONSOLIDATED with Source 29; canonical URL per Source 29 |
+| Source 18c (PHDC PHLHousing+) | S-38 | State and Local Authority |
+| Source 19a (PA DLI OVR apply page) | S-39 | State and Local Authority; 2-way split |
+| Source 19b (PA ODP virtual office hour) | S-40 | State and Local Authority |
+| Source 20a (Inquirer/Resolve Philly "CUA failures") | S-30 | Press / News Reporting; 3-way split |
+| Source 20b (City of Philadelphia DHS Q1 Report) | S-41 | State and Local Authority |
+| Source 20c (City of Philadelphia DHS CUA press release) | S-42 | State and Local Authority |
+| Source 21 (PA Elder Law) | S-51 | Other Primary Sources |
+| Source 22 (CBO OBBBA supplemental Oct 2025) | S-05 | Federal Agency Materials |
+| Source 23a (CBO Feb 2026 baseline) | S-06 | Federal Agency Materials; 3-way split |
+| Source 23b (Health Management Associates) | S-17 | Research Reports / Policy Analysis |
+| Source 23c (CRFB) | S-18 | Research Reports / Policy Analysis |
+| Source 24a (KFF Health Provisions Dec 2025) | S-19 | Research Reports / Policy Analysis; 5-way split |
+| Source 24b (ASTHO) | S-20 | Research Reports / Policy Analysis |
+| Source 24c (Health Affairs Forefront) | S-21 | Research Reports / Policy Analysis |
+| Source 24d (King & Spalding) | S-22 | Research Reports / Policy Analysis |
+| Source 24e (Colorado Access) | S-23 | Research Reports / Policy Analysis |
+| Source 25 (Georgetown CCF) | S-24 | Research Reports / Policy Analysis |
+| Source 26a (Urban Institute / RWJF) | S-25 | Research Reports / Policy Analysis; 2-way split |
+| Source 26b (AJMC) | S-26 | Research Reports / Policy Analysis |
+| Source 27a (SSA Fairness Act page) | S-07 | Federal Agency Materials; 4-way split |
+| Source 27b (SSA blog Mar 2025) | S-08 | Federal Agency Materials |
+| Source 27c (SSA blog Feb 2025) | S-09 | Federal Agency Materials |
+| Source 27d (SSA WEP program explainer) | S-10 | Federal Agency Materials |
+| Source 28a (ABLE NRC) | S-52 | Other Primary Sources; 3-way split |
+| Source 28b (Disability Belongs) | S-53 | Other Primary Sources |
+| Source 28c (CalABLE) | S-54 | Other Primary Sources |
+| Source 29 (Metro Philadelphia — same as Source 18b) | S-29 | CONSOLIDATED with Source 18b |
+| Source 29a (section8waitlist.org) | S-55 | Other Primary Sources |
+| Source 29b+c (affordablehousinghub.org + affordablehousingonline.com) | S-56 | Other Primary Sources; same-type aggregators kept together |
+| Source 30 (SSA COLA corroborating aggregators — 6+ sources) | S-57 | Other Primary Sources; corroborating bundle kept together |
+| Source 31 (FPL corroborating aggregators — 4+ sources) | S-58 | Other Primary Sources; corroborating bundle kept together |
+| Source 32 (USDA FNS + SNAP aggregators — 4+ sources) | S-59 | Other Primary Sources; USDA FNS primary + aggregators consolidated |
+
+**Category decisions worth flagging**
+
+- **Corroborating-aggregator bundles** (Sources 30, 31, 32) kept as single entries each. Sources present the same federally-published data through different consumer-facing aggregator interfaces. Per-URL splitting would yield 15–20 additional entries with no gain in source-tracing resolution.
+- **Source 17 FRAC duplicate:** The FRAC CEP State Lists URL in Source 17 is identical to the separately catalogued S-27 entry. Consolidated; S-50 preserved as a consolidation stub for traceability.
+- **Source 18 + Source 29 Metro Philadelphia consolidation:** Both reference the same Metro Philadelphia article (PHA CEO Jeremiah interview, October 2025). Source 29 URL with trailing article ID (`,98734`) is canonical. Consolidated as S-29.
+- **PwC (S-15) and FFIS (S-16):** URLs not present in pre-normalization CR. `[pending retrieval]` markers used; URL-retrieval pass required.
+- **MC-01 through MC-06 Sources lines:** Added as `*Sources:* [S-NN](#s-nn)` immediately following each MC block's last bullet, replacing the pre-normalization narrative `- **Sources:** ...` line. MC anchors `<a id="mc-nn"></a>` added before each `### MC-XX —` header.
+- **Heading-level fix:** Pre-normalization CR heading was `## CITATION REGISTRY` (all-caps); normalized to `## Citation Registry` per spec.
