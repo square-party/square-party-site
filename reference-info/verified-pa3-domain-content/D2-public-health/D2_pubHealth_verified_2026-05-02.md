@@ -24,12 +24,18 @@
 
 This section is a **navigation aid**, not the delivery mechanism for corrections. Every entry below corresponds to at least one inline edit applied at the named body location(s), using the italicized prior-pass note pattern. The corrections themselves live inline at the body locations they affect (M2 §7 Capability 2; M2 v1.2 §10 Pattern 12 enforcement). Most-consequential changes listed first.
 
+<a id="mc-v-1"></a>
+
 ### MC-V-1 — Braidwood SCOTUS resolution (MAJOR; cross-cutting; affects SD2/SD3/SD4/SD6)
 
 - **What it was (D2 second-pass 2026-04-29):** Braidwood Management v. Becerra treated as pending SCOTUS review across SD2/SD3/SD4/SD6; outcome contingent on still-pending litigation; preventive-services mandate framing assumes Braidwood unresolved.
 - **What it is now (verified 2026-04-29):** Kennedy v. Braidwood Management, Inc., 606 U.S. 748 (2025), decided **June 27, 2025** (ten months before the D2 draft date); 6-3 (Kavanaugh majority joined by Roberts, Sotomayor, Kagan, Barrett, Jackson; Thomas dissent joined by Alito, Gorsuch); SCOTUS reversed Fifth Circuit and **upheld** the ACA § 2713 preventive services mandate; USPSTF members are *inferior officers* properly appointed under the Appointments Clause because the Secretary of HHS may remove them at will and review/block recommendations before they take effect. Cancer screenings, PrEP, tobacco cessation, and other USPSTF A/B services remain mandate-protected nationwide [S134; S67-V]. Braidwood did NOT directly address ACIP (vaccines) or HRSA Women's Preventive Services. The RFRA / PrEP religious-objection claim was remanded for proceedings limited to the Braidwood plaintiffs.
 - **When changed:** June 27, 2025 (SCOTUS decision date).
 - **Affects (cross-cutting; Case 2 multi-location):** **Principal anchor:** SD2 Section 2 Authority Chain (USPSTF/ACA § 2713 listing) carrying full italicized prior-pass note. **Secondary anchors:** SD3 Section 2 (perinatal preventive services); SD4 Section 2 (USPSTF chronic-disease screening); SD6 Section 2 (FQHC patient preventive coverage cross-cutting); SD2 Section 7 G2-SD2-06; SD3 Section 7 G2-SD3-04; SD4 Section 7 G2-SD4-02; SD6 Section 7 G2-SD6-04 cross-cutting; Synthesis Section 2 (cross-cutting Braidwood-pending posture closed). 8 body locations total.
+
+- *Sources:* [S-42](#s-42), [S-08](#s-08)
+
+<a id="mc-v-2"></a>
 
 ### MC-V-2 — Murphy preliminary injunction (MAJOR; circuit-identification correction; affects SD1/SD2/SD3)
 
@@ -38,12 +44,20 @@ This section is a **navigation aid**, not the delivery mechanism for corrections
 - **When changed:** March 16, 2026 (preliminary injunction date).
 - **Affects (cross-cutting; Case 2 multi-location):** **Principal anchor:** SD2 Section 2 Authority Chain (childhood schedule litigation listing) carrying full italicized prior-pass note. **Secondary anchors:** SD1 Section 3 (Pattern 2 governance disruption); SD3 Section 2 (childhood schedule restoration cross-reference); SD2 Section 7 G2-SD2-04; SD1 Section 7 G2-SD1-06; SD3 Section 7 G2-SD3-06; Synthesis Section 2 (court-imposed checks). 7 body locations.
 
+- *Sources:* [S-41](#s-41), [S-56](#s-56)
+
+<a id="mc-v-3"></a>
+
 ### MC-V-3 — ACIP charter rewrite vs. schedule reduction — separate events (MODERATE; affects SD1/SD2)
 
 - **What it was (D2 second-pass 2026-04-29):** Single conflated event: ACIP charter rewrite (April 2026) reducing schedule from approximately 17 to 11 routinely recommended childhood vaccines.
 - **What it is now (verified 2026-04-29):** Two distinct events. (a) **January 5, 2026 CDC Decision Memo** signed by then-Acting CDC Director Jim O'Neill demoting seven vaccines (rotavirus, meningococcal, hep A, hep B, flu, COVID, RSV) from universal recommendation to "shared clinical decision making" status. (b) **April 9, 2026 ACIP charter renewal** (Federal Register filing referenced as April 6 by some sources) broadening ACIP scope to include "vaccine safety research gaps," "cumulative effects" of childhood vaccines, aluminum adjuvants, "novel vaccine platforms such as mRNA," and foreign-country schedule comparisons; charter renewal also added non-voting liaison members from vaccine-skeptic groups (Independent Medical Alliance, Physicians for Informed Consent, Association of American Physicians and Surgeons). 130+ medical/public-health/patient-advocacy groups issued an April 9 statement of concern. **Net status (as of April 29, 2026):** the charter rewrite stands; the schedule reduction is stayed by Murphy injunction; the reconstituted ACIP membership is blocked, so the body cannot meet [S60-V; S137].
 - **When changed:** January 5, 2026 (Decision Memo); April 9, 2026 (charter renewal).
 - **Affects (Case 2 multi-location):** **Principal anchor:** SD1 Section 3 Pattern 2 (governance disruption) carrying full italicized prior-pass note. **Secondary anchors:** SD2 Section 3 Event 5 (Decision Memo as separate event); SD2 Section 7 G2-SD2-03; SD1 Section 7 G2-SD1-06. 4 body locations.
+
+- *Sources:* [S-46](#s-46), [S-56](#s-56)
+
+<a id="mc-v-4"></a>
 
 ### MC-V-4 — FDA RIF refinements + Rhode Island injunction details (MODERATE; affects SD1/SD2/SD4)
 
@@ -52,12 +66,20 @@ This section is a **navigation aid**, not the delivery mechanism for corrections
 - **When changed:** April 1, 2025 (initial RIF); July 8, 2025 (Illston stay); July 14, 2025 (RIF finalization); August 12, 2025 (Rhode Island injunction narrowing).
 - **Affects (Case 2 multi-location):** **Principal anchor:** SD1 Section 3 Pattern 1 (capacity erosion) carrying full italicized prior-pass note. **Secondary anchors:** SD2 Section 3 (CDC ISD termination consequence); SD4 Section 2 (CTP protection); SD1 Section 7 G2-SD1-02; SD4 Section 7 G2-SD4-04. 5 body locations.
 
+- *Sources:* [S-44](#s-44), [S-43](#s-43)
+
+<a id="mc-v-5"></a>
+
 ### MC-V-5 — Environmental justice EO chain + EJScreen offline (MODERATE; affects SD5)
 
 - **What it was (D2 second-pass 2026-04-29):** Single "January 2025 revocation EO" affecting EJ framework.
 - **What it is now (verified 2026-04-29):** Chain of **three Trump EOs spanning January 20-21, 2025**. EO 14148 (Jan 20) revoked EO 14008 (Justice40) and EO 14096 (Biden 2023 EJ Revitalization); EO 14151 (Jan 20) directed agencies to "terminate, to the maximum extent allowed by law, all DEI, DEIA, and 'environmental justice' offices and positions"; EO 14173 (Jan 21) revoked EO 12898 (Clinton 1994 EJ). Implementation: **March 12, 2025**, EPA Administrator Lee Zeldin announced closure of the EPA Office of Environmental Justice and External Civil Rights and EJ units in **all 10 EPA regions including Region III**; small HQ staff retained for external civil rights reviews only. **EJScreen taken offline** on epa.gov circa same date; OECA memo prohibits EPA enforcement officials from using historical EJScreen data "in any enforcement or compliance activity." Reconstructions exist via Harvard University and Public Environmental Data Partners. EPA grant clawbacks targeting EJ-related infrastructure funds are underway. The DOJ Environmental Justice unit within ENRD was also abolished [S96-V; S97-V; S98-V; S135].
 - **When changed:** January 20-21, 2025 (EO chain); March 12, 2025 (EPA implementation).
 - **Affects (Case 1):** SD5 Section 2 Federal Statutory Layer + Section 3 Pattern (single principal location with the corrected listing); SD5 Section 7 G2-SD5-03 + G2-SD5-05 carry brief cross-references to SD5 Section 2 principal anchor. 3 body locations (within SD5 only).
+
+- *Sources:* [S-37](#s-37), [S-38](#s-38), [S-53](#s-53), [S-40](#s-40)
+
+<a id="mc-v-6"></a>
 
 ### MC-V-6 — IRA Round 1/2/3 timing precision + OBBBA orphan-drug interaction (MODERATE; affects SD4/SD6)
 
@@ -66,12 +88,20 @@ This section is a **navigation aid**, not the delivery mechanism for corrections
 - **When changed:** January 17, 2025 (Round 2 list); ~late November 2025 (Round 2 MFPs); January 1, 2026 (Round 1 effective); July 4, 2025 (OBBBA enactment); April 15, 2025 (EO 14273).
 - **Affects (Case 2 multi-location):** **Principal anchor:** SD4 Section 2 Federal Statutory Layer (IRA listing) carrying full italicized prior-pass note. **Secondary anchors:** SD4 Section 3 Pathway (IRA implementation timing); SD6 Section 2 (IRA Round 1 secondary impact for FQHC patients); SD4 Section 7 G2-SD4-03; SD4 Section 7 G2-SD4-05; SD6 Section 7 G2-SD6-06. 6 body locations.
 
+- *Sources:* [S-50](#s-50), [S-51](#s-51), [S-36](#s-36), [S-18](#s-18)
+
+<a id="mc-v-7"></a>
+
 ### MC-V-7 — PPHF cumulative rescission refinement (MINOR; affects SD1)
 
 - **What it was (D2 second-pass 2026-04-29):** PPHF cumulative rescission "approximately $12 billion."
 - **What it is now (verified 2026-04-29):** **~$11.85 billion** FY13-FY27 (NACo). Specific by-Public-Law: 112-96 ($6.25B FY13-21); 114-255 ($3.5B FY18-24); 115-96 ($750M FY19-22); 115-123 ($1.35B FY22, FY24-27). PPHF contributed ~13% of CDC's overall FY24 budget; FY24 transfers included $681.93M to CDC Immunization Program and $160M to Preventive Health Block Grant. **Trump FY26 budget proposal includes complete PPHF elimination**; final FY26 status pending Congressional action [S53-V].
 - **When changed:** Cumulative through FY27; FY26 elimination is a prospective dimension pending Congressional action.
 - **Affects (Case 1):** SD1 Section 3 Pattern 3 (federalism stress); SD1 Section 7 G2-SD1-01 carries brief cross-reference. 2 body locations.
+
+- *Sources:* [S-03](#s-03)
+
+<a id="mc-v-8"></a>
 
 ### MC-V-8 — Temple Health and Einstein recharacterization (MODERATE; affects SD6)
 
@@ -80,12 +110,20 @@ This section is a **navigation aid**, not the delivery mechanism for corrections
 - **When changed:** Temple FY25 close (June 30, 2025); Q1 FY26 reporting (Sept-Nov 2025); 2021 (Einstein-Jefferson merger structural fact).
 - **Affects (Case 1):** SD6 Section 2 State Statutory Layer (Temple Health + Einstein listing) — single principal location; SD6 Section 7 G2-SD6-04 carries brief cross-reference; Synthesis Section 4 (institutional capacity reading). 3 body locations.
 
+- *Sources:* [S-86](#s-86)
+
+<a id="mc-v-9"></a>
+
 ### MC-V-9 — FQHC § 330 reauthorization status updated (MODERATE; affects SD6)
 
 - **What it was (D2 second-pass 2026-04-29):** FQHC § 330 reauthorization framework operative; specific extension status not surfaced; OBBBA Medicaid threats not specifically integrated.
 - **What it is now (verified 2026-04-29):** Community Health Center Fund (CHCF) mandatory funding **extended through December 2026** via the **2026 Consolidated Appropriations Act**. Companion FY26 funding: NHSC $350M base; THCGME $225M; Medicare telehealth flexibilities for FQHCs extended through 2027. **No multi-year reauthorization** despite advocate push. **OBBBA July 4, 2025 Medicaid cuts threaten FQHC financial stability over multi-year horizon** (Medicaid 40%+ of FQHC revenue). CHC operating margins average below -2% with <90 days cash on hand; potential site closures unfolding multi-year. HRSA 340B rebate pilot model launched **January 1, 2026** (concurrent with IRA Round 1) — 65 of 78 active NDCs (85%) for 2026 IRA Round 1 drugs have lower 340B ceiling prices than MFP. Scale data: 1,512 CHCs nationally; 17,000+ delivery sites; 326,000-330,000 FTE jobs; serve 34M-52M Americans/year (1 in 7 nationally; 1 in 3 rural; 1 in 4 Medicaid; 1 in 5 uninsured) [S106-V]. **D12 cross-domain Standard 17 supplement (2026-05-01):** D12 SD2 verified file MC-03 confirms CBO October 28, 2025 supplemental cost estimate that 70% of OBBBA §71107 redetermination-driven coverage losses are procedural rather than substantive-eligibility-driven; preserved as supplementary citation per Standard 17.
 - **When changed:** December 2025-January 2026 (Consolidated Appropriations Act); January 1, 2026 (340B rebate pilot launch).
 - **Affects (Case 1):** SD6 Section 2 Federal Statutory Layer (FQHC § 330 listing) — single principal location; SD6 Section 7 G2-SD6-03; Synthesis Section 4 (institutional capacity reading). 3 body locations.
+
+- *Sources:* [S-23](#s-23)
+
+<a id="mc-v-10"></a>
 
 ### MC-V-10 — § 280E IRS guidance post-DEA Schedule III (MODERATE; affects SD7)
 
@@ -94,12 +132,18 @@ This section is a **navigation aid**, not the delivery mechanism for corrections
 - **When changed:** April 22-23, 2026 (DEA Final Order); April 23, 2026 (Treasury/IRS press release); approximately April 28, 2026 (Federal Register effective date).
 - **Affects (Case 1):** SD7 Section 2 Federal Statutory Layer (§ 280E + DEA Schedule III + Treasury press release listing) — single principal location; SD7 Section 7 G2-SD7-08. 2 body locations.
 
+- *Sources:* [S-32](#s-32), [S-54](#s-54)
+
+<a id="mc-v-11"></a>
+
 ### MC-V-11 — PA + Philadelphia OD mortality currency (MODERATE; affects SD7)
 
 - **What it was (D2 second-pass 2026-04-29):** PA + Philadelphia OD mortality declining; specific 2024 + 2025 figures not surfaced; demographic disparity framework noted but currency not anchored.
 - **What it is now (verified 2026-04-29):** Philadelphia OD deaths trajectory: **2022 peak 1,376 → 2023: 1,310 → 2024: 1,045** (-20%; PDPH) → **2025 preliminary: 747** through December 23 — on track to be **lowest in nearly a decade** (last sub-1,000 year was 2016 with 907). PA statewide **2024: 3,340 → 2025 preliminary 2,178 = 29% decline**. **PA Overdose Prevention Program 2025**: ~800,000 naloxone doses + 737,000 fentanyl/xylazine test strips distributed; ~9,500 overdose reversals (Jan-Sep 2025). **Demographic disparity persists**: 2023 declines uneven (White -15%; Black -5%; Hispanic +2%); Pew 2025 polling indicates declines driven primarily by White rates dropping while **Black rates continued rising** through 2024. Causal drivers per researchers: expanded long-acting buprenorphine injections (Sublocade monthly, Brixadi weekly/monthly); buprenorphine prescribers in Philadelphia tripled to ~1,500 (2017-2023); supply chemistry changes (medetomidine + xylazine shift, with non-fatal-overdose mechanisms but severe withdrawal/wounds); opioid settlement funding for Narcan and buprenorphine. Mayor Parker's Kensington Wellness Court (launched January 2025): 217 arrested; 72 accepted treatment; 10 completed; 1 of 10 later died of overdose; two-thirds of those who agreed have bench warrants. Pew 2025 poll on Mayor Parker's handling of drugs/opioid crisis: 28% rate good/excellent vs. 39% not very good [S133-V; PDPH/DBHIDS surveillance reporting].
 - **When changed:** Calendar year 2024 (PA + Philadelphia annual figures); calendar year 2025 preliminary (through December 23 for Philadelphia; full-year 2025 preliminary for PA); January 2025 (Wellness Court launch).
 - **Affects (Case 2 multi-location):** **Principal anchor:** SD7 Section 4 Statistical Profile (current OD figures + demographic disparity) carrying full italicized prior-pass note. **Secondary anchors:** SD7 Section 2 Local Layer (PA Overdose Prevention Program scale); SD7 Section 7 G2-SD7-02; SD7 Section 7 G2-SD7-06; SD7 Section 7 G2-SD7-09. 5 body locations.
+
+- *Sources:* [S-84](#s-84), [S-89](#s-89)
 
 ### Confirmed-without-correction items
 
@@ -1398,206 +1442,1578 @@ The retrofit is **complete** for its declared scope. The deliverable trio (main 
 
 ---
 
-# CITATION REGISTRY — D2 Block (S51-S138)
 
-> *Reading note: This Citation Registry covers the D2 block (S51-S138). D4 block (S1-S50) is registered separately in the project-wide registry. -V suffix denotes verified during the 2026-04-29 cycle with notes. Statutory entries are noted "Verified by citation" where the underlying statute or charter does not require web verification. URLs and accessed-on dates are documented in the original 2026-04-29 cycle's working files. Structure preserved from the 2026-04-29 cycle's §10 (subsection grouping by source type / authority layer).*
+## Citation Registry — D2 Public Health
 
-## CR.1 — Federal authorities (statutory + regulatory)
-
-**S51** — Public Health Service Act § 247b — Public Health Emergency Preparedness program (42 U.S.C. § 247b). Verified by citation. Supports SD1 §3, §10, G2-SD1-03; SD2 §3, §10, G2-SD2-01.
-
-**S52** — Public Health Service Act § 247d — Public Health Emergency declaration authority (42 U.S.C. § 247d). Verified by citation. Supports SD1 §3, §10; SD2 §3.
-
-**S53-V** — Affordable Care Act Title IV § 4002 — Prevention and Public Health Fund (P.L. 111-148, 42 U.S.C. § 300u-11). VERIFIED 2026-04-29: cumulative rescissions FY13-FY27 ≈ $11.85B (NACo); FY26 elimination proposed in Trump budget; specific by-PL: 112-96 ($6.25B), 114-255 ($3.5B), 115-96 ($750M), 115-123 ($1.35B). Supports SD1 §3, §10, G2-SD1-01; MC-V-7 / TC-07. Sources: NACo, ASTHO, CRS R47895.
-
-**S54** — Pennsylvania Disease Prevention and Control Law of 1955 (35 P.S. §§ 521.1-521.21). Verified by citation. Supports SD1 §3 (PA layer), §10; SD2 §3, §10.
-
-**S55** — 28 Pa. Code Title 28 — Health and Safety regulations. Verified by citation; updated through 56 Pa.B. 778 (January 31, 2026). Supports SD1 §3 (PA layer); SD2 §3.
-
-**S56** — Philadelphia Code Title 6 — Health Code. Verified by citation. Supports SD1 §3 (Phila layer); SD2 §3.
-
-**S57** — Philadelphia Home Rule Charter — local governance authority for PDPH. Verified by citation. Supports SD1 §3 (Phila layer).
-
-**S58-V** — FDA RIF April 1, 2025 announcement; finalization July 14, 2025; Rhode Island injunction documents. VERIFIED 2026-04-29 with corrections: workforce reduction ~18% (not ~19%); CDRH lost ~250 (~11%); ~30 called back; CDC Immunization Services Division and Partnership and Vaccine Equity Branch terminated; CBER Director Peter Marks resigned March 27, 2025; subsequent CBER head Vinay Prasad also resigned amid political pressure (per PharmExec Feb 2026). Supports SD1 §3 MAHA-era integration, §10, G2-SD1-02; MC-V-4 / TC-04 primary. Sources: Venable LLP July 22, 2025; GovExec Aug 2025; My Strategist Market Pathways.
-
-**S59** — USDA ERS termination announcement September 20, 2025; final ERR-358 December 2025. Cross-reference D4 cycle inheritance + general public knowledge. Supports SD1 §3 MAHA-era integration, §10, G2-SD1-05; MC-V-8a primary.
-
-**S60-V** — ACIP charter rewrite April 9, 2026 (HHS ACIP charter document; Federal Register filing referenced as April 6 by some sources). VERIFIED 2026-04-29 with framing corrections: charter renewal April 9, 2026 is **separate** from the January 5, 2026 CDC Decision Memo demoting 7 vaccines (rotavirus, meningococcal, hep A, hep B, flu, COVID, RSV); D2 second-pass conflated. New charter scope: vaccine safety research gaps; "cumulative effects"; aluminum adjuvants; "novel vaccine platforms such as mRNA"; foreign-country schedule comparisons. Adds non-voting liaison members from vaccine-skeptic organizations (Independent Medical Alliance, Physicians for Informed Consent, AAPS). 130+ medical/PH groups statement of concern April 9. Supports SD1 §3, G2-SD1-06; SD2 G2-SD2-03; MC-V-3 / TC-03 primary. Sources: CNN April 9, 2026; Cancer Letter April 17, 2026; Healthcare Innovation Group.
-
-**S61** — PHEP / ELC cooperative agreement framework documents (CDC PHEP cooperative agreement; ELC cooperative agreement framework; PA DOH + Philadelphia direct sub-grantee documentation). Pending FY26 specific levels (UV-02). Supports SD1 §3 federal layer, G2-SD1-03; carry-forward to D5.
-
-**S62** — PDPH HIV Prevention Cooperative Agreement (direct CDC funding to Philadelphia as HRSA/CDC direct-funded jurisdiction). Pending FY26 specific levels. Supports SD2 §3.
-
-**S63** — Public Health Service Act § 317 — immunization program (42 U.S.C. § 247b-1). Verified by citation. Supports SD2 §3, §10.
-
-**S64** — Vaccines for Children Program (Social Security Act § 1928; 42 U.S.C. § 1396s). Verified by citation. Supports SD2 §3, G2-SD2-03 (charter rewrite implementation impact on VFC).
-
-**S65** — National Childhood Vaccine Injury Act of 1986 (P.L. 99-660). Verified by citation. Supports SD2 §3.
-
-**S66** — Ryan White HIV/AIDS Treatment Extension Act of 2009 (Parts A-F; P.L. 111-87). Verified by citation. Supports SD2 §3, §10.
-
-**S67-V** — ACA § 2713 (preventive services no-cost-sharing) — 42 U.S.C. § 300gg-13. VERIFIED 2026-04-29: Braidwood challenge **RESOLVED** by SCOTUS June 27, 2025; ACA § 2713 mandate **upheld nationwide**. Cross-reference S134. Did NOT directly address ACIP (vaccines) or HRSA Women's Preventive Services. RFRA / PrEP religious-objection claim remanded. Supports SD2 G2-SD2-06, §10; SD3 §3, §10; SD4 G2-SD4-02, §10; SD6 G2-SD6-04 cross-cutting; MC-V-1 / TC-01 primary.
-
-**S68** — CDC § 318 STD Prevention Program. Verified by citation. Supports SD2 §3.
-
-**S69** — 28 Pa. Code §§ 27.1-27.166 — reportable diseases. Verified by citation. Supports SD2 §3 (PA layer), G2-SD2-02.
-
-**S70-V** — 28 Pa. Code Chapter 23, Subchapter C, **§ 23.83** (immunization requirements; corrected from registry typo "§ 28.83"); §§ 23.81-87 broader range; school responsibilities at § 23.85; exemptions at § 23.84. VERIFIED 2026-04-29: PA Code current through 56 Pa.B. 778 (January 31, 2026); PA continues operating under existing Subchapter C; no PA DOH divergent-position announcement post-Murphy. Promulgated under Public School Code of 1949 (24 P.S. § 13-1303); Disease Prevention and Control Law of 1955 (35 P.S. § 521.16); Administrative Code of 1929. Supports SD2 §3 PA layer, G2-SD2-05. Sources: pacodeandbulletin.gov; PA Department of Education BEC.
-
-**S71-V** — *American Academy of Pediatrics et al. v. Kennedy et al.* — preliminary injunction issued **March 16, 2026**, Judge **Brian E. Murphy**, U.S. District Court for the **District of Massachusetts** (1st Circuit, NOT Sixth Circuit as second-pass referenced). VERIFIED 2026-04-29 with CIRCUIT CORRECTION: plaintiffs include AAP, ACOG, AAFP, IDSA, ACP, SMFM, Massachusetts Public Health Alliance, individual pregnant physician. Murphy preliminary injunction (a) stays January 5, 2026 Decision Memo; (b) blocks all 13 of Kennedy's ACIP appointees (only 6 of 15 had meaningful vaccine expertise per court's FACA analysis); (c) invalidates 3 ACIP votes including December 2025 hep B birth-dose downgrade; (d) overturns May 2025 Secretarial Directive halting COVID-19 vaccine recommendations. Court denied government's motion to dismiss earlier. HHS appealed to **1st Circuit**. 15-state coalition (MN AG Ellison) filed parallel suit February 25, 2026. Supports SD1 §3, §10, G2-SD1-06; SD2 §3, G2-SD2-04; MC-V-2 / TC-02 primary. Sources: The Hill March 16, 2026; AJMC; Public Health Law Watch; KFF Quick Take; APHA News.
-
-**S72** — AACO Philadelphia EMA Ryan White Part A Planning Council (Philadelphia direct-funded EMA under HRSA HAB Part A). Pending FY26 specific allocations (UV-04). Supports SD2 §3.
-
-**S73-V** — Title V Maternal and Child Health Services Block Grant — Social Security Act § 501; 42 U.S.C. § 701 et seq.; HRSA-MCHB administered. VERIFIED 2026-04-29 (PARTIAL): statutory framework verified; FY26 specific federal appropriation amount + Pennsylvania specific allotment + PDPH MCFH sub-allocation NOT located in this verification cycle (UV-03). Three components: State MCH Block Grant; SPRANS; CISS. First $422M annually distributed by FY1983 historical amounts; remainder by child-poverty allotment formula. State match: $3 federal : $4 state minimum; FY1989 maintenance-of-effort. 50 states + 9 jurisdictions apply. Supports SD3 §3, §10, G2-SD3-01, G2-SD3-05.
-
-**S74** — EPSDT (Early and Periodic Screening, Diagnostic, and Treatment) — Social Security Act §§ 1905(a)(4)(B), 1905(r); 42 U.S.C. § 1396a, § 1396d. Verified by citation. Supports SD3 §3, §10.
-
-**S75** — MIECHV (Maternal, Infant, and Early Childhood Home Visiting Program) — Social Security Act § 511 (42 U.S.C. § 711). Verified by citation. Supports SD3 §3.
-
-**S76** — Healthy Start Initiative (PHSA § 330H; 42 U.S.C. § 254c-8). Verified by citation. Supports SD3 §3.
-
-**S77** — Preventing Maternal Deaths Act of 2018 (P.L. 115-344). Verified by citation. Supports SD3 §3.
-
-**S78** — Newborn Screening Saves Lives Reauthorization Act of 2014 (P.L. 113-240). Verified by citation. Supports SD3 §3.
-
-**S79** — PA Newborn Screening Program — 28 Pa. Code § 28.4. Verified by citation. Supports SD3 §3 (PA layer), G2-SD3-03.
-
-**S80** — PA Maternal Mortality Review Committee statutory framework — Act 24 of 2018 (35 P.S. §§ 7501-7508). Verified by citation; current reporting cycle pending (UV-25). Supports SD3 §3 (PA layer), G2-SD3-02.
-
-**S81** — Philadelphia Fetal and Infant Mortality Review (PDPH MCFH division). Verified by program/institutional documentation. Supports SD3 §3 (Phila layer).
-
-**S82-V** — IRA Round 1 selected drugs — CMS Medicare Drug Price Negotiation Program first cycle initial applicability year 2026; MFPs announced August 15, 2024. VERIFIED 2026-04-29: effective January 1, 2026; 10 drugs (Eliquis, Jardiance, Xarelto, Januvia, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, NovoLog/Fiasp); discounts 38%-79%; CMS projects $6B Medicare Year-1 net (~22% reduction) + $1.5B beneficiary OOP. Supports SD4 §3, §10, G2-SD4-03; MC-V-6 / TC-06 primary; SD6 §10 secondary. Sources: CMS Newsroom Fact Sheet; Medicare Rights Center Oct 2025; KFF.
-
-**S83-V** — IRA Round 2 selected drugs — CMS Medicare Drug Price Negotiation Program second cycle initial applicability year 2027. VERIFIED 2026-04-29 with date clarifications: drug list announced **January 17, 2025** (Biden last days); MFPs announced **~late November 2025** (CMS Admin Mehmet Oz: 44%/$12B net savings); prices effective **January 1, 2027**. 15 drugs including blockbuster diabetes/weight-loss drugs. Round 3: 15 Part B + Part D drugs selected early 2026 for Jan 1, 2028 effect; OBBBA orphan-drug exclusion expansion delayed Keytruda + Opdivo. Supports SD4 §3, §10, G2-SD4-03 secondary; TC-06. Sources: Medicare Rights Center Jan 2025; 340B Report Dec 2025.
-
-**S84** — Tobacco Control Act / Family Smoking Prevention and Tobacco Control Act (P.L. 111-31). Verified by citation. Supports SD4 §3.
-
-**S85** — CTP menthol withdrawal RIN 0910-AI60 (January 21, 2025). Cross-reference D4 cycle inheritance. Supports SD4 §3, §10, G2-SD4-04.
-
-**S86** — OBBBA orphan-drug exclusion expansion (One Big Beautiful Bill Act, July 4, 2025). Cross-reference D4 cycle inheritance + IRA Round 3 search. Confirmed: Keytruda + Opdivo delayed selections in Round 3 IRA. Supports SD4 §3, §10, G2-SD4-05.
-
-**S87-V** — Trump EO 14273 (April 15, 2025) "Lowering Drug Prices by Once Again Putting Americans First". VERIFIED 2026-04-29: directs HHS Secretary to (1) improve MDPNP transparency; (2) prioritize high-cost drug selection; (3) minimize negative impacts on innovation. IRA negotiation continues under Trump administration with modifications directed; Round 1 effective; Round 2 finalized; Round 3 in progress. Final CY 2026 Part D Redesign Program Instructions issued April 7, 2025. Supports SD4 §3, §10; SD6 §10; TC-06 secondary. Source: Health Law Advisor.
-
-**S88** — CDC PLACES (Population Level Analysis and Community Estimates) — chronic-disease estimates at census-tract / ZIP-code-tabulation-area / county level. Currency pending (UV-28); framework verified institutionally.
-
-**S89** — PA Cancer Control Plan; PA Cancer Registry (Department of Health, Bureau of Health Statistics). Verified by citation; PA Cancer Registry currency pending (UV-29). Supports SD4 §3 (PA layer), G2-SD4-06.
-
-**S90** — Philadelphia Sweetened Beverage Tax (Philadelphia Code Title 19, Chapter 19-4100). Verified by citation. Supports SD4 §3 (Phila layer).
-
-**S91** — Philadelphia Tobacco Retailer Licensing (Philadelphia Code Title 6, Chapter 6-300). Verified by citation. Supports SD4 §3 (Phila layer).
-
-**S92** — Clean Air Act (42 U.S.C. § 7401 et seq.). Verified by citation. Supports SD5 §3.
-
-**S93** — Safe Drinking Water Act (42 U.S.C. § 300f et seq.) + Lead and Copper Rule + 2021 Lead and Copper Rule Revisions. Verified by citation. Supports SD5 §3, G2-SD5-04.
-
-**S94** — Residential Lead-Based Paint Hazard Reduction Act of 1992 (Title X of P.L. 102-550; 42 U.S.C. § 4851 et seq.). Verified by citation. Supports SD5 §3.
-
-**S95** — CERCLA / Superfund (42 U.S.C. § 9601 et seq.). Verified by citation. Supports SD5 §3.
-
-**S96-V** — EO 12898 (Clinton, signed February 11, 1994) "Federal Actions to Address Environmental Justice in Minority Populations and Low-Income Populations"; revoked by **EO 14173** (Trump, signed January 21, 2025) "Ending Illegal Discrimination and Restoring Merit-Based Opportunity". VERIFIED 2026-04-29 with EO chain correction: D2 second-pass treats as a single revocation EO; correction needed (see S97-V + S135). Supports SD5 §3, §10, G2-SD5-05; MC-V-5 / TC-05 primary. Sources: CRS IF12922 (Feb 24, 2025); ELI vibrant-environment-blog.
-
-**S97-V** — EO 14008 (Biden, January 27, 2021) "Tackling the Climate Crisis at Home and Abroad" (§ 219 Justice40 Initiative); revoked by **EO 14148** (Trump, signed January 20, 2025) "Initial Recissions of Harmful Executive Orders and Actions". VERIFIED 2026-04-29: EO 14148 also revoked EO 14096 (Biden 2023 EJ Revitalization). Justice40 had identified ~74 EPA-covered programs for the 40% disadvantaged-community benefits target. Supports SD5 §3, §10, G2-SD5-05; MC-V-5 / TC-05. Sources: same as S96-V.
-
-**S98-V** — EPA EJScreen — environmental justice screening and mapping tool (launched 2015; **offline on epa.gov as of approximately March 12, 2025**). VERIFIED 2026-04-29 with major status correction: tool offline; EPA Administrator Lee Zeldin announced closure of EPA Office of Environmental Justice and External Civil Rights and EJ units in all 10 EPA regions including Region III; small HQ staff retained for external civil rights reviews only; EPA OECA memo prohibits enforcement use of historical EJScreen data; DOJ EJ unit within ENRD also abolished. Reconstructions via Harvard University and Public Environmental Data Partners. 16+ states have state-level EJ mapping tools (MD, MA, MN, etc.). Supports SD5 §3, G2-SD5-03; TC-05. Sources: Utility Dive; K&L Gates; Environmental Law Institute.
-
-## CR.2 — State authorities (statutory)
-
-**S99** — PA Air Pollution Control Act (35 P.S. § 4001 et seq.). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S100** — PA Safe Drinking Water Act (35 P.S. § 721.1 et seq.). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S101** — PA Act 2 of 1995 — Land Recycling Program (35 P.S. § 6026.101 et seq.). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S102** — PA Hazardous Sites Cleanup Act (35 P.S. § 6020.101 et seq.). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S103** — PA Lead Paint Abatement and Certification Act of 1994 (Act 44; 35 P.S. § 5901 et seq.). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S104** — PA Constitution Article I § 27 (Environmental Rights Amendment) + *Pennsylvania Environmental Defense Foundation v. Commonwealth*, 161 A.3d 911 (Pa. 2017). Verified by citation. Supports SD5 §3 (PA layer).
-
-**S105** — Philadelphia Lead Disclosure and Notification Law (Philadelphia Code Title 6, Chapter 6-800). Verified by citation. Supports SD5 §3 (Phila layer), G2-SD5-06.
-
-## CR.3 — Federal authorities (FQHC + Health Access)
-
-**S106-V** — Public Health Service Act § 330 (Federally Qualified Health Center program; 42 U.S.C. § 254b). VERIFIED 2026-04-29: Community Health Center Fund (CHCF) extended through **December 2026** via the **2026 Consolidated Appropriations Act**. NHSC $350M base FY26; THCGME $225M; Medicare telehealth flexibilities for FQHCs extended through 2027. **No multi-year reauthorization** despite advocate push. OBBBA July 4, 2025 Medicaid cuts threaten FQHC financial stability over multi-year horizon (Medicaid 40%+ of FQHC revenue). HRSA 340B rebate pilot model launched January 1, 2026 (concurrent with IRA Round 1). 1,512 CHCs nationally; 17,000+ delivery sites; 326,000-330,000 FTE jobs; serve 34M-52M Americans/year. CHC operating margins below -2% with <90 days cash on hand. Supports SD6 §3, §10, G2-SD6-03; MC-V-9 / TC-09 primary. Sources: NACHC; Synergy Billing Feb 2026; KFF.
-
-**S107** — HPSA / MUA designation statutes (PHSA § 332 + § 330(b)(3); 42 U.S.C. § 254e + § 254b). Verified by citation. Supports SD6 §3.
-
-**S108** — National Health Service Corps (NHSC; PHSA § 331 et seq.) + HRSA Nurse Corps (NELRP). Verified by citation. Supports SD6 §3.
-
-**S109** — Emergency Medical Treatment and Active Labor Act (EMTALA; 42 U.S.C. § 1395dd). Verified by citation. Supports SD6 §3.
-
-**S110** — Medicaid managed care provisions (Social Security Act § 1932; 42 U.S.C. § 1396u-2) + 42 C.F.R. Part 438. Verified by citation. Supports SD6 §3, G2-SD6-05.
-
-**S111** — Title VI Civil Rights Act of 1964 (42 U.S.C. § 2000d) + EO 13166 (Aug 11, 2000) "Improving Access to Services for Persons with Limited English Proficiency". Verified by citation. Supports SD6 §3, G2-SD6-02.
-
-**S112** — ACA § 9007 + Internal Revenue Code § 501(r) (community benefit + financial assistance + community health needs assessment requirements for tax-exempt hospitals). Verified by citation. Supports SD6 §3.
-
-**S113** — 340B Drug Pricing Program (PHSA § 340B; 42 U.S.C. § 256b). Verified by citation. Supports SD6 §3, G2-SD6-06; cross-reference S106-V (HRSA 340B rebate pilot Jan 1, 2026).
-
-## CR.4 — State + Local authorities (Health Access)
-
-**S114** — PA HealthChoices Physical Health + Behavioral Health (Medicaid managed care arrangement under federal § 1932 authority). Verified by citation. Supports SD6 §3 (PA layer); SD7 §3.
-
-**S115** — PA Primary Care Loan Repayment Program (PA Act 2003-22). Verified by citation. Supports SD6 §3 (PA layer).
-
-**S116** — PA Act 109 of 2020 — CRNP independent practice authority. Verified by citation. Supports SD6 §3 (PA layer).
-
-**S117** — Hahnemann University Hospital closure (June 2019); structural-precedent reference. Verified by published reporting (Philadelphia Inquirer, Reuters, healthcare-trade press 2019-2020). Supports SD6 §3, §10, G2-SD6-04.
-
-**S118-V** — Temple University Health System bondholder reports + *Philadelphia Inquirer* coverage; Einstein-as-Jefferson-Health (post-2021 merger). VERIFIED 2026-04-29 with framing correction: Temple FY25 (year ending June 30, 2025) operating profit **$22M** (vs. $973K prior year); $3.3B revenue (+15%); Q1 FY26 $15M operating loss (improved from $17M); 340B specialty pharmacy growth; FY26 capital trim ($60-65M, down $10-15M) due to Medicaid uncertainty; **investment-grade BBB rating maintained** (Fitch Dec 2021 upgrade; no recent downgrade). Strategic investments: 8 oncologists at Fox Chase; 34 community physician practitioners; new Women & Families Hospital in Juniata (operating rooms May 2025); Chestnut Hill Hospital JV (Temple + Redeemer + PCOM since 2023) improving. Leadership: CEO Mike Young; CFO Jerry Oetzel; CAO Mike DiFranco. **Einstein operationally part of Jefferson Health since 2021 merger** — D2's standalone framing is anachronistic. **Recharacterize G2-SD6-04 from "closure-scenario indicators" to "operational financial pressure under federal Medicaid uncertainty."** Supports SD6 §3, §10, G2-SD6-04; MC-V-8 / TC-08 primary. Sources: Philadelphia Inquirer Sept 29, 2025; Nov 26, 2025; May 13, 2025.
-
-**S119** — PA-3 FQHC roster — Philadelphia FIGHT, Puentes de Salud, MANNA, Resources for Human Development, Family Practice & Counseling Network. Verified by institutional documentation. Supports SD6 §3 (PA-3 layer), G2-SD6-01.
-
-## CR.5 — Federal authorities (Substance Use)
-
-**S120-V** — Controlled Substances Act + § 856 (Crack House Statute) — 21 U.S.C. § 801 et seq., § 856; *United States v. Safehouse*, 985 F.3d 225 (3d Cir. 2021). VERIFIED 2026-04-29: most recent procedural milestone: April 4, 2024 — Judge Gerald A. McHugh (E.D. Pa.) dismissed Safehouse's RFRA counterclaim; June 2024 — Safehouse filed Notice of Appeal to 3d Cir. (RFRA dimension). Status of 3d Cir. appeal as of search date NOT located; flagged for follow-up (UV-20). September 2023: Philadelphia City Council passed near-total ban on future sites in 9 of 10 city districts via zoning overlay (overrode Mayor Kenney veto). Mayor Cherelle Parker (took office January 2024) has not publicly supported. OnPoint NYC operates two public sites (opened 2021); reportedly reversed 1,452 overdoses. Supports SD7 §3, §10, G2-SD7-01. Sources: WHYY April 4, 2024; WHYY June 2024.
-
-**S121-V** — DEA Schedule III Final Order — signed April 22-23, 2026 by Acting AG Todd Blanche; Federal Register publication / formal effective date approximately April 28, 2026. Inherits VERIFIED status from D4 cycle (S2-V). Supports SD7 §3, §10, G2-SD7-05.
-
-**S122** — Trump EO 14370 "Increasing Medical Marijuana and Cannabidiol Research" (December 18, 2025). Inherits verification from D4 cycle. Supports SD7 §3, §10.
-
-**S123-V** — § 280E Internal Revenue Code + IRS retrospective relief guidance — Treasury / IRS press release **April 23, 2026** "Treasury, IRS Announce Process for Tax Guidance Following DOJ Final Order on Medical Marijuana Rescheduling". VERIFIED 2026-04-29: forthcoming guidance with three components: (1) PROSPECTIVE relief CONFIRMED — transition rule treats § 280E rescheduling as applying to full taxable year that includes Final Order's effective date; for calendar-year filers, all of 2026 is § 280E-exempt for state-licensed medical cannabis activities; (2) APPORTIONMENT rules for mixed-business operators with allocation methodology unresolved; (3) RETROSPECTIVE relief NOT YET COMMITTED — Treasury silent despite explicit DEA encouragement. Industry has >$1.6B in disputed § 280E positions; Trulieve alone ~$445M. PA medical cannabis operators (Act 16 of 2016) qualify as state licensees per 21 CFR § 1300.01 and have become § 280E-exempt prospectively for 2026; PA does not have an adult-use program. Broader rescheduling hearing for adult-use cannabis begins June 29, 2026; concludes by July 15. Supports SD7 §3, §10, G2-SD7-08; MC-V-10 / TC-10 primary. Sources: Treasury press release April 23, 2026; Current Federal Tax Developments April 28, 2026; Foley Hoag April 23-26, 2026; Bradley/Budding Trends April 2026; Canna Law Blog (Harris Sliwoski) April 2026; Blank Rome April 24, 2026.
-
-**S124** — SUPPORT Act of 2018 (Substance Use-Disorder Prevention that Promotes Opioid Recovery and Treatment for Patients and Communities Act; P.L. 115-271). Verified by citation. Supports SD7 §3.
-
-**S125** — MAT Act of 2023 (Medication Access and Training Expansion Act, included in Consolidated Appropriations Act 2023 § 1262; P.L. 117-328). Verified by citation. X-waiver elimination effective. Supports SD7 §3.
-
-**S126** — FDA Narcan (naloxone) OTC approval (March 2023). Verified by FDA approval letter and OTC status. Supports SD7 §3.
-
-**S127** — SAMHSA OTP regulations 42 C.F.R. Part 8 (April 2024 revisions effective). Verified by citation. Supports SD7 §3.
-
-## CR.6 — State + Local authorities (Substance Use)
-
-**S128** — PA Act 66 of 2021 (Syringe Service Program authorization, 35 P.S. § 780-128). Verified by citation; county-level implementation pending (UV-19). Supports SD7 §3 (PA layer), G2-SD7-04.
-
-**S129** — PA Act 139 of 2014 (Drug Overdose Response Immunity / Good Samaritan; 35 P.S. § 780-113.7). Verified by citation. Supports SD7 §3 (PA layer).
-
-**S130** — PA Prescription Drug Monitoring Program — Act 191 of 2014 + Act 53 of 2014 (35 P.S. §§ 872.1-872.41). Verified by citation. Supports SD7 §3 (PA layer).
-
-**S131** — DBHIDS Behavioral Health (PA HealthChoices Behavioral Health single-MCO Philadelphia model). Verified by institutional structure. Supports SD7 §3 (Phila layer), G2-SD7-07; carry-forward to D3 Mental Health.
-
-**S132** — Prevention Point Philadelphia (501(c)(3) operating SSP under PA Act 66 of 2021 authorization; established 1991). Verified by institutional documentation + organizational website. Supports SD7 §3 (Phila layer).
-
-**S133-V** — Kensington medetomidine + BTMPS supply documentation — Hochstatter et al., "Characterizing rapid changes in the prevalence and concentration of key compounds in Philadelphia's street opioid retail supply, March 2024-March 2025" (*Drug and Alcohol Dependence*, accepted June 2025; PMID 40578053). VERIFIED 2026-04-29 to peer-reviewed source: D2 second-pass figures match exactly: medetomidine **83%**; BTMPS **25%**; both March 2025 baseline. Among 260 samples March 2024-March 2025: fentanyl 98% prevalence (concentration declined 9.6%→5.3% by mass); xylazine declined 100%→58%; lidocaine + tetracaine each increased 3%→63%; medetomidine first detected April 2024; BTMPS first detected June 2024. Supply known as "demon" (fentanyl-medetomidine ± xylazine), evolving from "tranq" (xylazine-fentanyl). PDPH HAN Update June 2025; CDC MMWR May 2025 (medetomidine withdrawal). DEA January 2025 data: medetomidine in 87% of Philadelphia drug samples (consistent trend). Cross-reference D4 SD35 substantive overlap. Supports SD7 §4 statistical profile, G2-SD7-03. Sources: PubMed; ScienceDirect.
-
-## CR.7 — New entries from 2026-04-29 verification cycle (S134-S138)
-
-**S134** — *Kennedy v. Braidwood Management, Inc.*, 606 U.S. 748 (2025) (decided June 27, 2025; 6-3, Kavanaugh majority joined by Roberts, Sotomayor, Kagan, Barrett, Jackson; Thomas dissent joined by Alito, Gorsuch). NEW VERIFIED 2026-04-29: SCOTUS reversed 5th Circuit; held USPSTF members are *inferior officers* properly appointed because Secretary of HHS may remove them at will and review/block recommendations before they take effect. ACA § 2713 mandate **upheld nationwide**. Did NOT directly address ACIP (vaccines) or HRSA Women's Preventive Services. RFRA / PrEP religious-objection claim remanded for further proceedings on plaintiff-specific application. Cross-reference S67-V. Supports MC-V-1 / TC-01; SD2 G2-SD2-06; SD3 §10; SD4 G2-SD4-02 + §10; SD6 G2-SD6-04 cross-cutting. Sources: Justia opinion text; Wikipedia case page; AJMC; VBID Center.
-
-**S135** — Trump executive orders revoking environmental justice framework (January 2025). NEW VERIFIED 2026-04-29: chain of three EOs:
-- EO 14148 "Initial Recissions of Harmful Executive Orders and Actions" (January 20, 2025) — revoked EO 14008 (Biden Justice40) and EO 14096 (Biden EJ Revitalization)
-- EO 14151 "Ending Radical and Wasteful Government DEI Programs and Preferencing" (January 20, 2025) — directs all agencies to "terminate, to the maximum extent allowed by law, all DEI, DEIA, and 'environmental justice' offices and positions"
-- EO 14173 "Ending Illegal Discrimination and Restoring Merit-Based Opportunity" (January 21, 2025) — revoked EO 12898 (Clinton 1994 EJ)
-
-D2 second-pass treats as a single "January 2025 revocation EO"; correction needed. Followed by Lee Zeldin EPA Administrator announcement March 12, 2025 closing EJ offices in HQ + all 10 regions; EJScreen taken offline circa same date. Cross-reference S96-V + S97-V + S98-V. Supports SD5 §3, §10, G2-SD5-05; MC-V-5 / TC-05. Sources: CRS IF12922 (Feb 24, 2025); Morgan Lewis publication.
-
-**S136** — *State of Rhode Island v. Trump* — Case No. 1:25-cv-00128 (D.R.I.) (or 1:25-cv-00196; case-number reconciliation pending), Judge **Melissa DuBose**; on appeal as **No. 26-1070 (1st Cir.)**. NEW VERIFIED 2026-04-29: plaintiffs are 19-state coalition. Originally July 2025; reaffirmed and **narrowed August 12, 2025**. Post-Aug-12 scope: FDA Center for Tobacco Products (CTP), most CDC offices (with Immunization Services Division excluded from protection), HHS Office of Head Start, HHS Office of Assistant Secretary for Planning and Evaluation. DOJ appealed to 1st Cir.; appellate ruling pending as of search date (UV-23). Two case numbers appear in sources — needs reconciliation at next verification pass. Supports SD1 §10; SD4 G2-SD4-04 secondary; MC-V-4 / TC-04. Sources: Workers Legal Defense Litigation Tracker; Georgetown Law Litigation Tracker.
-
-**S137** — January 5, 2026 CDC Decision Memo (childhood schedule reduction). NEW VERIFIED 2026-04-29: signed January 5, 2026 by then-Acting CDC Director Jim O'Neill — demoted 7 vaccines (rotavirus, meningococcal disease, hepatitis A, hepatitis B, influenza, COVID-19, RSV) from universal recommendation to "shared clinical decision making" status. Memo relied on January 2026 Høeg/Kuldorff Assessment compared to "peer countries" particularly Denmark; subsequently characterized in Murphy litigation amicus brief as employing "no generally accepted scientific methodology and contained misleading comparisons." **Stayed by Murphy preliminary injunction March 16, 2026.** D2 second-pass conflated this event with April 9, 2026 charter rewrite (S60-V). Supports SD1 §10; SD2 §3, §10; G2-SD2-03; MC-V-3 / TC-03. Sources: MN AG press release Feb 25, 2026; Public Health Law Watch.
-
-**S138** *(provisional)* — HHS mRNA vaccine wind-down + Treasury/IRS § 280E press release. Provisional combined registry slot for two adjacent administrative actions: (a) HHS announcement August 5, 2025 of "coordinated wind-down" of mRNA vaccine development under BARDA — 22 contracts terminated worth ~$500M; specific affected parties (Emory; Tiba); (b) Treasury press release April 23, 2026 announcing forthcoming § 280E guidance (cross-reference S123-V). Combined entry pending registry-clean-up at next verification cycle. Supports SD2 §10; SD7 §10.
+*Normalized 2026-05-22 per site-references-formatting-guide.md spec. 88 entries (S-01 through S-88); source was the D2 Block CR (S51–S138, 88 entries). Sequential renumbering across 8 standard categories; old-ID → new S-NN mapping in CR Normalization Log. No entries added, retired, or split during this pass. URLs absent from the pre-normalization CR (original cycle working files not consulted); entries requiring web-retrieved URLs carry `[pending retrieval — {keywords}]` per spec. Statutory entries carry `[no URL — citation is canonical]`.*
 
 ---
+
+### Federal Statutes and Regulations
+
+<a id="s-01"></a>
+
+#### S-01 — Public Health Service Act § 247b — Public Health Emergency Preparedness [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Public Health Service Act § 247b, Public Health Emergency Preparedness program (42 U.S.C. § 247b).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3; SD1 §10; G2-SD1-03; SD2 §3; SD2 §10; G2-SD2-01
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Framework statute for PHEP cooperative agreements. Formerly S51 in D2 Block CR.
+
+---
+
+<a id="s-02"></a>
+
+#### S-02 — Public Health Service Act § 247d — Public Health Emergency Declaration [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Public Health Service Act § 247d, Public Health Emergency declaration authority (42 U.S.C. § 247d).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3; SD1 §10; SD2 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S52 in D2 Block CR.
+
+---
+
+<a id="s-03"></a>
+
+#### S-03 — ACA Title IV § 4002 — Prevention and Public Health Fund [VERIFIED with corrections]
+
+**Citation:** Affordable Care Act Title IV § 4002, Prevention and Public Health Fund (P.L. 111-148, 42 U.S.C. § 300u-11).
+
+**URL:** [pending retrieval — NaCo PPHF cumulative rescissions FY13-FY27 by-PL breakdown]
+
+**Supports claims:** SD1 §3; SD1 §10; G2-SD1-01; MC-V-7; TC-07
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: cumulative rescissions FY13-FY27 ≈ $11.85B (NaCo); FY26 elimination proposed in Trump budget; specific by-PL: 112-96 ($6.25B), 114-255 ($3.5B), 115-96 ($750M), 115-123 ($1.35B). Sources cited: NaCo, ASTHO, CRS R47895. Formerly S53-V in D2 Block CR.
+
+---
+
+<a id="s-04"></a>
+
+#### S-04 — Public Health Service Act § 317 — Immunization Program [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Public Health Service Act § 317, Immunization program (42 U.S.C. § 247b-1).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3; SD2 §10
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S63 in D2 Block CR.
+
+---
+
+<a id="s-05"></a>
+
+#### S-05 — Vaccines for Children Program (Social Security Act § 1928) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Vaccines for Children Program, Social Security Act § 1928 (42 U.S.C. § 1396s).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3; G2-SD2-03
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** ACIP charter rewrite implementation impact on VFC. Formerly S64 in D2 Block CR.
+
+---
+
+<a id="s-06"></a>
+
+#### S-06 — National Childhood Vaccine Injury Act of 1986 (P.L. 99-660) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** National Childhood Vaccine Injury Act of 1986, P.L. 99-660.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S65 in D2 Block CR.
+
+---
+
+<a id="s-07"></a>
+
+#### S-07 — Ryan White HIV/AIDS Treatment Extension Act of 2009 (P.L. 111-87) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Ryan White HIV/AIDS Treatment Extension Act of 2009, Parts A-F (P.L. 111-87).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3; SD2 §10
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S66 in D2 Block CR.
+
+---
+
+<a id="s-08"></a>
+
+#### S-08 — ACA § 2713 — Preventive Services No-Cost-Sharing Mandate [VERIFIED with corrections]
+
+**Citation:** Affordable Care Act § 2713, preventive services no-cost-sharing mandate (42 U.S.C. § 300gg-13).
+
+**URL:** [pending retrieval — Kennedy v. Braidwood 606 US 748 2025 SCOTUS opinion Justia]
+
+**Supports claims:** SD2 §10; G2-SD2-06; SD3 §3; SD3 §10; SD4 §10; G2-SD4-02; SD6 §10; G2-SD6-04; MC-V-1; TC-01
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: Braidwood challenge RESOLVED by SCOTUS June 27, 2025 (*Kennedy v. Braidwood Management, Inc.*, 606 U.S. 748 (2025)); ACA § 2713 mandate upheld nationwide. Did NOT address ACIP (vaccines) or HRSA Women's Preventive Services. RFRA/PrEP claim remanded. Cross-reference S-42 (Kennedy v. Braidwood). Formerly S67-V in D2 Block CR.
+
+---
+
+<a id="s-09"></a>
+
+#### S-09 — CDC § 318 — STD Prevention Program [VERIFIED — CANONICAL CITATION]
+
+**Citation:** CDC § 318 STD Prevention Program.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S68 in D2 Block CR.
+
+---
+
+<a id="s-10"></a>
+
+#### S-10 — Title V MCH Services Block Grant (Social Security Act § 501) [PARTIAL]
+
+**Citation:** Title V Maternal and Child Health Services Block Grant, Social Security Act § 501 (42 U.S.C. § 701 et seq.); HRSA-MCHB administered.
+
+**URL:** [pending retrieval — Title V MCH Block Grant HRSA FY26 PA allotment MCHB]
+
+**Supports claims:** SD3 §3; SD3 §10; G2-SD3-01; G2-SD3-05
+
+**Verification status:** PARTIAL (2026-04-29)
+
+**Notes:** Statutory framework verified. FY26 specific federal appropriation + PA allotment + PDPH MCFH sub-allocation not located in 2026-04-29 cycle (UV-03). Three components: State MCH Block Grant; SPRANS; CISS. Formerly S73-V in D2 Block CR.
+
+---
+
+<a id="s-11"></a>
+
+#### S-11 — EPSDT (Social Security Act §§ 1905(a)(4)(B), 1905(r)) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Early and Periodic Screening, Diagnostic, and Treatment, Social Security Act §§ 1905(a)(4)(B), 1905(r) (42 U.S.C. § 1396a, § 1396d).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3; SD3 §10
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S74 in D2 Block CR.
+
+---
+
+<a id="s-12"></a>
+
+#### S-12 — MIECHV Program (Social Security Act § 511) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Maternal, Infant, and Early Childhood Home Visiting Program, Social Security Act § 511 (42 U.S.C. § 711).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S75 in D2 Block CR.
+
+---
+
+<a id="s-13"></a>
+
+#### S-13 — Healthy Start Initiative (PHSA § 330H) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Healthy Start Initiative, Public Health Service Act § 330H (42 U.S.C. § 254c-8).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S76 in D2 Block CR.
+
+---
+
+<a id="s-14"></a>
+
+#### S-14 — Preventing Maternal Deaths Act of 2018 (P.L. 115-344) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Preventing Maternal Deaths Act of 2018, P.L. 115-344.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S77 in D2 Block CR.
+
+---
+
+<a id="s-15"></a>
+
+#### S-15 — Newborn Screening Saves Lives Reauthorization Act of 2014 (P.L. 113-240) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Newborn Screening Saves Lives Reauthorization Act of 2014, P.L. 113-240.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S78 in D2 Block CR.
+
+---
+
+<a id="s-16"></a>
+
+#### S-16 — Tobacco Control Act / FSPTCA (P.L. 111-31) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Family Smoking Prevention and Tobacco Control Act (Tobacco Control Act), P.L. 111-31.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD4 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S84 in D2 Block CR.
+
+---
+
+<a id="s-17"></a>
+
+#### S-17 — CTP Menthol Withdrawal (RIN 0910-AI60, Jan. 21, 2025) [UNVERIFIED — D4 INHERITANCE]
+
+**Citation:** FDA Center for Tobacco Products, menthol cigarette withdrawal, RIN 0910-AI60 (January 21, 2025).
+
+**URL:** [pending retrieval — CTP menthol cigarettes withdrawal RIN 0910-AI60 FDA January 2025]
+
+**Supports claims:** SD4 §3; SD4 §10; G2-SD4-04
+
+**Verification status:** UNVERIFIED — carries D4 cycle inheritance; not independently verified in D2 cycle
+
+**Notes:** Cross-reference D4 cycle. Formerly S85 in D2 Block CR.
+
+---
+
+<a id="s-18"></a>
+
+#### S-18 — OBBBA Orphan-Drug Exclusion Expansion (P.L. 119-21, July 4, 2025) [UNVERIFIED — D4 INHERITANCE]
+
+**Citation:** One Big Beautiful Bill Act (OBBBA), P.L. 119-21, signed July 4, 2025; orphan-drug exclusion expansion provision affecting IRA Round 3 drug selections.
+
+**URL:** [pending retrieval — OBBBA P.L. 119-21 orphan drug exclusion IRA Round 3 Keytruda Opdivo]
+
+**Supports claims:** SD4 §3; SD4 §10; G2-SD4-05; MC-V-6 (OBBBA orphan-drug interaction with IRA rounds)
+
+**Verification status:** UNVERIFIED — carries D4 cycle inheritance; not independently verified in D2 cycle
+
+**Notes:** Delayed Keytruda and Opdivo selections in IRA Round 3. Cross-reference D4 cycle + D12 Standard 17 supplement. Formerly S86 in D2 Block CR.
+
+---
+
+<a id="s-19"></a>
+
+#### S-19 — Clean Air Act (42 U.S.C. § 7401 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Clean Air Act, 42 U.S.C. § 7401 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S92 in D2 Block CR.
+
+---
+
+<a id="s-20"></a>
+
+#### S-20 — Safe Drinking Water Act + Lead and Copper Rule + 2021 LCRR [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Safe Drinking Water Act (42 U.S.C. § 300f et seq.) + Lead and Copper Rule + 2021 Lead and Copper Rule Revisions.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3; G2-SD5-04
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S93 in D2 Block CR.
+
+---
+
+<a id="s-21"></a>
+
+#### S-21 — Residential Lead-Based Paint Hazard Reduction Act of 1992 (P.L. 102-550, Title X) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Residential Lead-Based Paint Hazard Reduction Act of 1992, Title X of P.L. 102-550 (42 U.S.C. § 4851 et seq.).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S94 in D2 Block CR.
+
+---
+
+<a id="s-22"></a>
+
+#### S-22 — CERCLA / Superfund (42 U.S.C. § 9601 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA / Superfund), 42 U.S.C. § 9601 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S95 in D2 Block CR.
+
+---
+
+<a id="s-23"></a>
+
+#### S-23 — Public Health Service Act § 330 — FQHC Program [VERIFIED with corrections]
+
+**Citation:** Public Health Service Act § 330, Federally Qualified Health Center program (42 U.S.C. § 254b).
+
+**URL:** [pending retrieval — CHCF extension December 2026 Consolidated Appropriations Act NACHC 2026]
+
+**Supports claims:** SD6 §3; SD6 §10; G2-SD6-03; MC-V-9; TC-09
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: Community Health Center Fund extended through December 2026 via 2026 Consolidated Appropriations Act. NHSC $350M base FY26; THCGME $225M; Medicare telehealth extended through 2027. No multi-year reauthorization. OBBBA Medicaid cuts threaten FQHC stability (Medicaid 40%+ of FQHC revenue). HRSA 340B rebate pilot launched January 1, 2026. 1,512 CHCs; serve 34M-52M Americans/year. D12 Standard 17 supplement: CBO Oct 28, 2025 cost estimate (70% of OBBBA §71107 coverage losses are procedural). Sources: NACHC; Synergy Billing Feb 2026; KFF. Formerly S106-V in D2 Block CR.
+
+---
+
+<a id="s-24"></a>
+
+#### S-24 — HPSA / MUA Designation Statutes (PHSA § 332 + § 330(b)(3)) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** HPSA / MUA designation statutes, Public Health Service Act § 332 + § 330(b)(3) (42 U.S.C. § 254e + § 254b).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S107 in D2 Block CR.
+
+---
+
+<a id="s-25"></a>
+
+#### S-25 — National Health Service Corps + HRSA Nurse Corps (PHSA § 331 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** National Health Service Corps, Public Health Service Act § 331 et seq.; HRSA Nurse Corps (NELRP).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S108 in D2 Block CR.
+
+---
+
+<a id="s-26"></a>
+
+#### S-26 — EMTALA (42 U.S.C. § 1395dd) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Emergency Medical Treatment and Active Labor Act (EMTALA), 42 U.S.C. § 1395dd.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S109 in D2 Block CR.
+
+---
+
+<a id="s-27"></a>
+
+#### S-27 — Medicaid Managed Care (Social Security Act § 1932 + 42 C.F.R. Part 438) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Medicaid managed care provisions, Social Security Act § 1932 (42 U.S.C. § 1396u-2) + 42 C.F.R. Part 438.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3; G2-SD6-05
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S110 in D2 Block CR.
+
+---
+
+<a id="s-28"></a>
+
+#### S-28 — Title VI Civil Rights Act of 1964 + EO 13166 [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Title VI of the Civil Rights Act of 1964 (42 U.S.C. § 2000d); Executive Order 13166 (August 11, 2000), "Improving Access to Services for Persons with Limited English Proficiency."
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3; G2-SD6-02
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** EO 13166 included in this entry as LEP-framework companion to Title VI. Formerly S111 in D2 Block CR.
+
+---
+
+<a id="s-29"></a>
+
+#### S-29 — ACA § 9007 + IRC § 501(r) — Community Benefit Requirements [VERIFIED — CANONICAL CITATION]
+
+**Citation:** ACA § 9007 + Internal Revenue Code § 501(r), community benefit + financial assistance + community health needs assessment requirements for tax-exempt hospitals.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S112 in D2 Block CR.
+
+---
+
+<a id="s-30"></a>
+
+#### S-30 — 340B Drug Pricing Program (PHSA § 340B) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** 340B Drug Pricing Program, Public Health Service Act § 340B (42 U.S.C. § 256b).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3; G2-SD6-06; cross-reference S-23 (HRSA 340B rebate pilot Jan 1, 2026)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S113 in D2 Block CR.
+
+---
+
+<a id="s-31"></a>
+
+#### S-31 — Controlled Substances Act + § 856 (Crack House Statute) + Safehouse litigation [VERIFIED with corrections]
+
+**Citation:** Controlled Substances Act + § 856 (Crack House Statute), 21 U.S.C. § 801 et seq., § 856; *United States v. Safehouse*, 985 F.3d 225 (3d Cir. 2021).
+
+**URL:** [pending retrieval — Safehouse Philadelphia supervised injection WHYY April 2024 RFRA appeal 3d Cir]
+
+**Supports claims:** SD7 §3; SD7 §10; G2-SD7-01
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: April 4, 2024 — Judge McHugh (E.D. Pa.) dismissed Safehouse's RFRA counterclaim; June 2024 — Safehouse filed Notice of Appeal to 3d Cir. (RFRA dimension). Status of 3d Cir. appeal as of 2026-04-29 NOT located (UV-20). Sept 2023: Philadelphia Council passed near-total ban on future sites via zoning overlay; Mayor Parker has not publicly supported. OnPoint NYC (two public sites, opened 2021) reportedly reversed 1,452 overdoses. Sources: WHYY April 4, 2024; WHYY June 2024. Formerly S120-V in D2 Block CR.
+
+---
+
+<a id="s-32"></a>
+
+#### S-32 — IRC § 280E + IRS Treasury Press Release (Apr. 23, 2026) [VERIFIED with corrections]
+
+**Citation:** Internal Revenue Code § 280E; Treasury / IRS press release, "Treasury, IRS Announce Process for Tax Guidance Following DOJ Final Order on Medical Marijuana Rescheduling," April 23, 2026.
+
+**URL:** [pending retrieval — Treasury IRS §280E guidance medical cannabis rescheduling April 23 2026 press release]
+
+**Supports claims:** SD7 §3; SD7 §10; G2-SD7-08; MC-V-10; TC-10
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: DEA Schedule III Final Order signed April 22-23, 2026; Federal Register publication ~April 28, 2026. Treasury guidance three components: (1) PROSPECTIVE relief CONFIRMED — full 2026 taxable year §280E-exempt for state-licensed medical cannabis; (2) APPORTIONMENT rules for mixed-business operators (methodology unresolved); (3) RETROSPECTIVE relief NOT YET COMMITTED. Industry >$1.6B disputed positions; Trulieve alone ~$445M. PA medical cannabis operators (Act 16 of 2016) §280E-exempt prospectively for 2026. Adult-use rescheduling hearing begins June 29, 2026. Sources: Treasury press release; Current Federal Tax Developments; Foley Hoag; Bradley; Canna Law Blog; Blank Rome. Cross-reference S-54 (DEA Schedule III Final Order). Formerly S123-V in D2 Block CR.
+
+---
+
+<a id="s-33"></a>
+
+#### S-33 — SUPPORT Act of 2018 (P.L. 115-271) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Substance Use-Disorder Prevention that Promotes Opioid Recovery and Treatment for Patients and Communities Act (SUPPORT Act), P.L. 115-271.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S124 in D2 Block CR.
+
+---
+
+<a id="s-34"></a>
+
+#### S-34 — MAT Act of 2023 (Consolidated Appropriations Act 2023 § 1262, P.L. 117-328) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Medication Access and Training Expansion Act (MAT Act of 2023), Consolidated Appropriations Act 2023 § 1262 (P.L. 117-328); X-waiver elimination effective.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S125 in D2 Block CR.
+
+---
+
+<a id="s-35"></a>
+
+#### S-35 — SAMHSA OTP Regulations (42 C.F.R. Part 8, April 2024 Revisions) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** SAMHSA Opioid Treatment Program regulations, 42 C.F.R. Part 8 (April 2024 revisions effective).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S127 in D2 Block CR.
+
+---
+
+### Executive Orders
+
+<a id="s-36"></a>
+
+#### S-36 — EO 14273: Lowering Drug Prices / IRA Modification Directive (Apr. 15, 2025) [VERIFIED]
+
+**Citation:** Executive Order 14273, "Lowering Drug Prices by Once Again Putting Americans First," April 15, 2025.
+
+**URL:** [pending retrieval — EO 14273 IRA modification directive Health Law Advisor April 2025]
+
+**Supports claims:** SD4 §3; SD4 §10; SD6 §10; TC-06 (secondary); MC-V-6
+
+**Verification status:** VERIFIED (2026-04-29)
+
+**Notes:** VERIFIED: directs HHS Secretary to (1) improve MDPNP transparency; (2) prioritize high-cost drug selection; (3) minimize negative impacts on innovation. IRA negotiation continues under Trump with modifications. Final CY 2026 Part D Redesign Program Instructions issued April 7, 2025. Source: Health Law Advisor. Formerly S87-V in D2 Block CR.
+
+---
+
+<a id="s-37"></a>
+
+#### S-37 — EO 12898 / EO 14173: Environmental Justice EO Revocation (Jan. 21, 2025) [VERIFIED with corrections]
+
+**Citation:** Executive Order 12898 (Clinton, February 11, 1994), "Federal Actions to Address Environmental Justice in Minority Populations and Low-Income Populations"; revoked by Executive Order 14173 (Trump, January 21, 2025), "Ending Illegal Discrimination and Restoring Merit-Based Opportunity."
+
+**URL:** [pending retrieval — EO 12898 EO 14173 environmental justice CRS IF12922 February 2025]
+
+**Supports claims:** SD5 §3; SD5 §10; G2-SD5-05; MC-V-5; TC-05
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with EO chain correction: D2 second-pass treated as single EO; correction distinguishes EO 12898 revocation from companion EOs 14148 and 14151. Cross-reference S-38 (EO 14008/14148) and S-40 (S135 EO chain entry). Sources: CRS IF12922 (Feb 24, 2025); ELI. Formerly S96-V in D2 Block CR.
+
+---
+
+<a id="s-38"></a>
+
+#### S-38 — EO 14008 / EO 14148: Justice40 Revocation (Jan. 20, 2025) [VERIFIED with corrections]
+
+**Citation:** Executive Order 14008 (Biden, January 27, 2021), "Tackling the Climate Crisis at Home and Abroad" (§ 219 Justice40 Initiative); revoked by Executive Order 14148 (Trump, January 20, 2025), "Initial Recissions of Harmful Executive Orders and Actions" (also revoked EO 14096, Biden 2023 EJ Revitalization).
+
+**URL:** [pending retrieval — EO 14008 EO 14148 Justice40 revocation CRS IF12922]
+
+**Supports claims:** SD5 §3; SD5 §10; G2-SD5-05; MC-V-5; TC-05
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: EO 14148 also revoked EO 14096 (Biden 2023 EJ Revitalization). Justice40 had identified ~74 EPA-covered programs for 40% disadvantaged-community benefits target. Same sources as S-37. Formerly S97-V in D2 Block CR.
+
+---
+
+<a id="s-39"></a>
+
+#### S-39 — EO 14370: Increasing Medical Marijuana and CBD Research (Dec. 18, 2025) [UNVERIFIED — D4 INHERITANCE]
+
+**Citation:** Executive Order 14370, "Increasing Medical Marijuana and Cannabidiol Research," December 18, 2025.
+
+**URL:** [pending retrieval — EO 14370 medical marijuana cannabidiol research December 2025]
+
+**Supports claims:** SD7 §3; SD7 §10
+
+**Verification status:** UNVERIFIED — carries D4 cycle verification; not independently verified in D2 cycle
+
+**Notes:** Inherits verification from D4 cycle. Formerly S122 in D2 Block CR.
+
+---
+
+<a id="s-40"></a>
+
+#### S-40 — EO Chain: EOs 14148, 14151, 14173 Revoking EJ Framework (Jan. 20-21, 2025) [NEW (Phase 3 addition)]
+
+**Citation:** Trump Executive Orders revoking environmental justice framework, January 20-21, 2025: EO 14148 "Initial Recissions of Harmful Executive Orders and Actions" (Jan 20); EO 14151 "Ending Radical and Wasteful Government DEI Programs and Preferencing" (Jan 20); EO 14173 "Ending Illegal Discrimination and Restoring Merit-Based Opportunity" (Jan 21).
+
+**URL:** [pending retrieval — EO 14148 EO 14151 EO 14173 environmental justice CRS IF12922 Morgan Lewis]
+
+**Supports claims:** SD5 §3; SD5 §10; G2-SD5-05; MC-V-5; TC-05
+
+**Verification status:** NEW (Phase 3 addition) — VERIFIED (2026-04-29)
+
+**Notes:** NEW entry: D2 second-pass treated as a single "January 2025 revocation EO"; Phase 3 correction identifies three distinct EOs. EO 14151 directs agencies to "terminate, to the maximum extent allowed by law, all DEI, DEIA, and 'environmental justice' offices and positions." Followed by Lee Zeldin EPA announcement March 12, 2025 closing EJ offices in HQ + all 10 regions. Cross-reference S-37 and S-38 for the specific EOs. Sources: CRS IF12922; Morgan Lewis. Formerly S135 in D2 Block CR.
+
+---
+
+### Court Decisions and Litigation
+
+<a id="s-41"></a>
+
+#### S-41 — AAP et al. v. Kennedy, D. Mass. — Murphy Preliminary Injunction (Mar. 16, 2026) [VERIFIED with corrections]
+
+**Citation:** *American Academy of Pediatrics et al. v. Kennedy et al.*, U.S. District Court for the District of Massachusetts (1st Circuit); preliminary injunction issued March 16, 2026, Judge Brian E. Murphy.
+
+**URL:** [pending retrieval — AAP v. Kennedy Murphy injunction March 16 2026 D. Massachusetts The Hill]
+
+**Supports claims:** SD1 §3; SD1 §10; G2-SD1-06; SD2 §3; G2-SD2-04; MC-V-2; TC-02
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with CIRCUIT CORRECTION: D2 second-pass misidentified as Sixth Circuit; corrected to 1st Circuit / D. Mass. Plaintiffs include AAP, ACOG, AAFP, IDSA, ACP, SMFM, Massachusetts Public Health Alliance, individual pregnant physician. Injunction: (a) stays Jan 5, 2026 Decision Memo; (b) blocks all 13 Kennedy ACIP appointees; (c) invalidates 3 ACIP votes; (d) overturns May 2025 COVID vaccine directive. HHS appealed to 1st Circuit. 15-state coalition parallel suit February 25, 2026. Sources: The Hill March 16, 2026; AJMC; Public Health Law Watch; KFF; APHA News. Formerly S71-V in D2 Block CR.
+
+---
+
+<a id="s-42"></a>
+
+#### S-42 — Kennedy v. Braidwood Management, Inc., 606 U.S. 748 (2025) [NEW (Phase 3 addition)]
+
+**Citation:** *Kennedy v. Braidwood Management, Inc.*, 606 U.S. 748 (2025), decided June 27, 2025; 6-3 (Kavanaugh majority joined by Roberts, Sotomayor, Kagan, Barrett, Jackson; Thomas dissent joined by Alito, Gorsuch).
+
+**URL:** [pending retrieval — Kennedy v. Braidwood Management 606 US 748 2025 Justia opinion]
+
+**Supports claims:** MC-V-1; TC-01; SD2 §10; G2-SD2-06; SD3 §10; SD4 §10; G2-SD4-02; SD6 §10; G2-SD6-04
+
+**Verification status:** NEW (Phase 3 addition) — VERIFIED (2026-04-29)
+
+**Notes:** NEW entry from 2026-04-29 verification cycle. SCOTUS reversed Fifth Circuit; USPSTF members are inferior officers properly appointed under Appointments Clause. ACA § 2713 mandate upheld nationwide. Did NOT address ACIP or HRSA Women's Preventive Services. RFRA/PrEP claim remanded for plaintiff-specific proceedings. Cross-reference S-08 (ACA § 2713). Sources: Justia opinion text; Wikipedia; AJMC; VBID Center. Formerly S134 in D2 Block CR.
+
+---
+
+<a id="s-43"></a>
+
+#### S-43 — State of Rhode Island v. Trump, D.R.I. (Narrowed Aug. 12, 2025) [NEW (Phase 3 addition)]
+
+**Citation:** *State of Rhode Island v. Trump*, Case No. 1:25-cv-00128 (D.R.I.) (or 1:25-cv-00196; case-number reconciliation pending), Judge Melissa DuBose; on appeal as No. 26-1070 (1st Cir.).
+
+**URL:** [pending retrieval — State of Rhode Island v. Trump FDA RIF injunction DuBose D.R.I. 2025]
+
+**Supports claims:** SD1 §10; SD4 §10; G2-SD4-04 (secondary); MC-V-4; TC-04
+
+**Verification status:** NEW (Phase 3 addition) — VERIFIED (2026-04-29)
+
+**Notes:** NEW entry from 2026-04-29 cycle. Originally July 2025; reaffirmed and narrowed August 12, 2025. Post-Aug-12 scope: FDA Center for Tobacco Products (CTP), most CDC offices (with Immunization Services Division excluded), HHS Office of Head Start, HHS ASPE. Two case numbers appear in sources (reconciliation pending UV-23). Sources: Workers Legal Defense Litigation Tracker; Georgetown Law Litigation Tracker. Formerly S136 in D2 Block CR.
+
+---
+
+### Federal Agency Materials
+
+<a id="s-44"></a>
+
+#### S-44 — FDA RIF Announcement (Apr. 1, 2025) + RI Injunction Documents [VERIFIED with corrections]
+
+**Citation:** FDA Reduction in Force announcement, April 1, 2025; finalization July 14, 2025; Rhode Island injunction documents (cross-reference S-43).
+
+**URL:** [pending retrieval — FDA RIF July 14 2025 finalization GovExec August 2025 workforce reduction]
+
+**Supports claims:** SD1 §3; SD1 §10; G2-SD1-02; MC-V-4; TC-04
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with corrections: workforce reduction refined to ~18% (not ~19%); CDRH lost ~250 (~11%); ~30 called back; CDC Immunization Services Division and Partnership and Vaccine Equity Branch terminated; CBER Director Peter Marks resigned March 27, 2025; subsequent CBER head Vinay Prasad also resigned (per PharmExec Feb 2026). Most FDA RIF effective July 14, 2025 (post-SCOTUS stay of Illston injunction July 8, 2025). Total HHS reduction ~25% when ~10,000 voluntary separations added. Sources: Venable LLP July 22, 2025; GovExec Aug 2025; My Strategist Market Pathways. Formerly S58-V in D2 Block CR.
+
+---
+
+<a id="s-45"></a>
+
+#### S-45 — USDA ERS Termination Announcement (Sep. 20, 2025) + Final ERR-358 (Dec. 2025) [UNVERIFIED — D4 INHERITANCE]
+
+**Citation:** USDA Economic Research Service, termination announcement September 20, 2025; final ERR-358 report, December 2025.
+
+**URL:** [pending retrieval — USDA ERS termination September 2025 Economic Research Report]
+
+**Supports claims:** SD1 §3; SD1 §10; G2-SD1-05
+
+**Verification status:** UNVERIFIED — D4 cycle inheritance + general public knowledge
+
+**Notes:** Cross-reference D4 cycle. Formerly S59 in D2 Block CR.
+
+---
+
+<a id="s-46"></a>
+
+#### S-46 — ACIP Charter Rewrite (Apr. 9, 2026) — Separate from Jan. 5 Decision Memo [VERIFIED with corrections]
+
+**Citation:** HHS Advisory Committee on Immunization Practices (ACIP), charter renewal, April 9, 2026 (Federal Register filing referenced as April 6 by some sources).
+
+**URL:** [pending retrieval — ACIP charter rewrite April 9 2026 HHS Federal Register CNN Cancer Letter]
+
+**Supports claims:** SD1 §3; G2-SD1-06; SD2 §10; G2-SD2-03; MC-V-3; TC-03
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: charter renewal is SEPARATE from January 5, 2026 CDC Decision Memo (which demoted 7 vaccines). New charter scope: vaccine safety research gaps; "cumulative effects"; aluminum adjuvants; mRNA platforms; foreign-country schedule comparisons. Adds non-voting liaison members from vaccine-skeptic organizations (IMA, Physicians for Informed Consent, AAPS). 130+ medical/PH groups statement of concern April 9. Net: charter rewrite stands; schedule reduction stayed by Murphy injunction (S-41); reconstituted ACIP membership blocked. Sources: CNN April 9, 2026; Cancer Letter April 17, 2026; Healthcare Innovation Group. Formerly S60-V in D2 Block CR.
+
+---
+
+<a id="s-47"></a>
+
+#### S-47 — PHEP / ELC Cooperative Agreement Framework (CDC) [UNVERIFIED — PENDING FY26]
+
+**Citation:** PHEP / ELC cooperative agreement framework documents: CDC PHEP cooperative agreement; ELC cooperative agreement framework; PA DOH + Philadelphia direct sub-grantee documentation.
+
+**URL:** [pending retrieval — CDC PHEP cooperative agreement FY26 ELC PA DOH Philadelphia]
+
+**Supports claims:** SD1 §3; G2-SD1-03; carry-forward to D5
+
+**Verification status:** UNVERIFIED — FY26 specific levels pending (UV-02)
+
+**Notes:** Formerly S61 in D2 Block CR.
+
+---
+
+<a id="s-48"></a>
+
+#### S-48 — PDPH HIV Prevention Cooperative Agreement (Direct CDC Funding) [UNVERIFIED — PENDING FY26]
+
+**Citation:** PDPH HIV Prevention Cooperative Agreement — direct CDC funding to Philadelphia as HRSA/CDC direct-funded jurisdiction.
+
+**URL:** [pending retrieval — PDPH HIV prevention cooperative agreement CDC direct-funded jurisdiction FY26]
+
+**Supports claims:** SD2 §3
+
+**Verification status:** UNVERIFIED — FY26 specific levels pending
+
+**Notes:** Formerly S62 in D2 Block CR.
+
+---
+
+<a id="s-49"></a>
+
+#### S-49 — AACO Philadelphia EMA Ryan White Part A Planning Council [UNVERIFIED — PENDING FY26]
+
+**Citation:** AACO Philadelphia EMA Ryan White Part A Planning Council (Philadelphia direct-funded EMA under HRSA HAB Part A).
+
+**URL:** [pending retrieval — AACO Philadelphia EMA Ryan White Part A HRSA HAB FY26 allocations]
+
+**Supports claims:** SD2 §3
+
+**Verification status:** UNVERIFIED — FY26 specific allocations pending (UV-04)
+
+**Notes:** Formerly S72 in D2 Block CR.
+
+---
+
+<a id="s-50"></a>
+
+#### S-50 — IRA Round 1 Selected Drugs — CMS Medicare Drug Price Negotiation Program [VERIFIED with corrections]
+
+**Citation:** CMS Medicare Drug Price Negotiation Program, Round 1, initial applicability year 2026; Maximum Fair Prices (MFPs) announced August 15, 2024.
+
+**URL:** [pending retrieval — CMS IRA Round 1 drug prices MFPs August 2024 Eliquis Jardiance newsroom]
+
+**Supports claims:** SD4 §3; SD4 §10; G2-SD4-03; MC-V-6; TC-06; SD6 §10 (secondary)
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: 10 drugs effective January 1, 2026 (Eliquis, Jardiance, Xarelto, Januvia, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, NovoLog/Fiasp); discounts 38%-79%; CMS projects $6B Medicare Year-1 net (~22% reduction) + $1.5B beneficiary OOP. Sources: CMS Newsroom Fact Sheet; Medicare Rights Center Oct 2025; KFF. Formerly S82-V in D2 Block CR.
+
+---
+
+<a id="s-51"></a>
+
+#### S-51 — IRA Round 2 Selected Drugs — CMS Medicare Drug Price Negotiation Program [VERIFIED with corrections]
+
+**Citation:** CMS Medicare Drug Price Negotiation Program, Round 2, initial applicability year 2027; drug list announced January 17, 2025; MFPs announced approximately late November 2025.
+
+**URL:** [pending retrieval — IRA Round 2 selected drugs January 2025 Medicare Rights Center CMS]
+
+**Supports claims:** SD4 §3; SD4 §10; G2-SD4-03 (secondary); TC-06; MC-V-6
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with date clarifications: drug list announced January 17, 2025 (Biden last days); MFPs announced ~late November 2025 (CMS Admin Mehmet Oz: 44%/$12B net savings); prices effective January 1, 2027. 15 drugs including blockbuster diabetes/weight-loss drugs. Round 3: 15 Part B + Part D drugs selected early 2026 for Jan 1, 2028. OBBBA orphan-drug exclusion expansion delayed Keytruda + Opdivo. D12 Standard 17 supplement: CBO Feb 2026 baseline. Sources: Medicare Rights Center Jan 2025; 340B Report Dec 2025. Formerly S83-V in D2 Block CR.
+
+---
+
+<a id="s-52"></a>
+
+#### S-52 — CDC PLACES — Population Level Analysis and Community Estimates [UNVERIFIED — PENDING CURRENCY]
+
+**Citation:** CDC PLACES (Population Level Analysis and Community Estimates) — chronic-disease estimates at census-tract / ZIP-code-tabulation-area / county level.
+
+**URL:** [pending retrieval — CDC PLACES population level analysis community estimates current release]
+
+**Supports claims:** SD4 §10 (D2 framework); carries pending flag UV-28
+
+**Verification status:** UNVERIFIED — framework verified institutionally; currency pending (UV-28)
+
+**Notes:** Formerly S88 in D2 Block CR.
+
+---
+
+<a id="s-53"></a>
+
+#### S-53 — EJScreen (EPA Environmental Justice Tool, offline ~Mar. 12, 2025) [VERIFIED with corrections]
+
+**Citation:** EPA EJScreen, environmental justice screening and mapping tool (launched 2015; taken offline on epa.gov approximately March 12, 2025).
+
+**URL:** [pending retrieval — EJScreen offline EPA environmental justice Office March 2025 Utility Dive]
+
+**Supports claims:** SD5 §3; G2-SD5-03; TC-05; MC-V-5
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with major status correction: tool offline; EPA Administrator Lee Zeldin announced closure of EPA Office of Environmental Justice and External Civil Rights and EJ units in all 10 regions including Region III; small HQ staff retained for external civil rights reviews only; OECA memo prohibits enforcement use of historical EJScreen data; DOJ EJ unit within ENRD also abolished. Reconstructions via Harvard University and Public Environmental Data Partners. Sources: Utility Dive; K&L Gates; Environmental Law Institute. Formerly S98-V in D2 Block CR.
+
+---
+
+<a id="s-54"></a>
+
+#### S-54 — DEA Schedule III Final Order for State-Licensed Medical Cannabis (Apr. 22-23, 2026) [VERIFIED]
+
+**Citation:** DEA Final Order rescheduling state-licensed medical cannabis to Schedule III, signed April 22-23, 2026, by Acting AG Todd Blanche; Federal Register publication / formal effective date approximately April 28, 2026.
+
+**URL:** [pending retrieval — DEA Schedule III Final Order medical cannabis April 2026 Federal Register]
+
+**Supports claims:** SD7 §3; SD7 §10; G2-SD7-05; MC-V-10; TC-10
+
+**Verification status:** VERIFIED (2026-04-29)
+
+**Notes:** Inherits VERIFIED status from D4 cycle (D4 S2-V). Cross-reference S-32 (§280E Treasury guidance). Formerly S121-V in D2 Block CR.
+
+---
+
+<a id="s-55"></a>
+
+#### S-55 — FDA Narcan (Naloxone) OTC Approval (March 2023) [VERIFIED — PUBLISHED RECORD]
+
+**Citation:** FDA, Narcan (naloxone) OTC (non-prescription) approval, March 2023.
+
+**URL:** [pending retrieval — FDA Narcan naloxone OTC approval March 2023 press release]
+
+**Supports claims:** SD7 §3
+
+**Verification status:** VERIFIED — published FDA approval letter and OTC status
+
+**Notes:** Formerly S126 in D2 Block CR.
+
+---
+
+<a id="s-56"></a>
+
+#### S-56 — CDC Decision Memo: Childhood Vaccine Schedule Reduction (Jan. 5, 2026) [NEW (Phase 3 addition)]
+
+**Citation:** CDC Decision Memo, signed January 5, 2026, by then-Acting CDC Director Jim O'Neill; demoted seven vaccines (rotavirus, meningococcal, hep A, hep B, influenza, COVID-19, RSV) from universal recommendation to "shared clinical decision making" status.
+
+**URL:** [pending retrieval — CDC Decision Memo January 5 2026 childhood vaccine schedule reduction O'Neill]
+
+**Supports claims:** SD1 §10; SD2 §3; SD2 §10; G2-SD2-03; MC-V-2; MC-V-3; TC-03
+
+**Verification status:** NEW (Phase 3 addition) — VERIFIED (2026-04-29)
+
+**Notes:** NEW entry from 2026-04-29 cycle. D2 second-pass conflated this event with the April 9, 2026 charter rewrite (S-46). Memo relied on January 2026 Høeg/Kuldorff Assessment; characterized in Murphy litigation amicus as employing "no generally accepted scientific methodology." STAYED by Murphy preliminary injunction March 16, 2026 (S-41). Sources: MN AG press release Feb 25, 2026; Public Health Law Watch. Formerly S137 in D2 Block CR.
+
+---
+
+<a id="s-57"></a>
+
+#### S-57 — HHS mRNA Vaccine Wind-Down + Treasury §280E Press Release (Provisional) [PROVISIONAL]
+
+**Citation:** (a) HHS announcement, August 5, 2025, of "coordinated wind-down" of mRNA vaccine development under BARDA — 22 contracts terminated worth ~$500M; (b) Treasury press release, April 23, 2026, forthcoming §280E guidance (cross-reference S-32).
+
+**URL:** [pending retrieval — HHS BARDA mRNA vaccine wind-down August 2025 contracts terminated]
+
+**Supports claims:** SD2 §10; SD7 §10
+
+**Verification status:** PROVISIONAL — combined entry pending registry clean-up at next verification cycle
+
+**Notes:** Provisional combined registry slot for two adjacent administrative actions. Specific affected parties: Emory; Tiba. Cross-reference S-32 for the Treasury §280E component. Formerly S138 in D2 Block CR.
+
+---
+
+### State and Local Authority
+
+<a id="s-58"></a>
+
+#### S-58 — Pennsylvania Disease Prevention and Control Law of 1955 (35 P.S. §§ 521.1-521.21) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Pennsylvania Disease Prevention and Control Law of 1955, 35 P.S. §§ 521.1-521.21.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3 (PA layer); SD1 §10; SD2 §3; SD2 §10
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S54 in D2 Block CR.
+
+---
+
+<a id="s-59"></a>
+
+#### S-59 — 28 Pa. Code Title 28 — Health and Safety Regulations [VERIFIED — CANONICAL CITATION]
+
+**Citation:** 28 Pa. Code Title 28, Health and Safety regulations; current through 56 Pa.B. 778 (January 31, 2026).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3 (PA layer); SD2 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S55 in D2 Block CR.
+
+---
+
+<a id="s-60"></a>
+
+#### S-60 — Philadelphia Code Title 6 — Health Code [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Philadelphia Code Title 6, Health Code.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3 (Philadelphia layer); SD2 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S56 in D2 Block CR.
+
+---
+
+<a id="s-61"></a>
+
+#### S-61 — Philadelphia Home Rule Charter — PDPH Governance Authority [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Philadelphia Home Rule Charter, local governance authority for Philadelphia Department of Public Health (PDPH).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD1 §3 (Philadelphia layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S57 in D2 Block CR.
+
+---
+
+<a id="s-62"></a>
+
+#### S-62 — 28 Pa. Code §§ 27.1-27.166 — Reportable Diseases [VERIFIED — CANONICAL CITATION]
+
+**Citation:** 28 Pa. Code §§ 27.1-27.166, reportable diseases.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD2 §3 (PA layer); G2-SD2-02
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S69 in D2 Block CR.
+
+---
+
+<a id="s-63"></a>
+
+#### S-63 — 28 Pa. Code Chapter 23, Subchapter C, § 23.83 — Immunization Requirements [VERIFIED with corrections]
+
+**Citation:** 28 Pa. Code Chapter 23, Subchapter C, § 23.83 (immunization requirements; corrected from registry typo "§ 28.83"); §§ 23.81-87; school responsibilities at § 23.85; exemptions at § 23.84.
+
+**URL:** [pending retrieval — 28 Pa. Code Chapter 23 immunization requirements pacodeandbulletin.gov]
+
+**Supports claims:** SD2 §3 (PA layer); G2-SD2-05
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED: PA Code current through 56 Pa.B. 778 (January 31, 2026); PA continues operating under existing Subchapter C. Promulgated under Public School Code of 1949 (24 P.S. § 13-1303); Disease Prevention and Control Law of 1955; Administrative Code of 1929. Sources: pacodeandbulletin.gov; PA Department of Education BEC. Formerly S70-V in D2 Block CR.
+
+---
+
+<a id="s-64"></a>
+
+#### S-64 — PA Newborn Screening Program (28 Pa. Code § 28.4) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Newborn Screening Program, 28 Pa. Code § 28.4.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3 (PA layer); G2-SD3-03
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S79 in D2 Block CR.
+
+---
+
+<a id="s-65"></a>
+
+#### S-65 — PA Maternal Mortality Review Committee (Act 24 of 2018, 35 P.S. §§ 7501-7508) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Maternal Mortality Review Committee statutory framework, Act 24 of 2018 (35 P.S. §§ 7501-7508).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §3 (PA layer); G2-SD3-02
+
+**Verification status:** VERIFIED — canonical citation; current reporting cycle pending (UV-25)
+
+**Notes:** Formerly S80 in D2 Block CR.
+
+---
+
+<a id="s-66"></a>
+
+#### S-66 — Philadelphia Fetal and Infant Mortality Review (PDPH MCFH Division) [VERIFIED — INSTITUTIONAL DOCUMENTATION]
+
+**Citation:** Philadelphia Fetal and Infant Mortality Review (FIMR), Philadelphia Department of Public Health, Maternal, Child, and Family Health (MCFH) division.
+
+**URL:** [pending retrieval — Philadelphia FIMR PDPH MCFH fetal infant mortality review program]
+
+**Supports claims:** SD3 §3 (Philadelphia layer)
+
+**Verification status:** VERIFIED — institutional documentation
+
+**Notes:** Formerly S81 in D2 Block CR.
+
+---
+
+<a id="s-67"></a>
+
+#### S-67 — PA Cancer Control Plan + PA Cancer Registry [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Cancer Control Plan; PA Cancer Registry, Pennsylvania Department of Health, Bureau of Health Statistics.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD4 §3 (PA layer); G2-SD4-06
+
+**Verification status:** VERIFIED — canonical citation; PA Cancer Registry currency pending (UV-29)
+
+**Notes:** Formerly S89 in D2 Block CR.
+
+---
+
+<a id="s-68"></a>
+
+#### S-68 — Philadelphia Sweetened Beverage Tax (Philadelphia Code Title 19, Chapter 19-4100) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Philadelphia Sweetened Beverage Tax, Philadelphia Code Title 19, Chapter 19-4100.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD4 §3 (Philadelphia layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S90 in D2 Block CR.
+
+---
+
+<a id="s-69"></a>
+
+#### S-69 — Philadelphia Tobacco Retailer Licensing (Philadelphia Code Title 6, Chapter 6-300) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Philadelphia Tobacco Retailer Licensing, Philadelphia Code Title 6, Chapter 6-300.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD4 §3 (Philadelphia layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S91 in D2 Block CR.
+
+---
+
+<a id="s-70"></a>
+
+#### S-70 — PA Air Pollution Control Act (35 P.S. § 4001 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Air Pollution Control Act, 35 P.S. § 4001 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S99 in D2 Block CR.
+
+---
+
+<a id="s-71"></a>
+
+#### S-71 — PA Safe Drinking Water Act (35 P.S. § 721.1 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Safe Drinking Water Act, 35 P.S. § 721.1 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S100 in D2 Block CR.
+
+---
+
+<a id="s-72"></a>
+
+#### S-72 — PA Act 2 of 1995 — Land Recycling Program (35 P.S. § 6026.101 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Act 2 of 1995, Land Recycling Program, 35 P.S. § 6026.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S101 in D2 Block CR.
+
+---
+
+<a id="s-73"></a>
+
+#### S-73 — PA Hazardous Sites Cleanup Act (35 P.S. § 6020.101 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Hazardous Sites Cleanup Act (HSCA), 35 P.S. § 6020.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S102 in D2 Block CR.
+
+---
+
+<a id="s-74"></a>
+
+#### S-74 — PA Lead Paint Abatement and Certification Act of 1994 (Act 44, 35 P.S. § 5901 et seq.) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Lead Paint Abatement and Certification Act of 1994, Act 44 of 1994, 35 P.S. § 5901 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S103 in D2 Block CR.
+
+---
+
+<a id="s-75"></a>
+
+#### S-75 — PA Constitution Article I § 27 + PEDF (Environmental Rights Amendment) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Constitution Article I § 27 (Environmental Rights Amendment); *Pennsylvania Environmental Defense Foundation v. Commonwealth*, 161 A.3d 911 (Pa. 2017).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S104 in D2 Block CR.
+
+---
+
+<a id="s-76"></a>
+
+#### S-76 — Philadelphia Lead Disclosure and Notification Law (Philadelphia Code Title 6, Chapter 6-800) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** Philadelphia Lead Disclosure and Notification Law, Philadelphia Code Title 6, Chapter 6-800.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §3 (Philadelphia layer); G2-SD5-06
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S105 in D2 Block CR.
+
+---
+
+<a id="s-77"></a>
+
+#### S-77 — PA HealthChoices Physical Health + Behavioral Health (Medicaid Managed Care) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA HealthChoices Physical Health + Behavioral Health, Medicaid managed care arrangement under federal § 1932 authority.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3 (PA layer); SD7 §3
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S114 in D2 Block CR.
+
+---
+
+<a id="s-78"></a>
+
+#### S-78 — PA Primary Care Loan Repayment Program (PA Act 2003-22) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Primary Care Loan Repayment Program, PA Act 2003-22.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S115 in D2 Block CR.
+
+---
+
+<a id="s-79"></a>
+
+#### S-79 — PA Act 109 of 2020 — CRNP Independent Practice Authority [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Act 109 of 2020, CRNP independent practice authority.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S116 in D2 Block CR.
+
+---
+
+<a id="s-80"></a>
+
+#### S-80 — PA Act 66 of 2021 — Syringe Service Program Authorization (35 P.S. § 780-128) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Act 66 of 2021, Syringe Service Program authorization, 35 P.S. § 780-128.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3 (PA layer); G2-SD7-04
+
+**Verification status:** VERIFIED — canonical citation; county-level implementation pending (UV-19)
+
+**Notes:** Formerly S128 in D2 Block CR.
+
+---
+
+<a id="s-81"></a>
+
+#### S-81 — PA Act 139 of 2014 — Drug Overdose Response Immunity / Good Samaritan [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Act 139 of 2014, Drug Overdose Response Immunity / Good Samaritan law, 35 P.S. § 780-113.7.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S129 in D2 Block CR.
+
+---
+
+<a id="s-82"></a>
+
+#### S-82 — PA Prescription Drug Monitoring Program (Act 191 of 2014 + Act 53 of 2014) [VERIFIED — CANONICAL CITATION]
+
+**Citation:** PA Prescription Drug Monitoring Program, Act 191 of 2014 + Act 53 of 2014 (35 P.S. §§ 872.1-872.41).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD7 §3 (PA layer)
+
+**Verification status:** VERIFIED — canonical citation; no web retrieval required
+
+**Notes:** Formerly S130 in D2 Block CR.
+
+---
+
+<a id="s-83"></a>
+
+#### S-83 — DBHIDS Behavioral Health (PA HealthChoices BH Single-MCO Philadelphia Model) [VERIFIED — INSTITUTIONAL STRUCTURE]
+
+**Citation:** Philadelphia Department of Behavioral Health and Intellectual disAbility Services (DBHIDS), PA HealthChoices Behavioral Health single-MCO Philadelphia model.
+
+**URL:** [pending retrieval — DBHIDS Philadelphia HealthChoices Behavioral Health single MCO model]
+
+**Supports claims:** SD7 §3 (Philadelphia layer); G2-SD7-07; carry-forward to D3 Mental Health
+
+**Verification status:** VERIFIED — institutional structure
+
+**Notes:** Formerly S131 in D2 Block CR.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-84"></a>
+
+#### S-84 — Hochstatter et al. 2025 — Kensington Drug Supply Chemistry (PMID 40578053) [VERIFIED]
+
+**Citation:** Hochstatter, K.R., et al., "Characterizing rapid changes in the prevalence and concentration of key compounds in Philadelphia's street opioid retail supply, March 2024-March 2025," *Drug and Alcohol Dependence*, accepted June 2025 (PMID 40578053).
+
+**URL:** [pending retrieval — Hochstatter 2025 Drug Alcohol Dependence PMID 40578053 PubMed ScienceDirect]
+
+**Supports claims:** SD7 §4 (statistical profile); G2-SD7-03; MC-V-11 (Kensington supply chemistry baseline)
+
+**Verification status:** VERIFIED (2026-04-29)
+
+**Notes:** VERIFIED to peer-reviewed source: D2 second-pass figures match exactly — medetomidine 83%; BTMPS 25% (March 2025 baseline). Among 260 samples March 2024-March 2025: fentanyl 98% prevalence; xylazine declined 100%→58%; lidocaine + tetracaine each increased 3%→63%; medetomidine first detected April 2024; BTMPS first detected June 2024. Cross-reference D4 SD35 substantive overlap. Sources: PubMed; ScienceDirect. Formerly S133-V in D2 Block CR.
+
+---
+
+### Press / News Reporting
+
+<a id="s-85"></a>
+
+#### S-85 — Hahnemann University Hospital Closure (June 2019) — Published Reporting [VERIFIED — PUBLISHED REPORTING]
+
+**Citation:** Hahnemann University Hospital closure, June 2019; structural-precedent reference. Philadelphia Inquirer, Reuters, healthcare-trade press 2019-2020.
+
+**URL:** [pending retrieval — Hahnemann University Hospital closure June 2019 Philadelphia Inquirer Reuters]
+
+**Supports claims:** SD6 §3; SD6 §10; G2-SD6-04
+
+**Verification status:** VERIFIED — published reporting (2019-2020)
+
+**Notes:** Formerly S117 in D2 Block CR.
+
+---
+
+<a id="s-86"></a>
+
+#### S-86 — Temple Health System Financial Trajectory (Temple Bondholder Reports + Inquirer) [VERIFIED with corrections]
+
+**Citation:** Temple University Health System bondholder reports; *Philadelphia Inquirer* coverage (September 29, 2025; November 26, 2025; May 13, 2025); Einstein-as-Jefferson-Health structural fact (post-2021 merger).
+
+**URL:** [pending retrieval — Temple Health FY25 operating profit Philadelphia Inquirer September 2025]
+
+**Supports claims:** SD6 §3; SD6 §10; G2-SD6-04; MC-V-8; TC-08
+
+**Verification status:** VERIFIED with corrections (2026-04-29)
+
+**Notes:** VERIFIED with framing correction: Temple FY25 operating profit $22M (vs. $973K prior year); $3.3B revenue (+15%); Q1 FY26 $15M operating loss (improved from $17M); FY26 capital trim ($60-65M, down $10-15M) due to Medicaid uncertainty; BBB investment-grade rating maintained (Fitch Dec 2021; no recent downgrade). Strategic investments: 8 oncologists at Fox Chase; 34 community physician practitioners; new Women & Families Hospital in Juniata (operating rooms May 2025); Chestnut Hill JV improving. **Einstein operationally part of Jefferson Health since 2021 merger — D2's standalone framing is anachronistic.** Recharacterize G2-SD6-04 from "closure-scenario indicators" to "operational financial pressure under federal Medicaid uncertainty." Sources: Philadelphia Inquirer. Formerly S118-V in D2 Block CR.
+
+---
+
+### Other Primary Sources
+
+<a id="s-87"></a>
+
+#### S-87 — PA-3 FQHC Roster (Institutional Documentation) [VERIFIED — INSTITUTIONAL DOCUMENTATION]
+
+**Citation:** PA-3 FQHC roster: Philadelphia FIGHT, Puentes de Salud, MANNA, Resources for Human Development, Family Practice & Counseling Network.
+
+**URL:** [pending retrieval — Philadelphia FIGHT Puentes de Salud MANNA RHD Family Practice FQHC PA-3]
+
+**Supports claims:** SD6 §3 (PA-3 layer); G2-SD6-01
+
+**Verification status:** VERIFIED — institutional documentation
+
+**Notes:** Formerly S119 in D2 Block CR.
+
+---
+
+<a id="s-88"></a>
+
+#### S-88 — Prevention Point Philadelphia (501(c)(3) SSP Operator) [VERIFIED — INSTITUTIONAL DOCUMENTATION]
+
+**Citation:** Prevention Point Philadelphia, 501(c)(3) operating syringe service program under PA Act 66 of 2021 authorization; established 1991.
+
+**URL:** [pending retrieval — Prevention Point Philadelphia syringe service program 501c3]
+
+**Supports claims:** SD7 §3 (Philadelphia layer)
+
+**Verification status:** VERIFIED — institutional documentation
+
+**Notes:** Formerly S132 in D2 Block CR.
+
+---
+
+<a id="s-89"></a>
+
+#### S-89 — PDPH Health Department Reports on Overdose Crisis (April 2025) [VERIFIED]
+
+**Citation:** Philadelphia Department of Public Health, "Health Department Releases Reports on Overdose Crisis," April 29, 2025.
+
+**URL:** https://www.phila.gov/2025-04-29-health-department-releases-reports-on-overdose-crisis/
+
+**Supports claims:** MC-V-11 (PDPH/DBHIDS surveillance reporting on PA + Philadelphia overdose mortality currency)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 88 | 88 |
+| New entries added during pass | — | 0 |
+| Entries retired (duplicate / superseded) | — | 0 |
+| Multi-URL bundles split | — | 0 |
+| Source-workspace entries promoted | — | N/A |
+
+**Old-ID → new S-NN mapping**
+
+| Old ID | New S-NN | Category |
+|---|---|---|
+| S51 | S-01 | Federal Statutes and Regulations |
+| S52 | S-02 | Federal Statutes and Regulations |
+| S53-V | S-03 | Federal Statutes and Regulations |
+| S63 | S-04 | Federal Statutes and Regulations |
+| S64 | S-05 | Federal Statutes and Regulations |
+| S65 | S-06 | Federal Statutes and Regulations |
+| S66 | S-07 | Federal Statutes and Regulations |
+| S67-V | S-08 | Federal Statutes and Regulations |
+| S68 | S-09 | Federal Statutes and Regulations |
+| S73-V | S-10 | Federal Statutes and Regulations |
+| S74 | S-11 | Federal Statutes and Regulations |
+| S75 | S-12 | Federal Statutes and Regulations |
+| S76 | S-13 | Federal Statutes and Regulations |
+| S77 | S-14 | Federal Statutes and Regulations |
+| S78 | S-15 | Federal Statutes and Regulations |
+| S84 | S-16 | Federal Statutes and Regulations |
+| S85 | S-17 | Federal Statutes and Regulations |
+| S86 | S-18 | Federal Statutes and Regulations |
+| S92 | S-19 | Federal Statutes and Regulations |
+| S93 | S-20 | Federal Statutes and Regulations |
+| S94 | S-21 | Federal Statutes and Regulations |
+| S95 | S-22 | Federal Statutes and Regulations |
+| S106-V | S-23 | Federal Statutes and Regulations |
+| S107 | S-24 | Federal Statutes and Regulations |
+| S108 | S-25 | Federal Statutes and Regulations |
+| S109 | S-26 | Federal Statutes and Regulations |
+| S110 | S-27 | Federal Statutes and Regulations |
+| S111 | S-28 | Federal Statutes and Regulations |
+| S112 | S-29 | Federal Statutes and Regulations |
+| S113 | S-30 | Federal Statutes and Regulations |
+| S120-V | S-31 | Federal Statutes and Regulations |
+| S123-V | S-32 | Federal Statutes and Regulations |
+| S124 | S-33 | Federal Statutes and Regulations |
+| S125 | S-34 | Federal Statutes and Regulations |
+| S127 | S-35 | Federal Statutes and Regulations |
+| S87-V | S-36 | Executive Orders |
+| S96-V | S-37 | Executive Orders |
+| S97-V | S-38 | Executive Orders |
+| S122 | S-39 | Executive Orders |
+| S135 | S-40 | Executive Orders |
+| S71-V | S-41 | Court Decisions and Litigation |
+| S134 | S-42 | Court Decisions and Litigation |
+| S136 | S-43 | Court Decisions and Litigation |
+| S58-V | S-44 | Federal Agency Materials |
+| S59 | S-45 | Federal Agency Materials |
+| S60-V | S-46 | Federal Agency Materials |
+| S61 | S-47 | Federal Agency Materials |
+| S62 | S-48 | Federal Agency Materials |
+| S72 | S-49 | Federal Agency Materials |
+| S82-V | S-50 | Federal Agency Materials |
+| S83-V | S-51 | Federal Agency Materials |
+| S88 | S-52 | Federal Agency Materials |
+| S98-V | S-53 | Federal Agency Materials |
+| S121-V | S-54 | Federal Agency Materials |
+| S126 | S-55 | Federal Agency Materials |
+| S137 | S-56 | Federal Agency Materials |
+| S138 | S-57 | Federal Agency Materials |
+| S54 | S-58 | State and Local Authority |
+| S55 | S-59 | State and Local Authority |
+| S56 | S-60 | State and Local Authority |
+| S57 | S-61 | State and Local Authority |
+| S69 | S-62 | State and Local Authority |
+| S70-V | S-63 | State and Local Authority |
+| S79 | S-64 | State and Local Authority |
+| S80 | S-65 | State and Local Authority |
+| S81 | S-66 | State and Local Authority |
+| S89 | S-67 | State and Local Authority |
+| S90 | S-68 | State and Local Authority |
+| S91 | S-69 | State and Local Authority |
+| S99 | S-70 | State and Local Authority |
+| S100 | S-71 | State and Local Authority |
+| S101 | S-72 | State and Local Authority |
+| S102 | S-73 | State and Local Authority |
+| S103 | S-74 | State and Local Authority |
+| S104 | S-75 | State and Local Authority |
+| S105 | S-76 | State and Local Authority |
+| S114 | S-77 | State and Local Authority |
+| S115 | S-78 | State and Local Authority |
+| S116 | S-79 | State and Local Authority |
+| S128 | S-80 | State and Local Authority |
+| S129 | S-81 | State and Local Authority |
+| S130 | S-82 | State and Local Authority |
+| S131 | S-83 | State and Local Authority |
+| S133-V | S-84 | Research Reports / Policy Analysis |
+| S117 | S-85 | Press / News Reporting |
+| S118-V | S-86 | Press / News Reporting |
+| S119 | S-87 | Other Primary Sources |
+| S132 | S-88 | Other Primary Sources |
+
+**Body-cited gaps**
+
+MC-V-11 cites "PDPH/DBHIDS surveillance reporting" — no corresponding CR entry in pre-normalization CR. Sources line flagged: `[flag for URL-retrieval pass: PDPH/DBHIDS surveillance reporting]`. To be resolved in next URL-retrieval pass.
+
+**Category decisions**
+
+- S120-V (CSA + §856 + Safehouse): Categorized as Federal Statutes and Regulations (statute is the primary citation; Safehouse litigation is the verification context). The case law dimension will be captured in a future per-citation-type secondary entry if needed.
+- S123-V (§280E + Treasury press release): Categorized as Federal Statutes and Regulations (§280E is the primary citation; Treasury press release is the verification addition). Cross-reference S-54 (DEA Schedule III Final Order, categorized as Federal Agency Materials).
+- S111 (Title VI + EO 13166): Categorized as Federal Statutes and Regulations (Title VI is primary; EO 13166 is LEP-framework companion). EO 13166 is not separately extracted because it functions here as an implementing instrument for the statutory provision.
+- S58-V (FDA RIF + RI injunction docs): Categorized as Federal Agency Materials (agency action is the primary citation). S-43 carries the RI v. Trump court entry separately.
+- S59 (USDA ERS termination): Categorized as Federal Agency Materials (agency administrative action).
+- S135 (EO chain 14148/14151/14173): Categorized as Executive Orders; also cross-referenced from S-37 and S-38 which carry individual EO entries. S-40 carries the chain-entry as a consolidated NEW Phase 3 addition.
+- S87-V (EO 14273): Categorized as Executive Orders; primarily appears in MC-V-6 Sources line as the directive governing IRA's Trump-era continuation.
+
+
 
 ## End of Verified Output (M2 v1.2 retrofit)
 

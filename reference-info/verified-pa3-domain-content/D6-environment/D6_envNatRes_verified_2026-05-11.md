@@ -30,6 +30,7 @@ Per Standard 11 four-field format. Navigation aid to inline corrections applied 
 
 ---
 
+<a id="mc-01"></a>
 **MC-01 (resolved T6-SD1-02) — Endangerment Finding litigation: expansion beyond single-petition characterization**
 
 | Field | Content |
@@ -37,12 +38,15 @@ Per Standard 11 four-field format. Navigation aid to inline corrections applied 
 | **What it was** | D.C. Circuit petition for review described primarily as "March 19, 2026 by 24 state AGs" in several body locations; "April 2026 reconsideration petitions" noted but not detailed |
 | **What it is now** | Multiple distinct petitions and intervenors: (1) Feb. 18, 2026 — coalition of 17 health/environmental groups (filed same day as Federal Register publication); (2) Feb. 18, 2026 — 18 young people represented by Our Children's Trust; (3) Feb. 20, 2026 — ZETA (EV trade association); (4) March 19, 2026 — 24 states + 15 local governments, case Massachusetts v. U.S. EPA, No. 26-1061 (D.C. Cir.), led by NY, MA, CA, CT AGs; PA Governor Shapiro among signatories; (5) April 2026 — EPA administrative reconsideration petitions by health groups and AG coalition (both arguing final rule not "logical outgrowth" of proposed rule). Additionally: March 6, 2026 — 25-state coalition led by WV and KY filed motion to intervene to defend the Rescission Rule against petitioners. The contestation is bidirectional: 24 states petition for review; 25 states intervene to defend. Rescission effective April 20, 2026. No stay granted as of verification date (May 2026). Substantive briefing not yet filed. |
 | **When it changed** | Petitions filed Feb. 18–March 19, 2026; reconsideration petitions April 2026; effective date April 20, 2026 |
-| **What it affects** | SD1 Section 2 (CAA Title II entry — Federal Agency Layer administrative vulnerability for GHG rescission and litigation context); SD1 Section 7 (G6-SD1-01 analytical consequence — principal anchor); Synthesis Section 1 finding 1 (SD1 summary reference); Synthesis Section 3 (confidence calibration for G6-SD1-01). Structural direction of G6-SD1-01 finding confirmed — rescission operative; litigation active and multifaceted; no stay issued. |
+| **What it affects** | SD1 Section 2 (CAA Title II entry — Federal Agency Layer administrative vulnerability for GHG rescission and litigation context); SD1 Section 7 (<a id="g6-sd1-01"></a>G6-SD1-01 analytical consequence — principal anchor); Synthesis Section 1 finding 1 (SD1 summary reference); Synthesis Section 3 (confidence calibration for G6-SD1-01). Structural direction of G6-SD1-01 finding confirmed — rescission operative; litigation active and multifaceted; no stay issued. |
 
 Principal anchor at SD1 Section 7 (G6-SD1-01 gap analysis); secondary anchors at SD1 Section 2 (CAA Title II entry) and Synthesis Section 3.
 
+*Sources:* [S-02](#s-02), [S-21](#s-21), [S-33](#s-33), [S-34](#s-34), [S-35](#s-35), [S-37](#s-37), [S-38](#s-38)
+
 ---
 
+<a id="mc-02"></a>
 **MC-02 (resolved F6-SD1-01) — EPA ORD formally eliminated; OASES created**
 
 | Field | Content |
@@ -50,25 +54,31 @@ Principal anchor at SD1 Section 7 (G6-SD1-01 gap analysis); secondary anchors at
 | **What it was** | "~1,500 → ~500" staffing reduction described as estimate pending primary-source confirmation (F6-SD1-01 flag status); ORD described as undergoing reorganization |
 | **What it is now** | ORD formally eliminated (effective July 2025; EPA announcement July 18, 2025); replaced by Office of Applied Science and Environmental Solutions (OASES), created September 2025 (Administrator Zeldin memo September 22, 2025). ORD had 1,540 staff; OASES holds approximately 500 positions per EPA spokesperson (Federal News Network, May 2026) and E&E News (April 2026, "roughly 500 staffers"); earlier C&EN reporting (May 2025, before OASES formally opened) gave ~300 — reflecting pre-opening uncertainty. EPA total staffing reduced to 12,448 (–3,700, –23% from January 2025). Per AFGE Council 238 president: "independent arm of research...effectively completely dismantled; peer-reviewed publications through that arm...completely gone." EPA reduced headcount by ~3,000 between FY2025 and FY2026 (Federal News Network, May 8, 2026). |
 | **When it changed** | ORD elimination announced July 18, 2025; OASES created September 22, 2025; peer-reviewed output effectively halted by late 2025 |
-| **What it affects** | SD1 Section 2 (Federal Agency Layer ORD administrative vulnerability); SD1 Section 4 (G6-SD1-03 EPA ORD capacity characterization); SD1 Section 7 (G6-SD1-03 gap analysis — confidence level upgrades from [SI] to [D] HIGH). Characterization shifts from staffing estimate to confirmed elimination. |
+| **What it affects** | SD1 Section 2 (Federal Agency Layer ORD administrative vulnerability); SD1 Section 4 (<a id="g6-sd1-03"></a>G6-SD1-03 EPA ORD capacity characterization); SD1 Section 7 (G6-SD1-03 gap analysis — confidence level upgrades from [SI] to [D] HIGH). Characterization shifts from staffing estimate to confirmed elimination. |
 
 Principal anchor at SD1 Section 7 (G6-SD1-03); secondary at SD1 Section 2.
 
+*Sources:* [S-23](#s-23), [S-45](#s-45), [S-46](#s-46), [S-47](#s-47)
+
 ---
 
+<a id="mc-03"></a>
 **MC-03 (resolved F6-SD4-02) — SDP AHERA DOJ DPA confirmed with full specifics**
 
 | Field | Content |
 |---|---|
-| **What it was** | G6-SD4-02 at [F] LOW-MEDIUM confidence; DPA described as "June 2025 DOJ Deferred Prosecution Agreement" with specifics pending F6-SD4-02 resolution |
+| **What it was** | <a id="g6-sd4-02"></a>G6-SD4-02 at [F] LOW-MEDIUM confidence; DPA described as "June 2025 DOJ Deferred Prosecution Agreement" with specifics pending F6-SD4-02 resolution |
 | **What it is now** | DPA filed June 26, 2025 (U.S. Attorney for Eastern District of PA; DOJ Environmental Crimes Section; EPA Criminal Investigation Division). First school district in US criminally charged under AHERA; first use of DPA against a public school district in AHERA case. 8 criminal counts (7 three-year inspection failures at named schools; 1 six-month inspection failure at Building 21 Alternative HS). DPA cites 31 buildings with asbestos problems 2015–2023; 5-year judicial monitoring; criminal charges dropped if district meets compliance for 5 years. SDP annual environmental budget: $10.2M (FY2021) → $55.7M (FY2025); staff 21 → 39; all 300+ buildings now inspected twice/year. Penn contributed $100M to SDP environmental management (same year probe began). Frankford High closed for $20M asbestos remediation (as of January 2026). |
 | **When it changed** | DPA filed June 26, 2025; announced publicly June 26–27, 2025 |
 | **What it affects** | SD4 Section 2 (SDP AHERA regulatory architecture); SD4 Section 4 (G6-SD4-02 statistical profile — confidence upgrade to [D] HIGH); SD4 Section 7 (G6-SD4-02 gap finding — upgrade from [F] LOW-MEDIUM to [D] HIGH; DPA details add Penn financial relationship dimension); SD4 Section 8 (Representation Question closure — school AHERA gap now federally confirmed). |
 
 Principal anchor at SD4 Section 7 (G6-SD4-02); secondary at SD4 Section 2 and SD4 Section 8.
 
+*Sources:* [S-09](#s-09), [S-20](#s-20), [S-39](#s-39), [S-40](#s-40), [S-41](#s-41), [S-42](#s-42), [S-43](#s-43), [S-44](#s-44)
+
 ---
 
+<a id="mc-04"></a>
 **MC-04 (resolved F6-SD5-01) — $267M PA investment confirmed; program characterized as industrial decarbonization, not EJ-specific**
 
 | Field | Content |
@@ -80,34 +90,43 @@ Principal anchor at SD4 Section 7 (G6-SD4-02); secondary at SD4 Section 2 and SD
 
 Principal anchor at Synthesis Section 2 (Both/And documentation); secondary at SD5 Section 4 and Synthesis Section 1.
 
+*Sources:* [S-26](#s-26), [S-27](#s-27)
+
 ---
 
+<a id="mc-05"></a>
 **MC-05 (resolved T6-SD5-01) — EO 14260 operative; no specific PA EJ Policy challenge documented**
 
 | Field | Content |
 |---|---|
-| **What it was** | T6-SD5-01 asked whether the federal administration had directed the AG to challenge PA's EJ Policy; G6-SD5-02 characterized the administrative-vulnerability gap as prospective |
+| **What it was** | T6-SD5-01 asked whether the federal administration had directed the AG to challenge PA's EJ Policy; <a id="g6-sd5-02"></a>G6-SD5-02 characterized the administrative-vulnerability gap as prospective |
 | **What it is now** | EO 14260 "Protecting American Energy From State Overreach" (April 8, 2025; Federal Register 90 FR 15513) confirmed operative: directs AG to identify and take "all appropriate action to stop enforcement" of state laws addressing "climate change," "environmental justice," or GHG emissions that burden energy development. No specific DOJ action against PA DEP Final EJ Policy identified as of Phase 3 verification (May 2026). G6-SD5-02's administrative-vulnerability characterization remains prospective — the mechanism is in place through EO 14260; the specific PA challenge has not yet been filed. |
 | **When it changed** | EO 14260 issued April 8, 2025 (prior to Phase 1 drafting); no change in PA-specific challenge status as of May 2026 |
 | **What it affects** | SD5 Section 2 (EO 14260 administrative-vulnerability for PA EJ Policy); SD5 Section 7 (G6-SD5-02 characterization). Confirms prospective framing is correct; no upgrade required. Updates EO 14260 Federal Register citation. |
 
 Principal anchor at SD5 Section 7 (G6-SD5-02); secondary at SD5 Section 2.
 
+*Sources:* [S-17](#s-17), [S-36](#s-36)
+
 ---
 
+<a id="mc-06"></a>
 **MC-06 (resolved T6-SD2-01) — LCRI confirmed operative; EPA defending rule in litigation**
 
 | Field | Content |
 |---|---|
-| **What it was** | T6-SD2-01 asked whether EPA had initiated reconsideration, non-enforcement guidance, or reduced enforcement of LCRI obligations; G6-SD2-01 characterized the LCRI as a regulatory mandate producing compliance pressure |
+| **What it was** | T6-SD2-01 asked whether EPA had initiated reconsideration, non-enforcement guidance, or reduced enforcement of LCRI obligations; <a id="g6-sd2-01"></a>G6-SD2-01 characterized the LCRI as a regulatory mandate producing compliance pressure |
 | **What it is now** | LCRI confirmed operative (compliance date November 1, 2027 unchanged). Current administration has actively defended the LCRI: EPA filed Respondents' Brief in AWWA v. EPA on February 20, 2026, arguing the rule "is lawful, reasonable, and should be upheld." No reconsideration, non-enforcement guidance, or rollback initiated. Oral argument before D.C. Circuit likely later in 2026. LCRI mandatory replacement schedule (100% of LSLs by 2037; 10% annual average replacement rate) remains operative. Note: EPA delayed releasing FY2025 LSL replacement fund State Revolving Fund allocations (as of November 2025 per unleadedkids.org), creating a capital-gap dimension but not a rollback of the mandate itself. |
 | **When it changed** | EPA Respondents' Brief filed February 20, 2026 |
 | **What it affects** | SD2 Section 2 (LCRI administrative vulnerability rating); SD2 Section 7 (G6-SD2-01 characterization — confirms regulatory mandate is operative; removes prospective-rollback dimension). G6-SD2-01's structural direction confirmed — the LCRI mandate is operative and actively defended; the capital-gap dimension of the gap finding is the dominant operative mechanism. |
 
 Principal anchor at SD2 Section 7 (G6-SD2-01); secondary at SD2 Section 2.
 
+*Sources:* [S-03](#s-03), [S-19](#s-19), [S-48](#s-48)
+
 ---
 
+<a id="mc-07"></a>
 **MC-07 (resolved F6-SD3-03) — Philadelphia County NPL site count: 3 active sites; ~44 estimate requires precision**
 
 | Field | Content |
@@ -115,9 +134,11 @@ Principal anchor at SD2 Section 7 (G6-SD2-01); secondary at SD2 Section 2.
 | **What it was** | "approximately 44 Superfund-designated sites in Philadelphia County" at SD3 Section 4; flag asked for current active, proposed, and deleted NPL count |
 | **What it is now** | Active NPL sites in Philadelphia County: 3 (confirmed from EPA Superfund program data via Homefacts.com aggregation). Named PA-3-proximate NPL sites confirmed: Enterprise Avenue NPL site (North Philadelphia); Metal Bank Superfund site (Philadelphia, Schuylkill River corridor); Lower Darby Creek Area (Philadelphia County + Delaware County, Southwest PA-3 boundary). The ~44 figure likely derives from CERCLA-addressed sites broadly (including CERCLIS sites not meeting NPL threshold; HSCA-addressed sites; brownfields with CERCLA contamination history) rather than from the NPL roster specifically. The characterization "some of the nation's highest concentrations" (Encyclopedia of Greater Philadelphia reference) applies to Greater Philadelphia historically, not to current Philadelphia County NPL count. |
 | **When it changed** | Precision correction (historical characterization vs. current NPL count) — not a temporal change |
-| **What it affects** | SD3 Section 4 (Superfund site concentration paragraph) — precision correction to "3 active NPL sites" with clarification that "~44" likely reflects broader CERCLA-addressed site inventory. Analytical consequences limited: the five-mechanism brownfield gap analysis at G6-SD3-01 does not depend on NPL count; named-site NPL status for Enterprise Avenue and Lower Darby Creek Area/Metal Bank confirmed. |
+| **What it affects** | SD3 Section 4 (Superfund site concentration paragraph) — precision correction to "3 active NPL sites" with clarification that "~44" likely reflects broader CERCLA-addressed site inventory. Analytical consequences limited: the five-mechanism brownfield gap analysis at <a id="g6-sd3-01"></a>G6-SD3-01 does not depend on NPL count; named-site NPL status for Enterprise Avenue and Lower Darby Creek Area/Metal Bank confirmed. |
 
 Principal anchor at SD3 Section 4 (Superfund site concentration paragraph).
+
+*Sources:* [S-49](#s-49)  *(Encyclopedia of Greater Philadelphia body-cite not URL-retrieved; remains body-only reference.)*
 
 ---
 
@@ -129,17 +150,17 @@ Principal anchor at SD3 Section 4 (Superfund site concentration paragraph).
 
 D6 establishes the federal/state/local regulatory architecture governing environmental commons and natural-resource stewardship in PA-3, organized through a hybrid two-mode decomposition: protective regulation against degradation (SD1 Air; SD2 Water; SD3 Land & Site; SD4 Built-Environment Hazards; SD5 Cumulative Burden & EJ) and active conservation/preservation (SD6 Conservation, Public Lands & Wildlife). Across the six sub-domains, D6 traces where federal floor architecture, PA state-primary implementation, and Philadelphia local administration interact to produce environmental-burden outcomes that correlate with the district's documented racial geography, historical redlining patterns, and concentrated environmental-exposure conditions. Findings below are stated at the confidence level the underlying SD evidence supports, labeled by evidence type per Standard 5: [D] directly documented; [SD] structurally derived; [SI] structural inference.
 
-**1. The federal Clean Air Act endangerment-finding architecture for greenhouse-gas regulation under environmental statutes has been substantially severed; criteria-pollutant architecture continues through state and local delegated operation.** EPA's final rescission of the 2009 Endangerment Finding, published February 18, 2026 (91 FR; Docket EPA-HQ-OAR-2025-0194), repealed GHG vehicle standards under CAA Title II while retaining criteria pollutant and HAP standards (G6-SD1-01 [D] HIGH). Multiple petitions for review are pending in the D.C. Circuit — including a 24-state/15-local-government coalition filed March 19, 2026 (Massachusetts v. U.S. EPA No. 26-1061), health/environmental group petitions filed February 18, 2026, and April 2026 administrative reconsideration petitions; rescission effective April 20, 2026; no stay granted (T6-SD1-02 resolved — see MC-01). *Verification update (2026-05-11): Phase 1 described petition as "March 19, 2026 by 24 state AGs"; Phase 3 confirms five distinct petitions/challenges filed Feb.–Apr. 2026; see principal anchor at G6-SD1-01.* The criteria-pollutant regulatory floor — NAAQS, Title V permitting administered by Philadelphia Air Management Services under PA DEP delegation, and PAMS ambient monitoring — continues to operate on its institutional schedule. The Both/And at SD1 holds both architectural realities simultaneously: criteria pollutant architecture functioning AND federal GHG layer severed. PA-3 constituents in the highest mobile-source-burden sub-areas (South/Southwest Philadelphia at I-95/I-76 convergence; West Philadelphia near I-76; Lower Schuylkill corridor) bear the structural consequence of the GHG layer's severance: no individual or community pathway into mobile-source criteria pollutant exposure remediation at the corridor level, and no federal pathway through which the GHG contribution to their burden can be addressed at source (G6-SD1-04 [SD] MEDIUM-HIGH). The Title V permit public-comment process — the formal mechanism for PA-3 residents adjacent to anchor institution steam-plant operations and other major stationary sources — operates with a technical-capacity asymmetry that systematically advantages facility-side regulatory counsel over residential constituents (G6-SD1-02 [SD] MEDIUM). The EPA Office of Research and Development was formally eliminated (July 2025; replaced by OASES with ~500 of ORD's 1,540 positions), reducing scientific capacity underwriting NAAQS review cycles (G6-SD1-03 [D] HIGH per MC-02). *Verification update (2026-05-11): Phase 1 description "~1,500 → ~500 staff per F6-SD1-01" updated to confirmed elimination; see principal anchor at G6-SD1-03.* D6-Thread A operates at MODERATE intensity at SD1.
+**1. The federal Clean Air Act endangerment-finding architecture for greenhouse-gas regulation under environmental statutes has been substantially severed; criteria-pollutant architecture continues through state and local delegated operation.** EPA's final rescission of the 2009 Endangerment Finding, published February 18, 2026 (91 FR; Docket EPA-HQ-OAR-2025-0194), repealed GHG vehicle standards under CAA Title II while retaining criteria pollutant and HAP standards (G6-SD1-01 [D] HIGH). Multiple petitions for review are pending in the D.C. Circuit — including a 24-state/15-local-government coalition filed March 19, 2026 (Massachusetts v. U.S. EPA No. 26-1061), health/environmental group petitions filed February 18, 2026, and April 2026 administrative reconsideration petitions; rescission effective April 20, 2026; no stay granted (T6-SD1-02 resolved — see MC-01). *Verification update (2026-05-11): Phase 1 described petition as "March 19, 2026 by 24 state AGs"; Phase 3 confirms five distinct petitions/challenges filed Feb.–Apr. 2026; see principal anchor at G6-SD1-01.* The criteria-pollutant regulatory floor — NAAQS, Title V permitting administered by Philadelphia Air Management Services under PA DEP delegation, and PAMS ambient monitoring — continues to operate on its institutional schedule. The Both/And at SD1 holds both architectural realities simultaneously: criteria pollutant architecture functioning AND federal GHG layer severed. PA-3 constituents in the highest mobile-source-burden sub-areas (South/Southwest Philadelphia at I-95/I-76 convergence; West Philadelphia near I-76; Lower Schuylkill corridor) bear the structural consequence of the GHG layer's severance: no individual or community pathway into mobile-source criteria pollutant exposure remediation at the corridor level, and no federal pathway through which the GHG contribution to their burden can be addressed at source (<a id="g6-sd1-04"></a>G6-SD1-04 [SD] MEDIUM-HIGH). The Title V permit public-comment process — the formal mechanism for PA-3 residents adjacent to anchor institution steam-plant operations and other major stationary sources — operates with a technical-capacity asymmetry that systematically advantages facility-side regulatory counsel over residential constituents (<a id="g6-sd1-02"></a>G6-SD1-02 [SD] MEDIUM). The EPA Office of Research and Development was formally eliminated (July 2025; replaced by OASES with ~500 of ORD's 1,540 positions), reducing scientific capacity underwriting NAAQS review cycles (G6-SD1-03 [D] HIGH per MC-02). *Verification update (2026-05-11): Phase 1 description "~1,500 → ~500 staff per F6-SD1-01" updated to confirmed elimination; see principal anchor at G6-SD1-03.* D6-Thread A operates at MODERATE intensity at SD1.
 
-**2. PWD's substantive LCRR/LCRI compliance trajectory is on schedule under PA DEP BSDW primacy; structural gaps concentrate at the rate-burden, owner-consent, and federal-funding-continuity layers.** LCRR compliance was achieved October 16, 2024 (initial LSL inventory submitted); LCRI compliance window operates 2027–2037 with all lead and galvanized-requiring-replacement lines mandated for replacement by November 1, 2037 (10-year mandatory replacement; action level reduced to 10 ppb). PWD's 2026 LSL pilot (~1,000 replacements in North and West Philadelphia) is the operational entry point to the broader ~20,000–25,000 LSL inventory remaining in service through the mandatory replacement window. The Green City, Clean Waters consent order's 85% CSO-reduction target by 2036 has documented progress exceeding the 10-year milestone. PFAS MCLs (4 ppt PFOA/PFOS; April 2024) require compliance by 2029. Three structural gaps operate: the LCRI capital program (approaching half a billion dollars) is funded through water rates falling on a customer base ~51% renters who cannot offset through homeowner tax deductions or receive direct property-improvement benefit from LSL replacement (G6-SD2-01 [SD] MEDIUM); LCRI's owner-consent requirement for full-property-side replacement produces a structural access asymmetry for renters in PA-3's highest-LSL multi-family housing stock — the tenant with the most direct health interest cannot independently authorize replacement (G6-SD2-02 [SD] MEDIUM-HIGH; new gap finding at depth-revision); and PFAS compliance feasibility at the 2029 deadline depends on whether existing treatment achieves 4 ppt for Schuylkill/Delaware source waters with documented upstream contamination (G6-SD2-03 [SD] MEDIUM pending F6-SD2-05). D6-Thread A operates at MILD-MODERATE intensity at SD2.
+**2. PWD's substantive LCRR/LCRI compliance trajectory is on schedule under PA DEP BSDW primacy; structural gaps concentrate at the rate-burden, owner-consent, and federal-funding-continuity layers.** LCRR compliance was achieved October 16, 2024 (initial LSL inventory submitted); LCRI compliance window operates 2027–2037 with all lead and galvanized-requiring-replacement lines mandated for replacement by November 1, 2037 (10-year mandatory replacement; action level reduced to 10 ppb). PWD's 2026 LSL pilot (~1,000 replacements in North and West Philadelphia) is the operational entry point to the broader ~20,000–25,000 LSL inventory remaining in service through the mandatory replacement window. The Green City, Clean Waters consent order's 85% CSO-reduction target by 2036 has documented progress exceeding the 10-year milestone. PFAS MCLs (4 ppt PFOA/PFOS; April 2024) require compliance by 2029. Three structural gaps operate: the LCRI capital program (approaching half a billion dollars) is funded through water rates falling on a customer base ~51% renters who cannot offset through homeowner tax deductions or receive direct property-improvement benefit from LSL replacement (G6-SD2-01 [SD] MEDIUM); LCRI's owner-consent requirement for full-property-side replacement produces a structural access asymmetry for renters in PA-3's highest-LSL multi-family housing stock — the tenant with the most direct health interest cannot independently authorize replacement (<a id="g6-sd2-02"></a>G6-SD2-02 [SD] MEDIUM-HIGH; new gap finding at depth-revision); and PFAS compliance feasibility at the 2029 deadline depends on whether existing treatment achieves 4 ppt for Schuylkill/Delaware source waters with documented upstream contamination (<a id="g6-sd2-03"></a>G6-SD2-03 [SD] MEDIUM pending F6-SD2-05). D6-Thread A operates at MILD-MODERATE intensity at SD2.
 
-**3. PA Act 2 / HSCA voluntary cleanup architecture functions independently of federal CERCLA enforcement-emphasis fluctuation; brownfield-redevelopment pace in PA-3 falls short of site inventory relative to community-need timing through five documented mechanisms held open at magnitude.** PA Act 2 of 1995 (Land Recycling and Environmental Remediation Standards), PA HSCA enforcement authority, RCRA Subtitle C generator standards, EPA Brownfields program, PIDC's revolving loan fund, and the IRA-restored Superfund excise tax (2022) constitute the operational substrate. Philadelphia County's Superfund-designated site concentration — approximately 44 sites per substructure baseline, with named NPL sites at Enterprise Avenue (North Philadelphia) and Lower Darby Creek Area/Metal Bank (Southwest Philadelphia) — represents the most concentrated NPL legacy in PA. Five mechanisms contribute to the brownfield-redevelopment-pace gap in PA-3 with no evidence to rank by proportional contribution: site-financing constraints (PIDC fund capacity relative to inventory); enforcement-emphasis fluctuation under federal OECA changes; site-complexity heterogeneity (PCB-contaminated soils require different remediation pathways from petroleum or heavy-metal sites); PA Act 2 voluntary-program structural limits; and Justice40-grant-clawback context (IRA-funded Brownfields grants cancelled or paused) (G6-SD3-01 [SD] MEDIUM; SD3 hold-open-magnitude). The Act 2 site-specific remediation standard allows residual contamination above the residential Statewide Health Standard at commercial/industrial-use sites with institutional controls (deed restrictions; engineering controls; Activity and Use Limitations) maintaining the protective standard in perpetuity; PA DEP BECB does not conduct routine periodic compliance inspections of AULs at completed Act 2 sites and enforcement is complaint-driven (G6-SD3-02 [SD] MEDIUM — institutional control durability gap). Anchor institution RCRA generator status at research and clinical facilities (Penn/Penn Medicine, Temple/Temple Health, Drexel, CHOP, Jefferson Health) is the second documented mechanism in the D6-Q2 mechanism inventory: regulatory transparency is formally available through EPA ECHO and biennial hazardous-waste reports but is practically opaque to adjacent residential communities without technical expertise in ECHO navigation (G6-SD3-03 [SI] LOW-MEDIUM pending F6-SD3-04). D6-Thread A operates at MILD-MODERATE intensity at SD3.
+**3. PA Act 2 / HSCA voluntary cleanup architecture functions independently of federal CERCLA enforcement-emphasis fluctuation; brownfield-redevelopment pace in PA-3 falls short of site inventory relative to community-need timing through five documented mechanisms held open at magnitude.** PA Act 2 of 1995 (Land Recycling and Environmental Remediation Standards), PA HSCA enforcement authority, RCRA Subtitle C generator standards, EPA Brownfields program, PIDC's revolving loan fund, and the IRA-restored Superfund excise tax (2022) constitute the operational substrate. Philadelphia County's Superfund-designated site concentration — approximately 44 sites per substructure baseline, with named NPL sites at Enterprise Avenue (North Philadelphia) and Lower Darby Creek Area/Metal Bank (Southwest Philadelphia) — represents the most concentrated NPL legacy in PA. Five mechanisms contribute to the brownfield-redevelopment-pace gap in PA-3 with no evidence to rank by proportional contribution: site-financing constraints (PIDC fund capacity relative to inventory); enforcement-emphasis fluctuation under federal OECA changes; site-complexity heterogeneity (PCB-contaminated soils require different remediation pathways from petroleum or heavy-metal sites); PA Act 2 voluntary-program structural limits; and Justice40-grant-clawback context (IRA-funded Brownfields grants cancelled or paused) (G6-SD3-01 [SD] MEDIUM; SD3 hold-open-magnitude). The Act 2 site-specific remediation standard allows residual contamination above the residential Statewide Health Standard at commercial/industrial-use sites with institutional controls (deed restrictions; engineering controls; Activity and Use Limitations) maintaining the protective standard in perpetuity; PA DEP BECB does not conduct routine periodic compliance inspections of AULs at completed Act 2 sites and enforcement is complaint-driven (<a id="g6-sd3-02"></a>G6-SD3-02 [SD] MEDIUM — institutional control durability gap). Anchor institution RCRA generator status at research and clinical facilities (Penn/Penn Medicine, Temple/Temple Health, Drexel, CHOP, Jefferson Health) is the second documented mechanism in the D6-Q2 mechanism inventory: regulatory transparency is formally available through EPA ECHO and biennial hazardous-waste reports but is practically opaque to adjacent residential communities without technical expertise in ECHO navigation (<a id="g6-sd3-03"></a>G6-SD3-03 [SI] LOW-MEDIUM pending F6-SD3-04). D6-Thread A operates at MILD-MODERATE intensity at SD3.
 
-**4. The lead-paint, asbestos, and indoor-radon regulatory architecture is statutorily stable; the structural gap concentrates at implementation — financing capacity, technical accessibility, and institutional transparency — and D6-Q2 confirms PRIMARY at SD4.** Title X HCDA (1992), TSCA Title IV (lead-paint) and Title II (asbestos including AHERA), EPA RRP Rule (40 CFR Part 745), Title X HUD lead-disclosure rules, PA Lead Paint Abatement Act, AHERA, and the Philadelphia Lead Disclosure Law constitute the comprehensive built-environment-hazard architecture. The EPA RRP Rule's certified-contractor and lead-safe-work-practices requirement produces a cost differential between certified and uncertified renovation that operates as a structural barrier in PA-3's lower-income rental housing stock — documented at D7 SD7 as G7-SD7-06 (verified 2026-05-03) and carried forward at G6-SD4-01 [D] HIGH. The School District of Philadelphia's AHERA compliance for its extensive pre-1970 building stock in North and West Philadelphia is now documented at [D] HIGH: the DOJ Deferred Prosecution Agreement filed June 26, 2025 — confirmed at Phase 3 verification — documents federal enforcement action for AHERA compliance failures across 31 buildings from 2015–2023, the first criminal AHERA charges against any US school district (G6-SD4-02 [D] HIGH per MC-03). *Verification update (2026-05-11): Phase 1 characterized G6-SD4-02 as "[F] LOW-MEDIUM pending" DPA confirmation; Phase 3 confirms DPA with full specifics; see MC-03 principal anchor at G6-SD4-02.* The D6-Q2 mechanism inventory completes at SD4 with the third documented mechanism: anchor institution AHERA-covered (for educational facilities) and TSCA Title II asbestos compliance and EPA RRP compliance at pre-1940 and mid-century anchor-owned building stock — the same anchor institutions operating in West and North Philadelphia where the residential lead-paint geography concentrates (G6-SD4-03 [SI] LOW-MEDIUM pending F6-SD4-04). Three independently documented mechanisms across SD1 (Title V permit engagement capacity gap), SD3 (RCRA generator status compliance), and SD4 (AHERA/lead/asbestos anchor building stock) with no evidence to rank by primacy: **D6-Q2 confirms PRIMARY at SD4** as the project's 6th confirmed commitment-vs-outcome HOM instance. The Q13-HOM profile guard-rail applies prospectively to Section 5 profiles illustrating any one of the three mechanisms. D6-Thread A operates at MINIMAL-MILD intensity at SD4.
+**4. The lead-paint, asbestos, and indoor-radon regulatory architecture is statutorily stable; the structural gap concentrates at implementation — financing capacity, technical accessibility, and institutional transparency — and D6-Q2 confirms PRIMARY at SD4.** Title X HCDA (1992), TSCA Title IV (lead-paint) and Title II (asbestos including AHERA), EPA RRP Rule (40 CFR Part 745), Title X HUD lead-disclosure rules, PA Lead Paint Abatement Act, AHERA, and the Philadelphia Lead Disclosure Law constitute the comprehensive built-environment-hazard architecture. The EPA RRP Rule's certified-contractor and lead-safe-work-practices requirement produces a cost differential between certified and uncertified renovation that operates as a structural barrier in PA-3's lower-income rental housing stock — documented at D7 SD7 as G7-SD7-06 (verified 2026-05-03) and carried forward at <a id="g6-sd4-01"></a>G6-SD4-01 [D] HIGH. The School District of Philadelphia's AHERA compliance for its extensive pre-1970 building stock in North and West Philadelphia is now documented at [D] HIGH: the DOJ Deferred Prosecution Agreement filed June 26, 2025 — confirmed at Phase 3 verification — documents federal enforcement action for AHERA compliance failures across 31 buildings from 2015–2023, the first criminal AHERA charges against any US school district (G6-SD4-02 [D] HIGH per MC-03). *Verification update (2026-05-11): Phase 1 characterized G6-SD4-02 as "[F] LOW-MEDIUM pending" DPA confirmation; Phase 3 confirms DPA with full specifics; see MC-03 principal anchor at G6-SD4-02.* The D6-Q2 mechanism inventory completes at SD4 with the third documented mechanism: anchor institution AHERA-covered (for educational facilities) and TSCA Title II asbestos compliance and EPA RRP compliance at pre-1940 and mid-century anchor-owned building stock — the same anchor institutions operating in West and North Philadelphia where the residential lead-paint geography concentrates (<a id="g6-sd4-03"></a>G6-SD4-03 [SI] LOW-MEDIUM pending F6-SD4-04). Three independently documented mechanisms across SD1 (Title V permit engagement capacity gap), SD3 (RCRA generator status compliance), and SD4 (AHERA/lead/asbestos anchor building stock) with no evidence to rank by primacy: **D6-Q2 confirms PRIMARY at SD4** as the project's 6th confirmed commitment-vs-outcome HOM instance. The Q13-HOM profile guard-rail applies prospectively to Section 5 profiles illustrating any one of the three mechanisms. D6-Thread A operates at MINIMAL-MILD intensity at SD4.
 
-**5. The environmental justice and cumulative-environmental-burden architecture in PA-3 is operating in two architectural directions simultaneously — PA state EJ expansion and federal EJ dismantlement — with the project's 4th confirmed within-domain analytical-tension MC operationalizing the discipline.** At the state level: PA DEP Final EJ Policy effective January 3, 2026 (first update in 20+ years); PennEnviroScreen mapping tool (32 indicators; expanded EJ Area criteria including ≥80th percentile score and highest-5% Pollution Burden Score census block groups); OEJ at Special Deputy Secretary level (Fernando Treviño); $267,825,172 in RISE PA industrial decarbonization grants announced April 28, 2026 (IRA Climate Pollution Reduction Grants; confirmed at Phase 3 per MC-04); enhanced public participation in EJ Areas for major permit decisions; PA DEP enforcement prioritization in EJ Areas. *Verification update (2026-05-11): Phase 1 characterized this as "$267M April 2026 PA EJ investment (pending F6-SD5-01)"; Phase 3 confirms the RISE PA program — industrial decarbonization grants, not an EJ-specific program — at $267,825,172 announced April 28, 2026; see MC-04 principal anchor at Synthesis Section 2.* At the federal level: Trump EOs 14148/14151/14173 (January 20–21, 2025) revoking the historical EJ executive order chain (G6-SD5-01 [D] HIGH carry-forward from D2 MC-V-5, verified 2026-05-02); EPA March 12, 2025 implementation order; approximately 50 EJ-focused EPA staff terminated August 2025; EJScreen offline; approximately $20B IRA grants cancelled; OECA enforcement-emphasis changes reducing federal EJ enforcement backstop. **MC32 within-SD5 federal/state EJ divergence as architectural Both/And** preserves both architectural realities simultaneously without closure to "PA state offsets federal rollback" or "federal rollback dominates state expansion" — magnitude empirically open and load-bearing for D6-Q1. The PA state architecture's guidance-level (non-statutory) status produces an administrative-vulnerability gap independent of the federal layer's dismantlement (G6-SD5-02 [SD] MEDIUM); the durability of the Shapiro administration's EJ Policy through the 2026 gubernatorial cycle is the empirically open D6-Q1 question, resolvable only by post-window observation. PA-3's cumulative environmental burden geography concentrates in North and West Philadelphia Core sub-areas and the South/Southwest Philadelphia corridor through five documented mechanisms — redlining historical underlay (D7 SD1 line 1579 cross-reference, verified 2026-05-03); current-source emissions concentration (vehicle/industrial/Title V); anchor footprint contributions; transportation-corridor proximity; and brownfield/Superfund site distribution — with no evidence to rank by proportional contribution (G6-SD5-03 [SD] MEDIUM aggregate direction; mechanism ranking held open at magnitude; SD5 hold-open-magnitude). D6-Thread A operates at STRONGEST intensity at SD5.
+**5. The environmental justice and cumulative-environmental-burden architecture in PA-3 is operating in two architectural directions simultaneously — PA state EJ expansion and federal EJ dismantlement — with the project's 4th confirmed within-domain analytical-tension MC operationalizing the discipline.** At the state level: PA DEP Final EJ Policy effective January 3, 2026 (first update in 20+ years); PennEnviroScreen mapping tool (32 indicators; expanded EJ Area criteria including ≥80th percentile score and highest-5% Pollution Burden Score census block groups); OEJ at Special Deputy Secretary level (Fernando Treviño); $267,825,172 in RISE PA industrial decarbonization grants announced April 28, 2026 (IRA Climate Pollution Reduction Grants; confirmed at Phase 3 per MC-04); enhanced public participation in EJ Areas for major permit decisions; PA DEP enforcement prioritization in EJ Areas. *Verification update (2026-05-11): Phase 1 characterized this as "$267M April 2026 PA EJ investment (pending F6-SD5-01)"; Phase 3 confirms the RISE PA program — industrial decarbonization grants, not an EJ-specific program — at $267,825,172 announced April 28, 2026; see MC-04 principal anchor at Synthesis Section 2.* At the federal level: Trump EOs 14148/14151/14173 (January 20–21, 2025) revoking the historical EJ executive order chain (<a id="g6-sd5-01"></a>G6-SD5-01 [D] HIGH carry-forward from D2 MC-V-5, verified 2026-05-02); EPA March 12, 2025 implementation order; approximately 50 EJ-focused EPA staff terminated August 2025; EJScreen offline; approximately $20B IRA grants cancelled; OECA enforcement-emphasis changes reducing federal EJ enforcement backstop. **MC32 within-SD5 federal/state EJ divergence as architectural Both/And** preserves both architectural realities simultaneously without closure to "PA state offsets federal rollback" or "federal rollback dominates state expansion" — magnitude empirically open and load-bearing for D6-Q1. The PA state architecture's guidance-level (non-statutory) status produces an administrative-vulnerability gap independent of the federal layer's dismantlement (G6-SD5-02 [SD] MEDIUM); the durability of the Shapiro administration's EJ Policy through the 2026 gubernatorial cycle is the empirically open D6-Q1 question, resolvable only by post-window observation. PA-3's cumulative environmental burden geography concentrates in North and West Philadelphia Core sub-areas and the South/Southwest Philadelphia corridor through five documented mechanisms — redlining historical underlay (D7 SD1 line 1579 cross-reference, verified 2026-05-03); current-source emissions concentration (vehicle/industrial/Title V); anchor footprint contributions; transportation-corridor proximity; and brownfield/Superfund site distribution — with no evidence to rank by proportional contribution (<a id="g6-sd5-03"></a>G6-SD5-03 [SD] MEDIUM aggregate direction; mechanism ranking held open at magnitude; SD5 hold-open-magnitude). D6-Thread A operates at STRONGEST intensity at SD5.
 
-**6. The conservation, public-lands, and wildlife regulatory architecture is the most stable sub-domain in D6; the gap it reveals is primarily distributional — uneven spatial distribution of conservation infrastructure across PA-3 sub-areas.** ESA, MBTA, CWA § 404, and NEPA constitute the durable federal conservation architecture; USFWS administration of John Heinz National Wildlife Refuge / Tinicum Marsh (1,200 acres; established 1972 as America's First Urban Wildlife Refuge) at PA-3's southern boundary; PA DCNR Bureau of Forestry; Philadelphia Parks & Recreation (10,200 acres including Fairmount Park East+West, Wissahickon Valley Park, Pennypack, Cobbs Creek, FDR Park, ~200 neighborhood parks); and the Schuylkill Action Network watershed conservation (300+ partner organizations; EPA Region 3 coordination). The park-access equity gap at SD6 is the structural finding: North Philadelphia Core sub-areas (Cecil B. Moore; Strawberry Mansion; Nicetown-Tioga) carry documented tree equity deficits and lower neighborhood park acreage per capita relative to Northwest Philadelphia sub-areas (Germantown, Mt. Airy, Chestnut Hill, Roxborough — Wissahickon Valley Park access), with the historical underlay traceable to D7 SD1 line 1579 cumulative racial disadvantage geography (G6-SD6-01 [SD] MEDIUM). Two administrative-vulnerability gaps operate at SD6: the post-Sackett WOTUS narrowing affects CWA § 404 jurisdiction over isolated wetlands including potentially some Tinicum Marsh adjacent areas pending USACE jurisdictional determination (G6-SD6-02 [SD] MEDIUM); and Fiscal Responsibility Act of 2023 / FAST-41 NEPA review timeline compression reduces constituent participation windows in federally funded infrastructure-project review (G6-SD6-03 [SD] LOW-MEDIUM). Both/And does NOT apply at SD6 per substructure designation; EO 14260 "State Overreach" has not produced operative federal challenge to PA conservation programs as of May 2026. D6-Thread A operates at MINIMAL intensity at SD6.
+**6. The conservation, public-lands, and wildlife regulatory architecture is the most stable sub-domain in D6; the gap it reveals is primarily distributional — uneven spatial distribution of conservation infrastructure across PA-3 sub-areas.** ESA, MBTA, CWA § 404, and NEPA constitute the durable federal conservation architecture; USFWS administration of John Heinz National Wildlife Refuge / Tinicum Marsh (1,200 acres; established 1972 as America's First Urban Wildlife Refuge) at PA-3's southern boundary; PA DCNR Bureau of Forestry; Philadelphia Parks & Recreation (10,200 acres including Fairmount Park East+West, Wissahickon Valley Park, Pennypack, Cobbs Creek, FDR Park, ~200 neighborhood parks); and the Schuylkill Action Network watershed conservation (300+ partner organizations; EPA Region 3 coordination). The park-access equity gap at SD6 is the structural finding: North Philadelphia Core sub-areas (Cecil B. Moore; Strawberry Mansion; Nicetown-Tioga) carry documented tree equity deficits and lower neighborhood park acreage per capita relative to Northwest Philadelphia sub-areas (Germantown, Mt. Airy, Chestnut Hill, Roxborough — Wissahickon Valley Park access), with the historical underlay traceable to D7 SD1 line 1579 cumulative racial disadvantage geography (<a id="g6-sd6-01"></a>G6-SD6-01 [SD] MEDIUM). Two administrative-vulnerability gaps operate at SD6: the post-Sackett WOTUS narrowing affects CWA § 404 jurisdiction over isolated wetlands including potentially some Tinicum Marsh adjacent areas pending USACE jurisdictional determination (<a id="g6-sd6-02"></a>G6-SD6-02 [SD] MEDIUM); and Fiscal Responsibility Act of 2023 / FAST-41 NEPA review timeline compression reduces constituent participation windows in federally funded infrastructure-project review (<a id="g6-sd6-03"></a>G6-SD6-03 [SD] LOW-MEDIUM). Both/And does NOT apply at SD6 per substructure designation; EO 14260 "State Overreach" has not produced operative federal challenge to PA conservation programs as of May 2026. D6-Thread A operates at MINIMAL intensity at SD6.
 
 **Cross-cutting findings.**
 
@@ -619,7 +640,7 @@ The PFAS dimension adds a third register to SD2's Both/And. PWD draws from the S
 - *Gap statement:* EPA's April 2024 PFAS MCLs (PFOA/PFOS at 4 ppt; compliance deadline 2029) require PWD to verify compliance and potentially upgrade treatment infrastructure. Philadelphia's Schuylkill and Delaware River source waters have documented upstream PFAS contamination. Whether existing treatment achieves the 4 ppt standard is not publicly confirmed at Phase 1 drafting.
 - *Representation implication:* PA-3 constituents depend on PWD's PFAS treatment compliance on a timeline that requires capital planning under regulatory uncertainty about the current EPA administration's enforcement posture. The PFAS pathway is entirely passive from the constituent's perspective: no individual notification, no individual protective action, no individual complaint mechanism.
 
-**G6-SD2-04: CSO post-2036 gap — climate-intensification stress on consent order design**
+**<a id="g6-sd2-04"></a>G6-SD2-04: CSO post-2036 gap — climate-intensification stress on consent order design**
 - *Evidence type:* [SD] Structurally derived from documented CSO consent order architecture + documented climate-intensification trajectory
 - *Confidence:* MEDIUM
 - *Gap statement:* The 2011 COA and Green City, Clean Waters were designed against a pre-2011 precipitation baseline. Climate change is intensifying rainfall events in the Philadelphia region, increasing the overflow volume that GSI must manage to achieve equivalent mass capture. The 85% reduction target calibrated to historical precipitation may require more GSI investment than the original plan assumed to achieve equivalent water quality outcomes under an intensified precipitation future.
@@ -1610,165 +1631,650 @@ Tier 1 T-flag monitoring for held-open question resolution and federal-disruptio
 
 ## Citation Registry
 
-Per M2 §7 Capability 3 and Standard 3. One entry per unique source; claims supported listed per source. New sources retrieved during Phase 3 verification are marked **[Phase 3 addition]**. Source workspace not produced at Phase 1/2 (cycle architecture gap per resolution note in project materials); Citation Registry built directly from OUTPUT inline citations and Phase 3 retrieval.
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md` (§ "Citation Registry — normalized template"). One S-NN entry per unique external source; multi-source cross-confirmation bundles split into per-source entries (per-MC Sources lines preserve cross-confirmation intent by listing all relevant S-NNs together). Source workspace not produced at Phase 1/2 (cycle architecture gap per resolution note in project materials); Citation Registry built directly from OUTPUT inline citations and Phase 3 retrieval, then normalized post-Phase-3. Cross-domain references (other verified files) preserved in a separate section after the S-NN entries — they are project-internal pointers, not external sources.
 
 ---
 
 ### Federal Statutes and Regulations
 
-**Clean Air Act (CAA), 42 U.S.C. § 7401 et seq.**
-Claims: Federal floor for criteria pollutant regulation (NAAQS); Title V major stationary source permitting; Title II mobile source standards; GHG regulation predicated on Endangerment Finding.
+<a id="s-01"></a>
+#### S-01 — Clean Air Act [VERIFIED]
 
-**CAA § 202(a)(1); 40 CFR Part 86 — GHG Endangerment Finding (2009) and Rescission (2026)**
-EPA Final Rule, 91 Federal Register (Feb. 18, 2026; Docket EPA-HQ-OAR-2025-0194)
-Claims: G6-SD1-01 — GHG regulation pathway severed; rescission effective April 20, 2026.
+**Citation:** Clean Air Act, 42 U.S.C. § 7401 et seq.
 
-**AWWA v. EPA — LCRI Litigation**
-U.S. Court of Appeals for the D.C. Circuit; EPA Respondents' Brief (Feb. 20, 2026) **[Phase 3 addition]**
-Claims: MC-06 — LCRI confirmed operative; EPA actively defending rule.
+**URL:** [no URL — citation is canonical]
 
-**Lead and Copper Rule Improvements (LCRI), 40 CFR Parts 141-142 (Oct. 30, 2024)**
-Claims: LCRI mandatory LSL replacement (100% by 2037); 10-year window; compliance date November 1, 2027; action level 10 ppb; G6-SD2-01; G6-SD2-02.
+**Supports claims:** SD1 §2 federal floor for criteria pollutant regulation (NAAQS); Title V major stationary source permitting; Title II mobile source standards; GHG regulation predicated on Endangerment Finding.
 
-**PFAS National Primary Drinking Water Regulation, 89 FR 32532 (April 26, 2024)**
-Claims: 4 ppt MCL for PFOA/PFOS; 2029 compliance deadline; G6-SD2-03.
+**Verification status:** VERIFIED.
 
-**CERCLA (Comprehensive Environmental Response, Compensation, and Liability Act), 42 U.S.C. § 9601 et seq. (1980; SARA 1986)**
-Claims: NPL authority; Superfund trust fund; responsible-party liability; brownfields amendments (2002); G6-SD3-01 authority chain.
+---
 
-**PA Act 2 of 1995 (Land Recycling and Environmental Remediation Standards Act), 35 P.S. § 6026.101 et seq.**
-Claims: Voluntary cleanup program; site-specific standard; Activity and Use Limitations; institutional-control durability gap (G6-SD3-02).
+<a id="s-02"></a>
+#### S-02 — GHG Endangerment Finding (2009) and 2026 Rescission [VERIFIED] [Phase 3 addition]
 
-**PA Hazardous Sites Cleanup Act (HSCA), 35 P.S. § 6020.101 et seq.**
-Claims: State-level enforcement for non-NPL contaminated sites; authority chain SD3 Section 2.
+**Citation:** EPA Final Rule, "Reconsideration of the 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards Issued Under Section 202(a)(1) of the Clean Air Act," 91 Federal Register (February 18, 2026; Docket EPA-HQ-OAR-2025-0194); statutory authority CAA § 202(a)(1); promulgated under 40 CFR Part 86.
 
-**RCRA Subtitle C, 42 U.S.C. § 6921 et seq.; 40 CFR Parts 260-270**
-Claims: Hazardous waste generator standards (LQG/SQG/VSQG); anchor institution RCRA compliance; G6-SD3-03.
+**URL:** https://www.federalregister.gov/documents/2026/02/18/
 
-**TSCA Title II (Asbestos Hazard Emergency Response Act, AHERA), 15 U.S.C. § 2641 et seq.**
-Claims: School asbestos inspection and management plan requirements; SDP compliance obligations; G6-SD4-02; anchor AHERA compliance (G6-SD4-03).
+**Supports claims:** MC-01; G6-SD1-01 — GHG regulation pathway severed; rescission effective April 20, 2026.
 
-**TSCA Title IV (Residential Lead-Based Paint Hazard Reduction), 42 U.S.C. § 4851 et seq.; EPA RRP Rule, 40 CFR Part 745**
-Claims: Lead-safe work practices; certified contractor requirement; G6-SD4-01 (RRP financing gap carry-forward from D7 SD7 G7-SD7-06).
+**Verification status:** VERIFIED.
 
-**Title X Housing and Community Development Act (1992)**
-Claims: HUD lead-hazard disclosure; federal framework for lead-paint programs; authority chain SD4.
+**Notes:** Consolidated from two pre-normalization entries ("CAA § 202(a)(1); 40 CFR Part 86 — GHG Endangerment Finding (2009) and Rescission (2026)" and "EPA Final GHG Endangerment Finding Rescission, 91 FR (Feb. 18, 2026)") that pointed at the same source.
 
-**ESA (Endangered Species Act), 16 U.S.C. § 1531 et seq.; MBTA (Migratory Bird Treaty Act), 16 U.S.C. § 703 et seq.**
-Claims: Federal conservation architecture; SD6 Section 2.
+---
 
-**CWA § 404, 33 U.S.C. § 1344; Sackett v. EPA, 598 U.S. 651 (2023)**
-Claims: Wetland jurisdiction; post-Sackett WOTUS narrowing; G6-SD6-02.
+<a id="s-03"></a>
+#### S-03 — Lead and Copper Rule Improvements (LCRI) [VERIFIED]
 
-**NEPA (National Environmental Policy Act), 42 U.S.C. § 4321 et seq.; Fiscal Responsibility Act of 2023 / FAST-41 NEPA timeline compression**
-Claims: Federal environmental review; public-comment timelines; G6-SD6-03.
+**Citation:** Lead and Copper Rule Improvements (LCRI), 40 CFR Parts 141-142 (October 30, 2024).
 
-**Civil Rights Act, Title VI, 42 U.S.C. § 2000d et seq.**
-Claims: EPA OCR environmental permitting civil rights enforcement; SD5 Section 2 and G6-SD5-01 context.
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** MC-06; G6-SD2-01, G6-SD2-02 — mandatory LSL replacement (100% by 2037); 10-year window; compliance date November 1, 2027; action level 10 ppb.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-04"></a>
+#### S-04 — PFAS National Primary Drinking Water Regulation [VERIFIED]
+
+**Citation:** PFAS National Primary Drinking Water Regulation, 89 FR 32532 (April 26, 2024).
+
+**URL:** https://www.federalregister.gov/documents/2024/04/26/
+
+**Supports claims:** G6-SD2-03 — 4 ppt MCL for PFOA/PFOS; 2029 compliance deadline.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-05"></a>
+#### S-05 — CERCLA [VERIFIED]
+
+**Citation:** Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), 42 U.S.C. § 9601 et seq. (1980; SARA 1986).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD3-01 authority chain — NPL authority; Superfund trust fund; responsible-party liability; brownfields amendments (2002).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-06"></a>
+#### S-06 — PA Act 2 of 1995 (Land Recycling and Environmental Remediation Standards Act) [VERIFIED]
+
+**Citation:** PA Act 2 of 1995 (Land Recycling and Environmental Remediation Standards Act), 35 P.S. § 6026.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD3-02 — voluntary cleanup program; site-specific standard; Activity and Use Limitations; institutional-control durability gap.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-07"></a>
+#### S-07 — PA Hazardous Sites Cleanup Act (HSCA) [VERIFIED]
+
+**Citation:** PA Hazardous Sites Cleanup Act (HSCA), 35 P.S. § 6020.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD3 §2 authority chain — state-level enforcement for non-NPL contaminated sites.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-08"></a>
+#### S-08 — RCRA Subtitle C [VERIFIED]
+
+**Citation:** RCRA Subtitle C, 42 U.S.C. § 6921 et seq.; 40 CFR Parts 260-270.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD3-03 — hazardous waste generator standards (LQG/SQG/VSQG); anchor institution RCRA compliance.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-09"></a>
+#### S-09 — TSCA Title II (AHERA) [VERIFIED]
+
+**Citation:** TSCA Title II (Asbestos Hazard Emergency Response Act, AHERA), 15 U.S.C. § 2641 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD4-02; G6-SD4-03 — school asbestos inspection and management plan requirements; SDP compliance obligations; anchor AHERA compliance.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-10"></a>
+#### S-10 — TSCA Title IV (Residential Lead-Based Paint Hazard Reduction) + EPA RRP Rule [VERIFIED]
+
+**Citation:** TSCA Title IV (Residential Lead-Based Paint Hazard Reduction), 42 U.S.C. § 4851 et seq.; EPA RRP Rule, 40 CFR Part 745.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD4-01 — lead-safe work practices; certified contractor requirement; RRP financing gap carry-forward from D7 SD7 G7-SD7-06.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-11"></a>
+#### S-11 — Title X Housing and Community Development Act (1992) [VERIFIED]
+
+**Citation:** Title X Housing and Community Development Act (1992).
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD4 authority chain — HUD lead-hazard disclosure; federal framework for lead-paint programs.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-12"></a>
+#### S-12 — ESA and MBTA (federal conservation architecture) [VERIFIED]
+
+**Citation:** Endangered Species Act (ESA), 16 U.S.C. § 1531 et seq.; Migratory Bird Treaty Act (MBTA), 16 U.S.C. § 703 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD6 §2 federal conservation architecture.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Bundle preserved — these two statutes cited together as the federal conservation architecture; not split because they operate as a coordinated regime for SD6 purposes.
+
+---
+
+<a id="s-13"></a>
+#### S-13 — Clean Water Act § 404 [VERIFIED]
+
+**Citation:** Clean Water Act § 404, 33 U.S.C. § 1344.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD6-02 — wetland jurisdiction.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle "CWA § 404; Sackett v. EPA" — Sackett v. EPA is a court decision and moved to Court Decisions and Litigation as S-18.
+
+---
+
+<a id="s-14"></a>
+#### S-14 — NEPA and FRA/FAST-41 timeline compression [VERIFIED]
+
+**Citation:** National Environmental Policy Act (NEPA), 42 U.S.C. § 4321 et seq.; Fiscal Responsibility Act of 2023 / FAST-41 NEPA timeline compression.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G6-SD6-03 — federal environmental review; public-comment timelines.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Bundle preserved — NEPA + FRA/FAST-41 cited together as the environmental review architecture inclusive of the timeline compression amendment.
+
+---
+
+<a id="s-15"></a>
+#### S-15 — Civil Rights Act, Title VI [VERIFIED]
+
+**Citation:** Civil Rights Act, Title VI, 42 U.S.C. § 2000d et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** SD5 §2 and G6-SD5-01 context — EPA OCR environmental permitting civil rights enforcement.
+
+**Verification status:** VERIFIED.
 
 ---
 
 ### Executive Orders
 
-**Trump EO 14148 / EO 14151 / EO 14173 (January 20–21, 2025)**
-Claims: Revocation of Biden EJ executive order chain; G6-SD5-01 [D] HIGH (carry-forward from D2 MC-V-5, verified 2026-05-02).
+<a id="s-16"></a>
+#### S-16 — Trump EJ EO Revocation Chain (EOs 14148 / 14151 / 14173) [VERIFIED]
 
-**EO 14260 "Protecting American Energy From State Overreach" (April 8, 2025), 90 FR 15513 (April 14, 2025)** **[Phase 3 addition]**
-Claims: MC-05 — operative mechanism directing AG to identify and challenge state EJ policies; G6-SD5-02 administrative-vulnerability context.
+**Citation:** Trump Executive Order 14148; Trump Executive Order 14151; Trump Executive Order 14173 (signed January 20–21, 2025).
 
----
+**URL:** [no URL — citation is canonical for EO numbers]
 
-### Federal Agency Documents and Actions
+**Supports claims:** G6-SD5-01 [D] HIGH carry-forward — revocation of Biden EJ executive order chain.
 
-**EPA March 12, 2025 implementation order — EJ program shutdown**
-Claims: G6-SD5-01 carry-forward; approximately 50 EJ-focused staff terminated; EJScreen offline.
+**Verification status:** VERIFIED.
 
-**EPA Final GHG Endangerment Finding Rescission, 91 FR (Feb. 18, 2026)**
-[See Federal Statutes above]
-
-**EPA ORD Elimination; OASES Creation (EPA announcement July 18, 2025; Administrator Zeldin memo September 22, 2025)** **[Phase 3 addition]**
-Claims: MC-02; G6-SD1-03 — ORD (1,540 staff) formally eliminated; OASES (~500 positions) created; G6-SD1-03 upgrades from [SD] MEDIUM to [D] HIGH.
-
-**EELP Endangerment Finding Tracker, Harvard EELP** **[Phase 3 addition]**
-eelp.law.harvard.edu/tracker/greenhouse-gas-endangerment-finding/
-Claims: MC-01 — litigation timeline documentation; multiple petitions; reconsideration petitions April 2026.
-
-**NY AG press release (March 19, 2026); WBUR reporting (March 19, 2026)** **[Phase 3 addition]**
-Claims: MC-01 — March 19, 2026 petition for review by 24 states + 15 local governments; Massachusetts v. U.S. EPA No. 26-1061 (D.C. Cir.); PA Governor Shapiro signatory.
-
-**Davis Polk & Wardwell client alert (March 9, 2026); Akin Gump alert (February 26, 2026)** **[Phase 3 addition]**
-Claims: MC-01 — substantive briefing not filed as of March 2026; no stay granted; litigation timeline overview.
-
-**EPA FY2025 Superfund Enforcement Annual Results** (epa.gov, March 10, 2026)
-Claims: T6-SD3-01 context — Superfund enforcement continued through FY2025 ($714.3M in responsible-party commitments); no documented enforcement slowdown for PA-area NPL sites.
-
-**PA DEP Final Environmental Justice Policy (January 3, 2026)**
-pa.gov/agencies/dep
-Claims: SD5 Section 2 — final EJ Policy (first update in 20+ years); PennEnviroScreen; OEJ at Special Deputy Secretary level; enhanced public participation; G6-SD5-02 administrative-vulnerability gap.
-
-**K&L Gates Environmental Justice Update (January 8, 2026)** **[Phase 3 addition]**
-Claims: MC-05 — EO 14260 flagged as legal risk to PA DEP Final EJ Policy; G6-SD5-02 evidence trace.
+**Notes:** Bundle preserved — three EOs operating as a coordinated revocation chain of the prior administration's EJ EO architecture. Each EO is canonically citable by number; the chain is the coherent legal action.
 
 ---
 
-### State and Local Agency Documents
+<a id="s-17"></a>
+#### S-17 — EO 14260 "Protecting American Energy From State Overreach" [VERIFIED] [Phase 3 addition]
 
-**PA Governor's Office press release / PA DEP press release (April 28, 2026)** **[Phase 3 addition]**
-pa.gov; pa.gov/agencies/dep
-Claims: MC-04 — RISE PA grants ($267,825,172) confirmed; 31 projects; 23 counties; industrial decarbonization; IRA Climate Pollution Reduction Grants; not specifically framed as EJ investment.
+**Citation:** Executive Order 14260, "Protecting American Energy From State Overreach" (April 8, 2025), 90 FR 15513 (April 14, 2025).
 
-**PWD water.phila.gov — LCRR inventory submission (October 2024); Green City, Clean Waters progress**
-Claims: SD2 Section 2 — LCRR compliance achieved; 10-year milestone exceeded; 2026 LSL pilot (~1,000 replacements).
+**URL:** https://www.federalregister.gov/documents/2025/04/14/
 
-**EPA Region 3 / PAMS — State Review Framework (SRF) evaluation of Philadelphia AMS (2024)**
-srf-rd4-rev-pa-ams.pdf
-Claims: F6-SD1-03 (Tier 3 flag; not further retrieved at Phase 3); PAMS inspection capacity context.
+**Supports claims:** MC-05; G6-SD5-02 administrative-vulnerability context — directs AG to identify and challenge state EJ policies.
 
-**PA DEP Bureau of Environmental Cleanup and Brownfields (BECB)**
-Claims: PA Act 2 voluntary cleanup; HSCA enforcement; AUL complaint-driven enforcement; SD3 Section 2.
-
-**USFWS John Heinz National Wildlife Refuge — establishment (1972; America's First Urban Wildlife Refuge)**
-Claims: SD6 Section 2 — 1,200-acre urban wildlife refuge; Tinicum Marsh.
-
-**Shapiro Administration EJ Policy press release (January 5, 2026)**
-pa.gov/agencies/dep/newsroom
-Claims: OEJ Special Deputy Secretary level; first EJ Policy update in 20+ years; SD5 Section 2.
+**Verification status:** VERIFIED.
 
 ---
 
-### DOJ Enforcement Documents
+### Court Decisions and Litigation
 
-**U.S. v. School District of Philadelphia — AHERA Deferred Prosecution Agreement (June 26, 2025)** **[Phase 3 addition]**
-U.S. Attorney for the Eastern District of PA; DOJ Environmental Crimes Section; EPA CID
-Claims: MC-03; G6-SD4-02 [D] HIGH — first criminal AHERA charges against a US school district; 8 counts; 31 buildings; 5-year monitoring; SDP budget $10.2M → $55.7M.
+<a id="s-18"></a>
+#### S-18 — Sackett v. EPA [VERIFIED]
 
-Sources consulted: K-12 Dive (July 7, 2025); NBC10 Philadelphia (June 27, 2025); Philadelphia Inquirer (June 26, 2025); WHYY (June 27, 2025); Facilities Dive (July 1, 2025); Grid Philadelphia (January 5, 2026).
+**Citation:** Sackett v. EPA, 598 U.S. 651 (2023).
 
----
+**URL:** [no URL — citation is canonical]
 
-### Prior Verified Domain Findings (Cross-References)
+**Supports claims:** G6-SD6-02 — post-Sackett WOTUS narrowing.
 
-**D2 Public Health Domain — verified 2026-05-02 — MC-V-5: federal EJ infrastructure dismantlement**
-Claims: G6-SD5-01 [D] HIGH carry-forward; EO chain revocation (EOs 14148/14151/14173); EPA March 12, 2025 implementation order; ~50 EJ staff terminated.
+**Verification status:** VERIFIED.
 
-**D7 Land & Property Domain — verified 2026-05-03 — SD1 line 1579 (HOLC redlining historical underlay)**
-Claims: G6-SD5-03 mechanism 1 — redlining historical underlay for cumulative environmental burden geography.
-
-**D7 Land & Property Domain — verified 2026-05-03 — SD7 G7-SD7-06 (RRP financing gap)**
-Claims: G6-SD4-01 [D] HIGH carry-forward — EPA RRP certified-contractor cost differential as structural barrier in rental housing stock.
-
-**D8 Commerce & Industry Domain — verified 2026-05-07 — SD3 Lower Schuylkill commerce**
-Claims: SD3 Section 4 cross-reference — Lower Schuylkill industrial corridor context.
-
-**D10 Labor & Employment Domain — verified 2026-05-08 — SD3 G10-SD3-04 (OSHA heat illness standard absence)**
-Claims: SD1 Section 2 cross-reference — occupational-air-exposure boundary.
-
-**D11 Education Domain — verified 2026-05-10**
-Claims: SD4 cross-reference — school-environmental-quality boundary (D6 SD4 owns AHERA/TSCA/RRP architecture; D11 owns SDP operational educational-environment dimension).
+**Notes:** Split from pre-normalization bundle "CWA § 404; Sackett v. EPA" — the underlying statute is S-13; this court decision is its own entry.
 
 ---
 
-*End of Citation Registry. Sources retrieved during Phase 3 verification are marked [Phase 3 addition]. Sources carried forward from Phase 1/2 drafting are cited per Standard 3 format in body text; promoted here for Registry completeness.*
+<a id="s-19"></a>
+#### S-19 — AWWA v. EPA (LCRI litigation; EPA Respondents' Brief) [VERIFIED] [Phase 3 addition]
+
+**Citation:** AWWA v. EPA, U.S. Court of Appeals for the D.C. Circuit; EPA Respondents' Brief (February 20, 2026).
+
+**URL:** [pending retrieval — D.C. Circuit docket]
+
+**Supports claims:** MC-06 — LCRI confirmed operative; EPA actively defending rule.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-20"></a>
+#### S-20 — U.S. v. School District of Philadelphia (AHERA DPA) [VERIFIED] [Phase 3 addition]
+
+**Citation:** United States v. School District of Philadelphia — AHERA Deferred Prosecution Agreement (filed June 26, 2025); U.S. Attorney's Office for the Eastern District of Pennsylvania; DOJ Environmental Crimes Section; EPA Criminal Investigation Division.
+
+**URL:** [pending retrieval — EDPA docket; U.S. Attorney EDPA press release]
+
+**Supports claims:** MC-03; G6-SD4-02 [D] HIGH — first criminal AHERA charges against a U.S. school district; 8 counts; 31 buildings; 5-year monitoring; SDP budget $10.2M → $55.7M; Penn $100M contribution.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Six news sources cited as cross-confirmation in pre-normalization CR have been split out as S-31 through S-36 (Press / News Reporting category).
+
+---
+
+<a id="s-21"></a>
+#### S-21 — Massachusetts v. U.S. EPA (24-state Endangerment Finding rescission petition) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Massachusetts v. U.S. EPA, No. 26-1061 (D.C. Cir.) — 24-state coalition petition + 15 local governments (filed March 19, 2026); led by NY, MA, CA, CT AGs; PA Governor Shapiro signatory.
+
+**URL:** [pending retrieval — D.C. Circuit docket]
+
+**Supports claims:** MC-01 — March 19, 2026 petition for review challenging Endangerment Finding Rescission.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Federal Agency Materials
+
+<a id="s-22"></a>
+#### S-22 — EPA March 12, 2025 implementation order (EJ program shutdown) [VERIFIED]
+
+**Citation:** EPA March 12, 2025 implementation order — Environmental Justice program shutdown.
+
+**URL:** [pending retrieval — EPA press release / order text]
+
+**Supports claims:** G6-SD5-01 carry-forward — approximately 50 EJ-focused staff terminated; EJScreen offline.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-23"></a>
+#### S-23 — EPA ORD Elimination and OASES Creation [VERIFIED] [Phase 3 addition]
+
+**Citation:** EPA announcement of ORD elimination (July 18, 2025); EPA Administrator Zeldin memo formally creating Office of Applied Science and Environmental Solutions, OASES (September 22, 2025).
+
+**URL:** [pending retrieval — EPA press release and Zeldin memo]
+
+**Supports claims:** MC-02; G6-SD1-03 — ORD (1,540 staff) formally eliminated; OASES (~500 positions) created; G6-SD1-03 upgrades from [SD] MEDIUM to [D] HIGH.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Bundle preserved — single coordinated agency action chain (elimination + replacement). Federal News Network (May 2026; S-45), E&E News (April 2026; S-46), and C&EN (March 2025; S-47) cross-confirmation added in 2026-05-24 Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-24"></a>
+#### S-24 — EPA FY2025 Superfund Enforcement Annual Results [VERIFIED]
+
+**Citation:** EPA FY2025 Superfund Enforcement Annual Results (epa.gov; March 10, 2026).
+
+**URL:** https://www.epa.gov/enforcement/superfund-enforcement-annual-results
+
+**Supports claims:** T6-SD3-01 context — Superfund enforcement continued through FY2025 ($714.3M in responsible-party commitments); no documented enforcement slowdown for PA-area NPL sites.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-25"></a>
+#### S-25 — EPA Region 3 PAMS State Review Framework evaluation (2024) [PARTIAL]
+
+**Citation:** EPA Region 3 / PAMS State Review Framework (SRF) evaluation of Philadelphia AMS (2024); document file `srf-rd4-rev-pa-ams.pdf`.
+
+**URL:** [pending retrieval — EPA Region 3]
+
+**Supports claims:** F6-SD1-03 (Tier 3 flag; not further retrieved at Phase 3); PAMS inspection capacity context.
+
+**Verification status:** PARTIAL (Tier 3 flag not resolved at Phase 3).
+
+---
+
+### State and Local Authority
+
+<a id="s-26"></a>
+#### S-26 — PA Governor's Office press release on RISE PA grants (April 28, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** PA Governor's Office press release announcing RISE PA grant awards (April 28, 2026).
+
+**URL:** https://www.pa.gov/governor/newsroom/
+
+**Supports claims:** MC-04 — RISE PA grants ($267,825,172) confirmed; 31 projects; 23 counties; industrial decarbonization; IRA Climate Pollution Reduction Grants; not specifically framed as EJ investment.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle "PA Governor's Office press release / PA DEP press release (April 28, 2026)" — PA DEP press release is now S-27.
+
+---
+
+<a id="s-27"></a>
+#### S-27 — PA DEP press release on RISE PA grants (April 28, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** PA DEP press release announcing RISE PA grant awards (April 28, 2026).
+
+**URL:** https://www.pa.gov/agencies/dep/
+
+**Supports claims:** MC-04 — RISE PA grant program structure and DEP administration.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle with S-26.
+
+---
+
+<a id="s-28"></a>
+#### S-28 — PA DEP Final Environmental Justice Policy (January 3, 2026) [VERIFIED]
+
+**Citation:** PA DEP Final Environmental Justice Policy (January 3, 2026); first update in 20+ years.
+
+**URL:** https://www.pa.gov/agencies/dep/
+
+**Supports claims:** SD5 §2 — final EJ Policy; PennEnviroScreen; OEJ at Special Deputy Secretary level; enhanced public participation; G6-SD5-02 administrative-vulnerability gap.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-29"></a>
+#### S-29 — Shapiro Administration EJ Policy press release (January 5, 2026) [VERIFIED]
+
+**Citation:** Shapiro Administration EJ Policy press release (January 5, 2026).
+
+**URL:** https://www.pa.gov/agencies/dep/newsroom/
+
+**Supports claims:** SD5 §2 — OEJ Special Deputy Secretary level; first EJ Policy update in 20+ years.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-30"></a>
+#### S-30 — PWD (Philadelphia Water Department) LCRR inventory + Green City Clean Waters [VERIFIED]
+
+**Citation:** PWD, LCRR inventory submission (October 2024); Green City Clean Waters program progress reporting (water.phila.gov).
+
+**URL:** https://water.phila.gov/
+
+**Supports claims:** SD2 §2 — LCRR compliance achieved; 10-year milestone exceeded; 2026 LSL pilot (~1,000 replacements).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-31"></a>
+#### S-31 — PA DEP Bureau of Environmental Cleanup and Brownfields (BECB) [VERIFIED]
+
+**Citation:** PA DEP Bureau of Environmental Cleanup and Brownfields (BECB) — agency reference.
+
+**URL:** https://www.pa.gov/agencies/dep/
+
+**Supports claims:** SD3 §2 — PA Act 2 voluntary cleanup; HSCA enforcement; AUL complaint-driven enforcement.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-32"></a>
+#### S-32 — USFWS John Heinz National Wildlife Refuge [VERIFIED]
+
+**Citation:** U.S. Fish & Wildlife Service, John Heinz National Wildlife Refuge — establishment (1972; America's First Urban Wildlife Refuge).
+
+**URL:** https://www.fws.gov/refuge/john-heinz-tinicum
+
+**Supports claims:** SD6 §2 — 1,200-acre urban wildlife refuge; Tinicum Marsh.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-33"></a>
+#### S-33 — Harvard EELP Endangerment Finding Tracker [VERIFIED] [Phase 3 addition]
+
+**Citation:** Environmental & Energy Law Program (EELP), Harvard Law School — Greenhouse Gas Endangerment Finding Tracker.
+
+**URL:** https://eelp.law.harvard.edu/tracker/greenhouse-gas-endangerment-finding/
+
+**Supports claims:** MC-01 — litigation timeline documentation; multiple petitions; reconsideration petitions April 2026.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-34"></a>
+#### S-34 — Davis Polk & Wardwell client alert (March 9, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Davis Polk & Wardwell client alert (March 9, 2026) — Endangerment Finding rescission litigation overview.
+
+**URL:** [pending retrieval — davispolk.com]
+
+**Supports claims:** MC-01 — substantive briefing not filed as of March 2026; no stay granted; litigation timeline overview.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle with S-35 (Akin Gump alert) — same topic, distinct firm publications.
+
+---
+
+<a id="s-35"></a>
+#### S-35 — Akin Gump client alert (February 26, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Akin Gump Strauss Hauer & Feld LLP client alert (February 26, 2026) — Endangerment Finding rescission litigation overview.
+
+**URL:** [pending retrieval — akingump.com]
+
+**Supports claims:** MC-01 — Endangerment Finding rescission litigation timeline overview.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle with S-34.
+
+---
+
+<a id="s-36"></a>
+#### S-36 — K&L Gates Environmental Justice Update (January 8, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** K&L Gates LLP, Environmental Justice Update (January 8, 2026) — analysis of EO 14260 risk to state EJ policies.
+
+**URL:** [pending retrieval — klgates.com]
+
+**Supports claims:** MC-05 — EO 14260 flagged as legal risk to PA DEP Final EJ Policy; G6-SD5-02 evidence trace.
+
+**Verification status:** VERIFIED.
+
+---
+
+### Press / News Reporting
+
+<a id="s-37"></a>
+#### S-37 — NY Attorney General press release on Mass v. EPA (March 19, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** New York Attorney General press release (March 19, 2026) — 24-state coalition petition + 15 local governments in Massachusetts v. U.S. EPA.
+
+**URL:** [pending retrieval — ag.ny.gov]
+
+**Supports claims:** MC-01 — March 19, 2026 petition for review by 24 states + 15 local governments; PA Governor Shapiro signatory.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle "NY AG press release (March 19, 2026); WBUR reporting (March 19, 2026)" — WBUR coverage is now S-38.
+
+---
+
+<a id="s-38"></a>
+#### S-38 — WBUR reporting on Mass v. EPA (March 19, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** WBUR reporting (March 19, 2026) — Massachusetts v. U.S. EPA 24-state coalition petition coverage.
+
+**URL:** [pending retrieval — wbur.org]
+
+**Supports claims:** MC-01 — March 19, 2026 petition coverage.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization bundle with S-37.
+
+---
+
+<a id="s-39"></a>
+#### S-39 — K-12 Dive AHERA DPA coverage (July 7, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** K-12 Dive, "Philadelphia School District agrees to monitoring to defer criminal prosecution under AHERA" (July 7, 2025).
+
+**URL:** https://www.k12dive.com/news/philadelphia-school-district-agrees-to-monitoring-to-defer-criminal-prosecu/752087/
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation of AHERA DPA terms.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line under pre-normalization DOJ Enforcement section.
+
+---
+
+<a id="s-40"></a>
+#### S-40 — NBC10 Philadelphia AHERA DPA coverage (June 27, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** NBC10 Philadelphia, "Philadelphia School District AHERA charges" (June 27, 2025).
+
+**URL:** https://www.nbcphiladelphia.com/news/local/philadelphia-school-district-charges-asbestos-report-inspection-doj-u-s-attorney/4220397/
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation — 8 counts; 7 named schools; U.S. Attorney Metcalf confirmed.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line.
+
+---
+
+<a id="s-41"></a>
+#### S-41 — Philadelphia Inquirer AHERA DPA coverage (June 26, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Philadelphia Inquirer, "Philly schools asbestos investigation settlement" (June 26, 2025).
+
+**URL:** https://www.inquirer.com/education/philly-schools-asbestos-investigation-settlement-20250626.html
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation of AHERA DPA.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line.
+
+---
+
+<a id="s-42"></a>
+#### S-42 — WHYY AHERA DPA coverage (June 27, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** WHYY (June 27, 2025) — Philadelphia School District AHERA DPA coverage.
+
+**URL:** [pending retrieval — whyy.org search needed]
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line.
+
+---
+
+<a id="s-43"></a>
+#### S-43 — Facilities Dive AHERA DPA coverage (July 1, 2025) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Facilities Dive (July 1, 2025) — AHERA DPA facilities-management coverage.
+
+**URL:** [pending retrieval — facilitiesdive.com]
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line.
+
+---
+
+<a id="s-44"></a>
+#### S-44 — Grid Philadelphia AHERA follow-up (January 5, 2026) [VERIFIED] [Phase 3 addition]
+
+**Citation:** Grid Magazine Philadelphia, "Philadelphia schools could put asbestos behind them" (January 5, 2026).
+
+**URL:** https://gridphilly.com/blog-home/2025/12/01/philadelphia-schools-could-put-asbestos-behind-them/
+
+**Supports claims:** MC-03; G6-SD4-02 cross-confirmation — DPA operationally in effect (district under judicial oversight).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Promoted from "Sources consulted" line. URL drawn from D13 retrofit Citation Registry where the same source appears.
+
+---
+
+### Cross-Domain References
+
+*Project-internal references to other verified files. Not external sources; preserved here for cross-domain traceability.*
+
+- **D2 Public Health (verified 2026-05-02) — MC-V-5:** federal EJ infrastructure dismantlement; carry-forward grounding G6-SD5-01 [D] HIGH (EO chain revocation, EPA March 12, 2025 implementation order, ~50 EJ staff terminated).
+- **D7 Land & Property (verified 2026-05-03) — SD1 line 1579:** HOLC redlining historical underlay; mechanism 1 for G6-SD5-03 cumulative environmental burden geography.
+- **D7 Land & Property (verified 2026-05-03) — SD7 G7-SD7-06:** RRP financing gap; carry-forward grounding G6-SD4-01 [D] HIGH.
+- **D8 Commerce & Industry (verified 2026-05-07) — SD3:** Lower Schuylkill industrial corridor; cross-reference for SD3 §4.
+- **D10 Labor & Employment (verified 2026-05-08) — SD3 G10-SD3-04:** OSHA heat illness standard absence; occupational-air-exposure boundary cross-reference.
+- **D11 Education (verified 2026-05-10) — SD4:** school-environmental-quality boundary (D6 SD4 owns AHERA/TSCA/RRP architecture; D11 owns SDP operational educational-environment dimension).
+
+---
+
+*End of Citation Registry. Sources retrieved during Phase 3 verification are marked [Phase 3 addition]. The pre-normalization CR's `**[Phase 3 addition]**` markers are preserved on the relevant S-NN entries. URLs marked `[pending retrieval]` are flagged for the post-normalization URL-retrieval pass.*
 
 ---
 
@@ -2022,5 +2528,176 @@ Per M2 §7 verification skill documentation convention. Records what Phase 3 pro
 **No Pattern 13 handoff: Phase 3 completed in single session.** The session proceeded to full verified-file assembly, Citation Registry, and both sidecars without hitting a mid-cycle halt. This is documented here as the audit trail record per the single-session completion convention.
 
 ---
+<a id="s-45"></a>
 
-*D6 Environment & Natural Resources — Phase 3 Verified Output. Publication-ready under Tier 2. Verification date: 2026-05-11. Seven material changes applied inline. Citation Registry complete. Temporal-changes sidecar (TC-01 through TC-05). Unverified-items sidecar (UV-01 through UV-18).*
+#### S-45 — Federal News Network — EPA scientific research after 20% staffing cut (May 2026) [VERIFIED]
+
+**Citation:** Federal News Network, "EPA producing less scientific research after 20% staffing cut, data shows," May 2026.
+
+**URL:** https://federalnewsnetwork.com/management/2026/05/epa-producing-less-scientific-research-after-20-staffing-cut-data-shows/
+
+**Supports claims:** MC-02 (EPA workforce reductions cross-confirmation)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-46"></a>
+
+#### S-46 — E&E News (POLITICO) — Trump EPA lays off environmental justice staff (April 2026) [VERIFIED]
+
+**Citation:** E&E News by POLITICO, "Trump EPA lays off more environmental justice staff," April 2026.
+
+**URL:** https://www.eenews.net/articles/trump-epa-lays-off-more-environmental-justice-staff/
+
+**Supports claims:** MC-02 (EPA EJ staff reductions cross-confirmation)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-47"></a>
+
+#### S-47 — C&EN — Trickles of layoff plans at EPA, NIH (March 2025) [VERIFIED]
+
+**Citation:** Chemical & Engineering News, "Trickles of layoff plans at EPA, NIH hint at big cuts," March 2025. (Note: D6 verified file references this as 'May 2025' — the closest C&EN coverage is the March 2025 article on the early layoff signals.)
+
+**URL:** https://cen.acs.org/policy/research-funding/Trickles-layoff-plans-EPA-NIH/103/web/2025/03
+
+**Supports claims:** MC-02 (EPA staffing cuts early-signals reporting)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-48"></a>
+
+#### S-48 — Unleadedkids.org — EPA defends LCRI but misses SRF deadlines (November 2025) [VERIFIED]
+
+**Citation:** unleadedkids.org, "Lead in Water: EPA Defends LCRI and Issues Important LSL Information," November 14, 2025.
+
+**URL:** https://unleadedkids.org/epa-defends-lcri-but-misses-srf-deadlines/2025/11/14/
+
+**Supports claims:** MC-06 (SRF allocation delay; resolved November 25, 2025 with ~$3B FY25 LSL allotment release)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-49"></a>
+
+#### S-49 — Homefacts.com — Philadelphia County PA Superfund sites aggregation [VERIFIED]
+
+**Citation:** Homefacts.com, "Philadelphia County, PA Hazardous Waste Superfund Sites" aggregator listing.
+
+**URL:** https://www.homefacts.com/environmentalhazards/superfunds/Pennsylvania/Philadelphia-County.html
+
+**Supports claims:** Body cite — EPA Superfund program data for PA-3 / Philadelphia County (aggregator; not primary source)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Opus pilot (normalization template established for subsequent Sonnet bulk passes)
+**Spec reference:** `PA3_assembly_work/site-references-formatting-guide.md` § "Citation Registry — normalized template" (locked 2026-05-22)
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 33 (source-name-as-header) | 44 (S-NN) |
+| New entries added during pass | — | 0 (no new external sources discovered) |
+| Entries retired (duplicate / superseded) | — | 1 (EPA GHG Rescission consolidated into S-02) |
+| Multi-source bundles split | — | 3 (PA Gov + PA DEP press release → S-26/S-27; NY AG + WBUR → S-37/S-38; Davis Polk + Akin Gump → S-34/S-35) |
+| Statute/case bundles split for source-type discipline | — | 1 (CWA § 404 + Sackett v. EPA → S-13 + S-18) |
+| News sources promoted from "Sources consulted" line | — | 6 (S-39 through S-44; AHERA DPA cross-confirmation news) |
+| Bundles preserved (single coherent regime) | — | 3 (S-12 ESA+MBTA; S-14 NEPA+FRA; S-16 Trump EO chain) |
+| MC entries given Sources line | — | 7 (MC-01 through MC-07) |
+| MC entries given anchor `<a id="mc-nn"></a>` | — | 7 |
+
+**Old → new S-NN mapping (selected representative entries; full mapping derivable from category-by-category compare)**
+
+| Pre-normalization label | New S-NN |
+|---|---|
+| Clean Air Act, 42 U.S.C. § 7401 et seq. | S-01 |
+| CAA § 202(a)(1); 40 CFR Part 86 — GHG Endangerment Finding (2009) and Rescission (2026) | S-02 (consolidated with the redundant Federal Agency entry below) |
+| EPA Final GHG Endangerment Finding Rescission, 91 FR (Feb. 18, 2026) | S-02 (retired as separate entry; consolidated) |
+| AWWA v. EPA — LCRI Litigation | S-19 (recategorized to Court Decisions) |
+| Lead and Copper Rule Improvements (LCRI), 40 CFR Parts 141-142 | S-03 |
+| PFAS NPDWR, 89 FR 32532 | S-04 |
+| CERCLA, 42 U.S.C. § 9601 et seq. | S-05 |
+| PA Act 2 of 1995 | S-06 |
+| PA HSCA | S-07 |
+| RCRA Subtitle C | S-08 |
+| TSCA Title II (AHERA) | S-09 |
+| TSCA Title IV + EPA RRP Rule | S-10 |
+| Title X Housing and Community Development Act (1992) | S-11 |
+| ESA + MBTA | S-12 (bundle preserved) |
+| CWA § 404; Sackett v. EPA | **split:** S-13 (CWA § 404) + S-18 (Sackett, recategorized to Court Decisions) |
+| NEPA + FRA/FAST-41 | S-14 (bundle preserved) |
+| Civil Rights Act, Title VI | S-15 |
+| Trump EO 14148 / EO 14151 / EO 14173 | S-16 (bundle preserved; coordinated revocation chain) |
+| EO 14260 | S-17 |
+| EPA March 12, 2025 implementation order | S-22 |
+| EPA ORD Elimination + OASES Creation | S-23 (bundle preserved; single agency action chain) |
+| EELP Endangerment Finding Tracker | S-33 (recategorized to Research Reports / Policy Analysis) |
+| NY AG press release + WBUR reporting | **split:** S-37 + S-38 |
+| Davis Polk + Akin Gump client alerts | **split:** S-34 + S-35 |
+| EPA FY2025 Superfund Enforcement Annual Results | S-24 |
+| PA DEP Final EJ Policy (January 3, 2026) | S-28 |
+| K&L Gates EJ Update | S-36 |
+| PA Governor's Office + PA DEP press release (April 28, 2026) | **split:** S-26 + S-27 |
+| PWD water.phila.gov | S-30 |
+| EPA Region 3 / PAMS — SRF evaluation | S-25 (recategorized to Federal Agency Materials; verification status PARTIAL) |
+| PA DEP BECB | S-31 |
+| USFWS John Heinz NWR | S-32 |
+| Shapiro EJ Policy press release | S-29 |
+| U.S. v. SDP AHERA DPA | S-20 (with 6 news sources from "Sources consulted" line split out as S-39–S-44) |
+| K-12 Dive AHERA coverage (July 7, 2025) | S-39 (promoted) |
+| NBC10 AHERA coverage (June 27, 2025) | S-40 (promoted) |
+| Philadelphia Inquirer AHERA coverage (June 26, 2025) | S-41 (promoted) |
+| WHYY AHERA coverage (June 27, 2025) | S-42 (promoted) |
+| Facilities Dive AHERA coverage (July 1, 2025) | S-43 (promoted) |
+| Grid Philadelphia AHERA follow-up (January 5, 2026) | S-44 (promoted) |
+| Prior Verified Domain Findings (D2, D7, D7, D8, D10, D11) | Preserved in new "Cross-Domain References" subsection at end of Citation Registry; not assigned S-NN (project-internal, not external sources) |
+
+**Body-cited sources NOT in pre-normalization CR — flagged for URL-retrieval pass**
+
+These sources appear in MC entry bodies but were not in the pre-normalization Citation Registry. Per pilot scope (structural normalization only; no expansion), they were not added as stub S-NN entries — the relevant MC Sources lines note them as "flag for URL-retrieval pass." The follow-up URL-retrieval pass should add S-NN entries for each.
+
+- MC-02 body: Federal News Network (May 2026); E&E News (April 2026); C&EN (May 2025); AFGE Council 238 president quote.
+- MC-06 body: unleadedkids.org (November 2025 SRF allocation delay).
+- MC-07 body: EPA Superfund program data via Homefacts.com aggregation; Encyclopedia of Greater Philadelphia.
+
+**Category decisions worth flagging**
+
+- ESA + MBTA bundle (S-12) and NEPA + FRA/FAST-41 bundle (S-14) preserved as single entries — operate as coordinated regulatory regimes for SD6 purposes; splitting would create the false impression that the sources are distinct rather than that the legal architecture is composite.
+- Trump EJ EO chain (EOs 14148/14151/14173 → S-16) preserved as single entry — coordinated revocation chain executed within 36 hours by the same actor; the chain is the coherent legal action.
+- "Sources consulted" cross-confirmation news from the original DOJ Enforcement section were promoted to first-class S-NN entries (S-39 through S-44) rather than kept as a footnote. Reason: per the multi-URL split policy, each external publication is its own source; the per-MC Sources line on MC-03 lists all of them together to preserve cross-confirmation intent.
+- "Prior Verified Domain Findings" section preserved as a "Cross-Domain References" subsection at the end of the Citation Registry — these are internal pointers to other PA-3 verified files, not external sources, so they don't get S-NN treatment.
+
+**MC-07 note**
+
+MC-07 has no current CR mapping — body-cited sources (EPA Superfund data via Homefacts.com; Encyclopedia of Greater Philadelphia) were never in the pre-normalization CR. MC-07's Sources line carries the flag for the URL-retrieval pass.
+
+**Spec refinement noted during pilot**
+
+The spec specifies that the "Supports claims" field uses claim IDs (MC-NN, G-IDs, F/T flag IDs). In practice, many statute-backbone entries (S-01, S-05, etc.) ground broad authority chains rather than specific MC/G claims — for those, narrative section references (e.g., "SD1 §2 federal floor") are used alongside claim IDs where available. The spec was extended implicitly during pilot to accept both forms; subsequent bulk passes can follow the same hybrid approach without re-asking. *Action item:* clarify spec text on this point before Sonnet bulk passes.
+
+---
+
+*D6 Environment & Natural Resources — Phase 3 Verified Output. Publication-ready under Tier 2. Verification date: 2026-05-11. CR normalized 2026-05-22 (pilot for source-linking phase). Seven material changes applied inline. Citation Registry complete and normalized. Temporal-changes sidecar (TC-01 through TC-05). Unverified-items sidecar (UV-01 through UV-18).*

@@ -13,19 +13,129 @@
 
 *Navigation aid to inline corrections per M2 §7 and Standard 11 four-field format. Each entry corresponds to at least one inline edit at the body location(s) it affects (Pattern 12 discipline). Entries added as verification proceeds.*
 
-| MC# | What it was | What it is now | When changed | What it affects |
-|---|---|---|---|---|
-| MC# | What it was | What it is now | When changed | What it affects |
-|---|---|---|---|---|
-| MC-01 | §1071 framed as non-operational under combined litigation stay and CFPB administrative vulnerability; G8-SD1-03 and G8-SD7-03 as contingent gaps | §1071 2026 Final Rule (May 1, 2026): operative narrowed regime; 1,000 origination threshold; MCAs excluded; single compliance date January 1, 2028; MCAs removed from §1071 coverage entirely | May 1, 2026 (CFPB 2026 Final Rule published) | SD1 §2 (Dodd-Frank §1071 entry — PRINCIPAL ANCHOR); SD1 §2 (CFPB agency); SD1 §8 (two locations); SD1 §9 (T8-SD1-01 flag); SD7 §2 (§1071 entry); SD7 §6 (narrative); SD7 §7 (G8-SD7-03); SD7 §9 (T8-SD7-03 flag). Case 2 (multi-location below high-volume): full note at SD1 §2 principal; brief cross-reference notes at all secondary locations. |
-| MC-02 | 8(a) program described as requiring case-by-case demonstration of social disadvantage post-Ultima Services; G8-SD2-03 framed as contingent administrative vulnerability | SBA formal guidance Jan. 22, 2026: program fully race-neutral; racial presumptions permanently eliminated; ~65 admissions in 2025 vs. hundreds historically; 1,000+ participants suspended January 2026. G8-SD2-03 confidence revised HIGH; contingency framing updated to confirmed structural change | January 22, 2026 (SBA formal guidance effective immediately) | SD2 §2 Constitutional Foundation (PRINCIPAL ANCHOR); SD2 §2 SBA Headquarters entry; SD2 §7 G8-SD2-03 gap finding; SD2 §9 T8-SD2-01 flag. Case 2: full note at SD2 §2 CF; secondary notes at other locations. |
-| MC-03 | OEO Disparity Study most recent year and specific disparity ratios designated as unretrieved F-flag (F8-SD3-05); T8-SD3-01 flagged as temporal concern re: Croson currency | Most recent study = FY 2021 Core Disparity Study (January 25, 2023, Econsult Solutions / City of Philadelphia). No FY 2022-2024 study published on phila.gov as of May 2026. Croson constitutional currency concern confirmed live. Specific ratios deferred to UV-01 | January 25, 2023 (FY 2021 study published; no newer study) | SD3 §4 (OEO Disparity Study section). Case 1 (single location). Standard 18 TC-01 sidecar entry. |
-| MC-04 | QOZ program described as TCJA-created and "subject to expiration/extension; the December 2026 deferral deadline creates a temporal inflection point" | OBBBA (P.L. 119-21, July 4, 2025) made QOZ program permanent; new designation round effective January 1, 2027; governors nominate by July 1, 2026; Treasury/IRS finalizing new-round procedures as of April 2026 | July 4, 2025 (OBBBA signed) | SD4 §2 (Tax Cuts and Jobs Act / OBBBA entry — QOZ). Case 1 (single primary location). Standard 18 TC-02. |
-| MC-05 | NMTC described as "appropriations-dependent tax expenditure subject to periodic authorization"; statutory stability MODERATE | OBBBA made NMTC permanent (indefinite statutory authorization); statutory stability revised to HIGH. Competitive allocation scale constraint unchanged. | July 4, 2025 (OBBBA signed) | SD4 §2 (CDFI Fund Act / OBBBA entry — NMTC). Case 1. Standard 18 TC-03. Standard 17: prior authorization-cycle characterization preserved as historical baseline alongside permanence. |
-| MC-06 | CRA 2023 Final Rule described as potentially relevant implementation change; T8-SD7-01 framed as "if expanded assessment area rescinded, G8-SD7-02 requires update" | 2023 CRA Final Rule was stayed (March 2024) and never took effect; agencies issued NPR to formally rescind (July 2025); 1995 CRA regulations remain operative. G8-SD7-02 lending desert finding confirmed structural under 1995 framework | March 29, 2024 (injunction issued); July 16, 2025 (rescission NPR) | SD7 §2 (CRA entry); SD7 §7 G8-SD7-02. Case 2 (two locations): full note at SD7 §2; secondary note at G8-SD7-02. |
-| MC-07 | CDFI Fund appropriations flagged as T8-SD7-02 under 2025-2026 budget pressure; potential funding reduction | FY 2026 Consolidated Appropriations Act (Feb. 3, 2026): CDFI Fund = $324M (level funding). Caveat: ~$298M of FY 2025 appropriation frozen by OMB as of February 2026. Standard 17: FY 2025 ($324M) and FY 2026 ($324M) both preserved as baselines. | February 3, 2026 (FY 2026 appropriations enacted) | SD7 §2 (CDFI Fund Act entry). Case 1. Standard 18 TC-04. Standard 17 both-baselines entry in Citation Registry. |
-| MC-08 | PA LLC ongoing annual-report obligations referenced as formation-barrier component but specific requirements not confirmed (F8-SD1-04) | Act 122 of 2022 (effective January 1, 2025) introduced new PA annual reporting requirement; LLCs must file Annual Report (DSCB:15-146) by September 30 annually; fee $7/year for LLCs. New ongoing compliance burden beginning 2025. | January 1, 2025 (Act 122 effective date) | SD1 §2 (PA LLC Act entry). Case 1. Adds to formation-barrier characterization in G8-SD1-02. |
-| MC-09 | Chernenko/Scharfstein PPP analysis cited without NBER paper number (F8-SD2-03) | NBER Working Paper No. 29748 confirmed (February 2022); published in Journal of Financial Economics vol. 160 (2024). Follow-up paper: NBER WP 31172 (May 2023, with Kaplan and Sarkar) using 2020 SBCS data. | February 2022 (WP 29748 published) | SD2 §7 G8-SD2-04 (evidence type field and citation). Case 1. Citation Registry SRC-029/SRC-030. |
+<a id="mc-01"></a>
+**MC-01 — §1071 Rule narrowed: operative regime from Jan 2028**
+
+| Field | Content |
+|---|---|
+| **What it was** | §1071 framed as non-operational under combined litigation stay and CFPB administrative vulnerability; G8-SD1-03 and G8-SD7-03 as contingent gaps |
+| **What it is now** | §1071 2026 Final Rule (May 1, 2026): operative narrowed regime; 1,000 origination threshold; MCAs excluded; single compliance date January 1, 2028; MCAs removed from §1071 coverage entirely |
+| **When changed** | May 1, 2026 (CFPB 2026 Final Rule published) |
+| **What it affects** | SD1 §2 (Dodd-Frank §1071 entry — PRINCIPAL ANCHOR); SD1 §2 (CFPB agency); SD1 §8 (two locations); SD1 §9 (T8-SD1-01 flag); SD7 §2 (§1071 entry); SD7 §6 (narrative); SD7 §7 (G8-SD7-03); SD7 §9 (T8-SD7-03 flag). Case 2 (multi-location below high-volume): full note at SD1 §2 principal; brief cross-reference notes at all secondary locations. |
+
+*Sources:* [S-01](#s-01), [S-04](#s-04), [S-16](#s-16), [S-17](#s-17)
+
+---
+
+<a id="mc-02"></a>
+**MC-02 — 8(a) program formally race-neutral (Jan 2026)**
+
+| Field | Content |
+|---|---|
+| **What it was** | 8(a) program described as requiring case-by-case demonstration of social disadvantage post-*Ultima Services*; G8-SD2-03 framed as contingent administrative vulnerability |
+| **What it is now** | SBA formal guidance Jan. 22, 2026: program fully race-neutral; racial presumptions permanently eliminated; ~65 admissions in 2025 vs. hundreds historically; 1,000+ participants suspended January 2026. G8-SD2-03 confidence revised HIGH; contingency framing updated to confirmed structural change |
+| **When changed** | January 22, 2026 (SBA formal guidance effective immediately) |
+| **What it affects** | SD2 §2 Constitutional Foundation (PRINCIPAL ANCHOR); SD2 §2 SBA Headquarters entry; SD2 §7 G8-SD2-03 gap finding; SD2 §9 T8-SD2-01 flag. Case 2: full note at SD2 §2 CF; secondary notes at other locations. |
+
+*Sources:* [S-05](#s-05)
+
+---
+
+<a id="mc-03"></a>
+**MC-03 — OEO Disparity Study: FY 2021 most recent confirmed**
+
+| Field | Content |
+|---|---|
+| **What it was** | OEO Disparity Study most recent year and specific disparity ratios designated as unretrieved F-flag (F8-SD3-05); T8-SD3-01 flagged as temporal concern re: *Croson* currency |
+| **What it is now** | Most recent study = FY 2021 Core Disparity Study (January 25, 2023, Econsult Solutions / City of Philadelphia). No FY 2022-2024 study published on phila.gov as of May 2026. *Croson* constitutional currency concern confirmed live. Specific ratios deferred to UV-01 |
+| **When changed** | January 25, 2023 (FY 2021 study published; no newer study) |
+| **What it affects** | SD3 §4 (OEO Disparity Study section). Case 1 (single location). Standard 18 TC-01 sidecar entry. |
+
+*Sources:* [S-08](#s-08), [S-09](#s-09), [S-10](#s-10)
+
+---
+
+<a id="mc-04"></a>
+**MC-04 — QOZ program made permanent by OBBBA**
+
+| Field | Content |
+|---|---|
+| **What it was** | QOZ program described as TCJA-created and "subject to expiration/extension; the December 2026 deferral deadline creates a temporal inflection point" |
+| **What it is now** | OBBBA (P.L. 119-21, July 4, 2025) made QOZ program permanent; new designation round effective January 1, 2027; governors nominate by July 1, 2026; Treasury/IRS finalizing new-round procedures as of April 2026 |
+| **When changed** | July 4, 2025 (OBBBA signed) |
+| **What it affects** | SD4 §2 (Tax Cuts and Jobs Act / OBBBA entry — QOZ). Case 1 (single primary location). Standard 18 TC-02. |
+
+*Sources:* [S-03](#s-03), [S-06](#s-06)
+
+---
+
+<a id="mc-05"></a>
+**MC-05 — NMTC made permanent by OBBBA**
+
+| Field | Content |
+|---|---|
+| **What it was** | NMTC described as "appropriations-dependent tax expenditure subject to periodic authorization"; statutory stability MODERATE |
+| **What it is now** | OBBBA made NMTC permanent (indefinite statutory authorization); statutory stability revised to HIGH. Competitive allocation scale constraint unchanged. |
+| **When changed** | July 4, 2025 (OBBBA signed) |
+| **What it affects** | SD4 §2 (CDFI Fund Act / OBBBA entry — NMTC). Case 1. Standard 18 TC-03. Standard 17: prior authorization-cycle characterization preserved as historical baseline alongside permanence. |
+
+*Sources:* [S-03](#s-03), [S-14](#s-14)
+
+---
+
+<a id="mc-06"></a>
+**MC-06 — CRA 2023 Rule stayed; 1995 framework operative**
+
+| Field | Content |
+|---|---|
+| **What it was** | CRA 2023 Final Rule described as potentially relevant implementation change; T8-SD7-01 framed as "if expanded assessment area rescinded, G8-SD7-02 requires update" |
+| **What it is now** | 2023 CRA Final Rule was stayed (March 2024) and never took effect; agencies issued NPR to formally rescind (July 2025); 1995 CRA regulations remain operative. G8-SD7-02 lending desert finding confirmed structural under 1995 framework |
+| **When changed** | March 29, 2024 (injunction issued); July 16, 2025 (rescission NPR) |
+| **What it affects** | SD7 §2 (CRA entry); SD7 §7 G8-SD7-02. Case 2 (two locations): full note at SD7 §2; secondary note at G8-SD7-02. |
+
+*Sources:* [S-02](#s-02), [S-07](#s-07)
+
+---
+
+<a id="mc-07"></a>
+**MC-07 — CDFI Fund FY 2026 level-funded at $324M**
+
+| Field | Content |
+|---|---|
+| **What it was** | CDFI Fund appropriations flagged as T8-SD7-02 under 2025-2026 budget pressure; potential funding reduction |
+| **What it is now** | FY 2026 Consolidated Appropriations Act (Feb. 3, 2026): CDFI Fund = $324M (level funding). Caveat: ~$298M of FY 2025 appropriation frozen by OMB as of February 2026. Standard 17: FY 2025 ($324M) and FY 2026 ($324M) both preserved as baselines. |
+| **When changed** | February 3, 2026 (FY 2026 appropriations enacted) |
+| **What it affects** | SD7 §2 (CDFI Fund Act entry). Case 1. Standard 18 TC-04. Standard 17 both-baselines entry in Citation Registry. |
+
+*Sources:* [S-15](#s-15)
+
+---
+
+<a id="mc-08"></a>
+**MC-08 — PA LLC annual report requirement effective 2025**
+
+| Field | Content |
+|---|---|
+| **What it was** | PA LLC ongoing annual-report obligations referenced as formation-barrier component but specific requirements not confirmed (F8-SD1-04) |
+| **What it is now** | Act 122 of 2022 (effective January 1, 2025) introduced new PA annual reporting requirement; LLCs must file Annual Report (DSCB:15-146) by September 30 annually; fee $7/year for LLCs. New ongoing compliance burden beginning 2025. |
+| **When changed** | January 1, 2025 (Act 122 effective date) |
+| **What it affects** | SD1 §2 (PA LLC Act entry). Case 1. Adds to formation-barrier characterization in G8-SD1-02. |
+
+*Sources:* [S-11](#s-11)
+
+---
+
+<a id="mc-09"></a>
+**MC-09 — NBER PPP papers confirmed (WP 29748, WP 31172)**
+
+| Field | Content |
+|---|---|
+| **What it was** | Chernenko/Scharfstein PPP analysis cited without NBER paper number (F8-SD2-03) |
+| **What it is now** | NBER Working Paper No. 29748 confirmed (February 2022); published in *Journal of Financial Economics* vol. 160 (2024). Follow-up paper: NBER WP 31172 (May 2023, with Kaplan and Sarkar) using 2020 SBCS data. |
+| **When changed** | February 2022 (WP 29748 published) |
+| **What it affects** | SD2 §7 G8-SD2-04 (evidence type field and citation). Case 1. Citation Registry SRC-029/SRC-030. |
+
+*Sources:* [S-12](#s-12), [S-13](#s-13)
 
 ---
 
@@ -2168,46 +2278,322 @@ The 28 F-flags and 8 T-flags consolidated at synthesis Section 4 in six priority
 
 ---
 
-## Citation Registry (Phase 3 Verification Additions)
+## Citation Registry
 
-*This registry documents sources retrieved or confirmed during Phase 3 verification (2026-05-07), supplementing Phase 1 source workspace. Sources are grouped by flag cluster. Each entry: Source ID | Author/Organization | Date | Title/Description | URL/Location | Claims supported.*
+*Normalized to locked spec 2026-05-22. 17 entries (S-01 through S-17), all sourced from Phase 3 verification additions (formerly SRC-024 through SRC-046). Phase 1 source workspace (SRC-001 through SRC-023) is documented separately in D8_commInd_sources_2026-05-07.md; those sources are not in this file's pre-normalization CR and are catalogued as a gap in the CR Normalization Log below.*
 
-### T-flag Resolution Sources
+### Federal Statutes and Regulations
 
-**SRC-024** | Consumer Financial Protection Bureau | March 30, 2023; October 2, 2025 | Small Business Lending Under the Equal Credit Opportunity Act (Regulation B) — 2023 Final Rule and 2025 compliance date extension | consumerfinance.gov/rules-policy/final-rules/small-business-lending-under-the-equal-credit-opportunity-act-regulation-b/ | §1071 2023 Final Rule existence and compliance extension; T8-SD1-01 resolution; MC-01; TC-05.
+<a id="s-01"></a>
+#### S-01 — CFPB §1071 Final Rule (Regulation B) [VERIFIED]
 
-**SRC-025** | SBA Office of Advocacy | June 2025 | CFPB Extends Compliance Date for the Section 1071 Small Business Lending Rule | advocacy.sba.gov/2025/06/25/ | §1071 June 2025 interim final rule; Tier 1 July 2026 compliance date; TC-05.
+**Citation:** Consumer Financial Protection Bureau, Small Business Lending Under the Equal Credit Opportunity Act (Regulation B), 88 Fed. Reg. 35150 (May 31, 2023) (2023 Final Rule); CFPB, Small Business Lending Under the Equal Credit Opportunity Act (Regulation B) — Compliance Date Extension, Docket CFPB-2025-0040 (October 2, 2025); CFPB, 2026 Final Rule (May 1, 2026)
 
-**SRC-026** | Consumer Financial Services Law Monitor | November 2025; October 2025 | "Section 1071 Redo: CFPB Proposes to Narrow Coverage" and "CFPB Officially Extends Compliance Dates" | consumerfinancialserviceslawmonitor.com | §1071 NPRM November 2025; narrowed scope; CFPB funding crisis; TC-05.
+**URL:** https://www.consumerfinance.gov/rules-policy/final-rules/small-business-lending-under-the-equal-credit-opportunity-act-regulation-b/
 
-**SRC-027** | Consumer Financial Services Law Monitor | May 2026 | "CFPB Issues Final Section 1071 Rule: Narrower Scope, Later Compliance Date" | consumerfinancialserviceslawmonitor.com/2026/05/ | §1071 2026 Final Rule — published May 1, 2026; 1,000 threshold; MCAs excluded; January 2028 compliance; T8-SD1-01 / T8-SD7-03 resolution; MC-01; TC-05.
+**Supports claims:** MC-01; G8-SD1-03, G8-SD7-03; T8-SD1-01, T8-SD7-03 resolution
 
-**SRC-028** | U.S. Small Business Administration | January 22, 2026 | SBA Issues Clarifying Guidance That Race-Based Discrimination Is Not Tolerated in the 8(a) Program | sba.gov/article/2026/01/22/ | 8(a) formal race-neutral guidance; program contraction (~65 admissions 2025); 1,000+ suspended Jan. 2026; T8-SD2-01 resolution; MC-02; TC-06. Supplemented by: Ogletree (Feb. 5, 2026), Holland & Knight (Jan. 23, 2026), Clark Hill (Jan. 26, 2026).
+**Verification status:** VERIFIED
 
-**SRC-029** | Chernenko, Sergey and David S. Scharfstein | February 2022 | "Racial Disparities in the Paycheck Protection Program," NBER Working Paper No. 29748 | nber.org/papers/w29748 | PPP racial gap directional finding — Black-owned restaurants 25% less likely to receive PPP; disparities driven by bank borrowing gaps; G8-SD2-04; F8-SD2-03 resolution; MC-09.
-
-**SRC-030** | Chernenko, Sergey; Nathan Kaplan; Asani Sarkar; David S. Scharfstein | May 2023 | "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?" NBER Working Paper No. 31172 | nber.org/papers/w31172 | PPP racial gap analysis using 2020 SBCS; Black-owned firms 8.9 pp less likely to receive PPP loans; application vs. approval disparities; supplementary citation for G8-SD2-04.
-
-**SRC-031** | City of Philadelphia Office of Economic Opportunity | May 2017 | FY 2016 Annual Disparity Study | phila.gov | Prior OEO Disparity Study baseline; 30.7% M/W/DSBE utilization; 35% overall goal; TC-01 historical vector.
-
-**SRC-034** | Econsult Solutions / City of Philadelphia OEO | January 25, 2023 | FY 2021 Core Disparity Study | phila.gov/media/20230125063507/FY-2021-Disparity-Core-Report-Nov-2022.pdf | Most recent OEO Disparity Study as of Phase 3 verification; Croson constitutional predicate foundation; T8-SD3-01/F8-SD3-05 partial resolution; MC-03; TC-01.
-
-**SRC-035** | City of Philadelphia | May 2026 | OEO Disparity Studies page | phila.gov/documents/office-of-economic-opportunity-disparity-studies/ | Confirms FY 2021 as most recent published study; no FY 2022-2024 study; TC-01.
-
-**SRC-038** | CDFI Fund | April 6, 2026 | Opportunity Zones — OBBBA implementation update | cdfifund.gov/opportunity-zones | QOZ program made permanent by OBBBA; new designation round January 2027; governors nominate by July 1, 2026; Treasury/IRS finalizing procedures; T8-SD4-01 resolution; MC-04; TC-02.
-
-**SRC-040** | Novogradac | November 2025 | NMTC permanence under OBBBA; CDFI Fund shutdown impact | novoco.com | NMTC permanent under OBBBA; CY 2024-2025 double-round announcement delayed; T8-SD4-02 resolution; MC-05; TC-03.
-
-**SRC-042** | NCRC | February 2026 | FY 2026 Budget Deal: Final Funding for HUD, CDFI, SBA | ncrc.org | CDFI Fund FY 2026 = $324M; ~$298M FY 2025 frozen by OMB; T8-SD7-02 resolution; MC-07; TC-04.
-
-**SRC-043** | Office of the Comptroller of the Currency | March 28, 2025 | Agencies Announce Intent to Rescind 2023 Community Reinvestment Act Final Rule | occ.treas.gov/news-issuances/news-releases/2025/nr-ia-2025-26.html | CRA rescission intent announcement; TC-07.
-
-**SRC-044** | OCC / Federal Reserve / FDIC | July 16, 2025 | Community Reinvestment Act: Interagency Notice of Proposed Rulemaking to Rescind and Replace the 2023 CRA Final Rule | occ.gov/news-issuances/bulletins/2025/bulletin-2025-18.html | 2023 CRA Final Rule NPR for rescission; 1995 framework reinstatement; T8-SD7-01 resolution; MC-06; TC-07.
-
-**SRC-045** | One Big Beautiful Bill Act | July 4, 2025 | P.L. 119-21 | congress.gov | QOZ program permanent (IRC 1400Z-1, 1400Z-2); NMTC permanent; T8-SD4-01 and T8-SD4-02 resolution; MC-04 and MC-05; TC-02 and TC-03.
-
-**SRC-046** | Pennsylvania Department of State | 2025 | Annual Reports for Pennsylvania Businesses | pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports | PA LLC annual report requirement (Act 122 of 2022, effective January 1, 2025); $7/year; September 30 deadline for LLCs; F8-SD1-04 resolution; MC-08.
+**Notes:** Covers the 2023 Final Rule, 2025 compliance date extension, and 2026 Final Rule (narrowed scope; 1,000 origination threshold; MCAs excluded; January 1, 2028 compliance date). Formerly SRC-024.
 
 ---
 
-*Citation Registry covers Phase 3 verification sources. Phase 1 source workspace sources (SRC-001 through SRC-023) are in D8_commInd_sources_2026-05-07.md. Combined registry represents full D8 source inventory through Phase 3.*
+<a id="s-02"></a>
+#### S-02 — CRA Rescission NPR (OCC/Fed/FDIC, July 2025) [VERIFIED]
+
+**Citation:** OCC / Federal Reserve / FDIC, Community Reinvestment Act: Interagency Notice of Proposed Rulemaking to Rescind and Replace the 2023 CRA Final Rule (July 16, 2025), OCC Bulletin 2025-18
+
+**URL:** https://www.occ.gov/news-issuances/bulletins/2025/bulletin-2025-18.html
+
+**Supports claims:** MC-06; G8-SD7-01, G8-SD7-02; T8-SD7-01 resolution
+
+**Verification status:** VERIFIED
+
+**Notes:** Formal NPR to rescind 2023 CRA Final Rule and reinstate 1995 CRA framework. Formerly SRC-044.
+
+---
+
+<a id="s-03"></a>
+#### S-03 — One Big Beautiful Bill Act (P.L. 119-21) [VERIFIED]
+
+**Citation:** One Big Beautiful Bill Act of 2025, P.L. 119-21, signed July 4, 2025
+
+**URL:** https://www.congress.gov/bill/119th-congress/house-bill/1
+
+**Supports claims:** MC-04, MC-05; T8-SD4-01, T8-SD4-02 resolution
+
+**Verification status:** VERIFIED
+
+**Notes:** Makes QOZ program permanent (IRC 1400Z-1, 1400Z-2) and NMTC permanent. Formerly SRC-045.
+
+---
+
+### Federal Agency Materials
+
+<a id="s-04"></a>
+#### S-04 — SBA Office of Advocacy — §1071 Compliance Extension (June 2025) [VERIFIED]
+
+**Citation:** U.S. Small Business Administration Office of Advocacy, "CFPB Extends Compliance Date for the Section 1071 Small Business Lending Rule" (June 2025)
+
+**URL:** https://advocacy.sba.gov/2025/06/25/
+
+**Supports claims:** MC-01; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Documents June 2025 interim final rule extending §1071 Tier 1 compliance date to July 2026. Formerly SRC-025.
+
+---
+
+<a id="s-05"></a>
+#### S-05 — SBA Guidance: 8(a) Program Race-Neutral (Jan 2026) [VERIFIED]
+
+**Citation:** U.S. Small Business Administration, "SBA Issues Clarifying Guidance That Race-Based Discrimination Is Not Tolerated in the 8(a) Program" (January 22, 2026)
+
+**URL:** https://www.sba.gov/article/2026/01/22/
+
+**Supports claims:** MC-02; G8-SD2-03; T8-SD2-01 resolution
+
+**Verification status:** VERIFIED
+
+**Notes:** Formally eliminates racial presumptions from 8(a) program. ~65 admissions in 2025; 1,000+ participants suspended January 2026. Supplementary law firm analyses: Ogletree (Feb. 5, 2026), Holland & Knight (Jan. 23, 2026), Clark Hill (Jan. 26, 2026). Formerly SRC-028.
+
+---
+
+<a id="s-06"></a>
+#### S-06 — CDFI Fund — QOZ OBBBA Implementation Update (Apr 2026) [VERIFIED]
+
+**Citation:** CDFI Fund, Opportunity Zones — OBBBA Implementation Update (April 6, 2026)
+
+**URL:** https://www.cdfifund.gov/opportunity-zones
+
+**Supports claims:** MC-04; T8-SD4-01 resolution; TC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Confirms QOZ permanent under OBBBA; new designation round January 2027; governors nominate by July 1, 2026; Treasury/IRS finalizing procedures. Formerly SRC-038.
+
+---
+
+<a id="s-07"></a>
+#### S-07 — OCC — CRA Rescission Intent Announcement (Mar 2025) [VERIFIED]
+
+**Citation:** Office of the Comptroller of the Currency, "Agencies Announce Intent to Rescind 2023 Community Reinvestment Act Final Rule," News Release NR-IA-2025-26 (March 28, 2025)
+
+**URL:** https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-ia-2025-26.html
+
+**Supports claims:** MC-06; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-NPR announcement of rescission intent. The July 2025 NPR (S-02) followed. Formerly SRC-043.
+
+---
+
+### State and Local Authority
+
+<a id="s-08"></a>
+#### S-08 — OEO FY 2016 Annual Disparity Study [VERIFIED]
+
+**Citation:** City of Philadelphia Office of Economic Opportunity, FY 2016 Annual Disparity Study (May 2017)
+
+**URL:** [pending retrieval — Philadelphia OEO FY 2016 disparity study phila.gov]
+
+**Supports claims:** MC-03; TC-01 (historical vector)
+
+**Verification status:** VERIFIED
+
+**Notes:** Prior OEO Disparity Study baseline; 30.7% M/W/DSBE utilization; 35% overall goal. Formerly SRC-031.
+
+---
+
+<a id="s-09"></a>
+#### S-09 — OEO FY 2021 Core Disparity Study [VERIFIED]
+
+**Citation:** Econsult Solutions / City of Philadelphia Office of Economic Opportunity, FY 2021 Core Disparity Study (November 2022; published January 25, 2023)
+
+**URL:** https://www.phila.gov/media/20230125063507/FY-2021-Disparity-Core-Report-Nov-2022.pdf
+
+**Supports claims:** MC-03; G8-SD3-04; T8-SD3-01, F8-SD3-05 partial resolution; TC-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Most recent OEO Disparity Study as of Phase 3 verification (May 2026). *Croson* constitutional currency concern confirmed live — no FY 2022-2024 study published. Specific disparity ratios deferred to UV-01. Formerly SRC-034.
+
+---
+
+<a id="s-10"></a>
+#### S-10 — City of Philadelphia OEO Disparity Studies Page (May 2026) [VERIFIED]
+
+**Citation:** City of Philadelphia, Office of Economic Opportunity Disparity Studies (page updated May 2026)
+
+**URL:** https://www.phila.gov/documents/office-of-economic-opportunity-disparity-studies/
+
+**Supports claims:** MC-03; TC-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Confirms FY 2021 as most recent published study; no FY 2022-2024 study as of May 2026. Formerly SRC-035.
+
+---
+
+<a id="s-11"></a>
+#### S-11 — PA DOS Annual Reports for Pennsylvania Businesses [VERIFIED]
+
+**Citation:** Pennsylvania Department of State, Annual Reports for Pennsylvania Businesses (2025; Act 122 of 2022, effective January 1, 2025)
+
+**URL:** https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports
+
+**Supports claims:** MC-08; G8-SD1-02; F8-SD1-04 resolution
+
+**Verification status:** VERIFIED
+
+**Notes:** PA LLC annual report requirement (DSCB:15-146); $7/year; September 30 deadline; first required for entities formed before 2025 by September 30, 2025. Formerly SRC-046.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-12"></a>
+#### S-12 — Chernenko & Scharfstein, NBER WP 29748 (Feb 2022) [VERIFIED]
+
+**Citation:** Chernenko, Sergey and David S. Scharfstein, "Racial Disparities in the Paycheck Protection Program," NBER Working Paper No. 29748 (February 2022); published in *Journal of Financial Economics* vol. 160 (2024)
+
+**URL:** https://www.nber.org/papers/w29748
+
+**Supports claims:** MC-09; G8-SD2-04; F8-SD2-03 resolution
+
+**Verification status:** VERIFIED
+
+**Notes:** Black-owned restaurants 25% less likely to receive PPP; disparities driven by bank borrowing gaps. Formerly SRC-029.
+
+---
+
+<a id="s-13"></a>
+#### S-13 — Chernenko, Kaplan, Sarkar & Scharfstein, NBER WP 31172 (May 2023) [VERIFIED]
+
+**Citation:** Chernenko, Sergey; Nathan Kaplan; Asani Sarkar; David S. Scharfstein, "Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?" NBER Working Paper No. 31172 (May 2023)
+
+**URL:** https://www.nber.org/papers/w31172
+
+**Supports claims:** MC-09; G8-SD2-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Uses 2020 SBCS data; Black-owned firms 8.9 pp less likely to receive PPP loans; application vs. approval disparities. Supplementary citation for G8-SD2-04. Formerly SRC-030.
+
+---
+
+<a id="s-14"></a>
+#### S-14 — Novogradac — NMTC Permanence under OBBBA (Nov 2025) [VERIFIED]
+
+**Citation:** Novogradac, "NMTC permanence under OBBBA; CDFI Fund shutdown impact" (November 2025)
+
+**URL:** [pending retrieval — Novogradac novoco.com NMTC OBBBA 2025]
+
+**Supports claims:** MC-05; T8-SD4-02 resolution; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** NMTC permanent under OBBBA; CY 2024-2025 double-round announcement delayed. Formerly SRC-040.
+
+---
+
+<a id="s-15"></a>
+#### S-15 — NCRC — FY 2026 Budget: CDFI Fund Funding (Feb 2026) [VERIFIED]
+
+**Citation:** NCRC, "FY 2026 Budget Deal: Final Funding for HUD, CDFI, SBA" (February 2026)
+
+**URL:** [pending retrieval — NCRC ncrc.org FY2026 budget CDFI SBA HUD]
+
+**Supports claims:** MC-07; G8-SD7-02; T8-SD7-02 resolution; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** CDFI Fund FY 2026 = $324M (level funding); ~$298M of FY 2025 appropriation frozen by OMB as of February 2026. Formerly SRC-042.
+
+---
+
+### Press / News Reporting
+
+<a id="s-16"></a>
+#### S-16 — CFSM — §1071 Redo and Compliance Extension (Nov/Oct 2025) [VERIFIED]
+
+**Citation:** Consumer Financial Services Law Monitor, "Section 1071 Redo: CFPB Proposes to Narrow Coverage" (November 2025) and "CFPB Officially Extends Compliance Dates" (October 2025)
+
+**URL:** [pending retrieval — consumerfinancialserviceslawmonitor.com section 1071 2025]
+
+**Supports claims:** MC-01; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Documents §1071 NPRM (November 2025) narrowing coverage and CFPB funding context. Two articles combined under one entry. Formerly SRC-026.
+
+---
+
+<a id="s-17"></a>
+#### S-17 — CFSM — §1071 2026 Final Rule (May 2026) [VERIFIED]
+
+**Citation:** Consumer Financial Services Law Monitor, "CFPB Issues Final Section 1071 Rule: Narrower Scope, Later Compliance Date" (May 2026)
+
+**URL:** [pending retrieval — consumerfinancialserviceslawmonitor.com 2026/05 section 1071 final rule]
+
+**Supports claims:** MC-01; T8-SD1-01, T8-SD7-03 resolution; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** 2026 Final Rule: 1,000 threshold; MCAs excluded; January 2028 compliance. Formerly SRC-027.
+
+---
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 17 (Phase 3 only) | 17 |
+| New entries added during pass | — | 0 |
+| Entries retired (duplicate / superseded) | — | 0 |
+| Multi-URL bundles split | — | 0 |
+| Phase 1 source workspace entries promoted | — | 0 (absent; see gap note) |
+
+**Old-ID → new S-NN mapping**
+
+| Old ID | New S-NN |
+|---|---|
+| SRC-024 | S-01 |
+| SRC-025 | S-04 |
+| SRC-026 | S-16 |
+| SRC-027 | S-17 |
+| SRC-028 | S-05 |
+| SRC-029 | S-12 |
+| SRC-030 | S-13 |
+| SRC-031 | S-08 |
+| SRC-034 | S-09 |
+| SRC-035 | S-10 |
+| SRC-038 | S-06 |
+| SRC-040 | S-14 |
+| SRC-042 | S-15 |
+| SRC-043 | S-07 |
+| SRC-044 | S-02 |
+| SRC-045 | S-03 |
+| SRC-046 | S-11 |
+
+**Phase 1 source workspace gap**
+
+The pre-normalization CR note states: "Phase 1 source workspace sources (SRC-001 through SRC-023) are in D8_commInd_sources_2026-05-07.md." That file is not present in the D8 folder as of the normalization pass (2026-05-22). SRC-001 through SRC-023 are therefore not represented in this CR. They are referenced only in the body's Authority Chain prose (not via inline SRC-NNN markers). No MC entry cites a Phase 1 SRC in the pre-normalization CR — all MC Sources lines (MC-01 through MC-09) reference only Phase 3 sources (SRC-024 to SRC-046), which are fully normalized above. **Action required:** locate or reconstruct D8_commInd_sources_2026-05-07.md and integrate SRC-001 to SRC-023 into a subsequent normalization pass.
+
+**MCS format conversion**
+
+D8's original MCS was a single flat 5-column table (one row per MC). This format does not support per-MC `<a id="mc-nn"></a>` anchors (anchors in table cells do not enable in-page navigation). Normalization converted the flat table to individual MC field/value tables (matching the D7 / D6 pattern) with per-MC anchors and Sources lines appended. Factual content is unchanged; the two duplicate header rows in the original flat table were removed.
+
+**Category decisions worth flagging**
+
+- SRC-024 covers both the 2023 Final Rule and the 2025 compliance date extension in a single entry — kept as one S-NN since both pertain to the same rulemaking docket.
+- SRC-026 bundles two Consumer Financial Services Law Monitor articles (November 2025 NPRM coverage + October 2025 extension coverage). Kept as one entry (S-16) since they document the same §1071 regulatory episode; both articles would cite the same underlying regulatory actions. If individual-article linking is needed in the URL-retrieval pass, split into S-16a/S-16b.
+- SRC-028 notes supplementary law firm analyses (Ogletree, Holland & Knight, Clark Hill). These are not in the pre-normalization CR as separate entries; they are referenced only in the Notes field of S-05.
+- SRC-043 (OCC intent announcement, March 2025) and SRC-044 (OCC/Fed/FDIC NPR, July 2025) are both retained as separate entries (S-07 and S-02) despite covering the same CRA rescission event — they are legally distinct actions at different stages.

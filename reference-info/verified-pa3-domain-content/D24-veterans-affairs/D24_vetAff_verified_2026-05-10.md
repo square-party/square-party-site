@@ -20,102 +20,124 @@
 
 ---
 
+<a id="mc-01"></a><a id="mc-d24-01"></a>
 **MC-D24-01 — VBA Disability Claims Backlog: Updated Trajectory (January 2026)**
 - **What it was:** Backlog approximately 134,009 (September 2025; 67.9% reduction from January 2024 peak); average processing time approximately 81.1 days as of November 2025.
 - **What it is now:** Backlog approximately 100,115 as of January 2026 (down 25.3% from September 2025; 76.0% total reduction from January 2024 peak); approximately 551,895 total pending claims nationally; average processing time approximately 75.7 days as of March 2026. VA announced record 3M+ claims processed in FY2025; FY2026 pace approximately 1.5M claims in first half.
 - **When it changed:** January–March 2026 (continuing improvement trajectory).
-- **What it affects:** SD2 Section 4 (backlog trajectory paragraph); SD2 G24-SD2-02; SD7 Section 8 Representation Question Closure (processing-time reference); Synthesis Section 1 finding #6; Synthesis Section 3 confidence calibration.
+- **What it affects:** SD2 Section 4 (backlog trajectory paragraph); SD2 <a id="g24-sd2-02"></a>G24-SD2-02; SD7 Section 8 Representation Question Closure (processing-time reference); Synthesis Section 1 finding #6; Synthesis Section 3 confidence calibration.
 - *Appendix A case:* Case 2 (multi-location; each location receives inline note). Body locations: SD2 §4 backlog trajectory; SD7 §8 processing-time reference.
+- **Sources:** [S-10](#s-10), [S-11](#s-11), [S-12](#s-12)
 
 ---
 
+<a id="mc-02"></a><a id="mc-d24-02"></a>
 **MC-D24-02 — BVA AMA Processing Times: FY2025 Final Data**
 - **What it was:** "BVA direct review is pending approximately 482 days nationally; BVA with new evidence/hearing is pending approximately 683 days (AMA Metrics Report, June 2025)."
 - **What it is now:** Direct Review approximately 506 days (FY2025 final, cited by CCK Law citing VA data); Evidence Submission approximately 713 days (FY2025 final). Hearing docket approximately 2–3 years. HLR: approximately 60.7 days (February 2026). The Direct Review ADP is on an improving trajectory (dropped from ~640 days in mid-2024 to ~506 in FY2025 final).
 - **When it changed:** FY2025 final data reported late 2025/early 2026.
 - **What it affects:** SD7 Section 4 finding #22 (synthesis); SD7 Section 8 Representation Question Closure; Synthesis Section 1 finding #22.
 - *Appendix A case:* Case 2 (multi-location). Body locations: SD7 §4 finding #22; SD7 §8 processing-time reference.
+- **Sources:** [S-34](#s-34), [S-35](#s-35)
 
 ---
 
+<a id="mc-03"></a><a id="mc-d24-03"></a>
 **MC-D24-03 — VA Disability Compensation 2026 COLA: $3,938.58 at 100% Rating**
 - **What it was:** FY2026 VA disability compensation rates F-flagged (F24-SD2-03); "current" rates required before public use.
 - **What it is now:** 2026 COLA = 2.8% (SSA announcement, October 2025); rates effective December 1, 2025. 100% disability rating (no dependents) = $3,938.58/month. A&A enhanced pension rates confirmed on VA.gov current-rates page. F24-SD2-03 resolved.
 - **When it changed:** December 1, 2025 (effective date of 2026 rates).
 - **What it affects:** SD2 Section 2 (authority chain administrative note); SD2 Section 5 Profile 2 (A&A rate reference); F24-SD2-03 flag status → RESOLVED.
 - *Appendix A case:* Case 1 (single principal-anchor location at SD2 §2 administrative note; retain rate as confirmed figure at all subsequent appearances).
+- **Sources:** [S-19](#s-19)
 
 ---
 
+<a id="mc-04"></a><a id="mc-d24-04"></a>
 **MC-D24-04 — GAO MISSION Act Recommendations: One Closed as No Longer Valid; Still Substantially Unimplemented as of February 2026**
 - **What it was:** "GAO (February 2025) found 9 of 27 recommendations implemented; VA has not established community care scheduling time frames; 2.8 million veterans nationally used community care in 2023, creating care-coordination challenges at the civilian–VHA accountability boundary."
 - **What it is now:** 9 of 27 implemented; 1 closed as no longer valid (given changes in VA); 17 remaining unimplemented as of February 2026 (GAO-26-108943, March 2026). VA has not fully implemented GAO's recommendations. The Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act (P.L. 118-210, 2025) added new community care mandates on top of unimplemented MISSION Act recommendations.
 - **When it changed:** February 2026 (GAO follow-up; Dole Act enacted 2025).
 - **What it affects:** Synthesis Section 1 finding #3; SD1 Section 2 (MISSION Act federal statutory layer); T24-SD1-03 flag status → RESOLVED (partially; still unimplemented).
 - *Appendix A case:* Case 2 (multi-location). Body locations: Synthesis §1 finding #3; SD1 §2 MISSION Act citation.
+- **Sources:** [S-04](#s-04), [S-05](#s-05)
 
 ---
 
+<a id="mc-05"></a><a id="mc-d24-05"></a>
 **MC-D24-05 — Philadelphia Veteran Homelessness: 20% Increase in 2025**
 - **What it was:** "50% national reduction in veteran homelessness over 14 years" (accurate nationally); Philadelphia trend implied as parallel.
 - **What it is now:** In 2025, 284 veterans experienced homelessness in Philadelphia — a 20% increase from 2024 (Project HOME, February 2026, citing 2025 Point-in-Time count). The trend has plateaued and reversed in Philadelphia. Project HOME attributes this partly to a reduction in HUD-VASH vouchers allocated to PHA (under 250 vouchers 2017–2024, vs. 687 from 2008–2016). National 50% reduction claim is still accurate for the 2007–2024 HUD data trajectory; Philadelphia-specific 2025 data represents the most recent local point. MC42 Both/And analysis is strengthened on the gap side.
 - **When it changed:** 2025 Point-in-Time count (reported February 2026).
 - **What it affects:** SD4 Section 4 (veteran homelessness statistical profile); Synthesis Section 1 finding #12; MC42 Both/And presentation.
 - *Appendix A case:* Case 2 (multi-location). Body locations: SD4 §4 veteran homelessness paragraph; Synthesis §1 finding #12.
+- **Sources:** [S-24](#s-24)
 
 ---
 
+<a id="mc-06"></a><a id="mc-d24-06"></a>
 **MC-D24-06 — Oracle Cerner EHR: Three-Year Pause Ended; CMCVAMC Remains on VistA; Rollout Resumed April 2026**
 - **What it was:** "Federal EHR modernization (Oracle Cerner) deployment paused under prior administration and resumed 2025 creates transition-period operational complexity" (SD1 §2 CMCVAMC description).
 - **What it is now:** VA EHR rollout officially resumed in April 2026 (Federal News Network, April 2026) using geographic-wave approach. CMCVAMC has not yet received Oracle Cerner deployment — still operating on VistA. Six to seven sites have deployed the new EHR since 2020. GAO (March 2025) found only 13% of VA staff on the new EHR believed it improved efficiency; 58% believed it increased patient safety risks. VA OIG documented 800+ major performance incidents since launch. VA is hiring 400 staff for new deployments; lifecycle cost estimated at ~$37 billion. The OIG November 2024 finding about Oracle Cerner toxic-exposure screening training gaps was VHA-wide, not CMCVAMC-specific.
 - **When it changed:** April 2026 (formal rollout resumption announcement).
 - **What it affects:** SD1 Section 2 (CMCVAMC administrative vulnerability description); T24-SD1-01 flag status → RESOLVED (rollout status clarified).
 - *Appendix A case:* Case 1. Body location: SD1 §2 CMCVAMC agency description.
+- **Sources:** [S-06](#s-06), [S-07](#s-07)
 
 ---
 
+<a id="mc-07"></a><a id="mc-d24-07"></a>
 **MC-D24-07 — PACT Act Corrective Action: Committed but Unconfirmed; September 2025 OIG Found Ongoing Accuracy Problems**
 - **What it was:** "VA OIG (April 2025) found approximately 26,000 PACT Act claims received incorrect effective dates due to inadequate VBA adjudication guidance; approximately 2,300 veterans were shortchanged; OIG estimated approximately $6.8 million in adverse impacts. VA agreed to implement all recommendations by July 31, 2025."
-- **What it is now:** VA committed to implement all April 2025 OIG recommendations by July 31, 2025. A September 2025 OIG report found ongoing PACT Act processing accuracy problems on nonpresumptive conditions (inadequate oversight of nonpresumptive claims beyond the effective-date errors). OIG follow-up on the April 2025 report initiated December 29, 2025; no public completion confirmation found as of May 2026 verification date. G24-SD2-01 remains a documented ongoing gap.
+- **What it is now:** VA committed to implement all April 2025 OIG recommendations by July 31, 2025. A September 2025 OIG report found ongoing PACT Act processing accuracy problems on nonpresumptive conditions (inadequate oversight of nonpresumptive claims beyond the effective-date errors). OIG follow-up on the April 2025 report initiated December 29, 2025; no public completion confirmation found as of May 2026 verification date. <a id="g24-sd2-01"></a>G24-SD2-01 remains a documented ongoing gap.
 - **When it changed:** July 31, 2025 (commitment deadline) → September 2025 (new OIG finding) → December 2025 (follow-up initiated).
 - **What it affects:** SD2 Section 3 (failure modes paragraph on PACT Act adjudication guidance); T24-SD2-01 flag status → RESOLVED (status: committed + partially corrected; completion unconfirmed).
 - *Appendix A case:* Case 1. Body location: SD2 §3 failure modes.
+- **Sources:** [S-08](#s-08), [S-09](#s-09)
 
 ---
 
+<a id="mc-08"></a><a id="mc-d24-08"></a>
 **MC-D24-08 — OBBBA (P.L. 119-21): No Direct VHA Cuts; Indirect Effects on Veterans; Government Shutdown**
 - **What it was:** T24-SD1-02 flagged for OBBBA effects on VHA programs; output pending verification.
 - **What it is now:** OBBBA (signed July 4, 2025) did not directly restructure VHA healthcare or core VA benefits (VA loans and GI Bill preserved per multiple sources including Congressional record). Indirect effects: (1) OBBBA Medicaid work requirements affect ~1.75 million veterans on Medicaid not enrolled in VHA (exemption for 100% disabled veterans; all other veterans subject to work requirements); (2) OBBBA SNAP work requirement changes affect ~1.4 million veterans relying on SNAP. The OBBBA triggered the 2025 federal government shutdown (described as "longest government shutdown in U.S. history") from spending deadlock over FY2026 appropriations. FY2026 VA appropriations were affected by the shutdown; continuation appropriations maintained operations.
 - **When it changed:** July 4, 2025 (OBBBA enactment) → Fall 2025 (government shutdown).
 - **What it affects:** SD1 Section 2 (administrative vulnerability characterization for VHA); SD4 T24-SD4-01 flag (SSVF/GPD/PATH FY2026 appropriations); T24-SD1-02 flag status → RESOLVED.
 - *Appendix A case:* Case 1. Body location: SD1 §2 VHA administrative vulnerability notation.
+- **Sources:** [S-17](#s-17), [S-18](#s-18)
 
 ---
 
+<a id="mc-09"></a><a id="mc-d24-09"></a>
 **MC-D24-09 — VETS-4212: Reporting Threshold Increased ($150K → $200K); New Public Data Portal Launched**
 - **What it was:** SD5 Section 2 states: "VEVRAA enforcement resumed July 2, 2025 (D10 SD5 cross-reference confirmed); PA-3 anchor institutions holding federal contracts ≥$150,000 are subject to affirmative action obligations for protected veterans including VETS-4212 public reporting."
 - **What it is now:** VETS-4212 reporting threshold recently increased from $150,000 to $200,000 (Seyfarth Shaw, February 2026). All PA-3 anchor institutions (Penn Medicine, Temple Health, Jefferson Health, Drexel) hold contracts and subcontracts substantially exceeding $200,000 and remain subject to VEVRAA obligations. Additionally, DOL launched a new open data portal (data.dol.gov) on February 18, 2026, making VETS-4212 company-specific data publicly accessible for filing cycles 2021–2025 — previously the data was restricted. This is a direct change in the status of F24-SD5-01's sequel-candidate characterization.
 - **When it changed:** Threshold change: regulatory effective date not precisely confirmed; portal: February 18, 2026.
 - **What it affects:** SD5 Section 2 (VEVRAA authority chain; threshold figure); F24-SD5-01 flag status → PARTIALLY RESOLVED (public accessibility confirmed; institutional figures not retrieved via web search — see unverified-items UV-01).
 - *Appendix A case:* Case 1. Body location: SD5 §2 VEVRAA citation.
+- **Sources:** [S-30](#s-30), [S-31](#s-31), [S-32](#s-32)
 
 ---
 
+<a id="mc-10"></a><a id="mc-d24-10"></a>
 **MC-D24-10 — HUD-VASH Philadelphia Voucher Allocation History: Under 250 Vouchers Allocated 2017–2024**
 - **What it was:** Total Philadelphia HUD-VASH voucher inventory F-flagged; only the March 2024 +100 voucher addition confirmed.
 - **What it is now:** Project HOME (February 2026) documents: PHA received 687 HUD-VASH vouchers 2008–2016; under 250 from 2017–2024 — a significant allocation reduction. March 2024 +100 addition confirmed (previously verified). Total current inventory approximately 350+ (under 250 pre-2024 stock + 100 March 2024). Nationally, HUD made $34M available for additional vouchers via PIH 2025-21 (July 2025); PHA eligibility for 2025 allocation not confirmed from public sources. PHA utilization rate remains institutional-retrieval territory (see UV-07).
 - **When it changed:** 2017 (allocation reduction began; documented historically in Project HOME February 2026 source).
 - **What it affects:** SD4 Section 2 (PHA HUD-VASH description); SD4 Section 4 (statistical profile); MC42 Both/And analysis (voucher-utilization gap context strengthened).
 - *Appendix A case:* Case 2 (multi-location). Body locations: SD4 §2 PHA agency description; SD4 §4 veteran homelessness statistical paragraph.
+- **Sources:** [S-23](#s-23), [S-24](#s-24)
 
 ---
 
+<a id="mc-11"></a><a id="mc-d24-11"></a>
 **MC-D24-11 — Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act (P.L. 118-210, 2025)**
 - **What it was:** T24-SD1-03 flagged for GAO MISSION Act recommendations status; Dole Act not mentioned in OUTPUT (enacted after Phase 1 drafting or close to it).
 - **What it is now:** The Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act (P.L. 118-210, 2025) expanded veterans community care provisions and caregiver support program access; eliminated a secondary-physician-review step in "best medical interest" community care determinations (effective May 2025, per GAO), giving veterans faster access to community care. This represents a new statutory layer on the MISSION Act community care architecture that was not present at Phase 1 drafting. Approximately 98,000 caregivers participated in the Caregiver Support Program in FY2025 (nearly double FY2021), partly due to Dole Act expansion.
 - **When it changed:** 2025 (enacted); May 2025 (best-medical-interest review-step elimination).
 - **What it affects:** SD1 Section 2 (federal statutory layer — new authority to note); T24-SD1-03 context.
 - *Appendix A case:* Case 1. Body location: SD1 §2 MISSION Act authority chain note.
+- **Sources:** [S-16](#s-16), [S-05](#s-05)
 
 ---
 
@@ -358,19 +380,19 @@ For PA-3 veterans specifically, this dynamic has a geographic dimension. The Cor
 
 ## Section 7: Gap Analysis
 
-**G24-SD1-01 [SD] MEDIUM — Community care referral coordination inconsistency as operational access gap**
+**<a id="g24-sd1-01"></a>G24-SD1-01 [SD] MEDIUM — Community care referral coordination inconsistency as operational access gap**
 
 GAO found as of January 2025 (GAO-25-106678, GAO-25-108101) that VHA's Referral Coordination Initiative — intended to streamline the scheduling of community care appointments — had inconsistent implementation across the system. GAO also found that VA has not established standard time frames within which community care appointments must actually occur after referral authorization, meaning the 20-day and 28-day eligibility thresholds that trigger community care access create a referral, but the time from referral to actual appointment is not subject to a mandatory schedule. *Evidence trace: Section 3 pathway analysis (Steps 7–8, documented failure modes); GAO-25-108101 (Feb. 2025). Confidence MEDIUM: the structural finding is documented in primary source (GAO); Philadelphia-specific referral-coordination data is not retrieved. Representation implication: PA-3 veterans who qualify for community care referral under MISSION Act criteria may experience scheduling delays that replicate the access problem the MISSION Act was designed to solve — an access entitlement with an implementation gap in its operational delivery.*
 
-**G24-SD1-02 [D] MEDIUM — PACT Act toxic exposure screening implementation gaps at training level**
+**<a id="g24-sd1-02"></a>G24-SD1-02 [D] MEDIUM — PACT Act toxic exposure screening implementation gaps at training level**
 
 VA OIG (Nov. 2024 report; VAOIG-23-02682-09) found that VHA had initiated toxic exposure screening as required by PACT Act § 603 but identified improvements needed in the training process. Facilities transitioning to Oracle Cerner EHR experienced bottlenecks because the screen required completion by authorized closers only; training was not consistently implemented enterprise-wide. *Evidence trace: Section 3 pathway analysis (Step 6). Confidence MEDIUM: OIG finding is direct documentation of a VA-wide implementation gap; Philadelphia-specific screening completion rates are F-flagged. Representation implication: PA-3 veterans in the new PACT Act enrollment cohort — particularly post-9/11 burn-pit veterans — may not receive the required toxic exposure screening in a clinically timely way, with downstream effects on early identification of presumptive-condition health risks.*
 
-**G24-SD1-03 [SD] MEDIUM — Priority group income gate as access barrier for non-service-connected PA-3 veterans**
+**<a id="g24-sd1-03"></a>G24-SD1-03 [SD] MEDIUM — Priority group income gate as access barrier for non-service-connected PA-3 veterans**
 
 The priority group framework creates an income-contingent access boundary: non-service-connected PA-3 veterans with household income above the VA geographically adjusted income threshold (Priority Groups 7–8) face copay obligations that may limit utilization, and Priority Group 8 subpriority categories include veterans who are not eligible to enroll at all during periods when VA resources are constrained. For PA-3's high-poverty veteran population — many Vietnam-era or minority veterans who may lack service-connection ratings due to historical barriers to claims development (forward pointer to SD6 representation pathway and SD2 rating-system substrate) — the formal income-eligibility criteria may exclude a layer of the district's veteran population from VHA primary care access. *Evidence trace: Section 2 (38 C.F.R. § 17.36 Priority Groups 7–8); Section 4 (PA-3 demographic profile); Section 3 (Step 3 priority group assignment). Confidence MEDIUM: the regulatory structure is directly documented; the share of PA-3 veterans in Priority Group 7–8 is F-flagged. Cross-reference MC45: discharge characterization as eligibility gate (substrate-formation at SD2). Representation implication: the formal universality of the VHA enrollment system is qualified by income and service-connection conditions that may exclude segments of the PA-3 veteran population most dependent on federal healthcare access.*
 
-**G24-SD1-04 [SI] MEDIUM — Geographic access differential within PA-3 by sub-area**
+**<a id="g24-sd1-04"></a>G24-SD1-04 [SI] MEDIUM — Geographic access differential within PA-3 by sub-area**
 
 CMCVAMC's location at 3900 Woodland Ave. in West Philadelphia creates geographic access differential across PA-3 sub-areas. Veterans in the West Philadelphia Core have proximate access; veterans in North Philadelphia (North/Northwest Core sub-area) and South/Southwest Philadelphia sub-areas face greater travel burden, with no PA-3-located CBOC serving these populations. Community care referral addresses some of this gap for specialty care but introduces coordination complexity. *Evidence trace: Section 3 (pathway analysis, Step 5 and failure modes); Section 4 (sub-area variation); CMCVAMC location at 3900 Woodland Ave. Confidence MEDIUM: geographic structure is documented; sub-area utilization rates are not retrieved. [D24-Q1 SECONDARY engagement: anchor employer veterans-targeted hiring at district anchor institutions is the PRIMARY HOM question at SD5; this gap finding documents geographic access variation as a distinct SD1 finding that does not duplicate the SD5 employment magnitude question.] Representation implication: formal VHA enrollment and benefit entitlement are district-wide; operational access — defined by proximity to the primary federal healthcare facility — varies materially by PA-3 sub-area.*
 
@@ -552,11 +574,11 @@ VA OIG (April 2025) found that approximately 26,000 PACT Act claims received inc
 
 The VBA disability claims backlog peaked at approximately 417,855 in January 2024, a decade high driven by PACT Act volume, and fell to approximately 134,009 by September 2025 — significant improvement, but the baseline claim-processing timeline of approximately 81 days (November 2025 national average) means that claims still require multiple months of processing during which veterans do not receive compensation. Reduced VBA staffing (19,804 vs. 21,908 at FY2025 start) during a period of elevated claims volume maintains processing-capacity pressure. *Cross-reference D12 SD1 (G12-SD1-03 carry-forward: SSA disability-determination pipeline-length finding; VA disability processing is a structurally analogous pipeline-length access barrier in federal benefit adjudication). Evidence trace: Section 4 (backlog trajectory); Section 3 (pathway). Confidence MEDIUM: national data applied by structural inference to PA-3; Philadelphia VARO-specific backlog figures are F-flagged. Representation implication: PA-3 veterans seeking disability compensation are subject to a processing pipeline whose length — even in the improved post-2024 environment — represents months of delayed benefit access.*
 
-**G24-SD2-03 [SD] MEDIUM — Discharge characterization eligibility gate bars a documented veteran population from the compensation system (MC45 substrate)**
+**<a id="g24-sd2-03"></a>G24-SD2-03 [SD] MEDIUM — Discharge characterization eligibility gate bars a documented veteran population from the compensation system (MC45 substrate)**
 
 The OTH discharge bar (38 U.S.C. § 5303) operates as a pre-claim eligibility gate that prevents veterans with OTH discharges from accessing disability compensation, VHA healthcare (except emergency and MST-related care), and most Title 38 benefits without a favorable character-of-discharge determination or a DOD discharge upgrade. The 2017 regulatory protections for MST- and mental health-related OTH discharges (38 C.F.R. § 3.12(d)(3)) provide partial relief but require case-by-case determination. For PA-3's predominantly African American veteran community — historically overrepresented in OTH discharge statistics in certain service periods — this gate compounds with existing socioeconomic barriers. *Evidence trace: Section 2 (38 U.S.C. § 5303; 38 C.F.R. § 3.12); Section 3 (discharge characterization pathway); Section 5 (Profile 3). Confidence MEDIUM: the structural bar is directly documented; PA-3-specific OTH discharge population data is F-flagged. Representation implication: the compensation system's most fundamental eligibility condition — character of discharge — creates a structural access barrier that is concentrated among veterans with the least administrative capacity to navigate the upgrade pathway.*
 
-**G24-SD2-04 [SI] LOW-MEDIUM — VR&E access gap for veterans with low disability ratings or delayed rating determinations**
+**<a id="g24-sd2-04"></a>G24-SD2-04 [SI] LOW-MEDIUM — VR&E access gap for veterans with low disability ratings or delayed rating determinations**
 
 VR&E eligibility requires a 20%+ rating (or 10% with serious employment handicap). Veterans rated below this threshold — or veterans awaiting rating decisions during the claims-processing period — do not have access to VR&E's rehabilitation and employment reentry services during the period of their greatest post-separation labor market vulnerability. The sequential structure (rating → VR&E eligibility) means that any delay in the rating determination is a delay in the opening of the VR&E pathway. *Evidence trace: Section 2 (Ch. 31 eligibility threshold); Section 3 (VR&E pathway; backlog failure modes). Cross-reference D10 SD7 (VR&E civilian-counterpart workforce-development architecture). Confidence LOW-MEDIUM: structural inference; no PA-3-specific VR&E access data retrieved. Representation implication: for PA-3 veterans seeking reentry into the civilian labor market, the sequential dependency of VR&E on disability rating determination compounds processing delays into compounded benefit-access delays.*
 
@@ -725,15 +747,15 @@ The Yellow Ribbon program also surfaces an institution-side dynamic that the sub
 
 ## Section 7: Gap Analysis
 
-**G24-SD3-01 [SD] MEDIUM — DEA structural benefit gap relative to Post-9/11 GI Bill for surviving dependents**
+**<a id="g24-sd3-01"></a>G24-SD3-01 [SD] MEDIUM — DEA structural benefit gap relative to Post-9/11 GI Bill for surviving dependents**
 
 Chapter 35 DEA (for surviving dependents of service-connected deceased veterans) provides a monthly educational assistance allowance that does not include a separate housing stipend, is not eligible for Yellow Ribbon enhancement, and is generally less generous than the Post-9/11 GI Bill's tuition-plus-BAH structure. Surviving dependents who chose or were assigned to DEA rather than a transferred Post-9/11 entitlement face a structurally inferior benefit package when attending high-cost institutions in PA-3. *Evidence trace: Section 2 (Ch. 35 vs. Ch. 33 structure); Section 5 (Profile 3). Confidence MEDIUM: structural benefit comparison is directly documented in statute; PA-3-specific population of DEA recipients is F-flagged. Representation implication: the surviving families of veterans who died of service-connected conditions — a population whose eligibility is grounded in the ultimate service-connected sacrifice — access a less comprehensive education benefit than veterans themselves.*
 
-**G24-SD3-02 [SD] MEDIUM — Online enrollment BAH reduction creates housing-cost exposure for veterans with care and employment obligations**
+**<a id="g24-sd3-02"></a>G24-SD3-02 [SD] MEDIUM — Online enrollment BAH reduction creates housing-cost exposure for veterans with care and employment obligations**
 
 The Post-9/11 GI Bill provides a 50% national-average BAH rate for veterans enrolled exclusively online, rather than the full E-5-with-dependents rate for in-person enrollment at a specific location. For PA-3 veterans who choose online enrollment because of employment, family care, or other obligations — and veterans disproportionately hold such obligations — the BAH reduction creates a housing-cost exposure that is not present for in-person students. *Evidence trace: Section 2 (Ch. 33 BAH structure); Section 3 (failure modes). Confidence MEDIUM: statutory structure is directly documented; PA-3 share of online-enrolled GI Bill users is not retrieved. Representation implication: program design choices (in-person vs. online BAH) create differential benefit amounts that track veteran life-circumstances in ways that may disadvantage PA-3 veterans with the least flexibility in their enrollment modality.*
 
-**G24-SD3-03 [SI] LOW-MEDIUM — Awareness and access gap in GI Bill utilization for historically underserved veteran populations in PA-3**
+**<a id="g24-sd3-03"></a>G24-SD3-03 [SI] LOW-MEDIUM — Awareness and access gap in GI Bill utilization for historically underserved veteran populations in PA-3**
 
 PA-3's predominantly African American veteran population — including Vietnam-era veterans who did not fully utilize original GI Bill benefits and post-9/11 veterans with limited familiarity with the education benefit system — may have lower GI Bill utilization rates relative to their entitlement than veteran populations with stronger connections to college-going networks. The representational infrastructure (VSOs, VA education outreach, institutional veterans centers) that bridges the awareness gap is the SD6 subject; the SD3 gap finding is that the benefit structure's generosity does not guarantee utilization. *Evidence trace: Section 4 (PA-3 demographic and veteran population profile); cross-reference D11 (higher-education access architecture and historically underserved populations). Confidence LOW-MEDIUM: structural inference; GI Bill utilization by race/ethnicity in PA-3 is not retrieved. Representation implication: the GI Bill's design is sufficiently generous for PA-3 veterans who access it; the representation gap is at the awareness-and-access layer, not primarily at the benefit-design layer.*
 
@@ -897,15 +919,15 @@ The structural tension at SD4 is the voucher-utilization gap. A voucher is not a
 
 ## Section 7: Gap Analysis
 
-**G24-SD4-01 [D] MEDIUM — HUD-VASH voucher-utilization gap in Philadelphia's constrained rental market (MC42)**
+**<a id="g24-sd4-01"></a>G24-SD4-01 [D] MEDIUM — HUD-VASH voucher-utilization gap in Philadelphia's constrained rental market (MC42)**
 
 Philadelphia's housing market characteristics — systemic affordability pressure (40%+ of households spending >30% income on housing), constrained landlord voucher-acceptance rates, and aging housing stock with potential HQS issues — create a documented gap between HUD-VASH voucher award and actual placement in permanent housing. This is the utilization-versus-allocation gap at the center of MC42. PHA and VA recognize the constraint; the March 2024 press release explicitly calls for more landlords willing to accept vouchers. F7-SD6-07 carry-forward from D7 SD6 identifies this gap as a verified cross-domain finding. *Evidence trace: Section 3 (Step 4, failure modes); Section 4 (Philadelphia housing market statistics). Confidence MEDIUM: the structural constraint is documented in primary sources; Philadelphia-specific HUD-VASH placement rate (leased versus awarded) is F-flagged (F24-SD4-01). Representation implication: for PA-3 veterans experiencing homelessness, the program architecture is substantively sound but the operational environment (housing market) constrains its effectiveness.*
 
-**G24-SD4-02 [D] MEDIUM — VA case management capacity constraint as HUD-VASH throughput limit**
+**<a id="g24-sd4-02"></a>G24-SD4-02 [D] MEDIUM — VA case management capacity constraint as HUD-VASH throughput limit**
 
 VA social work staffing constraints at CMCVAMC — documented nationally as a persistent HUD-VASH implementation challenge, with P.L. 116-315 (2020) mandating community-provider contracting when utilization falls below 85% — limit the number of veterans who can be served with full clinical case management. Case management is the VA's contribution to the HUD-VASH joint structure; without it, the program is only a housing voucher. *Evidence trace: NCHV Policy Statement (May 2024) on VA case management capacity; Section 2 (P.L. 116-315 mandate). Confidence MEDIUM: national finding applied to CMCVAMC by structural inference; Philadelphia-specific CMCVAMC case management capacity data is F-flagged. Representation implication: for PA-3 veterans with serious mental illness or SUD who depend on the clinical case management component to maintain housing stability, case management capacity gaps directly affect program effectiveness.*
 
-**G24-SD4-03 [SI] LOW-MEDIUM — SSVF structural insufficiency for veterans with persistent affordability gaps**
+**<a id="g24-sd4-03"></a>G24-SD4-03 [SI] LOW-MEDIUM — SSVF structural insufficiency for veterans with persistent affordability gaps**
 
 SSVF's 4-month maximum rental assistance period addresses temporary housing crises but is insufficient for veterans facing ongoing structural affordability problems — the majority of housing-unstable veterans in Philadelphia, where rents systemically exceed 30% of very-low-income households' incomes. Veterans stabilized by SSVF who do not subsequently access HUD-VASH or other long-term housing subsidy return to housing instability. *Evidence trace: Section 3 (Profile 3 pathway); Section 4 (housing affordability statistics). Confidence LOW-MEDIUM: structural inference from benefit design + housing market context. Cross-reference D7 SD6 (homelessness infrastructure; SSVF as one intervention in the CoC continuum). Representation implication: SSVF's temporal-limitation design serves a rapid-rehousing function but does not address the underlying structural affordability problem that generates veteran housing instability in Philadelphia.*
 
@@ -1095,15 +1117,15 @@ For a representation-analysis project, the veterans employment architecture illu
 
 ## Section 7: Gap Analysis
 
-**G24-SD5-01 [D] MEDIUM — VetCert backlog created documented access delay for SDVOSB certification during 2024 (resolved post-November 2025)**
+**<a id="g24-sd5-01"></a>G24-SD5-01 [D] MEDIUM — VetCert backlog created documented access delay for SDVOSB certification during 2024 (resolved post-November 2025)**
 
 SBA VetCert processing times increased from approximately 30 days at program launch (January 2023) to approximately 81 days by late 2024, when resources were diverted to the 8(a) program. The backlog of 2,700+ pending applications as of mid-2025 created a documented period during which PA-3 veteran-owned businesses could not access new federal contracting opportunities that required VetCert certification. SBA cleared the backlog by November 2025 and restored processing to approximately 12 days. *Evidence trace: Section 2 (VetCert history); Section 3 (certification pathway). Confidence MEDIUM: national backlog data documented in primary sources; backlog is now resolved (a closed gap), but its effects on PA-3 SDVOSBs during the affected period were operational access barriers. Cross-reference D8 SD2 (D8 MC-02 8(a) program restructuring and its effect on parallel SDVOSB administrative environment). Representation implication: the period of elevated VetCert processing times (2024) created a temporal access gap for veteran-owned small businesses in PA-3 attempting to access SDVOSB contracting; the gap is resolved operationally but its effect on affected businesses' contracting pipelines may persist.*
 
-**G24-SD5-02 [SD] MEDIUM — VEVRAA compliance process-orientation vs. outcome-orientation limits enforcement as a direct veteran-employment lever (D24-Q1 SECONDARY)**
+**<a id="g24-sd5-02"></a>G24-SD5-02 [SD] MEDIUM — VEVRAA compliance process-orientation vs. outcome-orientation limits enforcement as a direct veteran-employment lever (D24-Q1 SECONDARY)**
 
 VEVRAA's affirmative action framework requires process compliance — affirmative action plan development, benchmark-setting, self-identification invitation, VETS-4212 reporting — but does not mandate outcome achievement at or above the veterans-hiring benchmark. OFCCP enforcement focuses on whether affirmative action plans are developed and implemented in good faith, not on whether the hiring benchmark is met. This creates a structural gap between the legal requirement (affirmative action process) and the veteran employment outcome (actual hiring at or above the benchmark). *Evidence trace: Section 2 (VEVRAA structure; 41 C.F.R. Part 60-300); Section 3 (documented failure mode). Confidence MEDIUM: VEVRAA's process-orientation is directly documented in statute and regulations; anchor-institution compliance and outcomes data (VETS-4212 reports) are F-flagged rather than retrieved. [D24-Q1 SECONDARY engagement: the magnitude of the anchor-employer veterans-hiring outcome relative to VEVRAA obligations is the held-open question; this gap finding characterizes the structural condition without asserting the magnitude.] Representation implication: the presence of a robust legal framework (VEVRAA) does not guarantee outcome-level veteran employment at PA-3 anchor institutions proportional to the veteran population's representation.*
 
-**G24-SD5-03 [SI] LOW-MEDIUM — SDVOSB subcontracting plan passdown as theorized but unquantified veteran business opportunity channel**
+**<a id="g24-sd5-03"></a>G24-SD5-03 [SI] LOW-MEDIUM — SDVOSB subcontracting plan passdown as theorized but unquantified veteran business opportunity channel**
 
 Anchor institutions holding federal prime contracts over $750,000 are required to include SDVOSB subcontracting plan goals (FAR 19.704). These plans create a theorized channel through which PA-3 veteran-owned businesses could access subcontract opportunities at Penn Medicine, Jefferson, and Temple. The extent to which anchor-institution subcontracting plans generate actual SDVOSB awards in the Philadelphia economy — versus meeting plan requirements through SDVOSB firms without PA-3 geographic concentration — is not documented at the analysis level. *Evidence trace: Section 2 (FAR 19.704 subcontracting plan requirements); Section 5 (Profile 1 held-open dimension). [D24-Q1 HOM — this gap is one of several mechanisms whose contribution to PA-3 veteran outcomes is held open at MEDIUM confidence.] Confidence LOW-MEDIUM: the legal mechanism is directly documented; its PA-3 employment effect is structural inference only. Representation implication: the federal prime contracting relationship with PA-3 anchor institutions creates a legally mandated channel for SDVOSB subcontracting that is documented structurally but unquantified at the PA-3 level.*
 
@@ -1279,15 +1301,15 @@ PA-3's predominantly African American veteran community has documented historica
 
 ## Section 7: Gap Analysis
 
-**G24-SD6-01 [SD] MEDIUM — Benefit-identification gap for PA-3's historically disconnected veteran populations**
+**<a id="g24-sd6-01"></a>G24-SD6-01 [SD] MEDIUM — Benefit-identification gap for PA-3's historically disconnected veteran populations**
 
 The VSO representational architecture requires veteran connection to the VSO network to function — a network whose organizational membership historically excluded or underserved African American veterans. PA-3's predominantly African American veteran community may have systematically lower rates of VSO connection, producing a benefit-identification gap that is not visible in aggregate VBA claim-filing statistics (which count claims filed, not eligible veterans who never filed). *Evidence trace: Section 3 (failure mode 1); Section 6 (narrative). Cross-reference D11 (higher-education access awareness gap analogy). Confidence MEDIUM: the structural argument is well-documented in veterans benefits literature; PA-3-specific benefit-take-up rates are F-flagged. Representation implication: the formal universality of the VA benefits system is mediated by a network-dependent representational architecture that may systematically underreach PA-3's historical demographic.*
 
-**G24-SD6-02 [D] MEDIUM — Philadelphia VARO claims-processing throughput as access delay**
+**<a id="g24-sd6-02"></a>G24-SD6-02 [D] MEDIUM — Philadelphia VARO claims-processing throughput as access delay**
 
 The Philadelphia VARO's claims-processing capacity — whatever the specific current throughput figures — sits within the national VBA backlog context (peak 417,855 in January 2024; improved post-2025). The representational architecture at SD6 is effective only to the extent that claims filed by VSO service officers at the Philadelphia VARO are processed within a timeframe that delivers benefits before veterans' needs escalate. *Evidence trace: Section 4 (national backlog context); SD2 G24-SD2-02 carry-forward. F-flag: F24-SD6-01 for Philadelphia-specific throughput data. Confidence MEDIUM: structural inference from national context; Philadelphia-specific figures F-flagged. Representation implication: the representational infrastructure at SD6 opens the claims-development pipeline; the SD2 adjudication pipeline is where access delays occur and their effect is felt.*
 
-**G24-SD6-03 [SI] LOW-MEDIUM — PA Disabled Veterans Real Estate Tax Exemption take-up gap**
+**<a id="g24-sd6-03"></a>G24-SD6-03 [SI] LOW-MEDIUM — PA Disabled Veterans Real Estate Tax Exemption take-up gap**
 
 The PA Disabled Veterans Real Estate Tax Exemption provides a substantial financial benefit (elimination of property tax on primary residence) for 100% service-connected veterans in Philadelphia. The exemption requires a VA rating letter and a county application — steps that are administratively manageable with VSO assistance but may be unknown to veterans not connected to the representational network. *Evidence trace: Section 3 (PA exemption sub-pathway); Section 5 (Profile 2). Cross-reference D7 SD1; D9 SD4. Confidence LOW-MEDIUM: the exemption's existence is directly documented; take-up rate gap is structural inference. Representation implication: a financially substantial state tax benefit may be significantly underutilized by PA-3 veterans who own their homes and have 100% service-connected ratings but are not connected to the VSO network that would identify the benefit.*
 
@@ -1446,15 +1468,15 @@ For PA-3's Vietnam-era veteran population — the district's largest veteran coh
 
 ## Section 7: Gap Analysis
 
-**G24-SD7-01 [D] HIGH-MEDIUM — BVA docket length constitutes temporal access barrier for PA-3's aging veteran population**
+**<a id="g24-sd7-01"></a>G24-SD7-01 [D] HIGH-MEDIUM — BVA docket length constitutes temporal access barrier for PA-3's aging veteran population**
 
 BVA direct review is pending approximately 482 days nationally; BVA with new evidence and hearing requests is pending approximately 683 days (AMA Metrics Report, June 2025). For PA-3's Vietnam-era veteran population (average age 70+), a 16-24 month BVA wait following an earlier VBA processing period represents a material temporal-access barrier that compounds with age-related urgency. The approximately 34.4% BVA direct review success rate suggests that Regional Office error rates are meaningful — a substantial share of appealing veterans succeed — making the throughput barrier consequential for real benefit claims. *Evidence trace: Section 3 (AMA pathways and failure modes); Section 4 (BVA timeline data; PA-3 demographic). Cross-reference D12 SD1 G12-SD1-03 (SSA disability pipeline-length analogy). Confidence MEDIUM: national AMA timing data applied to PA-3 by structural inference; Philadelphia-specific BVA caseload data not retrieved. Representation implication: PA-3 veterans who pursue appeals — a population disproportionately elderly and with service-connected disability conditions affecting quality of life — face the longest pipeline of any federal benefit-adjudication layer in the D24 architecture.*
 
-**G24-SD7-02 [D] MEDIUM — Pro-claimant standards (§ 5107; duty to assist) are robustly developed by CAVC yet depend on competent representation to be invoked effectively**
+**<a id="g24-sd7-02"></a>G24-SD7-02 [D] MEDIUM — Pro-claimant standards (§ 5107; duty to assist) are robustly developed by CAVC yet depend on competent representation to be invoked effectively**
 
 The benefit-of-the-doubt standard (38 U.S.C. § 5107) and duty to assist (38 U.S.C. § 5103A) are well-developed legal doctrines through CAVC jurisprudence. However, these standards require a claimant or representative who knows to invoke them — to explicitly argue that evidence is approximately balanced (§ 5107) or that VA failed to develop the record adequately (§ 5103A). Veterans without VSO or attorney representation at BVA face these standards without the tools to use them. *Evidence trace: Section 2 (§ 5107 and § 5103A; CAVC enforcement); Section 3 (representation gap at BVA); Section 5 (Profile 1 pro-claimant standards applied by VSO). Cross-reference SD6 G24-SD6-01 (benefit-identification gap; representational access). Confidence MEDIUM: pro-claimant standards are directly documented; representation gap effect on standard invocation is structurally derived. Representation implication: the formal pro-claimant design of the VA appeals system produces maximum benefit for veterans who are represented; it produces substantially less benefit for veterans who navigate BVA without representation.*
 
-**G24-SD7-03 [SI] MEDIUM — AMA lane-selection complexity creates error risk, particularly for unrepresented veterans**
+**<a id="g24-sd7-03"></a>G24-SD7-03 [SI] MEDIUM — AMA lane-selection complexity creates error risk, particularly for unrepresented veterans**
 
 The AMA's three-lane structure requires veterans to select the appropriate appeal lane within one year of an unfavorable decision. Lane selection is irrevocable: an HLR election forecloses immediate submission of new evidence; a BVA election forecloses HLR for the same issue. Incorrect lane selection — e.g., choosing HLR when the claim requires new evidence — results in an unfavorable HLR decision that must then be appealed via supplemental claim or BVA, adding further delay. For unrepresented veterans, the lane-selection decision is a procedurally consequential choice made under time pressure without legal guidance. *Evidence trace: Section 3 (AMA lanes; failure mode 3). Cross-reference SD6 (VSO representation as the practical lane-selection guidance layer). Confidence MEDIUM: structural inference from AMA design; PA-3 unrepresented veteran rate at BVA is F-flagged. Representation implication: the AMA's procedural complexity creates a structural asymmetry: represented veterans navigate lane selection with guidance; unrepresented veterans face a high-stakes choice without it.*
 
@@ -1597,93 +1619,159 @@ Anchor-employer veterans-targeted hiring magnitude at PA-3 institutions remains 
 
 ---
 
+---
+
+---
+
+## CITATION REGISTRY NORMALIZATION LOG
+
+*Normalization pass executed: 2026-05-22. Scope: Citation Registry renumbered CR-NNN → S-NN per standard anchor naming; `<a id="s-NN">` anchors added to all 42 registry entries; Sources lines added to MC entries MC-D24-01 through MC-D24-11 (eleven entries). Substantive content and inline body prose NOT changed in this pass.*
+
+---
+
+**⚠ D24-SPECIFIC FOLLOW-UP REQUIRED — Inline body [CR-NNN] markers not yet inserted:**
+
+D24 is the only file in the PA-3 project with a claim-level Citation Registry (42 entries). The Phase 3 scope statement identifies D24 as having "body-level [CR-NNN] markers inline in MC/G prose" as its citation convention. However, **as of this normalization pass, no inline [CR-NNN] (or [S-NN]) markers exist anywhere in the body text** — the Citation Registry was established at Phase 3 with the intent of claim-level inline linkage, but the body-marker insertion pass was never completed. A dedicated follow-up pass is required to insert `[S-NN](#s-nn)` markdown links at specific claim locations in MC and G prose. The mapping table below is provided so that inline body refs can be targeted in that subsequent pass.
+
+*That inline-body-marker follow-up pass is NOT part of this normalization pass.*
+
+---
+
+### CR-NNN → S-NN Mapping Table
+
+| Old ID | New ID | Short description |
+|---|---|---|
+| CR-001 | S-01 | VA.gov Philadelphia Health Care system page |
+| CR-002 | S-02 | DLA Portals CMCVAMC Fact Sheet 2019 |
+| CR-003 | S-03 | VA.gov CMCVAMC About/Mission (December 2025) |
+| CR-004 | S-04 | GAO-25-108101 (VCCP community care, February 2025) |
+| CR-005 | S-05 | GAO-26-108943 (Dole Act/VCCP, March 2026) |
+| CR-006 | S-06 | Federal News Network — VA EHR rollout resumes (April 2026) |
+| CR-007 | S-07 | ExecutiveGov — VA Oracle Cerner restart (February 2026) |
+| CR-008 | S-08 | VA OIG-24-01153-52 — PACT Act effective dates (April 2025) |
+| CR-009 | S-09 | Senate SVAC testimony (October 2025) citing VA OIG September 2025 |
+| CR-010 | S-10 | VA Claims Insider — 2026 backlog by state (January 2026) |
+| CR-011 | S-11 | Miles Franklin Law — VA processing times (March 2026) |
+| CR-012 | S-12 | VA news.va.gov press release (approximately April 2026) |
+| CR-013 | S-13 | VA OIG — November 2024 Oracle Cerner EHR training gaps |
+| CR-014 | S-14 | P.L. 115-182 (VA MISSION Act of 2018) |
+| CR-015 | S-15 | P.L. 117-168 (PACT Act of 2022) |
+| CR-016 | S-16 | P.L. 118-210 (Senator Elizabeth Dole 21st Century Veterans Healthcare Act, 2025) |
+| CR-017 | S-17 | P.L. 119-21 (One Big Beautiful Bill Act, July 4, 2025) |
+| CR-018 | S-18 | Wikipedia — One Big Beautiful Bill Act (accessed May 2026) |
+| CR-019 | S-19 | VA.gov disability compensation rates (2026 rates) |
+| CR-020 | S-20 | VA.gov Post-9/11 GI Bill rates (AY2025-26) |
+| CR-021 | S-21 | VA.gov Post-9/11 GI Bill future rates (AY2026-27 preview) |
+| CR-022 | S-22 | MyArmyBenefits — Post-9/11 GI Bill |
+| CR-023 | S-23 | PHA press release — +100 HUD-VASH vouchers (March 2024) |
+| CR-024 | S-24 | Project HOME — Veteran Homelessness: Facts (February 2026) |
+| CR-025 | S-25 | HUD PIH 2025-21 — HUD-VASH registration of interest (July 2025) |
+| CR-026 | S-26 | National Coalition for Homeless Veterans — HUD-VASH policy |
+| CR-027 | S-27 | Billy Penn — HUD voucher / Philadelphia housing market (March 2024) |
+| CR-028 | S-28 | CRS IN12313 — SDVOSB 5% goal (June 2024) |
+| CR-029 | S-29 | Kingdomware Technologies, Inc. v. United States, 579 U.S. 162 (2016) |
+| CR-030 | S-30 | Seyfarth Shaw — VETS-4212 DOL portal (February 2026) |
+| CR-031 | S-31 | Berkshire Associates — DOL data portal (March 2026) |
+| CR-032 | S-32 | Proskauer — VETS-4212 DOL portal (March 2026) |
+| CR-033 | S-33 | D10 SD5 cross-reference (VEVRAA enforcement July 2025) |
+| CR-034 | S-34 | CCK Law — BVA processing times (April 2026) |
+| CR-035 | S-35 | Hill & Ponton — VA appeal timelines (January 2026) |
+| CR-036 | S-36 | 38 U.S.C. § 5107 (benefit-of-the-doubt standard) |
+| CR-037 | S-37 | 38 U.S.C. § 5103A (duty to assist) |
+| CR-038 | S-38 | 38 U.S.C. § 5303; 38 C.F.R. § 3.12; 38 C.F.R. § 3.12(d)(3) |
+| CR-039 | S-39 | Housing Assistance Council — PA veteran poverty data |
+| CR-040 | S-40 | 38 U.S.C. § 8127 (VA Vets First Contracting Program) |
+| CR-041 | S-41 | P.L. 116-315 (Johnny Isakson and David P. Roe Act, 2020) § 9103 |
+| CR-042 | S-42 | VA.gov PACT Act enrollment information (current) |
+
+
 ## CITATION REGISTRY
 
 *Sidecar section. One entry per unique source. Sources listed in first-appearance order within the verified document. Governmental-score handling per Standard 17 not invoked (no CBO/OMB governmental scores in this domain).*
 
-**[CR-001]** VA.gov/philadelphia-health-care/ (U.S. Department of Veterans Affairs — Philadelphia Health Care system page). *Supports: CMCVAMC address, facility identity, VISN 4 affiliation, CBOCs.*
+<a id="s-01"></a>**[S-01]** VA.gov/philadelphia-health-care/ (U.S. Department of Veterans Affairs — Philadelphia Health Care system page). *Supports: CMCVAMC address, facility identity, VISN 4 affiliation, CBOCs.*
 
-**[CR-002]** DLA Portals CMCVAMC Fact Sheet, 2019 (citing 2017 operational data). *Supports: SD1 enrollment figure (55,000+ as of 2017); annual visits; operating budget reference.*
+<a id="s-02"></a>**[S-02]** DLA Portals CMCVAMC Fact Sheet, 2019 (citing 2017 operational data). *Supports: SD1 enrollment figure (55,000+ as of 2017); annual visits; operating budget reference.*
 
-**[CR-003]** VA.gov/philadelphia-health-care/about-us/mission-and-vision/ (updated December 2025). *Supports: CMCVAMC research centers of excellence; National Center for Homelessness Among Veterans.*
+<a id="s-03"></a>**[S-03]** VA.gov/philadelphia-health-care/about-us/mission-and-vision/ (updated December 2025). *Supports: CMCVAMC research centers of excellence; National Center for Homelessness Among Veterans.*
 
-**[CR-004]** GAO-25-108101, Veterans Health Care: Opportunities to Improve Access to Care Through the Veterans Community Care Program (February 10, 2025). *Supports: 9 of 27 MISSION Act GAO recommendations implemented as of February 2025; community care scheduling gaps.*
+<a id="s-04"></a>**[S-04]** GAO-25-108101, Veterans Health Care: Opportunities to Improve Access to Care Through the Veterans Community Care Program (February 10, 2025). *Supports: 9 of 27 MISSION Act GAO recommendations implemented as of February 2025; community care scheduling gaps.*
 
-**[CR-005]** GAO-26-108943, VA Health Care: Recommendations and Observations to Improve Community Care and Support for Caregivers Related to the Dole Act (March 4, 2026). *Supports: MC-D24-04 — 9 implemented, 1 closed, 17 remaining as of February 2026; Referral Coordination Initiative gaps; Dole Act context.*
+<a id="s-05"></a>**[S-05]** GAO-26-108943, VA Health Care: Recommendations and Observations to Improve Community Care and Support for Caregivers Related to the Dole Act (March 4, 2026). *Supports: MC-D24-04 — 9 implemented, 1 closed, 17 remaining as of February 2026; Referral Coordination Initiative gaps; Dole Act context.*
 
-**[CR-006]** Federal News Network, VA EHR rollout resumes after three-year pause (approximately April 2026). *Supports: MC-D24-06 — Oracle Cerner rollout resumed after 3-year pause; geographic-wave approach; CMCVAMC still on VistA.*
+<a id="s-06"></a>**[S-06]** Federal News Network, VA EHR rollout resumes after three-year pause (approximately April 2026). *Supports: MC-D24-06 — Oracle Cerner rollout resumed after 3-year pause; geographic-wave approach; CMCVAMC still on VistA.*
 
-**[CR-007]** ExecutiveGov, VA to restart Oracle-Cerner EHR Rollout (February 11, 2026). *Supports: MC-D24-06 — 13-site geographic wave; lifecycle cost ~$37 billion.*
+<a id="s-07"></a>**[S-07]** ExecutiveGov, VA to restart Oracle-Cerner EHR Rollout (February 11, 2026). *Supports: MC-D24-06 — 13-site geographic wave; lifecycle cost ~$37 billion.*
 
-**[CR-008]** VA OIG-24-01153-52, The PACT Act Has Complicated Determining When Veterans' Benefits Payments Should Take Effect (April 15, 2025). *Supports: SD2 finding #5; G24-SD2-01 — 26,100 incorrect effective dates; $6.8M improper payments; 2,300 shortchanged.*
+<a id="s-08"></a>**[S-08]** VA OIG-24-01153-52, The PACT Act Has Complicated Determining When Veterans' Benefits Payments Should Take Effect (April 15, 2025). *Supports: SD2 finding #5; G24-SD2-01 — 26,100 incorrect effective dates; $6.8M improper payments; 2,300 shortchanged.*
 
-**[CR-009]** Senate Veterans Affairs Committee testimony (October 29, 2025) citing VA OIG September 2025 report. *Supports: MC-D24-07 — ongoing PACT Act nonpresumptive condition accuracy problems; OIG follow-up initiated December 29, 2025.*
+<a id="s-09"></a>**[S-09]** Senate Veterans Affairs Committee testimony (October 29, 2025) citing VA OIG September 2025 report. *Supports: MC-D24-07 — ongoing PACT Act nonpresumptive condition accuracy problems; OIG follow-up initiated December 29, 2025.*
 
-**[CR-010]** VA Claims Insider, 2026 VA Claims Backlog by State (January 2026, citing VBA published data). *Supports: MC-D24-01 — 100,115 backlogged January 2026; 551,895 total pending.*
+<a id="s-10"></a>**[S-10]** VA Claims Insider, 2026 VA Claims Backlog by State (January 2026, citing VBA published data). *Supports: MC-D24-01 — 100,115 backlogged January 2026; 551,895 total pending.*
 
-**[CR-011]** Miles Franklin Law, How Long VA Disability Claim Decisions Take (March 2026, citing VA.gov official tracker). *Supports: MC-D24-01 — 75.7 days average processing time March 2026.*
+<a id="s-11"></a>**[S-11]** Miles Franklin Law, How Long VA Disability Claim Decisions Take (March 2026, citing VA.gov official tracker). *Supports: MC-D24-01 — 75.7 days average processing time March 2026.*
 
-**[CR-012]** VA news.va.gov press release, VA announces major improvements in benefits processing and delivery (approximately April 2026). *Supports: MC-D24-01 — 80.7 days since Trump administration start; FY2026 1.5M claims halfway.*
+<a id="s-12"></a>**[S-12]** VA news.va.gov press release, VA announces major improvements in benefits processing and delivery (approximately April 2026). *Supports: MC-D24-01 — 80.7 days since Trump administration start; FY2026 1.5M claims halfway.*
 
-**[CR-013]** VA OIG, November 2024 report on Oracle Cerner EHR toxic-exposure screening training gaps (VHA-wide). *Supports: SD1 finding #2 — training gaps; note VHA-wide scope clarified in MC-D24-06.*
+<a id="s-13"></a>**[S-13]** VA OIG, November 2024 report on Oracle Cerner EHR toxic-exposure screening training gaps (VHA-wide). *Supports: SD1 finding #2 — training gaps; note VHA-wide scope clarified in MC-D24-06.*
 
-**[CR-014]** P.L. 115-182 (VA MISSION Act of 2018), 132 Stat. 1393. *Supports: SD1 §2 authority chain — VCCP statutory authority.*
+<a id="s-14"></a>**[S-14]** P.L. 115-182 (VA MISSION Act of 2018), 132 Stat. 1393. *Supports: SD1 §2 authority chain — VCCP statutory authority.*
 
-**[CR-015]** P.L. 117-168 (PACT Act of 2022), 136 Stat. 1759. *Supports: SD1 §2; SD2 §2; PACT Act enrollment expansion, presumptive conditions.*
+<a id="s-15"></a>**[S-15]** P.L. 117-168 (PACT Act of 2022), 136 Stat. 1759. *Supports: SD1 §2; SD2 §2; PACT Act enrollment expansion, presumptive conditions.*
 
-**[CR-016]** P.L. 118-210 (Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act, 2025). *Supports: MC-D24-11 — Dole Act community care expansion; best-medical-interest review elimination.*
+<a id="s-16"></a>**[S-16]** P.L. 118-210 (Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act, 2025). *Supports: MC-D24-11 — Dole Act community care expansion; best-medical-interest review elimination.*
 
-**[CR-017]** P.L. 119-21 (One Big Beautiful Bill Act, signed July 4, 2025). *Supports: MC-D24-08 — OBBBA enacted; no direct VHA cuts; Medicaid/SNAP effects on veterans; government shutdown.*
+<a id="s-17"></a>**[S-17]** P.L. 119-21 (One Big Beautiful Bill Act, signed July 4, 2025). *Supports: MC-D24-08 — OBBBA enacted; no direct VHA cuts; Medicaid/SNAP effects on veterans; government shutdown.*
 
-**[CR-018]** Wikipedia, One Big Beautiful Bill Act (accessed May 2026). *Supports: MC-D24-08 — 2025 government shutdown described as "longest in US history"; OBBBA legislative history.*
+<a id="s-18"></a>**[S-18]** Wikipedia, One Big Beautiful Bill Act (accessed May 2026). *Supports: MC-D24-08 — 2025 government shutdown described as "longest in US history"; OBBBA legislative history.*
 
-**[CR-019]** VA.gov/disability/compensation-rates/veteran-rates/ (2026 rates, current page). *Supports: MC-D24-03 — 2026 COLA 2.8%; 100% rating $3,938.58/month; 70/80/90% rates.*
+<a id="s-19"></a>**[S-19]** VA.gov/disability/compensation-rates/veteran-rates/ (2026 rates, current page). *Supports: MC-D24-03 — 2026 COLA 2.8%; 100% rating $3,938.58/month; 70/80/90% rates.*
 
-**[CR-020]** VA.gov/education/benefit-rates/post-9-11-gi-bill-rates/ (AY2025-26 rates, current page). *Supports: SD3 — private school tuition cap $29,920.95; AY2025-26 dates.*
+<a id="s-20"></a>**[S-20]** VA.gov/education/benefit-rates/post-9-11-gi-bill-rates/ (AY2025-26 rates, current page). *Supports: SD3 — private school tuition cap $29,920.95; AY2025-26 dates.*
 
-**[CR-021]** VA.gov/education/benefit-rates/post-9-11-gi-bill-rates/future-rates/ (AY2026-27 preview). *Supports: SD3 — online MHA $1,261/month for AY2026-27 (future rate); $1,169/month confirmed for AY2025-26.*
+<a id="s-21"></a>**[S-21]** VA.gov/education/benefit-rates/post-9-11-gi-bill-rates/future-rates/ (AY2026-27 preview). *Supports: SD3 — online MHA $1,261/month for AY2026-27 (future rate); $1,169/month confirmed for AY2025-26.*
 
-**[CR-022]** MyArmyBenefits, Post-9/11 GI Bill (citing VA primary sources). *Supports: SD3 §2 — private school tuition cap $29,920.95 AY2025-26; online MHA methodology.*
+<a id="s-22"></a>**[S-22]** MyArmyBenefits, Post-9/11 GI Bill (citing VA primary sources). *Supports: SD3 §2 — private school tuition cap $29,920.95 AY2025-26; online MHA methodology.*
 
-**[CR-023]** PHA press release, Philadelphia Housing Authority Secures an Additional 100 HUD-VASH Vouchers to Combat Veteran Homelessness (March 11, 2024). *Supports: SD4 §2 — +100 HUD-VASH vouchers; $746,196 annually.*
+<a id="s-23"></a>**[S-23]** PHA press release, Philadelphia Housing Authority Secures an Additional 100 HUD-VASH Vouchers to Combat Veteran Homelessness (March 11, 2024). *Supports: SD4 §2 — +100 HUD-VASH vouchers; $746,196 annually.*
 
-**[CR-024]** Project HOME, Veteran Homelessness: Facts on Homelessness (February 9, 2026). *Supports: MC-D24-05, MC-D24-10 — 284 veterans experiencing homelessness in Philadelphia in 2025 (20% increase from 2024); HUD-VASH allocation history (687 vouchers 2008-2016; under 250 from 2017-2024).*
+<a id="s-24"></a>**[S-24]** Project HOME, Veteran Homelessness: Facts on Homelessness (February 9, 2026). *Supports: MC-D24-05, MC-D24-10 — 284 veterans experiencing homelessness in Philadelphia in 2025 (20% increase from 2024); HUD-VASH allocation history (687 vouchers 2008-2016; under 250 from 2017-2024).*
 
-**[CR-025]** HUD PIH 2025-21, 2025 Registration of Interest for HUD-VASH Vouchers (July 16, 2025). *Supports: SD4 §2 — $34M in additional HUD-VASH funding; September 10, 2025 deadline; utilization threshold requirements.*
+<a id="s-25"></a>**[S-25]** HUD PIH 2025-21, 2025 Registration of Interest for HUD-VASH Vouchers (July 16, 2025). *Supports: SD4 §2 — $34M in additional HUD-VASH funding; September 10, 2025 deadline; utilization threshold requirements.*
 
-**[CR-026]** National Coalition for Homeless Veterans, Policy Statement: HUD-VASH Program (May 2024). *Supports: SD4 §2 — FY2023 appropriations 111,000+ vouchers; P.L. 116-315 85% utilization threshold.*
+<a id="s-26"></a>**[S-26]** National Coalition for Homeless Veterans, Policy Statement: HUD-VASH Program (May 2024). *Supports: SD4 §2 — FY2023 appropriations 111,000+ vouchers; P.L. 116-315 85% utilization threshold.*
 
-**[CR-027]** Billy Penn, New HUD Voucher Helps Homeless Veterans in Philadelphia (March 21, 2024). *Supports: SD4 §4 — 40%+ of Philadelphians spend >30% income on housing; PHA housing market context.*
+<a id="s-27"></a>**[S-27]** Billy Penn, New HUD Voucher Helps Homeless Veterans in Philadelphia (March 21, 2024). *Supports: SD4 §4 — 40%+ of Philadelphians spend >30% income on housing; PHA housing market context.*
 
-**[CR-028]** CRS IN12313 (June 2024), SDVOSB goal from 3% to 5%; FY2023 $31.9 billion to SDVOSBs. *Supports: SD5 §2 — SDVOSB 5% goal; FY2023 actual.*
+<a id="s-28"></a>**[S-28]** CRS IN12313 (June 2024), SDVOSB goal from 3% to 5%; FY2023 $31.9 billion to SDVOSBs. *Supports: SD5 §2 — SDVOSB 5% goal; FY2023 actual.*
 
-**[CR-029]** Kingdomware Technologies, Inc. v. United States, 579 U.S. 162 (2016). *Supports: SD5 §2; Synthesis §1 finding #16 — Vets First rule-of-two mandatory.*
+<a id="s-29"></a>**[S-29]** Kingdomware Technologies, Inc. v. United States, 579 U.S. 162 (2016). *Supports: SD5 §2; Synthesis §1 finding #16 — Vets First rule-of-two mandatory.*
 
-**[CR-030]** Seyfarth Shaw LLP, VETS-4212 Data Published on New DOL Open Data Portal (February 26, 2026). *Supports: MC-D24-09 — threshold increase $150K → $200K; data.dol.gov portal launch; public accessibility.*
+<a id="s-30"></a>**[S-30]** Seyfarth Shaw LLP, VETS-4212 Data Published on New DOL Open Data Portal (February 26, 2026). *Supports: MC-D24-09 — threshold increase $150K → $200K; data.dol.gov portal launch; public accessibility.*
 
-**[CR-031]** Berkshire Associates, DOL Updates Public Access to Labor Data, Including VETS-4212 (March 2, 2026). *Supports: MC-D24-09 — data.dol.gov portal description; no access restrictions.*
+<a id="s-31"></a>**[S-31]** Berkshire Associates, DOL Updates Public Access to Labor Data, Including VETS-4212 (March 2, 2026). *Supports: MC-D24-09 — data.dol.gov portal description; no access restrictions.*
 
-**[CR-032]** Proskauer Government Contractor Compliance, VETS-4212 Data Now Available on New DOL Open Data Portal (March 2, 2026). *Supports: MC-D24-09 — company-specific data publicly accessible; portal scope.*
+<a id="s-32"></a>**[S-32]** Proskauer Government Contractor Compliance, VETS-4212 Data Now Available on New DOL Open Data Portal (March 2, 2026). *Supports: MC-D24-09 — company-specific data publicly accessible; portal scope.*
 
-**[CR-033]** D10 SD5 cross-reference (D10 Labor & Employment, SD5 Civil Rights, VEVRAA enforcement confirmed July 2, 2025). *Supports: SD5 §2 VEVRAA enforcement resumption; MC31/Boundary 5 resolution.*
+<a id="s-33"></a>**[S-33]** D10 SD5 cross-reference (D10 Labor & Employment, SD5 Civil Rights, VEVRAA enforcement confirmed July 2, 2025). *Supports: SD5 §2 VEVRAA enforcement resumption; MC31/Boundary 5 resolution.*
 
-**[CR-034]** CCK Law, Board of Veterans' Appeals overview (April 1, 2026, citing VA data for FY2025). *Supports: MC-D24-02 — Direct Review 506 days FY2025 final; Evidence Submission 713 days FY2025 final.*
+<a id="s-34"></a>**[S-34]** CCK Law, Board of Veterans' Appeals overview (April 1, 2026, citing VA data for FY2025). *Supports: MC-D24-02 — Direct Review 506 days FY2025 final; Evidence Submission 713 days FY2025 final.*
 
-**[CR-035]** Hill & Ponton, VA Disability Appeal Timelines and Options (January 2026, citing VA.gov). *Supports: MC-D24-02 — HLR 60.7 days February 2026; Direct Review 506 days.*
+<a id="s-35"></a>**[S-35]** Hill & Ponton, VA Disability Appeal Timelines and Options (January 2026, citing VA.gov). *Supports: MC-D24-02 — HLR 60.7 days February 2026; Direct Review 506 days.*
 
-**[CR-036]** 38 U.S.C. § 5107 (benefit-of-the-doubt standard). *Supports: SD7 §2; G24-SD7-02.*
+<a id="s-36"></a>**[S-36]** 38 U.S.C. § 5107 (benefit-of-the-doubt standard). *Supports: SD7 §2; G24-SD7-02.*
 
-**[CR-037]** 38 U.S.C. § 5103A (duty to assist). *Supports: SD7 §2; G24-SD7-02.*
+<a id="s-37"></a>**[S-37]** 38 U.S.C. § 5103A (duty to assist). *Supports: SD7 §2; G24-SD7-02.*
 
-**[CR-038]** 38 U.S.C. § 5303; 38 C.F.R. § 3.12; 38 C.F.R. § 3.12(d)(3). *Supports: SD2 §2; SD6 §3; MC45 discharge characterization substrate.*
+<a id="s-38"></a>**[S-38]** 38 U.S.C. § 5303; 38 C.F.R. § 3.12; 38 C.F.R. § 3.12(d)(3). *Supports: SD2 §2; SD6 §3; MC45 discharge characterization substrate.*
 
-**[CR-039]** Housing Assistance Council, veteran poverty rate data (Pennsylvania). *Supports: SD4 §4 — 6.5% of PA veterans in poverty; approximately 778 unhoused PA veterans.*
+<a id="s-39"></a>**[S-39]** Housing Assistance Council, veteran poverty rate data (Pennsylvania). *Supports: SD4 §4 — 6.5% of PA veterans in poverty; approximately 778 unhoused PA veterans.*
 
-**[CR-040]** 38 U.S.C. § 8127 (VA Vets First Contracting Program). *Supports: SD5 §2 — Vets First rule of two.*
+<a id="s-40"></a>**[S-40]** 38 U.S.C. § 8127 (VA Vets First Contracting Program). *Supports: SD5 §2 — Vets First rule of two.*
 
-**[CR-041]** P.L. 116-315 (Johnny Isakson and David P. Roe Veterans Health Care and Benefits Improvement Act of 2020) § 9103. *Supports: SD4 §2 — HUD-VASH OTH eligibility extension; SD4 §2 community contracting mandate below 85% utilization.*
+<a id="s-41"></a>**[S-41]** P.L. 116-315 (Johnny Isakson and David P. Roe Veterans Health Care and Benefits Improvement Act of 2020) § 9103. *Supports: SD4 §2 — HUD-VASH OTH eligibility extension; SD4 §2 community contracting mandate below 85% utilization.*
 
-**[CR-042]** VA.gov/resources/the-pact-act-and-your-va-benefits/ (current PACT Act enrollment information). *Supports: SD1 §3 — March 5, 2024 enrollment expansion; 458,659 PACT Act claims completed first year.*
+<a id="s-42"></a>**[S-42]** VA.gov/resources/the-pact-act-and-your-va-benefits/ (current PACT Act enrollment information). *Supports: SD1 §3 — March 5, 2024 enrollment expansion; 458,659 PACT Act claims completed first year.*
 
 ---
 

@@ -23,7 +23,7 @@ Commerce Clause supplies federal authority for FFDCA, FSMA, DSHEA, MoCRA, FMIA, 
 *Cited in:* every D4 sub-domain.
 
 **Fourteenth Amendment Equal Protection Clause** ([Cornell LII](https://www.law.cornell.edu/constitution/amendmentxiv)).<br>
-Grounds Title VI applied to federally-funded food and drug programs (SNAP service-equity analysis; FDA enforcement disparate-impact attention; CDC FoodNet disaggregation; Justice40-era disadvantaged-community targeting now thinned per MC-03 in D13 and across D4 SDs).<br>
+Grounds Title VI applied to federally-funded food and drug programs (SNAP service-equity analysis; FDA enforcement disparate-impact attention; CDC FoodNet disaggregation; Justice40-era disadvantaged-community targeting now thinned per [MC-03](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-03) in D13 and across D4 SDs).<br>
 *Cited in:* SD1, SD3, SD5, SD7.
 
 ### Pennsylvania Constitution
@@ -54,7 +54,7 @@ Enacted 2022. Requires facility registration; product listing; safety substantia
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/food/">SD1 Food</a>.
 
 **Food and Nutrition Act of 2008 (SNAP)** ([7 U.S.C. § 2011 et seq.](https://www.law.cornell.edu/uscode/text/7/chapter-51)) · **Child Nutrition Act (WIC)** ([42 U.S.C. § 1786](https://www.law.cornell.edu/uscode/text/42/1786)) · **Richard B. Russell National School Lunch Act (NSLP)** ([42 U.S.C. § 1751 et seq.](https://www.law.cornell.edu/uscode/text/42/chapter-13)).<br>
-Spending Clause nutrition-assistance flows. SNAP FY25 maximum benefit ~$8.05/person/day. **OBBBA P.L. 119-21 (July 4, 2025) cut $186 billion from SNAP** per MC-08 context. USDA Food and Nutrition Service Mid-Atlantic Regional Office administers; PADHS state administration; April 2025 USDA workforce reductions (11,300+ deferred resignations) per MC-07.<br>
+Spending Clause nutrition-assistance flows. SNAP FY25 maximum benefit ~$8.05/person/day. **OBBBA P.L. 119-21 (July 4, 2025) cut $186 billion from SNAP** per [MC-08](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-08) context. USDA Food and Nutrition Service Mid-Atlantic Regional Office administers; PADHS state administration; April 2025 USDA workforce reductions (11,300+ deferred resignations) per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07).<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/food/">SD1 Food</a>; cross-reference D12 SD3 nutrition assistance.
 
 ## Federal statutes — meat &amp; poultry
@@ -64,7 +64,7 @@ Enacted 1906; major amendments 1967. Mandatory ante-mortem and post-mortem inspe
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">SD2 Meat &amp; Poultry</a>.
 
 **Poultry Products Inspection Act (PPIA)** ([21 U.S.C. § 451 et seq.](https://www.law.cornell.edu/uscode/text/21/chapter-10)).<br>
-Enacted 1957. Mandatory inspection of poultry products in interstate commerce. **USDA FSIS Pathogen Reduction / HACCP Final Rule (1996; 9 CFR 416 + 417)** establishes preventive-controls regulatory framework at slaughter and processing. **Salmonella Framework for Raw Poultry Products** withdrawn April 25, 2025 (90 FR 17344); December 2025 NRTE breaded stuffed chicken sampling indefinite delay per MC-03.<br>
+Enacted 1957. Mandatory inspection of poultry products in interstate commerce. **USDA FSIS Pathogen Reduction / HACCP Final Rule (1996; 9 CFR 416 + 417)** establishes preventive-controls regulatory framework at slaughter and processing. **Salmonella Framework for Raw Poultry Products** withdrawn April 25, 2025 (90 FR 17344); December 2025 NRTE breaded stuffed chicken sampling indefinite delay per [MC-03](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-03).<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">SD2 Meat &amp; Poultry</a>.
 
 **Egg Products Inspection Act (EPIA)** ([21 U.S.C. § 1031 et seq.](https://www.law.cornell.edu/uscode/text/21/chapter-15)).<br>
@@ -74,11 +74,11 @@ Processed-egg-products inspection. Statutory stability HIGH.<br>
 ## Federal statutes — drugs &amp; biologics
 
 **FFDCA Chapter V — Drugs and Devices** ([21 U.S.C. §§ 351-360fff](https://www.law.cornell.edu/uscode/text/21/chapter-9/subchapter-V)).<br>
-Governs drug approval (NDA/ANDA), post-market surveillance, device approval (PMA/510(k)/De Novo), Risk Evaluation and Mitigation Strategies (REMS). Statutory stability HIGH. April 2025 FDA RIF reduced CDER (~1,000 employees lost over three months) and CDRH (~260 fired, including 40 from Digital Health Center of Excellence) per MC-07.<br>
+Governs drug approval (NDA/ANDA), post-market surveillance, device approval (PMA/510(k)/De Novo), Risk Evaluation and Mitigation Strategies (REMS). Statutory stability HIGH. April 2025 FDA RIF reduced CDER (~1,000 employees lost over three months) and CDRH (~260 fired, including 40 from Digital Health Center of Excellence) per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07).<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/drugs/">SD3 Drugs</a>; <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/biologics-devices/">SD4 Biologics &amp; Devices</a>.
 
 **Public Health Service Act (PHSA) § 351** ([42 U.S.C. § 262](https://www.law.cornell.edu/uscode/text/42/262)).<br>
-Biological products licensure (BLA) under CBER. CBER Director Peter Marks departed in April 2025 RIF per MC-07; Acting Director Julie Tierney + Associate Director for Policy James Myers + Director of Regulatory Operations Chris Joneckis subsequently terminated. **Casgevy + Lyfgenia** (sickle cell disease cell and gene therapies) approved December 8, 2023; ~164 cumulative US uptake through 2025 per MC-05 confirms Philadelphia paradox structural barriers documented at the national level.<br>
+Biological products licensure (BLA) under CBER. CBER Director Peter Marks departed in April 2025 RIF per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07); Acting Director Julie Tierney + Associate Director for Policy James Myers + Director of Regulatory Operations Chris Joneckis subsequently terminated. **Casgevy + Lyfgenia** (sickle cell disease cell and gene therapies) approved December 8, 2023; ~164 cumulative US uptake through 2025 per [MC-05](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-05) confirms Philadelphia paradox structural barriers documented at the national level.<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/biologics-devices/">SD4 Biologics &amp; Devices</a>.
 
 **Biologics Price Competition and Innovation Act (BPCIA)** ([42 U.S.C. § 262(k)](https://www.law.cornell.edu/uscode/text/42/262)).<br>
@@ -86,7 +86,7 @@ Enacted 2010. Establishes 351(k) biosimilar pathway with 12-year exclusivity.<br
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/biologics-devices/">SD4 Biologics &amp; Devices</a>.
 
 **Inflation Reduction Act (IRA) — Medicare Drug Price Negotiation Program** ([42 U.S.C. § 1320f et seq.](https://www.law.cornell.edu/uscode/text/42/1320f)).<br>
-Enacted 2022. First-round Maximum Fair Prices effective January 1, 2026 (10 drugs; 38-79% off list); Round 2 MFPs announced November 25, 2025 (15 drugs; 38-84%; effective January 1, 2027); estimated $12B annual Part D savings + $685M OOP savings per MC-04. **OBBBA P.L. 119-21 (July 4, 2025) broadened orphan-drug exclusion** under IRA — drugs designated for multiple rare diseases now excluded (affects drugs like Keytruda); CBO estimates +$8.8B Medicare spending = ~10% reduction in IRA program savings.<br>
+Enacted 2022. First-round Maximum Fair Prices effective January 1, 2026 (10 drugs; 38-79% off list); Round 2 MFPs announced November 25, 2025 (15 drugs; 38-84%; effective January 1, 2027); estimated $12B annual Part D savings + $685M OOP savings per [MC-04](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-04). **OBBBA P.L. 119-21 (July 4, 2025) broadened orphan-drug exclusion** under IRA — drugs designated for multiple rare diseases now excluded (affects drugs like Keytruda); CBO estimates +$8.8B Medicare spending = ~10% reduction in IRA program savings.<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/drugs/">SD3 Drugs</a>; cross-reference D21 SD3 ACA Marketplace and Commercial Insurance Delivery.
 
 **GENEROUS Model** (CMS Innovation Center, voluntary Medicaid 5-year MFN-pricing model). Launched January 1, 2026; through December 31, 2030; references UK / France / Germany / Italy / Canada / Japan / Denmark / Switzerland pricing.<br>
@@ -95,7 +95,7 @@ Enacted 2022. First-round Maximum Fair Prices effective January 1, 2026 (10 drug
 ## Federal statutes — tobacco
 
 **Family Smoking Prevention and Tobacco Control Act (FSPTCA)** ([21 U.S.C. § 387 et seq.](https://www.law.cornell.edu/uscode/text/21/chapter-9/subchapter-IX)).<br>
-Enacted 2009. Establishes FDA Center for Tobacco Products (CTP) authority over manufacture, distribution, and marketing of tobacco products. Pre-market review (PMTA, SE) required. **Menthol cigarette ban (RIN 0910-AI60) withdrawn January 21, 2025**; characterizing-flavors-in-cigars rule (RIN 0910-AI28) withdrawn same day per MC-06. **AATCLC v. HHS** pending in N.D. Cal. (February 4, 2025 status conference). **April 2025 CTP Office of Regulations RIF** described as "the entire office responsible for drafting new tobacco regulations" per MC-07; CTP Director Brian King removed April 1, 2025; Bret Koplow appointed Acting Director; CTP RIF subject to Rhode Island injunction per Venable LLP. Menthol = **35% of US cigarette sales; ~85% of Black smokers use menthol.**<br>
+Enacted 2009. Establishes FDA Center for Tobacco Products (CTP) authority over manufacture, distribution, and marketing of tobacco products. Pre-market review (PMTA, SE) required. **Menthol cigarette ban (RIN 0910-AI60) withdrawn January 21, 2025**; characterizing-flavors-in-cigars rule (RIN 0910-AI28) withdrawn same day per [MC-06](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-06). **AATCLC v. HHS** pending in N.D. Cal. (February 4, 2025 status conference). **April 2025 CTP Office of Regulations RIF** described as "the entire office responsible for drafting new tobacco regulations" per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07); CTP Director Brian King removed April 1, 2025; Bret Koplow appointed Acting Director; CTP RIF subject to Rhode Island injunction per Venable LLP. Menthol = **35% of US cigarette sales; ~85% of Black smokers use menthol.**<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/tobacco/">SD5 Tobacco</a>.
 
 ## Federal statutes — controlled substances
@@ -109,7 +109,7 @@ Enacted as part of Consolidated Appropriations Act 2023. Repealed the federal "X
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/controlled-substances/">SD6 Controlled Substances</a>.
 
 **Trump Executive Order 14370 — Increasing Medical Marijuana and Cannabidiol Research** (signed December 18, 2025).<br>
-Directed federal cannabis rescheduling action. **DEA Final Order effective April 28, 2026** (Federal Register publication; FR Doc. 2026-08176; Vol. 91 No. 81) placing FDA-approved + state-licensed medical marijuana on Schedule III per MC-01. **DEA Medical Marijuana Dispensary Registration Portal opens April 29, 2026 at 9:00 AM EST** ($794 annual application fee; 60-day priority window through ~June 27, 2026). Adult-use cannabis remains Schedule I; only FDA-approved products + state-licensed medical cannabis rescheduled; synthetically derived THC (delta-10) excluded. New DEA hearing on broader rescheduling: June 29 - July 15, 2026. Section 280E deduction disallowance lifted for state-licensed medical cannabis effective immediately.<br>
+Directed federal cannabis rescheduling action. **DEA Final Order effective April 28, 2026** (Federal Register publication; FR Doc. 2026-08176; Vol. 91 No. 81) placing FDA-approved + state-licensed medical marijuana on Schedule III per [MC-01](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-01). **DEA Medical Marijuana Dispensary Registration Portal opens April 29, 2026 at 9:00 AM EST** ($794 annual application fee; 60-day priority window through ~June 27, 2026). Adult-use cannabis remains Schedule I; only FDA-approved products + state-licensed medical cannabis rescheduled; synthetically derived THC (delta-10) excluded. New DEA hearing on broader rescheduling: June 29 - July 15, 2026. Section 280E deduction disallowance lifted for state-licensed medical cannabis effective immediately.<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/controlled-substances/">SD6 Controlled Substances</a>.
 
 ## Pennsylvania statutes
@@ -123,8 +123,8 @@ Retail-level enforcement.<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">SD2 Meat &amp; Poultry</a>.
 
 **PA non-cooperative MPI status.**<br>
-Pennsylvania elects not to operate a state Meat and Poultry Inspection program; federal-direct USDA-FSIS inspection covers all PA-3-relevant federally-inspected establishments. Structural state-level decision concentrates federal-FSIS demand on Philadelphia District 60 at the moment of federal capacity erosion per MC-07.<br>
-*Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">SD2 Meat &amp; Poultry</a>; G1-SD2-02.
+Pennsylvania elects not to operate a state Meat and Poultry Inspection program; federal-direct USDA-FSIS inspection covers all PA-3-relevant federally-inspected establishments. Structural state-level decision concentrates federal-FSIS demand on Philadelphia District 60 at the moment of federal capacity erosion per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07).<br>
+*Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/meat-poultry/">SD2 Meat &amp; Poultry</a>; [G1-SD2-02](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#g1-sd2-02).
 
 **PA Pharmacy Act** ([63 P.S. § 390-1 et seq.](https://www.legis.state.pa.us/cfdocs/Legis/LI/consCheck.cfm?txtType=HTM&amp;ttl=63)).<br>
 Governs pharmacy practice licensure and operations in Pennsylvania. PA Act 77 of 2024 — pharmacy benefit manager (PBM) reform — operative in 2025-2026 with PA-3 independent-pharmacy implications post-Rite-Aid bankruptcy.<br>
@@ -157,25 +157,25 @@ Service-provider anchor at retail-access intervention layer. Food Bucks doubles 
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/food/">SD1 Food</a>.
 
 **FDA Philadelphia District** at Mellon Independence Center, 900 US Customhouse, 2nd &amp; Chestnut, Philadelphia, PA 19106.<br>
-Federal field office operating across the D4 sub-domains (food; drugs; biologics &amp; devices; cosmetics). Administrative vulnerability HIGH post-April 2025 FDA RIF per MC-07.<br>
+Federal field office operating across the D4 sub-domains (food; drugs; biologics &amp; devices; cosmetics). Administrative vulnerability HIGH post-April 2025 FDA RIF per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07).<br>
 *Cited in:* multiple D4 sub-domains.
 
 **DEA Philadelphia Field Division.**<br>
-Federal field office for controlled-substance enforcement, registration, and rescheduling implementation per MC-01.<br>
+Federal field office for controlled-substance enforcement, registration, and rescheduling implementation per [MC-01](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-01).<br>
 *Cited in:* <a href="/paul/campaign/empower/domain/food-medicine/sub-domains/controlled-substances/">SD6 Controlled Substances</a>.
 
 ## Sources for ongoing monitoring
 
-**FDA primary sources:** [fda.gov](https://www.fda.gov/) — Center pages (CDER, CBER, CDRH, CTP); HFP/OII reorganization documentation; MoCRA implementation tracking; per-Center RIF status (MC-07).<br>
-**USDA FSIS:** [fsis.usda.gov](https://www.fsis.usda.gov/) — Salmonella regulatory pathway; NRTE breaded stuffed chicken status (MC-03); January 2026 public meeting docket FSIS-2025-0179; FSIS Philadelphia District 60 staffing post-RIF.<br>
-**USDA ERS:** [ers.usda.gov](https://www.ers.usda.gov/) — Household Food Security report status (terminated September 20, 2025 per MC-08); replacement data infrastructure pending.<br>
-**CMS IRA Drug Price Negotiation:** [cms.gov](https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation) — Round 2 MFP announcements (MC-04); GENEROUS Model implementation.<br>
-**DEA Diversion Control Division:** [deadiversion.usdoj.gov](https://www.deadiversion.usdoj.gov/) — Medical Marijuana Dispensary Registration Portal status; rescheduling docket (MC-01); broader-rescheduling hearing record June-July 2026.<br>
+**FDA primary sources:** [fda.gov](https://www.fda.gov/) — Center pages (CDER, CBER, CDRH, CTP); HFP/OII reorganization documentation; MoCRA implementation tracking; per-Center RIF status ([MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-07)).<br>
+**USDA FSIS:** [fsis.usda.gov](https://www.fsis.usda.gov/) — Salmonella regulatory pathway; NRTE breaded stuffed chicken status ([MC-03](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-03)); January 2026 public meeting docket FSIS-2025-0179; FSIS Philadelphia District 60 staffing post-RIF.<br>
+**USDA ERS:** [ers.usda.gov](https://www.ers.usda.gov/) — Household Food Security report status (terminated September 20, 2025 per [MC-08](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-08)); replacement data infrastructure pending.<br>
+**CMS IRA Drug Price Negotiation:** [cms.gov](https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation) — Round 2 MFP announcements ([MC-04](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-04)); GENEROUS Model implementation.<br>
+**DEA Diversion Control Division:** [deadiversion.usdoj.gov](https://www.deadiversion.usdoj.gov/) — Medical Marijuana Dispensary Registration Portal status; rescheduling docket ([MC-01](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-01)); broader-rescheduling hearing record June-July 2026.<br>
 **PA Department of Drug and Alcohol Programs (DDAP):** [pa.gov/agencies/ddap](https://www.pa.gov/agencies/ddap/) — PA PDMP architecture; overdose response.<br>
 **Philadelphia Department of Public Health:** [phila.gov/health](https://www.phila.gov/health/) — OFP retail food licensing; Healthy Corner Store Initiative; Food Bucks coverage; PDPH overdose surveillance.<br>
-**AATCLC v. HHS:** PACER N.D. Cal. — menthol withdrawal litigation status (MC-06).<br>
-**ACIP charter and litigation:** HHS [acip.hhs.gov](https://www.cdc.gov/vaccines/acip/) — post-March 16, 2026 ruling implementation; April 9, 2026 charter rewrite scope (MC-02).<br>
-**Casgevy / Lyfgenia uptake:** Vertex Pharmaceuticals; CRISPR Therapeutics; Genetix Biotherapeutics (formerly bluebird bio) earnings reports — quarterly cell-collection and infusion data (MC-05).
+**AATCLC v. HHS:** PACER N.D. Cal. — menthol withdrawal litigation status ([MC-06](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-06)).<br>
+**ACIP charter and litigation:** HHS [acip.hhs.gov](https://www.cdc.gov/vaccines/acip/) — post-March 16, 2026 ruling implementation; April 9, 2026 charter rewrite scope ([MC-02](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-02)).<br>
+**Casgevy / Lyfgenia uptake:** Vertex Pharmaceuticals; CRISPR Therapeutics; Genetix Biotherapeutics (formerly bluebird bio) earnings reports — quarterly cell-collection and infusion data ([MC-05](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D4-food-drug/D4_foodMed_verified_2026-04-29.md#mc-05)).
 
 ## Cross-references to other domain Legal Text appendices
 

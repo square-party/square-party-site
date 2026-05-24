@@ -278,7 +278,7 @@ D6 completes the five-dimensional anchor engagement framework: D7 (real estate) 
 
 **Philadelphia Parks &amp; Recreation (PPR) park system.** 10,200 acres including Fairmount Park East+West, Wissahickon Valley Park (~2,000 acres of gorge woodland in Northwest), Pennypack Park, Cobbs Creek Park, FDR Park (348 acres in South Philadelphia adjacent to Navy Yard area), and approximately 200 neighborhood parks.
 
-### PA-3 NPL Superfund sites (3 active per MC-07)
+### PA-3 NPL Superfund sites (3 active per [MC-07](https://github.com/square-party/square-party-site/blob/main/reference-info/verified-pa3-domain-content/D6-environment/D6_envNatRes_verified_2026-05-11.md#mc-07))
 
 **Enterprise Avenue NPL site** — North Philadelphia industrial legacy.
 

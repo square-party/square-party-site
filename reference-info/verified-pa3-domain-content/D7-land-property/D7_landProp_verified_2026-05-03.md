@@ -26,6 +26,8 @@
 
 *This section is the within-document navigation aid to inline corrections applied at body locations throughout the verified file. Each entry pairs with one or more inline edits per M2 v1.2 §7 Capability 2 + Appendix A. Pattern 12 enforcement (M2 v1.2 Anti-Pattern 12; pa3-structural-quality Step 4) walks each entry against its named body location(s) before release. Entries are listed with the most consequential temporal changes first; the SD2 prefix-normalization (MC-10) is a structural correction documented as a standalone entry. Inline application uses the italicized prior-pass note pattern: `*Verification update (2026-05-03): {prior text} → {corrected text}; {brief reason or source}.*`*
 
+<a id="mc-01"></a>
+
 ### MC-01: AFFH rule rescission (Case 2; ~5 body locations)
 
 | Field | Content |
@@ -34,6 +36,10 @@
 | **What is now** | The 2023 proposed AFFH rule was withdrawn by HUD in March 2025 and replaced with an Interim Final Rule (IFR) requiring only self-attestation of fair-housing-promoting actions in connection with Consolidated Plans, Annual Action Plans, and PHA Plans. HUD additionally withdrew eight FHEO guidance documents on April 6, 2026 (90+ Federal Register notice). The IFR remains pending finalization; no successor "equity-plan" rulemaking is currently anticipated at HUD. The administrative-vulnerability finding (G7-SD4-01; Standard 11 operative) is reinforced: the AFFH framework above the statutory floor has been substantively withdrawn at the regulatory level while the FHA § 3608 statutory mandate remains. |
 | **When changed** | March 2025 (IFR); April 2026 (FHEO guidance withdrawal). |
 | **What it affects** | SD4 §2 Federal Regulatory layer; SD4 §3 Pathway 1 *ICP* operationalization; SD4 §6 (regulatory-architecture conditions analysis); G7-SD4-01 (AFFH operationalization gap) and G7-SD4-02 (disparate-impact framework operationalization gap) calibration; Synthesis Section 1 Cross-cutting Finding D (statutory stability vs. administrative vulnerability); Synthesis Section 2 (Aggregate Finding administrative-vulnerability characterization). Inline correction applied at SD4 §2 (principal anchor) with secondary cross-reference notes at SD4 §6, SD4 §7 G7-SD4-01, Synthesis §1 Finding D, and Synthesis §2. |
+
+*Sources:* [S-01](#s-01), [S-11](#s-11)
+
+<a id="mc-02"></a>
 
 ### MC-02: HUD disparate-impact rule proposed rescission (Case 2; ~3 body locations)
 
@@ -44,6 +50,10 @@
 | **When changed** | January 14, 2026 (NPRM); February 13, 2026 (comment close); final rule pending. |
 | **What it affects** | SD4 §2 Federal Regulatory; SD4 §3 Pathway 1; G7-SD4-02 (disparate-impact framework operationalization gap); Synthesis Section 1 Finding D. Inline correction applied at SD4 §2 (principal anchor) with secondary notes at SD4 §3 Pathway 1 and at Synthesis §1 Finding D. |
 
+*Sources:* [S-02](#s-02), [S-07](#s-07)
+
+<a id="mc-03"></a>
+
 ### MC-03: CFPB structural transformation (Case 2; ~4 body locations)
 
 | Field | Content |
@@ -52,6 +62,10 @@
 | **What is now** | Three concurrent structural changes produce a substantively transformed CFPB: (a) the One Big Beautiful Bill Act (OBBBA, signed July 4, 2025) reduced the CFPB statutory funding cap from 12% to 6.5% of the Federal Reserve's 2009 operating expenses (adjusted for labor costs) — a durable funding-ceiling cut roughly halving the bureau's draw; (b) staff reductions: the bureau had ~1,750 employees at the start of 2025; an April 2026 administration filing in *NTEU v. Vought* sought court approval for a reduction-in-force cutting staff to 556 (the 90% RIF was withdrawn after preliminary injunction); ongoing en banc litigation at D.C. Circuit on personnel actions (oral argument February 2026); (c) operational posture shift: stop-work orders issued February 2025; supervisory examinations closed; enforcement cases terminated; Washington headquarters lease terminated February 2026; HUD/CFPB ECOA Joint Statement on immigration-status consideration withdrawn January 12, 2026; CFPB November 2025 NPRM proposed eliminating disparate-impact liability from Regulation B (ECOA). The Standard 11 administrative-vulnerability finding for SD2 is substantially reinforced: structural withdrawal is the dominant feature, not episodic posture variation. |
 | **When changed** | OBBBA July 4, 2025; principal RIF action April 2025–April 2026; HQ lease termination February 2026; Reg B NPRM November 2025. |
 | **What it affects** | SD2 §2 Federal Regulatory and Agency Layer; SD2 §3 Pathway 1 underwriting-step accountability; SD2 §6 (regulatory-architecture conditions); G7-SD2-01 / G7-SD2-02 confidence calibration; Synthesis Section 1 Finding D (statutory stability vs. administrative vulnerability). Inline correction applied at SD2 §2 (principal anchor) with secondary notes at SD2 §6 and at Synthesis §1 Finding D. |
+
+*Sources:* [S-04](#s-04), [S-08](#s-08), [S-14](#s-14)
+
+<a id="mc-04"></a>
 
 ### MC-04: 2023 CRA Final Rule rescission proposed (Case 2; ~3 body locations)
 
@@ -62,6 +76,10 @@
 | **When changed** | Preliminary injunction March 29, 2024; rescission announcement March 28, 2025; rescission NPRM July 16, 2025. |
 | **What it affects** | SD2 §2 Federal Statutory and Federal Regulatory layers; SD2 §6 (CRA-vs-non-bank-coverage analysis); G7-SD2-02 framing; Synthesis Section 1 Finding D. Inline correction applied at SD2 §2 (principal anchor) with secondary note at SD2 §6 and at Synthesis §1 Finding D. |
 
+*Sources:* [S-15](#s-15), [S-16](#s-16)
+
+<a id="mc-05"></a>
+
 ### MC-05: HUD CoC NOFO disruption + Congressional bridge protections (Case 2; ~4 body locations)
 
 | Field | Content |
@@ -70,6 +88,10 @@
 | **What is now** | HUD published an FY2025 CoC NOFO on November 13, 2025 with major changes (capping permanent-housing funding at 30%; anti-DEI and gender-identity conditions; Housing First de-emphasis). Two lawsuits filed November 25 and December 1, 2025 (20-state AG coalition and a coalition including the National Alliance to End Homelessness, NLIHC, Boston, Tucson, San Francisco, and Santa Clara County). On December 8, 2025 HUD rescinded the FY2025 NOFO; on December 23, 2025 the U.S. District Court for Rhode Island issued a preliminary injunction directing HUD to process renewals under the FY2024–25 NOFO; on January 9, 2026 HUD reopened the FY2024–25 NOFO with a February 9, 2026 submission deadline. The FY2026 Consolidated Appropriations Act (P.L. 119-75, enacted February 3, 2026) included general provisions: (a) a defined automatic-renewal schedule if FY2025 awards are delayed (Q1 2026 expirations renewed for 12 months; subsequent quarters added as deadlines slip); (b) a June 1, 2026 deadline for the FY2026 NOFO and a December 1, 2026 deadline for awards; (c) Tenant-Based Rental Assistance funded at $34.4–34.9 billion; Tenant Protection Vouchers $600–601 million. Per congressional letter documentation, the HUD Office of Community Planning and Development lost ~37% of its workforce between January and June 2025, conditioning implementation capacity. The substantive development is dual-character: the framework above the statutory floor has been substantively contested at the regulatory level while Congress has imposed bridge protections at the statutory floor — Standard 11 administrative-vulnerability operative as documented at draft date, with the empirical fact of 2025–26 displacement and bridge-rescue confirming the calibration. |
 | **When changed** | November 13, 2025 (NOFO release); November–December 2025 (litigation); December 23, 2025 (preliminary injunction); January 9, 2026 (FY24-25 reopening); February 3, 2026 (FY2026 Appropriations Act bridge protections). |
 | **What it affects** | SD6 §2 Federal Statutory and Federal Regulatory layers; SD6 §3 Pathway 1 (CoC system entry → assessment → housing pathway); G7-SD6-02 (PSH-to-need calibration); Synthesis Section 1 Finding D. Inline correction applied at SD6 §2 (principal anchor) with secondary notes at SD6 §3, SD6 §7 G7-SD6-02, and Synthesis §1 Finding D. |
+
+*Sources:* [S-05](#s-05), [S-09](#s-09), [S-17](#s-17)
+
+<a id="mc-06"></a>
 
 ### MC-06: HUD FHEO enforcement posture (Case 2; ~3 body locations)
 
@@ -80,6 +102,10 @@
 | **When changed** | September 16, 2025 (FHEO enforcement memo); November 25, 2025 (criminal-screening letter); December 9, 2025 (DOJ Title VI rule); April 6, 2026 (FHEO guidance withdrawal). |
 | **What it affects** | SD4 §2 Federal Regulatory layer; SD4 §3 Pathway 2 (administrative complaint pathway); G7-SD4-01 calibration; Synthesis Section 1 Finding D. Inline correction applied at SD4 §2 (principal anchor) with secondary notes at SD4 §3 and Synthesis §1 Finding D. |
 
+*Sources:* [S-03](#s-03), [S-11](#s-11), [S-12](#s-12), [S-13](#s-13)
+
+<a id="mc-07"></a>
+
 ### MC-07: Philadelphia Right to Counsel expansion (Case 1; 2 body locations)
 
 | Field | Content |
@@ -88,6 +114,10 @@
 | **What is now** | As of April 28, 2026, RTC covers ten ZIP codes (19121, 19124, 19131, 19132, 19134, 19139, 19141, 19144, 19153, 19154) — the April 2026 expansion added 19131 and 19153, identified by Reinvestment Fund analysis as highest-need. FY25 outcomes documentation: PEPP partners served 4,600+ households (1,750+ in RTC ZIP codes); zero default judgments for PEPP-represented tenants (vs. 35–40% for unrepresented); RTC-represented tenants twice as likely to prevail at trial; 80%+ housing-preserved/stabilized/improved outcome rate; eviction filings reduced ~40% citywide via RTC + PEPP + EDP combined. Pennsylvania July 2024 budget appropriation: $2.5 million for the first statewide right-to-counsel program (eligibility ≤125% FPL); PA is now one of six states with statewide RTC. The G7-SD3-05 representation-architecture finding is substantively reinforced and refined: protective function operates substantively where coverage is established; coverage is expanding citywide on a defined trajectory; capacity-vs-need at expanded coverage is the live empirical question (F7-SD3-05 retrieval candidate). |
 | **When changed** | April 28, 2026 (10-ZIP coverage); July 2024 (PA statewide RTC enacted). |
 | **What it affects** | SD3 §2 Local Statutory layer; SD3 §3 Pathway 1 (eviction pathway with RTC intervention); G7-SD3-05 RTC implementation calibration. Inline correction applied at SD3 §2 (single principal anchor; the coverage update is fact-discrete and propagates through the SD by reference rather than by repeated mention). |
+
+*Sources:* [S-20](#s-20), [S-21](#s-21), [S-23](#s-23)
+
+<a id="mc-08"></a>
 
 ### MC-08: Philadelphia H.O.M.E. plan implementation milestones (Case 2; ~3 body locations)
 
@@ -98,6 +128,10 @@
 | **When changed** | March 24, 2025 (plan unveiled); June 2025 (initial Council approval); January 22, 2026 (amended bond ordinance); March/April 2026 (first $400M tranche issued). |
 | **What it affects** | SD5 §2 Local Statutory and Local Agency layers; SD5 §3 Pathway 1 (affordable-housing development pathway via H.O.M.E.); G7-SD5-06 (H.O.M.E. plan implementation gap); Synthesis Section 5 D7 → D8/D9/D11 cross-references where H.O.M.E. interfaces. Inline correction applied at SD5 §2 (principal anchor) with secondary notes at SD5 §3 and SD5 §7 G7-SD5-06. |
 
+*Sources:* [S-22](#s-22), [S-24](#s-24), [S-28](#s-28), [S-29](#s-29), [S-30](#s-30), [S-31](#s-31), [S-32](#s-32)
+
+<a id="mc-09"></a>
+
 ### MC-09: Post-*Grants Pass* litigation landscape (Case 1; 2 body locations)
 
 | Field | Content |
@@ -106,6 +140,10 @@
 | **What is now** | The post-*Grants Pass* alternative-protection landscape is structurally consistent with the substructure-flagged framing, with documented developments in three directions: (a) state-constitution challenges proceeding in Washington state and elsewhere (the Washington Constitution prohibits "cruel" punishment, more protective than the federal "cruel and unusual" standard; ACLU-WA challenges to Spokane's unlawful-camping and sit-and-lie laws and Burien's encampment ban; Northwest Justice Project / Seattle/King County Coalition on Homelessness representation); (b) at least six Washington cities (Aberdeen, Auburn, Kennewick, Lakewood, Richland, Spokane) passed new or modified anti-encampment laws in the year following the decision, often eliminating shelter-availability prerequisites; (c) Sotomayor's dissent named alternative legal theories (Excessive Fines Clause; Fourth Amendment search-and-seizure; Fourteenth Amendment Due Process and Equal Protection; ADA reasonable-accommodation) that continue to be tested in lower-court litigation. No Supreme Court reversal or substantial constitutional reframing has occurred. The G7-SD6-06 protective-architecture-withdrawal finding is unchanged at the federal Eighth Amendment level; alternative-protection development is incremental and jurisdiction-specific. The Philadelphia-specific encampment-management posture (F7-SD6-09) remains a live retrieval candidate. |
 | **When changed** | Litigation accumulating since June 2024 *Grants Pass* decision; no single dispositive event in the verification window. |
 | **What it affects** | SD6 §2 Constitutional Foundation; SD6 §6 (constitutional-protection-architecture conditions); G7-SD6-06 (post-*Grants Pass* protective-architecture withdrawal). Inline correction applied at SD6 §2 (single principal anchor; the landscape update is integrated reference rather than a single discrete finding). |
+
+*Sources:* [S-10](#s-10), [S-25](#s-25), [S-26](#s-26), [S-33](#s-33)
+
+<a id="mc-10"></a>
 
 ### MC-10: SD2 anomalous flag-prefix normalization (Case 3; high-volume structural correction; 52 occurrences)
 
@@ -1686,88 +1724,638 @@ In Phase 3 verification-priority order:
 
 ---
 
-## Citation Registry (Phase 3 sidecar section per M2 v1.2 §7 Capability 3)
+## Citation Registry
 
-*This Citation Registry sidecar lists web-fetched authoritative sources retrieved during Phase 3 verification of D7 Land & Property. Sources are organized by category; within each category, listed in order relevant to Material Changes entries. Each entry lists the source citation (per Standard 3 format), URL, retrieval date, and the Material Changes entry / G-flag finding the source supports. Pre-existing Phase 1 + Phase 2 sources documented in the source workspace `D7_landProp_sources_2026-05-03.md` carry forward and are not re-listed here; the Citation Registry below is the Phase 3 incremental-retrieval record.*
-
-### Federal regulatory sources (HUD; CFPB; OCC; FRB; FDIC; DOJ)
-
-1. **HUD Interim Final Rule, "Restoring Affirmatively Furthering Fair Housing Definitions and Certifications,"** March 5, 2025. URL: https://www.hud.gov/affh (HUD AFFH landing page); coverage at https://nlihc.org/resource/hud-releases-weakened-affh-interim-final-rule-sen-warren-and-rep-waters-condemn (accessed 2026-05-03). Supports MC-01 (AFFH rule rescission); G7-SD4-01 calibration.
-
-2. **HUD Federal Register notice, withdrawal of eight FHEO guidance documents,** April 6, 2026. Coverage at https://nlihc.org/resource/hud-releases-weakened-affh-interim-final-rule (NLIHC April 13, 2026 update; accessed 2026-05-03). Supports MC-01, MC-06.
-
-3. **HUD Notice of Proposed Rulemaking, "HUD's Implementation of the Fair Housing Act's Disparate Impact Standard,"** 91 Fed. Reg. 1475 (January 14, 2026). URL: https://www.federalregister.gov/documents/2026/01/14/2026-00590/huds-implementation-of-the-fair-housing-acts-disparate-impact-standard (accessed 2026-05-03). Supports MC-02 (HUD disparate-impact rule proposed rescission); G7-SD4-02 calibration.
-
-4. **Executive Order 14281, "Restoring Equality of Opportunity and Meritocracy,"** April 23, 2025 (90 Fed. Reg.). Coverage at https://www.consumerfinancemonitor.com/2026/01/14/hud-proposes-to-remove-its-fair-housing-act-disparate-impact-rule/ (accessed 2026-05-03). Supports MC-02; cross-references MC-01 and MC-06.
-
-5. **HUD FHEO Guidance Memorandum on Fair Housing Enforcement and Prioritization of Resources,** September 16, 2025. Coverage at https://naahq.org/news/federal-regulatory-changes-seek (accessed 2026-05-03). Supports MC-06 (HUD FHEO enforcement posture).
-
-6. **DOJ Final Rule rescinding Title VI disparate-impact provisions,** December 9, 2025. Coverage at https://naahq.org/news/federal-regulatory-changes-seek (accessed 2026-05-03). Supports MC-06.
-
-7. **HUD Secretary Turner letter to PHAs and assisted-housing owners on criminal screening,** November 25, 2025. Coverage at https://naahq.org/news/federal-regulatory-changes-seek (accessed 2026-05-03). Supports MC-06.
-
-8. **GAO Report GAO-26-108448, "Consumer Financial Protection Bureau: Status of Reorganization Efforts,"** released February 9, 2026. URL: https://www.gao.gov/products/gao-26-108448 (accessed 2026-05-03). Supports MC-03 (CFPB structural transformation).
-
-9. **One Big Beautiful Bill Act (OBBBA), P.L. 119-21,** signed July 4, 2025; CFPB funding cap reduction at § [Title VII reconciliation provision]. Coverage at https://www.consumerfinancialserviceslawmonitor.com/2026/02/gao-details-cfpb-reorganization-funding-cuts-and-litigation/ (accessed 2026-05-03). Supports MC-03; cross-references MC-05.
-
-10. **NTEU v. Vought**, D.C. Cir. ongoing 2025-2026 (en banc oral argument February 2026). Coverage at https://www.govexec.com/workforce/2026/02/fate-cfpb-employees-hang-balance-judges-consider-agencys-future/411662/ and https://www.govexec.com/workforce/2026/04/consumer-watchdog-agency-asks-court-permission-slash-its-workforce-two-thirds/412598/ (accessed 2026-05-03). Supports MC-03.
-
-11. **OCC, FRB, FDIC Joint Announcement of Intent to Rescind 2023 CRA Final Rule,** March 28, 2025. URL: https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-ia-2025-26.html (accessed 2026-05-03). Supports MC-04 (2023 CRA Final Rule rescission proposed); G7-SD2-02 calibration.
-
-12. **OCC, FRB, FDIC Joint Notice of Proposed Rulemaking proposing to rescind 2023 CRA Final Rule and reinstate 1995 framework,** July 16, 2025. URL: https://www.federalreserve.gov/consumerscommunities/community-reinvestment-act-final-rule.htm (accessed 2026-05-03). Supports MC-04.
-
-13. **HUD FY2025 CoC NOFO,** released November 13, 2025; rescinded December 8, 2025; FY2024–25 NOFO reopened January 9, 2026. Coverage at https://shelterforce.org/2026/01/23/judge-blocks-hud-overhaul-federal-funding-for-homelessness-services/ and https://www.congress.gov/crs-product/IN12626 (CRS IN12626, February 4, 2026; accessed 2026-05-03). Supports MC-05 (HUD CoC NOFO disruption).
-
-14. **U.S. District Court for Rhode Island, preliminary injunction (consolidated cases),** December 23, 2025. Coverage at https://shelterforce.org/2026/01/23/judge-blocks-hud-overhaul-federal-funding-for-homelessness-services/ (accessed 2026-05-03). Supports MC-05.
-
-15. **FY2026 Consolidated Appropriations Act, P.L. 119-75,** enacted February 3, 2026; CoC bridge-renewal provisions at general provisions section. Coverage at https://community.solutions/the-impact-of-huds-2025-nofo/ and https://schoolhouseconnection.org/article/congressional-fy26-deal-key-wins-for-homeless-children-and-youth (accessed 2026-05-03). Supports MC-05.
-
-16. **HUD HOME Program 2025 Final Rule, "HOME Investment Partnerships Program: Program Updates and Streamlining,"** 90 Fed. Reg. 876 (January 6, 2025); supplemental further updates at 90 Fed. Reg. 48443 (October 22, 2025); VAWA tenancy addenda effective April 30, 2026. URL: CRS R48422 at https://www.congress.gov/crs_external_products/R/PDF/R48422/R48422.6.pdf (accessed 2026-05-03). Supports T7-SD6-05 partial; T7-SD3-01 partial.
-
-### Pennsylvania state legislative sources
-
-17. **PA Senate Bill 546 (2025-2026 Regular Session),** "An Act amending the act of April 6, 1951 (P.L.69, No.20), known as The Landlord and Tenant Act of 1951… establishing the Rent Control Advisory Board." URL: https://www.palegis.us/legislation/bills/2025/sb546 (accessed 2026-05-03). Supports T7-SD3-02 disposition.
-
-18. **PA House Bill 72 (2025-2026 Regular Session),** Article V-C protecting domestic-violence survivors via early lease termination + 10% rent-increase cap. URL: https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB0072/PN0060 (accessed 2026-05-03). Coverage at https://appelyost.com/landlord-tenant-laws-in-pennsylvania-what-every-landlord-should-know/. Supports T7-SD3-02 disposition.
-
-19. **Pennsylvania FY 2024-25 Budget, statewide right-to-counsel program ($2.5M appropriation),** July 2024. Coverage at https://whyy.org/articles/pennsylvania-right-to-counsel-evictions/ (accessed 2026-05-03). Supports MC-07.
-
-### Philadelphia local sources
-
-20. **City of Philadelphia DHCD, "City Officials Announce Expansion of Right to Counsel for Eligible Tenants Facing Eviction,"** April 28, 2026. URL: https://www.phila.gov/2026-04-29-city-officials-announce-expansion-of-right-to-counsel-for-eligible-tenants-facing-eviction/ (accessed 2026-05-03). Supports MC-07.
-
-21. **Civil Right to Counsel National Coalition tracker, "All about Philadelphia's eviction right to counsel,"** updated 2026. URL: https://civilrighttocounsel.org/major_developments/all-about-philadelphias-eviction-right-to-counsel/ (accessed 2026-05-03). Supports MC-07; G7-SD3-05 calibration.
-
-22. **City of Philadelphia, "Mayor Cherelle L. Parker Unveils Historic $2 Billion H.O.M.E. Housing Plan,"** March 25, 2025. URL: https://www.phila.gov/2025-03-25-mayor-cherelle-l-parker-unveils-historic-2-billion-h-o-m-e-housing-plan-to-create-and-preserve-30000-homes/ (accessed 2026-05-03). Supports MC-08.
-
-23. **WHYY / PlanPhilly H.O.M.E. plan implementation coverage:** WHYY June 12, 2025 (https://whyy.org/articles/mayor-parker-housing-plan-approved-philadelphia/); WHYY December 12, 2025 (https://whyy.org/articles/philadelphia-housing-plan-parker-city-council/); WHYY January 23, 2026 (https://whyy.org/articles/philadelphia-city-council-housing-plan-800-million/); WHYY March 30, 2026 (https://whyy.org/articles/philadelphia-housing-plan-renters-homeowners/) (accessed 2026-05-03). Supports MC-08; G7-SD5-06 calibration.
-
-24. **Philadelphia Inquirer, "Mayor Cherelle Parker's housing plan is back on track after Council again reapproved $800 million in city bonds,"** January 22, 2026. URL: https://www.inquirer.com/politics/philadelphia/mayor-cherelle-parker-housing-plan-bonds-reapproved-20260122.html (accessed 2026-05-03). Supports MC-08.
-
-25. **National League of Cities, Brooks article on Philadelphia H.O.M.E. plan,** December 4, 2025. URL: https://www.nlc.org/article/2025/12/04/philadelphias-housing-crisis-demands-bold-action-mayor-parkers-2-billion-h-o-m-e-plan-delivers/ (accessed 2026-05-03). Supports MC-08.
-
-### Constitutional / case-law sources (post-*Grants Pass*)
-
-26. **City of Grants Pass v. Johnson,** 603 U.S. 520 (2024). URL: https://www.supremecourt.gov/opinions/23pdf/23-175_19m2.pdf (accessed 2026-05-03). Pre-existing case citation; baseline for MC-09.
-
-27. **State-constitution post-*Grants Pass* litigation coverage,** Cascade PBS (December 2024 / June 2025). URL: https://www.cascadepbs.org/news/2024/12/six-wa-cities-pass-anti-homeless-laws-after-grants-pass-decision/ (accessed 2026-05-03). Supports MC-09.
-
-28. **National Alliance to End Homelessness, "The Supreme Court Rules on Homelessness: What it All Means,"** 2024-2025. URL: https://endhomelessness.org/blog/the-supreme-court-rules-on-homelessness-what-it-all-means/ (accessed 2026-05-03). Supports MC-09.
-
-29. **League of Oregon Cities, "Implications of the U.S. Supreme Court Decision in Grants Pass v. Johnson,"** 2024. URL: https://www.orcities.org/resources/communications/local-focus/implications-grants-pass-v-johnson (accessed 2026-05-03). Supports MC-09.
-
-### VAWA / housing protections
-
-30. **National Housing Law Project (NHLP), "Protections for Survivors of Gender-Based Violence,"** updated 2025-2026. URL: https://www.nhlp.org/initiatives/protections-for-survivors-of-domestic-and-sexual-violence/ (accessed 2026-05-03). Supports T7-SD6-05 disposition (no reauthorization since 2022; HUD revised forms June 2025).
-
-### Penn / anchor institution context
-
-31. **Penn for PILOTs campaign FAQ,** updated 2024-2026. URL: https://www.pennforpilots.org/faqs (accessed 2026-05-03). Supports F7-SD1-04 disposition (Penn $10M/year educational contribution status; full PILOT not in place).
+*Normalized 2026-05-22 per site-references-formatting-guide.md spec. 34 entries (S-01 through S-34); source was a 31-entry Phase 3 sidecar CR with one multi-URL bundle (old entry 23, four WHYY articles) split into four separate entries. All entries are Phase 3 retrieval sources accessed 2026-05-03.*
 
 ---
 
-*Note on Citation Registry construction.* Per M2 v1.2 §7 Capability 3 + Standard 17, where Phase 3 retrieval engaged a governmental score that has been updated by a subsequent baseline (D12 SD4 OBBBA architectural finding crossing into D7 housing-assistance interface; the CBO July 2025 → February 2026 baseline discipline; D9 SD4 anchor PILOT cost discipline), the original score is preserved as primary architectural finding and the updated baseline is added as supplementary citation with explicit comparator. D7 Phase 3 did not introduce new governmental scores at the synthesis level; cross-domain references operate per the receiving domain's Standard 17 disposition. The Citation Registry above is therefore not Standard 17 active for D7's own findings.
+### Federal Statutes and Regulations
+
+<a id="s-01"></a>
+
+#### S-01 — HUD AFFH Interim Final Rule, March 5, 2025 [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, "Restoring Affirmatively Furthering Fair Housing Definitions and Certifications," Interim Final Rule, March 5, 2025.
+
+**URL:** https://www.hud.gov/affh
+
+**Supports claims:** MC-01; G7-SD4-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Coverage also at https://nlihc.org/resource/hud-releases-weakened-affh-interim-final-rule-sen-warren-and-rep-waters-condemn (accessed 2026-05-03). IFR remains pending finalization; no successor "equity-plan" rulemaking anticipated at HUD.
 
 ---
+
+<a id="s-02"></a>
+
+#### S-02 — HUD NPRM: Disparate Impact Standard, 91 Fed. Reg. 1475 (Jan. 14, 2026) [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, "HUD's Implementation of the Fair Housing Act's Disparate Impact Standard," Notice of Proposed Rulemaking, 91 Fed. Reg. 1475 (January 14, 2026).
+
+**URL:** https://www.federalregister.gov/documents/2026/01/14/2026-00590/huds-implementation-of-the-fair-housing-acts-disparate-impact-standard
+
+**Supports claims:** MC-02; G7-SD4-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Proposes to remove and reserve 24 CFR Part 100 Subpart G (§ 100.500) without replacement. Comment period closed February 13, 2026. Final rule pending (accessed 2026-05-03).
+
+---
+
+<a id="s-03"></a>
+
+#### S-03 — DOJ Final Rule Rescinding Title VI Disparate-Impact Provisions, Dec. 9, 2025 [VERIFIED]
+
+**Citation:** U.S. Department of Justice, Final Rule rescinding disparate-impact liability provisions in Title VI of the Civil Rights Act implementing regulations, December 9, 2025.
+
+**URL:** https://naahq.org/news/federal-regulatory-changes-seek
+
+**Supports claims:** MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Coverage via NAAHQ roundup of federal regulatory changes (accessed 2026-05-03).
+
+---
+
+<a id="s-04"></a>
+
+#### S-04 — One Big Beautiful Bill Act (OBBBA), P.L. 119-21, July 4, 2025 [VERIFIED]
+
+**Citation:** One Big Beautiful Bill Act, P.L. 119-21, signed July 4, 2025; CFPB funding cap reduction at Title VII reconciliation provision.
+
+**URL:** https://www.consumerfinancialserviceslawmonitor.com/2026/02/gao-details-cfpb-reorganization-funding-cuts-and-litigation/
+
+**Supports claims:** MC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** OBBBA reduced CFPB statutory funding cap from 12% to 6.5% of Federal Reserve 2009 operating expenses. Coverage accessed 2026-05-03.
+
+---
+
+<a id="s-05"></a>
+
+#### S-05 — FY2026 Consolidated Appropriations Act, P.L. 119-75, Feb. 3, 2026 [VERIFIED]
+
+**Citation:** Consolidated Appropriations Act, FY2026, P.L. 119-75, enacted February 3, 2026; CoC bridge-renewal provisions at general provisions section.
+
+**URL:** https://community.solutions/the-impact-of-huds-2025-nofo/
+
+**Supports claims:** MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Additional coverage at https://schoolhouseconnection.org/article/congressional-fy26-deal-key-wins-for-homeless-children-and-youth. Provisions include automatic CoC renewal schedule, June 1, 2026 deadline for FY2026 NOFO, TBRA at $34.4–34.9B, Tenant Protection Vouchers $600–601M (accessed 2026-05-03).
+
+---
+
+<a id="s-06"></a>
+
+#### S-06 — HUD HOME Program 2025 Final Rule, 90 Fed. Reg. 876 (Jan. 6, 2025) [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, "HOME Investment Partnerships Program: Program Updates and Streamlining," Final Rule, 90 Fed. Reg. 876 (January 6, 2025); supplemental updates at 90 Fed. Reg. 48443 (October 22, 2025); VAWA tenancy addenda effective April 30, 2026. CRS R48422.
+
+**URL:** https://www.congress.gov/crs_external_products/R/PDF/R48422/R48422.6.pdf
+
+**Supports claims:** T7-SD6-05 (partial); T7-SD3-01 (partial)
+
+**Verification status:** VERIFIED
+
+**Notes:** CRS R48422 accessed 2026-05-03.
+
+---
+
+### Executive Orders
+
+<a id="s-07"></a>
+
+#### S-07 — EO 14281: Restoring Equality of Opportunity and Meritocracy, Apr. 23, 2025 [VERIFIED]
+
+**Citation:** Executive Order 14281, "Restoring Equality of Opportunity and Meritocracy," April 23, 2025 (90 Fed. Reg.).
+
+**URL:** https://www.consumerfinancemonitor.com/2026/01/14/hud-proposes-to-remove-its-fair-housing-act-disparate-impact-rule/
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** EO directs removal of disparate-impact regulatory framework; cross-references MC-01 and MC-06. Coverage accessed 2026-05-03.
+
+---
+
+### Court Decisions and Litigation
+
+<a id="s-08"></a>
+
+#### S-08 — NTEU v. Vought, D.C. Cir. (en banc 2025–2026) [VERIFIED]
+
+**Citation:** *NTEU v. Vought*, D.C. Circuit, ongoing 2025–2026; en banc oral argument February 2026.
+
+**URL:** https://www.govexec.com/workforce/2026/02/fate-cfpb-employees-hang-balance-judges-consider-agencys-future/411662/
+
+**Supports claims:** MC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Additional coverage at https://www.govexec.com/workforce/2026/04/consumer-watchdog-agency-asks-court-permission-slash-its-workforce-two-thirds/412598/ (accessed 2026-05-03). Concerns CFPB personnel actions and RIF authority.
+
+---
+
+<a id="s-09"></a>
+
+#### S-09 — RI Dist. Court, HUD CoC Preliminary Injunction, Dec. 23, 2025 [VERIFIED]
+
+**Citation:** U.S. District Court for the District of Rhode Island, preliminary injunction (consolidated cases), December 23, 2025; directing HUD to process CoC renewals under FY2024–25 NOFO terms.
+
+**URL:** https://shelterforce.org/2026/01/23/judge-blocks-hud-overhaul-federal-funding-for-homelessness-services/
+
+**Supports claims:** MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Coverage via Shelterforce (accessed 2026-05-03). FY2024–25 NOFO reopened January 9, 2026 with February 9, 2026 submission deadline.
+
+---
+
+<a id="s-10"></a>
+
+#### S-10 — City of Grants Pass v. Johnson, 603 U.S. 520 (2024) [VERIFIED]
+
+**Citation:** *City of Grants Pass v. Johnson*, 603 U.S. 520 (2024), decided June 28, 2024.
+
+**URL:** https://www.supremecourt.gov/opinions/23pdf/23-175_19m2.pdf
+
+**Supports claims:** MC-09; G7-SD6-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-existing case citation; baseline constitutional holding for MC-09 post-*Grants Pass* landscape analysis. SCOTUS opinion accessed 2026-05-03.
+
+---
+
+### Federal Agency Materials
+
+<a id="s-11"></a>
+
+#### S-11 — HUD Federal Register Notice: FHEO Guidance Withdrawal, Apr. 6, 2026 [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, Federal Register notice, withdrawal of eight FHEO guidance documents, April 6, 2026.
+
+**URL:** https://nlihc.org/resource/hud-releases-weakened-affh-interim-final-rule
+
+**Supports claims:** MC-01; MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** NLIHC April 13, 2026 update covering FHEO guidance withdrawal (accessed 2026-05-03).
+
+---
+
+<a id="s-12"></a>
+
+#### S-12 — HUD FHEO Guidance Memo on Enforcement Prioritization, Sep. 16, 2025 [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, FHEO Guidance Memorandum on Fair Housing Enforcement and Prioritization of Resources, September 16, 2025.
+
+**URL:** https://naahq.org/news/federal-regulatory-changes-seek
+
+**Supports claims:** MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Memo states FHEO will prioritize intentional discrimination claims over disparate-impact claims. Coverage via NAAHQ (accessed 2026-05-03).
+
+---
+
+<a id="s-13"></a>
+
+#### S-13 — HUD Sec. Turner Letter to PHAs on Criminal Screening, Nov. 25, 2025 [VERIFIED]
+
+**Citation:** HUD Secretary Turner, letter to PHAs and assisted-housing owners on criminal screening ("One Strike and You're Out" framing), November 25, 2025.
+
+**URL:** https://naahq.org/news/federal-regulatory-changes-seek
+
+**Supports claims:** MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Coverage via NAAHQ roundup of federal regulatory changes (accessed 2026-05-03).
+
+---
+
+<a id="s-14"></a>
+
+#### S-14 — GAO Report GAO-26-108448: CFPB Reorganization Status, Feb. 9, 2026 [VERIFIED]
+
+**Citation:** U.S. Government Accountability Office, GAO-26-108448, "Consumer Financial Protection Bureau: Status of Reorganization Efforts," February 9, 2026.
+
+**URL:** https://www.gao.gov/products/gao-26-108448
+
+**Supports claims:** MC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** GAO report on CFPB restructuring, funding cuts, and litigation (accessed 2026-05-03).
+
+---
+
+<a id="s-15"></a>
+
+#### S-15 — OCC/FRB/FDIC Joint Announcement: CRA Rule Rescission Intent, Mar. 28, 2025 [VERIFIED]
+
+**Citation:** Office of the Comptroller of the Currency, Federal Reserve Board, and Federal Deposit Insurance Corporation, Joint Announcement of Intent to Rescind 2023 CRA Final Rule and reinstate pre-2023 framework, March 28, 2025.
+
+**URL:** https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-ia-2025-26.html
+
+**Supports claims:** MC-04; G7-SD2-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Joint announcement also available at FRB and FDIC press releases (accessed 2026-05-03).
+
+---
+
+<a id="s-16"></a>
+
+#### S-16 — OCC/FRB/FDIC Joint NPRM: Rescind 2023 CRA Rule, Jul. 16, 2025 [VERIFIED]
+
+**Citation:** Office of the Comptroller of the Currency, Federal Reserve Board, and Federal Deposit Insurance Corporation, Joint Notice of Proposed Rulemaking proposing to rescind 2023 CRA Final Rule and reinstate 1995 framework with technical amendments, July 16, 2025.
+
+**URL:** https://www.federalreserve.gov/consumerscommunities/community-reinvestment-act-final-rule.htm
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03. The 1995 CRA framework remains operative pending the rescission rulemaking.
+
+---
+
+<a id="s-17"></a>
+
+#### S-17 — HUD FY2025 CoC NOFO (Nov. 2025, rescinded Dec. 2025, reopened Jan. 2026) [VERIFIED]
+
+**Citation:** U.S. Department of Housing and Urban Development, FY2025 Continuum of Care NOFO, released November 13, 2025; rescinded December 8, 2025; FY2024–25 NOFO reopened January 9, 2026. CRS IN12626 (February 4, 2026).
+
+**URL:** https://shelterforce.org/2026/01/23/judge-blocks-hud-overhaul-federal-funding-for-homelessness-services/
+
+**Supports claims:** MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Original NOFO included anti-DEI conditions and 30% cap on permanent-housing funding. Rescission followed two lawsuits filed November–December 2025. CRS IN12626 at https://www.congress.gov/crs-product/IN12626 (accessed 2026-05-03).
+
+---
+
+### State and Local Authority
+
+<a id="s-18"></a>
+
+#### S-18 — PA Senate Bill 546 (2025–26): Rent Control Advisory Board [VERIFIED]
+
+**Citation:** Pennsylvania Senate Bill 546 (2025–2026 Regular Session), "An Act amending the act of April 6, 1951 (P.L.69, No.20), known as The Landlord and Tenant Act of 1951… establishing the Rent Control Advisory Board."
+
+**URL:** https://www.palegis.us/legislation/bills/2025/sb546
+
+**Supports claims:** T7-SD3-02 disposition
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03. PA state-level preemption of local rent control remains in effect; SB 546 is a pending legislative vehicle, not enacted.
+
+---
+
+<a id="s-19"></a>
+
+#### S-19 — PA House Bill 72 (2025–26): DV Survivor Lease Protections [VERIFIED]
+
+**Citation:** Pennsylvania House Bill 72 (2025–2026 Regular Session), Article V-C protecting domestic-violence survivors via early lease termination and 10% rent-increase cap.
+
+**URL:** https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB0072/PN0060
+
+**Supports claims:** T7-SD3-02 disposition
+
+**Verification status:** VERIFIED
+
+**Notes:** Coverage also at https://appelyost.com/landlord-tenant-laws-in-pennsylvania-what-every-landlord-should-know/ (accessed 2026-05-03).
+
+---
+
+<a id="s-20"></a>
+
+#### S-20 — PA FY2024-25 Budget: Statewide RTC Appropriation, July 2024 [VERIFIED]
+
+**Citation:** Pennsylvania FY 2024-25 Budget, statewide right-to-counsel program, $2.5 million appropriation, July 2024.
+
+**URL:** https://whyy.org/articles/pennsylvania-right-to-counsel-evictions/
+
+**Supports claims:** MC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** PA is one of six states with statewide RTC (eligibility ≤125% FPL). Accessed 2026-05-03.
+
+---
+
+<a id="s-21"></a>
+
+#### S-21 — Philadelphia DHCD: RTC Expansion Announcement, Apr. 28, 2026 [VERIFIED]
+
+**Citation:** City of Philadelphia Department of Housing and Community Development (DHCD), "City Officials Announce Expansion of Right to Counsel for Eligible Tenants Facing Eviction," April 28, 2026.
+
+**URL:** https://www.phila.gov/2026-04-29-city-officials-announce-expansion-of-right-to-counsel-for-eligible-tenants-facing-eviction/
+
+**Supports claims:** MC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** Expansion added ZIP codes 19131 and 19153 (identified by Reinvestment Fund as highest-need); total coverage now ten ZIP codes as of April 2026. Accessed 2026-05-03.
+
+---
+
+<a id="s-22"></a>
+
+#### S-22 — City of Philadelphia: H.O.M.E. Plan Announcement, Mar. 25, 2025 [VERIFIED]
+
+**Citation:** City of Philadelphia, "Mayor Cherelle L. Parker Unveils Historic $2 Billion H.O.M.E. Housing Plan to Create and Preserve 30,000 Homes," March 25, 2025.
+
+**URL:** https://www.phila.gov/2025-03-25-mayor-cherelle-l-parker-unveils-historic-2-billion-h-o-m-e-housing-plan-to-create-and-preserve-30000-homes/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Plan: 30,000-unit goal (13,500 new + 16,500 preserved); $800M in bonds (two $400M tranches); $1B publicly owned land; $200M+ from federal HOME/CDBG/HOPWA/ESG/HTF/General Fund. Accessed 2026-05-03.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-23"></a>
+
+#### S-23 — Civil Right to Counsel National Coalition: Philadelphia RTC Tracker [VERIFIED]
+
+**Citation:** Civil Right to Counsel National Coalition, "All about Philadelphia's eviction right to counsel," updated 2026.
+
+**URL:** https://civilrighttocounsel.org/major_developments/all-about-philadelphias-eviction-right-to-counsel/
+
+**Supports claims:** MC-07; G7-SD3-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Tracks RTC implementation: FY25 outcomes include 4,600+ households served, zero default judgments for represented tenants, 80%+ housing-preserved rate. Accessed 2026-05-03.
+
+---
+
+<a id="s-24"></a>
+
+#### S-24 — National League of Cities: Philadelphia H.O.M.E. Plan Analysis, Dec. 4, 2025 [VERIFIED]
+
+**Citation:** National League of Cities, Brooks, "Philadelphia's Housing Crisis Demands Bold Action — Mayor Parker's $2 Billion H.O.M.E. Plan Delivers," December 4, 2025.
+
+**URL:** https://www.nlc.org/article/2025/12/04/philadelphias-housing-crisis-demands-bold-action-mayor-parkers-2-billion-h-o-m-e-plan-delivers/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+<a id="s-25"></a>
+
+#### S-25 — NAEH: Post–Grants Pass Homelessness Policy Analysis [VERIFIED]
+
+**Citation:** National Alliance to End Homelessness, "The Supreme Court Rules on Homelessness: What it All Means," 2024–2025.
+
+**URL:** https://endhomelessness.org/blog/the-supreme-court-rules-on-homelessness-what-it-all-means/
+
+**Supports claims:** MC-09; G7-SD6-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+<a id="s-26"></a>
+
+#### S-26 — League of Oregon Cities: Grants Pass Decision Implications, 2024 [VERIFIED]
+
+**Citation:** League of Oregon Cities, "Implications of the U.S. Supreme Court Decision in Grants Pass v. Johnson," 2024.
+
+**URL:** https://www.orcities.org/resources/communications/local-focus/implications-grants-pass-v-johnson
+
+**Supports claims:** MC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+<a id="s-27"></a>
+
+#### S-27 — NHLP: Protections for Survivors of Gender-Based Violence, 2025–26 [VERIFIED]
+
+**Citation:** National Housing Law Project (NHLP), "Protections for Survivors of Gender-Based Violence," updated 2025–2026.
+
+**URL:** https://www.nhlp.org/initiatives/protections-for-survivors-of-domestic-and-sexual-violence/
+
+**Supports claims:** T7-SD6-05 (VAWA housing protections; no reauthorization since 2022; HUD revised forms June 2025)
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+### Press / News Reporting
+
+<a id="s-28"></a>
+
+#### S-28 — WHYY: Philadelphia H.O.M.E. Plan Council Approval, Jun. 12, 2025 [VERIFIED]
+
+**Citation:** WHYY / PlanPhilly, "Philadelphia City Council approves Mayor Parker's housing plan," June 12, 2025.
+
+**URL:** https://whyy.org/articles/mayor-parker-housing-plan-approved-philadelphia/
+
+**Supports claims:** MC-08; G7-SD5-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Reports initial City Council approval of bond authorization. Accessed 2026-05-03. Split from old multi-URL bundle (old entry 23).
+
+---
+
+<a id="s-29"></a>
+
+#### S-29 — WHYY: Philadelphia H.O.M.E. Plan Parker / Council, Dec. 12, 2025 [VERIFIED]
+
+**Citation:** WHYY / PlanPhilly, Philadelphia H.O.M.E. housing plan Parker / City Council coverage, December 12, 2025.
+
+**URL:** https://whyy.org/articles/philadelphia-housing-plan-parker-city-council/
+
+**Supports claims:** MC-08; G7-SD5-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Reports Council passage of amended budget resolution requiring redo of bond ordinance. Accessed 2026-05-03. Split from old multi-URL bundle (old entry 23).
+
+---
+
+<a id="s-30"></a>
+
+#### S-30 — WHYY: Philadelphia H.O.M.E. Plan Bond Reapproval, Jan. 23, 2026 [VERIFIED]
+
+**Citation:** WHYY / PlanPhilly, "Philadelphia City Council unanimously reapproved bond authorization for H.O.M.E. housing plan," January 23, 2026.
+
+**URL:** https://whyy.org/articles/philadelphia-city-council-housing-plan-800-million/
+
+**Supports claims:** MC-08; G7-SD5-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Reports January 22, 2026 unanimous Council reapproval of revised bond ordinance. Accessed 2026-05-03. Split from old multi-URL bundle (old entry 23).
+
+---
+
+<a id="s-31"></a>
+
+#### S-31 — WHYY: Philadelphia H.O.M.E. Plan Renters / Homeowners, Mar. 30, 2026 [VERIFIED]
+
+**Citation:** WHYY / PlanPhilly, Philadelphia H.O.M.E. housing plan: renters and homeowners coverage, March 30, 2026.
+
+**URL:** https://whyy.org/articles/philadelphia-housing-plan-renters-homeowners/
+
+**Supports claims:** MC-08; G7-SD5-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Reports first $400M tranche issued late March / early April 2026. Accessed 2026-05-03. Split from old multi-URL bundle (old entry 23).
+
+---
+
+<a id="s-32"></a>
+
+#### S-32 — Philadelphia Inquirer: H.O.M.E. Plan Bond Reapproval, Jan. 22, 2026 [VERIFIED]
+
+**Citation:** Philadelphia Inquirer, "Mayor Cherelle Parker's housing plan is back on track after Council again reapproved $800 million in city bonds," January 22, 2026.
+
+**URL:** https://www.inquirer.com/politics/philadelphia/mayor-cherelle-parker-housing-plan-bonds-reapproved-20260122.html
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+<a id="s-33"></a>
+
+#### S-33 — Cascade PBS: Post–Grants Pass Anti-Homeless Laws Coverage, Dec. 2024 [VERIFIED]
+
+**Citation:** Cascade PBS, "Six WA cities pass anti-homeless laws after Grants Pass decision," December 2024 / June 2025.
+
+**URL:** https://www.cascadepbs.org/news/2024/12/six-wa-cities-pass-anti-homeless-laws-after-grants-pass-decision/
+
+**Supports claims:** MC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** Documents six Washington cities (Aberdeen, Auburn, Kennewick, Lakewood, Richland, Spokane) passing new or modified anti-encampment laws in the year following *Grants Pass*. Accessed 2026-05-03.
+
+---
+
+### Other Primary Sources
+
+<a id="s-34"></a>
+
+#### S-34 — Penn for PILOTs Campaign FAQ, updated 2024–2026 [VERIFIED]
+
+**Citation:** Penn for PILOTs campaign, Frequently Asked Questions, updated 2024–2026.
+
+**URL:** https://www.pennforpilots.org/faqs
+
+**Supports claims:** F7-SD1-04 (Penn $10M/year educational contribution status; full PILOT not in place)
+
+**Verification status:** VERIFIED
+
+**Notes:** Accessed 2026-05-03.
+
+---
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 31 | 34 |
+| New entries added during pass | — | 0 |
+| Entries retired (duplicate / superseded) | — | 0 |
+| Multi-URL bundles split | — | 1 (old entry 23 → S-28, S-29, S-30, S-31; resulting in 3 new entries) |
+| Source-workspace entries promoted | — | N/A |
+
+**Old-ID → new S-NN mapping**
+
+| Old numbered entry | New S-NN | Category |
+|---|---|---|
+| 1 (HUD AFFH IFR) | S-01 | Federal Statutes and Regulations |
+| 3 (HUD NPRM disparate impact) | S-02 | Federal Statutes and Regulations |
+| 6 (DOJ Final Rule Title VI) | S-03 | Federal Statutes and Regulations |
+| 9 (OBBBA P.L. 119-21) | S-04 | Federal Statutes and Regulations |
+| 15 (FY2026 Appropriations Act) | S-05 | Federal Statutes and Regulations |
+| 16 (HUD HOME 2025 Final Rule) | S-06 | Federal Statutes and Regulations |
+| 4 (EO 14281) | S-07 | Executive Orders |
+| 10 (NTEU v. Vought) | S-08 | Court Decisions and Litigation |
+| 14 (RI Court CoC injunction) | S-09 | Court Decisions and Litigation |
+| 26 (Grants Pass v. Johnson) | S-10 | Court Decisions and Litigation |
+| 2 (HUD FHEO guidance withdrawal notice) | S-11 | Federal Agency Materials |
+| 5 (HUD FHEO Guidance Memo Sep 2025) | S-12 | Federal Agency Materials |
+| 7 (HUD Sec. Turner letter Nov 2025) | S-13 | Federal Agency Materials |
+| 8 (GAO-26-108448 CFPB report) | S-14 | Federal Agency Materials |
+| 11 (OCC/FRB/FDIC announcement Mar 2025) | S-15 | Federal Agency Materials |
+| 12 (OCC/FRB/FDIC NPRM Jul 2025) | S-16 | Federal Agency Materials |
+| 13 (HUD FY2025 CoC NOFO) | S-17 | Federal Agency Materials |
+| 17 (PA SB 546) | S-18 | State and Local Authority |
+| 18 (PA HB 72) | S-19 | State and Local Authority |
+| 19 (PA FY2024-25 Budget RTC) | S-20 | State and Local Authority |
+| 20 (Philadelphia DHCD RTC announcement) | S-21 | State and Local Authority |
+| 22 (Philadelphia H.O.M.E. plan announcement) | S-22 | State and Local Authority |
+| 21 (Civil Right to Counsel tracker) | S-23 | Research Reports / Policy Analysis |
+| 25 (NLC Brooks article) | S-24 | Research Reports / Policy Analysis |
+| 28 (NAEH post-Grants Pass article) | S-25 | Research Reports / Policy Analysis |
+| 29 (League of Oregon Cities) | S-26 | Research Reports / Policy Analysis |
+| 30 (NHLP VAWA protections) | S-27 | Research Reports / Policy Analysis |
+| 23a (WHYY June 12, 2025 — split) | S-28 | Press / News Reporting |
+| 23b (WHYY December 12, 2025 — split) | S-29 | Press / News Reporting |
+| 23c (WHYY January 23, 2026 — split) | S-30 | Press / News Reporting |
+| 23d (WHYY March 30, 2026 — split) | S-31 | Press / News Reporting |
+| 24 (Philadelphia Inquirer Jan 22, 2026) | S-32 | Press / News Reporting |
+| 27 (Cascade PBS post-Grants Pass) | S-33 | Press / News Reporting |
+| 31 (Penn for PILOTs FAQ) | S-34 | Other Primary Sources |
+
+**Body-cited gaps**
+
+None detected. All MC entries (MC-01 through MC-10) mapped to existing CR entries. MC-10 (structural prefix normalization) has no external sources.
+
+**Category decisions**
+
+- Entry 4 (EO 14281): Categorized as Executive Orders, not Federal Statutes and Regulations; primarily supports MC-02 (disparate impact rule removal) and cross-references MC-01/MC-06 but does not directly support MC-06's Sources line.
+- Entry 23 (WHYY multi-URL bundle, 4 articles): Split into S-28 through S-31 per spec bundle-split rule; all four list G7-SD5-06 as a secondary support claim alongside MC-08.
+- Entry 26 (Grants Pass v. Johnson): Categorized as Court Decisions and Litigation; listed in pre-normalization CR as "Pre-existing case citation; baseline for MC-09."
+- Entries 28–29 (NAEH; League of Oregon Cities): Categorized as Research Reports / Policy Analysis (policy-advocacy organization publications).
+
+
 
 *End of D7 Land & Property Phase 3 verified file (Tier-2 publication-ready). M2 v1.2 §7 verification structure verified: Title block + Material Changes Summary (Standard 11 four-field format; 10 entries; navigation aid to inline corrections) + Synthesis Sections 1–3 (composed at Phase 2 assembly; verification updates inline as italicized notes per M2 v1.2 §7 Capability 2 + Appendix A) + SD1–SD7 embedded with verification updates inline at body locations (principal anchors at SD2 §2, SD3 §2, SD4 §2, SD5 §2, SD6 §2; secondary cross-references at affected sub-section locations; SD2 prefix normalized throughout per MC-10 Case 3 retain-shorthand-policy discipline) + Synthesis Sections 4–5 (updated; resolved flags removed from Section 4 inventory; remaining unresolved flags retained with Phase 3 disposition; Cluster H vector candidates moved to temporal-changes sidecar) + Self-Assessment footer (Phase 2 elements preserved; Phase 3 verification cycle's own self-assessment added 2026-05-03) + Citation Registry sidecar section (~30 web-fetched authoritative sources from Phase 3 retrieval). Sidecar artifacts: `temporal-changes_D7_2026-05-03.md` (Standard 18.A vector format; cumulative cross-cycle persistence record) and `unverified-items_D7_2026-05-03.md` (UV-NN entries; verification-gap accountability log). Pattern 12 enforcement satisfied at the M2 v1.2 Appendix A case-appropriate granularity for each Material Changes Summary entry. Phase 3 verification complete. Handoff in `D7_landProp_handoff_2026-05-03.md`.*

@@ -42,6 +42,7 @@ This verified output is the polished consumable form of the D4 foodMed analytica
 
 This section documents temporal changes in law, regulation, program, or institutional state identified during the verification pass between the second-pass draft date (2026-04-28/29) and the verification execution date (2026-04-29). The four-field format (what it was / what it is now / when it changed / what it affects) supports downstream temporal-change visualization and cross-domain handoff continuity.
 
+<a id="mc-v-1"></a>
 ## MC-V-1 — DEA Marijuana Schedule III effective date correction
 
 **What it was (in second-pass OUTPUT):** Today-effective DEA Final Order placing FDA-approved + state-licensed medical marijuana → Schedule III; effective April 29, 2026 (= execution date); 60-day priority window through June 22, 2026.
@@ -50,8 +51,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** April 22-28, 2026 (DOJ Final Order to FR publication).
 
-**Affects:** SD6 §10 TCT; SD6 §11 G1-SD6-06; F4-T2P2-SD6-2 verification flag (now retrievable starting today).
+**Affects:** SD6 §10 TCT; SD6 §11 <a id="g1-sd6-06"></a>G1-SD6-06; F4-T2P2-SD6-2 verification flag (now retrievable starting today).
 
+*Sources:* [S-01](#s-01), [S-75](#s-75), [S-76](#s-76)
+
+<a id="mc-v-2"></a>
 ## MC-V-2 — ACIP charter rewrite post-court-block
 
 **What it was (in second-pass OUTPUT):** Vaccine policy in active federal litigation; March 2026 federal court block restoring prior schedule pending litigation; prior schedule operative as of execution April 29, 2026.
@@ -60,8 +64,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** March 16, 2026 (court ruling); April 9, 2026 (charter rewrite).
 
-**Affects:** SD4 §10 TCT; SD4 §11 G1-SD4-02; F4-T2P2-SD4-2 verification flag.
+**Affects:** SD4 §10 TCT; SD4 §11 <a id="g1-sd4-02"></a>G1-SD4-02; F4-T2P2-SD4-2 verification flag.
 
+*Sources:* [S-07](#s-07), [S-37](#s-37), [S-41](#s-41), [S-57](#s-57), [S-58](#s-58), [S-59](#s-59), [S-77](#s-77)
+
+<a id="mc-v-3"></a>
 ## MC-V-3 — FSIS NRTE breaded stuffed chicken verification activities indefinitely delayed (December 2025; additional withdrawal beyond April 2025 framework)
 
 **What it was (in second-pass OUTPUT):** April 25, 2025 Salmonella Framework for Raw Poultry Products withdrawn (90 FR 17344); January 14, 2026 FSIS public meeting "exploring practical strategies" status flagged; replacement pathway pending.
@@ -70,8 +77,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** December 2025 (NRTE delay); January 14, 2026 (public meeting + Brashears sworn in); comment period extended through March 4, 2026.
 
-**Affects:** SD2 §10 TCT; SD2 §11 G1-SD2-02 (Salmonella regulatory pathway); F4-T2P2-SD2-1 verification flag (cheaper-cut exposure pathway data verified at 24.2% comminuted detection rate).
+**Affects:** SD2 §10 TCT; SD2 §11 <a id="g1-sd2-02"></a>G1-SD2-02 (Salmonella regulatory pathway); F4-T2P2-SD2-1 verification flag (cheaper-cut exposure pathway data verified at 24.2% comminuted detection rate).
 
+*Sources:* [S-02](#s-02), [S-03](#s-03), [S-13](#s-13)
+
+<a id="mc-v-4"></a>
 ## MC-V-4 — IRA Round 2 MFPs announced (November 25, 2025); OBBBA orphan-drug exclusion broadened (July 4, 2025); GENEROUS Model launch (January 1, 2026)
 
 **What it was (in second-pass OUTPUT):** IRA MFP first-round January 1, 2026 effective; Trump 2 EO 14273 redirection pressure; Round 2 (15 drugs) effective January 1, 2027.
@@ -80,8 +90,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** April 15, 2025 (EO 14273); July 4, 2025 (OBBBA); November 25, 2025 (Round 2 announcement); January 1, 2026 (Round 1 effective + GENEROUS launch).
 
-**Affects:** SD3 §10 TCT; SD3 §11 G1-SD3-01 + G1-SD3-05; F4-T2P2-SD3-2 + F4-T2P2-SD3-3 verification flags.
+**Affects:** SD3 §10 TCT; SD3 §11 <a id="g1-sd3-01"></a>G1-SD3-01 + <a id="g1-sd3-05"></a>G1-SD3-05; F4-T2P2-SD3-2 + F4-T2P2-SD3-3 verification flags.
 
+*Sources:* [S-04](#s-04), [S-05](#s-05), [S-14](#s-14), [S-15](#s-15), [S-25](#s-25), [S-26](#s-26), [S-27](#s-27), [S-28](#s-28), [S-29](#s-29), [S-30](#s-30), [S-78](#s-78), [S-79](#s-79)
+
+<a id="mc-v-5"></a>
 ## MC-V-5 — Casgevy + Lyfgenia uptake quantified (NEW data; Philadelphia paradox structurally confirmed)
 
 **What it was (in second-pass OUTPUT):** Casgevy / Lyfgenia uptake at Penn / CHOP qualitatively low; "Philadelphia paradox"; quantification flagged F4-T2P2-SD4-1 P1.
@@ -90,8 +103,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** Continuous quantification updates through 2025 earnings cycles; February 2026 Vertex FY25 earnings release; Genetix Bio reorganization 2025.
 
-**Affects:** SD4 §11 G1-SD4-01 (= G1-XC-05) Philadelphia paradox; F4-T2P2-SD4-1 verification flag (quantitatively VERIFIED at national level; PA-3 specific uptake remains pending — Penn/CHOP institutional reporting).
+**Affects:** SD4 §11 <a id="g1-sd4-01"></a>G1-SD4-01 (= <a id="g1-xc-05"></a>G1-XC-05) Philadelphia paradox; F4-T2P2-SD4-1 verification flag (quantitatively VERIFIED at national level; PA-3 specific uptake remains pending — Penn/CHOP institutional reporting).
 
+*Sources:* [S-39](#s-39), [S-40](#s-40), [S-70](#s-70), [S-71](#s-71), [S-72](#s-72), [S-74](#s-74)
+
+<a id="mc-v-6"></a>
 ## MC-V-6 — Menthol withdrawal date precision (January 21, 2025; AATCLC v. HHS pending litigation)
 
 **What it was (in second-pass OUTPUT):** Menthol cigarette ban WITHDRAWN January 2025 (RIN 0910-AI60); characterizing-flavors-in-cigars rule WITHDRAWN; preamble explicitly cited Black-community disparate-impact rationale.
@@ -100,8 +116,11 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** January 21, 2025 (withdrawal); ongoing AATCLC v. HHS litigation.
 
-**Affects:** SD5 §10 TCT; SD5 §11 G1-SD5-01; F4-T2P2-SD5-2 verification flag.
+**Affects:** SD5 §10 TCT; SD5 §11 <a id="g1-sd5-01"></a>G1-SD5-01; F4-T2P2-SD5-2 verification flag.
 
+*Sources:* [S-38](#s-38)
+
+<a id="mc-v-7"></a>
 ## MC-V-7 — FDA RIF detailed quantification (April 1, 2025; per-Center actuals; Rhode Island injunction CTP)
 
 **What it was (in second-pass OUTPUT):** April 2025 FDA RIF ~3,500; ~20% workforce loss through early 2026; CDER 5-director sequence; CBER + CDRH leadership uncertainty; CTP Office of Regulations decimation.
@@ -112,6 +131,9 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **Affects:** SD7 §10 TCT (federal-cluster); SD3 + SD4 + SD5 §10 TCT per-Center; SD5 G1-SD5-01 admin vulnerability framing; F4-T2P2-SD7-1 verification flag.
 
+*Sources:* [S-32](#s-32), [S-33](#s-33), [S-34](#s-34), [S-35](#s-35), [S-51](#s-51), [S-52](#s-52), [S-54](#s-54), [S-55](#s-55), [S-80](#s-80)
+
+<a id="mc-v-8"></a>
 ## MC-V-8 — USDA ERS termination announcement date precision (September 20, 2025); final ERR-358 published December 2025 post-shutdown
 
 **What it was (in second-pass OUTPUT):** USDA ERS Household Food Security report series terminated with 2024 edition; replacement-data-source status pending.
@@ -120,7 +142,9 @@ This section documents temporal changes in law, regulation, program, or institut
 
 **When it changed:** September 20, 2025 (announcement); December 2025 (final report published post-shutdown).
 
-**Affects:** SD1 §10 TCT; SD7 §10 TCT data-infrastructure rollback; SD1 G1-SD1-01 SNAP gap framing; F4-T2P2-SD7-2 verification flag.
+**Affects:** SD1 §10 TCT; SD7 §10 TCT data-infrastructure rollback; SD1 <a id="g1-sd1-01"></a>G1-SD1-01 SNAP gap framing; F4-T2P2-SD7-2 verification flag.
+
+*Sources:* [S-18](#s-18), [S-42](#s-42), [S-56](#s-56), [S-73](#s-73)
 
 ---
 
@@ -301,7 +325,7 @@ Cosmetics consumer baseline: PA-3 Black women cosmetics consumers — hair-produ
 
 Sub-area summary: documented FI elevation concentrates in North/Northwest Philadelphia Core + South/Southwest Philadelphia + portions of West Philadelphia Core; documented FI lower concentration in Northwest Philadelphia [D]. Cross-sub-area observation: corner-store unit-price premium pattern operates across all four sub-areas but compounds with FI concentration where SNAP-only retail-access geography is most concentrated [SD; premise: Healthy Corner Store Initiative coverage + ACS retailer density].
 
-Sub-area-disaggregation feasibility: F4-T2P2-SD1-1 P1 retrieval attempted in second pass; if PADHS data does not directly disaggregate to PA-3 sub-area, the [SD] inference posture is preserved with explicit premise statement (G1-SD1-06 deepening).
+Sub-area-disaggregation feasibility: F4-T2P2-SD1-1 P1 retrieval attempted in second pass; if PADHS data does not directly disaggregate to PA-3 sub-area, the [SD] inference posture is preserved with explicit premise statement (<a id="g1-sd1-06"></a>G1-SD1-06 deepening).
 
 ---
 
@@ -376,11 +400,11 @@ Triggering event: dietary supplement purchase and use. Institutional steps: DSHE
 | FFDCA Chapter IV foundational | 1938 | Federal food safety architecture established | [D]; foundational stability HIGH |
 | DSHEA enacted | 1994 | Dietary supplement framework established | [D]; foundational stability HIGH |
 | FSMA enacted | 2011 | Preventive-controls framework established | [D]; bipartisan implementation through 2022 final rules |
-| MoCRA enacted | 2022 | Cosmetics modernization framework — phased implementation 2026-2028 | [D]; implementation lag flagged G1-SD1-03 |
+| MoCRA enacted | 2022 | Cosmetics modernization framework — phased implementation 2026-2028 | [D]; implementation lag flagged <a id="g1-sd1-03"></a>G1-SD1-03 |
 | FDA HFP/OII reorganization | 2024-07-01 | FDA Foods Program restructured; OII consolidation; PA-3-relevant office implementation pending | [D]; F4-T1-XC-1 P2 verification flag — post-reorganization implementation status |
 | April 2025 FDA RIF | 2025-04 (announced and effective) | ~3,500 FDA RIF; ~20% workforce loss through early 2026; per-Center actuals flagged F4-T2P2-SD7-1 P1 | [D]; XC-9 timestamp discipline applies |
 | April 2025 USDA workforce reductions | 2025-04 | 11,300+ deferred resignations effective | [D]; XC-9 timestamp discipline applies |
-| USDA ERS Household Food Security report series final 2024 edition | 2024 (edition); 2025 (termination announcement) | Federal data infrastructure characterizing FI pattern terminated; replacement-data-source status pending | [D]; G1-SD1-04 + G1-SD7-03 cross-cutting; XC-9 timestamp discipline applies |
+| USDA ERS Household Food Security report series final 2024 edition | 2024 (edition); 2025 (termination announcement) | Federal data infrastructure characterizing FI pattern terminated; replacement-data-source status pending | [D]; <a id="g1-sd1-04"></a>G1-SD1-04 + <a id="g1-sd7-03"></a>G1-SD7-03 cross-cutting; XC-9 timestamp discipline applies |
 | MoCRA final regulations phased | 2026-2028 | Cosmetics safety substantiation regime operationally available; small-business exemption threshold operative | [D]; XC-9 timestamp discipline; XC-11 small-business reach flagged |
 | Felt-reality reach to Black PA-3 women cosmetics consumers in stated categories | 2026-2028 (post-final regulations); pending implementation-lag interval | MoCRA remediation availability lags phased final regulations | [SD]; XC-10 ITD note appended |
 
@@ -390,13 +414,13 @@ Triggering event: dietary supplement purchase and use. Institutional steps: DSHE
 
 **G1-SD1-01 — SNAP benefit-vs-need gap** [D + SD]; HIGH confidence. SNAP FY25 max ~$8.05/person/day (Source 1) intersects corner-store unit-price premium 10-30% (Source 9) and post-2021 27% food cost inflation (Source 11) producing structural benefit-vs-need gap at constituent level in compound-disadvantage sub-areas. Premise [SD]: arithmetic intersection at stated category level. Sub-area-level direct disaggregation pending F4-T2P2-SD1-1 P1.
 
-**G1-SD1-02 — Federal capacity erosion compounding routine inspection density variation** [D + SD]; MEDIUM-HIGH confidence. April 2025 FDA RIF + April 2025 USDA workforce reductions reduce federal-direct capacity at moment of structural concentration; PDPH OFP local-layer capacity stable but sub-area inspection density variation flagged.
+**<a id="g1-sd1-02"></a>G1-SD1-02 — Federal capacity erosion compounding routine inspection density variation** [D + SD]; MEDIUM-HIGH confidence. April 2025 FDA RIF + April 2025 USDA workforce reductions reduce federal-direct capacity at moment of structural concentration; PDPH OFP local-layer capacity stable but sub-area inspection density variation flagged.
 
 **G1-SD1-03 — MoCRA implementation lag affecting Black PA-3 women cosmetics consumers** [D + SI]; MEDIUM-HIGH confidence. MoCRA 2022 enactment + phased final regulations 2026-2028 = implementation-lag window during which Black PA-3 women cosmetics consumers using hair-products with documented chemical-exposure profile (peer-reviewed literature retrieval pending F4-T2P2-SD1-3 P1) remain in disparate-exposure window. **Second-pass deepening: XC-11 application — small-business exemption threshold reach to small / Black-owned cosmetics manufacturers structurally consequential.**
 
 **G1-SD1-04 — USDA ERS data-infrastructure rollback as statistical-visibility erosion** [D]; HIGH confidence. USDA ERS Household Food Security report series terminated with 2024 edition — federal data infrastructure characterizing FI pattern itself rolled back. Cross-cutting with G1-SD7-03 (MAHA-era data-infrastructure rollback). XC-9 timestamp discipline applied.
 
-**G1-SD1-05 — Industry-favorable substantive direction at moment of disparate-impact remediation opportunity** [SD]; MEDIUM confidence. Premise: documented co-occurrence (per XC-F + Step 1 §8 advocacy-language tightening) of MoCRA implementation lag + April 2025 FDA RIF + USDA ERS rollback at the SD1 sub-domain — the architecture that could substantively address documented disparate-impact patterns is operating within reduced capacity envelope. Cross-cutting with G1-XC-08.
+**<a id="g1-sd1-05"></a>G1-SD1-05 — Industry-favorable substantive direction at moment of disparate-impact remediation opportunity** [SD]; MEDIUM confidence. Premise: documented co-occurrence (per XC-F + Step 1 §8 advocacy-language tightening) of MoCRA implementation lag + April 2025 FDA RIF + USDA ERS rollback at the SD1 sub-domain — the architecture that could substantively address documented disparate-impact patterns is operating within reduced capacity envelope. Cross-cutting with <a id="g1-xc-08"></a>G1-XC-08.
 
 **G1-SD1-06 — Sub-area inspection density and disaggregation feasibility gap** [SD]; MEDIUM confidence. Sub-area inspection density variation operates on inferred [SD] data; direct disaggregation pending F4-T2P2-SD1-1 P1 + F4-T2P2-SD1-2 P2.
 
@@ -558,7 +582,7 @@ FSIS workforce affecting PA-3: April 2025 USDA workforce reductions (11,300+ def
 
 PA-3 meat / poultry retail infrastructure: West Philadelphia 52nd Street corridor halal density (concentration of independent halal butchers serving Muslim PA-3 community) [D]; Mt. Airy kosher concentration (concentration of independent kosher retail serving Jewish PA-3 community) [D]; South Philadelphia Italian Market + Vietnamese / Mexican carnicería + halal corridor (concentration of small / independent ethnic-market retail) [D]. Documented retailer-corridor data at sub-area resolution flagged F4-T2P2-SD2-3 P1.
 
-Cross-domain cross-ref: D2 Salmonella illness chronic-disease cross-cutting [SD]; D9 fiscal flow at SNAP-redemption interface [SD]; D11 workforce-protection at slaughter-processing labor (boundary-adjacent G1-SD2-03) [SD].
+Cross-domain cross-ref: D2 Salmonella illness chronic-disease cross-cutting [SD]; D9 fiscal flow at SNAP-redemption interface [SD]; D11 workforce-protection at slaughter-processing labor (boundary-adjacent <a id="g1-sd2-03"></a>G1-SD2-03) [SD].
 
 ---
 
@@ -653,19 +677,19 @@ Triggering event: opening or operating retail butcher / deli with USDA-exempt po
 
 ## §11. Gap Analysis (revised)
 
-**G1-SD2-01 — Salmonella regulatory tool absence post-withdrawal** [D]; HIGH confidence. April 25, 2025 Salmonella Framework withdrawal (90 FR 17344) eliminates regulatory tool addressing ~25% foodborne Salmonella illness; January 2026 FSIS public meeting on regulatory pathway represents replacement-tool development potential; status flagged.
+**<a id="g1-sd2-01"></a>G1-SD2-01 — Salmonella regulatory tool absence post-withdrawal** [D]; HIGH confidence. April 25, 2025 Salmonella Framework withdrawal (90 FR 17344) eliminates regulatory tool addressing ~25% foodborne Salmonella illness; January 2026 FSIS public meeting on regulatory pathway represents replacement-tool development potential; status flagged.
 
-**G1-SD2-02 — PA non-cooperative MPI status concentrating federal-FSIS demand** [D + SD]; HIGH confidence. Non-cooperative status structurally concentrates demand on FSIS District 60 at moment of federal capacity erosion. Cross-cut G1-SD7-02 federal capacity erosion.
+**G1-SD2-02 — PA non-cooperative MPI status concentrating federal-FSIS demand** [D + SD]; HIGH confidence. Non-cooperative status structurally concentrates demand on FSIS District 60 at moment of federal capacity erosion. Cross-cut <a id="g1-sd7-02"></a>G1-SD7-02 federal capacity erosion.
 
 **G1-SD2-03 — Workforce-protection jurisdictional gap (boundary-adjacent)** [SD]; MEDIUM confidence. Slaughter-processing labor protection cross-cut D11 workforce.
 
-**G1-SD2-04 — Halal / kosher accommodation capacity at retail** [D + SD]; MEDIUM-HIGH confidence. Independent halal / kosher retail corridor concentration in specific sub-areas operates structurally; documented retailer-corridor data at sub-area level pending F4-T2P2-SD2-3 P1.
+**<a id="g1-sd2-04"></a>G1-SD2-04 — Halal / kosher accommodation capacity at retail** [D + SD]; MEDIUM-HIGH confidence. Independent halal / kosher retail corridor concentration in specific sub-areas operates structurally; documented retailer-corridor data at sub-area level pending F4-T2P2-SD2-3 P1.
 
-**G1-SD2-05 — Cheaper-cut Salmonella exposure pathway unaddressed by general SD2 regulatory tools** [D + SD]; HIGH confidence. Pathway 1 breakdown point; structural arithmetic at compound-disadvantage sub-area level.
+**<a id="g1-sd2-05"></a>G1-SD2-05 — Cheaper-cut Salmonella exposure pathway unaddressed by general SD2 regulatory tools** [D + SD]; HIGH confidence. Pathway 1 breakdown point; structural arithmetic at compound-disadvantage sub-area level.
 
-**G1-SD2-06 — Avian Influenza response architecture status** [SD]; LOW-MEDIUM confidence. P3 deferred-verification flag; carry forward.
+**<a id="g1-sd2-06"></a>G1-SD2-06 — Avian Influenza response architecture status** [SD]; LOW-MEDIUM confidence. P3 deferred-verification flag; carry forward.
 
-**G1-SD2-07 (NEW second-pass) — Independent / small ritual-slaughter and ethnic-market retail differential burden** [SD]; MEDIUM confidence. XC-11 surfaced. Independent halal butchers (West Phila 52nd St; Mt. Airy kosher); small carnicerías (S. Phila); USDA-exempt retail under Title 6 §6-301 carry differential compliance burden + customer-trust + Salmonella-tool-withdrawal effects against corporate-chain retail. Premise [SD]: documented retailer-corridor concentration + jurisdictional-pathway distribution.
+**<a id="g1-sd2-07"></a>G1-SD2-07 (NEW second-pass) — Independent / small ritual-slaughter and ethnic-market retail differential burden** [SD]; MEDIUM confidence. XC-11 surfaced. Independent halal butchers (West Phila 52nd St; Mt. Airy kosher); small carnicerías (S. Phila); USDA-exempt retail under Title 6 §6-301 carry differential compliance burden + customer-trust + Salmonella-tool-withdrawal effects against corporate-chain retail. Premise [SD]: documented retailer-corridor concentration + jurisdictional-pathway distribution.
 
 ---
 
@@ -810,7 +834,7 @@ PA-3 CONSTITUENT LEVEL (aggregate categories per Standard 13)
 
 The SD3 chain shows two distinct constitutional pathways: Commerce Clause regulation of drug/biologic product stream (FFDCA Chapter V / PHSA §351 / Hatch-Waxman / BPCIA) and Spending Clause Medicare architecture (IRA MFP); both flow through CMS Medicare Part D administration at the constituent receipt layer [D]. The federal agency layer carries HIGH administrative vulnerability at CDER (5-director sequence in 2025; April 2025 FDA RIF; XC-9 timestamps); MODERATE-HIGH at CVM (no Philadelphia office; federal-direct from Rockville; cross-ref SD2 for FSIS animal drug residue coordination); MODERATE at CMS (statutorily stable IRA MFP under EO 14273 operational redirection pressure).
 
-State-layer architecture is comparatively recent: PA Act 77 of 2024 PBM reform represents Pennsylvania's most substantive state-level intervention in the SD3 architecture in decades [D]; staggered implementation as of execution date pending verification F4-T2P2-SD3-6 P2. The state architecture's primary effect operates at the PBM reimbursement layer — which the documented record identifies as the structural cause of independent pharmacy attrition (G1-SD3-03) and which intersects directly with XC-11 at SD3.
+State-layer architecture is comparatively recent: PA Act 77 of 2024 PBM reform represents Pennsylvania's most substantive state-level intervention in the SD3 architecture in decades [D]; staggered implementation as of execution date pending verification F4-T2P2-SD3-6 P2. The state architecture's primary effect operates at the PBM reimbursement layer — which the documented record identifies as the structural cause of independent pharmacy attrition (<a id="g1-sd3-03"></a>G1-SD3-03) and which intersects directly with XC-11 at SD3.
 
 Anchor institution analysis: Penn / CHOP / Jefferson / Temple specialty pharmacies are the structural-actor anchor at the SD3 specialty-pharmacy + biologic-dispensing layer; engagement scoring HIGH at the major-health-system layer (cross-cut SD4 cell/gene therapy infrastructure at Penn / CHOP). Independent pharmacies are the load-bearing XC-11 case at SD3: PA had ~3,200 independent + chain pharmacies pre-2024 [SD; PA Department of State baseline]; the ~20% reduction post-Rite-Aid concentrates on independents differentially [Source 28 demographic-disparity architecture; SVI 30-40% closure correlation].
 
@@ -828,7 +852,7 @@ PA Medicaid drug coverage baseline: PA HealthChoices MCO architecture; PA Medica
 
 PA controlled substance practitioner baseline (cross-ref SD6): ~3,000-4,000 PA-3 buprenorphine prescriber-eligible cadre post-MAT-Act expansion [SD; structural inference from MAT-Act prescribing eligibility expansion and PA-3 prescriber-population baseline]; ABC-MAP PDMP coverage (cross-ref SD6).
 
-CVM sub-section baseline (per WL6 substructure decision [Q-MC-1 resolution: substructure watch-list convention `WL{n}`; substantive material-change convention `MC-D4-{nn}`]; deepened second pass per G1-SD3-07): CVM regulates animal drug approval at federal level; PA Veterinary Medical Board (state); ~12,000 PA veterinarian licenses [SD; PA Department of State baseline]; FSIS animal drug residue coordination interface (cross-ref SD2 — post-2025 USDA RIF affects coordination); aquaculture/livestock interface; companion animal drug access.
+CVM sub-section baseline (per WL6 substructure decision [Q-MC-1 resolution: substructure watch-list convention `WL{n}`; substantive material-change convention `MC-D4-{nn}`]; deepened second pass per <a id="g1-sd3-07"></a>G1-SD3-07): CVM regulates animal drug approval at federal level; PA Veterinary Medical Board (state); ~12,000 PA veterinarian licenses [SD; PA Department of State baseline]; FSIS animal drug residue coordination interface (cross-ref SD2 — post-2025 USDA RIF affects coordination); aquaculture/livestock interface; companion animal drug access.
 
 Federal SD3 enforcement capacity affecting PA-3: April 2025 FDA RIF (~3,500; XC-9 timestamp) impacts CDER review capacity; CDER 5-director sequence in 2025 (XC-9 timestamp; review-capacity erosion timeline F4-T2P2-SD7-1 P1); FDA Philadelphia District (Mellon Independence Center) inspection capacity post-RIF flagged.
 
@@ -844,7 +868,7 @@ Federal SD3 enforcement capacity affecting PA-3: April 2025 FDA RIF (~3,500; XC-
 
 **South/Southwest Philadelphia** [D]: documented Rite Aid closures most concentrated (9th Street/Italian Market; Grays Ferry; Eastwick; Woodland Avenue — 4 of 5 documented PA-3 closures); pharmacy desert pressure highest in PA-3; small independent pharmacy concentration historically variable.
 
-Sub-area summary: pharmacy desert post-Rite-Aid concentrates in S./SW Phila + portions of Northwest + N./Northwest Phila Core; specialty pharmacy access concentrated at Penn / CHOP / Jefferson / Temple in University City + Center City corridor; sub-area variation by health-system affiliation produces specialty pharmacy access asymmetry (G1-SD3-08).
+Sub-area summary: pharmacy desert post-Rite-Aid concentrates in S./SW Phila + portions of Northwest + N./Northwest Phila Core; specialty pharmacy access concentrated at Penn / CHOP / Jefferson / Temple in University City + Center City corridor; sub-area variation by health-system affiliation produces specialty pharmacy access asymmetry (<a id="g1-sd3-08"></a>G1-SD3-08).
 
 ---
 
@@ -864,7 +888,7 @@ XC-11 application: independent pharmacies could plausibly fill some Rite Aid gap
 
 Triggering event: OUD diagnosis + treatment-pursuit at MAT-Act-eligible prescriber. Institutional steps: MAT Act 2022 eliminated DATA 2000 X-waiver requirement (~3,000-4,000 PA-3 prescriber-eligible cadre [SD]); prescription written; pharmacy fill subject to suspicious-order monitoring constraint; methadone vs. buprenorphine racial-pattern asymmetry documented in academic literature (cross-ref SD6).
 
-Documented breakdown patterns: suspicious-order monitoring constrains pharmacy availability differentially by community pharmacy type and location (cross-ref G1-SD6-04 MAT Act / pharmacy availability gap); pharmacy desert post-Rite-Aid intersects this pathway directly. Cross-ref D2 chronic disease burden + pharmacy access intersection.
+Documented breakdown patterns: suspicious-order monitoring constrains pharmacy availability differentially by community pharmacy type and location (cross-ref <a id="g1-sd6-04"></a>G1-SD6-04 MAT Act / pharmacy availability gap); pharmacy desert post-Rite-Aid intersects this pathway directly. Cross-ref D2 chronic disease burden + pharmacy access intersection.
 
 **Pathway 3 — PA-3 resident in pharmacy desert post-Rite-Aid (general prescription fill pathway)** [D pathway].
 
@@ -932,7 +956,7 @@ XC-11 application: independent pharmacies functionally excluded from specialty-p
 | **IRA MFP first-round MFPs effective** | 2026-01-01 | Maximum Fair Prices on 10 drugs operative | [D, CMS]; central SD3 material change |
 | **Trump 2 EO 14273 IRA redirection** | EO date pending verification | Implementation guidance status flagged | [D]; XC-9 timestamp; F4-T2P2-SD3-3 P1 |
 | Felt-reality reach to pharmacy-desert beneficiaries | post-Jan 1, 2026; ongoing | Pricing-protection-vs-access-collapse paradox; XC-10 ITD | [SD]; XC-10 notes |
-| PDUFA VIII et al. expiration | 2027-09-30 | User-fee reauthorization cycle inflection | [D]; G1-SD7-05 forthcoming |
+| PDUFA VIII et al. expiration | 2027-09-30 | User-fee reauthorization cycle inflection | [D]; <a id="g1-sd7-05"></a>G1-SD7-05 forthcoming |
 
 ---
 
@@ -940,15 +964,15 @@ XC-11 application: independent pharmacies functionally excluded from specialty-p
 
 **G1-SD3-01 — Pharmacy desert post-Rite-Aid as defining SD3 operational gap** [D]; HIGH confidence. ~20% PA pharmacy reduction; PA-3 sub-area Rite Aid closures concentrated in compound-disadvantage sub-areas; SVI 30-40% closure correlation [Source 28].
 
-**G1-SD3-02 — IRA MFP / pharmacy desert intersection as defining D4 SD3 representation paradox** [D + SD]; HIGH confidence. Pricing-protection-vs-access-collapse paradox structurally derivable from documented co-occurrence; central SD3 finding.
+**<a id="g1-sd3-02"></a>G1-SD3-02 — IRA MFP / pharmacy desert intersection as defining D4 SD3 representation paradox** [D + SD]; HIGH confidence. Pricing-protection-vs-access-collapse paradox structurally derivable from documented co-occurrence; central SD3 finding.
 
 **G1-SD3-03 — PBM reimbursement architecture as structural cause of pharmacy attrition** [D + SD]; HIGH confidence. PA Act 77 of 2024 reform pending staggered implementation; XC-11 cross-cut.
 
-**G1-SD3-04 — CDER directorate instability + April 2025 RIF** [D]; HIGH confidence. CDER 5-director sequence in 2025; April 2025 FDA RIF; review-capacity erosion timeline; XC-9 timestamps.
+**<a id="g1-sd3-04"></a>G1-SD3-04 — CDER directorate instability + April 2025 RIF** [D]; HIGH confidence. CDER 5-director sequence in 2025; April 2025 FDA RIF; review-capacity erosion timeline; XC-9 timestamps.
 
 **G1-SD3-05 — Trump 2 EO 14273 IRA redirection pressure** [D]; MEDIUM confidence. Implementation guidance status flagged; XC-9 timestamp; F4-T2P2-SD3-3 P1.
 
-**G1-SD3-06 — MAT Act / suspicious-order monitoring buprenorphine availability gap** [D + SD]; MEDIUM-HIGH confidence. Cross-ref SD6 G1-SD6-04.
+**<a id="g1-sd3-06"></a>G1-SD3-06 — MAT Act / suspicious-order monitoring buprenorphine availability gap** [D + SD]; MEDIUM-HIGH confidence. Cross-ref SD6 G1-SD6-04.
 
 **G1-SD3-07 — CVM sub-section thinness (substructure decision tradeoff; deepened second pass)** [D]; MEDIUM-HIGH confidence. CVM federal-direct architecture; PA Veterinary Medical Board state layer; FSIS coordination cross-cut SD2 affected by April 2025 USDA RIF.
 
@@ -1125,7 +1149,7 @@ Federal SD4 enforcement capacity affecting PA-3: CBER + CDRH leadership uncertai
 
 **Northwest Philadelphia (Mt. Airy)** [SD]: mixed-income demographic; lower SCD prevalence concentration; school immunization compliance strong; supermarket and clinical-practice access more available.
 
-**South/Southwest Philadelphia** [D]: SCD prevalence concentration in Black portions; pharmacy desert post-Rite-Aid affects vaccine administration access vector (G1-SD4-05 cross-cut SD3); school immunization population concentrated; algorithmic clinical decision-support deployment at affiliated academic medical centers.
+**South/Southwest Philadelphia** [D]: SCD prevalence concentration in Black portions; pharmacy desert post-Rite-Aid affects vaccine administration access vector (<a id="g1-sd4-05"></a>G1-SD4-05 cross-cut SD3); school immunization population concentrated; algorithmic clinical decision-support deployment at affiliated academic medical centers.
 
 Sub-area summary: cell/gene therapy ATC capacity concentrates in West Philadelphia Core (University City); SCD prevalence concentrates in predominantly Black PA-3 sub-areas across N./Northwest + W. Phila + S. Phila; the geographic concentration of therapy capacity adjacent to populations most affected by the disease is the defining structural pattern at SD4 (the "Philadelphia paradox").
 
@@ -1217,15 +1241,15 @@ Documented breakdown patterns: LDT vacatur March 31, 2025 leaves federal premark
 
 **G1-SD4-02 — Vaccine policy litigation period implementation confusion** [D]; HIGH confidence. Federal flux June 2025 → March 2026 court block; current implementation status = prior schedule operative pending litigation; PA / Philadelphia school exemption vs. requirement coherence flagged.
 
-**G1-SD4-03 — LDT vacatur leaving algorithmic clinical decision-support tools without federal premarket validation** [D]; HIGH confidence. March 31, 2025 vacatur; CLIA-only oversight; documented racial-pattern bias instances persist without federal remediation pathway.
+**<a id="g1-sd4-03"></a>G1-SD4-03 — LDT vacatur leaving algorithmic clinical decision-support tools without federal premarket validation** [D]; HIGH confidence. March 31, 2025 vacatur; CLIA-only oversight; documented racial-pattern bias instances persist without federal remediation pathway.
 
-**G1-SD4-04 — CBER + CDRH leadership uncertainty + April 2025 RIF** [D]; HIGH confidence. XC-9 timestamps applied; F4-T2P2-SD7-1 P1.
+**<a id="g1-sd4-04"></a>G1-SD4-04 — CBER + CDRH leadership uncertainty + April 2025 RIF** [D]; HIGH confidence. XC-9 timestamps applied; F4-T2P2-SD7-1 P1.
 
 **G1-SD4-05 — Vaccine administration vector reduction post-pharmacy-desert** [D + SD]; MEDIUM-HIGH confidence. Pharmacy desert post-Rite-Aid reduces pharmacy-as-vaccine-administration vector; cross-ref SD3.
 
-**G1-SD4-06 — Clinical trial diversity gap as upstream cause of cell/gene therapy access paradox** [D + SD]; HIGH confidence. National SCD trial enrollment historically under-represented Black populations; structural-causation chain to Philadelphia paradox.
+**<a id="g1-sd4-06"></a>G1-SD4-06 — Clinical trial diversity gap as upstream cause of cell/gene therapy access paradox** [D + SD]; HIGH confidence. National SCD trial enrollment historically under-represented Black populations; structural-causation chain to Philadelphia paradox.
 
-**G1-SD4-07 (NEW second-pass) — XC-11 small clinical practice + small specialty practice differential at SD4** [SD]; MEDIUM confidence. Small practice vaccine administration burden post-pharmacy-desert + LDT-replacement burden + functional exclusion from cell/gene therapy ATC referral pathway. Premise [SD]: documented academic-medical-center concentration of biologic + cell/gene therapy infrastructure.
+**<a id="g1-sd4-07"></a>G1-SD4-07 (NEW second-pass) — XC-11 small clinical practice + small specialty practice differential at SD4** [SD]; MEDIUM confidence. Small practice vaccine administration burden post-pharmacy-desert + LDT-replacement burden + functional exclusion from cell/gene therapy ATC referral pathway. Premise [SD]: documented academic-medical-center concentration of biologic + cell/gene therapy infrastructure.
 
 ---
 
@@ -1386,7 +1410,7 @@ CTP enforcement capacity: April 2025 Office of Regulations RIF — "entire offic
 
 **Northwest Philadelphia (Mt. Airy)** [SD]: lower marketing-density concentration; mixed-income demographic; lower menthol smoking prevalence concentration.
 
-**South/Southwest Philadelphia** [D]: marketing-density concentration in compound-disadvantage portions; documented Rite Aid pharmacy desert closure concentration (cross-ref SD3) reduces cessation pharmacotherapy access vector (G1-SD5-05); small-retailer concentration variable by corridor.
+**South/Southwest Philadelphia** [D]: marketing-density concentration in compound-disadvantage portions; documented Rite Aid pharmacy desert closure concentration (cross-ref SD3) reduces cessation pharmacotherapy access vector (<a id="g1-sd5-05"></a>G1-SD5-05); small-retailer concentration variable by corridor.
 
 Sub-area summary: SNAP-authorized retailer interior advertising 3.43x pattern concentrates in compound-disadvantage sub-areas (N./Northwest Phila Core + portions of W. Phila Core + S. Phila); the marketing pattern operates at small-retailer layer differentially; the pattern that the withdrawn menthol rule would have substantively addressed concentrates in the PA-3 sub-areas where Black population concentration is highest [D].
 
@@ -1469,19 +1493,19 @@ XC-11 application: small / independent tobacco retailers carry differential comp
 
 **G1-SD5-01 — Industry-favorable substantive direction at moment of disparate-impact remediation availability (defining SD5 + cross-cut to G1-XC-08)** [D + SD]; HIGH confidence. Menthol withdrawal RIN 0910-AI60 January 2025 + CTP Office of Regulations April 2025 RIF = remediation pathway foreclosure at moment of availability. Menthol withdrawal preamble disparate-impact citations [F4-T2P2-SD5-2 P1] document architecture's own acknowledgment.
 
-**G1-SD5-02 — CTP Office of Regulations decimation as structural foreclosure of replacement-tool development** [D]; HIGH confidence. April 2025 RIF documented; user-fee FY26 funding stability does not substitute; XC-9 timestamp.
+**<a id="g1-sd5-02"></a>G1-SD5-02 — CTP Office of Regulations decimation as structural foreclosure of replacement-tool development** [D]; HIGH confidence. April 2025 RIF documented; user-fee FY26 funding stability does not substitute; XC-9 timestamp.
 
-**G1-SD5-03 — Marketing density disparate-impact concentration at small-retailer layer (XC-11 cross-cut)** [D + SD]; HIGH confidence. SNAP-authorized retailer interior advertising 3.43x pattern in compound-disadvantage sub-areas; concentrates at small retailers; XC-11 framework.
+**<a id="g1-sd5-03"></a>G1-SD5-03 — Marketing density disparate-impact concentration at small-retailer layer (XC-11 cross-cut)** [D + SD]; HIGH confidence. SNAP-authorized retailer interior advertising 3.43x pattern in compound-disadvantage sub-areas; concentrates at small retailers; XC-11 framework.
 
-**G1-SD5-04 — Sub-area marketing density quantification gap** [SD]; MEDIUM confidence. F4-T2P2-SD5-1 P1 retrieval target.
+**<a id="g1-sd5-04"></a>G1-SD5-04 — Sub-area marketing density quantification gap** [SD]; MEDIUM confidence. F4-T2P2-SD5-1 P1 retrieval target.
 
 **G1-SD5-05 — Cessation pharmacotherapy access vector reduction post-pharmacy-desert** [D + SD]; MEDIUM-HIGH confidence. Cross-cut SD3 pharmacy desert post-Rite-Aid.
 
-**G1-SD5-06 — PA Clean Indoor Air Act casino + bar carve-out workforce protection gap (boundary-adjacent)** [D]; MEDIUM confidence. Cross-ref D11 workforce.
+**<a id="g1-sd5-06"></a>G1-SD5-06 — PA Clean Indoor Air Act casino + bar carve-out workforce protection gap (boundary-adjacent)** [D]; MEDIUM confidence. Cross-ref D11 workforce.
 
-**G1-SD5-07 — Menthol smoking prevalence by PA-3 sub-area and race** [SD]; MEDIUM confidence. F4-T2P2-SD5-3 P2 retrieval target; documented national pattern not directly disaggregated to PA-3.
+**<a id="g1-sd5-07"></a>G1-SD5-07 — Menthol smoking prevalence by PA-3 sub-area and race** [SD]; MEDIUM confidence. F4-T2P2-SD5-3 P2 retrieval target; documented national pattern not directly disaggregated to PA-3.
 
-**G1-SD5-08 (NEW second-pass) — Small tobacco retailer XC-11 differential** [D + SD]; MEDIUM-HIGH confidence. Density cap + buffer + license fee architecture lands compliance burden at small retailers; corporate-marketing-decision upstream layer not reached by enforcement architecture; XC-11 surfaced.
+**<a id="g1-sd5-08"></a>G1-SD5-08 (NEW second-pass) — Small tobacco retailer XC-11 differential** [D + SD]; MEDIUM-HIGH confidence. Density cap + buffer + license fee architecture lands compliance burden at small retailers; corporate-marketing-decision upstream layer not reached by enforcement architecture; XC-11 surfaced.
 
 ---
 
@@ -1513,7 +1537,7 @@ XC-11 application: small / independent tobacco retailers carry differential comp
 # SD6 — Controlled Substances — VERIFIED
 
 
-*Verification annotation (2026-04-29): All substantive SD6 framings VERIFIED + DATE CORRECTIONS. **Important date corrections**: (a) **DEA marijuana Schedule III Final Order effective date is April 28, 2026** (not April 29, 2026 as in second-pass OUTPUT — second-pass conflated effective date with execution date); FR Doc. 2026-08176; Vol. 91 No. 81. DOJ Final Order issued April 23, 2026 (Acting Attorney General; Order No. 6753-2026). (b) **60-day priority window through approximately June 27, 2026** (not June 22, 2026 — 60 days from FR publication date April 28). (c) **DEA Medical Marijuana Dispensary Registration Portal opens April 29, 2026 at 9:00 AM EST** (= execution date / today); **annual application fee $794** (initially payable via PayPal only). (d) Pursuant to **Trump EO 14370** signed December 18, 2025 ("Increasing Medical Marijuana and Cannabidiol Research"). **Important framing additions**: (e) **Adult-use cannabis remains Schedule I**; only FDA-approved products + state-licensed medical cannabis rescheduled. (f) **Synthetically derived THC** (delta-10) excluded; remains Schedule I. (g) Section 280E deduction disallowance lifted effective immediately for state-licensed medical cannabis (Treasury/IRS guidance forthcoming on transitional rules). (h) DOJ Final Order encouraged Treasury to consider "retrospective relief" from 280E for prior tax years. (i) Prior NPRM (89 FR 70148) and hearing **withdrawn April 22, 2026** (FR Doc. 2026-08178). (j) **New DEA hearing on broader rescheduling**: June 29 - July 15, 2026 (recess July 3, reconvene July 6). G1-SD6-02 careful framing on Black PA-3 OUD engagement pattern preserved (gap-finding without pathologizing parallel-infrastructure engagement) — F4-T2P2-SD6-1 P1 peer-reviewed Black-PA-3-OUD-population engagement-pattern lit retrieval target remains pending PubMed search. F4-T2P2-SD6-2 P1 (DEA registration uptake first 60-day window through June 27, 2026) — newly retrievable starting today.*
+*Verification annotation (2026-04-29): All substantive SD6 framings VERIFIED + DATE CORRECTIONS. **Important date corrections**: (a) **DEA marijuana Schedule III Final Order effective date is April 28, 2026** (not April 29, 2026 as in second-pass OUTPUT — second-pass conflated effective date with execution date); FR Doc. 2026-08176; Vol. 91 No. 81. DOJ Final Order issued April 23, 2026 (Acting Attorney General; Order No. 6753-2026). (b) **60-day priority window through approximately June 27, 2026** (not June 22, 2026 — 60 days from FR publication date April 28). (c) **DEA Medical Marijuana Dispensary Registration Portal opens April 29, 2026 at 9:00 AM EST** (= execution date / today); **annual application fee $794** (initially payable via PayPal only). (d) Pursuant to **Trump EO 14370** signed December 18, 2025 ("Increasing Medical Marijuana and Cannabidiol Research"). **Important framing additions**: (e) **Adult-use cannabis remains Schedule I**; only FDA-approved products + state-licensed medical cannabis rescheduled. (f) **Synthetically derived THC** (delta-10) excluded; remains Schedule I. (g) Section 280E deduction disallowance lifted effective immediately for state-licensed medical cannabis (Treasury/IRS guidance forthcoming on transitional rules). (h) DOJ Final Order encouraged Treasury to consider "retrospective relief" from 280E for prior tax years. (i) Prior NPRM (89 FR 70148) and hearing **withdrawn April 22, 2026** (FR Doc. 2026-08178). (j) **New DEA hearing on broader rescheduling**: June 29 - July 15, 2026 (recess July 3, reconvene July 6). <a id="g1-sd6-02"></a>G1-SD6-02 careful framing on Black PA-3 OUD engagement pattern preserved (gap-finding without pathologizing parallel-infrastructure engagement) — F4-T2P2-SD6-1 P1 peer-reviewed Black-PA-3-OUD-population engagement-pattern lit retrieval target remains pending PubMed search. F4-T2P2-SD6-2 P1 (DEA registration uptake first 60-day window through June 27, 2026) — newly retrievable starting today.*
 
 
 ## Second-Pass Methodology Framework Content (preserved with corrections applied inline)
@@ -1746,21 +1770,21 @@ XC-11 application: smaller dispensary operators (independent vs. multi-state ope
 
 ## §11. Gap Analysis (revised)
 
-**G1-SD6-01 — Pharmacy desert post-Rite-Aid affecting buprenorphine pharmacy availability** [D + SD]; HIGH confidence. Cross-cut SD3 G1-SD3-01.
+**<a id="g1-sd6-01"></a>G1-SD6-01 — Pharmacy desert post-Rite-Aid affecting buprenorphine pharmacy availability** [D + SD]; HIGH confidence. Cross-cut SD3 G1-SD3-01.
 
 **G1-SD6-02 — Black PA-3 OUD-population engagement-pattern (careful framing)** [SD]; MEDIUM-HIGH confidence. Source 35 Prevention Point demographics 62% white / 26% Black / 83% unhoused = parallel-infrastructure engagement at Kensington locus organizational layer; treatment-pathway diversity at broader Black PA-3 OUD population level; gap-finding at architecture level without individual-engagement-pattern pathologizing. F4-T2P2-SD6-1 P1 peer-reviewed literature retrieval target.
 
-**G1-SD6-03 — Federal funding pressure on Prevention Point + mobile fentanyl treatment units** [D + SD]; MEDIUM-HIGH confidence. SAMHSA funding pressure operative; XC-11 differential at smaller organizations.
+**<a id="g1-sd6-03"></a>G1-SD6-03 — Federal funding pressure on Prevention Point + mobile fentanyl treatment units** [D + SD]; MEDIUM-HIGH confidence. SAMHSA funding pressure operative; XC-11 differential at smaller organizations.
 
 **G1-SD6-04 — MAT Act / suspicious-order monitoring buprenorphine availability gap** [D + SD]; MEDIUM-HIGH confidence. Cross-cut SD3 G1-SD3-06.
 
-**G1-SD6-05 — Structurally entrenched compound-incidence factors at Kensington locus** [D + SI]; HIGH confidence (compound documentation); MEDIUM (chronic-illness lit). Medetomidine 83% supply March 2025; BTMPS 25%; xylazine co-occurrence; both-true framing preserved.
+**<a id="g1-sd6-05"></a>G1-SD6-05 — Structurally entrenched compound-incidence factors at Kensington locus** [D + SI]; HIGH confidence (compound documentation); MEDIUM (chronic-illness lit). Medetomidine 83% supply March 2025; BTMPS 25%; xylazine co-occurrence; both-true framing preserved.
 
 **G1-SD6-06 — Today-effective DEA Schedule III + 60-day priority window dispensary registration uptake** [D]; HIGH confidence at architecture; pending uptake quantification F4-T2P2-SD6-2 P1.
 
-**G1-SD6-07 — DEA telemedicine flexibility expiration December 2026** [D]; MEDIUM confidence. Ryan Haight in-person evaluation requirement reactivation pending.
+**<a id="g1-sd6-07"></a>G1-SD6-07 — DEA telemedicine flexibility expiration December 2026** [D]; MEDIUM confidence. Ryan Haight in-person evaluation requirement reactivation pending.
 
-**G1-SD6-08 (NEW second-pass) — XC-11 smaller harm-reduction / treatment / mutual-aid organization differential** [SD]; MEDIUM confidence. Federal funding pressure may concentrate effects on smaller organizations differentially; Mayor Parker ecosystem expansion may not reach smaller organizations equivalently.
+**<a id="g1-sd6-08"></a>G1-SD6-08 (NEW second-pass) — XC-11 smaller harm-reduction / treatment / mutual-aid organization differential** [SD]; MEDIUM confidence. Federal funding pressure may concentrate effects on smaller organizations differentially; Mayor Parker ecosystem expansion may not reach smaller organizations equivalently.
 
 ---
 
@@ -2024,17 +2048,17 @@ Cross-SD aggregate pathways at synthesis layer:
 
 ## §11. Gap Analysis (revised — synthesis-level)
 
-**G1-SD7-01 — Federal-cluster simultaneity and three-pattern co-occurrence (renamed; tightened from first-pass "MAHA-era three-vector federal direction")** [D + SD]; HIGH confidence. Three structurally-co-occurring patterns documented; coordinated-program inference not made; XC-9 confabulation guard preserved. Cross-SD: SD1-SD5 documented withdrawal / vacatur / redirection + SD1-SD5 federal capacity erosion + SD1 + SD2 data-infrastructure rollback; SD6 documents expansion direction (today-effective Schedule III).
+**<a id="g1-sd7-01"></a>G1-SD7-01 — Federal-cluster simultaneity and three-pattern co-occurrence (renamed; tightened from first-pass "MAHA-era three-vector federal direction")** [D + SD]; HIGH confidence. Three structurally-co-occurring patterns documented; coordinated-program inference not made; XC-9 confabulation guard preserved. Cross-SD: SD1-SD5 documented withdrawal / vacatur / redirection + SD1-SD5 federal capacity erosion + SD1 + SD2 data-infrastructure rollback; SD6 documents expansion direction (today-effective Schedule III).
 
 **G1-SD7-02 — Federal capacity quantification by Center post-RIF Q1-Q2 2026** [SD]; HIGH confidence at qualitative pattern; verification target F4-T2P2-SD7-1 P1.
 
 **G1-SD7-03 — USDA ERS data-infrastructure rollback (cross-cut SD1)** [D]; HIGH confidence. Federal data infrastructure characterizing FI pattern terminated. F4-T2P2-SD7-2 P1.
 
-**G1-SD7-04 — XC-11 cross-cutting independent / small organization differential burden** [SD]; MEDIUM-HIGH confidence. Pattern documented across SD1-SD6 per pass2 files; surfaces as additional structurally-co-occurring pattern within compound-disadvantage architecture. NEW second-pass elevation from cross-cutting cross-SD synthesis; G1-SD7-04 operates as synthesis-level XC-11 finding.
+**<a id="g1-sd7-04"></a>G1-SD7-04 — XC-11 cross-cutting independent / small organization differential burden** [SD]; MEDIUM-HIGH confidence. Pattern documented across SD1-SD6 per pass2 files; surfaces as additional structurally-co-occurring pattern within compound-disadvantage architecture. NEW second-pass elevation from cross-cutting cross-SD synthesis; G1-SD7-04 operates as synthesis-level XC-11 finding.
 
 **G1-SD7-05 — User-fee reauthorization cycle inflection (PDUFA / GDUFA / BsUFA / OMUFA expiration September 30, 2027)** [D]; MEDIUM confidence. Forthcoming inflection point at SD3 + SD4 layer.
 
-**G1-SD7-06 — Compound Disadvantage Geography Matrix as central D4 finding-presentation infrastructure** [D + SD]; HIGH confidence. Matrix at §5 documents simultaneous SD1-SD6 concentration; methodologically central infrastructure carried forward to synthesis revision + OUTPUT assembly.
+**<a id="g1-sd7-06"></a>G1-SD7-06 — Compound Disadvantage Geography Matrix as central D4 finding-presentation infrastructure** [D + SD]; HIGH confidence. Matrix at §5 documents simultaneous SD1-SD6 concentration; methodologically central infrastructure carried forward to synthesis revision + OUTPUT assembly.
 
 ---
 
@@ -2249,7 +2273,7 @@ D4 second-pass findings carrying forward into the next-domain cross-domain hando
 
 ### To D13 (cross-domain compound-disadvantage geography overlay) — NEW carry-forward
 - Compound Disadvantage Geography Matrix preserved as central D4 finding-presentation infrastructure; cross-domain integration with D2 + D17 + D11 spatial overlays.
-- Pharmacy-desert geography as cross-domain access-architecture infrastructure simultaneously affecting SD3 + SD4 + SD5 + SD6 (G1-XC-06).
+- Pharmacy-desert geography as cross-domain access-architecture infrastructure simultaneously affecting SD3 + SD4 + SD5 + SD6 (<a id="g1-xc-06"></a>G1-XC-06).
 - Kensington compound-incidence locus concentrating SD1 + SD3 + SD5 + SD6 simultaneously; D13 cross-domain integration with housing (D2) + criminalization (D17) + healthcare access (D2).
 - Independent / small organization compliance + access asymmetry as cross-domain pattern type beyond D4.
 
@@ -2257,7 +2281,7 @@ D4 second-pass findings carrying forward into the next-domain cross-domain hando
 - Cannabis enforcement disparity legacy not retroactively addressed by today's Schedule III action.
 - Sentencing-legacy mass incarceration (Anti-Drug Abuse Act 1986 crack/powder; Fair Sentencing Act 2010; First Step Act 2018).
 - Philadelphia DA Krasner progressive prosecutorial policies providing partial mitigation against federal/state SD6 enforcement architecture.
-- Kensington compound-disadvantage geography interaction with criminalization (G1-XC-07; G1-SD6-06).
+- Kensington compound-disadvantage geography interaction with criminalization (<a id="g1-xc-07"></a>G1-XC-07; G1-SD6-06).
 - Mayor Parker Kensington Community Revival (May 2024 crackdown reducing unhoused population from 900+ to ~300-400 over 18 months).
 
 ### To D2 (health) — NEW carry-forward (already established but feeding into D2 second-pass)
@@ -2290,324 +2314,1077 @@ D4 second-pass execution Steps 1-5 complete. Step 6 Self-Assessment next per ski
 
 # D4 foodMed — Citation Registry (Sidecar)
 
-**Verification date:** 2026-04-29
-**Total registry entries:** 36 promoted from source-workspace_D4_2026-04-28.md + 14 new sources discovered during verification searches = 50 total
-**Format:** One entry per unique source, organized by category. Each entry: full citation, URL, supports claims (per-SD reference), verification status, notes.
+Per M2 §7 Capability 3 and Standard 3. Normalized 2026-05-22 to the locked CR convention in `PA3_assembly_work/site-references-formatting-guide.md` (§ "Citation Registry — normalized template"). One S-NN entry per unique external source; multi-source bundles split into per-source entries (per-MC Sources lines preserve cross-confirmation intent by listing all relevant S-NNs together). Two pre-normalization entries retired as superseded (S12 superseded by S-03; S31 superseded by S-52/S-57/S-58). Fourteen pre-normalization multi-URL entries split yielding 25 additional entries. Entries without explicit body-source flags appear in MC Sources lines; body-cited sources not in the pre-normalization CR are flagged `[flag for URL-retrieval pass]` in the relevant MC Sources lines.
 
 ---
 
-## Federal Statutes and Regulations (primary regulatory source category)
+### Federal Statutes and Regulations
 
-### S2-V — DEA Schedule III Final Order [VERIFIED with date corrections]
-**Citation:** Federal Register, "Schedules of Controlled Substances: Rescheduling of Food and Drug Administration Approved Products Containing Marijuana From Schedule I to Schedule III; Corresponding Change to Permit Requirements" (FR Doc. 2026-08176; Vol. 91 No. 81; effective April 28, 2026)
+<a id="s-01"></a>
+#### S-01 — DEA Schedule III Final Order (FR Doc. 2026-08176) [VERIFIED with corrections]
+
+**Citation:** Federal Register, "Schedules of Controlled Substances: Rescheduling of Food and Drug Administration Approved Products Containing Marijuana From Schedule I to Schedule III; Corresponding Change to Permit Requirements" (FR Doc. 2026-08176; Vol. 91 No. 81; effective April 28, 2026).
+
 **URL:** https://www.federalregister.gov/documents/2026/04/28/2026-08176/
-**Supports claims:** SD6 §3 (Track 1 federal architecture); SD6 §6 (Pathway 3 today-effective); SD6 §10 TCT four-layer timestamp; SD6 §11 G1-SD6-06.
+
+**Supports claims:** SD6 §3 (Track 1 federal architecture); SD6 §6 (Pathway 3 today-effective); SD6 §10 TCT four-layer timestamp; SD6 §11 G1-SD6-06; MC-V-1.
+
 **Verification status:** VERIFIED with corrections (effective date April 28, not April 29; 60-day priority window through ~June 27, not June 22). Pursuant to Trump EO 14370 signed December 18, 2025.
-**Notes:** Adult-use cannabis remains Schedule I; synthetically derived THC excluded; 280E deduction disallowance lifted for state-licensed medical cannabis effective immediately. Section 280E retrospective relief encouraged but pending Treasury guidance.
 
-### S11-V — FSIS Salmonella Framework Withdrawal [VERIFIED]
-**Citation:** FSIS, "Salmonella Framework for Raw Poultry Products" Withdrawal Notice (90 FR 17344; effective April 25, 2025)
+**Notes:** Adult-use cannabis remains Schedule I; synthetically derived THC excluded; 280E deduction disallowance lifted for state-licensed medical cannabis effective immediately. Section 280E retrospective relief encouraged but pending Treasury guidance. EO 14370 and DOJ Final Order No. 6753-2026 cited in MC-V-1 body are not separately in CR — flagged for URL-retrieval pass.
+
+---
+
+<a id="s-02"></a>
+#### S-02 — FSIS Salmonella Framework for Raw Poultry Withdrawal (90 FR 17344) [VERIFIED]
+
+**Citation:** FSIS, "Salmonella Framework for Raw Poultry Products" Withdrawal Notice (90 FR 17344; effective April 25, 2025).
+
 **URL:** https://www.fsis.usda.gov/policy/federal-register-rulemaking/federal-register-rules/salmonella-framework-raw-poultry-products
+
 **Supports claims:** SD2 §3 + §4 + §6 (Pathway 1) + §10 TCT + §11 G1-SD2-02.
-**Verification status:** VERIFIED. 7,089 comments received (1,415 unique). Issues raised: FSIS legal authority, proposed Salmonella levels and serotypes, SPC monitoring, scientific support, economic impacts (especially small processors), impact on small poultry growers.
 
-### S-V-NEW-1 — FSIS NRTE breaded stuffed chicken indefinite delay (December 2025) [NEW MATERIAL CHANGE]
-**Citation:** FSIS, "USDA Indefinitely Delays Enforcement of Salmonella as Adulterant in Raw Breaded, Stuffed Chicken" (December 2025; per Food Safety Magazine reporting)
-**URL:** https://www.food-safety.com/articles/10909-usda-indefinitely-delays-enforcement-of-salmonella-as-adulterant-in-raw-breaded-stuffed-chicken
-**Supports claims:** SD2 §10 TCT (additional withdrawal beyond April 2025); MC-V-3.
-**Verification status:** VERIFIED. Disputed by Consumer Reports senior food scientist Dr. Michael Hansen (qPCR method bioMérieux GENE-UP QUANT IS validated for 1 CFU/g per FSIS's own determination).
+**Verification status:** VERIFIED. 7,089 comments received (1,415 unique).
 
-### S-V-NEW-2 — FSIS Salmonella public meeting outcome January 14, 2026 [NEW]
-**Citation:** Federal Register, "Exploring Practical Strategies To Reduce Salmonella in Poultry Products" (Docket No. FSIS-2025-0179; published December 2, 2025; meeting January 14, 2026)
+---
+
+<a id="s-03"></a>
+#### S-03 — FSIS Salmonella Public Meeting — FR Docket FSIS-2025-0179 [VERIFIED]
+
+**Citation:** Federal Register, "Exploring Practical Strategies To Reduce Salmonella in Poultry Products" (Docket No. FSIS-2025-0179; published December 2, 2025; meeting January 14, 2026).
+
 **URL:** https://www.federalregister.gov/documents/2025/12/02/2025-21738/exploring-practical-strategies-to-reduce-salmonella-in-poultry-products
+
 **Supports claims:** SD2 §10 TCT; MC-V-3.
-**Verification status:** VERIFIED. Comment period extended to March 4, 2026. USDA Sec. Brooke Rollins + Under Sec. Brashears (sworn in same day) attended. FSIS sampling data: Salmonella detection 4.14% chicken carcasses / 7.62% chicken parts / 24.2% comminuted chicken (2022).
 
-### S17-V — LDT Final Rule vacatur [VERIFIED]
-**Citation:** CRS, "FDA Regulation of Laboratory-Developed Tests (LDTs)" (CRS In Focus IF11389, December 2025 update); ACLA v. FDA / AMP v. FDA, U.S. District Court for Eastern District of Texas (March 31, 2025 vacatur)
-**URL:** https://www.congress.gov/crs-product/IF11389
-**Supports claims:** SD4 §3 + §4 + §10 TCT + §11.
-**Verification status:** VERIFIED. Court held LDTs not "devices" under FFDCA; FDA exceeded statutory authority; FDA did not appeal.
+**Verification status:** VERIFIED. Comment period extended to March 4, 2026. USDA Secretary Brooke Rollins + Under Secretary Brashears (sworn in same day) attended. FSIS sampling data: Salmonella detection 4.14% chicken carcasses / 7.62% chicken parts / 24.2% comminuted chicken (2022).
 
-### S18-V — LDT Loper Bright analysis [VERIFIED]
-**Citation:** Sidley Austin LLP, "FDA's Laboratory-Developed Test Rule Struck Down in Major Test of Loper Bright" (April 2025)
-**URL:** https://www.sidley.com/en/insights/newsupdates/2025/04/fdas-laboratory-developed-tests-ldt-rule-struck-down-in-major-test-of-loper-bright
-**Supports claims:** SD4 §3 + §4 (Loper Bright doctrinal context).
-**Verification status:** VERIFIED.
+**Notes:** Pre-normalization entry S12 ("FSIS January 14, 2026 public meeting") was marked SUPERSEDED by this entry; S12 retired.
 
-### S-V-NEW-3 — Trump EO 14273 (April 15, 2025) full text + analysis [NEW]
-**Citation:** EO 14273, "Lowering Drug Prices by Once Again Putting Americans First" (signed April 15, 2025); per Sidley Austin + Brownstein analyses
-**URLs:** https://www.sidley.com/en/insights/newsupdates/2025/04/drug-pricing-executive-order-aims-to-end-inflation-reduction-act-pill-penalty-resurrect-policies; https://www.bhfs.com/insight/trump-administration-issues-wide-ranging-eo-to-lower-drug-prices/
+---
+
+<a id="s-04"></a>
+#### S-04 — One Big Beautiful Bill Act (OBBBA) / H.R. 1 [VERIFIED]
+
+**Citation:** H.R. 1 / One Big Beautiful Bill Act (OBBBA) (signed July 4, 2025) — broadened orphan-drug exclusion under IRA Section 1192(e)(3); $186B SNAP reduction.
+
+**URL:** [pending retrieval — congress.gov H.R. 1 / One Big Beautiful Bill Act]
+
+**Supports claims:** SD3 §3 + §10 TCT + §11; MC-V-4; SD1 §10 TCT (SNAP cut dimension via MC-V-8 context).
+
+**Verification status:** VERIFIED. CBO estimates +$8.8B Medicare spending from orphan-drug exclusion = ~10% reduction in IRA program savings (from $98.5B to ~$89.7B).
+
+**Notes:** Split from pre-normalization S-V-NEW-4 (which bundled H.R. 1 citation with Georgetown Medicare Policy Initiative analysis URL). Georgetown analysis is now S-27.
+
+---
+
+### Executive Orders
+
+<a id="s-05"></a>
+#### S-05 — EO 14273 "Lowering Drug Prices by Once Again Putting Americans First" [VERIFIED]
+
+**Citation:** Executive Order 14273, "Lowering Drug Prices by Once Again Putting Americans First" (signed April 15, 2025).
+
+**URL:** [pending retrieval — Federal Register EO 14273]
+
 **Supports claims:** SD3 §3 + §10 TCT + §11 G1-SD3-05; MC-V-4.
+
 **Verification status:** VERIFIED. Implementation deadline June 14, 2025 (60 days). Per Applied Policy August 2025: federal agencies "ahead of schedule" on multiple directives.
 
-### S-V-NEW-4 — One Big Beautiful Bill Act (OBBBA) IRA orphan-drug exclusion [NEW]
-**Citation:** H.R. 1 / OBBBA (signed July 4, 2025) — broadened orphan-drug exclusion under IRA Section 1192(e)(3); per CBO scoring + Medicare Policy Initiative analysis
-**URL:** https://medicare.chir.georgetown.edu/drug-pricing-in-the-era-of-trump-2-0/
-**Supports claims:** SD3 §3 + §10 TCT + §11; MC-V-4.
-**Verification status:** VERIFIED. CBO estimates +$8.8B Medicare spending = ~10% reduction in IRA program savings (from $98.5B to ~$89.7B).
+**Notes:** Split from pre-normalization S-V-NEW-3 (which bundled EO citation with two analysis URLs). Sidley Austin analysis is S-25; Brownstein analysis is S-26. Applied Policy August 2025 reporting not separately in CR — flagged for URL-retrieval pass.
 
-### S-V-NEW-5 — Menthol withdrawal date precision (January 21, 2025) [VERIFIED date refinement]
+---
+
+### Court Decisions and Litigation
+
+<a id="s-06"></a>
+#### S-06 — ACLA v. FDA / AMP v. FDA — LDT Final Rule Vacatur [VERIFIED]
+
+**Citation:** ACLA v. FDA / AMP v. FDA, U.S. District Court for the Eastern District of Texas, March 31, 2025 vacatur of FDA LDT Final Rule; court held LDTs not "devices" under FFDCA; FDA did not appeal.
+
+**URL:** [pending retrieval — EDTX docket ACLA v. FDA; AMP v. FDA]
+
+**Supports claims:** SD4 §3 + §4 + §10 TCT + §11.
+
+**Verification status:** VERIFIED. Court held LDTs not "devices" under FFDCA; FDA exceeded statutory authority; FDA did not appeal.
+
+**Notes:** Split from pre-normalization S17-V (which bundled court case with CRS IF11389 analysis). CRS IF11389 is now S-23.
+
+---
+
+<a id="s-07"></a>
+#### S-07 — AAP et al. v. HHS — ACIP FACA Court Block (March 16, 2026) [VERIFIED]
+
+**Citation:** AAP, IDSA, APHA, ACP, et al. v. HHS, U.S. District Court (D. Mass.), Judge Brian E. Murphy — March 16, 2026 order blocking 13 new ACIP appointments and all post-June 2025 votes; Federal Advisory Committee Act violation finding.
+
+**URL:** [pending retrieval — D. Mass. docket AAP v. HHS]
+
+**Supports claims:** SD4 §3 + §4 + §10 TCT + §11 G1-SD4-02; MC-V-2.
+
+**Verification status:** VERIFIED. Schedule reduction was 17→11 diseases (not 18→11 as in some early reporting). Halted: 13 ACIP appointments + all post-June 2025 votes including hep B newborn + COVID downgrade + government memo enacting new schedule.
+
+**Notes:** Split from pre-normalization S-V-NEW-12 (which bundled AJMC, CBS News, NBC News coverage of the same court ruling). News sources are now S-37 (AJMC), S-57 (CBS), S-58 (NBC).
+
+---
+
+### Federal Agency Materials
+
+<a id="s-08"></a>
+#### S-08 — FDA Commissioner Makary Swearing-In [VERIFIED]
+
+**Citation:** FDA, "Martin A. Makary, M.D., M.P.H., Sworn in as FDA Commissioner" (April 1, 2025).
+
+**URL:** https://www.fda.gov/news-events/press-announcements/martin-makary-md-mph-sworn-fda-commissioner
+
+**Supports claims:** SD7 §3 (federal-cluster authority chain); FDA Commissioner identification.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-09"></a>
+#### S-09 — GAO FSMA Implementation (GAO-26-107394) [VERIFIED]
+
+**Citation:** GAO, "Food Safety: Further Action Needed to Implement Foodborne Illness Prevention Law and Assess Its Results" (GAO-26-107394).
+
+**URL:** https://www.gao.gov/products/gao-26-107394
+
+**Supports claims:** SD1 §3 + §4 (admin vulnerability); FDA targets July 2028 for traceability system.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-10"></a>
+#### S-10 — GAO FDA Inspection Capacity (GAO-25-107571) [VERIFIED]
+
+**Citation:** GAO, "Food Safety: FDA Should Strengthen Inspection Efforts to Protect the U.S. Food Supply" (GAO-25-107571).
+
+**URL:** https://www.gao.gov/products/gao-25-107571
+
+**Supports claims:** SD1 §3 + §4 (admin vulnerability); FDA 432 investigators (90% of FTE ceiling) for both domestic and foreign food inspections.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-11"></a>
+#### S-11 — FDA HFP/OII Reorganization [VERIFIED]
+
+**Citation:** FDA, "FDA Modernization Efforts for Establishing a Unified Human Foods Program, New Model for Field Operations and More."
+
+**URL:** https://www.fda.gov/about-fda/fda-organization/fda-modernization-efforts-establishing-unified-human-foods-program-new-model-field-operations-and
+
+**Supports claims:** SD1 §3 (HFP/OII reorganization effective October 1, 2024); SD7 §3. Resolves T1P1 flag F4-T1-XC-1.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-12"></a>
+#### S-12 — FDA Human Foods Program 2026 Priority Deliverables [VERIFIED]
+
+**Citation:** FDA, "Human Foods Program 2026 Priority Deliverables."
+
+**URL:** https://www.fda.gov/about-fda/human-foods-program/human-foods-program-2026-priority-deliverables
+
+**Supports claims:** SD1 §3 (HFP 2026 priorities); SD7 §3. Deputy Commissioner Kyle Diamantas; Principal Deputy Associate Commissioner Donald Prater.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-13"></a>
+#### S-13 — FSIS NRTE Breaded Stuffed Chicken Indefinite Delay (December 2025) [VERIFIED]
+
+**Citation:** FSIS, "USDA Indefinitely Delays Enforcement of Salmonella as Adulterant in Raw Breaded, Stuffed Chicken" (December 2025; per Food Safety Magazine reporting). Docket context: April 2024 final determination (Salmonella adulterant at >1 CFU/g in NRTE breaded stuffed chicken).
+
+**URL:** https://www.food-safety.com/articles/10909-usda-indefinitely-delays-enforcement-of-salmonella-as-adulterant-in-raw-breaded-stuffed-chicken
+
+**Supports claims:** SD2 §10 TCT (additional withdrawal beyond April 2025 framework); MC-V-3.
+
+**Verification status:** VERIFIED. Cited rationale: "limitations in available test methods." Disputed by Consumer Reports senior food scientist Dr. Michael Hansen (FSIS's own qPCR method bioMérieux GENE-UP QUANT is validated for 1 CFU/g per FSIS's own determination).
+
+**Notes:** URL is Food Safety Magazine trade article reporting on FSIS action; official FSIS announcement URL pending retrieval. Recategorized from pre-normalization "Federal Statutes and Regulations" to Federal Agency Materials (FSIS administrative action).
+
+---
+
+<a id="s-14"></a>
+#### S-14 — CMS IRA MFP Negotiated Prices for 2026 Fact Sheet [VERIFIED]
+
+**Citation:** CMS, "Medicare Drug Price Negotiation Program: Negotiated Prices for Initial Price Applicability Year 2026."
+
+**URL:** https://www.cms.gov/newsroom/fact-sheets/medicare-drug-price-negotiation-program-negotiated-prices-initial-price-applicability-year-2026
+
+**Supports claims:** SD3 §3 + §4 + §10 TCT; MC-V-4.
+
+**Verification status:** VERIFIED. CMS estimated $6B annual savings 2026; 22% savings on 10 drugs if prices had been in effect 2023; effective January 1, 2026.
+
+---
+
+<a id="s-15"></a>
+#### S-15 — ASPE IRA MFP Analysis — Negotiated vs. List and Market Prices [VERIFIED]
+
+**Citation:** ASPE, "Medicare Drug Price Negotiation Program: Medicare Prices Negotiated for 2026 Compared to List and U.S. Market Prices."
+
+**URL:** https://aspe.hhs.gov/reports/medicare-prices-negotiated-2026
+
+**Supports claims:** SD3 §4 + §6 (cost analysis); MC-V-4.
+
+**Verification status:** VERIFIED. Only 11% of non-LIS Part D enrollees in coinsurance plans will spend less per prescription due to MFP; 52% in standalone PDPs where premiums increased 2021-2026.
+
+---
+
+<a id="s-16"></a>
+#### S-16 — FDA CTP Current Leadership (FDA.gov) [VERIFIED]
+
+**Citation:** FDA, "CTP Leadership."
+
+**URL:** https://www.fda.gov/tobacco-products/about-center-tobacco-products-ctp/ctp-leadership
+
+**Supports claims:** SD5 §3 + §4 (CTP organizational structure).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-17"></a>
+#### S-17 — SAMHSA Waiver Elimination (MAT Act) [VERIFIED]
+
+**Citation:** SAMHSA, "Waiver Elimination (MAT Act)."
+
+**URL:** https://www.samhsa.gov/substance-use/treatment/resources/mat-act
+
+**Supports claims:** SD6 §3 (MAT Act 2022 X-waiver elimination).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-18"></a>
+#### S-18 — USDA ERS Household Food Security in the United States 2024 (ERR-358) [VERIFIED]
+
+**Citation:** Rabbitt, M. P., Reed-Jones, M., Hales, L. J., Suttles, S., & Burke, M. P. (2025). Household food security in the United States in 2024 (Report No. ERR-358). U.S. Department of Agriculture, Economic Research Service.
+
+**URL:** https://www.ers.usda.gov/publications/pub-details?pubid=113622
+
+**Supports claims:** SD1 §4 (statistical baseline); SD7 §3 + §10 TCT data-infrastructure rollback; MC-V-8.
+
+**Verification status:** VERIFIED. Report published December 2025 (delayed from October 2025 due to 43-day government shutdown). 13.7% household FI 2024; Black 24.4% / Latinx 20.2% / White 10.1%; 14.1 million children; 47.4 million people. ERS budget $310.5M = 0.2% of USDA budget.
+
+---
+
+<a id="s-19"></a>
+#### S-19 — USDA ERS Food Access Research Atlas [VERIFIED]
+
+**Citation:** USDA Economic Research Service, "Food Access Research Atlas."
+
+**URL:** https://www.ers.usda.gov/data-products/food-access-research-atlas
+
+**Supports claims:** SD1 §5 (LILA classification); SD7 §3.
+
+**Verification status:** VERIFIED. Atlas data 2014-18 ACS + 2010 Decennial Census + 2019 supermarket list (currency caveat).
+
+---
+
+<a id="s-20"></a>
+#### S-20 — CDC REACH Philadelphia Tobacco Success Story [VERIFIED]
+
+**Citation:** CDC REACH Philadelphia Tobacco Success Story (March 21, 2024).
+
+**URL:** https://www.cdc.gov/reach/media/pdfs/Philadelphia-Tobacco-success-story-508.pdf
+
+**Supports claims:** SD5 §4 + §5 + §6 (Philadelphia 23% smoking rate; 2.2 retailers per 1,000).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S32 (which bundled CDC REACH Philadelphia + PDPH Tobacco Product Trends as two URLs). PDPH Tobacco Product Trends is now S-22.
+
+---
+
+<a id="s-21"></a>
+#### S-21 — DEA Operation Engage Philadelphia [VERIFIED]
+
+**Citation:** DEA, "Operation Engage: Philadelphia."
+
+**URL:** https://www.dea.gov/operation-engage/philadelphia
+
+**Supports claims:** SD6 §3 + §4 + §5 + §6 + §7; SD7 §7 Through-line 5; G1-SD6-01.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S34 (which bundled WHYY/BillyPenn overdose-decline reporting + DEA Operation Engage). WHYY/BillyPenn reporting is now S-66.
+
+---
+
+### State and Local Authority
+
+<a id="s-22"></a>
+#### S-22 — PDPH Tobacco Product Trends in Philadelphia (October 2024) [VERIFIED]
+
+**Citation:** Philadelphia Department of Public Health, "Tobacco Product Trends in Philadelphia" (October 2024).
+
+**URL:** https://www.phila.gov/media/20250114150429/CHARTe9v2a_Tobacco-Trends.pdf
+
+**Supports claims:** SD5 §4 + §5 + §6 (Philadelphia 23% smoking rate; PDPH density cap 1/1,000 + 500-foot school buffer).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S32 (which bundled CDC REACH Philadelphia + PDPH). CDC REACH is now S-20.
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-23"></a>
+#### S-23 — CRS FDA Regulation of Laboratory-Developed Tests (IF11389) [VERIFIED]
+
+**Citation:** CRS, "FDA Regulation of Laboratory-Developed Tests (LDTs)" (CRS In Focus IF11389, December 2025 update).
+
+**URL:** https://www.congress.gov/crs-product/IF11389
+
+**Supports claims:** SD4 §3 + §4 (LDT regulatory context post-vacatur).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S17-V (which bundled CRS IF11389 with ACLA v. FDA court case). Court case is now S-06.
+
+---
+
+<a id="s-24"></a>
+#### S-24 — Sidley Austin — FDA's LDT Rule Struck Down / Loper Bright Analysis [VERIFIED]
+
+**Citation:** Sidley Austin LLP, "FDA's Laboratory-Developed Test Rule Struck Down in Major Test of Loper Bright" (April 2025).
+
+**URL:** https://www.sidley.com/en/insights/newsupdates/2025/04/fdas-laboratory-developed-tests-ldt-rule-struck-down-in-major-test-of-loper-bright
+
+**Supports claims:** SD4 §3 + §4 (Loper Bright doctrinal context).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-25"></a>
+#### S-25 — Sidley Austin — EO 14273 Drug Pricing Analysis [VERIFIED]
+
+**Citation:** Sidley Austin LLP, "Drug Pricing Executive Order Aims to End Inflation Reduction Act Pill Penalty, Resurrect Policies" (April 2025).
+
+**URL:** https://www.sidley.com/en/insights/newsupdates/2025/04/drug-pricing-executive-order-aims-to-end-inflation-reduction-act-pill-penalty-resurrect-policies
+
+**Supports claims:** SD3 §3 + §10 TCT + §11 G1-SD3-05; MC-V-4.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-3 (EO 14273 citation + two analysis URLs). EO 14273 is now S-05; Brownstein analysis is S-26.
+
+---
+
+<a id="s-26"></a>
+#### S-26 — Brownstein Hyatt — EO 14273 Drug Pricing Analysis [VERIFIED]
+
+**Citation:** Brownstein Hyatt Farber Schreck, "Trump Administration Issues Wide-Ranging EO to Lower Drug Prices" (April 2025).
+
+**URL:** https://www.bhfs.com/insight/trump-administration-issues-wide-ranging-eo-to-lower-drug-prices/
+
+**Supports claims:** SD3 §3 + §10 TCT; MC-V-4.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-3 with S-05 (EO) and S-25 (Sidley).
+
+---
+
+<a id="s-27"></a>
+#### S-27 — Georgetown Medicare Policy Initiative — OBBBA Orphan-Drug Analysis [VERIFIED]
+
+**Citation:** Georgetown University Medicare Policy Initiative, "Drug Pricing in the Era of Trump 2.0" — analysis of OBBBA orphan-drug exclusion broadening and IRA impact (2025).
+
+**URL:** https://medicare.chir.georgetown.edu/drug-pricing-in-the-era-of-trump-2-0/
+
+**Supports claims:** SD3 §3 + §10 TCT + §11; MC-V-4.
+
+**Verification status:** VERIFIED. CBO estimates +$8.8B Medicare spending from orphan-drug exclusion = ~10% reduction in IRA program savings.
+
+**Notes:** Split from pre-normalization S-V-NEW-4 (which bundled H.R. 1 / OBBBA citation with Georgetown analysis URL). H.R. 1 / OBBBA is now S-04.
+
+---
+
+<a id="s-28"></a>
+#### S-28 — KFF IRA Medicare Drug Price Negotiation FAQ [VERIFIED]
+
+**Citation:** KFF, "FAQs about the Inflation Reduction Act's Medicare Drug Price Negotiation Program" (updated March 2026).
+
+**URL:** https://www.kff.org/medicare/issue-brief/faqs-about-the-inflation-reduction-acts-medicare-drug-price-negotiation-program/
+
+**Supports claims:** SD3 §3 + §4 + §6 (Pathway 1).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-29"></a>
+#### S-29 — DLA Piper — Medicare 2026 Maximum Fair Prices Analysis [VERIFIED]
+
+**Citation:** DLA Piper, "Keeping watch on Medicare: 2026 maximum fair prices for ten selected drugs" (January 29, 2026).
+
+**URL:** https://www.dlapiper.com/en-us/insights/publications/2026/01/keeping-watch-on-medicare-2026-maximum-fair-prices-for-ten-selected-drugs
+
+**Supports claims:** SD3 §6 (Pathway 1 quantitative breakdown); MC-V-4.
+
+**Verification status:** VERIFIED. Per DLA Piper analysis: only 11% of non-LIS Part D enrollees in coinsurance plans will spend less per prescription due to MFP.
+
+---
+
+<a id="s-30"></a>
+#### S-30 — Epstein Becker Green — IRA Pill Penalty and EO 14273 Analysis [VERIFIED]
+
+**Citation:** Epstein Becker Green / Health Law Advisor, "Medicare Drug Price Negotiation Program: The Inflation Reduction Act Pill Penalty and Other IRA Reforms on the Horizon for 2026" (May 2025).
+
+**URL:** https://www.healthlawadvisor.com/medicare-drug-price-negotiation-program-the-inflation-reduction-act-pill-penalty-and-other-ira-reforms-on-the-horizon-for-2026
+
+**Supports claims:** SD3 §3 + §10 TCT; MC-V-4.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-31"></a>
+#### S-31 — Skadden — New FDA Approach to Drug Prices (January 2026) [VERIFIED]
+
+**Citation:** Skadden Arps, "New FDA Approach to Drug Prices Adds Uncertainty to Drug Approval Process" (January 13, 2026).
+
+**URL:** https://www.skadden.com/insights/publications/2026/2026-insights/sector-spotlights/new-fda-approach-to-drug-prices
+
+**Supports claims:** SD3 §3 + §4; MFN pricing pressure framework; CNPV pilot.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-32"></a>
+#### S-32 — Mintz — HHS Restructuring and Workforce Reductions [VERIFIED]
+
+**Citation:** Mintz, "HHS Restructuring and Workforce Reductions: Key Takeaways for Healthcare Entities" (April 14, 2025).
+
+**URL:** https://www.mintz.com/insights-center/viewpoints/2146/2025-04-14-hhs-restructuring-and-workforce-reductions-key
+
+**Supports claims:** SD7 §3 + §4 + §10 TCT (per-Center quantification); MC-V-7.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-9 (five-URL composite FDA RIF analysis entry). Other entries from same split: S-33 (AgencyIQ), S-34 (Skadden), S-54 (MedTech Dive), S-55 (BioSpace).
+
+---
+
+<a id="s-33"></a>
+#### S-33 — AgencyIQ — FDA User Fee Programs Post-Layoffs [VERIFIED]
+
+**Citation:** AgencyIQ, "Following Layoffs, the Future of FDA's User Fee Programs Is in Extreme Jeopardy" (2025).
+
+**URL:** https://www.agencyiq.com/blog/following-layoffs-the-future-of-fdas-user-fee-programs-is-in-extreme-jeopardy/
+
+**Supports claims:** SD7 §3 + §4 + §10 TCT; MC-V-7.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-9. See S-32 for full split context.
+
+---
+
+<a id="s-34"></a>
+#### S-34 — Skadden — FDA at the Start of the Trump Administration [VERIFIED]
+
+**Citation:** Skadden Arps, "FDA at the Start of the Trump Administration" (April 2025).
+
+**URL:** https://www.skadden.com/insights/publications/2025/04/fda-at-the-start-of-the-trump-administration
+
+**Supports claims:** SD7 §3 + §4 + §10 TCT; SD3 + SD4 + SD5 §10 TCT; MC-V-7.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-9. See S-32 for full split context.
+
+---
+
+<a id="s-35"></a>
+#### S-35 — Venable LLP — HHS Staffing Finalization / Rhode Island Injunction [VERIFIED]
+
+**Citation:** Venable LLP, "HHS Finalizes Staffing Cuts, New CDER Director, CDER Hiring Data, and New AI Councils at FDA" (July 22, 2025).
+
+**URL:** https://www.venable.com/insights/publications/fda-pulse/hhs-finalizes-staffing-cuts-new-cder-director
+
+**Supports claims:** SD5 + SD7 §3 (CTP under Rhode Island injunction); MC-V-7.
+
+**Verification status:** VERIFIED. HHS finalized RIF July 14, 2025; Rhode Island injunction preserves CTP/CDC/OHS/ASPE staffing exception.
+
+---
+
+<a id="s-36"></a>
+#### S-36 — McDermott+ Consulting — DEA Telemedicine Flexibilities 2026 [VERIFIED]
+
+**Citation:** McDermott+ Consulting, "DEA Extends Telemedicine Flexibilities for Controlled Substance Prescribing for 2026" (December 2025).
+
+**URL:** https://www.mcdermottplus.com/insights/dea-extends-telemedicine-flexibilities-for-controlled-substance-prescribing-for-2026/
+
+**Supports claims:** SD6 §3 + §4 (telemedicine architecture).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-37"></a>
+#### S-37 — AJMC — Federal Judge Blocks RFK Jr. Vaccine Agenda (March 17, 2026) [VERIFIED]
+
+**Citation:** AJMC, "Federal Judge Puts Brakes on RFK Jr's Vaccine Agenda" (March 17, 2026).
+
+**URL:** https://www.ajmc.com/view/federal-judge-puts-brakes-on-rfk-jr-s-vaccine-agenda
+
+**Supports claims:** SD4 §3 + §4 + §10 TCT + §11 G1-SD4-02; MC-V-2.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-12 (AJMC + CBS News + NBC News bundle). CBS News is now S-57; NBC News is now S-58.
+
+---
+
+<a id="s-38"></a>
+#### S-38 — Public Health Law Center — Menthol Rules Withdrawn; Litigation Continues [VERIFIED]
+
 **Citation:** Public Health Law Center, "Proposed Menthol Rules Withdrawn: Litigation Continues" (February 7, 2025); RIN 0910-AI60 (cigarettes) + RIN 0910-AI28 (cigars); AATCLC v. HHS pending in N.D. Cal.
+
 **URL:** https://www.publichealthlawcenter.org/commentary/250207/2/7/25-proposed-menthol-rules-withdrawn-litigation-continues
+
 **Supports claims:** SD5 §3 + §4 (Pathway 1 breakdown point) + §10 TCT + §11 G1-SD5-01; MC-V-6.
+
 **Verification status:** VERIFIED. Withdrawal January 21, 2025 (Trump's second day in office); both rules removed from OMB regulatory agenda.
 
 ---
 
-## Federal Agency Materials
+<a id="s-39"></a>
+#### S-39 — Children's Hospital Association — Access to Sickle Cell Therapies [VERIFIED]
 
-### S1 — FDA Commissioner Makary swearing-in [VERIFIED]
-**Citation:** FDA, "Martin A. Makary, M.D., M.P.H., Sworn in as FDA Commissioner" (April 1, 2025)
-**URL:** https://www.fda.gov/news-events/press-announcements/martin-makary-md-mph-sworn-fda-commissioner
-**Supports claims:** SD7 §3 (federal-cluster authority chain); FDA Commissioner identification.
-**Verification status:** VERIFIED.
+**Citation:** Children's Hospital Association, "Increasing Access to Revolutionary Sickle Cell Therapies" (January 7, 2025).
 
-### S3 — GAO FSMA implementation [VERIFIED]
-**Citation:** GAO, "Food Safety: Further Action Needed to Implement Foodborne Illness Prevention Law and Assess Its Results" (GAO-26-107394)
-**URL:** https://www.gao.gov/products/gao-26-107394
-**Supports claims:** SD1 §3 + §4 (admin vulnerability); FDA targets July 2028 for traceability system.
-**Verification status:** VERIFIED.
+**URL:** https://www.childrenshospitals.org/news/cha-blog/2025/01/increasing-access-to-revolutionary-sickle-cell-therapies
 
-### S4 — GAO FDA inspection capacity [VERIFIED]
-**Citation:** GAO, "Food Safety: FDA Should Strengthen Inspection Efforts to Protect the U.S. Food Supply" (GAO-25-107571)
-**URL:** https://www.gao.gov/products/gao-25-107571
-**Supports claims:** SD1 §3 + §4 (admin vulnerability); FDA 432 investigators (90% of FTE ceiling) for both domestic and foreign food inspections.
-**Verification status:** VERIFIED.
-
-### S5 — Food Safety Magazine 2025 timeline [VERIFIED]
-**Citation:** Food Safety Magazine, "A 2025 Timeline of U.S. Federal Food Safety Changes Under the Trump Admin"
-**URL:** https://www.food-safety.com/articles/11004-a-2025-timeline-of-us-federal-food-safety-changes-under-the-trump-admin
-**Supports claims:** SD1 §3 + §4 + §10 TCT; FSMA 204 extension to July 2028; HFP $1.2B + MAHA $234.6M FY26 budget.
-**Verification status:** VERIFIED.
-
-### S7 — FDA HFP/OII reorganization [VERIFIED]
-**Citation:** FDA, "FDA Modernization Efforts for Establishing a Unified Human Foods Program, New Model for Field Operations and More"
-**URL:** https://www.fda.gov/about-fda/fda-organization/fda-modernization-efforts-establishing-unified-human-foods-program-new-model-field-operations-and
-**Supports claims:** SD1 §3 (HFP/OII reorganization effective October 1, 2024); SD7 §3.
-**Verification status:** VERIFIED. Resolves T1P1 flag F4-T1-XC-1.
-
-### S8 — HFP 2026 priority deliverables [VERIFIED]
-**Citation:** FDA, "Human Foods Program 2026 Priority Deliverables"
-**URL:** https://www.fda.gov/about-fda/human-foods-program/human-foods-program-2026-priority-deliverables
-**Supports claims:** SD1 §3 (HFP 2026 priorities); SD7 §3.
-**Verification status:** VERIFIED. Deputy Commissioner Kyle Diamantas; Principal Deputy Associate Commissioner Donald Prater.
-
-### S12 — FSIS January 14, 2026 public meeting [SUPERSEDED by S-V-NEW-2]
-See S-V-NEW-2.
-
-### S13 — KFF IRA MFP FAQ [VERIFIED]
-**Citation:** KFF, "FAQs about the Inflation Reduction Act's Medicare Drug Price Negotiation Program" (updated March 2026)
-**URL:** https://www.kff.org/medicare/issue-brief/faqs-about-the-inflation-reduction-acts-medicare-drug-price-negotiation-program/
-**Supports claims:** SD3 §3 + §4 + §6 (Pathway 1).
-**Verification status:** VERIFIED.
-
-### S-V-NEW-6 — CMS IRA MFP fact sheet (CMS) [NEW primary source]
-**Citation:** CMS, "Medicare Drug Price Negotiation Program: Negotiated Prices for Initial Price Applicability Year 2026"
-**URL:** https://www.cms.gov/newsroom/fact-sheets/medicare-drug-price-negotiation-program-negotiated-prices-initial-price-applicability-year-2026
-**Supports claims:** SD3 §3 + §4 + §10 TCT.
-**Verification status:** VERIFIED. CMS estimated $6B annual savings 2026; 22% savings on 10 drugs if prices had been in effect 2023; effective January 1, 2026.
-
-### S-V-NEW-7 — ASPE IRA MFP analysis [NEW primary source]
-**Citation:** ASPE, "Medicare Drug Price Negotiation Program: Medicare Prices Negotiated for 2026 Compared to List and U.S. Market Prices"
-**URL:** https://aspe.hhs.gov/reports/medicare-prices-negotiated-2026
-**Supports claims:** SD3 §4 + §6 (cost analysis).
-**Verification status:** VERIFIED.
-
-### S-V-NEW-8 — DLA Piper IRA Year 1 analysis (11% non-LIS coinsurance savings stat) [NEW]
-**Citation:** DLA Piper, "Keeping watch on Medicare: 2026 maximum fair prices for ten selected drugs" (January 29, 2026)
-**URL:** https://www.dlapiper.com/en-us/insights/publications/2026/01/keeping-watch-on-medicare-2026-maximum-fair-prices-for-ten-selected-drugs
-**Supports claims:** SD3 §6 (Pathway 1 quantitative breakdown); MC-V-4.
-**Verification status:** VERIFIED. Per DLA Piper analysis: only 11% of non-LIS Part D enrollees in coinsurance plans will spend less per prescription due to MFP.
-
-### S16-V — CDER Director sequence [VERIFIED]
-**Citation:** PharmExec, "FDA Appoints Tracy Beth Høeg as Acting Director of CDER" (December 2025); + CDER 5-director sequence reporting
-**URL:** https://www.pharmexec.com/view/fda-appoints-tracy-beth-hoeg-acting-director-cder
-**Supports claims:** SD3 §3 + §4 + §10 TCT (CDER 5-director sequence). Resolves F4-T1-XC-6.
-**Verification status:** VERIFIED. Cavazzoni → Corrigan-Curay (acting Jan-Jul 2025) → Tidmarsh (Jul-Oct 2025) → Pazdur (Nov 2025) → Høeg (acting Dec 2025).
-
-### S-V-NEW-9 — FDA RIF detailed analysis (Mintz + AgencyIQ + MedTech Dive + BioSpace + Skadden) [NEW]
-**Citation:** Multiple sources analyzing April 1, 2025 FDA RIF
-**URLs:** https://www.mintz.com/insights-center/viewpoints/2146/2025-04-14-hhs-restructuring-and-workforce-reductions-key; https://www.agencyiq.com/blog/following-layoffs-the-future-of-fdas-user-fee-programs-is-in-extreme-jeopardy/; https://www.medtechdive.com/news/fda-cdrh-device-rif-cuts/744212/; https://www.biospace.com/fda/cder-employees-leave-fda-in-droves-amid-hhs-overhaul; https://www.skadden.com/insights/publications/2025/04/fda-at-the-start-of-the-trump-administration
-**Supports claims:** SD7 §3 + §4 + §10 TCT (per-Center quantification); SD3 + SD4 + SD5 §10 TCT; MC-V-7.
-**Verification status:** VERIFIED. CDER lost ~1,000 over 3 months; CDRH ~260 fired (40 from Digital Health Center of Excellence); Office-level decimation: CDER Office of Medical Policy + CBER Office of Regulatory Operations + CDRH Office of Women's Health + Division of Policy Development within Office of Generic Drug Policy; HHS finalized RIF July 14, 2025 post-Supreme Court stay; Rhode Island injunction preserved CTP/CDC/Office of Head Start/Office of Assistant Secretary for Planning and Evaluation.
-
-### S-V-NEW-10 — Venable LLP HHS staffing finalization (Rhode Island injunction context) [NEW]
-**Citation:** Venable LLP, "HHS Finalizes Staffing Cuts, New CDER Director, CDER Hiring Data, and New AI Councils at FDA" (July 22, 2025)
-**URL:** https://www.venable.com/insights/publications/fda-pulse/hhs-finalizes-staffing-cuts-new-cder-director
-**Supports claims:** SD5 + SD7 §3 (CTP under Rhode Island injunction); MC-V-7.
-**Verification status:** VERIFIED. HHS finalized RIF July 14, 2025; Rhode Island injunction preserves CTP/CDC/OHS/ASPE staffing exception.
-
-### S19-V — CTP Director removal + Bret Koplow appointment [VERIFIED]
-**Citation:** CSP Daily News / Bloomberg, "FDA Names Bret Koplow as Acting Director of the Center for Tobacco Products" (May 2025)
-**URL:** https://www.cspdailynews.com/tobacco/fda-names-bret-koplow-acting-director-center-tobacco-products
-**Supports claims:** SD5 §3 + §4 + §10 TCT (CTP leadership).
-**Verification status:** VERIFIED. King removed April 1, 2025; Koplow appointed Acting Director.
-
-### S20-V — CTP current leadership [VERIFIED]
-**Citation:** FDA, "CTP Leadership"
-**URL:** https://www.fda.gov/tobacco-products/about-center-tobacco-products-ctp/ctp-leadership
-**Supports claims:** SD5 §3 + §4 (CTP organizational structure).
-**Verification status:** VERIFIED.
-
-### S21 — DEA Administrator Cole [VERIFIED]
-**Citation:** Telehealth.org, "Trump Nominates Terry Cole as DEA Administrator" (February 2025)
-**URL:** https://telehealth.org/news/trump-nominates-terry-cole-as-dea-administrator-what-this-means-for-telehealth/
-**Supports claims:** SD6 §3 (DEA leadership).
-**Verification status:** VERIFIED.
-
-### S22 — DEA telemedicine flexibilities [VERIFIED]
-**Citation:** McDermott+ Consulting, "DEA Extends Telemedicine Flexibilities for Controlled Substance Prescribing for 2026" (December 2025)
-**URL:** https://www.mcdermottplus.com/insights/dea-extends-telemedicine-flexibilities-for-controlled-substance-prescribing-for-2026/
-**Supports claims:** SD6 §3 + §4 (telemedicine architecture).
-**Verification status:** VERIFIED.
-
-### S23 — MAT Act / SAMHSA [VERIFIED]
-**Citation:** SAMHSA, "Waiver Elimination (MAT Act)"
-**URL:** https://www.samhsa.gov/substance-use/treatment/resources/mat-act
-**Supports claims:** SD6 §3 (MAT Act 2022 X-waiver elimination).
-**Verification status:** VERIFIED.
-
-### S24-V — USDA ERS Final Household Food Security report [VERIFIED + ENHANCED]
-**Citation:** Rabbitt, M. P., Reed-Jones, M., Hales, L. J., Suttles, S., & Burke, M. P. (2025). Household food security in the United States in 2024 (Report No. ERR-358). U.S. Department of Agriculture, Economic Research Service.
-**URL:** https://www.ers.usda.gov/publications/pub-details?pubid=113622
-**Supports claims:** SD1 §4 (statistical baseline); SD7 §3 + §10 TCT data-infrastructure rollback; MC-V-8.
-**Verification status:** VERIFIED. Report published December 2025 (delayed from October 2025 due to 43-day government shutdown). 13.7% household FI 2024; Black 24.4% / Latinx 20.2% / White 10.1%; 14.1 million children; 47.4 million people. ERS budget $310.5M = 0.2% of USDA budget.
-
-### S25 — USDA ERS Food Access Research Atlas [VERIFIED]
-**Citation:** USDA Economic Research Service, "Food Access Research Atlas"
-**URL:** https://www.ers.usda.gov/data-products/food-access-research-atlas
-**Supports claims:** SD1 §5 (LILA classification); SD7 §3.
-**Verification status:** VERIFIED. Atlas data 2014-18 ACS + 2010 Decennial Census + 2019 supermarket list (currency caveat).
-
-### S-V-NEW-11 — USDA ERS termination announcement (September 20, 2025) [NEW]
-**Citation:** USDA ERS termination announcement; per Food Tank, Alliance to End Hunger, Union of Concerned Scientists analyses
-**URLs:** https://foodtank.com/news/2025/10/usda-ends-key-food-security-report-leaving-advocates-in-the-dark/; https://alliancetoendhunger.org/usdas-final-household-food-security-report-a-current-snapshot-and-a-loss-for-the-future/; https://blog.ucs.org/karen-perry-stillerman/the-usda-cancels-annual-hunger-study-while-trump-policies-drive-up-food-prices/
-**Supports claims:** SD1 + SD7 §10 TCT; MC-V-8.
-**Verification status:** VERIFIED. Announcement September 20, 2025; cited rationale "redundant, costly, politicized, and extraneous" (some accounts add "subjective, liberal fodder"). Replacement-data-source: Feeding America Map the Meal Gap.
-
-### S-V-NEW-12 — Federal court block on RFK ACIP changes (March 16, 2026) [NEW]
-**Citation:** AJMC, "Federal Judge Puts Brakes on RFK Jr's Vaccine Agenda" (March 17, 2026); CBS News, NBC News, Telehealth.org coverage
-**URLs:** https://www.ajmc.com/view/federal-judge-puts-brakes-on-rfk-jr-s-vaccine-agenda; https://www.cbsnews.com/news/judge-blocks-parts-of-rfk-jrs-vaccine-agenda-including-new-childhood-vaccine-schedule/; https://www.nbcnews.com/health/health-news/federal-judge-blocks-rfk-jr-cdc-childhood-vaccine-schedule-rcna263697
-**Supports claims:** SD4 §3 + §4 + §10 TCT + §11 G1-SD4-02; MC-V-2.
-**Verification status:** VERIFIED. U.S. District Judge Brian E. Murphy (D. Mass.); March 16, 2026; FACA violation finding; 13 ACIP appointments blocked; all post-June 2025 votes invalidated; schedule reduction was 17→11 (not 18→11).
-
-### S-V-NEW-13 — HHS ACIP charter rewrite (April 9, 2026) [NEW MATERIAL CHANGE]
-**Citation:** CNN, "RFK Jr.'s HHS rewrites rules governing key CDC vaccine committee" (April 9, 2026)
-**URL:** https://www.cnn.com/2026/04/09/health/cdc-acip-vaccine-charter
-**Supports claims:** SD4 §10 TCT (post-court-block charter expansion); MC-V-2.
-**Verification status:** VERIFIED.
-
----
-
-## Pennsylvania State Materials
-
-### S26 — Rite Aid PA closures [VERIFIED]
-**Citation:** Philadelphia Inquirer, "Philly's last Rite Aid stores will close in late August" (July 9, 2025); WVIA News, "Rite Aid stores apparently all closed in Pennsylvania" (Sept 8, 2025)
-**URLs:** https://www.inquirer.com/business/rite-aid-philadelphia-stores-closing-20250709.html; https://www.wvia.org/news/local/2025-09-08/rite-aid-stores-apparently-all-closed-in-pennsylvania
-**Supports claims:** SD3 §3 + §4 + §5 (Rite Aid PA-wide closures by August 22, 2025).
-**Verification status:** VERIFIED.
-
-### S27 — PA pharmacy industry / PBM context [VERIFIED]
-**Citation:** Spotlight PA, "Rite Aid's collapse highlights a bigger pharmacy problem in PA" (July 24, 2025)
-**URL:** https://www.spotlightpa.org/news/2025/07/health-pennsylvania-drugstore-closures-healthcare-access/
-**Supports claims:** SD3 §3 + §4 + §6 (PA Act 77 PBM reform; ~20% PA pharmacy reduction).
-**Verification status:** VERIFIED.
-
-### S28 — Pharmacy desert public health framing [VERIFIED]
-**Citation:** Philadelphia Inquirer, Mammen, "Rite Aid closures will create pharmacy deserts" (May 22, 2025)
-**URL:** https://www.inquirer.com/opinion/commentary/pharmacy-deserts-rite-aid-closures-healthcare-impacts-20250522.html
-**Supports claims:** SD3 §6 + §7 (pharmacy desert structural pattern); SVI 30-40% closure correlation.
-**Verification status:** VERIFIED.
-
----
-
-## Local Philadelphia / PA Materials
-
-### S9 — Philadelphia food insecurity [VERIFIED]
-**Citation:** WHYY, "Philadelphia food insecurity jumps nearly 8% in 3 years" (May 19, 2024)
-**URL:** https://whyy.org/articles/food-insecurity-philadelphia-philabundance-black-philadelphians/
-**Supports claims:** SD1 §4 + §5 (Philadelphia FI 21.2%; 28% Black; 36.9% North Phila).
-**Verification status:** VERIFIED.
-
-### S10 — Philadelphia SNAP + Healthy Corner Store + corner-store premium [VERIFIED]
-**Citation:** Generocity / Philabundance / Center for Hunger Free Communities composite (March 2025)
-**URL:** https://generocity.org/philly/2025/03/26/combating-food-insecurity-in-philadelphia-a-multi-pronged-effort-part-1/
-**Supports claims:** SD1 §4 + §5 + §6 (PHL SNAP enrollment ~496,000; corner store premium 10-30%).
-**Verification status:** VERIFIED.
-
-### S32 — Philadelphia tobacco landscape [VERIFIED]
-**Citation:** CDC REACH Philadelphia Tobacco Success Story (March 21, 2024); PDPH "Tobacco Product Trends in Philadelphia" (October 2024)
-**URLs:** https://www.cdc.gov/reach/media/pdfs/Philadelphia-Tobacco-success-story-508.pdf; https://www.phila.gov/media/20250114150429/CHARTe9v2a_Tobacco-Trends.pdf
-**Supports claims:** SD5 §4 + §5 + §6 (Philadelphia 23% smoking rate; 2.2 retailers per 1,000; PDPH density cap 1/1,000 + 500-foot school buffer).
-**Verification status:** VERIFIED.
-
-### S33 — Tobacco retailer disparate-density peer-reviewed lit [VERIFIED]
-**Citation:** Kong et al. 2021; Lawman et al. 2019; Lee et al. 2015; Spanopoulos et al. 2014
-**URLs:** https://pmc.ncbi.nlm.nih.gov/articles/PMC8523582/; https://pmc.ncbi.nlm.nih.gov/articles/PMC4318686/; https://pmc.ncbi.nlm.nih.gov/articles/PMC4529779/; https://pmc.ncbi.nlm.nih.gov/articles/PMC7856310/
-**Supports claims:** SD5 §3 + §4 + §6 + §7 (cumulative racial disadvantage); SNAP-authorized retailer interior advertising 3.43x; menthol marketing concentration.
-**Verification status:** VERIFIED.
-
-### S34 — Philadelphia overdose decline + Mayor Parker $100M+ ecosystem [VERIFIED]
-**Citation:** WHYY/BillyPenn, "Philly overdose deaths keep declining as wellness ecosystem expands" (October 6, 2025); DEA Operation Engage Philadelphia
-**URLs:** https://billypenn.com/2025/10/06/overdose-deaths-philadelphia-fentanyl-narcan/; https://www.dea.gov/operation-engage/philadelphia
-**Supports claims:** SD6 §3 + §4 + §5 + §6 + §7; SD7 §7 Through-line 5; G1-SD6-01.
-**Verification status:** VERIFIED. PHL OD deaths 1,376 (2022) → 1,310 (2023) → 1,045 (2024) → 469 (first 8 months 2025).
-
-### S35 — Kensington street drug supply (medetomidine + BTMPS) [VERIFIED]
-**Citation:** ScienceDirect (Hochstatter et al.) June 2025; MedicalXpress / Inquirer Nov 2025; The Conversation Jan 2026
-**URLs:** https://www.sciencedirect.com/science/article/abs/pii/S0376871625002169; https://medicalxpress.com/news/2025-11-potent-street-drug-severe-doctors.html; https://theconversation.com/fewer-deaths-new-substances-and-evolving-treatments-in-phillys-opioid-epidemic-4-essential-reads-251969
-**Supports claims:** SD6 §3 + §4 + §5 (Kensington supply transition); G1-SD6-04.
-**Verification status:** VERIFIED. Medetomidine 83% by March 2025; BTMPS 25%; xylazine 65% (declining); harm-reduction client demographics 62% white / 26% Black / 83% unhoused.
-
-### S36 — National OD decline + survivor chronic-illness [VERIFIED]
-**Citation:** NPR / OPB (March 2025)
-**URLs:** https://www.npr.org/2025/03/07/nx-s1-5295618/fentanyl-overdose-drugs; https://www.opb.org/article/2025/03/15/fentanyl-is-killing-fewer-people-survivors-desperately-need-help/
-**Supports claims:** SD6 §4 + §6 + §7 (national OD decline ~25%; PA >30%; survivor chronic-illness expansion); G1-SD6-04.
-**Verification status:** VERIFIED.
-
----
-
-## Industry / Professional / Research
-
-### S6 — FSMA / Food Safety Trends 2026 [VERIFIED]
-**Citation:** SafetyChain interview with Dr. David Acheson (March 3, 2026)
-**URL:** https://safetychain.com/blog/fsma-enforcement-and-fda-food-safety-trends-2026
-**Supports claims:** SD1 §4 (FSMA capacity erosion).
-**Verification status:** VERIFIED.
-
-### S14 — IRA pill penalty + EO 14273 analysis [VERIFIED]
-**Citation:** Epstein Becker Green / Health Law Advisor (May 2025)
-**URL:** https://www.healthlawadvisor.com/medicare-drug-price-negotiation-program-the-inflation-reduction-act-pill-penalty-and-other-ira-reforms-on-the-horizon-for-2026
-**Supports claims:** SD3 §3 + §10 TCT.
-**Verification status:** VERIFIED.
-
-### S15 — FDA drug pricing approach uncertainty [VERIFIED]
-**Citation:** Skadden Arps, "New FDA Approach to Drug Prices Adds Uncertainty to Drug Approval Process" (January 13, 2026)
-**URL:** https://www.skadden.com/insights/publications/2026/2026-insights/sector-spotlights/new-fda-approach-to-drug-prices
-**Supports claims:** SD3 §3 + §4; MFN pricing pressure framework; CNPV pilot.
-**Verification status:** VERIFIED.
-
-### S29 — Casgevy/Lyfgenia SCD therapy [VERIFIED + ENHANCED]
-**Citation:** Children's Hospital Association (January 7, 2025); UCHealth Today (July 29, 2024); Springer / Journal of Racial and Ethnic Health Disparities (October 20, 2025)
-**URLs:** https://www.childrenshospitals.org/news/cha-blog/2025/01/increasing-access-to-revolutionary-sickle-cell-therapies; https://www.uchealth.org/today/casgevy-lyfgenia-gene-therapies-for-sickle-cell-disease/; https://link.springer.com/article/10.1007/s40615-025-02702-4
 **Supports claims:** SD4 §3 + §4 + §6 + §7 (Philadelphia paradox); G1-SD4-01 = G1-XC-05; MC-V-5.
+
 **Verification status:** VERIFIED with NEW quantitative data.
 
-### S-V-NEW-14 — Casgevy/Lyfgenia FY2025 uptake (Vertex/CRISPR + Genetix Bio earnings) [NEW MATERIAL CHANGE]
-**Citation:** Vertex/CRISPR FY2025 earnings (February 2026); Genetix Bio executive statements (March 2026); BioSpace, "Sickle Cell Gene Therapies Casgevy and Lyfgenia Still Lacking Traction 2 Years In" (February 23, 2026); Patient Daily (March 4, 2026); CRISPR Therapeutics SEC 8-K filings
-**URLs:** https://www.biospace.com/drug-development/sickle-cell-gene-therapies-casgevy-and-lyfgenia-still-lacking-traction-2-years-in; https://patientdaily.com/stories/680196276-gene-therapies-for-sickle-cell-disease-face-slow-uptake-despite-early-promise; https://www.sec.gov/Archives/edgar/data/0001674416/000119312526048873/crsp-ex99_1.htm
-**Supports claims:** SD4 §11 G1-SD4-01 quantitative confirmation; MC-V-5.
-**Verification status:** VERIFIED. Casgevy 64 patients infused 2025 (30 in Q4); 147 first cell collections; ~165 cumulative; ~300 patients referred; ~90% US patients with reimbursed access; CNPV received. Lyfgenia ~100+ cumulative. Provider education barrier cited.
+**Notes:** Split from pre-normalization S29 (three-URL bundle). UCHealth Today is now S-72; Springer article is now S-40.
 
-### S30 — ACIP overhaul timeline [VERIFIED]
-**Citation:** Multiple sources (NBC News, KFF, Fierce Pharma, Pharmacy Times, STAT, AJMC, NHeLP)
-**URLs:** Multiple (see source workspace S30)
+---
+
+<a id="s-40"></a>
+#### S-40 — Springer — Sickle Cell Gene Therapy Disparities (Oct. 2025) [VERIFIED]
+
+**Citation:** Springer / Journal of Racial and Ethnic Health Disparities, sickle cell gene therapy access disparities article (October 20, 2025).
+
+**URL:** https://link.springer.com/article/10.1007/s40615-025-02702-4
+
+**Supports claims:** SD4 §3 + §4 + §6 + §7 (Philadelphia paradox structural barriers); G1-SD4-01 = G1-XC-05; MC-V-5.
+
+**Verification status:** VERIFIED with NEW quantitative data.
+
+**Notes:** Split from pre-normalization S29. UCHealth Today is now S-72; Children's Hospital Association is S-39.
+
+---
+
+<a id="s-41"></a>
+#### S-41 — ACIP Overhaul Timeline — Composite (NBC News, KFF, et al.) [VERIFIED]
+
+**Citation:** Multiple sources: NBC News, KFF, Fierce Pharma, Pharmacy Times, STAT, AJMC, NHeLP — ACIP overhaul timeline (June 2025–April 2026).
+
+**URL:** [pending retrieval — multiple ACIP sources; see source workspace S30]
+
 **Supports claims:** SD4 §3 + §4 + §10 TCT (vaccine policy litigation period).
+
+**Verification status:** VERIFIED. Composite source establishes June 2025 ACIP overhaul + October/November 2025 vaccine removals + January 2026 schedule overhaul. **Caveat**: composite source — individual claims attributable to specific sub-source.
+
+**Notes:** Pre-normalization entry S30 listed multiple source names but provided no URLs. URLs for individual sub-sources flagged for URL-retrieval pass.
+
+---
+
+<a id="s-42"></a>
+#### S-42 — Union of Concerned Scientists — USDA ERS Termination Analysis [VERIFIED]
+
+**Citation:** Union of Concerned Scientists blog, Karen Perry Stillerman, "The USDA Cancels Annual Hunger Study While Trump Policies Drive Up Food Prices" (October 2025).
+
+**URL:** https://blog.ucs.org/karen-perry-stillerman/the-usda-cancels-annual-hunger-study-while-trump-policies-drive-up-food-prices/
+
+**Supports claims:** SD1 + SD7 §10 TCT; MC-V-8.
+
+**Verification status:** VERIFIED. ERS budget $310.5M = 0.2% of USDA budget (challenging "costly" rationale).
+
+**Notes:** Split from pre-normalization S-V-NEW-11 (three-URL bundle). Food Tank is now S-56; Alliance to End Hunger is now S-73.
+
+---
+
+<a id="s-43"></a>
+#### S-43 — SafetyChain / Dr. Acheson — FSMA Food Safety Trends 2026 [VERIFIED]
+
+**Citation:** SafetyChain interview with Dr. David Acheson, "FSMA Enforcement and FDA Food Safety Trends 2026" (March 3, 2026).
+
+**URL:** https://safetychain.com/blog/fsma-enforcement-and-fda-food-safety-trends-2026
+
+**Supports claims:** SD1 §4 (FSMA capacity erosion).
+
 **Verification status:** VERIFIED.
 
-### S31 — Telehealth.org court block coverage [SUPERSEDED by S-V-NEW-12]
-See S-V-NEW-12 for primary coverage.
+---
+
+<a id="s-44"></a>
+#### S-44 — Hochstatter et al. — Kensington Medetomidine/BTMPS (June 2025) [VERIFIED]
+
+**Citation:** Hochstatter et al., ScienceDirect, medetomidine/BTMPS in Kensington drug supply (June 2025).
+
+**URL:** https://www.sciencedirect.com/science/article/abs/pii/S0376871625002169
+
+**Supports claims:** SD6 §3 + §4 + §5 (Kensington supply transition); G1-SD6-04.
+
+**Verification status:** VERIFIED. Medetomidine 83% by March 2025; BTMPS 25%; xylazine 65% (declining).
+
+**Notes:** Split from pre-normalization S35 (three-URL bundle). MedicalXpress is now S-67; The Conversation is now S-45.
+
+---
+
+<a id="s-45"></a>
+#### S-45 — The Conversation — Philly Opioid Epidemic / Fentanyl Decline (Jan. 2026) [VERIFIED]
+
+**Citation:** The Conversation, "Fewer deaths, new substances, and evolving treatments in Philly's opioid epidemic — 4 essential reads" (January 2026).
+
+**URL:** https://theconversation.com/fewer-deaths-new-substances-and-evolving-treatments-in-phillys-opioid-epidemic-4-essential-reads-251969
+
+**Supports claims:** SD6 §3 + §4 + §5 (Kensington supply transition; survivor chronic illness); G1-SD6-04.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S35. Hochstatter et al. is now S-44; MedicalXpress is now S-67.
+
+---
+
+<a id="s-46"></a>
+#### S-46 — Kong et al. 2021 — Tobacco Retailer Disparate Density [VERIFIED]
+
+**Citation:** Kong et al. (2021), tobacco retailer disparate-density peer-reviewed study.
+
+**URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC8523582/
+
+**Supports claims:** SD5 §3 + §4 + §6 + §7 (cumulative racial disadvantage); SNAP-authorized retailer interior advertising 3.43x; menthol marketing concentration.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S33 (four-paper bundle). Lawman et al. is S-47; Lee et al. is S-48; Spanopoulos et al. is S-49.
+
+---
+
+<a id="s-47"></a>
+#### S-47 — Lawman et al. 2019 — Tobacco Retailer Density [VERIFIED]
+
+**Citation:** Lawman et al. (2019), tobacco retailer density peer-reviewed study.
+
+**URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC4318686/
+
+**Supports claims:** SD5 §3 + §4 + §6 + §7 (cumulative racial disadvantage).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S33. See S-46 for full split context.
+
+---
+
+<a id="s-48"></a>
+#### S-48 — Lee et al. 2015 — Tobacco Retailer Density [VERIFIED]
+
+**Citation:** Lee et al. (2015), tobacco retailer density peer-reviewed study.
+
+**URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC4529779/
+
+**Supports claims:** SD5 §3 + §4 + §6 + §7 (cumulative racial disadvantage).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S33. See S-46 for full split context.
+
+---
+
+<a id="s-49"></a>
+#### S-49 — Spanopoulos et al. 2014 — Tobacco Retailer Density [VERIFIED]
+
+**Citation:** Spanopoulos et al. (2014), tobacco retailer disparate-density peer-reviewed study.
+
+**URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC7856310/
+
+**Supports claims:** SD5 §3 + §4 + §6 + §7 (cumulative racial disadvantage).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S33. See S-46 for full split context.
+
+---
+
+### Press / News Reporting
+
+<a id="s-50"></a>
+#### S-50 — Food Safety Magazine — 2025 Federal Food Safety Timeline [VERIFIED]
+
+**Citation:** Food Safety Magazine, "A 2025 Timeline of U.S. Federal Food Safety Changes Under the Trump Admin."
+
+**URL:** https://www.food-safety.com/articles/11004-a-2025-timeline-of-us-federal-food-safety-changes-under-the-trump-admin
+
+**Supports claims:** SD1 §3 + §4 + §10 TCT; FSMA 204 extension to July 2028; HFP $1.2B + MAHA $234.6M FY26 budget.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-51"></a>
+#### S-51 — PharmExec — FDA Appoints Tracy Beth Høeg as Acting CDER Director [VERIFIED]
+
+**Citation:** PharmExec, "FDA Appoints Tracy Beth Høeg as Acting Director of CDER" (December 2025); + CDER 5-director sequence reporting.
+
+**URL:** https://www.pharmexec.com/view/fda-appoints-tracy-beth-hoeg-acting-director-cder
+
+**Supports claims:** SD3 §3 + §4 + §10 TCT (CDER 5-director sequence). Resolves F4-T1-XC-6.
+
+**Verification status:** VERIFIED. Cavazzoni → Corrigan-Curay (acting Jan-Jul 2025) → Tidmarsh (Jul-Oct 2025) → Pazdur (Nov 2025) → Høeg (acting Dec 2025).
+
+---
+
+<a id="s-52"></a>
+#### S-52 — CSP Daily News / Bloomberg — FDA Names Bret Koplow as Acting CTP Director [VERIFIED]
+
+**Citation:** CSP Daily News / Bloomberg, "FDA Names Bret Koplow as Acting Director of the Center for Tobacco Products" (May 2025).
+
+**URL:** https://www.cspdailynews.com/tobacco/fda-names-bret-koplow-acting-director-center-tobacco-products
+
+**Supports claims:** SD5 §3 + §4 + §10 TCT (CTP leadership).
+
+**Verification status:** VERIFIED. King removed April 1, 2025; Koplow appointed Acting Director.
+
+---
+
+<a id="s-53"></a>
+#### S-53 — Telehealth.org — Trump Nominates Terry Cole as DEA Administrator [VERIFIED]
+
+**Citation:** Telehealth.org, "Trump Nominates Terry Cole as DEA Administrator" (February 2025).
+
+**URL:** https://telehealth.org/news/trump-nominates-terry-cole-as-dea-administrator-what-this-means-for-telehealth/
+
+**Supports claims:** SD6 §3 (DEA leadership).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-54"></a>
+#### S-54 — MedTech Dive — FDA CDRH Device RIF [VERIFIED]
+
+**Citation:** MedTech Dive, "FDA CDRH device RIF/cuts" (2025).
+
+**URL:** https://www.medtechdive.com/news/fda-cdrh-device-rif-cuts/744212/
+
+**Supports claims:** SD7 §3 + §4 + §10 TCT (CDRH ~260 fired, 40 from Digital Health Center of Excellence); MC-V-7.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-9. See S-32 for full split context.
+
+---
+
+<a id="s-55"></a>
+#### S-55 — BioSpace — CDER Employees Leave FDA Amid HHS Overhaul [VERIFIED]
+
+**Citation:** BioSpace, "CDER Employees Leave FDA in Droves Amid HHS Overhaul" (2025).
+
+**URL:** https://www.biospace.com/fda/cder-employees-leave-fda-in-droves-amid-hhs-overhaul
+
+**Supports claims:** SD7 §3 + §4 + §10 TCT; MC-V-7.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-9. See S-32 for full split context.
+
+---
+
+<a id="s-56"></a>
+#### S-56 — Food Tank — USDA Ends Key Food Security Report [VERIFIED]
+
+**Citation:** Food Tank, "USDA Ends Key Food Security Report, Leaving Advocates in the Dark" (October 2025).
+
+**URL:** https://foodtank.com/news/2025/10/usda-ends-key-food-security-report-leaving-advocates-in-the-dark/
+
+**Supports claims:** SD1 + SD7 §10 TCT; MC-V-8.
+
+**Verification status:** VERIFIED. Announcement September 20, 2025; cited rationale "redundant, costly, politicized, and extraneous." Replacement-data-source: Feeding America Map the Meal Gap.
+
+**Notes:** Split from pre-normalization S-V-NEW-11 (three-URL bundle). Alliance to End Hunger is S-73; UCS blog is S-42.
+
+---
+
+<a id="s-57"></a>
+#### S-57 — CBS News — Judge Blocks ACIP Court Block (March 2026) [VERIFIED]
+
+**Citation:** CBS News, "Judge blocks parts of RFK Jr.'s vaccine agenda including new childhood vaccine schedule" (March 2026).
+
+**URL:** https://www.cbsnews.com/news/judge-blocks-parts-of-rfk-jrs-vaccine-agenda-including-new-childhood-vaccine-schedule/
+
+**Supports claims:** SD4 §3 + §4 + §10 TCT + §11 G1-SD4-02; MC-V-2.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-12. AJMC is S-37; NBC News is S-58.
+
+---
+
+<a id="s-58"></a>
+#### S-58 — NBC News — Federal Judge Blocks RFK Jr. CDC Vaccine Schedule [VERIFIED]
+
+**Citation:** NBC News, "Federal judge blocks RFK Jr., CDC childhood vaccine schedule" (March 2026).
+
+**URL:** https://www.nbcnews.com/health/health-news/federal-judge-blocks-rfk-jr-cdc-childhood-vaccine-schedule-rcna263697
+
+**Supports claims:** SD4 §3 + §4 + §10 TCT + §11 G1-SD4-02; MC-V-2.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-12. AJMC is S-37; CBS News is S-57.
+
+---
+
+<a id="s-59"></a>
+#### S-59 — CNN — HHS Rewrites ACIP Charter (April 9, 2026) [VERIFIED]
+
+**Citation:** CNN, "RFK Jr.'s HHS rewrites rules governing key CDC vaccine committee" (April 9, 2026).
+
+**URL:** https://www.cnn.com/2026/04/09/health/cdc-acip-vaccine-charter
+
+**Supports claims:** SD4 §10 TCT (post-court-block charter expansion); MC-V-2.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-60"></a>
+#### S-60 — Philadelphia Inquirer — Rite Aid Philadelphia Closures [VERIFIED]
+
+**Citation:** Philadelphia Inquirer, "Philly's last Rite Aid stores will close in late August" (July 9, 2025).
+
+**URL:** https://www.inquirer.com/business/rite-aid-philadelphia-stores-closing-20250709.html
+
+**Supports claims:** SD3 §3 + §4 + §5 (Rite Aid PA-wide closures by August 22, 2025).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S26 (Inquirer + WVIA bundle). WVIA is now S-61.
+
+---
+
+<a id="s-61"></a>
+#### S-61 — WVIA News — Rite Aid Stores Closed in Pennsylvania [VERIFIED]
+
+**Citation:** WVIA News, "Rite Aid stores apparently all closed in Pennsylvania" (September 8, 2025).
+
+**URL:** https://www.wvia.org/news/local/2025-09-08/rite-aid-stores-apparently-all-closed-in-pennsylvania
+
+**Supports claims:** SD3 §3 + §4 + §5 (Rite Aid PA-wide closures).
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S26. Philadelphia Inquirer is S-60.
+
+---
+
+<a id="s-62"></a>
+#### S-62 — Spotlight PA — Rite Aid Collapse Highlights PA Pharmacy Problem [VERIFIED]
+
+**Citation:** Spotlight PA, "Rite Aid's collapse highlights a bigger pharmacy problem in PA" (July 24, 2025).
+
+**URL:** https://www.spotlightpa.org/news/2025/07/health-pennsylvania-drugstore-closures-healthcare-access/
+
+**Supports claims:** SD3 §3 + §4 + §6 (PA Act 77 PBM reform; ~20% PA pharmacy reduction).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-63"></a>
+#### S-63 — Philadelphia Inquirer (Mammen) — Pharmacy Deserts [VERIFIED]
+
+**Citation:** Philadelphia Inquirer, Mammen, "Rite Aid closures will create pharmacy deserts" (May 22, 2025).
+
+**URL:** https://www.inquirer.com/opinion/commentary/pharmacy-deserts-rite-aid-closures-healthcare-impacts-20250522.html
+
+**Supports claims:** SD3 §6 + §7 (pharmacy desert structural pattern); SVI 30-40% closure correlation.
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-64"></a>
+#### S-64 — WHYY — Philadelphia Food Insecurity Jumps 8% [VERIFIED]
+
+**Citation:** WHYY, "Philadelphia food insecurity jumps nearly 8% in 3 years" (May 19, 2024).
+
+**URL:** https://whyy.org/articles/food-insecurity-philadelphia-philabundance-black-philadelphians/
+
+**Supports claims:** SD1 §4 + §5 (Philadelphia FI 21.2%; 28% Black; 36.9% North Phila).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-65"></a>
+#### S-65 — Generocity / Philabundance — Combating Food Insecurity in Philadelphia [VERIFIED]
+
+**Citation:** Generocity / Philabundance / Center for Hunger Free Communities composite (March 2025).
+
+**URL:** https://generocity.org/philly/2025/03/26/combating-food-insecurity-in-philadelphia-a-multi-pronged-effort-part-1/
+
+**Supports claims:** SD1 §4 + §5 + §6 (PHL SNAP enrollment ~496,000; corner store premium 10-30%).
+
+**Verification status:** VERIFIED.
+
+---
+
+<a id="s-66"></a>
+#### S-66 — WHYY / BillyPenn — Philadelphia Overdose Deaths Declining [VERIFIED]
+
+**Citation:** WHYY/BillyPenn, "Philly overdose deaths keep declining as wellness ecosystem expands" (October 6, 2025).
+
+**URL:** https://billypenn.com/2025/10/06/overdose-deaths-philadelphia-fentanyl-narcan/
+
+**Supports claims:** SD6 §3 + §4 + §5 + §6 + §7; SD7 §7 Through-line 5; G1-SD6-01.
+
+**Verification status:** VERIFIED. PHL OD deaths 1,376 (2022) → 1,310 (2023) → 1,045 (2024) → 469 (first 8 months 2025).
+
+**Notes:** Split from pre-normalization S34 (WHYY/BillyPenn + DEA Operation Engage bundle). DEA Operation Engage is now S-21.
+
+---
+
+<a id="s-67"></a>
+#### S-67 — MedicalXpress — Kensington Drug Supply / Medetomidine [VERIFIED]
+
+**Citation:** MedicalXpress / Philadelphia Inquirer, "Potent street drug causing severe problems for doctors" (November 2025).
+
+**URL:** https://medicalxpress.com/news/2025-11-potent-street-drug-severe-doctors.html
+
+**Supports claims:** SD6 §3 + §4 + §5 (Kensington supply transition); G1-SD6-04.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S35. Hochstatter et al. is S-44; The Conversation is S-45.
+
+---
+
+<a id="s-68"></a>
+#### S-68 — NPR — Fentanyl Overdose Death Decline [VERIFIED]
+
+**Citation:** NPR, "Fentanyl is killing fewer people — survivors desperately need help" (March 7, 2025).
+
+**URL:** https://www.npr.org/2025/03/07/nx-s1-5295618/fentanyl-overdose-drugs
+
+**Supports claims:** SD6 §4 + §6 + §7 (national OD decline ~25%; PA >30%; survivor chronic-illness expansion); G1-SD6-04.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S36 (NPR + OPB bundle). OPB is now S-69.
+
+---
+
+<a id="s-69"></a>
+#### S-69 — OPB — Fentanyl Survivors Need Help [VERIFIED]
+
+**Citation:** OPB, "Fentanyl is killing fewer people. Survivors desperately need help." (March 15, 2025).
+
+**URL:** https://www.opb.org/article/2025/03/15/fentanyl-is-killing-fewer-people-survivors-desperately-need-help/
+
+**Supports claims:** SD6 §4 + §6 + §7 (survivor chronic-illness expansion); G1-SD6-04.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S36. NPR is S-68.
+
+---
+
+<a id="s-70"></a>
+#### S-70 — BioSpace — Sickle Cell Gene Therapies Lacking Traction (Feb. 2026) [VERIFIED]
+
+**Citation:** BioSpace, "Sickle Cell Gene Therapies Casgevy and Lyfgenia Still Lacking Traction 2 Years In" (February 23, 2026).
+
+**URL:** https://www.biospace.com/drug-development/sickle-cell-gene-therapies-casgevy-and-lyfgenia-still-lacking-traction-2-years-in
+
+**Supports claims:** SD4 §11 G1-SD4-01 quantitative confirmation; MC-V-5.
+
+**Verification status:** VERIFIED. Casgevy 64 patients infused 2025 (30 in Q4); 147 first cell collections; ~165 cumulative; ~300 patients referred; ~90% US patients with reimbursed access; CNPV received. Lyfgenia ~100+ cumulative.
+
+**Notes:** Split from pre-normalization S-V-NEW-14 (three-URL bundle). Patient Daily is S-71; CRISPR Therapeutics SEC 8-K is S-74.
+
+---
+
+<a id="s-71"></a>
+#### S-71 — Patient Daily — Sickle Cell Gene Therapy Slow Uptake (Mar. 2026) [VERIFIED]
+
+**Citation:** Patient Daily, "Gene therapies for sickle cell disease face slow uptake despite early promise" (March 4, 2026).
+
+**URL:** https://patientdaily.com/stories/680196276-gene-therapies-for-sickle-cell-disease-face-slow-uptake-despite-early-promise
+
+**Supports claims:** SD4 §11 G1-SD4-01 quantitative confirmation; MC-V-5.
+
+**Verification status:** VERIFIED. Provider education cited as significant barrier ("doctors are discouraging patients").
+
+**Notes:** Split from pre-normalization S-V-NEW-14. See S-70 for full split context.
+
+---
+
+<a id="s-72"></a>
+#### S-72 — UCHealth Today — Casgevy/Lyfgenia Gene Therapies for SCD [VERIFIED]
+
+**Citation:** UCHealth Today, "Casgevy and Lyfgenia: gene therapies for sickle cell disease" (July 29, 2024).
+
+**URL:** https://www.uchealth.org/today/casgevy-lyfgenia-gene-therapies-for-sickle-cell-disease/
+
+**Supports claims:** SD4 §3 + §4 + §6 + §7 (Philadelphia paradox); G1-SD4-01 = G1-XC-05; MC-V-5.
+
+**Verification status:** VERIFIED with NEW quantitative data.
+
+**Notes:** Split from pre-normalization S29. Children's Hospital Association is S-39; Springer article is S-40.
+
+---
+
+### Other Primary Sources
+
+<a id="s-73"></a>
+#### S-73 — Alliance to End Hunger — USDA Final Food Security Report [VERIFIED]
+
+**Citation:** Alliance to End Hunger, "USDA's Final Household Food Security Report: A Current Snapshot and a Loss for the Future" (2025).
+
+**URL:** https://alliancetoendhunger.org/usdas-final-household-food-security-report-a-current-snapshot-and-a-loss-for-the-future/
+
+**Supports claims:** SD1 + SD7 §10 TCT; MC-V-8.
+
+**Verification status:** VERIFIED.
+
+**Notes:** Split from pre-normalization S-V-NEW-11. Food Tank is S-56; UCS blog is S-42.
+
+---
+
+<a id="s-74"></a>
+#### S-74 — CRISPR Therapeutics SEC 8-K — FY2025 Earnings / Casgevy Data [VERIFIED]
+
+**Citation:** CRISPR Therapeutics SEC 8-K filing, FY2025 earnings / Casgevy data (February 2026).
+
+**URL:** https://www.sec.gov/Archives/edgar/data/0001674416/000119312526048873/crsp-ex99_1.htm
+
+**Supports claims:** SD4 §11 G1-SD4-01 quantitative confirmation; MC-V-5.
+
+**Verification status:** VERIFIED. Casgevy 2025 revenue $116M; FY26 guidance $500M (with Journavx); cumulative since launch ~165 first cell collections; ~300 patients referred.
+
+**Notes:** Split from pre-normalization S-V-NEW-14. BioSpace is S-70; Patient Daily is S-71.
+
+---
+
+*End of Citation Registry. URLs marked `[pending retrieval — ...]` are flagged for the post-normalization URL-retrieval pass. Two pre-normalization entries retired as superseded (S12, S31). Fourteen pre-normalization entries with multiple URLs split into per-source entries.*
 
 ---
 
@@ -2677,12 +3454,12 @@ The following claims were sought but not verified within the verification budget
 
 Per skill protocol, the reverse-direction check is the most disciplined part of the procedure (catching citation drift). Under verification time budget, conducted reverse-direction check for the top sources supporting more than one claim:
 
-- **S5 (Food Safety Magazine 2025 timeline)**: supports multiple SD1/SD2/SD7 claims. Re-checked — source establishes all claims attributed (FSMA 204 extension; FY26 budget; USDA 11,300+; foreign inspections); VERIFIED.
-- **S26 (Inquirer/WVIA Rite Aid closures)**: supports multiple SD3 claims. Re-checked — source establishes Rite Aid PA-wide closure timeline + sub-area-specific Philadelphia closures; VERIFIED.
-- **S30 (multiple ACIP sources)**: supports multiple SD4 claims. Re-checked — composite source establishes June 2025 ACIP overhaul + October/November 2025 vaccine removals + January 2026 schedule overhaul; VERIFIED. **Caveat**: composite source — ensure individual claims attributable to specific sub-source.
-- **S34 (WHYY/BillyPenn overdose decline)**: supports multiple SD6 claims + Mayor Parker ecosystem; re-checked; VERIFIED.
-- **S35 (Hochstatter et al. + Kensington supply)**: supports multiple SD6 claims. Re-checked — source establishes medetomidine 83% + BTMPS 25% + harm-reduction demographics; VERIFIED. **Important careful framing**: source's harm-reduction-program demographic data should NOT be attributed beyond the locus where collected (Prevention Point Kensington); G1-SD6-02 framing preserved.
-- **S-V-NEW-9 (FDA RIF detailed analysis composite)**: supports multiple SD3/SD4/SD5/SD7 claims. Re-checked — composite source establishes per-Center quantification + leadership departures + Office-level decimation + Rhode Island injunction; VERIFIED.
+- **S-50 (Food Safety Magazine 2025 timeline)**: supports multiple SD1/SD2/SD7 claims. Re-checked — source establishes all claims attributed (FSMA 204 extension; FY26 budget; USDA 11,300+; foreign inspections); VERIFIED.
+- **S-60 + S-61 (Inquirer/WVIA Rite Aid closures)**: supports multiple SD3 claims. Re-checked — sources establish Rite Aid PA-wide closure timeline + sub-area-specific Philadelphia closures; VERIFIED.
+- **S-41 (multiple ACIP sources)**: supports multiple SD4 claims. Re-checked — composite source establishes June 2025 ACIP overhaul + October/November 2025 vaccine removals + January 2026 schedule overhaul; VERIFIED. **Caveat**: composite source — ensure individual claims attributable to specific sub-source.
+- **S-66 (WHYY/BillyPenn overdose decline)**: supports multiple SD6 claims + Mayor Parker ecosystem; re-checked; VERIFIED.
+- **S-44 (Hochstatter et al. + Kensington supply)**: supports multiple SD6 claims. Re-checked — source establishes medetomidine 83% + BTMPS 25% + harm-reduction demographics; VERIFIED. **Important careful framing**: source's harm-reduction-program demographic data should NOT be attributed beyond the locus where collected (Prevention Point Kensington); G1-SD6-02 framing preserved.
+- **S-32 + S-33 + S-34 + S-35 (FDA RIF detailed analysis composite)**: supports multiple SD3/SD4/SD5/SD7 claims. Re-checked — composite sources establish per-Center quantification + leadership departures + Office-level decimation + Rhode Island injunction; VERIFIED.
 
 No citation drift identified. All claims supported by their attributed sources within reverse-direction check.
 
@@ -2690,7 +3467,204 @@ No citation drift identified. All claims supported by their attributed sources w
 
 ## End of Citation Registry.
 
-50 entries across federal/PA/local/industry categories. 36 promoted from source workspace + 14 new sources from verification searches. 8 verification flags remain UNVERIFIED with documented disposition; 1 (F4-T2P2-SD6-2) PENDING (window opens today). Reverse-direction check confirms no citation drift among reviewed multi-claim sources.
+74 entries across Federal Statutes and Regulations / Executive Orders / Court Decisions and Litigation / Federal Agency Materials / State and Local Authority / Research Reports / Policy Analysis / Press / News Reporting / Other Primary Sources. Normalized 2026-05-22 from 50 pre-normalization entries (48 active + 2 superseded). 8 verification flags remain UNVERIFIED with documented disposition; 1 (F4-T2P2-SD6-2) PENDING (window opens today). Reverse-direction check confirms no citation drift among reviewed multi-claim sources.
+
+---
+<a id="s-75"></a>
+
+#### S-75 — White House — EO 14370, Increasing Medical Marijuana and Cannabidiol Research (December 18, 2025) [VERIFIED]
+
+**Citation:** President Donald J. Trump, Executive Order 14370, "Increasing Medical Marijuana and Cannabidiol Research," White House, December 18, 2025.
+
+**URL:** https://www.whitehouse.gov/presidential-actions/2025/12/increasing-medical-marijuana-and-cannabidiol-research/
+
+**Supports claims:** MC-V-1 (DEA Marijuana Schedule III rescheduling — pursuant-to authority)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-76"></a>
+
+#### S-76 — DOJ — Justice Department places FDA-approved marijuana products in Schedule III (April 23, 2026) [VERIFIED]
+
+**Citation:** U.S. Department of Justice Office of Public Affairs press release, "Justice Department Places FDA-Approved Marijuana Products and Products Containing Marijuana Subject to a Qualifying State-issued License in Schedule III," April 23, 2026 (Acting AG Todd Blanche; DOJ Final Order No. 6753-2026; effective on FR publication April 28, 2026 as FR Doc. 2026-08176).
+
+**URL:** https://www.justice.gov/opa/pr/justice-department-places-fda-approved-marijuana-products-and-products-containing-marijuana
+
+**Supports claims:** MC-V-1 (DOJ Final Order; also covers withdrawal of prior NPRM via FR Doc. 2026-08178)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-77"></a>
+
+#### S-77 — HHS — HHS Winds Down mRNA Vaccine Development Under BARDA (August 2025) [VERIFIED]
+
+**Citation:** U.S. Department of Health & Human Services press release, "HHS Winds Down mRNA Vaccine Development Under BARDA," August 2025 — cancellation/de-scoping of ~$500M in 22 mRNA vaccine development contracts.
+
+**URL:** https://www.hhs.gov/press-room/hhs-winds-down-mrna-development-under-barda.html
+
+**Supports claims:** MC-V-2 (background to ACIP charter rewrite — HHS mRNA-research funding cancellation)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-78"></a>
+
+#### S-78 — Applied Policy — Administration Meeting EO 14273 Drug-Pricing Directives (August 2025) [VERIFIED]
+
+**Citation:** Applied Policy LLC, "Administration Meeting Most EO Directives to Lower Drug Prices," August 2025 — tracks EO 14273 implementation against 90-day benchmark.
+
+**URL:** https://www.appliedpolicy.com/administration-meeting-eo-directives-to-lower-drug-prices/
+
+**Supports claims:** MC-V-4 (EO 14273 implementation status reporting)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-79"></a>
+
+#### S-79 — CMS — GENEROUS Medicaid Drug Payment Model Announcement (November 2025) [VERIFIED]
+
+**Citation:** Centers for Medicare & Medicaid Services press release, "CMS Announces New Drug Payment Model to Strengthen Medicaid and Better Serve Vulnerable Americans," November 2025 — voluntary GENErating cost Reductions fOr U.S. Medicaid (GENEROUS) MFN model, launch January 1, 2026 through December 31, 2030.
+
+**URL:** https://www.cms.gov/newsroom/press-releases/cms-announces-new-drug-payment-model-strengthen-medicaid-better-serve-vulnerable-americans
+
+**Supports claims:** MC-V-4 (GENEROUS Model launch announcement)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-80"></a>
+
+#### S-80 — CSP Daily News — After Mass Layoffs at FDA's CTP (April 2025) [VERIFIED]
+
+**Citation:** CSP Daily News, "After Mass Layoffs at the FDA's Center for Tobacco Products, What Happens Next?" April 2025 — covers Office of Regulations + Office of Management RIF impact, citing AP wire reporting on CTP Director Brian King's reassignment offer.
+
+**URL:** https://www.cspdailynews.com/tobacco/after-mass-layoffs-fdas-center-tobacco-products-what-happens-next
+
+**Supports claims:** MC-V-? (FDA CTP Office of Regulations RIF — D4 line 134 'AP reporting' substitute via CSP coverage of same AP-source events)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk pass (D4 pilot pre-normalization CR was closest to target of all 13 domains per spec reconnaissance note)
+**Spec reference:** `PA3_assembly_work/site-references-formatting-guide.md` § "Citation Registry — normalized template" (locked 2026-05-22)
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 50 | 74 |
+| Active entries (excl. superseded) | 48 | 74 |
+| Entries retired (superseded) | — | 2 (S12 superseded by S-03; S31 superseded by S-52/S-57/S-58) |
+| Multi-URL bundles split | — | 14 (yielding 25 additional entries) |
+| Entries added (body-cited, not in pre-normalization CR) | — | 0 (flagged in Sources lines instead) |
+| MC entries given Sources line | — | 8 (MC-V-1 through MC-V-8) |
+| MC entries given anchor `<a id="mc-v-n"></a>` | — | 8 |
+
+**Old-ID → New S-NN Mapping**
+
+| Pre-normalization ID | New S-NN | Notes |
+|---|---|---|
+| S1 | S-08 | Recategorized: Federal Agency Materials |
+| S2-V | S-01 | Federal Statutes and Regulations |
+| S3 | S-09 | Federal Agency Materials |
+| S4 | S-10 | Federal Agency Materials |
+| S5 | S-50 | Recategorized: Press / News Reporting |
+| S6 | S-43 | Recategorized: Research Reports / Policy Analysis |
+| S7 | S-11 | Federal Agency Materials |
+| S8 | S-12 | Federal Agency Materials |
+| S9 | S-64 | Press / News Reporting |
+| S10 | S-65 | Press / News Reporting |
+| S11-V | S-02 | Federal Statutes and Regulations |
+| S12 | RETIRED | Superseded by S-03 (S-V-NEW-2 more complete) |
+| S13 | S-28 | Recategorized: Research Reports / Policy Analysis |
+| S14 | S-30 | Research Reports / Policy Analysis |
+| S15 | S-31 | Research Reports / Policy Analysis |
+| S16-V | S-51 | Recategorized: Press / News Reporting |
+| S17-V | split → S-06 + S-23 | S-06: Court Decisions; S-23: Research (CRS) |
+| S18-V | S-24 | Research Reports / Policy Analysis |
+| S19-V | S-52 | Recategorized: Press / News Reporting |
+| S20-V | S-16 | Federal Agency Materials (FDA.gov) |
+| S21 | S-53 | Recategorized: Press / News Reporting |
+| S22 | S-36 | Research Reports / Policy Analysis |
+| S23 | S-17 | Federal Agency Materials (SAMHSA.gov) |
+| S24-V | S-18 | Federal Agency Materials (USDA ERS) |
+| S25 | S-19 | Federal Agency Materials (USDA ERS) |
+| S26 | split → S-60 + S-61 | S-60: Inquirer; S-61: WVIA News |
+| S27 | S-62 | Press / News Reporting |
+| S28 | S-63 | Press / News Reporting |
+| S29 | split → S-39 + S-40 + S-72 | S-39: CHA; S-40: Springer; S-72: UCHealth Today |
+| S30 | S-41 | Research Reports (composite; URLs pending retrieval) |
+| S31 | RETIRED | Superseded by S-52/S-57/S-58 entries from S-V-NEW-12 split |
+| S32 | split → S-20 + S-22 | S-20: CDC REACH (Fed Agency); S-22: PDPH (State/Local) |
+| S33 | split → S-46 + S-47 + S-48 + S-49 | 4 academic papers split individually |
+| S34 | split → S-21 + S-66 | S-21: DEA Operation Engage (Fed Agency); S-66: WHYY/BillyPenn (Press) |
+| S35 | split → S-44 + S-45 + S-67 | S-44: Hochstatter (Research); S-45: The Conversation (Research); S-67: MedicalXpress (Press) |
+| S36 | split → S-68 + S-69 | S-68: NPR; S-69: OPB |
+| S-V-NEW-1 | S-13 | Recategorized: Federal Agency Materials |
+| S-V-NEW-2 | S-03 | Federal Statutes and Regulations (FR Docket) |
+| S-V-NEW-3 | split → S-05 + S-25 + S-26 | S-05: EO 14273 (Executive Orders); S-25: Sidley (Research); S-26: Brownstein (Research) |
+| S-V-NEW-4 | split → S-04 + S-27 | S-04: H.R. 1/OBBBA (Federal Statutes); S-27: Georgetown (Research) |
+| S-V-NEW-5 | S-38 | Research Reports / Policy Analysis |
+| S-V-NEW-6 | S-14 | Federal Agency Materials (CMS) |
+| S-V-NEW-7 | S-15 | Federal Agency Materials (ASPE) |
+| S-V-NEW-8 | S-29 | Research Reports / Policy Analysis |
+| S-V-NEW-9 | split → S-32 + S-33 + S-34 + S-54 + S-55 | S-32: Mintz; S-33: AgencyIQ; S-34: Skadden; S-54: MedTech Dive; S-55: BioSpace |
+| S-V-NEW-10 | S-35 | Research Reports / Policy Analysis |
+| S-V-NEW-11 | split → S-42 + S-56 + S-73 | S-42: UCS (Research); S-56: Food Tank (Press); S-73: Alliance to End Hunger (Other) |
+| S-V-NEW-12 | split → S-07 + S-37 + S-57 + S-58 | S-07: court case (Court Decisions); S-37: AJMC (Research); S-57: CBS (Press); S-58: NBC (Press) |
+| S-V-NEW-13 | S-59 | Press / News Reporting |
+| S-V-NEW-14 | split → S-70 + S-71 + S-74 | S-70: BioSpace; S-71: Patient Daily; S-74: CRISPR 8-K (Other) |
+
+**Body-cited sources NOT in pre-normalization CR — flagged for URL-retrieval pass**
+
+These sources are cited in MC entry bodies but were absent from the pre-normalization Citation Registry. Per normalization scope (structural normalization only; no expansion), they were not added as stub S-NN entries — the relevant MC Sources lines flag them as `[flag for URL-retrieval pass]`. The URL-retrieval pass should add S-NN entries for each.
+
+- MC-V-1 body: Trump EO 14370 (December 18, 2025 — Increasing Medical Marijuana and Cannabidiol Research); FR Doc. 2026-08178 (prior NPRM withdrawal, April 22, 2026); DOJ Final Order No. 6753-2026 (Acting Attorney General, April 23, 2026).
+- MC-V-2 body: HHS cancellation of ~$500M in federal mRNA research funding (August 2025) — source/reporting outlet not cited.
+- MC-V-4 body: Applied Policy August 2025 reporting on EO 14273 federal agency implementation ("ahead of schedule"); GENEROUS Model — CMS voluntary Medicaid MFN-pricing model announcement (launch January 1, 2026; 5-year run).
+- MC-V-7 body: AP reporting on CTP Office of Regulations RIF ("the entire office responsible for drafting new tobacco regulations" — per AP); CTP budget director Stephanie Shih RIF confirmation.
+
+**Category decisions worth flagging**
+
+- S-V-NEW-3 (EO 14273 + two analysis URLs) split into three entries: the EO itself (S-05, Executive Orders, URL pending retrieval from Federal Register), Sidley Austin analysis (S-25, Research), Brownstein analysis (S-26, Research). The EO citation was present in the pre-normalization entry; no new external source was added — the pending-retrieval URL flags the FR location of the EO text for the URL-retrieval pass.
+- S17-V bundled a CRS research product (IF11389) with a court case (ACLA v. FDA). Split: court case → S-06 (Court Decisions); CRS report → S-23 (Research). This is a statute/court-type split following the same rationale as D6's CWA § 404 / Sackett v. EPA split.
+- S-V-NEW-12 bundled three news sources covering the same court ruling. The court case itself (AAP v. HHS, Murphy J.) was not a separate pre-normalization entry; adding it as S-07 (Court Decisions) parallels the D6 approach of separating the primary legal document from news coverage of it.
+- S32 split between S-20 (CDC REACH → Federal Agency Materials) and S-22 (PDPH → State and Local Authority): different source types sharing the same pre-normalization entry slot.
+- S34 split between S-21 (DEA Operation Engage program page → Federal Agency Materials) and S-66 (WHYY/BillyPenn reporting → Press / News Reporting): different source types.
+- S29 (Casgevy/Lyfgenia): three-URL bundle split into Children's Hospital Association (S-39 → Other Primary Sources category, recategorized here to Research per the entry's analytical content), Springer journal article (S-40 → Research), UCHealth Today (S-72 → Press).
+- S30 (ACIP overhaul timeline): pre-normalization entry names six sources (NBC News, KFF, Fierce Pharma, Pharmacy Times, STAT, AJMC, NHeLP) but provides no URLs. Kept as single S-41 entry with `[pending retrieval]` URL; sub-source URLs flagged for URL-retrieval pass.
+- S-V-NEW-9 (five-URL FDA RIF composite): three law-firm/industry-analysis entries (S-32 Mintz, S-33 AgencyIQ, S-34 Skadden) categorized as Research Reports / Policy Analysis; two trade-press entries (S-54 MedTech Dive, S-55 BioSpace) categorized as Press / News Reporting.
+- Pre-normalization categories "Pennsylvania State Materials" and "Local Philadelphia / PA Materials" are not in the spec's 8-category list. Content from both was redistributed by source type: PA/Philly government materials → State and Local Authority; news/press → Press / News Reporting; academic papers → Research Reports; advocacy orgs → Other Primary Sources.
+- Pre-normalization "Industry / Professional / Research" entries redistributed: law firm analyses → Research Reports / Policy Analysis; trade press (PharmExec, CSP Daily News, Telehealth.org) → Press / News Reporting.
+
+**Post-normalization action item (not part of this pass)**
+
+D4 v1.0 restructure file (`D4_foodMed_verified_2026-05-20_site-template-restructure.md`) should be moved to repo-root `/_to_delete/` per spec domain-specific note for D4. Paul handles file moves manually; flagged here as the normalization log action item.
 
 ---
 

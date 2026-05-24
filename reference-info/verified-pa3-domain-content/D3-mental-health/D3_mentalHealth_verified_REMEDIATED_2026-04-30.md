@@ -4117,195 +4117,1689 @@ The cycle establishes the architectural floor + structural-pattern findings + ve
 
 ## Citation Registry
 
-This Citation Registry is the verified-cycle promotion of the source-workspace inventory plus web-verified items resolved during the verification cycle (Step 3 search batch, 2026-04-30). Citations are organized by source type. Each entry pairs the source with the G1 IDs (or sub-domain claim contexts) it supports. **[V]** = web-verified during this cycle; **[I]** = canonical/internal (promoted from workspace [INTERNAL]); **[H]** = historical or contextual where verification not material.
+*Normalized to locked spec 2026-05-22. 116 entries (S-01 through S-116) across 8 categories. Pre-normalization CR used a D6-style table format (§I through §XIII) with [I]/[V]/[H] status markers. All entries are newly assigned S-NN IDs; see CR Normalization Log below for old-label → new S-NN mapping. Note: one original CR row (PDP Commissioner Resnick) was consolidated into S-79 (PDP Press Release) as it referred to the same source document.*
 
-### §I Constitutional Authorities
+### Federal Statutes and Regulations
 
-| Citation | Status | Claims supported |
-|---|---|---|
-| *Youngberg v. Romeo*, 457 U.S. 307 (1982) | [I] | G1-SD1-01 (Three architectural seams): involuntarily committed liberty interest in safety + freedom from undue restraint |
-| *O'Connor v. Donaldson*, 422 U.S. 563 (1975) | [I] | G1-SD2-01, G1-SD2-04: dangerousness-floor for civil commitment |
-| *Addington v. Texas*, 441 U.S. 418 (1979) | [I] | G1-SD2-01: clear-and-convincing evidence standard for civil commitment |
-| *Washington v. Harper*, 494 U.S. 210 (1990) | [I] | G1-SD2-03, G1-SD6-03: medication-over-objection standard in custodial settings |
-| *Sell v. United States*, 539 U.S. 166 (2003) | [I] | G1-SD6-06: forced medication for competency restoration constraints |
-| *Olmstead v. L.C.*, 527 U.S. 581 (1999) | [I] | G1-SD1-01, G1-SD3-01: ADA Title II integration mandate (most-integrated-setting) |
-| *Estelle v. Gamble*, 429 U.S. 97 (1976) | [I] | G1-SD6-01, G1-SD6-03: Eighth Amendment deliberate-indifference standard; SMI as serious medical need |
-| *Brown v. Plata*, 563 U.S. 493 (2011) | [I] | G1-SD6-01: prison MH conditions Eighth Amendment ceiling |
-| *Dusky v. United States*, 362 U.S. 402 (1960) | [I] | G1-SD6-06: competency-to-stand-trial standard |
-| *Jackson v. Indiana*, 406 U.S. 715 (1972) | [I] | G1-SD6-06: temporal limit on competency-restoration detention |
-| *Pa. Dept. of Corr. v. Yeskey*, 524 U.S. 206 (1998) | [I] | G1-SD6-03: ADA applies to state prisons |
-| PA Const. Art. I § 1 (inherent rights) | [I] | G1-SD1-01: PA state constitutional foundation |
-| PA Const. Art. I § 9 (criminal due process) | [I] | G1-SD2-01: civil commitment due process protections |
-| U.S. Const. amend. XIV (Due Process) | [I] | G1-SD2-01, G1-SD6-01: federal procedural-due-process baseline |
+<a id="s-01"></a>
+#### S-01 — U.S. Const. amend. XIV (Due Process) [VERIFIED]
 
-### §II Federal Statutes
+**Citation:** U.S. Constitution, Amendment XIV (Due Process and Equal Protection Clauses)
 
-| Citation | Status | Claims supported |
-|---|---|---|
-| 42 U.S.C. § 1396 et seq. (Medicaid Act) | [I] | G1-SD1-02, G1-SD3-01, G1-SD6-02: federal Medicaid framework |
-| 42 U.S.C. § 1396d(a)(B) (IMD exclusion) | [I] / [V] | G1-SD3-04, G1-SD6-01: IMD exclusion (16-bed cap, ages 21-64); verification confirmed UNCHANGED by OBBBA July 2025 |
-| 29 U.S.C. § 1185a (MHPAEA) | [I] | G1-SD5-01, G1-SD5-03: federal mental-health-parity statutory framework |
-| 42 U.S.C. § 290gg-21 to gg-28 (PAIMI Act) | [I] / [V] | G1-SD4-01, F10: federal P&A authority for state DRP-equivalent organizations; verification: Congress maintained funding but SAMHSA admin team laid off 2025 |
-| Americans with Disabilities Act, 42 U.S.C. § 12101 et seq. | [I] | G1-SD1-01, G1-SD3-01: Title II integration; Title III private accommodation |
-| Section 504 of Rehabilitation Act, 29 U.S.C. § 794 | [I] | G1-SD3-01: federally-funded program nondiscrimination |
-| Civil Rights of Institutionalized Persons Act, 42 U.S.C. § 1997 et seq. (CRIPA) | [I] | G1-SD6-01, G1-SD6-03: federal authority over institutionalized-person rights |
-| 42 U.S.C. § 290bb-32 (Children's Mental Health Initiative) | [I] / [V] | G1-SD4-01: SAMHSA youth MH grant authority; verification: program staff placed on administrative leave 2025 |
-| Bipartisan Safer Communities Act, P.L. 117-159 (2022) | [I] / [V] | G1-SD4-02: school-based MH funding statutory authority; verification: $1B in BSCA funds frozen by Trump admin 2025 |
-| ARP Act of 2021, P.L. 117-2 (ESSER III statutory authority) | [I] | G1-SD4-02: ESSER III statutory basis (obligation Sept 30, 2024; liquidation Jan 28, 2025; extension to March 28, 2026 with approval) |
-| SUPPORT Act of 2018, P.L. 115-271 | [I] / [V] | G1-SD3-04, G1-SD6-02: IMD-exception expansion for SUD treatment; verification: framework UNCHANGED by OBBBA |
-| **One Big Beautiful Bill Act of 2025, P.L. 119-21** (signed July 4, 2025) | [V] | G1-SD1-02, G1-SD3-01, G1-SD6-02, G1-XC-04; F4, F13: $1T Medicaid cuts (10 yr); provider tax safe harbor 6%→3.5% (FY28-34); state-directed payment caps; work requirements + 6-month redeterminations effective Dec 30, 2026; CCBHC/FQHC/RHC cost-sharing exemption; Section 71401 Rural Health Transformation $10B/yr; IMD exclusion unchanged; reentry continuity preserved |
-| Consolidated Appropriations Act, 2021, Div. BB Title I (CAA NQTL provisions) | [I] / [V] | G1-SD5-01, G1-SD5-05: NQTL comparative-analysis statutory obligation; verification confirms CAA 2021 + 2013 Rule remain in force despite 2024 Final Rule pause |
-| Consolidated Appropriations Act, 2023 § 5121 (youth Medicaid continuity) | [I] / [V] | G1-SD6-02: youth continuity-of-care reentry provisions; verification confirms unchanged by OBBBA |
-| Consolidated Appropriations Act, 2024 (Medicaid suspension-not-termination) | [I] / [V] | G1-SD6-02: Medicaid suspension requirement when beneficiary enters corrections; verification confirms unchanged by OBBBA; effective 2026 |
-| Family First Prevention Services Act, P.L. 115-123 (FFPSA) | [I] | G1-SD4-04: foster MH framework + QRTP designation |
-| 42 U.S.C. § 1395dd (EMTALA) | [I] | G1-SD7-02: psychiatric-emergency stabilization mandate |
-| Medicare and Medicaid Patient and Program Protection Act of 1987 (mental health benefits) | [H] | Background MH parity history |
+**URL:** [no URL — citation is canonical]
 
-### §III Federal Regulations & Sub-Regulatory
+**Supports claims:** G1-SD2-01, G1-SD6-01; SD1 §2 (due-process baseline)
 
-| Citation | Status | Claims supported |
-|---|---|---|
-| 26 C.F.R. § 54.9812-1 (Treasury MHPAEA) | [I] | G1-SD5-01, G1-SD5-03: Treasury MHPAEA implementing regs |
-| 29 C.F.R. § 2590.712 (DOL MHPAEA) | [I] | G1-SD5-01, G1-SD5-03: DOL MHPAEA implementing regs |
-| 45 C.F.R. § 146.136 (HHS MHPAEA) | [I] | G1-SD5-01, G1-SD5-03: HHS MHPAEA implementing regs |
-| 89 Fed. Reg. 77,586 (Sept 9, 2024) — MHPAEA Final Rule | [V] | G1-SD5-03, F1, F14: 2024 Final Rule (PAUSED — non-enforcement May 15, 2025) |
-| 42 C.F.R. § 482.13(e) (psychiatric restraint/seclusion) | [I] | G1-SD2-03, G1-SD7-02: hospital MH care conditions of participation |
-| 42 C.F.R. Part 2 (substance-use confidentiality) | [I] | G1-SD3-04: federal SUD record confidentiality |
-| 42 C.F.R. § 438 (Medicaid Managed Care) | [I] | G1-SD1-08, G1-SD3-06: BH-MCO regulatory framework |
-| **DOL EBSA Statement re MHPAEA Enforcement** (May 15, 2025) | [V] | G1-SD5-03, F1, F14: Tri-Agencies non-enforcement position; reconsideration of 2024 Rule pending litigation outcome + 18 months. URL: dol.gov/agencies/ebsa/laws-and-regulations/laws/mental-health-parity/statement-regarding-enforcement-of-the-final-rule-on-requirements-related-to-mhpaea |
-| Executive Order 14219 ("DOGE Deregulatory Initiative") | [V] | G1-SD5-01, G1-SD5-03; broader admin context for MHPAEA pause |
-
-### §IV Cases (Litigation)
-
-| Citation | Status | Claims supported |
-|---|---|---|
-| *ERIC v. DOL/HHS/Treasury*, D.D.C. (filed Jan 17, 2025; abeyance granted May 12, 2025) | [V] | F1, F14: lawsuit triggering MHPAEA Final Rule pause |
-| *Disability Rights PA v. PA DHS* (children's MH; filed 2017; settlement Oct 1, 2025; M.D. Pa., Hon. Munley) | [V] | G1-SD4-01, G1-SD4-04, F10: dependent-children MH systemic reform settlement |
-| *Disability Rights PA v. PA DHS* (YDC; filed 2019; settlement March 24, 2025) | [V] | G1-SD6-04, F10: PA Youth Development Center civil rights settlement |
-| *Watson v. Boston* (1980s ESL P&A predecessor) | [H] | Historical context for P&A authority |
-| ACLU v. PA (NSH bed expansion settlement, June 2017) | [V] | G1-SD6-06: 110-spot expansion (50 at NSH) for jail-languishing SMI individuals; supports forensic-restoration backlog finding |
-
-### §V Pennsylvania Statutes
-
-| Citation | Status | Claims supported |
-|---|---|---|
-| Pa. Mental Health Procedures Act, 50 P.S. § 7101 et seq. | [I] | G1-SD2-01 to G1-SD2-07: PA civil commitment framework (§§ 301, 302, 303, 304, 305) |
-| 50 P.S. § 7301 (voluntary admission) | [I] | G1-SD2-04 |
-| 50 P.S. § 7302 (emergency examination — 120 hr) | [I] | G1-SD2-02 |
-| 50 P.S. § 7303 (extended emergency — 20 day) | [I] | G1-SD2-02 |
-| 50 P.S. § 7304 (court commitment — up to 90 days) | [I] | G1-SD2-02, G1-SD2-06 |
-| 50 P.S. § 7305 (long-term commitment — up to 180 days) | [I] | G1-SD2-02, G1-SD2-06 |
-| Mental Health and Mental Retardation Act of 1966, 50 P.S. § 4101 et seq. | [I] | G1-SD1-04: PA county-MHMR delivery system |
-| Pa. Act 30 of 2020 (BH-PH integration) | [I] / [V partial] | G1-SD1-04: framework for BH-PH care integration; FY26 implementation status NOT verified (see unverified-items UV-01) |
-| **Pa. Act 98 of 2022** (audio-only telehealth permanence) | [V] | G1-SD3-02: permanently removed DHS regulations restricting audio-only telehealth in outpatient psychiatric + D&A clinic services |
-| Pa. Adult Protective Services Act, 35 P.S. § 10210.101 et seq. | [I] | G1-SD3-05 |
-| Pa. Older Adults Protective Services Act, 35 P.S. § 10225 | [I] | G1-SD3-05 |
-| Pa. Crime Victims Act, 18 P.S. § 11.101 et seq. | [I] | Cross-cutting representation context |
-
-### §VI Pennsylvania Agencies (current state)
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| PA DHS Office of Mental Health & Substance Abuse Services (OMHSAS) | [I] | G1-SD1-04, G1-SD3-06 |
-| PA DHS, "Behavioral HealthChoices for Providers" | [V] | G1-SD3-06, G1-SD5-06; F8: BH-MCO regulatory + provider framework |
-| PA DHS Managed Care Directory (March 2026) | [V] | F8: 5 BH-MCO architecture (CBH, CCBH, PerformCare, Magellan, Value); CHC re-procurement detail |
-| PA DHS, "Norristown State Hospital" official page | [V] | G1-SD2-06, G1-SD6-01, F5: NSH 375 beds (255 RFPC + 120 Stepdown); civil section closed Jan 2019; forensic-only since |
-| Governor Shapiro 2026-27 budget proposal (15% capitation increase to $4.4B) | [V] | G1-SD1-08, G1-SD5-06: Medicaid capitation increase proposed for HealthChoices BH+PH combined |
-| PA Department of Corrections monthly population & capacity report | [I] | G1-SD6-01: state-prison comparative |
-
-### §VII Philadelphia Local Layer
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| Philadelphia Home Rule Charter § 5-300 | [I] | G1-SD1-08: DBHIDS authority |
-| **DBHIDS** (Dept. of Behavioral Health and Intellectual disAbility Services) — official site | [V] | G1-SD1-08, G1-SD7-01, F3, F15: DBHIDS direct-services + 150,000+/yr served; Marquita Williams, Interim Commissioner since April 2024 |
-| **DBHIDS FY26 Budget Testimony** (May 2025) | [V] | G1-SD7-01, G1-SD7-03, F3, F15: ~$21.5M BH programming request; CMCRT 4 providers/29 teams; PCL 6,000+/mo; 988-911 co-location 36% transfer increase |
-| DBHIDS FY26 Budget Detail | [V] | F15: $1.8M MH Court Evaluations new; $500K outreach team new; $120K procurement staff |
-| **Community Behavioral Health (CBH)** — official site (DBHIDS division) | [V] | G1-SD1-08, F8: 501(c)(3); 420,000 Medicaid recipients; CEO Donna E.M. Bailey; 801 Market St 7th Floor |
-| CBH Clinical Performance Standards: Mobile Crisis Response Services (June 2024) | [V] | G1-SD7-01: CMCRT operational standards |
-| **Philadelphia Office of Criminal Justice — Prison Population Snapshot Reports** (monthly, ongoing) | [V] | G1-SD6-01, G1-SD6-05, F6: PPS daily census + SMI status reporting; URL: phila.gov/documents/philadelphia-jail-population-snapshot-reports/ |
-| **PDP Press Release** (May 20, 2025) "Incarcerated Population Drops to Lowest Level in Three Decades" | [V] | G1-SD6-01, F6: PPS at 3,480 May 15, 2025 — lowest since April 17, 1992 |
-| PDP — Commissioner Michael R. Resnick (named in press release) | [V] | G1-SD6-01: PDP leadership |
-| **Philadelphia City Council DBHIDS budget hearings** (FY26, May 2025) | [V] | F3, F15: ~$21.5M FY26 request; CMCRT funding context |
-| Philadelphia City Controller Audit (2021): "Report on the City of Philadelphia HealthChoices Behavioral Health Program" | [I] | G1-SD1-08; historical CIRC overpayment context ($10.4M for non-rendered services) |
-| **First Judicial District of Pennsylvania** (FJD) | [V] | G1-SD6-01: 12.6% SMI population data; Behavioral Health Division partnership |
-| School District of Philadelphia (SDP) — Prevention & Intervention | [V] | G1-SD4-01, G1-SD4-02: SAP state-mandated K-12; DBHIDS contracts CORA/Einstein/Merakey/CADEKids; Policy 253 Suicide Awareness; Mental Health Delegate Hotline |
-
-### §VIII Federal Agencies
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| **SAMHSA** (Substance Abuse and Mental Health Services Administration) — under HHS | [V] | G1-SD1-05, G1-XC-02, G1-XC-04, F11: under AHA reorganization since 2025; ~900 staff start-2025 with substantial reductions; Children's MH Initiative + Minority Fellowship + PAIMI admin teams laid off |
-| **HHS, "FY 2026 SAMHSA Contingency Staffing Plan"** (Jan 30, 2026) | [V] | F11: 21% staff (123) retained as excepted; retained programs include 988, Disaster Distress Helpline, OTP oversight, Treatment Services Locator |
-| **White House, "Appendix to FY 2026 Budget"** (May 2025) | [V] | F11: Block grant consolidation proposal (BHIBG $4.126B = $465M cut); NIH consolidation (NIBH $2.678B = $1.86B cut) |
-| 988 Suicide & Crisis Lifeline (federal program) | [V] | G1-SD7-03, F7, F12: federally-administered 988 framework |
-| HRSA mental health workforce programs | [I] | G1-SD3-03 |
-| US ED Community Schools Program | [V] | G1-SD4-02: 19 grants terminated Dec 20, 2025 (relevant to school-MH funding context) |
-| US ED ESSER III liquidation extension guidance | [V] | G1-SD4-02: extension framework to March 28, 2026 |
-
-### §IX Anchor Institutions / Provider Network
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| Elwyn (CMCRT provider) | [V] | G1-SD7-01: one of 4 nonprofit CMCRT providers |
-| PATH / People Acting To Help (CMCRT provider) | [V] | G1-SD7-01 |
-| Consortium / West Philadelphia Community Mental Health (CMCRT provider) | [V] | G1-SD7-01: $3.8M contract under Parker-admin termination dispute (still operating) |
-| JFK / Centralized Comprehensive Human Services (CMCRT provider) | [V] | G1-SD7-01 |
-| Public Health Management Corp (PHMC) | [I] | G1-SD3-06 |
-| Penn Medicine / Princeton House Behavioral Health | [I] | G1-SD3-06 |
-| Temple Episcopal | [I] | G1-SD3-06 |
-| Friends Hospital | [I] | G1-SD3-04 |
-| Belmont Behavioral Hospital | [I] | G1-SD3-04 |
-| Stantec / architecture+ (Southeast Psychiatric Treatment Center designers) | [V] | G1-SD6-01 forward-looking: 270-bed initial / 420-bed expansion at NSH; groundbreaking 2026 |
-
-### §X Reports / Studies / Advocacy
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| **Urban Institute, "Efforts to Reduce Jail Populations in Philadelphia"** (March 2023) | [V] | G1-SD6-01, F6: Philadelphia SJC strategies; 12.6% SMI population data; SMI longer length of stay |
-| **MacArthur Safety and Justice Challenge — Philadelphia profile** | [V] | G1-SD6-01: Strategy 5 explicitly "Decrease Number of People in Jail Experiencing SMI"; baseline 8,082 (July 2015) → ~3,500 (FY25-26) |
-| **KFF, "The Landscape of School-Based Mental Health Services"** (Sept 2025) | [V] | G1-SD4-02, F2: federal grant share for school MH 53% (2021-22) → 33% (2024-25); BSCA $1B freeze documentation; ratio inadequacy |
-| KFF, "Medicaid: What to Watch in 2026" + OBBBA tracking series | [V] | G1-SD1-02, F4, F13: OBBBA Medicaid implementation timeline |
-| Health and Reentry Project, "OBBBA's Changes to Medicaid and Their Implications for Continuity of Care at Reentry" (July 21, 2025) | [V] | G1-SD6-02, F13: continuity-of-care provisions preserved |
-| AMA, "Changes to Medicaid, the ACA and other key provisions of the OBBBA" | [V] | F4, F13: comprehensive OBBBA tracking |
-| Drug Policy Alliance + Legal Action Center, "Federal Funding Cuts" methodology (Oct 6, 2025) | [V] | F11: $345M federal cuts; $25.6B anticipated FY26 cuts to CDC+SAMHSA+NIH+DOJ |
-| ATI Advisory, "What OBBBA Means for Medicaid, HCBS, and LTSS in 2025" (Aug 21, 2025) | [V] | F13: provider tax + SDP impact |
-| HFMA, "OBBBA Medicaid impacts: How to navigate state-directed payment revenue reduction" (Dec 23, 2025) | [V] | F13: SDP technical implementation |
-| NACo, "Modernize the Medicaid IMD Exclusion" (March 6, 2026) | [V] | G1-SD3-04, G1-SD6-01: county advocacy framing on IMD exclusion; H.R. 5462 + H.R. 6727 pending legislation |
-| Psychiatric News (APA), "SAMHSA Faces Significant Cuts, Uncertain Future" (May 2025) | [V] | F11: SAMHSA reorganization context |
-| The Alliance for Rights and Recovery, "SAMHSA Cuts Jeopardize National Mental Health and Addiction Response" (Oct 30, 2025) | [V] | F11: PAIMI admin team layoffs; Children's MH Initiative on admin leave |
-| NPR, "24 hours of chaos as mental health grants are slashed then restored" (Jan 15, 2026) | [V] | F11: Jan 14-15, 2026 episode — $2B termination + reversal |
-| EMS1/CQ Roll Call, "Trump administration reverses $2B SAMHSA funding cuts" (Jan 16, 2026) | [V] | F11: Jan 14-15, 2026 episode |
-
-### §XI Disability Rights / P&A
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| **Disability Rights Pennsylvania (DRP)** — corporate site | [V] | G1-SD4-01, G1-SD4-04, G1-SD6-04, F10: federally-mandated PA P&A; HQ 301 Chestnut St Harrisburg + Phila office at 1800 JFK Blvd Suite 900; Litigation Counsel Rhonda Brownstein; 6,800+ caller intake annually |
-| DRP, "Settlement Reached Addressing Mental Health Reform for Dependent Children" (Oct 1, 2025) | [V] | G1-SD4-01, G1-SD4-04, F10 |
-| DRP, "Settlement Reached to Address Abuses at State-Run Youth Facilities" (March 24, 2025) | [V] | G1-SD6-04, F10 |
-
-### §XII Court / Coverage Reporting (current Philadelphia)
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| WHYY, "Philly mental health advocates call for expanding mobile crisis response program" (March 18, 2025) | [V] | G1-SD7-01, F3: CMCRT scale + workforce dynamics |
-| Philadelphia Tribune, "70% of respondents rate Philly's mobile mental health experience..." (March 17, 2025) | [V] | G1-SD7-01, F3: 70%+ user satisfaction; 17% decrease in involuntary commitment referrals; ~14,000 dispatches |
-| StateScoop, "Data-sharing helped Philadelphia halve its jail population" (Dec 8, 2025) | [V] | G1-SD6-01, F6: PPS reduction context |
-| Patch.com, "Norristown State Hospital Undergoing Massive Redesign, Modernization" (Sept 23, 2025) | [V] | G1-SD6-01 forward-looking, F5 |
-
-### §XIII D2 Carry-Forward (verified-cycle inheritance)
-
-| Citation / source | Status | Claims supported |
-|---|---|---|
-| D2 verified output — federal-rep-leverage architecture | [D2-V] | G1-XC-04 |
-| D2 verified output — MAHA Pattern 1 cross-domain framing | [D2-V] | G1-XC-02 |
+**Verification status:** VERIFIED
 
 ---
 
-**Reverse-direction integrity check (Step 5 verification):** Each [V]-tagged citation above was checked at original-source URL during Step 3 search batch (2026-04-30) and confirmed to support the specific claim or G1 ID asserted. [I]-tagged citations are canonical legal/regulatory authorities promoted from workspace inventory without web verification (per skill protocol — canonical authorities don't require web check). [D2-V] entries inherit verification from prior cycle.
+<a id="s-02"></a>
+#### S-02 — 42 U.S.C. § 1396 et seq. (Medicaid Act) [VERIFIED]
 
-**Sources appearing in workspace but not promoted to this Registry:** redundant cross-references; primary-source duplicates already captured by parent statute/regulation entries; sources superseded by verification (e.g., 2024 Final Rule treated as paused-but-extant).
+**Citation:** Social Security Act Title XIX (Medicaid), 42 U.S.C. § 1396 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-02, G1-SD3-01, G1-SD6-02
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-03"></a>
+#### S-03 — 42 U.S.C. § 1396d(a)(B) (IMD exclusion) [VERIFIED]
+
+**Citation:** Social Security Act § 1905(a)(B), 42 U.S.C. § 1396d(a)(B) (IMD exclusion — 16-bed cap, ages 21–64)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-04, G1-SD6-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Verification confirmed UNCHANGED by OBBBA (P.L. 119-21, July 4, 2025)
+
+---
+
+<a id="s-04"></a>
+#### S-04 — 29 U.S.C. § 1185a (MHPAEA statute) [VERIFIED]
+
+**Citation:** Mental Health Parity and Addiction Equity Act, 29 U.S.C. § 1185a (ERISA); parallel: 26 U.S.C. § 9812; 42 U.S.C. § 300gg-26
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD5-01, G1-SD5-03; TC-01
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-05"></a>
+#### S-05 — 42 U.S.C. § 290gg-21 to gg-28 (PAIMI Act) [VERIFIED]
+
+**Citation:** Protection and Advocacy for Individuals with Mental Illness Act, 42 U.S.C. § 290gg-21 to gg-28
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD4-01; F10; TC-06, TC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** Federal P&A authority for state DRP-equivalent organizations; verification confirmed SAMHSA admin team laid off 2025 while Congress maintained funding
+
+---
+
+<a id="s-06"></a>
+#### S-06 — ADA, 42 U.S.C. § 12101 et seq. [VERIFIED]
+
+**Citation:** Americans with Disabilities Act of 1990, 42 U.S.C. § 12101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-01, G1-SD3-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Title II integration mandate (most-integrated-setting per Olmstead); Title III private accommodation
+
+---
+
+<a id="s-07"></a>
+#### S-07 — Section 504 of Rehabilitation Act, 29 U.S.C. § 794 [VERIFIED]
+
+**Citation:** Section 504 of the Rehabilitation Act of 1973, 29 U.S.C. § 794
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Federally-funded program nondiscrimination
+
+---
+
+<a id="s-08"></a>
+#### S-08 — CRIPA, 42 U.S.C. § 1997 et seq. [VERIFIED]
+
+**Citation:** Civil Rights of Institutionalized Persons Act (CRIPA), 42 U.S.C. § 1997 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-01, G1-SD6-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Federal authority over institutionalized-person rights
+
+---
+
+<a id="s-09"></a>
+#### S-09 — 42 U.S.C. § 290bb-32 (Children's MH Initiative) [VERIFIED]
+
+**Citation:** 42 U.S.C. § 290bb-32 (SAMHSA Children's Mental Health Initiative grant authority)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD4-01; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Verification confirmed program staff placed on administrative leave 2025
+
+---
+
+<a id="s-10"></a>
+#### S-10 — Bipartisan Safer Communities Act, P.L. 117-159 [VERIFIED]
+
+**Citation:** Bipartisan Safer Communities Act, P.L. 117-159 (June 25, 2022)
+
+**URL:** [pending retrieval — congress.gov P.L. 117-159 Bipartisan Safer Communities Act school mental health]
+
+**Supports claims:** G1-SD4-02; TC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** School-based MH funding statutory authority; $1B in BSCA funds frozen by Trump admin 2025
+
+---
+
+<a id="s-11"></a>
+#### S-11 — ARP Act of 2021, P.L. 117-2 (ESSER III) [VERIFIED]
+
+**Citation:** American Rescue Plan Act of 2021, P.L. 117-2 (ESSER III statutory authority)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD4-02
+
+**Verification status:** VERIFIED
+
+**Notes:** ESSER III obligation Sept 30, 2024; liquidation Jan 28, 2025; extension to March 28, 2026 with approval
+
+---
+
+<a id="s-12"></a>
+#### S-12 — SUPPORT Act of 2018, P.L. 115-271 [VERIFIED]
+
+**Citation:** Substance Use-Disorder Prevention that Promotes Opioid Recovery and Treatment (SUPPORT Act), P.L. 115-271 (2018)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-04, G1-SD6-02
+
+**Verification status:** VERIFIED
+
+**Notes:** IMD-exception expansion for SUD treatment; verification confirmed framework UNCHANGED by OBBBA
+
+---
+
+<a id="s-13"></a>
+#### S-13 — One Big Beautiful Bill Act, P.L. 119-21 [VERIFIED]
+
+**Citation:** One Big Beautiful Bill Act of 2025, P.L. 119-21 (signed July 4, 2025)
+
+**URL:** [pending retrieval — congress.gov P.L. 119-21 One Big Beautiful Bill Act]
+
+**Supports claims:** G1-SD1-02, G1-SD3-01, G1-SD6-02, G1-XC-04; F4, F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** $1T Medicaid cuts (10 yr); provider tax safe harbor 6%→3.5% (FY28–34); state-directed payment caps; work requirements + 6-month redeterminations effective Dec 30, 2026; CCBHCs/FQHCs/RHCs cost-sharing exemption; IMD exclusion UNCHANGED; reentry continuity preserved
+
+---
+
+<a id="s-14"></a>
+#### S-14 — Consolidated Appropriations Act, 2021 (NQTL provisions) [VERIFIED]
+
+**Citation:** Consolidated Appropriations Act, 2021, P.L. 116-260, Div. BB Title I (NQTL comparative-analysis provisions)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD5-01, G1-SD5-05
+
+**Verification status:** VERIFIED
+
+**Notes:** NQTL comparative-analysis statutory obligation; verified CAA 2021 + 2013 Rule remain in force despite 2024 Final Rule pause
+
+---
+
+<a id="s-15"></a>
+#### S-15 — Consolidated Appropriations Act, 2023 § 5121 [VERIFIED]
+
+**Citation:** Consolidated Appropriations Act, 2023, P.L. 117-328, § 5121 (youth Medicaid continuity at reentry)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Youth continuity-of-care reentry provisions; confirmed unchanged by OBBBA
+
+---
+
+<a id="s-16"></a>
+#### S-16 — Consolidated Appropriations Act, 2024 (Medicaid suspension) [VERIFIED]
+
+**Citation:** Consolidated Appropriations Act, 2024 (Medicaid suspension-not-termination provision, effective 2026)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Medicaid suspension requirement when beneficiary enters corrections; confirmed unchanged by OBBBA
+
+---
+
+<a id="s-17"></a>
+#### S-17 — Family First Prevention Services Act, P.L. 115-123 [VERIFIED]
+
+**Citation:** Family First Prevention Services Act (FFPSA), P.L. 115-123 (2018)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD4-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Foster MH framework + QRTP designation
+
+---
+
+<a id="s-18"></a>
+#### S-18 — EMTALA, 42 U.S.C. § 1395dd [VERIFIED]
+
+**Citation:** Emergency Medical Treatment and Labor Act (EMTALA), 42 U.S.C. § 1395dd
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD7-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Psychiatric-emergency stabilization mandate
+
+---
+
+<a id="s-19"></a>
+#### S-19 — Medicare & Medicaid Patient and Program Protection Act 1987 [VERIFIED]
+
+**Citation:** Medicare and Medicaid Patient and Program Protection Act of 1987 (mental health benefits provisions)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** Background MH parity history
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-20"></a>
+#### S-20 — 26 C.F.R. § 54.9812-1 (Treasury MHPAEA regs) [VERIFIED]
+
+**Citation:** 26 C.F.R. § 54.9812-1 (Treasury/IRS MHPAEA implementing regulations)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD5-01, G1-SD5-03
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-21"></a>
+#### S-21 — 29 C.F.R. § 2590.712 (DOL MHPAEA regs) [VERIFIED]
+
+**Citation:** 29 C.F.R. § 2590.712 (Department of Labor MHPAEA implementing regulations)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD5-01, G1-SD5-03
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-22"></a>
+#### S-22 — 45 C.F.R. § 146.136 (HHS MHPAEA regs) [VERIFIED]
+
+**Citation:** 45 C.F.R. § 146.136 (HHS/CMS MHPAEA implementing regulations)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD5-01, G1-SD5-03
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-23"></a>
+#### S-23 — 89 Fed. Reg. 77,586 — MHPAEA 2024 Final Rule (paused) [VERIFIED with corrections]
+
+**Citation:** Department of Labor / HHS / Treasury, Requirements Related to the Mental Health Parity and Addiction Equity Act, 89 Fed. Reg. 77,586 (Sept. 9, 2024)
+
+**URL:** [pending retrieval — federalregister.gov 89 Fed Reg 77586 MHPAEA Final Rule September 2024]
+
+**Supports claims:** G1-SD5-03; F1, F14; TC-01
+
+**Verification status:** VERIFIED with corrections
+
+**Notes:** PAUSED — Tri-Agencies non-enforcement statement issued May 15, 2025; rule will not be enforced until ERIC litigation resolves + 18 months; 2013 Rule + CAA 2021 remain operative. "With corrections" reflects the paused status relative to initial first-pass framing
+
+---
+
+<a id="s-24"></a>
+#### S-24 — 42 C.F.R. § 482.13(e) (psychiatric restraint/seclusion) [VERIFIED]
+
+**Citation:** 42 C.F.R. § 482.13(e) (hospital conditions of participation — psychiatric restraint and seclusion)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-03, G1-SD7-02
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-25"></a>
+#### S-25 — 42 C.F.R. Part 2 (SUD record confidentiality) [VERIFIED]
+
+**Citation:** 42 C.F.R. Part 2 (substance-use disorder patient records confidentiality)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-26"></a>
+#### S-26 — 42 C.F.R. § 438 (Medicaid Managed Care) [VERIFIED]
+
+**Citation:** 42 C.F.R. Part 438 (Medicaid Managed Care; BH-MCO regulatory framework)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-08, G1-SD3-06
+
+**Verification status:** VERIFIED
+
+---
+
+### Executive Orders
+
+<a id="s-27"></a>
+#### S-27 — Executive Order 14219 (DOGE Deregulatory Initiative) [VERIFIED]
+
+**Citation:** Executive Order 14219, "Ensuring Lawful Governance and Implementing the President's 'Department of Government Efficiency' Deregulatory Initiative" (February 19, 2025)
+
+**URL:** [pending retrieval — federalregister.gov Executive Order 14219 deregulatory DOGE]
+
+**Supports claims:** G1-SD5-01, G1-SD5-03; TC-01 (broader admin context for MHPAEA pause)
+
+**Verification status:** VERIFIED
+
+---
+
+### Court Decisions and Litigation
+
+<a id="s-28"></a>
+#### S-28 — Youngberg v. Romeo, 457 U.S. 307 (1982) [VERIFIED]
+
+**Citation:** Youngberg v. Romeo, 457 U.S. 307 (1982)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Involuntarily committed liberty interest in safety + freedom from undue restraint
+
+---
+
+<a id="s-29"></a>
+#### S-29 — O'Connor v. Donaldson, 422 U.S. 563 (1975) [VERIFIED]
+
+**Citation:** O'Connor v. Donaldson, 422 U.S. 563 (1975)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-01, G1-SD2-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Dangerousness-floor for civil commitment
+
+---
+
+<a id="s-30"></a>
+#### S-30 — Addington v. Texas, 441 U.S. 418 (1979) [VERIFIED]
+
+**Citation:** Addington v. Texas, 441 U.S. 418 (1979)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Clear-and-convincing evidence standard for civil commitment
+
+---
+
+<a id="s-31"></a>
+#### S-31 — Washington v. Harper, 494 U.S. 210 (1990) [VERIFIED]
+
+**Citation:** Washington v. Harper, 494 U.S. 210 (1990)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-03, G1-SD6-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Medication-over-objection standard in custodial settings
+
+---
+
+<a id="s-32"></a>
+#### S-32 — Sell v. United States, 539 U.S. 166 (2003) [VERIFIED]
+
+**Citation:** Sell v. United States, 539 U.S. 166 (2003)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Forced medication for competency restoration constraints
+
+---
+
+<a id="s-33"></a>
+#### S-33 — Olmstead v. L.C., 527 U.S. 581 (1999) [VERIFIED]
+
+**Citation:** Olmstead v. L.C., 527 U.S. 581 (1999)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-01, G1-SD3-01
+
+**Verification status:** VERIFIED
+
+**Notes:** ADA Title II integration mandate (most-integrated-setting)
+
+---
+
+<a id="s-34"></a>
+#### S-34 — Estelle v. Gamble, 429 U.S. 97 (1976) [VERIFIED]
+
+**Citation:** Estelle v. Gamble, 429 U.S. 97 (1976)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-01, G1-SD6-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Eighth Amendment deliberate-indifference standard; SMI as serious medical need
+
+---
+
+<a id="s-35"></a>
+#### S-35 — Brown v. Plata, 563 U.S. 493 (2011) [VERIFIED]
+
+**Citation:** Brown v. Plata, 563 U.S. 493 (2011)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Prison MH conditions Eighth Amendment ceiling
+
+---
+
+<a id="s-36"></a>
+#### S-36 — Dusky v. United States, 362 U.S. 402 (1960) [VERIFIED]
+
+**Citation:** Dusky v. United States, 362 U.S. 402 (1960)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Competency-to-stand-trial standard
+
+---
+
+<a id="s-37"></a>
+#### S-37 — Jackson v. Indiana, 406 U.S. 715 (1972) [VERIFIED]
+
+**Citation:** Jackson v. Indiana, 406 U.S. 715 (1972)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Temporal limit on competency-restoration detention
+
+---
+
+<a id="s-38"></a>
+#### S-38 — Pa. Dept. of Corr. v. Yeskey, 524 U.S. 206 (1998) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Corrections v. Yeskey, 524 U.S. 206 (1998)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD6-03
+
+**Verification status:** VERIFIED
+
+**Notes:** ADA applies to state prisons
+
+---
+
+<a id="s-39"></a>
+#### S-39 — ERIC v. DOL/HHS/Treasury (D.D.C. 2025) [VERIFIED]
+
+**Citation:** ERIC v. Department of Labor, HHS, and Treasury, No. 25-cv-00228 (D.D.C.) (filed Jan. 17, 2025; abeyance granted May 12, 2025)
+
+**URL:** [pending retrieval — ERIC v DOL HHS Treasury D.D.C. 25-cv-00228 CourtListener PACER]
+
+**Supports claims:** F1, F14; TC-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Lawsuit triggering MHPAEA 2024 Final Rule pause and Tri-Agencies non-enforcement statement (May 15, 2025)
+
+---
+
+<a id="s-40"></a>
+#### S-40 — DRP v. PA DHS (children's MH; 2017; Oct 2025 settlement) [VERIFIED]
+
+**Citation:** Disability Rights PA v. PA DHS, M.D. Pa. (Hon. Julia K. Munley) (filed 2017; settlement approved October 1, 2025)
+
+**URL:** [pending retrieval — Disability Rights PA v PA DHS M.D. Pa. 2017 dependent children settlement 2025]
+
+**Supports claims:** G1-SD4-01, G1-SD4-04; F10; TC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** Class action re dependent children with MH disabilities; settlement requires DHS to improve timely MH screenings, prevent under-10 RTF placement, independent Consultant oversight
+
+---
+
+<a id="s-41"></a>
+#### S-41 — DRP v. PA DHS (YDC; 2019; Mar 2025 settlement) [VERIFIED]
+
+**Citation:** Disability Rights PA v. PA DHS (Youth Development Centers) (filed 2019; settlement reached March 24, 2025)
+
+**URL:** [pending retrieval — Disability Rights PA v PA DHS Youth Development Centers 2019 settlement March 2025]
+
+**Supports claims:** G1-SD6-04; F10; TC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** ~70% of YDC youth have disabilities; abusive restraints + MH care deprivation alleged; settlement resolved March 24, 2025
+
+---
+
+<a id="s-42"></a>
+#### S-42 — Watson v. Boston (1980s ESL P&A predecessor) [VERIFIED]
+
+**Citation:** Watson v. Boston (1980s ESL P&A predecessor — historical context)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** Historical context for P&A authority
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-43"></a>
+#### S-43 — ACLU v. PA (NSH bed expansion settlement, June 2017) [VERIFIED]
+
+**Citation:** ACLU v. Commonwealth of Pennsylvania (NSH bed expansion settlement, June 2017)
+
+**URL:** [pending retrieval — ACLU v Pennsylvania NSH Norristown State Hospital bed expansion settlement 2017]
+
+**Supports claims:** G1-SD6-06; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** 110-spot expansion (50 at NSH) for jail-languishing SMI individuals; supports forensic-restoration backlog finding
+
+---
+
+### Federal Agency Materials
+
+<a id="s-44"></a>
+#### S-44 — DOL EBSA Statement re MHPAEA Enforcement (May 2025) [VERIFIED]
+
+**Citation:** U.S. Department of Labor, Employee Benefits Security Administration, "Statement Regarding Enforcement of the Final Rule on Requirements Related to the Mental Health Parity and Addiction Equity Act" (May 15, 2025)
+
+**URL:** https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/mental-health-parity/statement-regarding-enforcement-of-the-final-rule-on-requirements-related-to-mhpaea
+
+**Supports claims:** G1-SD5-03; F1, F14; TC-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Tri-Agencies non-enforcement statement; will not enforce 2024 Final Rule NEW provisions until ERIC litigation resolves + 18 months; 2013 Rule + CAA 2021 statutory NQTL obligation remain operative; rule under "reconsideration"
+
+---
+
+<a id="s-45"></a>
+#### S-45 — SAMHSA — official site and program materials [VERIFIED]
+
+**Citation:** Substance Abuse and Mental Health Services Administration (SAMHSA), under HHS — official site and program materials
+
+**URL:** [pending retrieval — samhsa.gov official site SAMHSA]
+
+**Supports claims:** G1-SD1-05, G1-XC-02, G1-XC-04; F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Under Administration for a Healthy America (AHA) reorganization since 2025; ~900 staff start-2025; Children's MH Initiative + Minority Fellowship + PAIMI admin teams laid off
+
+---
+
+<a id="s-46"></a>
+#### S-46 — HHS "FY 2026 SAMHSA Contingency Staffing Plan" (Jan 2026) [VERIFIED]
+
+**Citation:** U.S. Department of Health and Human Services, "FY 2026 SAMHSA Contingency Staffing Plan" (January 30, 2026)
+
+**URL:** [pending retrieval — HHS SAMHSA FY2026 contingency staffing plan January 2026]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** 21% staff (123) retained as excepted; retained programs include 988, Disaster Distress Helpline, OTP oversight, Treatment Services Locator
+
+---
+
+<a id="s-47"></a>
+#### S-47 — White House "Appendix to FY 2026 Budget" (May 2025) [VERIFIED]
+
+**Citation:** White House Office of Management and Budget, "Appendix to FY 2026 Budget" (May 2025)
+
+**URL:** [pending retrieval — whitehouse.gov OMB FY2026 budget appendix SAMHSA block grant consolidation]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Block grant consolidation proposal: SUPTRS + CMHS + SOR → BHIBG $4.126B (down $465M); NIH consolidation: NIAAA+NIDA+NIMH → NIBH $2.678B (down $1.86B)
+
+---
+
+<a id="s-48"></a>
+#### S-48 — 988 Suicide & Crisis Lifeline (federal program) [VERIFIED]
+
+**Citation:** SAMHSA / Vibrant Emotional Health, 988 Suicide & Crisis Lifeline (federal program)
+
+**URL:** [pending retrieval — 988lifeline.org official site or samhsa.gov 988]
+
+**Supports claims:** G1-SD7-03; F7, F12; TC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Federally-administered 988 framework; PCL (Philadelphia Crisis Line) is the only locally-based in-house 988 response team in the country
+
+---
+
+<a id="s-49"></a>
+#### S-49 — HRSA mental health workforce programs [VERIFIED]
+
+**Citation:** Health Resources and Services Administration (HRSA), mental health workforce programs
+
+**URL:** [pending retrieval — hrsa.gov mental health workforce programs]
+
+**Supports claims:** G1-SD3-03
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-50"></a>
+#### S-50 — US ED Community Schools Program (grants terminated Dec 2025) [VERIFIED]
+
+**Citation:** U.S. Department of Education, Community Schools 5-Year Grants Program (19 grants terminated December 20, 2025)
+
+**URL:** [pending retrieval — ed.gov community schools program grant terminations December 2025]
+
+**Supports claims:** G1-SD4-02; TC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** 19 Community Schools 5-year grants terminated Dec 20, 2025; relevant to school-MH funding context and BSCA freeze
+
+---
+
+<a id="s-51"></a>
+#### S-51 — US ED ESSER III liquidation extension guidance [VERIFIED]
+
+**Citation:** U.S. Department of Education, ESSER III Liquidation Extension Guidance (extension to March 28, 2026 framework)
+
+**URL:** [pending retrieval — ed.gov ESSER III liquidation extension March 2026]
+
+**Supports claims:** G1-SD4-02
+
+**Verification status:** VERIFIED
+
+---
+
+### State and Local Authority
+
+<a id="s-52"></a>
+#### S-52 — PA Const. Art. I § 1 (inherent rights) [VERIFIED]
+
+**Citation:** Pennsylvania Constitution, Article I, § 1 (inherent rights)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-01
+
+**Verification status:** VERIFIED
+
+**Notes:** PA state constitutional foundation
+
+---
+
+<a id="s-53"></a>
+#### S-53 — PA Const. Art. I § 9 (criminal due process) [VERIFIED]
+
+**Citation:** Pennsylvania Constitution, Article I, § 9 (criminal due process)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Civil commitment due process protections
+
+---
+
+<a id="s-54"></a>
+#### S-54 — Pa. Mental Health Procedures Act, 50 P.S. § 7101 et seq. [VERIFIED]
+
+**Citation:** Pennsylvania Mental Health Procedures Act, 50 P.S. § 7101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-01 through G1-SD2-07
+
+**Verification status:** VERIFIED
+
+**Notes:** PA civil commitment framework (§§ 301, 302, 303, 304, 305)
+
+---
+
+<a id="s-55"></a>
+#### S-55 — 50 P.S. § 7301 (voluntary admission) [VERIFIED]
+
+**Citation:** 50 P.S. § 7301 (voluntary admission)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-56"></a>
+#### S-56 — 50 P.S. § 7302 (emergency examination — 120 hr) [VERIFIED]
+
+**Citation:** 50 P.S. § 7302 (emergency examination — 120 hours)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-02
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-57"></a>
+#### S-57 — 50 P.S. § 7303 (extended emergency — 20 day) [VERIFIED]
+
+**Citation:** 50 P.S. § 7303 (extended emergency examination — 20 days)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-02
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-58"></a>
+#### S-58 — 50 P.S. § 7304 (court commitment — up to 90 days) [VERIFIED]
+
+**Citation:** 50 P.S. § 7304 (court commitment — up to 90 days)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-02, G1-SD2-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-59"></a>
+#### S-59 — 50 P.S. § 7305 (long-term commitment — up to 180 days) [VERIFIED]
+
+**Citation:** 50 P.S. § 7305 (long-term commitment — up to 180 days)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD2-02, G1-SD2-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-60"></a>
+#### S-60 — Mental Health and Mental Retardation Act of 1966 [VERIFIED]
+
+**Citation:** Pennsylvania Mental Health and Mental Retardation Act of 1966, 50 P.S. § 4101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-04
+
+**Verification status:** VERIFIED
+
+**Notes:** PA county-MHMR delivery system framework
+
+---
+
+<a id="s-61"></a>
+#### S-61 — Pa. Act 30 of 2020 (BH-PH integration) [PARTIAL]
+
+**Citation:** Pennsylvania Act 30 of 2020 (behavioral health – physical health integration)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-04
+
+**Verification status:** PARTIAL
+
+**Notes:** Framework for BH-PH care integration enacted; FY26 implementation status NOT verified (see unverified-items UV-01)
+
+---
+
+<a id="s-62"></a>
+#### S-62 — Pa. Act 98 of 2022 (audio-only telehealth permanence) [VERIFIED]
+
+**Citation:** Pennsylvania Act 98 of 2022 (audio-only telehealth permanence in outpatient psychiatric and D&A clinic services)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-02; TC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Permanently removed DHS regulations restricting audio-only telehealth
+
+---
+
+<a id="s-63"></a>
+#### S-63 — Pa. Adult Protective Services Act, 35 P.S. § 10210.101 [VERIFIED]
+
+**Citation:** Pennsylvania Adult Protective Services Act, 35 P.S. § 10210.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-05
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-64"></a>
+#### S-64 — Pa. Older Adults Protective Services Act, 35 P.S. § 10225 [VERIFIED]
+
+**Citation:** Pennsylvania Older Adults Protective Services Act, 35 P.S. § 10225
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD3-05
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-65"></a>
+#### S-65 — Pa. Crime Victims Act, 18 P.S. § 11.101 et seq. [VERIFIED]
+
+**Citation:** Pennsylvania Crime Victims Act, 18 P.S. § 11.101 et seq.
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** Cross-cutting representation context
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-66"></a>
+#### S-66 — PA DHS OMHSAS — official site and materials [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, Office of Mental Health and Substance Abuse Services (OMHSAS) — official site and policy materials
+
+**URL:** [pending retrieval — dhs.pa.gov OMHSAS Office of Mental Health Substance Abuse Services]
+
+**Supports claims:** G1-SD1-04, G1-SD3-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-67"></a>
+#### S-67 — PA DHS "Behavioral HealthChoices for Providers" [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, "Behavioral HealthChoices for Providers" (program documentation)
+
+**URL:** [pending retrieval — dhs.pa.gov behavioral health choices providers program documentation]
+
+**Supports claims:** G1-SD3-06, G1-SD5-06; F8; TC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** BH-MCO regulatory + provider framework
+
+---
+
+<a id="s-68"></a>
+#### S-68 — PA DHS Managed Care Directory (March 2026) [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, Managed Care Directory (March 2026)
+
+**URL:** [pending retrieval — dhs.pa.gov managed care directory March 2026]
+
+**Supports claims:** F8; TC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** 5 BH-MCO architecture (CBH, CCBH, PerformCare, Magellan, Value); CHC re-procurement detail
+
+---
+
+<a id="s-69"></a>
+#### S-69 — PA DHS "Norristown State Hospital" official page [VERIFIED]
+
+**Citation:** Pennsylvania Department of Human Services, "Norristown State Hospital" — official page
+
+**URL:** [pending retrieval — dhs.pa.gov norristown state hospital official page]
+
+**Supports claims:** G1-SD2-06, G1-SD6-01; F5; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** NSH 375 beds (255 RFPC + 120 Forensic Stepdown); civil section closed January 2019; forensic-only since
+
+---
+
+<a id="s-70"></a>
+#### S-70 — Governor Shapiro 2026-27 Budget Proposal (BH capitation) [VERIFIED]
+
+**Citation:** Governor Josh Shapiro, 2026–27 Pennsylvania Budget Proposal (proposed 15% capitation increase to $4.4B for HealthChoices BH+PH combined)
+
+**URL:** [pending retrieval — governor.pa.gov Shapiro 2026-27 budget proposal HealthChoices capitation]
+
+**Supports claims:** G1-SD1-08, G1-SD5-06; TC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Contingent on legislative enactment
+
+---
+
+<a id="s-71"></a>
+#### S-71 — PA Dept. of Corrections monthly population report [VERIFIED]
+
+**Citation:** Pennsylvania Department of Corrections, Monthly Population and Capacity Report
+
+**URL:** [pending retrieval — cor.pa.gov monthly population capacity report state prisons]
+
+**Supports claims:** G1-SD6-01
+
+**Verification status:** VERIFIED
+
+**Notes:** State-prison comparative for PPS-as-largest-psychiatric-facility analysis
+
+---
+
+<a id="s-72"></a>
+#### S-72 — Philadelphia Home Rule Charter § 5-300 [VERIFIED]
+
+**Citation:** Philadelphia Home Rule Charter, § 5-300 (DBHIDS authority)
+
+**URL:** [no URL — citation is canonical]
+
+**Supports claims:** G1-SD1-08; TC-10
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-73"></a>
+#### S-73 — DBHIDS — official site [VERIFIED]
+
+**Citation:** Philadelphia Department of Behavioral Health and Intellectual disAbility Services (DBHIDS) — official site
+
+**URL:** [pending retrieval — dbhids.org official site DBHIDS Philadelphia]
+
+**Supports claims:** G1-SD1-08, G1-SD7-01; F3, F15; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** DBHIDS direct-services + 150,000+/yr served; Marquita Williams, Interim Commissioner since April 2024
+
+---
+
+<a id="s-74"></a>
+#### S-74 — DBHIDS FY26 Budget Testimony (May 2025) [VERIFIED]
+
+**Citation:** Philadelphia Department of Behavioral Health and Intellectual disAbility Services, FY26 Budget Testimony (May 2025)
+
+**URL:** [pending retrieval — DBHIDS FY26 budget testimony May 2025 phila.gov]
+
+**Supports claims:** G1-SD7-01, G1-SD7-03; F3, F15; TC-07, TC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** ~$21.5M BH programming request; CMCRT 4 providers / 29 teams; PCL 6,000+/mo; 988–911 co-location 36% transfer increase; PCL inception January 2023; 4,288 calls transferred 911→PCL Jan 2023–Feb 2025
+
+---
+
+<a id="s-75"></a>
+#### S-75 — DBHIDS FY26 Budget Detail [VERIFIED]
+
+**Citation:** Philadelphia Department of Behavioral Health and Intellectual disAbility Services, FY26 Budget Detail (supplementary, May 2025)
+
+**URL:** [pending retrieval — DBHIDS FY26 budget detail phila.gov supplementary]
+
+**Supports claims:** F15; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** $1.8M MH Court Evaluations new; $500K outreach team new; $120K procurement staff
+
+---
+
+<a id="s-76"></a>
+#### S-76 — Community Behavioral Health (CBH) — official site [VERIFIED]
+
+**Citation:** Community Behavioral Health (CBH) — official site (DBHIDS division; 501(c)(3))
+
+**URL:** [pending retrieval — cbhphilly.org or phila.gov CBH Community Behavioral Health official site]
+
+**Supports claims:** G1-SD1-08; F8; TC-07, TC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** 420,000 Medicaid recipients; CEO Donna E.M. Bailey, MSEd, MBA; 801 Market St 7th Floor, Philadelphia
+
+---
+
+<a id="s-77"></a>
+#### S-77 — CBH Clinical Performance Standards: Mobile Crisis (June 2024) [VERIFIED]
+
+**Citation:** Community Behavioral Health (CBH), Clinical Performance Standards: Mobile Crisis Response Services (June 2024)
+
+**URL:** [pending retrieval — CBH clinical performance standards mobile crisis response services June 2024]
+
+**Supports claims:** G1-SD7-01; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** CMCRT operational standards
+
+---
+
+<a id="s-78"></a>
+#### S-78 — Philadelphia OCJ — Prison Population Snapshot Reports [VERIFIED]
+
+**Citation:** Philadelphia Office of Criminal Justice, Prison Population Snapshot Reports (monthly, ongoing)
+
+**URL:** https://www.phila.gov/documents/philadelphia-jail-population-snapshot-reports/
+
+**Supports claims:** G1-SD6-01, G1-SD6-05; F6; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** PPS daily census + SMI status reporting; March 2025 onward: 12 confinement categories with race+ethnicity reported separately (new jail management system from Fall 2024; data gap Oct 2024–Feb 2025)
+
+---
+
+<a id="s-79"></a>
+#### S-79 — PDP Press Release — Population Lowest in Three Decades (May 2025) [VERIFIED]
+
+**Citation:** Philadelphia Department of Prisons, Press Release: "Incarcerated Population Drops to Lowest Level in Three Decades" (May 20, 2025)
+
+**URL:** [pending retrieval — phila.gov PDP press release May 2025 population lowest three decades]
+
+**Supports claims:** G1-SD6-01; F6; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** PPS at 3,480 May 15, 2025 — lowest since April 17, 1992. Commissioner Michael R. Resnick named in release. Note: original CR had separate entries for press release and Commissioner Resnick; both consolidated into this entry.
+
+---
+
+<a id="s-80"></a>
+#### S-80 — Philadelphia City Council DBHIDS Budget Hearings (FY26) [VERIFIED]
+
+**Citation:** Philadelphia City Council, DBHIDS Budget Hearings (FY26, May 2025)
+
+**URL:** [pending retrieval — phlcouncil.com or phila.gov DBHIDS FY26 budget hearing May 2025]
+
+**Supports claims:** F3, F15; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** ~$21.5M FY26 request; CMCRT funding context
+
+---
+
+<a id="s-81"></a>
+#### S-81 — Philadelphia City Controller Audit (2021) — HealthChoices BH [VERIFIED]
+
+**Citation:** Philadelphia City Controller, "Report on the City of Philadelphia HealthChoices Behavioral Health Program" (2021)
+
+**URL:** [pending retrieval — controller.phila.gov HealthChoices behavioral health audit report 2021]
+
+**Supports claims:** G1-SD1-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Historical CIRC overpayment context ($10.4M for non-rendered services)
+
+---
+
+<a id="s-82"></a>
+#### S-82 — First Judicial District of Pennsylvania (FJD) — BH data [VERIFIED]
+
+**Citation:** First Judicial District of Pennsylvania — Behavioral Health Division statistical data
+
+**URL:** [pending retrieval — courts.phila.gov FJD behavioral health division SMI population data]
+
+**Supports claims:** G1-SD6-01; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** 12.6% SMI population data (FJD 2022); Behavioral Health Division partnership with PPS
+
+---
+
+<a id="s-83"></a>
+#### S-83 — School District of Philadelphia — Prevention & Intervention [VERIFIED]
+
+**Citation:** School District of Philadelphia, Prevention and Intervention — Student Assistance Program and behavioral health partnerships
+
+**URL:** [pending retrieval — philasd.org prevention intervention student assistance program behavioral health]
+
+**Supports claims:** G1-SD4-01, G1-SD4-02
+
+**Verification status:** VERIFIED
+
+**Notes:** SAP state-mandated K-12; DBHIDS contracts CORA/Einstein/Merakey/CADEKids; Policy 253 Suicide Awareness; Mental Health Delegate Hotline
+
+---
+
+### Research Reports / Policy Analysis
+
+<a id="s-84"></a>
+#### S-84 — Urban Institute — Jail Populations in Philadelphia (Mar 2023) [VERIFIED]
+
+**Citation:** Urban Institute, "Efforts to Reduce Jail Populations in Philadelphia" (March 2023)
+
+**URL:** [pending retrieval — urban.org efforts reduce jail populations Philadelphia 2023]
+
+**Supports claims:** G1-SD6-01; F6; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Philadelphia SJC strategies; 12.6% SMI population data; SMI longer length of stay
+
+---
+
+<a id="s-85"></a>
+#### S-85 — MacArthur Safety and Justice Challenge — Philadelphia [VERIFIED]
+
+**Citation:** MacArthur Foundation, Safety and Justice Challenge — Philadelphia profile
+
+**URL:** [pending retrieval — safetyandjusticechallenge.org Philadelphia profile strategy SMI]
+
+**Supports claims:** G1-SD6-01; TC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Strategy 5 explicitly "Decrease Number of People in Jail Experiencing SMI"; baseline 8,082 (July 2015) → ~3,500 (FY25–26)
+
+---
+
+<a id="s-86"></a>
+#### S-86 — KFF — School-Based Mental Health Services (Sept 2025) [VERIFIED]
+
+**Citation:** KFF, "The Landscape of School-Based Mental Health Services" (September 2025)
+
+**URL:** [pending retrieval — kff.org landscape school-based mental health services September 2025]
+
+**Supports claims:** G1-SD4-02; F2; TC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Federal grant share for school MH 53% (2021–22) → 33% (2024–25); BSCA $1B freeze documentation; ratio inadequacy
+
+---
+
+<a id="s-87"></a>
+#### S-87 — KFF — Medicaid: What to Watch 2026 + OBBBA tracking [VERIFIED]
+
+**Citation:** KFF, "Medicaid: What to Watch in 2026" and OBBBA tracking series
+
+**URL:** [pending retrieval — kff.org medicaid what to watch 2026 OBBBA tracking]
+
+**Supports claims:** G1-SD1-02; F4, F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** OBBBA Medicaid implementation timeline
+
+---
+
+<a id="s-88"></a>
+#### S-88 — Health and Reentry Project — OBBBA Medicaid Reentry (Jul 2025) [VERIFIED]
+
+**Citation:** Health and Reentry Project, "OBBBA's Changes to Medicaid and Their Implications for Continuity of Care at Reentry" (July 21, 2025)
+
+**URL:** [pending retrieval — healthandreentry.org OBBBA Medicaid continuity care reentry July 2025]
+
+**Supports claims:** G1-SD6-02; F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Continuity-of-care provisions preserved under OBBBA
+
+---
+
+<a id="s-89"></a>
+#### S-89 — AMA — Medicaid, ACA, and OBBBA Key Provisions [VERIFIED]
+
+**Citation:** American Medical Association, "Changes to Medicaid, the ACA and other key provisions of the OBBBA"
+
+**URL:** [pending retrieval — ama-assn.org OBBBA Medicaid ACA key provisions tracking]
+
+**Supports claims:** F4, F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Comprehensive OBBBA tracking
+
+---
+
+<a id="s-90"></a>
+#### S-90 — Drug Policy Alliance + Legal Action Center — Federal Funding Cuts (Oct 2025) [VERIFIED]
+
+**Citation:** Drug Policy Alliance and Legal Action Center, "Federal Funding Cuts: Methodology" (October 6, 2025)
+
+**URL:** [pending retrieval — drugpolicy.org OR legalactioncenter.org federal funding cuts methodology October 2025]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** $345M federal cuts documented; $25.6B anticipated FY26 cuts to CDC+SAMHSA+NIH+DOJ
+
+---
+
+<a id="s-91"></a>
+#### S-91 — ATI Advisory — OBBBA Medicaid, HCBS, LTSS (Aug 2025) [VERIFIED]
+
+**Citation:** ATI Advisory, "What OBBBA Means for Medicaid, HCBS, and LTSS in 2025" (August 21, 2025)
+
+**URL:** [pending retrieval — atiadvisory.com OBBBA Medicaid HCBS LTSS August 2025]
+
+**Supports claims:** F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Provider tax + state-directed payment technical implementation
+
+---
+
+<a id="s-92"></a>
+#### S-92 — HFMA — OBBBA State-Directed Payments (Dec 2025) [VERIFIED]
+
+**Citation:** HFMA, "OBBBA Medicaid impacts: How to navigate state-directed payment revenue reduction" (December 23, 2025)
+
+**URL:** [pending retrieval — hfma.org OBBBA Medicaid state-directed payment December 2025]
+
+**Supports claims:** F13; TC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** SDP technical implementation
+
+---
+
+<a id="s-93"></a>
+#### S-93 — NACo — Modernize the Medicaid IMD Exclusion (Mar 2026) [VERIFIED]
+
+**Citation:** National Association of Counties (NACo), "Modernize the Medicaid IMD Exclusion" (March 6, 2026)
+
+**URL:** [pending retrieval — naco.org modernize Medicaid IMD exclusion March 2026]
+
+**Supports claims:** G1-SD3-04, G1-SD6-01
+
+**Verification status:** VERIFIED
+
+**Notes:** County advocacy framing on IMD exclusion; H.R. 5462 + H.R. 6727 pending legislation
+
+---
+
+<a id="s-94"></a>
+#### S-94 — Psychiatric News (APA) — SAMHSA Cuts (May 2025) [VERIFIED]
+
+**Citation:** Psychiatric News (American Psychiatric Association), "SAMHSA Faces Significant Cuts, Uncertain Future" (May 2025)
+
+**URL:** [pending retrieval — psychnews.psychiatryonline.org SAMHSA significant cuts uncertain future 2025]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** SAMHSA reorganization context under Administration for a Healthy America
+
+---
+
+<a id="s-95"></a>
+#### S-95 — Alliance for Rights and Recovery — SAMHSA Cuts (Oct 2025) [VERIFIED]
+
+**Citation:** The Alliance for Rights and Recovery, "SAMHSA Cuts Jeopardize National Mental Health and Addiction Response" (October 30, 2025)
+
+**URL:** [pending retrieval — rightsandrecovery.org SAMHSA cuts jeopardize national mental health October 2025]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** PAIMI admin team layoffs; Children's MH Initiative on administrative leave
+
+---
+
+<a id="s-96"></a>
+#### S-96 — Disability Rights Pennsylvania (DRP) — official site [VERIFIED]
+
+**Citation:** Disability Rights Pennsylvania (DRP) — official site; federally-mandated PA P&A organization
+
+**URL:** [pending retrieval — disabilityrightspa.org official site]
+
+**Supports claims:** G1-SD4-01, G1-SD4-04, G1-SD6-04; F10; TC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** HQ: 301 Chestnut St, Harrisburg + Philadelphia office: 1800 JFK Blvd Suite 900; Litigation Counsel: Rhonda Brownstein; 6,800+ caller intake annually
+
+---
+
+<a id="s-97"></a>
+#### S-97 — DRP — Settlement: Mental Health Reform for Dependent Children (Oct 2025) [VERIFIED]
+
+**Citation:** Disability Rights Pennsylvania, "Settlement Reached Addressing Mental Health Reform for Dependent Children" (October 1, 2025)
+
+**URL:** [pending retrieval — disabilityrightspa.org settlement mental health dependent children October 2025]
+
+**Supports claims:** G1-SD4-01, G1-SD4-04; F10; TC-09
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-98"></a>
+#### S-98 — DRP — Settlement: Abuses at State-Run Youth Facilities (Mar 2025) [VERIFIED]
+
+**Citation:** Disability Rights Pennsylvania, "Settlement Reached to Address Abuses at State-Run Youth Facilities" (March 24, 2025)
+
+**URL:** [pending retrieval — disabilityrightspa.org settlement youth development center March 2025]
+
+**Supports claims:** G1-SD6-04; F10; TC-09
+
+**Verification status:** VERIFIED
+
+---
+
+### Press / News Reporting
+
+<a id="s-99"></a>
+#### S-99 — WHYY — Philly mobile crisis response (Mar 2025) [VERIFIED]
+
+**Citation:** WHYY, "Philly mental health advocates call for expanding mobile crisis response program" (March 18, 2025)
+
+**URL:** [pending retrieval — whyy.org Philly mental health mobile crisis response March 2025]
+
+**Supports claims:** G1-SD7-01; F3; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** CMCRT scale + workforce dynamics
+
+---
+
+<a id="s-100"></a>
+#### S-100 — Philadelphia Tribune — CMCRT satisfaction (Mar 2025) [VERIFIED]
+
+**Citation:** Philadelphia Tribune, "70% of respondents rate Philly's mobile mental health experience positively..." (March 17, 2025)
+
+**URL:** [pending retrieval — phillytrib.com mobile mental health 70 percent satisfaction March 2025]
+
+**Supports claims:** G1-SD7-01; F3; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** 70%+ user satisfaction; 17% decrease in involuntary commitment referrals; ~14,000 dispatches Jan 2023–Jan 2025
+
+---
+
+<a id="s-101"></a>
+#### S-101 — StateScoop — Philadelphia jail population halved (Dec 2025) [VERIFIED]
+
+**Citation:** StateScoop, "Data-sharing helped Philadelphia halve its jail population" (December 8, 2025)
+
+**URL:** [pending retrieval — statescoop.com Philadelphia jail population data sharing halved December 2025]
+
+**Supports claims:** G1-SD6-01; F6; TC-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-102"></a>
+#### S-102 — Patch.com — Norristown State Hospital redesign (Sept 2025) [VERIFIED]
+
+**Citation:** Patch.com, "Norristown State Hospital Undergoing Massive Redesign, Modernization" (September 23, 2025)
+
+**URL:** [pending retrieval — patch.com norristown state hospital redesign modernization September 2025]
+
+**Supports claims:** G1-SD6-01; F5; TC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Stantec + architecture+ designing Southeast Psychiatric Treatment Center; 270-bed initial / 420-bed expansion; groundbreaking 2026
+
+---
+
+<a id="s-103"></a>
+#### S-103 — NPR — SAMHSA grants chaos (Jan 2026) [VERIFIED]
+
+**Citation:** NPR, "24 hours of chaos as mental health grants are slashed then restored" (January 15, 2026)
+
+**URL:** [pending retrieval — npr.org SAMHSA mental health grants slashed restored chaos January 2026]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Jan 14–15, 2026 episode: HHS terminated $2B in ~2,000 SAMHSA grants overnight via "non-alignment" letters; reversed 24 hours later after White House intervention
+
+---
+
+<a id="s-104"></a>
+#### S-104 — EMS1 / CQ Roll Call — SAMHSA $2B reversal (Jan 2026) [VERIFIED]
+
+**Citation:** EMS1 / CQ Roll Call, "Trump administration reverses $2B SAMHSA funding cuts" (January 16, 2026)
+
+**URL:** [pending retrieval — ems1.com OR rollcall.com SAMHSA $2B funding cuts reversal January 2026]
+
+**Supports claims:** F11; TC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Jan 14–15, 2026 episode follow-up coverage
+
+---
+
+### Other Primary Sources
+
+<a id="s-105"></a>
+#### S-105 — Elwyn — CMCRT provider [VERIFIED]
+
+**Citation:** Elwyn — nonprofit behavioral health organization; CMCRT provider for Philadelphia
+
+**URL:** [pending retrieval — elwyn.org official site CMCRT provider]
+
+**Supports claims:** G1-SD7-01; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** One of four nonprofit CMCRT providers under DBHIDS contract
+
+---
+
+<a id="s-106"></a>
+#### S-106 — PATH / People Acting To Help — CMCRT provider [VERIFIED]
+
+**Citation:** PATH / People Acting To Help — nonprofit; CMCRT provider for Philadelphia
+
+**URL:** [pending retrieval — pathinc.org people acting to help CMCRT provider Philadelphia]
+
+**Supports claims:** G1-SD7-01; TC-07
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-107"></a>
+#### S-107 — Consortium — West Philadelphia Community Mental Health (CMCRT) [VERIFIED]
+
+**Citation:** Consortium, Inc. / West Philadelphia Community Mental Health Consortium — CMCRT provider
+
+**URL:** [pending retrieval — consortiuminc.org West Philadelphia Community Mental Health Consortium CMCRT]
+
+**Supports claims:** G1-SD7-01; TC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** $3.8M contract under Mayor Parker administration termination dispute; Consortium appealing; still operating as of FY26 budget testimony
+
+---
+
+<a id="s-108"></a>
+#### S-108 — JFK / Centralized Comprehensive Human Services — CMCRT provider [VERIFIED]
+
+**Citation:** JFK Behavioral Health Center / Centralized Comprehensive Human Services — CMCRT provider for Philadelphia
+
+**URL:** [pending retrieval — JFK behavioral health Philadelphia CMCRT provider Centralized Comprehensive Human Services]
+
+**Supports claims:** G1-SD7-01; TC-07
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-109"></a>
+#### S-109 — Public Health Management Corp (PHMC) [VERIFIED]
+
+**Citation:** Public Health Management Corporation (PHMC) — Philadelphia behavioral health and primary care provider
+
+**URL:** [pending retrieval — phmc.org Public Health Management Corporation official site]
+
+**Supports claims:** G1-SD3-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-110"></a>
+#### S-110 — Penn Medicine / Princeton House Behavioral Health [VERIFIED]
+
+**Citation:** Penn Medicine / Princeton House Behavioral Health — inpatient behavioral health provider
+
+**URL:** [pending retrieval — pennmedicine.org princeton house behavioral health inpatient]
+
+**Supports claims:** G1-SD3-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-111"></a>
+#### S-111 — Temple Episcopal — behavioral health [VERIFIED]
+
+**Citation:** Temple University Health System Episcopal Campus — behavioral health services
+
+**URL:** [pending retrieval — templehealth.org Episcopal campus behavioral health]
+
+**Supports claims:** G1-SD3-06
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-112"></a>
+#### S-112 — Friends Hospital — inpatient psychiatric (SUD) [VERIFIED]
+
+**Citation:** Friends Hospital — Philadelphia; inpatient psychiatric hospital and SUD treatment
+
+**URL:** [pending retrieval — friendshospital.com official site inpatient psychiatric]
+
+**Supports claims:** G1-SD3-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-113"></a>
+#### S-113 — Belmont Behavioral Hospital [VERIFIED]
+
+**Citation:** Belmont Behavioral Hospital — Philadelphia; inpatient psychiatric and SUD treatment
+
+**URL:** [pending retrieval — belmontbehavioral.com official site inpatient]
+
+**Supports claims:** G1-SD3-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-114"></a>
+#### S-114 — Stantec / architecture+ — Southeast Psychiatric Treatment Center [VERIFIED]
+
+**Citation:** Stantec / architecture+ — design team for Southeast Psychiatric Treatment Center at NSH site (initial 270 single-occupant beds expanding to 420 total; groundbreaking 2026)
+
+**URL:** [pending retrieval — stantec.com OR architecture-plus.com southeast psychiatric treatment center NSH]
+
+**Supports claims:** G1-SD6-01 (forward-looking); F5; TC-05
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-115"></a>
+#### S-115 — D2 carry-forward — federal-rep-leverage architecture [VERIFIED]
+
+**Citation:** D2 (Public Health) Verified Output — federal-rep-leverage architecture cross-domain inheritance
+
+**URL:** [no URL — internal cross-domain reference]
+
+**Supports claims:** G1-XC-04
+
+**Verification status:** VERIFIED
+
+---
+
+<a id="s-116"></a>
+#### S-116 — D2 carry-forward — MAHA Pattern 1 cross-domain framing [VERIFIED]
+
+**Citation:** D2 (Public Health) Verified Output — MAHA Pattern 1 cross-domain framing inheritance
+
+**URL:** [no URL — internal cross-domain reference]
+
+**Supports claims:** G1-XC-02
+
+**Verification status:** VERIFIED
+
+---
 
 
 ---
@@ -4319,12 +5813,18 @@ Material changes fall into three categories:
 - **Quantitative corrections** (TC-04, TC-07-partial): first-pass quantification was inaccurate or imprecise; verified figures supersede
 - **Structural / naming corrections** (TC-05, TC-07-naming, TC-08, TC-09, TC-10): first-pass framing required correction or specification through verification
 
+<a id="tc-01"></a>
+
 ### TC-01 — MHPAEA Sept 2024 Final Rule formally paused [P1]
 
 - **What was:** Sept 2024 Final Rule effective Sept 9, 2024; status under Trump 2 admin uncertain (possible enforcement rollback, modification, or delay)
 - **What is now:** Tri-Agencies (DOL, HHS, Treasury) issued joint non-enforcement statement May 15, 2025. Will not enforce 2024 Final Rule's NEW provisions until ERIC litigation resolves + 18 months. 2013 Rule + CAA 2021 statutory NQTL comparative-analysis obligation remain in force. Rule under "reconsideration." EO 14219 broader admin context.
 - **When:** May 15, 2025 (DOL EBSA non-enforcement statement); preceded by *ERIC v. DOL/HHS/Treasury* filing Jan 17, 2025 in D.D.C. and abeyance grant May 12, 2025
 - **Affects:** G1-SD5-01, G1-SD5-03, G1-SD5-05; F1, F14
+
+- *Sources:* [S-04](#s-04), [S-23](#s-23), [S-27](#s-27), [S-39](#s-39), [S-44](#s-44)
+
+<a id="tc-02"></a>
 
 ### TC-02 — Bipartisan Safer Communities Act $1B school-MH funding freeze [P1]
 
@@ -4333,12 +5833,20 @@ Material changes fall into three categories:
 - **When:** Throughout 2025
 - **Affects:** G1-SD4-02, G1-XC-04
 
+- *Sources:* [S-10](#s-10), [S-50](#s-50), [S-86](#s-86)
+
+<a id="tc-03"></a>
+
 ### TC-03 — OBBBA enacted as P.L. 119-21 [P1]
 
 - **What was:** Federal Medicaid framework as established by ACA + 2018 SUPPORT Act + state-directed payment + provider-tax safe harbor at 6%; budget reconciliation pending
 - **What is now:** One Big Beautiful Bill Act signed July 4, 2025. $1T Medicaid cuts over 10 years phased. Provider tax safe harbor 6%→3.5% (FY28-34, $191B savings). State-directed payment caps (~$149B). Work requirements + 6-month redeterminations effective Dec 30, 2026 (HHS extension authority to 2028). CBO: 11.8M lose coverage by 2034. **CCBHCs/FQHCs/RHCs EXEMPTED** from new $1-$35 cost-sharing. **Section 71401 Rural Health Transformation Program** $10B/yr 2026-2030. House gender-affirming-care funding ban STRUCK by Senate Parliamentarian. **IMD exclusion (42 U.S.C. § 1396d(a)(B)) UNCHANGED**. **Reentry continuity preserved** (CAA 2023 § 5121 youth + CAA 2024 suspension-not-termination unchanged).
 - **When:** July 4, 2025 (signed); implementation phased through 2034
 - **Affects:** G1-SD1-02, G1-SD3-01, G1-SD6-02, G1-XC-04; F4, F13
+
+- *Sources:* [S-13](#s-13), [S-87](#s-87), [S-88](#s-88), [S-89](#s-89), [S-91](#s-91), [S-92](#s-92)
+
+<a id="tc-04"></a>
 
 ### TC-04 — PPS daily census quantification correction [P1, central D3 finding]
 
@@ -4348,6 +5856,10 @@ Material changes fall into three categories:
 - **Affects:** G1-SD6-01 (central D3 finding — claim now requires narrower margin framing); G1-SD6-02 (releases volume needs FY26 update); G1-SD6-05 (race/ethnicity now reported separately under new PDP system); F6
 - **Implication:** "PPS as functionally largest psychiatric facility" claim HOLDS but at narrower margin than first-pass implied (PPS SMI ~440-470 vs. NSH 375 forensic-only beds = ~65-95 margin) — see also TC-05
 
+- *Sources:* [S-78](#s-78), [S-79](#s-79), [S-82](#s-82), [S-84](#s-84), [S-85](#s-85), [S-101](#s-101)
+
+<a id="tc-05"></a>
+
 ### TC-05 — Norristown State Hospital structurally narrowed; civil-only since 2019 [P2]
 
 - **What was:** NSH ~300 beds; civil §304 long-term commitments routed to NSH (geographic burden for Philadelphia families)
@@ -4355,12 +5867,20 @@ Material changes fall into three categories:
 - **When:** January 2019 (civil section closure); predates first-pass cycle but was inaccurately characterized in first-pass
 - **Affects:** G1-SD2-06 (long-term commitment family-contact externality now relates to Danville, not NSH); G1-SD6-01 (PPS-larger-than-NSH claim — holds at narrower margin; future 420-bed expansion will narrow further); F5
 
+- *Sources:* [S-43](#s-43), [S-69](#s-69), [S-102](#s-102)
+
+<a id="tc-06"></a>
+
 ### TC-06 — SAMHSA agency capacity comprehensive erosion [P1, Pattern 1]
 
 - **What was:** SAMHSA capacity erosion threading anticipated as Pattern 1 risk (G1-SD1-05, G1-XC-02)
 - **What is now:** HHS placed SAMHSA under **Administration for a Healthy America (AHA)** under RFK Jr. SAMHSA had ~900 staff start-2025; major RIFs throughout 2025. Children's Mental Health Initiative team on admin leave; Minority Fellowship Program admin branch laid off; **PAIMI administration team laid off** (despite Congress maintaining funding). FY26 budget proposal: ~$6.5-7B (down from ~$7.5-8B). Proposed block grant consolidation: SUPTRS + CMHS + SOR → "Behavioral Health Innovation Block Grant" $4.126B (down $465M). NIH consolidation: NIAAA+NIDA+NIMH → "National Institute of Behavioral Health" at $2.678B (down $1.86B). **Jan 14-15, 2026 episode**: HHS terminated $2B in ~2,000 SAMHSA grants overnight via "non-alignment" letters; reversed 24 hours later after White House intervention. 23-state lawsuit over $11B+ public health funding rescissions. HHS contingency plan: 21% staff (123) retained as excepted in shutdown.
 - **When:** Throughout 2025; major operational events Jan 14-15, 2026
 - **Affects:** G1-SD1-05 (Pattern 1 thread); G1-XC-02 (MAHA Pattern 1); G1-XC-04 (federal-rep-leverage richness); F11
+
+- *Sources:* [S-05](#s-05), [S-09](#s-09), [S-45](#s-45), [S-46](#s-46), [S-47](#s-47), [S-90](#s-90), [S-94](#s-94), [S-95](#s-95), [S-103](#s-103), [S-104](#s-104)
+
+<a id="tc-07"></a>
 
 ### TC-07 — DBHIDS leadership, FY26 budget, and program-naming clarification [P1]
 
@@ -4370,12 +5890,20 @@ Material changes fall into three categories:
 - **Affects:** G1-SD7-01 (terminology + scaling correction); F3, F15
 - **Note:** "Right Care" terminology not verified in current DBHIDS sources — may be project shorthand or historical name (see unverified-items UV-03)
 
+- *Sources:* [S-73](#s-73), [S-74](#s-74), [S-75](#s-75), [S-76](#s-76), [S-77](#s-77), [S-80](#s-80), [S-99](#s-99), [S-100](#s-100)
+
+<a id="tc-08"></a>
+
 ### TC-08 — Philadelphia Crisis Line (PCL) operational data [P2]
 
 - **What was:** 988 dispatch rate gap framed as G1-SD7-03 (dispatch-rate-to-988 partial gap, no operational data)
 - **What is now:** PCL is the **only locally-based, in-house 988 response team in the country**. 6,000+ calls/month. **988 counselors co-located in 911 Radio Room → 36% increase in warm transfers from 911 to 988**. **4,288 calls transferred 911 → PCL Jan 2023 - Feb 2025**. PCL inception January 2023.
 - **When:** PCL inception January 2023; ongoing operational scaling through FY26 budget request
 - **Affects:** G1-SD7-03 (988 dispatch gap — PCL coverage now documented as national-leading model); F7, F12 (partial resolution at PA-3 level)
+
+- *Sources:* [S-48](#s-48), [S-74](#s-74)
+
+<a id="tc-09"></a>
 
 ### TC-09 — DRP active with major recent settlements [P2]
 
@@ -4387,12 +5915,18 @@ Material changes fall into three categories:
 - **When:** March 24, 2025 (YDC settlement); October 1, 2025 (dependent children settlement)
 - **Affects:** G1-SD4-01, G1-SD4-04, G1-SD6-04; F10
 
+- *Sources:* [S-05](#s-05), [S-40](#s-40), [S-41](#s-41), [S-96](#s-96), [S-97](#s-97), [S-98](#s-98)
+
+<a id="tc-10"></a>
+
 ### TC-10 — PA HealthChoices BH capitation increase proposed; Act 98 telehealth permanence [P2]
 
 - **What was:** PA HealthChoices BH framework stable; rate trajectory unspecified; outpatient telehealth restrictions context
 - **What is now:** Governor Shapiro 2026-27 budget proposes **15% increase to $4.4 billion** in Medicaid capitation funding for behavioral and physical HealthChoices programs combined. CBH continues as Philadelphia's exclusive BH-MCO under HealthChoices (CEO Donna E.M. Bailey; 420,000 Medicaid recipients). **PA Act 98 of 2022** permanently removed audio-only telehealth restrictions in outpatient psych + D&A clinic settings.
 - **When:** Shapiro 2026-27 budget proposal (early 2026, contingent on enactment); Act 98 enacted 2022 (predates first-pass cycle but not surfaced)
 - **Affects:** G1-SD1-08, G1-SD3-02 (telehealth permanence partial mitigation), G1-SD5-06; F8
+
+- *Sources:* [S-62](#s-62), [S-67](#s-67), [S-68](#s-68), [S-70](#s-70), [S-72](#s-72), [S-76](#s-76)
 
 ---
 
@@ -4408,6 +5942,161 @@ Material changes fall into three categories:
 
 **Remediation pass (2026-04-30):** Body content updated inline per `D3_verified_remediation_spec_2026-04-30.md` to comply with M2 §7's "corrections applied inline" specification, addressing the inline-integration failure identified in `D3_verified_audit_report_FINAL_2026-04-30.md`. Approximately 110+ body locations modified across 10 TCs, including 14 principal-anchor italicized prior-pass notes (one per TC, with secondary anchors for TC-01, TC-04, TC-05, TC-07), ~80 secondary value swaps, and ~25 F-flag status updates. Per remediation spec §0.3, "Right Care" terminology retained as project-internal shorthand at non-anchor body references; principal anchors at SD1 §6.3 and SD7 §6.2 establish the CMCRT/CIRT verified terminology. PA MHPA section-number labeling reconciliation (audit §5.1 / spec §11.1) deferred — pre-existing input artifact, not remediation-introduced. Material Changes Summary (below) preserved unchanged as canonical record of what changed and why.
 
+
+## CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk pass
+
+**Counts**
+
+| Metric | Before | After |
+|---|---|---|
+| Total CR entries | 117 (table rows) | 116 |
+| New entries added during pass | — | 0 |
+| Entries retired / consolidated | — | 1 (PDP Commissioner Resnick merged into S-79) |
+| Multi-URL bundles split | — | 0 |
+| Source-workspace entries promoted | — | N/A |
+
+**Old-label → new S-NN mapping**
+
+The pre-normalization CR used source-name-as-label within §I–§XIII sectional tables (D6-style). The table below maps the original label to the new S-NN by category section and row order.
+
+| Old label (§ section, description) | New S-NN |
+|---|---|
+| §I — U.S. Const. amend. XIV | S-01 |
+| §II — 42 U.S.C. § 1396 et seq. (Medicaid Act) | S-02 |
+| §II — 42 U.S.C. § 1396d(a)(B) (IMD exclusion) | S-03 |
+| §II — 29 U.S.C. § 1185a (MHPAEA) | S-04 |
+| §II — 42 U.S.C. § 290gg-21 to gg-28 (PAIMI Act) | S-05 |
+| §II — ADA, 42 U.S.C. § 12101 | S-06 |
+| §II — Section 504, 29 U.S.C. § 794 | S-07 |
+| §II — CRIPA, 42 U.S.C. § 1997 | S-08 |
+| §II — 42 U.S.C. § 290bb-32 | S-09 |
+| §II — Bipartisan Safer Communities Act, P.L. 117-159 | S-10 |
+| §II — ARP Act of 2021, P.L. 117-2 (ESSER III) | S-11 |
+| §II — SUPPORT Act of 2018, P.L. 115-271 | S-12 |
+| §II — One Big Beautiful Bill Act, P.L. 119-21 | S-13 |
+| §II — Consolidated Appropriations Act, 2021 | S-14 |
+| §II — Consolidated Appropriations Act, 2023 § 5121 | S-15 |
+| §II — Consolidated Appropriations Act, 2024 | S-16 |
+| §II — Family First Prevention Services Act, P.L. 115-123 | S-17 |
+| §II — EMTALA, 42 U.S.C. § 1395dd | S-18 |
+| §II — Medicare and Medicaid Patient and Program Protection Act 1987 | S-19 |
+| §III — 26 C.F.R. § 54.9812-1 (Treasury MHPAEA) | S-20 |
+| §III — 29 C.F.R. § 2590.712 (DOL MHPAEA) | S-21 |
+| §III — 45 C.F.R. § 146.136 (HHS MHPAEA) | S-22 |
+| §III — 89 Fed. Reg. 77,586 (MHPAEA 2024 Final Rule) | S-23 |
+| §III — 42 C.F.R. § 482.13(e) | S-24 |
+| §III — 42 C.F.R. Part 2 | S-25 |
+| §III — 42 C.F.R. § 438 | S-26 |
+| §III — Executive Order 14219 | S-27 |
+| §III — DOL EBSA Statement re MHPAEA Enforcement | S-44 |
+| §I — Youngberg v. Romeo | S-28 |
+| §I — O'Connor v. Donaldson | S-29 |
+| §I — Addington v. Texas | S-30 |
+| §I — Washington v. Harper | S-31 |
+| §I — Sell v. United States | S-32 |
+| §I — Olmstead v. L.C. | S-33 |
+| §I — Estelle v. Gamble | S-34 |
+| §I — Brown v. Plata | S-35 |
+| §I — Dusky v. United States | S-36 |
+| §I — Jackson v. Indiana | S-37 |
+| §I — Pa. Dept. of Corr. v. Yeskey | S-38 |
+| §IV — ERIC v. DOL/HHS/Treasury | S-39 |
+| §IV — DRP v. PA DHS (children's; 2017) | S-40 |
+| §IV — DRP v. PA DHS (YDC; 2019) | S-41 |
+| §IV — Watson v. Boston (historical) | S-42 |
+| §IV — ACLU v. PA (NSH bed expansion) | S-43 |
+| §VIII — SAMHSA | S-45 |
+| §VIII — HHS FY 2026 SAMHSA Contingency Staffing Plan | S-46 |
+| §VIII — White House Appendix to FY 2026 Budget | S-47 |
+| §VIII — 988 Suicide & Crisis Lifeline | S-48 |
+| §VIII — HRSA mental health workforce programs | S-49 |
+| §VIII — US ED Community Schools Program | S-50 |
+| §VIII — US ED ESSER III liquidation extension guidance | S-51 |
+| §I — PA Const. Art. I § 1 | S-52 |
+| §I — PA Const. Art. I § 9 | S-53 |
+| §V — Pa. MHPA, 50 P.S. § 7101 | S-54 |
+| §V — 50 P.S. § 7301 | S-55 |
+| §V — 50 P.S. § 7302 | S-56 |
+| §V — 50 P.S. § 7303 | S-57 |
+| §V — 50 P.S. § 7304 | S-58 |
+| §V — 50 P.S. § 7305 | S-59 |
+| §V — MH&MR Act of 1966, 50 P.S. § 4101 | S-60 |
+| §V — Pa. Act 30 of 2020 | S-61 |
+| §V — Pa. Act 98 of 2022 | S-62 |
+| §V — Pa. Adult Protective Services Act | S-63 |
+| §V — Pa. Older Adults Protective Services Act | S-64 |
+| §V — Pa. Crime Victims Act | S-65 |
+| §VI — PA DHS OMHSAS | S-66 |
+| §VI — PA DHS Behavioral HealthChoices for Providers | S-67 |
+| §VI — PA DHS Managed Care Directory (March 2026) | S-68 |
+| §VI — PA DHS Norristown State Hospital official page | S-69 |
+| §VI — Governor Shapiro 2026-27 budget proposal | S-70 |
+| §VI — PA Dept. of Corrections monthly report | S-71 |
+| §VII — Philadelphia Home Rule Charter § 5-300 | S-72 |
+| §VII — DBHIDS official site | S-73 |
+| §VII — DBHIDS FY26 Budget Testimony | S-74 |
+| §VII — DBHIDS FY26 Budget Detail | S-75 |
+| §VII — CBH official site | S-76 |
+| §VII — CBH Clinical Performance Standards (June 2024) | S-77 |
+| §VII — Philadelphia OCJ Prison Population Snapshot Reports | S-78 |
+| §VII — PDP Press Release (May 20, 2025) | S-79 |
+| §VII — PDP Commissioner Resnick (CONSOLIDATED into S-79) | S-79 |
+| §VII — Philadelphia City Council DBHIDS budget hearings | S-80 |
+| §VII — Philadelphia City Controller Audit (2021) | S-81 |
+| §VII — First Judicial District of Pennsylvania | S-82 |
+| §VII — School District of Philadelphia | S-83 |
+| §X — Urban Institute (jail populations Philadelphia) | S-84 |
+| §X — MacArthur Safety and Justice Challenge | S-85 |
+| §X — KFF school-based mental health (Sept 2025) | S-86 |
+| §X — KFF Medicaid: What to Watch 2026 | S-87 |
+| §X — Health and Reentry Project (OBBBA reentry) | S-88 |
+| §X — AMA (OBBBA key provisions) | S-89 |
+| §X — Drug Policy Alliance + Legal Action Center | S-90 |
+| §X — ATI Advisory (OBBBA Medicaid HCBS LTSS) | S-91 |
+| §X — HFMA (OBBBA state-directed payments) | S-92 |
+| §X — NACo (IMD exclusion) | S-93 |
+| §X — Psychiatric News (APA) SAMHSA cuts | S-94 |
+| §X — Alliance for Rights and Recovery SAMHSA cuts | S-95 |
+| §XI — DRP corporate site | S-96 |
+| §XI — DRP settlement (dependent children, Oct 2025) | S-97 |
+| §XI — DRP settlement (YDC, Mar 2025) | S-98 |
+| §X — NPR (SAMHSA grants chaos, Jan 2026) | S-103 |
+| §X — EMS1/CQ Roll Call (SAMHSA reversal, Jan 2026) | S-104 |
+| §XII — WHYY (mobile crisis response, Mar 2025) | S-99 |
+| §XII — Philadelphia Tribune (CMCRT satisfaction, Mar 2025) | S-100 |
+| §XII — StateScoop (Philadelphia jail halved, Dec 2025) | S-101 |
+| §XII — Patch.com (NSH redesign, Sept 2025) | S-102 |
+| §IX — Elwyn | S-105 |
+| §IX — PATH / People Acting To Help | S-106 |
+| §IX — Consortium / West Philadelphia Community Mental Health | S-107 |
+| §IX — JFK / Centralized Comprehensive Human Services | S-108 |
+| §IX — Public Health Management Corp (PHMC) | S-109 |
+| §IX — Penn Medicine / Princeton House Behavioral Health | S-110 |
+| §IX — Temple Episcopal | S-111 |
+| §IX — Friends Hospital | S-112 |
+| §IX — Belmont Behavioral Hospital | S-113 |
+| §IX — Stantec / architecture+ | S-114 |
+| §XIII — D2 carry-forward: federal-rep-leverage architecture | S-115 |
+| §XIII — D2 carry-forward: MAHA Pattern 1 | S-116 |
+
+**Category decisions worth flagging**
+
+- §III entries mixed three sub-types: CFR entries (Cat 1), Federal Register final rule (Cat 1), one EO (Cat 2), and one federal agency statement (Cat 4). These were disaggregated: CFR/Fed. Reg. entries stay in Cat 1 (S-20 to S-26); DOL EBSA Statement moved to Cat 4 (S-44); EO 14219 moved to Cat 2 (S-27).
+- §I mixed court decisions and constitutional provisions. Constitutional provisions disaggregated to Cat 1 (U.S. Const. amend. XIV → S-01) and Cat 5 (PA Const. Art. I § 1 → S-52; PA Const. Art. I § 9 → S-53). Court decisions remain in Cat 3 (S-28–S-38).
+- §X entries NPR and EMS1/CQ Roll Call were moved from §X (Reports) to Cat 7 (Press/News), as they are news articles, not research/policy reports. Assigned S-103 and S-104, falling within the Cat 7 S-99–S-104 range.
+- §XI DRP entries (DRP corporate site + two settlement press releases) assigned to Cat 6 (Research Reports/Policy Analysis) rather than Cat 8 (Other Primary Sources) since DRP functions as an evidence source for claims about legal outcomes, not as a primary institutional actor in the domain.
+- §IX Anchor Institutions / Provider Network entries assigned to Cat 8 (Other Primary Sources). These are primarily institutional identifications used to substantiate CMCRT provider roster and hospital-network claims; they do not have publishable research outputs.
+- PDP Commissioner Michael R. Resnick (§VII row) consolidated into S-79 (PDP Press Release, May 20, 2025) since the Commissioner is identified only within that press release and is not a separate source. This is the one consolidation reducing 117 original rows to 116 S-NN entries.
+
+**URL handling**
+
+- D3's pre-normalization CR systematically omitted URLs; the verification-cycle notes state "URLs documented in original 2026-04-28 cycle's working files." Per spec, missing URLs receive `[pending retrieval — {keywords}]` placeholders.
+- URLs present in the original CR (DOL EBSA Statement, OCJ Prison Population Snapshots) were preserved as live https:// URLs.
+- Statutory / CFR / constitutional citation entries received `[no URL — citation is canonical]`.
+- Internal cross-domain references (D2 carry-forwards S-115, S-116) received `[no URL — internal cross-domain reference]`.
 
 ---
 

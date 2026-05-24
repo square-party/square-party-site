@@ -29,53 +29,85 @@ Two HOM designations are operative per substructure §6: G11-SD1-04 (Penn Alexan
 
 ---
 
+<a id="mc-01"></a>
 **MC-01 — F11-SD1-07: School closure vote date corrected (SD1 §4, two locations)**
 - *What changed:* OUTPUT stated "SDP voted in May 2026" to close 17 schools at two body locations (SD1 §4 North/Northwest Core; SD1 §4 West Philadelphia Core). The Board of Education vote occurred April 30, 2026, not May 2026.
 - *What it corrects:* Date error; the closure count (17), geographic breakdown (12 North Philadelphia/Kensington; 5 West Philadelphia), and analytical consequence are unchanged.
 - *What it affects:* SD1 §4 Sub-Area Variation (North/Northwest Core paragraph — principal anchor); SD1 §4 Sub-Area Variation (West Philadelphia Core paragraph — secondary annotation). **Case 2 (two locations); principal anchor at first occurrence.**
 - *Source(s):* Chalkbeat Philadelphia (2026-04-30); Philadelphia Inquirer (2026-04-30); WHYY (2026-05-01); CBS Philadelphia (2026-04-30) — all primary/near-primary sources confirming April 30, 2026 vote (6-3).
 
+*Sources:* [S-04](#s-04), [S-05](#s-05), [S-06](#s-06), [S-07](#s-07)
+
+<a id="mc-02"></a>
 **MC-02 — F11-SD1-07 (geographic supplement): School closure geographic breakdown confirmed with precision update**
 - *What changed:* OUTPUT's "approximately 12 of those closures located in North Philadelphia" confirmed accurate; WHYY and WSWS specify "12 in North Philadelphia and Kensington." Named schools added in inline note for reference.
 - *What it corrects:* No error in substance; precision supplemented — the closure list includes Kensington schools (Stetson, Frankford-area Harding) in addition to North Philadelphia proper.
 - *What it affects:* SD1 §4 North/Northwest Core (inline note at principal anchor location for MC-01).
 - *Source(s):* WHYY (2026-05-07): "Of the 17 schools slated to shut down, 12 are located in North Philadelphia and Kensington. The other five are in West Philadelphia." Philadelphia Inquirer confirms named schools: Blankenburg, Fitler, Morris/Brewerytown, Overbrook, Pennypacker, Welsh, Waring (7 elementaries); AMY Northwest, Harding/Frankford, Stetson/Kensington, Tilden, Wagner (5 middles); Lankenau, Parkway Northwest, Parkway West, Penn Treaty, Robeson (5 highs).
 
+*Sources:* [S-05](#s-05), [S-06](#s-06)
+
+<a id="mc-03"></a>
 **MC-03 — F11-SD1-06: SDP ESSER total ($1.8B) — CONFIRMED**
 - *What changed:* F11-SD1-06 is resolved with primary-source confirmation. No correction to OUTPUT body (the $1.8B figure does not appear in the body text; the flag table entry is resolved).
 - *What it corrects:* Flag disposition only. The $1.8B figure is confirmed from SDP's own blog post (philasd.org, 2025-02-18): "Our responsible use of the $1.8 billion of federal funding received during the pandemic and post-pandemic years." Flag resolved; no inline body correction required.
 - *What it affects:* F11-SD1-06 in Synthesis Section 4 flag table — verification disposition noted.
 - *Source(s):* SDP primary source (philasd.org, 2025-02-18 — SDP's own announcement).
 
+*Sources:* [S-02](#s-02)
+
+<a id="mc-04"></a>
 **MC-04 — F11-SD1-01: Trump-era Title I/II/III SDP-specific loss — PARTIALLY RESOLVED**
 - *What changed:* SDP Board of Education primary source (philasd.org, 2025-04-10) documents potential loss of $44.5M (Title I) + $20.6M (Title II) + $4.2M (Title III) = $69.3M total from the House Budget Reconciliation Bill proposal. These are proposed cuts, not enacted cuts as of Phase 3 verification. The structural ESSER cliff (federal dollars declining from $550.8M FY2024 to $16M FY2026) is independently confirmed from SDP City Controller primary source (August 2025).
 - *What it corrects:* The OUTPUT flagged Trump-era specific reduction figures as advocacy-source only; partial primary source now available for the $69.3M proposed loss (from SDP's own advocacy communication). "Proposed" qualifier added at inline location.
 - *What it affects:* SD1 §4 (if Trump-era figure appears in body — confirm at SD1 location); F11-SD1-01 flag disposition.
 - *Source(s):* SDP Board of Education website (philasd.org, 2025-04-10). Philadelphia City Controller (controller.phila.gov, August 2025) — ESSER cliff confirmation.
 
+*Sources:* [S-01](#s-01), [S-03](#s-03)
+
+<a id="mc-05"></a>
 **MC-05 — T11-SD1-02 / G11-SD1-02: William Penn remedy trajectory — UPDATED (temporal vector TC-01)**
 - *What changed:* Governor Shapiro's FY2026-27 budget proposal (February 3, 2026) directs an additional $565 million through the adequacy formula. If enacted, the remaining adequacy gap would be approximately $3.3 billion (down from $3.8 billion in OUTPUT, per Pennsylvania Policy Center estimate). FY2025-26 budget enacted November 12, 2025 (135 days late; per SD1 §2 which already documents this). FY2026-27 proposal NOT YET ENACTED as of May 2026.
 - *What it corrects:* OUTPUT body (Synthesis Section 1 and SD1 §7) states remaining gap "approximately $3.8 billion" — update inline to note the Shapiro FY2026-27 proposal of $565M additional and the Education Law Center's estimate that enacted proposal would reduce gap to ~$3.3B; current enacted state remains $3.8B until FY2026-27 budget passes.
 - *What it affects:* Synthesis Section 1 (line 28 area — "remaining gap of approximately $3.8 billion") — principal anchor; SD1 §7 G11-SD1-02 gap finding — secondary annotation. **Case 2.**
 - *Source(s):* PA.gov Governor's Office (2026-02-03 budget address); PA PDE Education Budget page (pa.gov); Pennsylvania Policy Center/Education Law Center (2026-02-07 budget response).
 
+*Sources:* [S-01](#s-01), [S-09](#s-09), [S-10](#s-10), [S-11](#s-11)
+
+<a id="mc-06"></a>
 **MC-06 — T11-SD4-02 / T11-SD1-04: ED OCR staffing erosion — CONFIRMED MAJOR (temporal vector TC-02)**
 - *What changed:* ED OCR staffing reduction is confirmed and quantified by GAO and HELP Committee reports. March 2025: ~240 of OCR's ~575 staff (approximately half) placed on paid administrative leave; 7 of 12 regional offices closed, including Philadelphia regional office. December 2025/January 2026: RIF rescinded; staff recalled. BUT: HELP Committee report (April 2026) documents OCR reached resolution agreements in only 112 cases in 2025 vs. 507 in 2024 — a 78% collapse in enforceable civil rights outcomes. GAO: ~25,000 pending complaints including ~7,000 open investigations. 90% of resolved complaints in March-September 2025 were dismissed rather than resolved on the merits.
 - *What it corrects:* OUTPUT G11-SD4-04 cites "documented Trump-era posture changes" as [D] for the administrative vulnerability. Phase 3 verification substantially quantifies and escalates the finding — this is not merely posture change but a documented enforcement collapse with measurable outcomes.
 - *What it affects:* SD4 §7 G11-SD4-04 gap finding — inline verification note updating the administrative vulnerability characterization; SD4 §8 Representation Question Element 3. **Case 1 at principal anchor; check SD4 §8 for secondary.**
 - *Source(s):* GAO-26-108320 (January 2026); HELP Committee Staff Report (April 2026, cited in The Arc); NPR (December 2025, staff recall); Brookings (February 2026 analysis); Education Week (March 2025). Philadelphia regional office confirmed as one of the 7 closed in March 2025.
 
+*Sources:* [S-12](#s-12), [S-13](#s-13), [S-14](#s-14), [S-15](#s-15), [S-16](#s-16)
+
+<a id="mc-07"></a>
 **MC-07 — T11-SD3-01: HHS ACF Head Start capacity — CONFIRMED (temporal vector TC-03)**
 - *What changed:* ACF administrative turbulence confirmed: January 2025 funding freeze (reversed after litigation); April 1, 2025: 5 of 10 ACF regional offices closed (Boston, Chicago, New York, San Francisco, Seattle). Philadelphia ACF regional office REMAINS OPEN. 30-45% ACF staffing reduction announced. FY2026 budget: Head Start NOT eliminated; level-funded at $12.27 billion. Continuing resolution (March 14): $750M cuts to Head Start programs.
 - *What it corrects:* OUTPUT references Head Start administrative vulnerability at T11-SD3-01 without quantification. Phase 3 confirms the specific turbulence events, establishes that Philadelphia's ACF office survived (unlike 5 closed), and documents that the program survived FY2026 elimination threat.
 - *What it affects:* SD3 §7 G11-SD3-01 (federal-floor trajectory note); SD3 §2 T11-SD3-01 flag text. **Case 1.**
 - *Source(s):* Center for American Progress (August 2025 — regional office closures); Coalition on Human Needs / First Focus on Children (April 2025); WHYY (May 2025 — Head Start escapes elimination); Pennsylvania Independent (July 2025 — PA House response bill).
 
+*Sources:* [S-17](#s-17), [S-18](#s-18), [S-19](#s-19), [S-20](#s-20)
+
+<a id="mc-08"></a>
 **MC-08 — F11-SD1-02 / T11-SD1-01: EITC/OSTC scale — PARTIALLY UPDATED**
 - *What changed:* PA FY2024-25 budget raised EITC/OSTC statutory caps to $525M annually (from ~$340M in 2022-23 cited in OUTPUT). Education Voters PA budget analysis (July 2024) confirms: "EITC school voucher programs receive a $50 million increase and OSTC voucher programs receive a $5 million increase, bringing the total of EITC/OSTC funding for private school vouchers to $525 million annually." Actual amount claimed in 2024-25 requires PA Department of Revenue annual report (not retrieved within three-search budget; retire this specific retrieval to unverified-items sidecar UV-01).
 - *What it corrects:* OUTPUT body cites $340M as of 2022-23 at SD1 §2 EITC line and SD1 §7 MC51 gap finding. Inline note added that statutory cap has grown to $525M by 2024-25; actual claimed amount pending D9 primary-source cross-reference. Structural-direction finding (revenue diversion) is unaffected — confirmed and scale has grown.
 - *What it affects:* SD1 §2 (EITC PA/OSTC authority paragraph — principal anchor); SD1 §7 G11-SD1-07 (secondary annotation). **Case 2.**
 - *Source(s):* Education Voters PA FY2024-25 budget analysis (July 2024, edvoterspa.org); PA DCED EITC program page (dced.pa.gov, confirmed current).
+
+*Sources:* [S-21](#s-21)
+
+
+
+
+
+
+
+
 
 ---
 
@@ -2040,34 +2072,512 @@ Priority 1 verification items at Phase 3:
 
 ## Citation Registry
 
-*Partial — Session 1 sources referenced in inline corrections. Full Citation Registry pending Session 2 assembly from complete source workspace.*
-
-**Phase 3 verification sources (new in verification pass):**
-
-- **Philadelphia City Controller Municipal Money Matters (August 2025)** — SDP federal funding decline from $550.8M to $16M; FY2026 operating budget $4.6B. controller.phila.gov. Referenced: MC-04; SD1 inline correction.
-- **SDP Blog / FY2026 Budget Priorities Survey Announcement (philasd.org, 2025-02-18)** — SDP primary source confirming "$1.8 billion of federal funding received during the pandemic." Referenced: F11-SD1-06 disposition (confirmed); MC-03.
-- **SDP Board of Education Advocacy Communication (philasd.org, 2025-04-10)** — SDP Board documenting potential $44.5M (Title I) + $20.6M (Title II) + $4.2M (Title III) = $69.3M proposed losses from House Budget Reconciliation proposal. Referenced: MC-04.
-- **Chalkbeat Philadelphia (2026-04-30)** — Board vote April 30, 2026 confirmed; 17 school closures; 6-3 vote. Referenced: MC-01.
-- **Philadelphia Inquirer (2026-04-30, 2026-05-01)** — School closure vote; full named-school list confirmed. Referenced: MC-01; MC-02.
-- **WHYY (2026-05-01, 2026-05-07)** — School closure confirmation; geographic breakdown (12 North Phila/Kensington; 5 West Phila). Referenced: MC-01; MC-02.
-- **CBS Philadelphia (2026-04-30)** — School closure vote confirmation. Referenced: MC-01.
-- **Philadelphia Tribune (August 2025)** — SDP deficit projections ($435M FY2027; $530M FY2028 per August 2025 reporting). Referenced: deficit figure context for MC-04.
-- **PA Governor's Office / PA.gov (2026-02-03)** — Shapiro FY2026-27 budget address; $565M additional adequacy funding. Referenced: MC-05; TC-01.
-- **PA PDE Education Budget page (pa.gov)** — PDE primary source confirming Ready to Learn Block Grant $1,948,481,000 (+$565M). Referenced: MC-05; TC-01.
-- **Pennsylvania Policy Center (2026-02-07)** — Education Law Center adequacy gap estimate (~$3.3B remaining with Shapiro proposal enacted). Referenced: MC-05.
-- **GAO-26-108320 (January 2026)** — OCR RIF and reorganization: 247 staff on leave; $28.5-38M cost; 90% dismissal rate March-September 2025. Referenced: MC-06; TC-02.
-- **HELP Committee Staff Report (April 2026, cited in The Arc, 2026-04-29)** — OCR 112 resolution agreements in 2025 vs. 507 in 2024; 12-year low. Referenced: MC-06; TC-02.
-- **NPR (December 2025)** — OCR staff recall; backlog ~25,000 complaints; ~7,000 open investigations. Referenced: MC-06; TC-02.
-- **Brookings (February 2026)** — OCR enforcement collapse quantification; concentrated priorities; Philadelphia regional office closure. Referenced: MC-06.
-- **Education Week (March 2025)** — OCR RIF; 240 attorneys; 7 regional offices closed including Philadelphia. Referenced: MC-06.
-- **Center for American Progress (August 2025)** — ACF regional office closures; 5 of 10 closed; Philadelphia remains open; payment delays ($1 billion decline in disbursements Jan-Apr 2025 vs. 2024). Referenced: MC-07; TC-03.
-- **Coalition on Human Needs / First Focus on Children (April 2025)** — ACF 30-45% staff reduction; 5 offices closed. Referenced: MC-07.
-- **WHYY (May 2025)** — Head Start not eliminated in FY2026 budget; level-funded at $12.27B. Referenced: MC-07.
-- **Pennsylvania Independent (July 2025)** — PA House H.B. 1505; Head Start funding freeze background; parent uncertainty. Referenced: MC-07; TC-03.
-- **Education Voters PA FY2024-25 Budget Breakdown (July 2024)** — EITC/OSTC caps raised to $525M annually. Referenced: MC-08.
-
-*Session 1 source count: 21 Phase 3 verification sources. Full Citation Registry (all Phase 1 sources + Phase 3 sources integrated) to be assembled in Session 2 from source workspace D11_educ_sources_2026-05-10.md.*
+*Full registry assembled: Session 1 Phase 3 verification sources (S-01–S-21, 2026-05-10) combined with Session 2 workspace promotion (S-22–S-47, 2026-05-22). Total: 47 entries; 1 deduplication noted (workspace Source 2 = S-01). See Normalization Log below.*
 
 ---
 
-*End of D11 Education Phase 3 Verified File — Session 1 partial version. Pattern 13 intra-Phase-3 handoff written 2026-05-10. Session 2 resumes per handoff protocol: MC48 empirical cluster; postsecondary flags; IDEA/civil rights; adult literacy; CTE; charter tuition; remaining T-flags; Citation Registry completion; pa3-structural-quality Pattern 12 enforcement scan. Tier-2 publication release contingent on Session 2 completion and Pattern 12 enforcement pass.*
+### Phase 3 Verification Sources — Session 1 (2026-05-10)
+
+*21 sources retrieved during Phase 3 Session 1 to support inline MC corrections (MC-01 through MC-08). S-01 also appears as workspace Source 2 (deduplicated — workspace Source 2 promoted under this entry).*
+
+---
+
+<a id="s-01"></a>
+**S-01**
+**Citation:** Philadelphia City Controller (Christy Brady, CPA), "August 2025 Municipal Money Matters," August 2025
+**URL:** https://controller.phila.gov/philadelphia-reports/august-2025-municipal-money-matters/
+**Date retrieved:** 2026-05-10 (Session 1); workspace Source 2 deduplicated to this entry
+**Claim summary:** SDP FY2026 operating budget $4.6B; federal funding declined from $550.8M (FY2024) to $16M (FY2026); SDP millage 0.7839 (FY2025 increase); SDP only PA district without direct tax-levy authority
+**Cross-refs:** G11-SD1-01, G11-SD1-03; MC-04, MC-05
+
+---
+
+<a id="s-02"></a>
+**S-02**
+**Citation:** School District of Philadelphia, FY2026 Budget Priorities announcement (philasd.org), February 18, 2025
+**URL:** https://www.philasd.org/ (SDP blog/announcements, 2025-02-18)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** SDP primary source confirming "$1.8 billion of federal funding received during the pandemic and post-pandemic years"
+**Cross-refs:** G11-SD1-01; MC-03, F11-SD1-06 (resolved — confirmed)
+
+---
+
+<a id="s-03"></a>
+**S-03**
+**Citation:** School District of Philadelphia Board of Education Advocacy Communication (philasd.org), April 10, 2025
+**URL:** https://www.philasd.org/ (SDP Board advocacy page, 2025-04-10)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** SDP Board documents proposed $44.5M (Title I) + $20.6M (Title II) + $4.2M (Title III) = $69.3M proposed losses from House Budget Reconciliation proposal
+**Cross-refs:** G11-SD1-01; MC-04, F11-SD1-01 (partially resolved)
+
+---
+
+<a id="s-04"></a>
+**S-04**
+**Citation:** Chalkbeat Philadelphia, school closure vote reporting, April 30, 2026
+**URL:** https://www.chalkbeat.org/philadelphia/ (2026-04-30)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** Board of Education vote April 30, 2026 (6-3 vote) confirmed; 17 school closures
+**Cross-refs:** G11-SD1-01; MC-01
+
+---
+
+<a id="s-05"></a>
+**S-05**
+**Citation:** Philadelphia Inquirer, school closure vote reporting, April 30–May 1, 2026
+**URL:** https://www.inquirer.com/ (2026-04-30, 2026-05-01)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** School closure vote confirmed; full named-school list (7 elementaries, 5 middles, 5 highs); geographic breakdown confirmed
+**Cross-refs:** G11-SD1-01; MC-01, MC-02
+**Note:** Different article from S-28 (Inquirer April 23, 2026, on PA school funding and charter formula).
+
+---
+
+<a id="s-06"></a>
+**S-06**
+**Citation:** WHYY, school closure reporting, May 1 and May 7, 2026
+**URL:** https://whyy.org/ (2026-05-01, 2026-05-07)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** School closure geographic breakdown confirmed: "12 are located in North Philadelphia and Kensington; 5 in West Philadelphia"
+**Cross-refs:** G11-SD1-01; MC-01, MC-02
+**Note:** Different article from S-19 (WHYY May 2025, Head Start FY2026 budget) — different year and topic.
+
+---
+
+<a id="s-07"></a>
+**S-07**
+**Citation:** CBS Philadelphia, school closure vote reporting, April 30, 2026
+**URL:** https://www.cbsnews.com/philadelphia/ (2026-04-30)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** School closure vote confirmation (April 30, 2026; 6-3 vote)
+**Cross-refs:** G11-SD1-01; MC-01
+
+---
+
+<a id="s-08"></a>
+**S-08**
+**Citation:** Philadelphia Tribune, SDP deficit projections reporting, August 2025
+**URL:** Philadelphia Tribune (August 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** SDP deficit projections $435M FY2027; $530M FY2028 (August 2025 reporting)
+**Cross-refs:** G11-SD1-01; F11-SD1-08 (context)
+**Note:** Different article from S-41 (Philadelphia Tribune/WHYY August 2025 on PA universities cutting costs).
+
+---
+
+<a id="s-09"></a>
+**S-09**
+**Citation:** PA Governor's Office / PA.gov, Governor Shapiro FY2026-27 Budget Address, February 3, 2026
+**URL:** https://www.pa.gov/ (Governor's budget address, February 2026)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** Shapiro FY2026-27 budget proposal directs additional $565M through adequacy formula; $151M more for Philadelphia; not yet enacted as of May 2026
+**Cross-refs:** G11-SD1-02 (MC50); MC-05, TC-01
+
+---
+
+<a id="s-10"></a>
+**S-10**
+**Citation:** Pennsylvania Department of Education, Education Budget page, PA.gov, 2026
+**URL:** https://www.education.pa.gov/ (budget page, 2026)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** PDE primary source confirming Ready to Learn Block Grant at $1,948,481,000 (+$565M) in FY2026-27 Shapiro proposal
+**Cross-refs:** G11-SD1-02 (MC50); MC-05, TC-01
+
+---
+
+<a id="s-11"></a>
+**S-11**
+**Citation:** Pennsylvania Policy Center / Education Law Center, adequacy gap budget response analysis, February 7, 2026
+**URL:** Pennsylvania Policy Center website (2026-02-07)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** Education Law Center estimates remaining adequacy gap at approximately $3.3B if Shapiro FY2026-27 proposal enacted (down from $3.8B)
+**Cross-refs:** G11-SD1-02 (MC50); MC-05
+
+---
+
+<a id="s-12"></a>
+**S-12**
+**Citation:** U.S. Government Accountability Office, "K-12 EDUCATION: Actions Needed to Improve Management of Key Civil Rights Activities," GAO-26-108320, January 2026
+**URL:** https://www.gao.gov/products/gao-26-108320
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** OCR RIF: 247 staff on paid administrative leave; $28.5–38M cost; 90% complaint dismissal rate March–September 2025; ~25,000 pending complaints; ~7,000 open investigations
+**Cross-refs:** G11-SD4-04; MC-06, TC-02
+
+---
+
+<a id="s-13"></a>
+**S-13**
+**Citation:** U.S. Senate HELP Committee Staff Report, April 2026 (cited in The Arc, April 29, 2026)
+**URL:** Via The Arc / U.S. Senate HELP Committee (April 2026)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** OCR reached resolution agreements in only 112 cases in 2025 vs. 507 in 2024 — 78% collapse in enforceable civil rights outcomes; 12-year low
+**Cross-refs:** G11-SD4-04; MC-06, TC-02
+
+---
+
+<a id="s-14"></a>
+**S-14**
+**Citation:** NPR, OCR staff recall reporting, December 2025
+**URL:** https://www.npr.org/ (December 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** OCR staff recalled December 2025 after RIF; complaint backlog ~25,000 cases; ~7,000 open investigations
+**Cross-refs:** G11-SD4-04; MC-06, TC-02
+
+---
+
+<a id="s-15"></a>
+**S-15**
+**Citation:** Brookings Institution, OCR enforcement collapse analysis, February 2026
+**URL:** https://www.brookings.edu/ (February 2026)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** OCR enforcement collapse quantification; concentrated enforcement priorities; Philadelphia regional office confirmed as one of 7 closed in March 2025
+**Cross-refs:** G11-SD4-04; MC-06
+
+---
+
+<a id="s-16"></a>
+**S-16**
+**Citation:** Education Week, OCR RIF reporting, March 2025
+**URL:** https://www.edweek.org/ (March 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** OCR RIF; approximately 240 attorneys placed on leave; 7 of 12 regional offices closed including Philadelphia regional office
+**Cross-refs:** G11-SD4-04; MC-06
+
+---
+
+<a id="s-17"></a>
+**S-17**
+**Citation:** Center for American Progress, ACF regional office closures analysis, August 2025
+**URL:** https://www.americanprogress.org/ (August 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** ACF: 5 of 10 regional offices closed (Boston, Chicago, New York, San Francisco, Seattle); Philadelphia ACF office remains open; $1 billion decline in federal disbursements January–April 2025 vs. 2024
+**Cross-refs:** G11-SD3-01; MC-07, TC-03
+
+---
+
+<a id="s-18"></a>
+**S-18**
+**Citation:** Coalition on Human Needs / First Focus on Children, Head Start staffing and office closure analysis, April 2025
+**URL:** Coalition on Human Needs / First Focus on Children (April 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** ACF 30–45% staff reduction announced; 5 of 10 regional offices closed
+**Cross-refs:** G11-SD3-01; MC-07
+
+---
+
+<a id="s-19"></a>
+**S-19**
+**Citation:** WHYY, Head Start FY2026 budget survival reporting, May 2025
+**URL:** https://whyy.org/ (May 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** Head Start NOT eliminated in FY2026 budget; program level-funded at $12.27 billion
+**Cross-refs:** G11-SD3-01; MC-07
+**Note:** Different article from S-06 (WHYY May/June 2026, school closures) — different year and topic.
+
+---
+
+<a id="s-20"></a>
+**S-20**
+**Citation:** Pennsylvania Independent, PA House Head Start backstop bill reporting, July 2025
+**URL:** https://paindependent.com/ (July 2025)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** PA House H.B. 1505 (July 2025) authorizing state Pre-K Counts appropriation as backstop if federal Head Start funding eliminated; grantee uncertainty from funding freeze documented
+**Cross-refs:** G11-SD3-01; MC-07, TC-03
+
+---
+
+<a id="s-21"></a>
+**S-21**
+**Citation:** Education Voters PA, "FY2024-25 PA Budget Breakdown," July 2024
+**URL:** https://www.edvoterspa.org/ (budget analysis, July 2024)
+**Date retrieved:** 2026-05-10 (Session 1)
+**Claim summary:** PA FY2024-25 budget raised EITC/OSTC statutory caps to $525M annually (EITC +$50M, OSTC +$5M increase); total EITC/OSTC funding for private school vouchers raised to $525M annually
+**Cross-refs:** G11-SD1-07 (MC51); MC-08, T11-SD1-01
+**Note:** Distinct from S-38 (Education Voters PA cited in PA Capital Star, June 2025, reporting $340M for 2022-23) — different document, different year, different figure.
+
+---
+
+### Phase 1 Sources — Promoted from Source Workspace (2026-05-22)
+
+*Session 2 workspace promotion: 25 unique entries from D11_educ_sources_2026-05-10.md assigned S-22 through S-46. Source 2 deduplicated to S-01. Workspace SD cross-references inverse-mapped to G-IDs and MC-IDs using MC entries and gap analysis sections in the verified body.*
+
+---
+
+<a id="s-22"></a>
+**S-22** *(workspace Source 1)*
+**Citation:** School District of Philadelphia, Office of Research and Evaluation, "Philadelphia Public School Enrollment, 2024-25," April 2025
+**URL:** https://www.philasd.org/research/2025/04/23/philadelphia-public-school-enrollment-2024-25/
+**Date retrieved:** 2026-05-10
+**Claim summary:** October 1, 2024 total enrollment 198,299; SDP district 117,956; charter 63,964; cyber charter 14,252
+**Cross-refs:** G11-SD1-01, G11-SD1-05 (MC49)
+
+---
+
+<a id="s-23"></a>
+**S-23** *(workspace Source 3)*
+**Citation:** D13_phsInf_verified_2026-04-27.md (project knowledge — verified cross-reference target)
+**URL:** project file
+**Date retrieved:** 2026-05-10
+**Claim summary:** William Penn ruling February 7, 2023; final July 21, 2023; $4.6–6.2B adequacy gap; FY2025-26 $565M in adequacy investment ($526.4M adequacy + $32.2M tax equity + $6.4M minimum-baseline); ~$3.8B remaining gap; PA relies on local property taxes more than all but 6 other states; only 38% from state level; D13 SD5 AHERA compliance context
+**Cross-refs:** G11-SD1-02 (MC50), G11-SD1-03, G11-SD7-04; D13 SD5 cross-ref (AHERA)
+
+---
+
+<a id="s-24"></a>
+**S-24** *(workspace Source 4)*
+**Citation:** School District of Philadelphia, "Student Enrollment and 4-Year Graduation Rate Increases," November 22, 2024
+**URL:** https://www.philasd.org/blog/2024/11/21/student-enrollment-and-4-year-graduation-rate-increases/
+**Date retrieved:** 2026-05-10
+**Claim summary:** SDP 2024-25 district enrollment 117,956 (first increase after nine-year decline); graduation rate Class of 2024 77.5% (up from 74.1%)
+**Cross-refs:** G11-SD1-01
+
+---
+
+<a id="s-25"></a>
+**S-25** *(workspace Source 5)*
+**Citation:** Chalkbeat Philadelphia, "Philadelphia's district enrollment is shrinking once again," December 2, 2025
+**URL:** https://www.chalkbeat.org/philadelphia/2025/12/02/district-enrollment-declines-by-1050-students/
+**Date retrieved:** 2026-05-10
+**Claim summary:** SDP returned to enrollment decline in 2025-26; down ~1,050 students from 2024-25; charter and cyber charter combined grew ~1,100
+**Cross-refs:** G11-SD1-05 (MC49)
+
+---
+
+<a id="s-26"></a>
+**S-26** *(workspace Source 6)*
+**Citation:** Research for Action, "The Fiscal Impact of Charter School Expansion: Calculations in Six Pennsylvania School Districts," 2022
+**URL:** http://www.researchforaction.org/research-resources/k-12/fiscal-impact-charter-school-expansion-calculations-six-pennsylvania-school-districts/
+**Date retrieved:** 2026-05-10
+**Claim summary:** Charter expansion fiscal impact consistently negative; districts recover only 44–68% of charter tuition savings even five years after student departure; stranded costs persist
+**Cross-refs:** G11-SD1-05 (MC49)
+
+---
+
+<a id="s-27"></a>
+**S-27** *(workspace Source 7)*
+**Citation:** Pennsylvania Charter Change, "The Public Cost of Charter Schools," 2023 (citing PDE data for 2021-22)
+**URL:** https://www.pacharterchange.org/the-public-cost-of-charter-schools/
+**Date retrieved:** 2026-05-10
+**Claim summary:** 2021-22 statewide charter tuition payments exceeded $2.6B; charter costs identified as biggest budget pressure for 75% of PA districts (2023 State of Education survey)
+**Cross-refs:** G11-SD1-05 (MC49), F11-SD1-09
+**Note:** Advocacy source (anti-charter-reform perspective); $2.6B figure sourced to PDE data and State of Education survey; statewide figure F-flagged for primary-source verification against PDE primary data.
+
+---
+
+<a id="s-28"></a>
+**S-28** *(workspace Source 8)*
+**Citation:** Philadelphia Inquirer, "Social workers, full-day K and tech ed: How underfunded Pa. school districts are spending new state money," April 23, 2026
+**URL:** https://www.inquirer.com/education/pa-school-funding-state-charter-budget-20260423.html
+**Date retrieved:** 2026-05-10
+**Claim summary:** PA adequacy formula causes charters to receive extra ~$650/pupil when SDP spending rises; about one-third of Philly's ~200,000 students attend brick-and-mortar charters
+**Cross-refs:** G11-SD1-05 (MC49), G11-SD1-06 (MC50)
+**Note:** Different article from S-05 (Philadelphia Inquirer April 30, 2026, school closure vote reporting).
+
+---
+
+<a id="s-29"></a>
+**S-29** *(workspace Source 9)*
+**Citation:** Chalkbeat Philadelphia, "Pennsylvania budget has education hike, no vouchers, and cell phone pouches," July 12, 2024
+**URL:** https://www.chalkbeat.org/philadelphia/2024/07/12/pennsylvania-budget-has-education-hike-no-vouchers-and-cell-phone-pouches/
+**Date retrieved:** 2026-05-10
+**Claim summary:** FY2025 PA budget: $1.1B increase for K-12 (largest single-year); $232M more for Philadelphia; $100M cyber charter reimbursement fund; Act 55 cut cyber charter special-ed tuition saving $34.5M; no statewide flat cyber charter rate enacted
+**Cross-refs:** G11-SD1-02 (MC50), G11-SD1-05 (MC49)
+**Note:** Workspace citation lists "Philadelphia Inquirer" as publisher but URL resolves to Chalkbeat Philadelphia; Chalkbeat authorship used.
+
+---
+
+<a id="s-30"></a>
+**S-30** *(workspace Source 10)*
+**Citation:** Chalkbeat Philadelphia, "Josh Shapiro's budget would provide $151 million more for Philadelphia schools," February 3, 2026
+**URL:** https://www.chalkbeat.org/philadelphia/2026/02/03/2026-shapiro-budget-education-breakdown/
+**Date retrieved:** 2026-05-10
+**Claim summary:** FY2026-27 Shapiro proposal: $151M more for Philadelphia; allows write-off of more cyber charter costs; estimated additional $75M district savings; SDP 99% of operating budget from city/state
+**Cross-refs:** G11-SD1-02 (MC50), G11-SD1-05 (MC49); TC-01
+
+---
+
+<a id="s-31"></a>
+**S-31** *(workspace Source 11)*
+**Citation:** D7_landProp_verified_2026-05-03.md (project knowledge — verified cross-reference target)
+**URL:** project file
+**Date retrieved:** 2026-05-10
+**Claim summary:** Penn Alexander school catchment property-value-increase effects on adjacent West Philadelphia neighborhoods; D7 SD1 Profile A (longtime Black homeowner; Penn-adjacent acquisition pressure); F7-SD4-09 Penn Alexander catchment analysis
+**Cross-refs:** G11-SD1-04 (HOM — commitment-vs-outcome); D7 SD1 cross-ref
+
+---
+
+<a id="s-32"></a>
+**S-32** *(workspace Source 12)*
+**Citation:** D3_mentalHealth_verified_REMEDIATED_2026-04-30.md (project knowledge — verified cross-reference target)
+**URL:** project file
+**Date retrieved:** 2026-05-10
+**Claim summary:** SDP school-based BH + ESSER III sustainability cliff (G1-SD4-02); IDEA-ED placement framework + racial disparity (G1-SD4-06); school-based BH $1B BSCA funding termination April 29, 2025 (TC-02)
+**Cross-refs:** G11-SD7-05 (ESSER cliff), G11-SD4-01 (IDEA racial disparity), G11-SD7-01 (MC48); D3 TC-02 cross-ref
+
+---
+
+<a id="s-33"></a>
+**S-33** *(workspace Source 13)*
+**Citation:** D8_commInd_verified_2026-05-07.md (project knowledge — verified cross-reference target)
+**URL:** project file
+**Date retrieved:** 2026-05-10
+**Claim summary:** Cumulative racial wealth-disadvantage chain (D2→D3/D5→D7→D8→D11); education systems as wealth-pathway-reproduction mechanism
+**Cross-refs:** Cross-cutting Finding B (D11 synthesis); D8 SD3 cross-ref
+
+---
+
+<a id="s-34"></a>
+**S-34** *(workspace Source 14)*
+**Citation:** Philadelphia Inquirer / PhillyVoice, "Philly school district's enrollment rose for first time in 9 years," April 21, 2025
+**URL:** https://www.phillyvoice.com/philadelphia-education-2025-pew-state-city-report/
+**Date retrieved:** 2026-05-10
+**Claim summary:** Catholic schools ~16,000 students for three consecutive years (down from 24,000 in 2017-18); charter schools hovered ~64,000 since 2022-23 (down from 72,000+ in 2018-19)
+**Cross-refs:** G11-SD1-01
+
+---
+
+<a id="s-35"></a>
+**S-35** *(workspace Source 15)*
+**Citation:** WSWS (World Socialist Web Site), "School District of Philadelphia announces 17 school closures," May 8, 2026
+**URL:** https://www.wsws.org/en/articles/2026/05/08/zopm-m08.html
+**Date retrieved:** 2026-05-10
+**Claim summary:** SDP board voted to close 17 schools (12 North Philadelphia/Kensington, 5 West Philadelphia); $313M projected deficit for 2026; $466M by 2027; $774M by 2030; Trump administration stripped ~$69M from SDP Title I/II/III
+**Cross-refs:** G11-SD1-01; F11-SD1-07, F11-SD1-08
+**Note:** Advocacy source (socialist perspective; anti-closure/anti-charter orientation); deficit figures and closure details require primary-source confirmation against SDP primary data. School closure count corroborated by MC-01/MC-02 from primary/near-primary sources.
+
+---
+
+<a id="s-36"></a>
+**S-36** *(workspace Source 16)*
+**Citation:** Pennsylvania Charter School Law, 24 P.S. § 17-1701-A et seq.; Section 1725-A (charter school funding formula); PDE Form 363
+**URL:** PA statute (framework-level)
+**Date retrieved:** N/A (statute)
+**Claim summary:** Charter school tuition = district per-pupil spending formula (PDE Form 363 rate); special education separate rate; SDP pays charter tuition for each resident student enrolled in charter LEA
+**Cross-refs:** G11-SD1-05 (MC49)
+
+---
+
+<a id="s-37"></a>
+**S-37** *(workspace Source 17)*
+**Citation:** PA Capital Star / WHYY, charter school funding articles, 2024–2025 (various)
+**URL:** Multiple
+**Date retrieved:** 2026-05-10
+**Claim summary:** PA per-pupil funding statewide: $21,985 (2022-23); charter non-sped rates vary from $6,600 to $17,000+ per student statewide; SDP pays one of higher urban district rates
+**Cross-refs:** G11-SD1-05 (MC49)
+
+---
+
+<a id="s-38"></a>
+**S-38** *(workspace Source 18)*
+**Citation:** Education Voters PA (cited in PA Capital Star, June 2025)
+**URL:** Via PA Capital Star (June 2025)
+**Date retrieved:** 2026-05-10
+**Claim summary:** EITC PA + OSTC provided $340 million in tax credits in 2022-23; critics note funded schools may discriminate on religion, disability, LGBTQ status
+**Cross-refs:** G11-SD1-07 (MC51), F11-SD1-02
+**Note:** EITC PA / OSTC primary authority at D9; $340M figure (2022-23) F-flagged for primary-source verification against PDE/DOR data. Distinct from S-21 (Education Voters PA July 2024 document, FY2024-25 cap level of $525M).
+
+---
+
+<a id="s-39"></a>
+**S-39** *(workspace Source 20)*
+**Citation:** Community College of Philadelphia, Board of Trustees Press Release, "Community College of Philadelphia Board of Trustees Approves Proposal to Increase College Tuition for First Time in Nine Years," March 12, 2026
+**URL:** https://www.ccp.edu/about-ccp/news-events/newsroom/2026-03-16/community-college-philadelphia-board-trustees-approves
+**Date retrieved:** 2026-05-10
+**Claim summary:** CCP 2024-25 enrollment exceeded 21,000 students (8% increase since 2022-23); ~60% receive Federal Pell Grant; highest-enrolled community college in PA; first tuition increase in nine years approved March 2026
+**Cross-refs:** G11-SD2-02 (HEA Title IV / Pell access at CCP)
+
+---
+
+<a id="s-40"></a>
+**S-40** *(workspace Source 21)*
+**Citation:** Axios Philadelphia, "How enrollment is changing at Philly's top universities," February 10, 2026
+**URL:** https://www.axios.com/local/philadelphia/2026/02/10/college-enrollment-racial-changes-students-university-of-pennsylvania-temple-drexel
+**Date retrieved:** 2026-05-10
+**Claim summary:** Post-SFFA: Penn Black enrollment declined from 9.4% to 8.6% in 2024; Temple Black enrollment rose to 29.7% (from 20.9%); Drexel and Temple saw underrepresented student increases
+**Cross-refs:** G11-SD2-05
+
+---
+
+<a id="s-41"></a>
+**S-41** *(workspace Source 22)*
+**Citation:** Philadelphia Tribune / WHYY, "Pennsylvania universities cutting costs through layoffs, mergers," August 2025
+**URL:** https://www.phillytrib.com/news/state_and_region/pennsylvania-universities-cutting-costs-through-layoffs-mergers/article_28e3d7c5-c65f-4243-a964-25f12405a176.html
+**Date retrieved:** 2026-05-10
+**Claim summary:** Temple enrollment dropped ~10,000 since Fall 2017 ($200M revenue hit); $60M deficit reduced to $27M (190 positions eliminated including 50 layoffs); Drexel merged with Salus University July 2025; Lincoln University heavily reliant on state appropriation; University of the Arts closed abruptly June 2024
+**Cross-refs:** G11-SD2-03
+**Note:** Different article from S-08 (Philadelphia Tribune August 2025, SDP deficit projections) — this article is about PA university financial distress and restructuring.
+
+---
+
+<a id="s-42"></a>
+**S-42** *(workspace Source 23)*
+**Citation:** Chalkbeat Philadelphia, "What families need to know about Philly's new pre-K application," December 20, 2024
+**URL:** https://www.chalkbeat.org/philadelphia/2024/12/20/how-to-use-the-new-philly-universal-prek-application/
+**Date retrieved:** 2026-05-10
+**Claim summary:** PHLpreK 5,250 seats across 228 programs in 2024-25; new universal pre-K application launched for 2025-26; funded by Philadelphia Beverage Tax; no income requirements; ages 3-4
+**Cross-refs:** G11-SD3-01, G11-SD3-02, G11-SD3-03
+
+---
+
+<a id="s-43"></a>
+**S-43** *(workspace Source 24)*
+**Citation:** City of Philadelphia, Mayor's Office of Children and Families, PHLpreK program page (primary)
+**URL:** https://www.phila.gov/services/education-learning/enroll-in-phlprek/
+**Date retrieved:** 2026-05-10
+**Claim summary:** PHLpreK available to 3-4 year old Philadelphia residents; no income requirements; free during traditional school day; funded through Philadelphia Beverage Tax
+**Cross-refs:** G11-SD3-01, G11-SD3-02
+
+---
+
+<a id="s-44"></a>
+**S-44** *(workspace Source 25)*
+**Citation:** Children First (PCCY), "Not Adding Up: Disparities in Access to Full Course Loads and Suspensions in Philly Schools"
+**URL:** https://www.childrenfirstpa.org/not-adding-up-disparities-in-access-to-full-course-loads-and-suspensions-in-philly-schools/
+**Date retrieved:** 2026-05-10
+**Claim summary:** SDP Black students 56% of enrollment but 74% in-school and 72% out-of-school suspensions (citing ED OCR data); 57% of Black students nationally lack access to full high school course load
+**Cross-refs:** G11-SD7-01 (MC48), G11-SD7-02, G11-SD4-01
+**Note:** Advocacy-aligned source citing OCR primary data; discipline disparity figures require current-year primary-source verification against ED CRDC civil rights data collection (F11-SD4-06 / F11-SD7-05).
+
+---
+
+<a id="s-45"></a>
+**S-45** *(workspace Source 26)*
+**Citation:** 6abc / WPVI analysis, "Philadelphia area students of color miss more school due to discipline," November 2021
+**URL:** https://6abc.com/post/education-inequity-race-racial-disparities/11177985/
+**Date retrieved:** 2026-05-10
+**Claim summary:** Philadelphia-Camden-Wilmington metro: students of color 3.7x more likely than white students to miss school due to discipline; Black students 5.5x more likely
+**Cross-refs:** G11-SD7-01 (MC48), G11-SD7-02, G11-SD4-01
+**Note:** News analysis of district-level data; specific ratios require current-year CRDC verification for SDP-specific figures (F11-SD4-06 / F11-SD7-05).
+
+---
+
+<a id="s-46"></a>
+**S-46** *(workspace Source 27)*
+**Citation:** ED Office for Civil Rights, 2020-21 Civil Rights Data Collection (CRDC) Student Discipline Report, released November 2023
+**URL:** https://www.ed.gov/media/document/crdc-discipline-school-climate-reportpdf-21409.pdf
+**Date retrieved:** 2026-05-10
+**Claim summary:** Black K-12 boys nearly 2x more likely than white boys to receive out-of-school suspension (national); Black preschool children 17% of enrollment but 31% of out-of-school suspensions; pattern holds across jurisdictions
+**Cross-refs:** G11-SD7-01 (MC48), G11-SD7-02, G11-SD4-01
+
+---
+
+<a id="s-47"></a>
+**S-47** *(body-cited Source 19 — workspace gap)*
+**Citation:** Source 19 — identity not resolved; absent from D11_educ_sources_2026-05-10.md
+**URL:** Not retrieved
+**Date retrieved:** N/A
+**Claim summary:** 17 Renaissance Charter Schools as of 2025-26; neighborhood-catchment charters that replaced SDP schools under the Renaissance Initiative begun in 2010 (body reference at SD1 §4, Charter LEAs paragraph: "[Source 19]")
+**Cross-refs:** G11-SD1-05 (MC49)
+**Note:** Body-cited at SD1 §4 Charter LEAs. Absent from source workspace. Likely source: SDP Office of Charter Schools or PDE charter enrollment data for 2025-26. Flagged for retrieval in future maintenance pass.
+
+---
+
+### Normalization Log
+
+**Session 1 (2026-05-10):** Phase 3 verification first pass. Six web-search retrieval batches completed covering Priority 1 advocacy-source cluster (F11-SD1-06/07/08/01), William Penn trajectory (T11-SD1-02), school closure implementation (T11-SD1-03), ED OCR capacity (T11-SD4-02/T11-SD1-04), HHS ACF Head Start (T11-SD3-01), and EITC/OSTC scale (F11-SD1-02/T11-SD1-01). MC-01 through MC-08 inline corrections applied at 7 body locations across SD1, SD3, SD4, and Synthesis Section 1. 21 Phase 3 verification sources assembled as bullet-list partial CR. Pattern 13 handoff written at session boundary. Deferred to Session 2: MC-09 onward (MC48 empirical cluster; postsecondary flags; IDEA/civil rights; adult literacy; CTE; charter tuition; remaining T-flags); full Citation Registry assembly from source workspace.
+
+**Session 2 (2026-05-22): Citation Registry completed. Closure of Pattern 13 Session 2 pending handoff.** Source workspace D11_educ_sources_2026-05-10.md promoted in full: 25 unique entries (Sources 1, 3–18, 20–27; 17 SD1-origin, 3 SD2-origin, 2 SD3-origin, 3 SD4/SD7-origin) advanced to normalized S-NN format (S-22–S-46). One deduplication executed: workspace Source 2 (Philadelphia City Controller, August 2025, controller.phila.gov) is the same document as Session 1 entry S-01; workspace Source 2 promoted under S-01 with deduplication notation; no new entry created. Session 1 bullet-list entries (21) converted to normalized S-NN format (S-01–S-21). Workspace SD cross-references inverse-mapped to MC-IDs and G-IDs using the MC entries and gap analysis sections (§7) in the verified file body. Body-cited Source 19 (Renaissance Charter Schools, SD1 §4 Charter LEAs) absent from source workspace; placeholder S-47 created with retrieval flag. Total CR on Session 2 completion: 47 entries (S-01–S-47); 1 deduplication (workspace Source 2 = S-01). Session 2 task scope: Citation Registry assembly only. **MC-09 onward (MC48 empirical cluster; postsecondary flags; IDEA/civil rights; adult literacy; CTE; charter tuition aggregate; remaining T-flags) from Session 1 handoff remain unresolved and require a Session 3 retrieval pass. Tier-2 publication release contingent on Session 3 MC completion and Pattern 12 enforcement scan.**
+
+---
+
+*End of D11 Education Phase 3 Verified File — Citation Registry complete; Normalization Log closed at Session 2 (2026-05-22). Session 2 task scope: Citation Registry assembly and source workspace promotion. MC-09 onward (MC48 empirical cluster; postsecondary flags; IDEA/civil rights; adult literacy; CTE; charter tuition; remaining T-flags) from Session 1 handoff remain unresolved and require Session 3 retrieval before Tier-2 publication release. Pattern 12 enforcement scan pending Session 3 completion.*

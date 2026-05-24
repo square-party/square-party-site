@@ -36,6 +36,7 @@ The MCS captures four categories: (A) prior-method-era changes integrated into t
 
 ---
 
+<a id="mc-01"></a>
 **MC-01 — FY26 IIJA "rescissions" mechanism corrected to "transfers" via P.L. 119-75 (SD1/SD3/SD7 architectural)**
 
 | Field | Content |
@@ -47,8 +48,11 @@ The MCS captures four categories: (A) prior-method-era changes integrated into t
 
 Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors at SD1 Section 2 (Federal Statutory Layer), SD3 Section 2 (Federal-Aid Highway program), and SD7 Section 7 Gap 3.
 
+*Sources:* [S-01](#s-01), [S-03](#s-03), [S-32](#s-32)
+
 ---
 
+<a id="mc-02"></a>
 **MC-02 — IIJA reauthorization status as of April-May 2026 (SD1/SD3/SD5/SD7 architectural)**
 
 | Field | Content |
@@ -60,8 +64,11 @@ Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors a
 
 Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors at SD1 Section 2, SD3 Section 2, SD5 Section 2, and SD7 Section 7 Gap 1.
 
+*Sources:* [S-01](#s-01), [S-02](#s-02), [S-03](#s-03), [S-04](#s-04), [S-27](#s-27), [S-28](#s-28), [S-29](#s-29), [S-30](#s-30), [S-34](#s-34)
+
 ---
 
+<a id="mc-03"></a>
 **MC-03 — Justice40 framework revocation broader scope (SD2/SD3/SD6/SD7 architectural)**
 
 | Field | Content |
@@ -73,8 +80,11 @@ Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors a
 
 Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors at SD2 Section 7 Gap 7, SD3 Section 7 Gap 1, SD5 Section 7 Gap 4, SD6 Section 7 Gap 4, and SD7 Section 7 Gap 2.
 
+*Sources:* [S-05](#s-05), [S-48](#s-48)
+
 ---
 
+<a id="mc-04"></a>
 **MC-04 — SEPTA service cut implementation: staged rollout, court reversal, capital-to-operating buffer (SD1 architectural — largest narrative shift)**
 
 | Field | Content |
@@ -86,8 +96,11 @@ Principal anchor at SD7 Section 2 (Federal Statutory Layer); secondary anchors a
 
 Principal anchor at SD1 Section 2 (Local Statutory Layer); secondary anchors at SD1 Section 3, SD1 Section 4, SD1 Section 5 (Profile 1), SD1 Section 7 Gap 1, and SD1 Section 8.
 
+*Sources:* [S-11](#s-11), [S-12](#s-12), [S-13](#s-13), [S-40](#s-40), [S-41](#s-41), [S-42](#s-42), [S-43](#s-43), [S-58](#s-58)
+
 ---
 
+<a id="mc-05"></a>
 **MC-05 — PA FY 2025-26 budget enacted November 12, 2025 with no new transit funding (SD1/SD5/SD7 architectural)**
 
 | Field | Content |
@@ -99,8 +112,11 @@ Principal anchor at SD1 Section 2 (Local Statutory Layer); secondary anchors at 
 
 Principal anchor at SD5 Section 2 (State Layer); secondary anchors at SD1 Section 2, SD1 Section 7 Gap 3, SD5 Section 7 Gap 2, and SD7 Section 3.
 
+*Sources:* [S-13](#s-13), [S-22](#s-22), [S-40](#s-40), [S-56](#s-56)
+
 ---
 
+<a id="mc-06"></a>
 **MC-06 — Governor Shapiro FY 2026-27 budget proposal: 1.75% sales tax to PTTF (SD1/SD7 architectural)**
 
 | Field | Content |
@@ -112,8 +128,11 @@ Principal anchor at SD5 Section 2 (State Layer); secondary anchors at SD1 Sectio
 
 Principal anchor at SD1 Section 2 (State Layer); secondary anchors at SD1 Section 7 Gap 3, SD7 Section 3, and SD7 Section 7 Gap 1.
 
+*Sources:* [S-22](#s-22), [S-23](#s-23), [S-33](#s-33), [S-61](#s-61)
+
 ---
 
+<a id="mc-07"></a>
 **MC-07 — AHERA Deferred Prosecution Agreement filed June 26, 2025 against SDP; operational status (SD5 architectural; cross-reference D6 G6-SD4-02 principal anchor)**
 
 | Field | Content |
@@ -125,8 +144,11 @@ Principal anchor at SD1 Section 2 (State Layer); secondary anchors at SD1 Sectio
 
 Principal anchor at SD5 Section 2 (Federal Architecture); secondary anchors at SD5 Section 7 Gap 1, SD5 Section 7 Gap 5, SD5 Section 4, and SD5 Section 6. *D6 G6-SD4-02 is the cross-domain principal anchor for criminal-enforcement architecture.*
 
+*Sources:* [S-44](#s-44), [S-45](#s-45), [S-57](#s-57)
+
 ---
 
+<a id="mc-08"></a>
 **MC-08 — PWD lead service line inventory architecture (SD2 architectural; cross-reference D6 MC-06 LCRI)**
 
 | Field | Content |
@@ -138,8 +160,11 @@ Principal anchor at SD5 Section 2 (Federal Architecture); secondary anchors at S
 
 Principal anchor at SD2 Section 2 (Local Layer); secondary anchors at SD2 Section 4, SD2 Section 5 Profile 1, SD2 Section 7 Gap 1, and SD2 Section 7 Gap 3. *D6 MC-06 is the cross-domain principal anchor for LCRI federal-architecture content.*
 
+*Sources:* [S-15](#s-15), [S-16](#s-16), [S-49](#s-49), [S-50](#s-50)
+
 ---
 
+<a id="mc-09"></a>
 **MC-09 — Vision Zero Action Plan 2030 released November 25, 2025 (SD3 architectural)**
 
 | Field | Content |
@@ -151,8 +176,11 @@ Principal anchor at SD2 Section 2 (Local Layer); secondary anchors at SD2 Sectio
 
 Principal anchor at SD3 Section 4 (Statistical Profile); secondary anchors at SD3 Section 2, SD3 Section 3, SD3 Section 5 (Profile 1), SD3 Section 7 Gap 1, and SD3 Section 8.
 
+*Sources:* [S-20](#s-20), [S-54](#s-54)
+
 ---
 
+<a id="mc-10"></a>
 **MC-10 — Personnel and agency leadership confirmations (cross-sub-domain administrative)**
 
 | Field | Content |
@@ -164,8 +192,11 @@ Principal anchor at SD3 Section 4 (Statistical Profile); secondary anchors at SD
 
 Principal anchor at the first agency-leadership citation in each SD's Section 2; the entry serves as cross-sub-domain navigation aid.
 
+*Sources:* [S-06](#s-06), [S-07](#s-07), [S-18](#s-18), [S-19](#s-19), [S-45](#s-45), [S-59](#s-59)
+
 ---
 
+<a id="mc-11"></a>
 **MC-11 — Green City Clean Waters compliance instrument terminology correction (SD2 terminology)**
 
 | Field | Content |
@@ -177,8 +208,11 @@ Principal anchor at the first agency-leadership citation in each SD's Section 2;
 
 Principal anchor at SD2 Section 2 (Local Layer); the COA/AOCC distinction appears at SD2 Section 7 Gap 4. *High-volume Case 3 disposition per M2 v1.2.1 Appendix A: shorthand "consent decree" retained at remaining occurrences for readability with principal-anchor disclosure governing.*
 
+*Sources:* [S-47](#s-47)
+
 ---
 
+<a id="mc-12"></a>
 **MC-12 — SEPTA major Section 5309 CIG project corrected to KOP Rail (SD1 terminology/factual)**
 
 | Field | Content |
@@ -190,8 +224,11 @@ Principal anchor at SD2 Section 2 (Local Layer); the COA/AOCC distinction appear
 
 Principal anchor at SD1 Section 2 (Federal Statutory Layer); secondary anchor at SD1 Section 7 Gap 6.
 
+*Sources:* [S-19](#s-19), [S-62](#s-62)
+
 ---
 
+<a id="mc-13"></a>
 **MC-13 — SEPTA FY 2026-27 budget proposed April 9, 2026 with no fare/service cuts (SD1 retrofit refinement; [R-D13])**
 
 | Field | Content |
@@ -203,8 +240,11 @@ Principal anchor at SD1 Section 2 (Federal Statutory Layer); secondary anchor at
 
 Principal anchor at SD1 Section 2 (Local Layer); secondary anchors at SD1 Section 4, SD1 Section 7 Gap 5, and SD1 Section 9.
 
+*Sources:* [S-21](#s-21), [S-55](#s-55)
+
 ---
 
+<a id="mc-14"></a>
 **MC-14 — Vision Zero target moved from 2030 to 2050 (SD3 retrofit refinement; [R-D13])**
 
 | Field | Content |
@@ -216,8 +256,11 @@ Principal anchor at SD1 Section 2 (Local Layer); secondary anchors at SD1 Sectio
 
 Principal anchor at SD3 Section 2 (Local Layer); secondary anchors at SD3 Section 6, SD3 Section 7 Gap 4, and SD3 Section 7 Gap 6.
 
+*Sources:* [S-20](#s-20), [S-63](#s-63), [S-64](#s-64)
+
 ---
 
+<a id="mc-15"></a>
 **MC-15 — PA Sales and Use Tax 2% Philadelphia local allocation mechanics cleanup (SD1/SD7 architectural; cross-reference D9 F9-SD7-06 / UV-D9-12 handoff)**
 
 | Field | Content |
@@ -229,8 +272,11 @@ Principal anchor at SD3 Section 2 (Local Layer); secondary anchors at SD3 Sectio
 
 Principal anchor at SD1 Section 2 (Local Layer); secondary anchors at SD7 Section 2 and SD7 Section 7 Gap 7. *Cross-reference D9 F9-SD7-06 / UV-D9-12 as cross-domain handoff context.*
 
+*Sources:* [S-56](#s-56), [flag for URL-retrieval pass — D9 verified file SD7 PA SUT 2% Philadelphia allocation principal-anchor documentation]
+
 ---
 
+<a id="mc-16"></a>
 **MC-16 — v1.2 retrofit-meta entry documenting prior-method → v1.2 structural transition itself (cross-sub-domain methodology)**
 
 | Field | Content |
@@ -242,25 +288,27 @@ Principal anchor at SD1 Section 2 (Local Layer); secondary anchors at SD7 Sectio
 
 Principal anchor at this MCS entry MC-16; this entry's "what it affects" field enumerates the verified-file-wide structural transition; Pattern 12 enforcement walk for MC-16 verifies the structural-form conformance items rather than specific inline edits at body locations.
 
+*Sources:* *meta entry — no external citation sources*
+
 ---
 
 ## Synthesis Section 1: What This Domain Established
 
 D13 establishes the federal/state/local mandate-stack architecture governing physical infrastructure for Pennsylvania's 3rd Congressional District. Organized through seven sub-domains (SD1 Transit and Mobility; SD2 Water and Stormwater Infrastructure; SD3 Roads, Bridges, and Pedestrian Infrastructure; SD4 Solid Waste, Sanitation, and Illegal Dumping; SD5 School Buildings and Public Facility Capital; SD6 Parks, Recreation Centers, and Open Space; SD7 Federal Infrastructure Funding Architecture), the domain traces how seven distinct infrastructure systems — each with statutory stability and administrative vulnerability profiles assessed independently per Standard 11 — interact with the cumulative racial disadvantage geography established in D1 and the institutional fiscal architecture established in D9 Finance & Taxation. Findings below are stated at the confidence level the underlying SD evidence supports, labeled by evidence type per Standard 5: [D] directly documented; [SD] structurally derived; [SI] structural inference.
 
-**1. SEPTA fiscal crisis and the structural inadequacy of Pennsylvania's transit funding architecture produce a recurring vulnerability that the 2024-2026 emergency interventions did not resolve (SD1).** *Verification update (2026-05-11): MC-04 reformats prior-method content on the staged rollout / court reversal / capital-to-operating buffer; MC-06 reformats Governor Shapiro's FY 2026-27 proposed 1.75% sales tax to PTTF; MC-13 captures the SEPTA FY 2026-27 budget proposed April 9, 2026 with no fare/service cuts; see principal anchor at SD1 Section 2.* SEPTA serves PA-3's central institutional role in transportation, directly receiving Section 5307 urbanized-area formula apportionment, Section 5337 state of good repair formula apportionment, and Section 5339 bus-and-bus-facilities formula funding (G13-SD1-05 [SD] HIGH on federal-floor protection; G13-SD1-04 [SD] HIGH on cross-jurisdictional commute pattern engagement). The structural problem is on the state-and-local-revenue side, not the federal-formula side: Pennsylvania's Act 89 (2013) transition reduced the dedicated PA Turnpike Commission contribution from $450M to $50M annually beginning in fiscal 2022, converting the $400M difference into a state General Fund appropriation subject to annual budget negotiation (G13-SD1-03 [D] HIGH). The 2024-2026 fiscal crisis sequence — June 26, 2025 SEPTA board service-cut authorization; August 24, 2025 first-wave implementation (32 bus routes eliminated, 16 shortened, broader frequency reductions); September 1, 2025 21.5% fare increase to $2.90 base; September 4, 2025 Judge Sierra Thomas-Street order reversing service cuts on disparate-impact theory (Bochetto plaintiffs Lance Haver et al., Court of Common Pleas; *Standard 13.C v2.2 carve-out: case-name parties in litigation citation*); September 8, 2025 Shapiro Administration approval of $394M of SEPTA's own unobligated capital for operating use; September 14, 2025 service restoration with fare increase taking effect; October 8, 2025 Bochetto class-action targeting fares; October 2025 FRA emergency Silverliner IV audit; November 12, 2025 PA $50.1B budget without transit funding; November 24, 2025 additional $219.9M flexed for Silverliner IV; January 1, 2026 second-wave averted — illustrates the structural problem rather than resolving it. SEPTA's FY27 proposed budget (April 9, 2026) signals continued reliance on the second and final year of the $394M capital-to-operating transfer with no fare increases or service cuts proposed for FY27; the state of good repair backlog has doubled to $10.2B over a decade. Shapiro's FY 2026-27 budget proposal (February 19, 2026) would dedicate 1.75% of Sales and Use Tax revenue to PTTF starting July 1, 2027 (~$300-319.6M annually statewide; SEPTA receives ~$183M in first year per SEPTA CFO Erik Johanson per Inquirer February 2026); the budget is not yet enacted (deadline June 30, 2026). KOP Rail (4-mile NHSL extension) is the major Section 5309 CIG project in Project Development, with $390M committed in SEPTA's FY 2023 capital budget seeking up to 60% federal CIG share (G13-SD1-06 [D] HIGH on KOP Rail being the major CIG project; per MC-12 correction from prior-method Trolley Modernization attribution). The Title VI disparate-impact theory motivating the September 4, 2025 court order indicates that SEPTA's original Title VI analysis did not adequately foreclose the disparate-impact concern (G13-SD1-01 [D] HIGH on action triggering Title VI requirements; MEDIUM on documentary adequacy of SEPTA's analysis). ADA Title II station accessibility at approximately 46% is second-lowest among major U.S. transit systems behind New York City MTA (G13-SD1-02 [D] HIGH).
+**1. SEPTA fiscal crisis and the structural inadequacy of Pennsylvania's transit funding architecture produce a recurring vulnerability that the 2024-2026 emergency interventions did not resolve (SD1).** *Verification update (2026-05-11): MC-04 reformats prior-method content on the staged rollout / court reversal / capital-to-operating buffer; MC-06 reformats Governor Shapiro's FY 2026-27 proposed 1.75% sales tax to PTTF; MC-13 captures the SEPTA FY 2026-27 budget proposed April 9, 2026 with no fare/service cuts; see principal anchor at SD1 Section 2.* SEPTA serves PA-3's central institutional role in transportation, directly receiving Section 5307 urbanized-area formula apportionment, Section 5337 state of good repair formula apportionment, and Section 5339 bus-and-bus-facilities formula funding (<a id="g13-sd1-05"></a>G13-SD1-05 [SD] HIGH on federal-floor protection; <a id="g13-sd1-04"></a>G13-SD1-04 [SD] HIGH on cross-jurisdictional commute pattern engagement). The structural problem is on the state-and-local-revenue side, not the federal-formula side: Pennsylvania's Act 89 (2013) transition reduced the dedicated PA Turnpike Commission contribution from $450M to $50M annually beginning in fiscal 2022, converting the $400M difference into a state General Fund appropriation subject to annual budget negotiation (<a id="g13-sd1-03"></a>G13-SD1-03 [D] HIGH). The 2024-2026 fiscal crisis sequence — June 26, 2025 SEPTA board service-cut authorization; August 24, 2025 first-wave implementation (32 bus routes eliminated, 16 shortened, broader frequency reductions); September 1, 2025 21.5% fare increase to $2.90 base; September 4, 2025 Judge Sierra Thomas-Street order reversing service cuts on disparate-impact theory (Bochetto plaintiffs Lance Haver et al., Court of Common Pleas; *Standard 13.C v2.2 carve-out: case-name parties in litigation citation*); September 8, 2025 Shapiro Administration approval of $394M of SEPTA's own unobligated capital for operating use; September 14, 2025 service restoration with fare increase taking effect; October 8, 2025 Bochetto class-action targeting fares; October 2025 FRA emergency Silverliner IV audit; November 12, 2025 PA $50.1B budget without transit funding; November 24, 2025 additional $219.9M flexed for Silverliner IV; January 1, 2026 second-wave averted — illustrates the structural problem rather than resolving it. SEPTA's FY27 proposed budget (April 9, 2026) signals continued reliance on the second and final year of the $394M capital-to-operating transfer with no fare increases or service cuts proposed for FY27; the state of good repair backlog has doubled to $10.2B over a decade. Shapiro's FY 2026-27 budget proposal (February 19, 2026) would dedicate 1.75% of Sales and Use Tax revenue to PTTF starting July 1, 2027 (~$300-319.6M annually statewide; SEPTA receives ~$183M in first year per SEPTA CFO Erik Johanson per Inquirer February 2026); the budget is not yet enacted (deadline June 30, 2026). KOP Rail (4-mile NHSL extension) is the major Section 5309 CIG project in Project Development, with $390M committed in SEPTA's FY 2023 capital budget seeking up to 60% federal CIG share (<a id="g13-sd1-06"></a>G13-SD1-06 [D] HIGH on KOP Rail being the major CIG project; per MC-12 correction from prior-method Trolley Modernization attribution). The Title VI disparate-impact theory motivating the September 4, 2025 court order indicates that SEPTA's original Title VI analysis did not adequately foreclose the disparate-impact concern (<a id="g13-sd1-01"></a>G13-SD1-01 [D] HIGH on action triggering Title VI requirements; MEDIUM on documentary adequacy of SEPTA's analysis). ADA Title II station accessibility at approximately 46% is second-lowest among major U.S. transit systems behind New York City MTA (<a id="g13-sd1-02"></a>G13-SD1-02 [D] HIGH).
 
-**2. Green City Clean Waters compliance pace shortfall and PWD lead service line architecture produce parallel statutory-floor / customer-side mismatches whose federal-compliance financing is structurally insufficient (SD2).** *Verification update (2026-05-11): MC-08 reformats prior-method content on PWD lead service line inventory architecture; MC-11 reformats terminology correction (Consent Order & Agreement vs. consent decree); see principal anchor at SD2 Section 2.* The Philadelphia Water Department's 2011 Consent Order & Agreement (COA) with PADEP under Clean Water Act delegation — administered as a state COA, not federal consent decree per MC-11 — commits PWD to 25-year green stormwater infrastructure compliance through 2036. Approximately $4.5B has been invested at the program's halfway mark with approximately 7,400 acres of green stormwater infrastructure remaining to construct under the established trajectory; at recent installation pace (~236 acres/year), Philadelphia would install ~5,700 acres by 2035 — substantially short of the ~9,500 acres total required for full compliance (G13-SD2-04 [D] HIGH on documented figures; MEDIUM on pace projection durability). Federally, EPA retains CWA enforcement authority but PADEP holds the COA; EPA layered an Administrative Order for Compliance on Consent (AOCC) on September 21, 2012. SDWA primacy is also delegated to PA DEP. PWD lead service line architecture per WHYY December 2025 and PWD: of 511,000 total service lines, **16,805 confirmed lead, 157,823 confirmed lead-free, 351,514 of unknown material**; approximately 1 in 20 (5%) of properties may have a lead service line; PWD has determined materials of approximately 85,000 previously-unknown lines since October 2024. The 2026 pilot Service Line Replacement Program — approximately 1,000 lead service lines in North and West Philadelphia — is the first PWD program to replace lines outside of planned water main construction or HELP loan requests. Federal LCRR/LCRI compliance combined with state CWA delegation produces a constituent-experience pattern in which lead service line notifications and replacements proceed on the federal-statutory timetable while compliance financing remains structurally insufficient relative to the inventory (G13-SD2-01 [D] HIGH on structural feature; G13-SD2-03 [SD] HIGH on tenure-based delay for rental properties at 51% of housing stock). *Cross-reference D6 verified file (2026-05-11) MC-06 LCRI federal-architecture principal anchor — LCRI defended by EPA in AWWA v. EPA with Respondents' Brief filed February 20, 2026; D13 SD2 operational status aligns with D6 MC-06.* PWD FY 2026 budget: $640.5M; ~80,709 customers in TAP and related income-based assistance programs (G13-SD2-02 [D] HIGH on federal water-affordability program absence; G13-SD2-06 [SI] MEDIUM on enrollment-vs-eligibility gap). Eastwick Near-term Flood Barrier Project (HESCO barriers, $1,383,069 federal funding via PA-5 Scanlon, October 2024) is interim; the longer-term Cobbs Creek levee architecture is in flux with USACE 15-foot proposal scrapped and revised 8-foot design under reconsideration (G13-SD2-05 [D] HIGH on documented project status; LOW on long-term timeline).
+**2. Green City Clean Waters compliance pace shortfall and PWD lead service line architecture produce parallel statutory-floor / customer-side mismatches whose federal-compliance financing is structurally insufficient (SD2).** *Verification update (2026-05-11): MC-08 reformats prior-method content on PWD lead service line inventory architecture; MC-11 reformats terminology correction (Consent Order & Agreement vs. consent decree); see principal anchor at SD2 Section 2.* The Philadelphia Water Department's 2011 Consent Order & Agreement (COA) with PADEP under Clean Water Act delegation — administered as a state COA, not federal consent decree per MC-11 — commits PWD to 25-year green stormwater infrastructure compliance through 2036. Approximately $4.5B has been invested at the program's halfway mark with approximately 7,400 acres of green stormwater infrastructure remaining to construct under the established trajectory; at recent installation pace (~236 acres/year), Philadelphia would install ~5,700 acres by 2035 — substantially short of the ~9,500 acres total required for full compliance (<a id="g13-sd2-04"></a>G13-SD2-04 [D] HIGH on documented figures; MEDIUM on pace projection durability). Federally, EPA retains CWA enforcement authority but PADEP holds the COA; EPA layered an Administrative Order for Compliance on Consent (AOCC) on September 21, 2012. SDWA primacy is also delegated to PA DEP. PWD lead service line architecture per WHYY December 2025 and PWD: of 511,000 total service lines, **16,805 confirmed lead, 157,823 confirmed lead-free, 351,514 of unknown material**; approximately 1 in 20 (5%) of properties may have a lead service line; PWD has determined materials of approximately 85,000 previously-unknown lines since October 2024. The 2026 pilot Service Line Replacement Program — approximately 1,000 lead service lines in North and West Philadelphia — is the first PWD program to replace lines outside of planned water main construction or HELP loan requests. Federal LCRR/LCRI compliance combined with state CWA delegation produces a constituent-experience pattern in which lead service line notifications and replacements proceed on the federal-statutory timetable while compliance financing remains structurally insufficient relative to the inventory (<a id="g13-sd2-01"></a>G13-SD2-01 [D] HIGH on structural feature; <a id="g13-sd2-03"></a>G13-SD2-03 [SD] HIGH on tenure-based delay for rental properties at 51% of housing stock). *Cross-reference D6 verified file (2026-05-11) MC-06 LCRI federal-architecture principal anchor — LCRI defended by EPA in AWWA v. EPA with Respondents' Brief filed February 20, 2026; D13 SD2 operational status aligns with D6 MC-06.* PWD FY 2026 budget: $640.5M; ~80,709 customers in TAP and related income-based assistance programs (<a id="g13-sd2-02"></a>G13-SD2-02 [D] HIGH on federal water-affordability program absence; <a id="g13-sd2-06"></a>G13-SD2-06 [SI] MEDIUM on enrollment-vs-eligibility gap). Eastwick Near-term Flood Barrier Project (HESCO barriers, $1,383,069 federal funding via PA-5 Scanlon, October 2024) is interim; the longer-term Cobbs Creek levee architecture is in flux with USACE 15-foot proposal scrapped and revised 8-foot design under reconsideration (<a id="g13-sd2-05"></a>G13-SD2-05 [D] HIGH on documented project status; LOW on long-term timeline).
 
-**3. High Injury Network concentration and the underserved-communities metric document differential traffic-safety burden tracking cumulative racial disadvantage geography (SD3).** *Verification update (2026-05-11): MC-09 reformats prior-method content on Vision Zero Action Plan 2030 released November 25, 2025; MC-14 captures the retrofit refinement that Mayor Parker moved the underlying "zero traffic deaths" target from 2030 to 2050; see principal anchor at SD3 Section 4.* Philadelphia's Vision Zero Action Plan 2030, released November 25, 2025 by OTIS, Vision Zero Philadelphia, PDPH, Department of Streets, and Office of Emergency Management — fulfilling Mayor Parker's March 2024 executive order (*Standard 13.C v2.2 carve-out: Mayor Parker in official capacity per City of Philadelphia press release*) — documents that **12% of streets account for 80% of fatal/serious injury crashes** (the High Injury Network). PDPH's Underserved Communities (UC) metric documents a **KSI crash rate 2.4 times higher in highest-UC tracts than in lowest-UC tracts**; approximately one-third (**137 miles**) of the HIN is located in highest-UC tracts, while only 14% (61 miles) is in lowest-UC tracts (G13-SD3-01 [D] HIGH on documented disparity; HIGH on structural distinction between project-level Title VI review and cumulative-impact analysis). Traffic fatalities reached **120 in 2024** (down from 123 in 2023) but remained elevated since the 2020 pandemic-era spike — 5-year average since 2020 more than 50% higher than 5-year average prior to 2020. Roosevelt Boulevard speed cameras (2020-) produced 95%+ reduction in speeding violations, 21% reduction in fatal/serious injury crashes, and 50% reduction in pedestrian crashes; Complete Streets projects produced 34% fewer fatal/serious injury crashes and 20% fewer total injury crashes. The Plan commits to safety upgrades on every mile of the HIN by 2030 plus an Intelligent Speed Assistance (ISA) pilot in the municipal fleet. The underlying "zero traffic deaths" target has been moved from 2030 to 2050 (MC-14; per Grid Magazine March 2026 retrospective; this was the Mayor Parker 2024 decision now operative). Federal-aid highway program (FHWA) flows reach PA-3 through PennDOT pass-through; the IIJA Reconnecting Communities Program — relevant to Roosevelt Boulevard, I-95, and other PA-3 corridors — was funded at only $30M (15% of the $200M IIJA-obligated for FY 2026) under P.L. 119-75 transfers per MC-01. ADA Title II sidewalk and curb ramp compliance pace operates with weaker enforcement architecture than federal-aid highway projects (G13-SD3-02 [D] HIGH on structural compliance gap; LOW on PA-3 compliance pace). Federal-aid local-street funding architecture is structurally limited (G13-SD3-03 [D] HIGH on federal funding architecture; MEDIUM on capital deficit scale). Vision Zero state-legislation needs include speed-limit authority, traffic camera expansion, curb-definition reform for parking-protected pedestrian lanes, additional bike-lane configurations (G13-SD3-04 [D] HIGH on documented needs). PA-3-specific bridge inventory by condition rating not surfaced at sufficient detail (G13-SD3-05 [D] HIGH on state pattern; LOW on PA-3-specific). HIN federal funding pipeline post-IIJA depends on reauthorization outcome with $210M+ awarded for HIN corridor projects (Chinatown Stitch, Roosevelt Boulevard intersections, Old York Road, Hunting Park Avenue) plus $16.4M federal Safe Streets and Roads for All (SS4A) grant supporting Hunting Park Avenue corridor December 2023 award (G13-SD3-06 [D] HIGH on current pipeline; MEDIUM on post-2026 trajectory).
+**3. High Injury Network concentration and the underserved-communities metric document differential traffic-safety burden tracking cumulative racial disadvantage geography (SD3).** *Verification update (2026-05-11): MC-09 reformats prior-method content on Vision Zero Action Plan 2030 released November 25, 2025; MC-14 captures the retrofit refinement that Mayor Parker moved the underlying "zero traffic deaths" target from 2030 to 2050; see principal anchor at SD3 Section 4.* Philadelphia's Vision Zero Action Plan 2030, released November 25, 2025 by OTIS, Vision Zero Philadelphia, PDPH, Department of Streets, and Office of Emergency Management — fulfilling Mayor Parker's March 2024 executive order (*Standard 13.C v2.2 carve-out: Mayor Parker in official capacity per City of Philadelphia press release*) — documents that **12% of streets account for 80% of fatal/serious injury crashes** (the High Injury Network). PDPH's Underserved Communities (UC) metric documents a **KSI crash rate 2.4 times higher in highest-UC tracts than in lowest-UC tracts**; approximately one-third (**137 miles**) of the HIN is located in highest-UC tracts, while only 14% (61 miles) is in lowest-UC tracts (<a id="g13-sd3-01"></a>G13-SD3-01 [D] HIGH on documented disparity; HIGH on structural distinction between project-level Title VI review and cumulative-impact analysis). Traffic fatalities reached **120 in 2024** (down from 123 in 2023) but remained elevated since the 2020 pandemic-era spike — 5-year average since 2020 more than 50% higher than 5-year average prior to 2020. Roosevelt Boulevard speed cameras (2020-) produced 95%+ reduction in speeding violations, 21% reduction in fatal/serious injury crashes, and 50% reduction in pedestrian crashes; Complete Streets projects produced 34% fewer fatal/serious injury crashes and 20% fewer total injury crashes. The Plan commits to safety upgrades on every mile of the HIN by 2030 plus an Intelligent Speed Assistance (ISA) pilot in the municipal fleet. The underlying "zero traffic deaths" target has been moved from 2030 to 2050 (MC-14; per Grid Magazine March 2026 retrospective; this was the Mayor Parker 2024 decision now operative). Federal-aid highway program (FHWA) flows reach PA-3 through PennDOT pass-through; the IIJA Reconnecting Communities Program — relevant to Roosevelt Boulevard, I-95, and other PA-3 corridors — was funded at only $30M (15% of the $200M IIJA-obligated for FY 2026) under P.L. 119-75 transfers per MC-01. ADA Title II sidewalk and curb ramp compliance pace operates with weaker enforcement architecture than federal-aid highway projects (<a id="g13-sd3-02"></a>G13-SD3-02 [D] HIGH on structural compliance gap; LOW on PA-3 compliance pace). Federal-aid local-street funding architecture is structurally limited (<a id="g13-sd3-03"></a>G13-SD3-03 [D] HIGH on federal funding architecture; MEDIUM on capital deficit scale). Vision Zero state-legislation needs include speed-limit authority, traffic camera expansion, curb-definition reform for parking-protected pedestrian lanes, additional bike-lane configurations (<a id="g13-sd3-04"></a>G13-SD3-04 [D] HIGH on documented needs). PA-3-specific bridge inventory by condition rating not surfaced at sufficient detail (<a id="g13-sd3-05"></a>G13-SD3-05 [D] HIGH on state pattern; LOW on PA-3-specific). HIN federal funding pipeline post-IIJA depends on reauthorization outcome with $210M+ awarded for HIN corridor projects (Chinatown Stitch, Roosevelt Boulevard intersections, Old York Road, Hunting Park Avenue) plus $16.4M federal Safe Streets and Roads for All (SS4A) grant supporting Hunting Park Avenue corridor December 2023 award (<a id="g13-sd3-06"></a>G13-SD3-06 [D] HIGH on current pipeline; MEDIUM on post-2026 trajectory).
 
-**4. Sanitation/Streets restructure and the federal architecture's silence on dedicated municipal anti-dumping enforcement financing produce a structurally underscaled enforcement capacity relative to dumping concentration in poorer Black and Latino neighborhoods (SD4).** Mayor Parker's 2024 executive order separated Sanitation from the Streets Department, creating a stand-alone Department of Sanitation under Commissioner Crystal Jacobs Shipman (*Standard 13.C v2.2 carve-out: in official capacity per phila.gov press release*); Streets Department continues under Commissioner Kristin Del Rossi; the Office of Clean and Green Initiatives (former Streets Commissioner Carlton Williams as Director) coordinates the citywide cleanliness mission. The Philadelphia Home Rule Charter formally specifies that the Sanitation Division is part of the Streets Department; the 2024 reorganization operates through executive order plus memorandum of understanding signed May 17, 2024, using a Home Rule Charter provision allowing employees or divisions to be loaned to other offices; permanent reorganization would require charter amendment via Council vote and voter approval (UV-D13-02: the specific EO number "EO 11-24" referenced in prior-method OUTPUT was not surfaced in verification and remains an open verification item). The federal regulatory architecture is RCRA Subtitle D (non-hazardous solid waste) with state implementation through the PA Solid Waste Management Act and PADEP; Subtitle C (hazardous) and CERCLA operate at federal level. Local enforcement is municipal (Sanitation, L&I, Streets, PPD via Environmental Crimes Unit) with structurally inadequate prosecution capacity for illegal dumping: PPD Environmental Crimes Unit operates with two staff; maximum recent annual arrests for dumping have not exceeded ~31; of 20 cases adjudicated in 2019, half were withdrawn or dismissed; annual dumping pickup volume ranged from ~6,800 tons (2019) to over 11,500 tons (2016 peak) (G13-SD4-01 [D] HIGH on documented figures; HIGH on structural mismatch). RCRA Subtitle D establishes minimum standards but does not require active prevention of illegal dumping or fund municipal dumping enforcement; there is no federal program directly funding municipal illegal-dumping enforcement at scale (G13-SD4-02 [D] HIGH). PA-3 dumping concentrates in lower-income and disproportionately minority sub-areas with cumulative public-health and property-value externalities — a documented pattern with vacant lot concentration as the structural opportunity geography (G13-SD4-03 [D] HIGH on structural relationship; MEDIUM on precise scale gap). Twice-weekly residential trash pickup expansion criteria transparency is limited (G13-SD4-04 [D] HIGH on documented expansion; LOW on criteria documentation); recycling participation data by neighborhood was not surfaced (G13-SD4-05 [SI] MEDIUM).
+**4. Sanitation/Streets restructure and the federal architecture's silence on dedicated municipal anti-dumping enforcement financing produce a structurally underscaled enforcement capacity relative to dumping concentration in poorer Black and Latino neighborhoods (SD4).** Mayor Parker's 2024 executive order separated Sanitation from the Streets Department, creating a stand-alone Department of Sanitation under Commissioner Crystal Jacobs Shipman (*Standard 13.C v2.2 carve-out: in official capacity per phila.gov press release*); Streets Department continues under Commissioner Kristin Del Rossi; the Office of Clean and Green Initiatives (former Streets Commissioner Carlton Williams as Director) coordinates the citywide cleanliness mission. The Philadelphia Home Rule Charter formally specifies that the Sanitation Division is part of the Streets Department; the 2024 reorganization operates through executive order plus memorandum of understanding signed May 17, 2024, using a Home Rule Charter provision allowing employees or divisions to be loaned to other offices; permanent reorganization would require charter amendment via Council vote and voter approval (UV-D13-02: the specific EO number "EO 11-24" referenced in prior-method OUTPUT was not surfaced in verification and remains an open verification item). The federal regulatory architecture is RCRA Subtitle D (non-hazardous solid waste) with state implementation through the PA Solid Waste Management Act and PADEP; Subtitle C (hazardous) and CERCLA operate at federal level. Local enforcement is municipal (Sanitation, L&I, Streets, PPD via Environmental Crimes Unit) with structurally inadequate prosecution capacity for illegal dumping: PPD Environmental Crimes Unit operates with two staff; maximum recent annual arrests for dumping have not exceeded ~31; of 20 cases adjudicated in 2019, half were withdrawn or dismissed; annual dumping pickup volume ranged from ~6,800 tons (2019) to over 11,500 tons (2016 peak) (<a id="g13-sd4-01"></a>G13-SD4-01 [D] HIGH on documented figures; HIGH on structural mismatch). RCRA Subtitle D establishes minimum standards but does not require active prevention of illegal dumping or fund municipal dumping enforcement; there is no federal program directly funding municipal illegal-dumping enforcement at scale (<a id="g13-sd4-02"></a>G13-SD4-02 [D] HIGH). PA-3 dumping concentrates in lower-income and disproportionately minority sub-areas with cumulative public-health and property-value externalities — a documented pattern with vacant lot concentration as the structural opportunity geography (<a id="g13-sd4-03"></a>G13-SD4-03 [D] HIGH on structural relationship; MEDIUM on precise scale gap). Twice-weekly residential trash pickup expansion criteria transparency is limited (<a id="g13-sd4-04"></a>G13-SD4-04 [D] HIGH on documented expansion; LOW on criteria documentation); recycling participation data by neighborhood was not surfaced (<a id="g13-sd4-05"></a>G13-SD4-05 [SI] MEDIUM).
 
-**5. School building condition, William Penn legislative response, and AHERA federal-criminal floor operate simultaneously on SDP without integrated funding architecture (SD5).** *Verification update (2026-05-11): MC-07 reformats prior-method content on the AHERA Deferred Prosecution Agreement; MC-05 captures the November 12, 2025 PA FY 2025-26 budget William Penn legislative response; cross-reference D6 G6-SD4-02 as cross-domain principal anchor; see principal anchor at SD5 Section 2.* The structural finding is that two parallel federal-state-local mandate streams — AHERA federal-criminal floor and William Penn (PA Commonwealth Court February 7, 2023; final July 2023) state constitutional adequacy — operate simultaneously on SDP without integrated funding architecture (G13-SD5-01 [D] HIGH on AHERA federal compliance financing absence). AHERA Deferred Prosecution Agreement: filed June 26, 2025 by U.S. Attorney David Metcalf (EDPA; *Standard 13.C v2.2 carve-out: in official capacity per DOJ filing*) following five-year EDPA / DOJ Environmental Crimes / EPA-CID investigation; 8 criminal counts AHERA, 7 schools cited for failed three-year inspections + 1 school for failed six-month inspection; 31 schools with documented lapses 2015-2023; 5-year monitoring period through approximately 2030; SDP environmental management budget grew from $10.2M (FY 2021) to $55.7M (FY 2025); 18 positions added; Tetra Tech $24.2M multi-year inspection contract; Penn $100M donation pledged in 2020. As of Grid Magazine reporting in January 2026, the DPA is operationally in effect with the district under judicial oversight (UV-D13-03: the specific federal court approval date for the DPA was not surfaced and remains open). *D13 SD5 cross-references G6-SD4-02 (D6 verified 2026-05-11 — D6 MC-03 SDP AHERA DPA principal-anchor analysis, upgraded [F] LOW-MEDIUM → [D] HIGH at D6 verification) as the cross-domain primary anchor for the criminal-enforcement principal analysis; D13 retrofit does not duplicate D6's principal-anchor content.* William Penn legislative response: PA budget signed November 12, 2025 allocated $565M total — $526.4M school district adequacy gap; $32.2M tax equity supplement; $6.4M minimum-baseline funding restoration; William Penn School District received approximately $80M total. Governor Shapiro's FY 2026-27 budget proposal (February 19, 2026) includes an additional proposed $565M for adequacy; not yet enacted as of retrofit date. The Education Law Center December 2025 analysis: $4.6-6.2B initial adequacy gap; approximately $1B invested across 2024-25 and 2025-26 budgets; approximately $3.8B remaining adequacy gap (G13-SD5-02 [D] HIGH on figures; HIGH on structural relationship between operating and capital adequacy). PlanCon 2.0 (Act 70 of 2019) authorized but unfunded; existing program administers approximately 2,800 pre-moratorium bonds for approximately 430 districts at approximately $235M annual cost; November 2025 budget included $125M for school facilities not formally tied to William Penn formula; PSFIG (Public School Facility Improvement Grant Program) operates with $500K-$5M grants at 25% local match per Act 34 of 2023 amended by Act 54 of 2024 and Act 45 of 2025 (G13-SD5-03 [D] HIGH on PlanCon 2.0 unfunded; PSFIG operational). SDP "Accelerating Opportunity" Facilities Master Plan: $3B investment, 169 modernizations, 17 closures, 6 colocations; April 23, 2026 vote postponed to April 30, 2026 (UV-D13-04: vote outcome not yet known as of this verification pass). SDP estimated maintenance backlog: ~$7B per PFT President Steinberg, 2024. Title VI cumulative-impact analysis for the geographic distribution of building-condition concentration is structurally analogous to G13-SD3-01 for HIN (G13-SD5-04 [D] HIGH on structural feature; MEDIUM on analytical capacity). Anchor institution / SDP environmental management support transparency — the specific operational mechanism by which Penn's $100M flows to SDP is not fully documented (G13-SD5-05 [D] HIGH on documented overall figures; MEDIUM on Penn support arrangement). Federal IIJA cross-cutting school capital programs limited; OBBBA-attributable further narrowing (G13-SD5-06 [D] HIGH on structural absence; HIGH on OBBBA narrowing).
+**5. School building condition, William Penn legislative response, and AHERA federal-criminal floor operate simultaneously on SDP without integrated funding architecture (SD5).** *Verification update (2026-05-11): MC-07 reformats prior-method content on the AHERA Deferred Prosecution Agreement; MC-05 captures the November 12, 2025 PA FY 2025-26 budget William Penn legislative response; cross-reference D6 G6-SD4-02 as cross-domain principal anchor; see principal anchor at SD5 Section 2.* The structural finding is that two parallel federal-state-local mandate streams — AHERA federal-criminal floor and William Penn (PA Commonwealth Court February 7, 2023; final July 2023) state constitutional adequacy — operate simultaneously on SDP without integrated funding architecture (<a id="g13-sd5-01"></a>G13-SD5-01 [D] HIGH on AHERA federal compliance financing absence). AHERA Deferred Prosecution Agreement: filed June 26, 2025 by U.S. Attorney David Metcalf (EDPA; *Standard 13.C v2.2 carve-out: in official capacity per DOJ filing*) following five-year EDPA / DOJ Environmental Crimes / EPA-CID investigation; 8 criminal counts AHERA, 7 schools cited for failed three-year inspections + 1 school for failed six-month inspection; 31 schools with documented lapses 2015-2023; 5-year monitoring period through approximately 2030; SDP environmental management budget grew from $10.2M (FY 2021) to $55.7M (FY 2025); 18 positions added; Tetra Tech $24.2M multi-year inspection contract; Penn $100M donation pledged in 2020. As of Grid Magazine reporting in January 2026, the DPA is operationally in effect with the district under judicial oversight (UV-D13-03: the specific federal court approval date for the DPA was not surfaced and remains open). *D13 SD5 cross-references G6-SD4-02 (D6 verified 2026-05-11 — D6 MC-03 SDP AHERA DPA principal-anchor analysis, upgraded [F] LOW-MEDIUM → [D] HIGH at D6 verification) as the cross-domain primary anchor for the criminal-enforcement principal analysis; D13 retrofit does not duplicate D6's principal-anchor content.* William Penn legislative response: PA budget signed November 12, 2025 allocated $565M total — $526.4M school district adequacy gap; $32.2M tax equity supplement; $6.4M minimum-baseline funding restoration; William Penn School District received approximately $80M total. Governor Shapiro's FY 2026-27 budget proposal (February 19, 2026) includes an additional proposed $565M for adequacy; not yet enacted as of retrofit date. The Education Law Center December 2025 analysis: $4.6-6.2B initial adequacy gap; approximately $1B invested across 2024-25 and 2025-26 budgets; approximately $3.8B remaining adequacy gap (<a id="g13-sd5-02"></a>G13-SD5-02 [D] HIGH on figures; HIGH on structural relationship between operating and capital adequacy). PlanCon 2.0 (Act 70 of 2019) authorized but unfunded; existing program administers approximately 2,800 pre-moratorium bonds for approximately 430 districts at approximately $235M annual cost; November 2025 budget included $125M for school facilities not formally tied to William Penn formula; PSFIG (Public School Facility Improvement Grant Program) operates with $500K-$5M grants at 25% local match per Act 34 of 2023 amended by Act 54 of 2024 and Act 45 of 2025 (<a id="g13-sd5-03"></a>G13-SD5-03 [D] HIGH on PlanCon 2.0 unfunded; PSFIG operational). SDP "Accelerating Opportunity" Facilities Master Plan: $3B investment, 169 modernizations, 17 closures, 6 colocations; April 23, 2026 vote postponed to April 30, 2026 (UV-D13-04: vote outcome not yet known as of this verification pass). SDP estimated maintenance backlog: ~$7B per PFT President Steinberg, 2024. Title VI cumulative-impact analysis for the geographic distribution of building-condition concentration is structurally analogous to G13-SD3-01 for HIN (<a id="g13-sd5-04"></a>G13-SD5-04 [D] HIGH on structural feature; MEDIUM on analytical capacity). Anchor institution / SDP environmental management support transparency — the specific operational mechanism by which Penn's $100M flows to SDP is not fully documented (<a id="g13-sd5-05"></a>G13-SD5-05 [D] HIGH on documented overall figures; MEDIUM on Penn support arrangement). Federal IIJA cross-cutting school capital programs limited; OBBBA-attributable further narrowing (<a id="g13-sd5-06"></a>G13-SD5-06 [D] HIGH on structural absence; HIGH on OBBBA narrowing).
 
-**6. Parks system stewardship gaps and federal LWCF architecture combine to produce a high-access (95% within 10-minute walk), unequal-quality (14% / 36% equity gaps) park-and-recreation system whose post-Justice40 federal equity-targeting capacity has thinned (SD6).** Philadelphia Parks & Recreation (PPR) manages 10,200 acres including the merged Fairmount Park (Fairmount Park Commission established 1867-68 by PA legislature; merged into PPR via charter amendment ratified November 4, 2008, effective 2010; Phila Code § 5-601 establishes a Commission on Parks and Recreation as advisory). Roads and drives in Fairmount Park are managed by the Streets Department (Phila Code § 5-500). Federal park funding architecture: NPS via LWCF state grants administered by PA DCNR; ORLP for urban areas (50% match, jurisdictions of at least 50,000 with priority to economically disadvantaged areas with low outdoor recreation access); NPS technical assistance via the Rivers, Trails, and Conservation Assistance Program. LWCF received Great American Outdoors Act mandatory $900M annual funding (signed August 4, 2020); the Administration's FY 2026 budget proposed a 43% diversion (~$387M) and a 90% cut to federal-side projects, but the Congressional Interior and Environment Appropriations Subcommittee (Chair Mike Simpson R-ID-2 / Ranking Member Chellie Pingree D-ME-2) protected LWCF integrity in the FY 2026 Interior and Environment Appropriations Bill (per LWCF Coalition praise, July 22, 2025; *Standard 13.C v2.2 carve-out: Reps. Simpson and Pingree in committee leadership roles per LWCF Coalition citation*). FDR Park: 2019 master plan released ($250M total); $50M city commitment announced October 2021 (5-year distribution); $111M+ in public/private funds invested since 2022 groundbreaking; $1M Comcast NBCUniversal Foundation contribution announced April 2026; 2023 Econsult study projected >$500M generated economic activity. PPR Commissioner Susan Slawson; Director of Planning, Preservation and Property Management Leigh Ann Campbell (*Standard 13.C v2.2 carve-out: in official capacities per phila.gov*). TPL ParkScore documents 14% / 36% park access and investment equity gaps in PA-3 (G13-SD6-01 [D] HIGH on documented figures; HIGH on access-quality-vs-presence distinction); tree canopy ranges from under 5% to over 45% across sub-areas with documented heat-island differentials reaching ~22°F (G13-SD6-02 [D] HIGH); ~73,860 residents without nearby park access (G13-SD6-03 [D] HIGH on figure; MEDIUM on geographic distribution). LWCF/ORLP equity-targeting structural limitation under thinned federal EJ administrative architecture (G13-SD6-04 [D] HIGH on structural feature; HIGH on post-Justice40 administrative change per MC-03). Federal IRA Forest Service urban canopy program narrowed under OBBBA (G13-SD6-05 [D] HIGH on program existence and OBBBA narrowing; LOW on PA-3-specific obligated/unobligated status). Pool operations and seasonal staffing capacity General Fund-vulnerable (G13-SD6-06 [D] HIGH on structural feature; LOW on current operational specifics). *Cross-reference D6 verified file (2026-05-11) SD6 for Wissahickon Watershed and John Heinz NWR conservation-partnership content; D13 retrofit aligns with D6 SD6 reciprocally without duplicating D6's conservation principal-anchor content.*
+**6. Parks system stewardship gaps and federal LWCF architecture combine to produce a high-access (95% within 10-minute walk), unequal-quality (14% / 36% equity gaps) park-and-recreation system whose post-Justice40 federal equity-targeting capacity has thinned (SD6).** Philadelphia Parks & Recreation (PPR) manages 10,200 acres including the merged Fairmount Park (Fairmount Park Commission established 1867-68 by PA legislature; merged into PPR via charter amendment ratified November 4, 2008, effective 2010; Phila Code § 5-601 establishes a Commission on Parks and Recreation as advisory). Roads and drives in Fairmount Park are managed by the Streets Department (Phila Code § 5-500). Federal park funding architecture: NPS via LWCF state grants administered by PA DCNR; ORLP for urban areas (50% match, jurisdictions of at least 50,000 with priority to economically disadvantaged areas with low outdoor recreation access); NPS technical assistance via the Rivers, Trails, and Conservation Assistance Program. LWCF received Great American Outdoors Act mandatory $900M annual funding (signed August 4, 2020); the Administration's FY 2026 budget proposed a 43% diversion (~$387M) and a 90% cut to federal-side projects, but the Congressional Interior and Environment Appropriations Subcommittee (Chair Mike Simpson R-ID-2 / Ranking Member Chellie Pingree D-ME-2) protected LWCF integrity in the FY 2026 Interior and Environment Appropriations Bill (per LWCF Coalition praise, July 22, 2025; *Standard 13.C v2.2 carve-out: Reps. Simpson and Pingree in committee leadership roles per LWCF Coalition citation*). FDR Park: 2019 master plan released ($250M total); $50M city commitment announced October 2021 (5-year distribution); $111M+ in public/private funds invested since 2022 groundbreaking; $1M Comcast NBCUniversal Foundation contribution announced April 2026; 2023 Econsult study projected >$500M generated economic activity. PPR Commissioner Susan Slawson; Director of Planning, Preservation and Property Management Leigh Ann Campbell (*Standard 13.C v2.2 carve-out: in official capacities per phila.gov*). TPL ParkScore documents 14% / 36% park access and investment equity gaps in PA-3 (<a id="g13-sd6-01"></a>G13-SD6-01 [D] HIGH on documented figures; HIGH on access-quality-vs-presence distinction); tree canopy ranges from under 5% to over 45% across sub-areas with documented heat-island differentials reaching ~22°F (<a id="g13-sd6-02"></a>G13-SD6-02 [D] HIGH); ~73,860 residents without nearby park access (<a id="g13-sd6-03"></a>G13-SD6-03 [D] HIGH on figure; MEDIUM on geographic distribution). LWCF/ORLP equity-targeting structural limitation under thinned federal EJ administrative architecture (<a id="g13-sd6-04"></a>G13-SD6-04 [D] HIGH on structural feature; HIGH on post-Justice40 administrative change per MC-03). Federal IRA Forest Service urban canopy program narrowed under OBBBA (<a id="g13-sd6-05"></a>G13-SD6-05 [D] HIGH on program existence and OBBBA narrowing; LOW on PA-3-specific obligated/unobligated status). Pool operations and seasonal staffing capacity General Fund-vulnerable (<a id="g13-sd6-06"></a>G13-SD6-06 [D] HIGH on structural feature; LOW on current operational specifics). *Cross-reference D6 verified file (2026-05-11) SD6 for Wissahickon Watershed and John Heinz NWR conservation-partnership content; D13 retrofit aligns with D6 SD6 reciprocally without duplicating D6's conservation principal-anchor content.*
 
-**7. Federal funding architecture operates as channel-specific structure with documented mid-cycle vulnerability and authorization-to-disbursement gap as recurring features (SD7).** *Verification update (2026-05-11): MC-01 reformats prior-method content on P.L. 119-75 transfers (FY 2026 IIJA mechanism); MC-02 reformats IIJA reauthorization status; MC-03 reformats Justice40 framework revocation broader scope; see principal anchor at SD7 Section 2.* The federal infrastructure funding architecture for PA-3 operates through the Spending Clause (U.S. Const. art. I, § 8, cl. 1) with the 14th Amendment Equal Protection Clause grounding Title VI as cross-cutting equity overlay and the Tenth Amendment establishing the federalism framework. IIJA (P.L. 117-58) is the operative authorization expiring September 30, 2026; as of May 2026, no reauthorization bill has been introduced (G13-SD7-01 [D] HIGH on no-bill status; HIGH on reauthorization as most consequential near-term federal lever). OBBBA (P.L. 119-21, July 4, 2025) restructured the IRA-funded portion of the federal infrastructure-program horizon (Greenhouse Gas Reduction Fund statutory authority repealed; Environmental Justice Block Grants eliminated; Climate Pollution Reduction Grants eliminated; Neighborhood Access and Equity rescinded; IRA $100M environmental review repealed; Low-Carbon Transportation Materials $1.9B unobligated rescinded; Clean Heavy-Duty Vehicles ~$454M unobligated rescinded; methane emissions fee repealed for 10 years; EV credits phased out September 2025; EV charging June 2026; municipal bond tax-exempt status preserved; LIHTC +12% for 9% credits; new 125% optional fee for expedited NEPA review). P.L. 119-75 (Consolidated Appropriations Act, 2026, signed February 3, 2026 ending the partial government shutdown) transferred approximately $2.3B in unobligated IIJA balances rather than purely rescinding them (G13-SD7-03 [D] HIGH on mid-cycle rescission/transfer pattern; HIGH on OBBBA program-horizon narrowing). Justice40 framework dismantled in early 2025: EO 14008 (2021), EO 12898 (1994), and EO 14096 (2023) all revoked; all 10 EPA regional environmental justice offices closed; EJScreen restricted in enforcement and compliance; $1B IRA environmental justice community grants targeted (G13-SD7-02 [D] HIGH on policy change; HIGH on federal administrative architecture thinning; MEDIUM on cumulative implementation effects). The federal architecture's variability operates through four parallel channels — direct-recipient (SEPTA, City CDBG, PWD direct EPA, SDP federal operating, PHA HUD, PHL Airport FAA), state-pass-through (PennDOT/FHWA; PA DEP/PENNVEST/EPA; DCNR/LWCF), competitive-grant (FTA Section 5309 CIG, IIJA discretionary programs, ORLP, EPA Brownfields, Stafford Act competitive), cross-jurisdictional (Eastwick / Cobbs Creek; Wissahickon Watershed; John Heinz NWR boundary-adjacent) — with competitive programs the most administratively variable, and the Justice40 revocation specifically affecting competitive-grant equity-targeting criteria. Federal-criminal-floor enforcement without federal compliance financing operates across AHERA (SD5), SDWA without federal water-affordability program (SD2), ADA Title II without dedicated federal compliance financing for municipalities (SD1, SD3), LCRR/LCRI requirements with limited customer-side replacement financing (SD2) (G13-SD7-04 [D] HIGH). Authorization-to-disbursement gap as structural feature (G13-SD7-05 [D] HIGH on structural feature; MEDIUM on rate of change between cycles). Cross-jurisdictional coordination requirements at Eastwick / Cobbs Creek with PA-5 and Wissahickon Watershed boundary-adjacent dynamics with PA-4 (G13-SD7-06 [D] HIGH on structural feature; MEDIUM on current representational expression). PA-3 specific federal funding aggregate data gap (G13-SD7-07 [D] HIGH on data architecture; LOW on integrated PA-3 aggregate detail).
+**7. Federal funding architecture operates as channel-specific structure with documented mid-cycle vulnerability and authorization-to-disbursement gap as recurring features (SD7).** *Verification update (2026-05-11): MC-01 reformats prior-method content on P.L. 119-75 transfers (FY 2026 IIJA mechanism); MC-02 reformats IIJA reauthorization status; MC-03 reformats Justice40 framework revocation broader scope; see principal anchor at SD7 Section 2.* The federal infrastructure funding architecture for PA-3 operates through the Spending Clause (U.S. Const. art. I, § 8, cl. 1) with the 14th Amendment Equal Protection Clause grounding Title VI as cross-cutting equity overlay and the Tenth Amendment establishing the federalism framework. IIJA (P.L. 117-58) is the operative authorization expiring September 30, 2026; as of May 2026, no reauthorization bill has been introduced (<a id="g13-sd7-01"></a>G13-SD7-01 [D] HIGH on no-bill status; HIGH on reauthorization as most consequential near-term federal lever). OBBBA (P.L. 119-21, July 4, 2025) restructured the IRA-funded portion of the federal infrastructure-program horizon (Greenhouse Gas Reduction Fund statutory authority repealed; Environmental Justice Block Grants eliminated; Climate Pollution Reduction Grants eliminated; Neighborhood Access and Equity rescinded; IRA $100M environmental review repealed; Low-Carbon Transportation Materials $1.9B unobligated rescinded; Clean Heavy-Duty Vehicles ~$454M unobligated rescinded; methane emissions fee repealed for 10 years; EV credits phased out September 2025; EV charging June 2026; municipal bond tax-exempt status preserved; LIHTC +12% for 9% credits; new 125% optional fee for expedited NEPA review). P.L. 119-75 (Consolidated Appropriations Act, 2026, signed February 3, 2026 ending the partial government shutdown) transferred approximately $2.3B in unobligated IIJA balances rather than purely rescinding them (<a id="g13-sd7-03"></a>G13-SD7-03 [D] HIGH on mid-cycle rescission/transfer pattern; HIGH on OBBBA program-horizon narrowing). Justice40 framework dismantled in early 2025: EO 14008 (2021), EO 12898 (1994), and EO 14096 (2023) all revoked; all 10 EPA regional environmental justice offices closed; EJScreen restricted in enforcement and compliance; $1B IRA environmental justice community grants targeted (<a id="g13-sd7-02"></a>G13-SD7-02 [D] HIGH on policy change; HIGH on federal administrative architecture thinning; MEDIUM on cumulative implementation effects). The federal architecture's variability operates through four parallel channels — direct-recipient (SEPTA, City CDBG, PWD direct EPA, SDP federal operating, PHA HUD, PHL Airport FAA), state-pass-through (PennDOT/FHWA; PA DEP/PENNVEST/EPA; DCNR/LWCF), competitive-grant (FTA Section 5309 CIG, IIJA discretionary programs, ORLP, EPA Brownfields, Stafford Act competitive), cross-jurisdictional (Eastwick / Cobbs Creek; Wissahickon Watershed; John Heinz NWR boundary-adjacent) — with competitive programs the most administratively variable, and the Justice40 revocation specifically affecting competitive-grant equity-targeting criteria. Federal-criminal-floor enforcement without federal compliance financing operates across AHERA (SD5), SDWA without federal water-affordability program (SD2), ADA Title II without dedicated federal compliance financing for municipalities (SD1, SD3), LCRR/LCRI requirements with limited customer-side replacement financing (SD2) (<a id="g13-sd7-04"></a>G13-SD7-04 [D] HIGH). Authorization-to-disbursement gap as structural feature (<a id="g13-sd7-05"></a>G13-SD7-05 [D] HIGH on structural feature; MEDIUM on rate of change between cycles). Cross-jurisdictional coordination requirements at Eastwick / Cobbs Creek with PA-5 and Wissahickon Watershed boundary-adjacent dynamics with PA-4 (<a id="g13-sd7-06"></a>G13-SD7-06 [D] HIGH on structural feature; MEDIUM on current representational expression). PA-3 specific federal funding aggregate data gap (<a id="g13-sd7-07"></a>G13-SD7-07 [D] HIGH on data architecture; LOW on integrated PA-3 aggregate detail).
 
 ## Synthesis Section 2: The Aggregate Finding
 
@@ -581,7 +629,7 @@ The Philadelphia transit system is the primary mobility infrastructure for most 
 
 *U.S. Const. art. I, § 8, cl. 1 — Spending Clause.* Grounds federal financial assistance to state water programs (DWSRF, CWSRF capitalization grants; WIIN, WIFIA programs). *Statutory stability: HIGH. Administrative vulnerability: N/A.*
 
-*U.S. Const. amend. XIV § 1 — Equal Protection Clause.* Grounds Title VI environmental justice review applied to federally-supported water infrastructure investment. *Statutory stability: HIGH. Administrative vulnerability: HIGH (post-2025 federal EJ administrative architecture thinning per MC-03 affects implementation; statutory floor preserved per G13-SD2-07).*
+*U.S. Const. amend. XIV § 1 — Equal Protection Clause.* Grounds Title VI environmental justice review applied to federally-supported water infrastructure investment. *Statutory stability: HIGH. Administrative vulnerability: HIGH (post-2025 federal EJ administrative architecture thinning per MC-03 affects implementation; statutory floor preserved per <a id="g13-sd2-07"></a>G13-SD2-07).*
 
 *PA Const. art. I § 27 (Environmental Rights Amendment).* Ratified May 18, 1971. Provides three operative components: (1) the people's right to clean air, pure water, and preservation of environmental values; (2) the common-property status of public natural resources, including waters; (3) the Commonwealth as trustee of these resources, obligated to conserve and maintain them. After decades of dormancy under the *Payne v. Kassab* balancing-test doctrine, the Pennsylvania Supreme Court in *Robinson Township, Delaware Riverkeeper Network, et al. v. Commonwealth*, 83 A.3d 901 (Pa. 2013) reinvigorated Article I § 27 as a substantive constitutional limit on state action affecting environmental rights. For water infrastructure, this means that state action affecting drinking water quality, surface water quality, or stormwater management is subject to substantive constitutional review — not merely the procedural balancing of *Payne v. Kassab*. *Statutory stability: HIGH (constitutional provision). Administrative vulnerability: LOW for the trust doctrine itself; variable for specific applications.*
 
@@ -2185,115 +2233,880 @@ This section identifies the cross-domain threads, reciprocal cross-references, a
 
 # D13 Physical Infrastructure — Citation Registry
 
-The Citation Registry preserves the prior-method 45 entries (S001-S045) supporting the D13 verified architecture. Entries grouped thematically per D9 verified file precedent.
-
-**Category A — Federal Authorization and Reauthorization Architecture (S001-S010, S039, S041):** IIJA P.L. 117-58 authorization; P.L. 119-75 transfers; reauthorization-trajectory context; OBBBA P.L. 119-21 infrastructure provisions. Principal CRS reports: R48845, R48644, R48728, R48881.
-
-**Category B — Transit / SEPTA Architecture (S011-S017, S025, S034, S037, S038):** SEPTA funding crisis architecture; Shapiro administration capital-to-operating transfer pattern; legislative budget trajectory; class-action and discriminatory-impact litigation; Trolley Modernization and KOP Rail capital programs.
-
-**Category C — Water / PWD Architecture (S021-S022, S027-S030):** PWD FY26 budget and rate trajectory; Green City Clean Waters / PADEP COA architecture; lead service line inventory and notification architecture; pilot Service Line Replacement Program; LCRR/LCRI federal architecture.
-
-**Category D — School Buildings / SDP Architecture (S018-S020, S026, S036, S040):** AHERA DPA architecture; SDP "Accelerating Opportunity" plan; environmental management budget and staffing growth.
-
-**Category E — Federal Agency / Administrative Architecture (S031-S033):** FTA Region III / national leadership; EPA national leadership; Sanitation/Streets Department split architecture; OCGI Director Carlton Williams.
-
-**Category F — Environmental Justice / Justice40 Retraction Architecture (S023-S024):** GAO documentation of Justice40 termination; EO 12898 and EO 14096 revocation; EPA regional EJ office closures; EJScreen tool prohibition.
-
-**Category G — Roads / Bridges / Vision Zero Architecture (S035):** Vision Zero Action Plan 2030 release; HIN / UC metric architecture; Roosevelt Boulevard speed cameras; Complete Streets project outcomes.
-
-**Category H — Federal Capital Program Architecture (S042-S045):** LWCF FY 2026 status and GAOA permanent funding; HUD CDBG/HOME FY26 status and Philadelphia CDBG-DR; PHA MTW federal-flow architecture; Philadelphia parks system federal architecture and FDR Park investments.
+Normalized 2026-05-22. S-NN format per site-references-formatting-guide.md § "Citation Registry — normalized template" (locked 2026-05-22). 60 entries (S-01 through S-60) organized by source type across five categories. Pre-normalization registry had 45 entries (S001–S045); S009 retired (duplicate of S-01); S036 retired (superseded by S-17 + S-51). TC sidecar retains original S-IDs unchanged.
 
 ---
 
-**S001 — CRS R48845, *Surface Transportation Reauthorization: Federal Highway Programs*** (Congressional Research Service, ~February 2026, with April 2, 2026 footnote on FY26 inflation adjustment). https://www.congress.gov/crs-product/R48845. Accessed 2026-04-27. Supports: IIJA P.L. 117-58 authorizations expire September 30, 2026; data does not yet reflect P.L. 119-75 rescissions; all prior surface transportation acts (ISTEA, TEA-21, SAFETEA, MAP-21, FAST Act) expired before reauthorization; HTF highway account balance projected near zero in FY 2028; IIJA's average annual funding 62% higher than FAST Act in nominal dollars but below FY 2005 in inflation-adjusted purchasing power.
+## Category D — Federal Agency Materials
 
-**S002 — CRS R48644, *Surface Transportation Reauthorization: Public Transportation*** (Congressional Research Service). https://www.congress.gov/crs-product/R48644. Accessed 2026-04-27. Supports: IIJA authorizations FY 2022-FY 2026; ~67% increase in nominal annual funding vs. FAST Act; CIG general fund authorizations ($1.6B/year appropriated; additional $3.0B/year subject to appropriation); 2023 mode share (~50% bus, 36% heavy rail, 5% light rail, 4% commuter rail, 2% paratransit, 2% other); statutory definition (49 U.S.C. § 5302) excludes Amtrak, intercity buses, school buses.
+CRS reports, GAO studies, Federal Register entries, and federal agency organizational pages.
 
-**S003 — Caltrans, *IIJA Reauthorization page*** (California Department of Transportation). https://dot.ca.gov/programs/federal-liaison/reauthorization. Accessed 2026-04-27. Supports: IIJA $550B over FY 2022-FY 2026 in new investment; April 2, 2025 USDOT Secretary perspective hearing on reauthorization.
+---
 
-**S004 — AMPO, *Roadmap to Reauthorization*** (Association of Metropolitan Planning Organizations). https://ampo.org/policy/reauthorization/. Accessed 2026-04-27. Supports: BASICS Act (Bridges and Safety Infrastructure for Community Success Act) introduced February 9, 2026 by Reps. Rob Bresnahan (R-PA) and Kristen McDonald Rivet (D-MI).
+<a id="s-01"></a>
+#### S-01 — CRS R48845: Surface Transportation Reauthorization — Federal Highway Programs [VERIFIED]
 
-**S005 — Transportation for America, *Here's How We Will Grade the Next Surface Reauthorization Bill*** (April 8, 2026). https://t4america.org/2026/04/08/heres-how-we-will-grade-the-next-surface-reauthorization-bill/. Accessed 2026-04-27. Supports: As of April 8, 2026, no draft of next surface transportation reauthorization released; federal surface transportation spending over past 30 years approximately $1.5 trillion.
+**Citation:** Congressional Research Service, R48845. *Surface Transportation Reauthorization: Federal Highway Programs.* ~February 2026, with April 2, 2026 footnote on FY26 inflation adjustment. Accessed 2026-04-27.
 
-**S006 — Gresham Smith, *Transportation Reauthorization 2026: Preparing for Change and Opportunity*** (October 2025). https://www.greshamsmith.com/news-and-insights/transportation-reauthorization-2026-preparing-for-change-and-opportunity/. Accessed 2026-04-27. Supports: Standard mechanism if no reauthorization by October 1: Congressional extensions carrying forward IIJA funding levels and requirements; USDOT issued nationwide call for feedback July 2025.
+**URL:** https://www.congress.gov/crs-product/R48845
 
-**S007 — Funding Landscape, *Infrastructure and IIJA Funding in 2026*** (February 18, 2026). https://fundinglandscape.com/answers/infrastructure-iija-funding-2026. Accessed 2026-04-27. Supports: FY 2026 spending legislation rescinded over $2.3B in previously allocated IIJA funds; NEVI cuts $503.8M formula + $300M competitive + $75M Joint Office (~$879M total); NEVI rescission proportional to each state's unobligated balance per FHWA Notice N4510.909; federal court ruled DOT had illegally withheld NEVI funds earlier in 2025; IIJA $1.2T total / $550B in new investment; ~$568B (47%) allocated to ~68,000 projects nationwide as of late 2025; BEAD broadband 50/56 plans approved (intact); IIJA Grid Resilience and Innovation Partnerships $10.5B authorized.
+**Supports claims:** MC-01, MC-02
 
-**S008 — NACTO, *What the Recently Passed Federal Funding Package Means for Cities*** (February 12, 2026). https://nacto.org/latest/what-the-recently-passed-federal-funding-package-means-for-cities/. Accessed 2026-04-27. Supports: P.L. 119-75 / H.R. 7148 signed February 3, 2026 by Trump; bill ended partial government shutdown; repurposes $1B in advance appropriations for highway infrastructure including $800M+ from NEVI; $1.5B in earmarks (bridges, transit, EV charging, safety, complete streets); Reconnecting Communities Program funded at $30M (15% of $200M obligated for FY 2026).
+**Verification status:** VERIFIED
 
-**S009 — CRS R48845 (II)*, Surface Transportation Reauthorization*** (CRS, February 5, 2026 with April 2 footnote). https://www.congress.gov/crs-product/R48845. Accessed 2026-04-27. Supports: 2026 THUD Act transfers ~$1.5B unobligated funds from NEVI Program and Reduction of Truck Emissions at Port Facilities Program to Tribal Transportation Program, INFRA, and Reconnecting Communities Program; INFRA, Bridge Investment Program, PROTECT Formula and Discretionary Programs — 2026 THUD rescinds unobligated FY 2023 funds and makes them available in FY 2026, extending obligation period through FY 2031; IIJA was first surface transportation authorization to include multiyear advance appropriations.
+**Notes:** Pre-normalization IDs: S001, S009. S009 (duplicate entry citing same report and URL) merged into this entry; S009 content on THUD Act fund transfers absorbed into Supports claims here.
 
-**S010 — CRS R48728, *THUD FY 2026 Appropriations*** (CRS, ~April 2026). https://www.congress.gov/crs-product/R48728. Accessed 2026-04-27. Supports: P.L. 119-75 IIJA transfers totaling $2.3B; $1.469B to FHWA-Highway Infrastructure Programs by transfer from IIJA accounts; $129M to NHTSA-Operations and Research; CRISI rail program $137M total in FY 2026 with $130M (95%) from IIJA unobligated balances and only $7M new appropriation (93% less than FY 2025).
+---
+<a id="s-02"></a>
+#### S-02 — CRS R48644: Surface Transportation Reauthorization — Public Transportation [VERIFIED]
 
-**S011 — SEPTA, *Funding Crisis page*** (SEPTA). https://wwww.septa.org/fundingcrisis/. Accessed 2026-04-27. Supports: SEPTA FY 2026 deficit $213M (reduced from $240M after $30M+ austerity savings); service cut waves August 24, 2025 first / January 2026 second wave (planned); Capital Budget gap $2B in projects deferred; service stabilization fund balance ~$396M.
+**Citation:** Congressional Research Service, R48644. *Surface Transportation Reauthorization: Public Transportation.* Accessed 2026-04-27.
 
-**S012 — PA Governor's Office, *Shapiro Administration Approves SEPTA $394M Capital Funding*** (September 8, 2025). https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-approves-septa--394-million-capital-funding-mainta. Accessed 2026-04-27. Supports: Shapiro approved use of up to $394M of SEPTA's FY 2025-26 capital assistance allocation that had yet to be obligated for operating purposes (NOT redirected PTTF dollars or PennDOT capital flex); action prevented further service cuts through 2026 high-profile events; SEPTA serves nearly 800,000 Pennsylvanians daily including 52,000 SDP students; PennDOT instructed SEPTA to report every 120 days on efficiency progress; Shapiro's prior actions: $80M additional 2024-25 budget; $153M federal highway flex late 2024.
+**URL:** https://www.congress.gov/crs-product/R48644
 
-**S013 — PA Governor's Office, *Gov. Shapiro Directs $219.9M Additional Capital Funding to SEPTA*** (November 24, 2025). https://www.pa.gov/governor/newsroom/2025-press-releases/gov-shapiro-directs--219-9-million-in-additional-capital-funding. Accessed 2026-04-27. Supports: Shapiro directed PennDOT Secretary Mike Carroll to allocate $219.9M for Silverliner IV safety upgrades, restoring full Regional Rail service, federal safety order compliance; Senate Republicans refused to support long-term recurring transit funding in 2025-26 budget; positions SEPTA to maintain Regional Rail fleet for next 10 years.
+**Supports claims:** MC-02
 
-**S014 — *Inquirer*, *Pennsylvania state budget passes without SEPTA funding*** (November 14, 2025). https://www.inquirer.com/politics/pennsylvania/septa-funding-pennsylvania-state-budget-20251114.html. Accessed 2026-04-27. Supports: PA budget signed November 12, 2025; $50.1B; no new transit funding; Day 135 of impasse; Common Pleas Court judge ordered SEPTA service rollback per discriminatory-impact lawsuit; SEPTA receives $1B from state annually (67% of operating budget).
+**Verification status:** VERIFIED
 
-**S015 — *Inquirer*, *Judge orders SEPTA to reverse service cuts*** (September 4, 2025). https://www.inquirer.com/transportation/septa-cuts-reversal-judge-lawsuit-20250904.html. Accessed 2026-04-27. Supports: Judge Sierra Thomas-Street, Philadelphia Court of Common Pleas, September 4, 2025; ordered SEPTA to immediately reverse all service cuts (32 bus routes eliminated, 16 shortened, ~20% across-the-board); applies to route cuts, service reductions, staffing reductions but NOT fare increases; agency barred from new cuts; plaintiffs Lance Haver and two riders represented by attorney George Bochetto (Bochetto & Lentz); lawsuit filed late August 2025.
+**Notes:** Pre-normalization ID: S002. Also bundled in S039 (pre-norm); that cross-reference resolved to this entry.
 
-**S016 — WHYY, *SEPTA service restored after court order*** (September 4-5, 2025). https://whyy.org/articles/septa-services-restored-judge/. Accessed 2026-04-27. Supports: Lawsuit theory — cuts and fare hikes disproportionately burden Black, Latino, low-income riders while sparing Regional Rail predominantly serving wealthier suburban commuters; restoration took ~2 weeks; September 14, 2025 full service restored AND 21.5% fare increase took effect simultaneously.
+---
+<a id="s-03"></a>
+#### S-03 — CRS R48728: THUD FY 2026 Appropriations [VERIFIED]
 
-**S017 — *Inquirer*, *SEPTA fare class-action lawsuit*** (October 8, 2025). https://www.inquirer.com/transportation/septa-fare-lawsuit-george-bochetto-20251008.html. Accessed 2026-04-27. Supports: October 8, 2025 Bochetto filed proposed class action against SEPTA over fare increases seeking refunds of 21.5% increase; SEPTA appealed September injunction in Commonwealth Court; SEPTA restored service after PennDOT approval of capital funds for operating expenses.
+**Citation:** Congressional Research Service, R48728. *Transportation, Housing and Urban Development, and Related Agencies: FY2026 Appropriations.* ~April 2026. Accessed 2026-04-27.
 
-**S018 — K-12 Dive, *Philadelphia School District agrees to monitoring to defer criminal prosecution under AHERA*** (July 7, 2025). https://www.k12dive.com/news/philadelphia-school-district-agrees-to-monitoring-to-defer-criminal-prosecu/752087/. Accessed 2026-04-27. Supports: AHERA DPA filed June 26, 2025; pending court approval at time of article; 5-year monitoring period; ~300 buildings, most decades old, majority containing asbestos; environmental management budget $10.2M (FY 2021) → $55.7M (FY 2025); environmental staff 21 → 39; $24.2M Tetra Tech multi-year inspection contract; $100M Penn donation; first U.S. school district criminally charged under AHERA; Frankford High closure for damaged asbestos with $20M renovation.
+**URL:** https://www.congress.gov/crs-product/R48728
 
-**S019 — NBC10, *Philadelphia School District AHERA charges*** (June 27, 2025). https://www.nbcphiladelphia.com/news/local/philadelphia-school-district-charges-asbestos-report-inspection-doj-u-s-attorney/4220397/. Accessed 2026-04-27. Supports: U.S. Attorney David Metcalf (EDPA) confirmed; 8 counts (against 7 schools): 7 for failing 3-year inspections at specific schools, 1 for failing 6-month inspections; 5-year DOJ/EPA-CID investigation; DPA waives grand jury indictment.
+**Supports claims:** MC-01, MC-02
 
-**S020 — Sokolove Law, *Criminal Charges for Asbestos in Philadelphia Schools*** (~July 2025). https://www.sokolovelaw.com/blog/criminal-charges-for-asbestos-in-philadelphia-schools/. Accessed 2026-04-27. Supports: Investigation alleges failure to inspect, report, address damaged asbestos at 31 schools June 2018-April 2023.
+**Verification status:** VERIFIED
 
-**S021 — PWD, *FY 2026 Budget Hearings Testimony, Water*** (April 2, 2025). https://phlcouncil.com/wp-content/uploads/2025/04/FY26-Budget-Hearings-Testimony_Water.pdf. Accessed 2026-04-27. Supports: PWD FY 2026 budget $640,495,206 (+$71,232,004 over FY 2025); rate increases filed February 18, 2025 (Advanced Notice), effective September 1, 2025 and September 1, 2026; 80,709 customers in income-based water bill assistance programs (TAP, SCD) as of February 28, 2025.
+**Notes:** Pre-normalization ID: S010.
 
-**S022 — Circle of Blue, *Billions Over Budget: Questions Swirl over Philly's Green Fix for Sewers*** (June 2024, still referenced in 2025). https://www.circleofblue.org/2024/supply/water-management/billions-over-budget-questions-swirl-over-phillys-green-fix-for-sewers/. Accessed 2026-04-27. Supports: 2011 Consent Order & Agreement (COA) administered by PADEP, not strictly federal consent decree; Green City Clean Waters costs ballooned to ~$4.5B at halfway (~$2B over original estimates); ~6,700 acres of greened acres still to install to reach 9,500-acre 2036 target; on pace to miss 2036 target at current installation rates; ~21% improvement in sewage overflows from a decade ago (rainfall-adjusted); hit 5- and 10-year benchmarks; design lifespan revised down from 25-40 years to <20 years; 70% green / 15% gray / 15% flexible original allocation; original CSO target reduce ~13B gallons annually to ~5B gallons (8B gallon reduction at completion).
+---
+<a id="s-04"></a>
+#### S-04 — CRS R48881: IIJA Reauthorization — Framework Analysis [VERIFIED]
 
-**S023 — GAO, *Environmental Justice: Status After Justice40 Initiative Termination*** (GAO-25-107516, September 9, 2025). https://www.gao.gov/products/gao-25-107516. Accessed 2026-04-27. Supports: EO 14008 revoked January 2025; Justice40 Initiative terminated; Justice40 covered 518 programs across 16 federal agencies; DOE 165 programs covered; EPA 73-79; USDA and Interior 65 each; EPA programs ~$83.4B total FY 2022-2027 appropriations under Justice40; total federal investment under Justice40 ~$613B (FY 2022-2027 including IRA supplementals); aggregate Justice40 implementation impact metrics not reported by agencies prior to revocation.
+**Citation:** Congressional Research Service, R48881. *[Surface Transportation Reauthorization: Framework Analysis.]* Accessed 2026-04-27.
 
-**S024 — Sustainability Directory, *Federal Government Ends Environmental Justice Mandate*** (November 23, 2025). https://news.sustainability-directory.com/justice/federal-government-ends-environmental-justice-mandate-crippling-community-protection-tools/. Accessed 2026-04-27. Supports: 6 EOs revoked including foundational EO 12898 (Clinton 1994) and EO 14096 (Biden 2023, "Revitalizing Our Nation's Commitment to Environmental Justice for All"); all 10 EPA regional environmental justice offices closed; EPA's EJScreen tool prohibited from use in enforcement and compliance activities; $1B in IRA EJ community grant money targeted.
+**URL:** https://www.congress.gov/crs-product/R48881
 
-**S025 — Wikipedia, *Paoli/Thorndale Line*** (cross-check source). https://en.wikipedia.org/wiki/Paoli/Thorndale_Line. Accessed 2026-04-27. Supports: September 5, 2025 SEPTA cancelled planned service cuts due to court order; September 14 fare increase took effect; January 2026 cuts (Paoli/Thorndale + 4 other RR lines + 18 buses + 9pm curfew) were averted; Paoli/Thorndale Line highest total ridership (FY 2019: 6,170,950 passengers; 21,000 daily riders pre-pandemic).
+**Supports claims:** MC-02
 
-**S026 — Chalkbeat / NBC10 / *Inquirer* / Axios / Billy Penn, *SDP Facilities Master Plan ("Accelerating Opportunity")*** (multi-source cross-confirmation, accessed 2026-04-27). https://www.chalkbeat.org/philadelphia/2026/04/20/philly-school-board-schedules-vote-on-closure-plan/ ; https://www.nbcphiladelphia.com/news/local/school-district-of-philadelphia-facilities-master-plan-revised-recommundations/4388406/ ; https://www.fox29.com/news/philadelphia-school-board-delays-vote-3b-facilities-master-plan ; https://www.inquirer.com/education/philadelphia-school-closings-board-vote-delayed-20260423.html ; https://www.philasd.org/blog/2026/04/20/acceleratingopp26/. Supports: Plan name "Accelerating Opportunity: The School District of Philadelphia Facilities Master Plan"; final version (April 20, 2026) — 17 closures (revised from 20), 169 modernizations (revised from 159), 6 colocations, $3B (up from $2.8B); original presentation February 26, 2026 by Superintendent Tony B. Watlington Sr.; January 22, 2026 initial recommendations released; April 23, 2026 vote postponed at City Council pressure to April 30, 2026 (still pending as of 2026-04-27); City Council requested further postponement to May 28, 2026 at earliest; Mayor Parker supports plan; Streater (Reginald Streater) is board president; plan if approved would take effect school year 2027-28; Conwell Magnet Middle School and Motivation High School removed from closure list; Robeson High School to merge with Motivation site.
+**Verification status:** VERIFIED
 
-**S027 — WHYY, *Philadelphia Lead Service Line Inventory*** (December 17, 2025). https://whyy.org/articles/philadelphia-pipes-lead-water-department/. Accessed 2026-04-27. Supports: 511,000 total service lines in Philadelphia; 16,805 confirmed lead; 157,823 confirmed lead-free; 351,514 unknown material; ~1 in 20 (5%) of properties may have lead service line; ~85,000 previously-unknown lines identified since October 2024; LCRR/LCRI federal regulation requires inventory and 10-year replacement; IIJA provided $15B to help cities replace lead pipes.
+**Notes:** Pre-normalization ID: S039 (bundled). Split from S039 multi-source bundle as distinct CRS report. Title bracketed because full title not stated in pre-normalization CR; URL is authoritative.
 
-**S028 — PWD via philadelphia.today, *Service Line Notifications*** (December 5, 2025). https://philadelphia.today/2025/12/philadelphia-water-department-notifications-service-line-materials/. Accessed 2026-04-27. Supports: ~480,000 letters sent (December 2025) covering ~360,000 properties; PWD Commissioner Benjamin C. Jewell confirmed; HELP loan program (Homeowners Emergency Loan Program) zero-interest for replacing lead/galvanized service lines; annual notification mailings federally mandated under LCRR.
+---
+<a id="s-05"></a>
+#### S-05 — GAO-25-107516: Environmental Justice — Status After Justice40 Initiative Termination [VERIFIED]
 
-**S029 — PWD, *Service Line Verification Program page***. https://water.phila.gov/service-line/verification/. Accessed 2026-04-27. Supports: Service Line Verification Program limited to first 400 customers (spring/early summer 2025); several hundred properties randomly chosen; PWD does not currently offer to check buried service line materials except through this targeted program.
+**Citation:** U.S. Government Accountability Office. GAO-25-107516. *Environmental Justice: Status After Justice40 Initiative Termination.* September 9, 2025. Accessed 2026-04-27.
 
-**S030 — PWD, *Lead Plumbing page***. https://water.phila.gov/lead/. Accessed 2026-04-27. Supports: 2026 pilot Service Line Replacement Program — ~1,000 lead service lines budgeted for replacement in North and West Philadelphia; multi-decade Water Revitalization Plan to upgrade essential drinking water infrastructure.
+**URL:** https://www.gao.gov/products/gao-25-107516
 
-**S031 — FTA, *Region 3 Staff Organization page***. https://www.transit.dot.gov/about/regional-offices/region-3/region-3-staff-organization. Accessed 2026-04-27. Supports: FTA Region III Regional Administrator Theresa "Terry" Garcia Crews.
+**Supports claims:** MC-03
 
-**S032 — Federal Register / Wikipedia, *FTA + EPA Administrators*** (cross-confirmation). https://en.wikipedia.org/wiki/Administrator_of_the_Environmental_Protection_Agency. Accessed 2026-04-27. Supports: FTA national Administrator Marcus J. Molinaro (Federal Register signature January 2026); EPA national Administrator Lee Zeldin.
+**Verification status:** VERIFIED
 
-**S033 — *Inquirer* / Audacy / PHL.GOV / WHYY, *Sanitation/Streets Department Split*** (cross-confirmation). https://www.phila.gov/2025-12-19-mayor-cherelle-l-parker-details-citywide-progress-and-2026-vision-at-2025-state-of-the-city-event/ ; https://whyy.org/articles/mayor-parker-clean-and-green-cabinet-philadelphia/ ; https://www.inquirer.com/politics/philadelphia/cherelle-parker-staff-jazelle-jones-crystal-jacobs-shipman-20240205.html. February 5, 2024; May 17, 2024; December 19, 2025. Accessed 2026-04-27. Supports: Sanitation Commissioner Crystal Jacobs Shipman (full name); Streets Commissioner Kristin Del Rossi (full name); both confirmed continuing per 2025 State of the City (December 19, 2025); Sanitation/Streets split implemented via executive order + memorandum of understanding May 17, 2024; charter change required for permanent reorganization (not yet done); Carlton Williams Director, Office of Clean and Green Initiatives (former Streets Commissioner); Parker March 2024 EO directing Office of Multimodal Planning to develop Vision Zero checklists, update HIN, set goals for safety improvements every mile of HIN by 2030; the OUTPUT-referenced "EO 11-24" number is unverified — no source confirms specific EO number.
+**Notes:** Pre-normalization ID: S023.
 
-**S034 — SEPTA, *Trolley Modernization & KOP Rail*** (multiple SEPTA pages + PhillyVoice). https://wwww.septa.org/trolley-modernization/ ; https://wwww.septa.org/news/fta-grants-king-of-prussia-rail-project-entry-into-new-starts-development-phase-of-capital-investment-grant-program/ ; https://wwww.septa.org/news/koprail-trolleymod/ ; https://www.phillyvoice.com/septa-trolley-modernization-project-funding/. Accessed 2026-04-27. Supports: Trolley Modernization $714M Alstom contract for 130 ADA-compliant trolley cars (first delivery 2027; all in service by 2031); 12-year capital program phasing T Lines first, then D Lines, then G Line (construction 2024-2030); funded SEPTA capital + state Act 89 + IIJA + FTA pilot grants; FTA pilot grant of $460,000 for Route 10 corridor study; 5100 Grays Avenue (13-acre site) acquired for new trolley facility; KOP Rail (NHSL 4-mile extension into King of Prussia) is the major Section 5309 CIG project (FTA approved Project Development under New Starts October 2021; re-confirmed April 2025); $390M in SEPTA's FY 2023 capital budget for KOP Rail; SEPTA seeking up to 60% federal CIG share for KOP Rail; SEPTA GM transitions Leslie S. Richards → Scott A. Sauer ("interim" removed June 2, 2025).
+---
+<a id="s-06"></a>
+#### S-06 — FTA Region 3 Staff Organization Page [VERIFIED]
 
-**S035 — City of Philadelphia / OTIS / Cities Today / Billy Penn, *Vision Zero Action Plan 2030*** (multi-source). https://www.phila.gov/2025-11-25-city-of-philadelphia-releases-vision-zero-action-plan-2030/ ; https://visionzerophl.com/november-2025-newsletter/ ; https://cities-today.com/philadelphia-unveils-equity-driven-vision-zero-overhaul/ ; https://www.phila.gov/2025-03-24-philly-stat-360-and-vision-zero-release-new-dashboard-on-reducing-traffic-deaths-in-philadelphia/ ; https://billypenn.com/2025/11/26/philadelphia-vision-zero-2025-action-plan-released/. Accessed 2026-04-27. Supports: Vision Zero Action Plan 2030 released November 25, 2025; released by OTIS, Vision Zero Philadelphia, PDPH, Streets Department, Office of Emergency Management; per Mayor Parker March 2024 EO; new HIN — 12% of streets account for 80% of fatal/serious injury crashes (5-year crash data 2019-2023); PDPH Underserved Communities (UC) metric introduced; KSI crash rate 2.4x higher in highest-UC tracts vs lowest; ~one-third (137 miles) of HIN in highest-UC tracts; 14% (61 miles) in lowest-UC; 120 traffic deaths in 2024 (down from 123 in 2023); fatalities elevated since 2020 spike; Roosevelt Boulevard speed cameras (since 2020) — 95%+ reduction in speeding violations, 21% reduction in fatal/serious injury crashes, 50% reduction in pedestrian crashes; Complete Streets projects — 34% fewer fatal/serious injury crashes, 20% fewer total injury crashes; plan commits to safety upgrades on every mile of HIN by 2030; pilot of Intelligent Speed Assistance (ISA) in municipal fleet; five completed neighborhood slow zones with 20 mph limits; concrete pedestrian median islands installed on Race, Chestnut, Broad Streets.
+**Citation:** Federal Transit Administration. Region 3 Staff Organization. Accessed 2026-04-27.
 
-**S036 — SDP / Fox29 / 6abc, *Accelerating Opportunity Final Plan and April Vote Postponement*** (multi-source). https://www.philasd.org/blog/2026/04/20/acceleratingopp26/ ; https://www.fox29.com/news/philadelphia-school-board-delays-vote-3b-facilities-master-plan ; https://6abc.com/post/school-district-philadelphia-delays-vote-controversial-facilities-master-plan/18952602/. Accessed 2026-04-27. Supports: Accelerating Opportunity final plan presented by Superintendent Watlington with key changes from January version — $2.8B → $3B, modernizations 159 → 169, closures 20 → 17, co-locations maintained at 6; January 22, 2026 initial recommendations released; February 26, 2026 first version presented to Board; April 23, 2026 final plan presented and Board adjourned vote at City Council request "in the spirit of partnership with communities"; Board President Reginald Streater announced postponement to April 30, 2026; 12 revised recommendations from January version (e.g., Conwell Magnet Middle School removed from closure list); as of 2026-04-27, April 30 vote remains pending — outcome unknown.
+**URL:** https://www.transit.dot.gov/about/regional-offices/region-3/region-3-staff-organization
 
-**S037 — SEPTA / WHYY, *FY 2027 Budget Proposal and Continued Capital-to-Operating Transfer*** (multi-source). https://whyy.org/articles/septa-funding-2027-budget-proposal/ ; https://wwww.septa.org/news/septa-postpones-projects-to-transfer-394-million/ ; https://wwww.septa.org/news/25-in-2025/. Accessed 2026-04-27. Supports: SEPTA FY 2027 (July 2026-June 2027) budget proposal $2.7B total; requires emergency PennDOT-approved one-time transfer of capital funds to operating budget for second consecutive year; will keep full service through June 2027; FY 2026 operating deficit reduced from $213M to $192M via overtime/contract/consulting/travel cuts; "state of good repair backlog" grew from $5.1B to $10.2B; SEPTA plans to borrow $4.3B over next 12 years; $141.5M for buses and other vehicles; 247 new hybrid diesel-electric buses (3-year procurement); $11M to retrofit hybrid buses to run on electric power; August 2026 streamlined bus network rollout; project deferrals from October 2025 transfer (new bus purchases, Bristol Regional Rail Station accessibility, Frazer Railroad Facility new building); 12-year SEPTA Capital Program (adopted June 2025) already requires $1.6B in infrastructure/vehicle project delays; SEPTA leadership Scott A. Sauer (General Manager / CEO), Kenneth E. Lawrence Jr. (Board Chair).
+**Supports claims:** MC-10
 
-**S038 — PA Governor / Spotlight PA / Penn Policy / SEPTA, *FY 2026-27 Budget Proposal and Transit Funding Outlook*** (multi-source). https://www.spotlightpa.org/news/2026/02/josh-shapiro-budget-address-school-marijuana-minimum-wage-capitol/ ; https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-2026-27-budget-proposal-to-keep-doing-what-s-working ; https://pennpolicy.org/wp-content/uploads/2026/03/2026_BudgetOverview_Transit-final.pdf ; https://wwww.septa.org/news/statement-on-governors-funding-proposal/. Accessed 2026-04-27. Supports: Shapiro proposed FY 2026-27 budget February 19, 2026, $53.3B general fund; proposes additional 1.75% of Sales and Use Tax revenue → Pennsylvania Transportation Trust Fund beginning July 1, 2027; estimated $300-319.6M annually in recurring transit funding statewide; proposes additional $565M for school districts with adequacy gap (FY 2026-27 — separate from previously enacted FY 2025-26 William Penn response); PA FY 2026-27 budget not yet enacted as of April 27, 2026 (deadline June 30); cumulative Shapiro support to SEPTA: $80M FY 2024-25 budget; $153M flexed federal highway funds November 2024; $394M SEPTA capital → operating September 2025; ~$220M Silverliner IV-specific November 2025; long-term recurring solution remains pending.
+**Verification status:** VERIFIED
 
-**S039 — AASHTO / CRS R48644 / Construction Owners / Funding Landscape / CRS R48881, *IIJA Reauthorization Status as of April 2026*** (multi-source). https://transportation.org/policy/surface-reauthorization/ ; https://www.congress.gov/crs-product/R48644 ; https://www.constructionowners.com/news/infrastructure-funding-cliff-2026-what-construction-owners-must-know-before-sept-30 ; https://fundinglandscape.com/answers/infrastructure-iija-funding-2026 ; https://www.congress.gov/crs-product/R48881. Accessed 2026-04-27. Supports: IIJA P.L. 117-58 expires September 30, 2026; reauthorized highway, transit, rail through FY 2026 with $567B in HTF + General Fund resources; "no new bill has been introduced as of April 2026" (Construction Owners); House T&I (Chair Sam Graves R-MO) and Senate EPW Committees preparing reauthorization framework; "back to basics" approach; without reauthorization formula programs revert to pre-IIJA authorization levels; many discretionary programs cease making new awards after expiration; last two surface bills (IIJA, FAST Act) both required multiple short-term extensions; AASHTO and AMPO have begun reauthorization advocacy frameworks; Transportation for America tracks history of short-term extensions (~1/3 of time since 1991).
+**Notes:** Pre-normalization ID: S031. Confirms FTA Region III Regional Administrator Theresa "Terry" Garcia Crews.
 
-**S040 — K-12 Dive / Grid Magazine / *Inquirer* / CBS, *AHERA DPA Operational Status and Open Court Approval Date*** (multi-source). https://www.k12dive.com/news/philadelphia-school-district-agrees-to-monitoring-to-defer-criminal-prosecu/752087/ ; https://gridphilly.com/blog-home/2025/12/01/philadelphia-schools-could-put-asbestos-behind-them/ ; https://www.inquirer.com/education/philly-schools-asbestos-investigation-settlement-20250626.html ; https://www.cbsnews.com/philadelphia/news/philadelphia-schools-asbestos-investigation-doj/. Accessed 2026-04-27. Supports: DPA filed June 26, 2025 by U.S. Attorney's Office EDPA (David Metcalf); five-year investigation by EDPA, DOJ Environmental Crimes Section, EPA-CID; 8 criminal counts AHERA, 7 schools named; 31 schools with documented lapses 2018-2023 (investigation period 2015-2023); district inspection capacity required to average 50 inspections/month; $24.2M Tetra Tech contract; $100M Penn donation; environmental management budget grew $10.2M (FY 2021) → $55.7M (FY 2025); 18 positions added to Office of Environmental Management and Services; Frankford High main building closed for damaged asbestos / ~$20M renovation / potential reopening 2025-26 SY; overall District maintenance backlog ~$7B per PFT President Steinberg (2024); per Grid Magazine December 2025 DPA appears operational with district "under judicial oversight"; **specific federal court approval date NOT surfaced in this verification pass — open verification flag**.
+---
+<a id="s-07"></a>
+#### S-07 — Federal Register: FTA Administrator Marcus J. Molinaro Confirmation [VERIFIED]
 
-**S041 — Nossaman / Wikipedia / American Progress / LMC / Forum Together, *OBBBA Infrastructure and Funding Provisions*** (multi-source). https://www.nossaman.com/newsroom-insights-the-obbb-act-infrastructure-overhaul-transportation-energy-and-water-reforms ; https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act ; https://www.americanprogress.org/article/the-implementation-timeline-of-the-one-big-beautiful-bill-act/ ; https://www.lmc.org/news-publications/news/all/the-one-big-beautiful-bill-is-now-law-heres-what-it-means-for-cities/ ; https://forumtogether.org/article/one-big-beautiful-bill-act-immigration-provisions/. Accessed 2026-04-27. Supports: OBBBA H.R. 1 / P.L. 119-21 signed July 4, 2025; $12.5B for FAA air traffic control modernization; rescissions of unobligated IIJA/IRA funds — Low-Carbon Transportation Materials $1.9B; Clean Heavy-Duty Vehicles ~$454M; Greenhouse Gas Reduction Fund statutory authority repealed; Environmental Justice Block Grants eliminated; Climate Pollution Reduction Grants eliminated; Neighborhood Access and Equity rescinded; IRA $100M state and local environmental review repealed; new 125% optional fee for expedited NEPA environmental review; EV tax credits phased out by September 2025; EV charging infrastructure tax credits phased out by mid-2026 (June 2026); methane emissions fee repealed for 10-year period; fuel economy standards enforcement funding rescinded (penalties not eliminated); renewable energy on public lands new 3.9% capacity fee; municipal bond tax-exempt status preserved; LIHTC allocations expanded by 12% for 9% credits.
+**Citation:** Federal Register. FTA Administrator Marcus J. Molinaro signature. January 2026. Accessed 2026-04-27.
 
-**S042 — DOI / NPS / LWCF Coalition, *LWCF FY 2026 Status*** (multi-source). https://www.doi.gov/lwcf ; https://www.nps.gov/lwcf/ ; https://www.nps.gov/subjects/lwcf/stateside.htm ; https://lwcfcoalition.org/press-releases ; https://lwcfcoalition.org/about-lwcf. Accessed 2026-04-27. Supports: LWCF established by Congress in 1964; State and Local Assistance Program established 1965; Great American Outdoors Act (signed August 4, 2020) authorized $900M annually in permanent funding; permanently reauthorized in Dingell Act (March 2019); funded by offshore oil and gas royalties; ORLP (Outdoor Recreation Legacy Partnership Program, established 2014) — nationally competitive 50% matching grant for urban areas (jurisdictions ≥50,000 with priority to economically disadvantaged areas with low outdoor recreation access); Administration's FY 2026 budget proposed 43% diversion (~$387M) of LWCF and 90% cut to federal-side projects; Congressional Interior and Environment Appropriations Subcommittee (Chair Mike Simpson R-ID-2 / Ranking Member Chellie Pingree D-ME-2) protected LWCF in FY 2026 bill; FY 2026 Interior and Environment Appropriations Bill maintained LWCF integrity per LWCF Coalition praise (July 22, 2025); LWCF state grants administered by PA DCNR; 1:1 match required (cash or in-kind including volunteer hours).
+**URL:** [pending retrieval — Federal Register FTA Administrator Marcus J. Molinaro January 2026 signature notice]
 
-**S043 — Funding Landscape / phila.gov / CRS R46733, *HUD CDBG/HOME FY 2026 Status; Philadelphia CDBG-DR*** (multi-source). https://fundinglandscape.com/answers/hud-grants-housing-programs-2026 ; https://www.phila.gov/departments/office-of-the-director-of-finance/cdbg-dr-program/ ; https://www.phila.gov/media/20251124112626/CDBG-DR-Action-Plan-Amendment-2.pdf ; https://www.congress.gov/crs-product/R46733. Accessed 2026-04-27. Supports: HUD distributed >$30B in grants in FY 2025; CDBG $3.3B nationally in FY 2025; Trump Administration proposed elimination in FY 2026; Congress rejected and maintained program; HOME Investment Partnerships $1.25B; Continuum of Care $4.1B; Choice Neighborhoods $350M; Section 4 Capacity Building cut to $35M from $47M; Fair Housing Initiatives Program (FHIP) cut to $22M; DOGE reviews did not result in mass terminations of housing contracts; CDBG formula 70% to entitlement communities / 30% to states; CDBG entitlement requirement principal metropolitan cities, other cities >50K, urban counties >200K; ≥70% must benefit low-and-moderate-income persons; Philadelphia CDBG-DR allocation $163,204,000 in response to Hurricane Ida (FR Vol. 87 No. 100, May 24, 2022 + FR Vol. 88 No. 11, January 23, 2023); CDBG-DR ≥15% must be used for mitigation; Philadelphia CDBG-DR Action Plan Amendment #3 announced March 12, 2026; Belmont Raw Water Pump Station, Queen Lane Water Treatment Plant, 42nd Street Pumping Station, Lardner's Point Fresh Water Pumping Station impacted by Ida.
+**Supports claims:** MC-10
 
-**S044 — PHA / Pew Trusts / CRS R48567, *Philadelphia Housing Authority Federal Capital Architecture*** (multi-source). https://www.pha.phila.gov/wp-content/uploads/2025/10/PHA-MTW-FY-2026-Annual-Plan-Amendment-1-RAD-Significant-Admt-REV-10-31-2025.pdf ; https://www.pha.phila.gov/wp-content/uploads/2026/03/PHA-MTW-FY-2027-Annual-Plan-with-Amendment-1-03-05-2026.pdf ; https://www.pewtrusts.org/en/research-and-analysis/articles/2024/05/07/how-will-philadelphia-fund-housing-in-a-time-of-transition ; https://www.congress.gov/crs-product/R48567. Accessed 2026-04-27. Supports: PHA designated MTW (Moving to Work) agency since April 2001 under MTW Agreement with HUD; PHA MTW FY 2026 plan covers April 1, 2025 - March 31, 2026; FY 2027 plan covers April 1, 2026 - March 31, 2027; "Opening Doors" asset repositioning estimated $3.8B (FY 2026 plan) → $6.8B (FY 2027 plan); PHA economic impact (2023-2029, ESI/Econsult Solutions) — $5.2B local economic impact, 4,400 FTE job-years, $1.8B employee compensation in Philadelphia, $6.2B statewide; PHA + DHCD secured $50M Choice Neighborhoods Implementation Grant in 2023; HUD Operating Subsidy Grants CY 2026 deadline August 15, 2025 for initial election; Trump FY 2026 HUD "skinny budget" submitted May 2, 2025 (full Budget Appendix and Congressional Justifications May 30, 2025+); ~78% of Philadelphia housing organization funding comes from federal government (FY 2021-2023 per Reinvestment Fund/Pew analysis); Philadelphia housing org spending FY 2021-2023 ~$2.3B aggregate.
+**Verification status:** VERIFIED
 
-**S045 — Philadelphia Encyclopedia / phila.gov / Fairmount Park Conservancy / Phila Code, *Philadelphia Parks System Federal Architecture and Major Investments*** (multi-source). https://philadelphiaencyclopedia.org/essays/fairmount-park-commission/ ; https://philadelphiaencyclopedia.org/essays/fairmount-park/ ; https://www.phila.gov/2021-10-07-city-of-philadelphia-joins-fairmount-park-conservancy-to-announce-new-designs-funding-for-fdr-park/ ; https://myphillypark.org/who-we-are/history/ ; https://myphillypark.org/fairmount-park-conservancy-announces-1-million-from-comcast-nbcuniversal-foundation-for-fdr-park/ ; https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-265008. Accessed 2026-04-27. Supports: Fairmount Park Commission established 1867-68 by PA legislature; merged into Philadelphia Parks & Recreation in 2010 (charter amendment November 4, 2008); Phila Code § 5-601 establishes Commission on Parks and Recreation as advisory body; PPR manages 10,200 acres / 100+ neighborhood parks; Fairmount Park Conservancy private nonprofit founded 1998 on FPC recommendation (2015 merger with Fairmount Park Historic Preservation Trust); FPC traditionally relied on annual city appropriations (1870s comparison: ~$223,000/yr Philadelphia spent on Fairmount Park, less than 1/3 of NYC spending on Central Park); Conservancy first 15 years raised >$25M for park system / $5.5M Hunting Park revitalization completed 2012; FDR Park Plan released 2019 / $250M total master plan; City of Philadelphia $50M commitment to FDR Park (announced October 2021, distributed over 5 years); FDR Park funding $3M PA RACP grant (2021) / $1M City capital budget (2021) / $1M Comcast NBCUniversal Foundation (April 2026); $111M+ in public/private funds invested in FDR Park since 2022 groundbreaking; 2023 Econsult Solutions study FDR Park construction will generate >$500M in economic activity; PPR Commissioner Susan Slawson; Director of Planning, Preservation and Property Management Leigh Ann Campbell; roads/drives in Fairmount Park managed by Streets Department per Phila Code § 5-500; federal park funding architecture NPS via LWCF state grants (administered by PA DCNR), ORLP for urban areas, NPS technical assistance via Rivers Trails and Conservation Assistance Program.
+**Notes:** Pre-normalization ID: S032 (split). S032 bundled Federal Register (FTA) + Wikipedia (EPA Administrator). FTA Administrator confirmation carried here; EPA Administrator Wikipedia cross-check at S-59. URL not stated in pre-normalization CR; pending retrieval.
+
+---
+<a id="s-08"></a>
+#### S-08 — DOI/NPS: LWCF Federal Architecture Pages [VERIFIED]
+
+**Citation:** U.S. Department of the Interior; National Park Service. Land and Water Conservation Fund program pages. Accessed 2026-04-27.
+
+**URL:** https://www.doi.gov/lwcf ; https://www.nps.gov/lwcf/ ; https://www.nps.gov/subjects/lwcf/stateside.htm
+
+**Supports claims:** MC not directly; supports SD6 G13-SD6-03 and SD7 G13-SD7-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S042 (split). S042 bundled DOI/NPS federal pages + LWCF Coalition. Federal agency pages split here; LWCF Coalition at S-36.
+
+---
+<a id="s-09"></a>
+#### S-09 — CRS R46733: HUD Community Development Block Grant Program [VERIFIED]
+
+**Citation:** Congressional Research Service, R46733. *Community Development Block Grant Program.* Accessed 2026-04-27.
+
+**URL:** https://www.congress.gov/crs-product/R46733
+
+**Supports claims:** supports SD7 HUD CDBG architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S043 (split). Split from S043 multi-source bundle.
+
+---
+<a id="s-10"></a>
+#### S-10 — CRS R48567: Public Housing Authority Capital Architecture [VERIFIED]
+
+**Citation:** Congressional Research Service, R48567. *[Public Housing: Capital Fund and Related Programs.]* Accessed 2026-04-27.
+
+**URL:** https://www.congress.gov/crs-product/R48567
+
+**Supports claims:** supports SD7 PHA federal capital architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S044 (split). Split from S044 multi-source bundle. Title bracketed because full title not stated in pre-normalization CR.
+
+---
+## Category E — State and Local Authority
+
+Pennsylvania state agency press releases, Philadelphia city government pages, SEPTA official pages, Philadelphia Water Department, School District of Philadelphia, and Philadelphia Housing Authority.
+
+---
+
+<a id="s-11"></a>
+#### S-11 — SEPTA: Funding Crisis Page [VERIFIED]
+
+**Citation:** Southeastern Pennsylvania Transportation Authority. Funding Crisis page. Accessed 2026-04-27.
+
+**URL:** https://wwww.septa.org/fundingcrisis/
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S011. URL preserved as-is from pre-normalization CR (includes typographic 'wwww' error in original source listing; canonical SEPTA domain is septa.org).
+
+---
+<a id="s-12"></a>
+#### S-12 — PA Governor’s Office: Shapiro Approves SEPTA $394M Capital Transfer (Sept 8, 2025) [VERIFIED]
+
+**Citation:** Pennsylvania Governor's Office. Press release: Shapiro Administration Approves SEPTA $394 Million Capital Funding to Maintain Service. September 8, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-approves-septa--394-million-capital-funding-mainta
+
+**Supports claims:** MC-04, MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S012.
+
+---
+<a id="s-13"></a>
+#### S-13 — PA Governor’s Office: Shapiro Directs $219.9M Additional Capital Funding to SEPTA (Nov 24, 2025) [VERIFIED]
+
+**Citation:** Pennsylvania Governor's Office. Press release: Gov. Shapiro Directs $219.9 Million in Additional Capital Funding to SEPTA. November 24, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.pa.gov/governor/newsroom/2025-press-releases/gov-shapiro-directs--219-9-million-in-additional-capital-funding
+
+**Supports claims:** MC-04, MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S013.
+
+---
+<a id="s-14"></a>
+#### S-14 — PWD: FY 2026 Budget Hearings Testimony (Water) [VERIFIED]
+
+**Citation:** Philadelphia Water Department. FY 2026 Budget Hearings Testimony. April 2, 2025. Accessed 2026-04-27.
+
+**URL:** https://phlcouncil.com/wp-content/uploads/2025/04/FY26-Budget-Hearings-Testimony_Water.pdf
+
+**Supports claims:** supports SD2 G13-SD2-02 PWD fiscal architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S021.
+
+---
+<a id="s-15"></a>
+#### S-15 — PWD: Service Line Verification Program Page [VERIFIED]
+
+**Citation:** Philadelphia Water Department. Service Line Verification Program. Accessed 2026-04-27.
+
+**URL:** https://water.phila.gov/service-line/verification/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S029.
+
+---
+<a id="s-16"></a>
+#### S-16 — PWD: Lead Plumbing Page — 2026 Pilot Replacement Program [VERIFIED]
+
+**Citation:** Philadelphia Water Department. Lead Plumbing page. Accessed 2026-04-27.
+
+**URL:** https://water.phila.gov/lead/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S030.
+
+---
+<a id="s-17"></a>
+#### S-17 — SDP: Accelerating Opportunity Facilities Master Plan — Official Page (philasd.org) [VERIFIED]
+
+**Citation:** School District of Philadelphia. Accelerating Opportunity: The School District of Philadelphia Facilities Master Plan. April 20, 2026. Accessed 2026-04-27.
+
+**URL:** https://www.philasd.org/blog/2026/04/20/acceleratingopp26/
+
+**Supports claims:** supports SD5 G13-SD5-03 SDP facilities plan
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S026 (split). S026 was a multi-source bundle (Chalkbeat/NBC10/Inquirer/Axios/BillyPenn/Fox29 + philasd.org). Official SDP source split here; news bundle at S-51. S036 (pre-norm) also cited philasd.org with overlapping content; S036 retired as superseded by S-17 + S-51.
+
+---
+<a id="s-18"></a>
+#### S-18 — City of Philadelphia: State of the City 2025 and Sanitation/Streets Reorganization (phila.gov) [VERIFIED]
+
+**Citation:** City of Philadelphia. State of the City Address, December 19, 2025 (Mayor Cherelle L. Parker). Also: WHYY coverage of Clean and Green Cabinet; Inquirer, February 5, 2024 (Parker staff announcement); phila.gov, May 17, 2024 (Sanitation/Streets split MOU). Accessed 2026-04-27.
+
+**URL:** https://www.phila.gov/2025-12-19-mayor-cherelle-l-parker-details-citywide-progress-and-2026-vision-at-2025-state-of-the-city-event/
+
+**Supports claims:** MC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S033 (split). S033 bundled Inquirer/Audacy/phila.gov/WHYY on Sanitation/Streets split. Official phila.gov source split here as primary (State of the City page); news sources (Inquirer, WHYY) at S-52. URL is the State of the City page as canonical official citation.
+
+---
+<a id="s-19"></a>
+#### S-19 — SEPTA: Trolley Modernization and KOP Rail Official Pages [VERIFIED]
+
+**Citation:** Southeastern Pennsylvania Transportation Authority. Trolley Modernization program page; KOP Rail FTA New Starts entry announcement (October 2021, re-confirmed April 2025); combined capital program summary. Accessed 2026-04-27.
+
+**URL:** https://wwww.septa.org/trolley-modernization/ ; https://wwww.septa.org/news/fta-grants-king-of-prussia-rail-project-entry-into-new-starts-development-phase-of-capital-investment-grant-program/ ; https://wwww.septa.org/news/koprail-trolleymod/
+
+**Supports claims:** MC-10, MC-12
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S034 (split). S034 bundled SEPTA official pages + PhillyVoice. SEPTA official pages split here; PhillyVoice at S-53. URLs preserved as-is (include 'wwww' typographic error from pre-normalization CR).
+
+---
+<a id="s-20"></a>
+#### S-20 — City of Philadelphia / Vision Zero Philadelphia: Vision Zero Action Plan 2030 (Official Sources) [VERIFIED]
+
+**Citation:** City of Philadelphia; Vision Zero Philadelphia; Office of Transportation, Infrastructure, and Sustainability (OTIS). Vision Zero Action Plan 2030. Released November 25, 2025. Also: phila.gov PhillyStat 360 dashboard update, March 24, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.phila.gov/2025-11-25-city-of-philadelphia-releases-vision-zero-action-plan-2030/ ; https://visionzerophl.com/november-2025-newsletter/ ; https://www.phila.gov/2025-03-24-philly-stat-360-and-vision-zero-release-new-dashboard-on-reducing-traffic-deaths-in-philadelphia/
+
+**Supports claims:** MC-09, MC-14
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S035 (split). S035 bundled phila.gov official sources + Cities Today + Billy Penn. Official city/Vision Zero sources split here; news bundle at S-54.
+
+---
+<a id="s-21"></a>
+#### S-21 — SEPTA: FY 2027 Budget Proposal and Capital Transfer Official Pages [VERIFIED]
+
+**Citation:** Southeastern Pennsylvania Transportation Authority. FY 2027 budget proposal (April 9–10, 2026); capital-to-operating transfer announcement; '25 in 2025' highlights. Accessed 2026-04-27.
+
+**URL:** https://wwww.septa.org/news/septa-postpones-projects-to-transfer-394-million/ ; https://wwww.septa.org/news/25-in-2025/
+
+**Supports claims:** MC-13
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S037 (split). S037 bundled WHYY + SEPTA pages. SEPTA official pages split here; WHYY at S-55. URLs preserved as-is from pre-normalization CR.
+
+---
+<a id="s-22"></a>
+#### S-22 — PA Governor’s Office: Shapiro FY 2026–27 Budget Proposal (Feb 19, 2026) [VERIFIED]
+
+**Citation:** Pennsylvania Governor's Office. Press release: Gov. Shapiro 2026-27 Budget Proposal. February 19, 2026. Accessed 2026-04-27.
+
+**URL:** https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-2026-27-budget-proposal-to-keep-doing-what-s-working
+
+**Supports claims:** MC-05, MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S038 (split). S038 bundled PA Gov + Spotlight PA + Penn Policy + SEPTA statement. PA Governor's Office press release split here. Spotlight PA at S-56; Penn Policy at S-33; SEPTA statement at S-23.
+
+---
+<a id="s-23"></a>
+#### S-23 — SEPTA: Statement on Governor’s FY 2026–27 Transit Funding Proposal [VERIFIED]
+
+**Citation:** Southeastern Pennsylvania Transportation Authority. Statement on Governor's Funding Proposal. February 2026. Accessed 2026-04-27.
+
+**URL:** https://wwww.septa.org/news/statement-on-governors-funding-proposal/
+
+**Supports claims:** MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S038 (split). SEPTA statement split from S038 multi-source bundle. URL preserved as-is from pre-normalization CR.
+
+---
+<a id="s-24"></a>
+#### S-24 — City of Philadelphia: CDBG-DR Program Page and Action Plan [VERIFIED]
+
+**Citation:** City of Philadelphia, Office of the Director of Finance. CDBG-DR Program page; CDBG-DR Action Plan Amendment 2. November 24, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.phila.gov/departments/office-of-the-director-of-finance/cdbg-dr-program/ ; https://www.phila.gov/media/20251124112626/CDBG-DR-Action-Plan-Amendment-2.pdf
+
+**Supports claims:** supports SD7 G13-SD7-06 HUD CDBG-DR federal flow
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S043 (split). Split from S043 multi-source bundle.
+
+---
+<a id="s-25"></a>
+#### S-25 — PHA: MTW Annual Plans FY 2026 and FY 2027 [VERIFIED]
+
+**Citation:** Philadelphia Housing Authority. MTW FY 2026 Annual Plan Amendment 1 (October 31, 2025); MTW FY 2027 Annual Plan with Amendment 1 (March 5, 2026). Accessed 2026-04-27.
+
+**URL:** https://www.pha.phila.gov/wp-content/uploads/2025/10/PHA-MTW-FY-2026-Annual-Plan-Amendment-1-RAD-Significant-Admt-REV-10-31-2025.pdf ; https://www.pha.phila.gov/wp-content/uploads/2026/03/PHA-MTW-FY-2027-Annual-Plan-with-Amendment-1-03-05-2026.pdf
+
+**Supports claims:** supports SD7 G13-SD7-05 PHA MTW federal architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S044 (split). PHA MTW plans split from S044 multi-source bundle.
+
+---
+<a id="s-26"></a>
+#### S-26 — City of Philadelphia / Philadelphia Code: Parks System Official Sources [VERIFIED]
+
+**Citation:** City of Philadelphia. FDR Park funding announcement, October 7, 2021. Philadelphia Code § 5-601 (Commission on Parks and Recreation); § 5-500 (roads in Fairmount Park). Accessed 2026-04-27.
+
+**URL:** https://www.phila.gov/2021-10-07-city-of-philadelphia-joins-fairmount-park-conservancy-to-announce-new-designs-funding-for-fdr-park/ ; https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-265008
+
+**Supports claims:** supports SD6 G13-SD6-02 PPR federal architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S045 (split). Official city + Code sources split from S045 multi-source bundle. Philadelphia Encyclopedia + Fairmount Park Conservancy research sources at S-39.
+
+---
+## Category F — Research Reports / Policy Analysis
+
+Transportation advocacy organizations, policy research centers, law firm analyses, and issue-area research organizations.
+
+---
+
+<a id="s-27"></a>
+#### S-27 — Caltrans: IIJA Reauthorization Tracking Page [VERIFIED]
+
+**Citation:** California Department of Transportation (Caltrans). IIJA Reauthorization page. Accessed 2026-04-27.
+
+**URL:** https://dot.ca.gov/programs/federal-liaison/reauthorization
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S003.
+
+---
+<a id="s-28"></a>
+#### S-28 — AMPO: Roadmap to Reauthorization [VERIFIED]
+
+**Citation:** Association of Metropolitan Planning Organizations (AMPO). Roadmap to Reauthorization. Accessed 2026-04-27.
+
+**URL:** https://ampo.org/policy/reauthorization/
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S004.
+
+---
+<a id="s-29"></a>
+#### S-29 — Transportation for America: How We Will Grade the Next Surface Reauthorization Bill [VERIFIED]
+
+**Citation:** Transportation for America. 'Here's How We Will Grade the Next Surface Reauthorization Bill.' April 8, 2026. Accessed 2026-04-27.
+
+**URL:** https://t4america.org/2026/04/08/heres-how-we-will-grade-the-next-surface-reauthorization-bill/
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S005.
+
+---
+<a id="s-30"></a>
+#### S-30 — Gresham Smith: Transportation Reauthorization 2026 — Preparing for Change [VERIFIED]
+
+**Citation:** Gresham Smith. 'Transportation Reauthorization 2026: Preparing for Change and Opportunity.' October 2025. Accessed 2026-04-27.
+
+**URL:** https://www.greshamsmith.com/news-and-insights/transportation-reauthorization-2026-preparing-for-change-and-opportunity/
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S006.
+
+---
+<a id="s-31"></a>
+#### S-31 — Funding Landscape: Infrastructure and IIJA Funding in 2026 [VERIFIED]
+
+**Citation:** Funding Landscape. 'Infrastructure and IIJA Funding in 2026.' February 18, 2026. Accessed 2026-04-27.
+
+**URL:** https://fundinglandscape.com/answers/infrastructure-iija-funding-2026
+
+**Supports claims:** MC-01, supports SD7 G13-SD7-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S007.
+
+---
+<a id="s-32"></a>
+#### S-32 — NACTO: What the Recently Passed Federal Funding Package Means for Cities [VERIFIED]
+
+**Citation:** National Association of City Transportation Officials (NACTO). 'What the Recently Passed Federal Funding Package Means for Cities.' February 12, 2026. Accessed 2026-04-27.
+
+**URL:** https://nacto.org/latest/what-the-recently-passed-federal-funding-package-means-for-cities/
+
+**Supports claims:** MC-01
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S008.
+
+---
+<a id="s-33"></a>
+#### S-33 — Penn Policy Center: 2026 Budget Overview — Transit [VERIFIED]
+
+**Citation:** Penn Policy Center. 2026 Budget Overview: Transit. March 2026. Accessed 2026-04-27.
+
+**URL:** https://pennpolicy.org/wp-content/uploads/2026/03/2026_BudgetOverview_Transit-final.pdf
+
+**Supports claims:** MC-06
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S038 (split). Penn Policy Center transit brief split from S038 multi-source bundle.
+
+---
+<a id="s-34"></a>
+#### S-34 — AASHTO / Construction Owners / Funding Landscape: IIJA Reauthorization Status as of April 2026 [VERIFIED]
+
+**Citation:** American Association of State Highway and Transportation Officials (AASHTO). Surface Reauthorization page. Construction Owners Association. 'Infrastructure Funding Cliff 2026.' Funding Landscape. IIJA Funding 2026. Accessed 2026-04-27.
+
+**URL:** https://transportation.org/policy/surface-reauthorization/ ; https://www.constructionowners.com/news/infrastructure-funding-cliff-2026-what-construction-owners-must-know-before-sept-30 ; https://fundinglandscape.com/answers/infrastructure-iija-funding-2026
+
+**Supports claims:** MC-02
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S039 (split). CRS R48644 from S039 bundle maps to S-02 (not duplicated here); CRS R48881 at S-04. Policy-analysis/advocacy sources kept together here as cross-confirming bundle.
+
+---
+<a id="s-35"></a>
+#### S-35 — Nossaman / American Progress / LMC / Forum Together: OBBBA Infrastructure Provisions Analysis [VERIFIED]
+
+**Citation:** Nossaman LLP. 'The OBBB Act Infrastructure Overhaul.' Center for American Progress. 'The Implementation Timeline of the One Big Beautiful Bill Act.' League of Minnesota Cities. 'The One Big Beautiful Bill Is Now Law.' Forum Together. 'One Big Beautiful Bill Act Immigration Provisions.' Accessed 2026-04-27.
+
+**URL:** https://www.nossaman.com/newsroom-insights-the-obbb-act-infrastructure-overhaul-transportation-energy-and-water-reforms ; https://www.americanprogress.org/article/the-implementation-timeline-of-the-one-big-beautiful-bill-act/ ; https://www.lmc.org/news-publications/news/all/the-one-big-beautiful-bill-is-now-law-heres-what-it-means-for-cities/ ; https://forumtogether.org/article/one-big-beautiful-bill-act-immigration-provisions/
+
+**Supports claims:** TC-D13-15; supports SD7 G13-SD7-02 OBBBA infrastructure provisions
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S041 (split). Wikipedia OBBBA cross-check split to S-60.
+
+---
+<a id="s-36"></a>
+#### S-36 — LWCF Coalition: About LWCF and Press Releases [VERIFIED]
+
+**Citation:** Land and Water Conservation Fund Coalition. About LWCF; Press releases. Accessed 2026-04-27.
+
+**URL:** https://lwcfcoalition.org/press-releases ; https://lwcfcoalition.org/about-lwcf
+
+**Supports claims:** TC-D13-14; supports SD6 G13-SD6-03 LWCF protection status
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S042 (split). LWCF Coalition split from S042 bundle; DOI/NPS federal pages at S-08.
+
+---
+<a id="s-37"></a>
+#### S-37 — Funding Landscape: HUD Grants and Housing Programs 2026 [VERIFIED]
+
+**Citation:** Funding Landscape. 'HUD Grants and Housing Programs 2026.' Accessed 2026-04-27.
+
+**URL:** https://fundinglandscape.com/answers/hud-grants-housing-programs-2026
+
+**Supports claims:** supports SD7 G13-SD7-06 HUD CDBG/HOME federal architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S043 (split). Split from S043 multi-source bundle.
+
+---
+<a id="s-38"></a>
+#### S-38 — Pew Trusts: How Will Philadelphia Fund Housing in a Time of Transition [VERIFIED]
+
+**Citation:** The Pew Charitable Trusts. 'How Will Philadelphia Fund Housing in a Time of Transition.' May 7, 2024. Accessed 2026-04-27.
+
+**URL:** https://www.pewtrusts.org/en/research-and-analysis/articles/2024/05/07/how-will-philadelphia-fund-housing-in-a-time-of-transition
+
+**Supports claims:** supports SD7 G13-SD7-05 PHA federal funding dependence
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S044 (split). Split from S044 multi-source bundle.
+
+---
+<a id="s-39"></a>
+#### S-39 — Philadelphia Encyclopedia / Fairmount Park Conservancy: Parks History and Research [VERIFIED]
+
+**Citation:** Philadelphia Encyclopedia. 'Fairmount Park Commission' and 'Fairmount Park' essays. Fairmount Park Conservancy (myphillypark.org). History page; Comcast NBCUniversal Foundation grant announcement, April 2026. Accessed 2026-04-27.
+
+**URL:** https://philadelphiaencyclopedia.org/essays/fairmount-park-commission/ ; https://philadelphiaencyclopedia.org/essays/fairmount-park/ ; https://myphillypark.org/who-we-are/history/ ; https://myphillypark.org/fairmount-park-conservancy-announces-1-million-from-comcast-nbcuniversal-foundation-for-fdr-park/
+
+**Supports claims:** supports SD6 G13-SD6-01 PPR historical and institutional architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S045 (split). Research/history sources split from S045; official city/Code sources at S-26.
+
+---
+## Category G — Press / News Reporting
+
+Journalism outlets, local and national news coverage of D13 subject matter.
+
+---
+
+<a id="s-40"></a>
+#### S-40 — Philadelphia Inquirer: Pennsylvania State Budget Passes Without SEPTA Funding (Nov 2025) [VERIFIED]
+
+**Citation:** Philadelphia Inquirer. 'Pennsylvania state budget passes without SEPTA funding.' November 14, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.inquirer.com/politics/pennsylvania/septa-funding-pennsylvania-state-budget-20251114.html
+
+**Supports claims:** MC-04, MC-05
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S014.
+
+---
+<a id="s-41"></a>
+#### S-41 — Philadelphia Inquirer: Judge Orders SEPTA to Reverse Service Cuts (Sept 4, 2025) [VERIFIED]
+
+**Citation:** Philadelphia Inquirer. 'Judge orders SEPTA to reverse service cuts.' September 4, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.inquirer.com/transportation/septa-cuts-reversal-judge-lawsuit-20250904.html
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S015.
+
+---
+<a id="s-42"></a>
+#### S-42 — WHYY: SEPTA Service Restored After Court Order (Sept 2025) [VERIFIED]
+
+**Citation:** WHYY. 'SEPTA service restored after court order.' September 4–5, 2025. Accessed 2026-04-27.
+
+**URL:** https://whyy.org/articles/septa-services-restored-judge/
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S016.
+
+---
+<a id="s-43"></a>
+#### S-43 — Philadelphia Inquirer: SEPTA Fare Class-Action Lawsuit Filed (Oct 8, 2025) [VERIFIED]
+
+**Citation:** Philadelphia Inquirer. 'SEPTA fare class-action lawsuit.' October 8, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.inquirer.com/transportation/septa-fare-lawsuit-george-bochetto-20251008.html
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S017.
+
+---
+<a id="s-44"></a>
+#### S-44 — K-12 Dive: Philadelphia School District Agrees to Monitoring Under AHERA (July 2025) [VERIFIED]
+
+**Citation:** K-12 Dive. 'Philadelphia School District agrees to monitoring to defer criminal prosecution under AHERA.' July 7, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.k12dive.com/news/philadelphia-school-district-agrees-to-monitoring-to-defer-criminal-prosecu/752087/
+
+**Supports claims:** MC-07
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S018. K-12 Dive URL also appears in S040 (pre-norm) multi-source bundle; S040 content extends this entry with Grid Magazine / Inquirer / CBS sources at S-57.
+
+---
+<a id="s-45"></a>
+#### S-45 — NBC10 Philadelphia: Philadelphia School District AHERA Criminal Charges (June 27, 2025) [VERIFIED]
+
+**Citation:** NBC10 Philadelphia. 'Philadelphia School District AHERA charges.' June 27, 2025. Accessed 2026-04-27.
+
+**URL:** https://www.nbcphiladelphia.com/news/local/philadelphia-school-district-charges-asbestos-report-inspection-doj-u-s-attorney/4220397/
+
+**Supports claims:** MC-07, MC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S019. Also supports MC-10 (U.S. Attorney David Metcalf EDPA identification).
+
+---
+<a id="s-46"></a>
+#### S-46 — Sokolove Law: Criminal Charges for Asbestos in Philadelphia Schools [VERIFIED]
+
+**Citation:** Sokolove Law. 'Criminal Charges for Asbestos in Philadelphia Schools.' ~July 2025. Accessed 2026-04-27.
+
+**URL:** https://www.sokolovelaw.com/blog/criminal-charges-for-asbestos-in-philadelphia-schools/
+
+**Supports claims:** supports SD5 G13-SD5-01 AHERA enforcement architecture
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S020.
+
+---
+<a id="s-47"></a>
+#### S-47 — Circle of Blue: Billions Over Budget — Philadelphia’s Green Fix for Sewers (June 2024) [VERIFIED]
+
+**Citation:** Circle of Blue. 'Billions Over Budget: Questions Swirl over Philly's Green Fix for Sewers.' June 2024. Accessed 2026-04-27.
+
+**URL:** https://www.circleofblue.org/2024/supply/water-management/billions-over-budget-questions-swirl-over-phillys-green-fix-for-sewers/
+
+**Supports claims:** MC-11
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S022.
+
+---
+<a id="s-48"></a>
+#### S-48 — Sustainability Directory: Federal Government Ends Environmental Justice Mandate (Nov 2025) [VERIFIED]
+
+**Citation:** Sustainability Directory. 'Federal Government Ends Environmental Justice Mandate — Crippling Community Protection Tools.' November 23, 2025. Accessed 2026-04-27.
+
+**URL:** https://news.sustainability-directory.com/justice/federal-government-ends-environmental-justice-mandate-crippling-community-protection-tools/
+
+**Supports claims:** MC-03
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S024.
+
+---
+<a id="s-49"></a>
+#### S-49 — WHYY: Philadelphia Lead Service Line Inventory (Dec 17, 2025) [VERIFIED]
+
+**Citation:** WHYY. 'Philadelphia Lead Service Line Inventory.' December 17, 2025. Accessed 2026-04-27.
+
+**URL:** https://whyy.org/articles/philadelphia-pipes-lead-water-department/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S027.
+
+---
+<a id="s-50"></a>
+#### S-50 — philadelphia.today: PWD Service Line Notifications (Dec 5, 2025) [VERIFIED]
+
+**Citation:** philadelphia.today. 'Philadelphia Water Department Notifications — Service Line Materials.' December 5, 2025. Accessed 2026-04-27.
+
+**URL:** https://philadelphia.today/2025/12/philadelphia-water-department-notifications-service-line-materials/
+
+**Supports claims:** MC-08
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S028.
+
+---
+<a id="s-51"></a>
+#### S-51 — Chalkbeat / NBC10 / Inquirer / Axios / Billy Penn / Fox29: SDP Facilities Plan News Bundle [VERIFIED]
+
+**Citation:** Chalkbeat Philadelphia. 'Philly school board schedules vote on closure plan.' April 20, 2026. NBC10 Philadelphia. 'SDP Facilities Master Plan revised recommendations.' Fox29. 'Philadelphia school board delays vote on $3B facilities master plan.' Philadelphia Inquirer. 'Philadelphia school closings board vote delayed.' April 23, 2026. Axios Philadelphia. Billy Penn. Accessed 2026-04-27.
+
+**URL:** https://www.chalkbeat.org/philadelphia/2026/04/20/philly-school-board-schedules-vote-on-closure-plan/ ; https://www.nbcphiladelphia.com/news/local/school-district-of-philadelphia-facilities-master-plan-revised-recommundations/4388406/ ; https://www.fox29.com/news/philadelphia-school-board-delays-vote-3b-facilities-master-plan ; https://www.inquirer.com/education/philadelphia-school-closings-board-vote-delayed-20260423.html
+
+**Supports claims:** supports SD5 G13-SD5-03 SDP Accelerating Opportunity
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S026 (split). News bundle split from S026; official philasd.org source at S-17. S036 (pre-norm, Fox29 + 6abc + philasd.org bundle) retired as superseded by S-17 + S-51.
+
+---
+<a id="s-52"></a>
+#### S-52 — Inquirer / WHYY: Sanitation–Streets Department Split News Coverage [VERIFIED]
+
+**Citation:** Philadelphia Inquirer. 'Mayor Parker staff: Crystal Jacobs Shipman.' February 5, 2024. WHYY. 'Mayor Parker Clean and Green Cabinet.' May 17, 2024. Accessed 2026-04-27.
+
+**URL:** https://www.inquirer.com/politics/philadelphia/cherelle-parker-staff-jazelle-jones-crystal-jacobs-shipman-20240205.html ; https://whyy.org/articles/mayor-parker-clean-and-green-cabinet-philadelphia/
+
+**Supports claims:** MC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S033 (split). News sources split from S033; official phila.gov source at S-18.
+
+---
+<a id="s-53"></a>
+#### S-53 — PhillyVoice: SEPTA Trolley Modernization Project Funding [VERIFIED]
+
+**Citation:** PhillyVoice. 'SEPTA Trolley Modernization project funding.' Accessed 2026-04-27.
+
+**URL:** https://www.phillyvoice.com/septa-trolley-modernization-project-funding/
+
+**Supports claims:** supports SD1 G13-SD1-04 SEPTA capital program
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S034 (split). PhillyVoice split from S034; SEPTA official pages at S-19.
+
+---
+<a id="s-54"></a>
+#### S-54 — Cities Today / Billy Penn: Vision Zero Action Plan 2030 News Coverage [VERIFIED]
+
+**Citation:** Cities Today. 'Philadelphia Unveils Equity-Driven Vision Zero Overhaul.' Billy Penn. 'Philadelphia Vision Zero 2025 Action Plan Released.' November 26, 2025. Accessed 2026-04-27.
+
+**URL:** https://cities-today.com/philadelphia-unveils-equity-driven-vision-zero-overhaul/ ; https://billypenn.com/2025/11/26/philadelphia-vision-zero-2025-action-plan-released/
+
+**Supports claims:** MC-09
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S035 (split). News sources split from S035; official city sources at S-20.
+
+---
+<a id="s-55"></a>
+#### S-55 — WHYY: SEPTA FY 2027 Budget Proposal Coverage [VERIFIED]
+
+**Citation:** WHYY. 'SEPTA funding 2027 budget proposal.' Accessed 2026-04-27.
+
+**URL:** https://whyy.org/articles/septa-funding-2027-budget-proposal/
+
+**Supports claims:** MC-13
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S037 (split). WHYY split from S037; SEPTA official pages at S-21.
+
+---
+<a id="s-56"></a>
+#### S-56 — Spotlight PA: Shapiro Budget Address — School, Marijuana, Minimum Wage, Capitol [VERIFIED]
+
+**Citation:** Spotlight PA. 'Josh Shapiro budget address: school, marijuana, minimum wage, capitol.' February 2026. Accessed 2026-04-27.
+
+**URL:** https://www.spotlightpa.org/news/2026/02/josh-shapiro-budget-address-school-marijuana-minimum-wage-capitol/
+
+**Supports claims:** MC-05, MC-15
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S038 (split). Spotlight PA split from S038 multi-source bundle.
+
+---
+<a id="s-57"></a>
+#### S-57 — Grid Magazine / Inquirer / CBS Philadelphia: AHERA DPA Operational Status (Multi-Source) [VERIFIED]
+
+**Citation:** Grid Magazine. 'Philadelphia Schools Could Put Asbestos Behind Them.' December 1, 2025. Philadelphia Inquirer. 'Philly schools asbestos investigation settlement.' June 26, 2025. CBS Philadelphia. 'Philadelphia schools asbestos investigation DOJ.' Accessed 2026-04-27.
+
+**URL:** https://gridphilly.com/blog-home/2025/12/01/philadelphia-schools-could-put-asbestos-behind-them/ ; https://www.inquirer.com/education/philly-schools-asbestos-investigation-settlement-20250626.html ; https://www.cbsnews.com/philadelphia/news/philadelphia-schools-asbestos-investigation-doj/
+
+**Supports claims:** MC-07
+
+**Verification status:** VERIFIED with corrections
+
+**Notes:** Pre-normalization ID: S040 (split). K-12 Dive URL from S040 maps to S-44 (not duplicated here); Grid Magazine, Inquirer, and CBS Philadelphia sources carried here as new entries from S040 bundle. Verification status 'VERIFIED with corrections' because court approval date for DPA remains unverified (UV-D13-01).
+
+---
+## Category H — Other Primary Sources
+
+Wikipedia cross-check entries and other non-standard primary references.
+
+---
+
+<a id="s-58"></a>
+#### S-58 — Wikipedia: Paoli/Thorndale Line (Cross-Check Source) [VERIFIED]
+
+**Citation:** Wikipedia. 'Paoli/Thorndale Line.' Accessed 2026-04-27.
+
+**URL:** https://en.wikipedia.org/wiki/Paoli/Thorndale_Line
+
+**Supports claims:** MC-04
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S025. Used as cross-check source for SEPTA service cut timeline.
+
+---
+<a id="s-59"></a>
+#### S-59 — Wikipedia: Administrator of the Environmental Protection Agency (Cross-Check Source) [VERIFIED]
+
+**Citation:** Wikipedia. 'Administrator of the Environmental Protection Agency.' Accessed 2026-04-27.
+
+**URL:** https://en.wikipedia.org/wiki/Administrator_of_the_Environmental_Protection_Agency
+
+**Supports claims:** MC-10
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S032 (split). Wikipedia EPA Administrator cross-check split from S032 bundle; Federal Register FTA Administrator at S-07.
+
+---
+<a id="s-60"></a>
+#### S-60 — Wikipedia: One Big Beautiful Bill Act (Cross-Check Source) [VERIFIED]
+
+**Citation:** Wikipedia. 'One Big Beautiful Bill Act.' Accessed 2026-04-27.
+
+**URL:** https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act
+
+**Supports claims:** TC-D13-15; supports SD7 G13-SD7-02 OBBBA provisions
+
+**Verification status:** VERIFIED
+
+**Notes:** Pre-normalization ID: S041 (split). Wikipedia OBBBA cross-check split from S041 bundle; policy analysis sources at S-35.
+
+---
 
 ---
 
@@ -2385,5 +3198,169 @@ The D13 v1.2 retrofit was executed as the second of two retrofits in the 2026-05
 
 **Methodology absorption candidates surfaced for lock-pass evaluation.** Surfaced in Synthesis Section 5; all carry explicit open questions; no direction is treated as settled until lead confirms.
 
+
+# D13 Physical Infrastructure — CR Normalization Log
+
+**Pass date:** 2026-05-22
+**Performed by:** Sonnet bulk-normalization pass per bootstrap spec
+**Spec reference:** PA3_assembly_work/site-references-formatting-guide.md § "Citation Registry — normalized template" (locked 2026-05-22)
+**Exemplar:** D6_envNatRes_verified_2026-05-11.md (pilot, normalized 2026-05-22)
+
 ---
 
+## Counts
+
+| Metric | Count |
+|---|---|
+| Total CR entries before normalization | 45 (S001–S045) |
+| Total CR entries after normalization | 60 (S-01–S-60) |
+| Entries retired | 2 (S009, S036) |
+| Multi-source bundles split into separate entries | 14 (S026, S032, S033, S034, S035, S037, S038, S039, S040, S041, S042, S043, S044, S045) |
+| Multi-source bundles preserved as single entries | 3 (S034 SEPTA pages kept together; S035 official pages kept together; S044 PHA MTW plans kept together) |
+| Within-split cross-references to existing entries | 2 (S039 CRS R48644 → S-02; S040 K-12 Dive → S-44) |
+| MC entries given Sources line | 16 (MC-01 through MC-16) |
+| MC entries given anchor | 16 (MC-01 through MC-16) |
+| Body-cited source gaps flagged | 4 (see below) |
+
+---
+
+## Old → New S-ID Mapping (Selected Representative Entries)
+
+| Old ID | New ID | Category | Notes |
+|---|---|---|---|
+| S001 | S-01 | D | CRS R48845 |
+| S002 | S-02 | D | CRS R48644 |
+| S003 | S-27 | F | Caltrans IIJA reauth |
+| S009 | RETIRED | — | Duplicate of S001 (same CRS R48845 URL); content merged into S-01 |
+| S011 | S-11 | E | SEPTA Funding Crisis page |
+| S012 | S-12 | E | PA Gov $394M SEPTA transfer |
+| S018 | S-44 | G | K-12 Dive AHERA |
+| S022 | S-47 | G | Circle of Blue |
+| S023 | S-05 | D | GAO-25-107516 |
+| S025 | S-58 | H | Wikipedia Paoli/Thorndale |
+| S026 | S-17 (philasd.org) + S-51 (news bundle) | E / G | Split: official source + news bundle |
+| S032 | S-07 (Federal Register) + S-59 (Wikipedia EPA) | D / H | Split |
+| S033 | S-18 (phila.gov) + S-52 (news) | E / G | Split |
+| S034 | S-19 (SEPTA pages) + S-53 (PhillyVoice) | E / G | Split |
+| S035 | S-20 (phila.gov/VZ) + S-54 (news) | E / G | Split |
+| S036 | RETIRED | — | Superseded by S-17 + S-51; philasd.org + Fox29 content already in S026/S039 |
+| S037 | S-21 (SEPTA pages) + S-55 (WHYY) | E / G | Split |
+| S038 | S-22 (PA Gov) + S-23 (SEPTA stmt) + S-33 (Penn Policy) + S-56 (Spotlight PA) | E / E / F / G | 4-way split |
+| S039 | S-04 (CRS R48881) + S-34 (AASHTO bundle); CRS R48644 → S-02 | D / F | 3-way resolution |
+| S040 | S-57 (Grid/Inquirer/CBS); K-12 Dive → S-44 | G | Split: K-12 Dive to S-44, new sources at S-57 |
+| S041 | S-35 (policy bundle) + S-60 (Wikipedia OBBBA) | F / H | Split |
+| S042 | S-08 (DOI/NPS) + S-36 (LWCF Coalition) | D / F | Split |
+| S043 | S-09 (CRS R46733) + S-24 (phila.gov CDBG-DR) + S-37 (Funding Landscape HUD) | D / E / F | 3-way split |
+| S044 | S-10 (CRS R48567) + S-25 (PHA MTW plans) + S-38 (Pew Trusts) | D / E / F | 3-way split |
+| S045 | S-26 (phila.gov + PhilaCode) + S-39 (PhillyEnc + FPC) | E / F | Split |
+
+---
+<a id="s-61"></a>
+
+#### S-61 — Philadelphia Inquirer — Other PA transit systems funding crisis (February 2026) [VERIFIED]
+
+**Citation:** Philadelphia Inquirer, "Other Pa. transit systems are dealing with the fiscal crunch that hit SEPTA last year," February 5, 2026 — quotes SEPTA CFO Erik Johanson on FY27 budget estimates.
+
+**URL:** https://www.inquirer.com/transportation/pennsylvania-transit-systems-funding-crisis-lanta-state-budget-20260205.html
+
+**Supports claims:** MC-06 (SEPTA fiscal crisis trajectory; CFO Johanson Feb 2026 estimate)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-62"></a>
+
+#### S-62 — SEPTA — FTA Grants KOP Rail Project Entry into New Starts Development (April 2025) [VERIFIED]
+
+**Citation:** Southeastern Pennsylvania Transportation Authority, "FTA Grants King of Prussia Rail Project Entry into New Starts Development Phase of Capital Investment Grant Program," April 2025.
+
+**URL:** https://wwww.septa.org/news/fta-grants-king-of-prussia-rail-project-entry-into-new-starts-development-phase-of-capital-investment-grant-program/
+
+**Supports claims:** MC-12 (KOP Rail FTA New Starts CIG advancement re-confirmation)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-63"></a>
+
+#### S-63 — Grid Magazine — Philadelphia Vision Zero a decade in (March 1, 2026) [VERIFIED]
+
+**Citation:** Grid Magazine, "The efforts to eradicate traffic deaths in Philadelphia launched in 2016. Ten years in, the City is still far from its goal," March 1, 2026.
+
+**URL:** https://gridphilly.com/blog-home/2026/03/01/philadelphias-program-to-eradicate-traffic-deaths-turns-10-activists-want-swifter-action/
+
+**Supports claims:** MC-14 (Vision Zero target revision 2030→2050)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+<a id="s-64"></a>
+
+#### S-64 — PHILADELPHIA.Today — Vision Zero a Decade Later (March 2026) [VERIFIED]
+
+**Citation:** PHILADELPHIA.Today, "A Decade In, How Far is Philadelphia From Its Vision Zero Goal of Eliminating Traffic Deaths By 2030?" March 2026.
+
+**URL:** https://philadelphia.today/2026/03/vision-zero-philadelphia-a-decade-later/
+
+**Supports claims:** MC-14 (Vision Zero target revision cross-confirmation)
+
+**Verification status:** VERIFIED — primary source web-retrieved
+
+**Notes:** Added 2026-05-24 in Phase 3 URL-retrieval pass.
+
+---
+
+
+## Body-Cited Sources NOT in Pre-Normalization CR
+
+The following sources are cited in MC entry bodies but were not in the pre-normalization Citation Registry.
+They are flagged on the relevant MC Sources lines with `[flag for URL-retrieval pass]`. No stub S-NN entries
+were created per hard rule (URL-retrieval is a separate pass).
+
+| MC | Flagged Source | Appears In | Status |
+|---|---|---|---|
+| MC-06 | Inquirer article citing SEPTA CFO Erik Johanson SEPTA-share estimate (~$183M), February 2026 | MC-06 body | **RESOLVED 2026-05-24 → [S-61](#s-61)** |
+| MC-12 | FTA New Starts KOP Rail Project Development re-confirmation press release, April 2025 | MC-12 body | **RESOLVED 2026-05-24 → [S-62](#s-62)** |
+| MC-14 | Grid Magazine, March 1, 2026 — Mayor Parker's Vision Zero 2030→2050 target revision | MC-14 body | **RESOLVED 2026-05-24 → [S-63](#s-63)** |
+| MC-14 | philadelphia.today, March 6–9, 2026 — same target revision coverage | MC-14 body | **RESOLVED 2026-05-24 → [S-64](#s-64)** |
+| MC-15 | D9 verified file SD7 principal-anchor documentation of PA SUT 2% Philadelphia allocation | MC-15 body (cross-domain) | Internal cross-domain ref; remains carried |
+
+---
+
+## Category Decisions
+
+**Categories A, B, C empty for D13:** No standalone primary statute entries (IIJA P.L. 117-58, P.L. 119-75,
+P.L. 119-21, OBBBA are always referenced through secondary sources); no standalone Executive Order entries
+(EO 14008, EO 12898, EO 14096 referenced through GAO S-05 and Sustainability Directory S-48); no primary
+court documents retrieved (SEPTA litigation covered through news sources; AHERA DPA via news and agency sources).
+
+**S039 CRS R48644 resolution:** S039 pre-norm bundled CRS R48644 alongside AASHTO, Construction Owners,
+Funding Landscape, and CRS R48881. CRS R48644 maps to the existing S-02 entry (no duplicate created).
+CRS R48881 is a distinct report and receives its own entry at S-04. AASHTO/Construction Owners/Funding
+Landscape kept as a cross-confirming policy-analysis bundle at S-34.
+
+**S040 K-12 Dive resolution:** S040 pre-norm bundled K-12 Dive (same URL as S018) with Grid Magazine,
+Inquirer (AHERA article), and CBS Philadelphia. K-12 Dive URL maps to S-44; new sources carried at S-57.
+
+**S036 retirement:** S036 (SDP/Fox29/6abc) shares philasd.org URL and Fox29 URL with S026. S026 is the more
+complete bundle. S036 retired; its unique 6abc URL is a cross-confirming source that does not require separate
+S-NN entry at this pass (flagged for URL-retrieval pass if needed).
+
+**URL typographic errors preserved:** Several SEPTA URLs contain 'wwww.' (S-11, S-19, S-21, S-23) — preserved
+as-is from pre-normalization CR per hard rule (no URL correction at normalization pass; URL-retrieval pass
+will verify canonical URLs).
+
+**TC sidecar not changed:** The embedded Temporal-Changes Sidecar retains all pre-normalization S-IDs
+(S001–S045) as originally written. TC entries reference pre-norm IDs; the old→new mapping table above
+provides the lookup for future cross-referencing passes.
+
+---

@@ -11,15 +11,15 @@ A second axis of representation. Geographic representation tells us *who* lives 
 
 ## Example: PA-3
 
-Thirteen domains (about half of those identified) were mapped from legal foundation to constituent experience. This methodology produced an analysis of 'gaps in representation', when the laws and regulations are and are not working for the peoplle. Click any cell to open that domain's analysis. There's no ordering, but these domains were selected for analysis because I thought they would be important for people in the district.  
+The very first steps for thirteen issue domains (about half of those conceptualized) were taken with an AI-driven workflow. The idea was to map power from legal foundation to constituent experience. In theory, this methodology can produce an analysis of 'gaps in representation', when the laws and regulations are and are not working for the peoplle. The information should not be trusted without human verification, but there is a lot of sourcable information to start with and the structure seems to be plausible.  
 
 {% include "partials/domain-honeycomb.njk" %}
 
-*Disclaimer* This workflow was developed with AI as an assistant. Claims were based on rigorous sourcing, relying on public data whenever possible. The workflow is public and all claims and statistics include references that can be checked and verified.
+*Disclaimer* This workflow was developed with AI as an assistant. Claims were based on rigorous sourcing, relying on public data whenever possible. The workflow is public; the law is well-referenced; some statistics include references; claims are not directly referenced to source. Everything needs to be checked and verified by humans before it is considered good information.  
 
 ## Breaking it down
 
-Every place government touches life can be identified (mostly). The idea is to map those places into conceptual domains so that people can actually understand the laws and reglations that they are subject to. Each area is an opportunity for someone with passion or topical specialization to organize members of the public to build expertise, communicate, and provide the kind of sustained citizen representation that a single geographically-elected representative simply doesn't have time for across three quarters of a million people and dozens of legal areas.
+Every place government touches life can be identified (right?). The idea is to map those places into conceptual domains so that people can actually understand the laws and reglations that they are subject to. We must figure out how to design a social compact that we all understand. In the assembly domains, each area is an opportunity for someone with passion or topical specialization to organize members of the public to build expertise, communicate, and provide the kind of sustained citizen representation that a single geographically-elected representative simply doesn't have time for across three quarters of a million people and dozens of legal areas.
 
 This isn't a replacement for geography. It's an addition. District reps represent place. Topical reps represent depth. Both together is the model.
 
@@ -33,7 +33,7 @@ The number isn't sacred. The aim is *comprehensive coverage*. If a area is missi
 
 ## How specialization works in practice
 
-The assembly is a long-term proposition. In the near term, before any formal structure exists, I can only ask that you learn more about at least one law that affects you.  
+The assembly is a long-term proposition. In the near term, just try to learn more about one law that affects you.  
 
 ---
 
@@ -41,18 +41,18 @@ The assembly is a long-term proposition. In the near term, before any formal str
 
 {% include "partials/schoolhouse-hook.njk" %}
 
-This project applies a People's Assembly framework to Pennsylvania's 3rd Congressional District, which includes parts of Philadelphia county. I started by thinking about possible ways to classify ares by discrete laws, regulations, and implications for constituents. In theory, a People's Assembly framework could be applied in any district and it might look different. The idea is to break down the system into more manageable subsets that the public can meaningful engage with. In turn, a representative for the district gains a highly effecient constituent feedback system and real human connection. This type of transparency allows for greater representation and accountability, as well as a cumulative public record. For some areas that I thought might be most important for the constituents in PA-3, I developeed a methodology and documented what the law says, how it actually runs in the district, and where the two diverge.
+This project applies a People's Assembly framework to Pennsylvania's 3rd Congressional District, which includes parts of Philadelphia county. I started by thinking about possible ways to classify ares by discrete laws, regulations, and implications for constituents. In theory, a People's Assembly framework could be applied in any district and it might look different. The idea is to break down the system into more manageable subsets that the public can meaningful engage with. In turn, a representative for the district gains a highly effecient constituent feedback system and real human connection. This type of transparency allows for greater representation and accountability, as well as a cumulative public record. For some areas that I thought might be most important for the constituents in PA-3, I developeed a methodology and started to document what the law says, how it actually runs in the district, and where the two diverge.
 
 The methodology applies five lenses (statutory architecture, administrative implementation, constituent experience, gap analysis, and statutory-vs-administrative durability) with rough standardization.
 [Read the methodology in full →](/paul/campaign/empower/methodology/)
 
-Policy proposals are not found here, but one use for this work might be as the starting point for new legislation. In theory, anyone could [propose](/paul/campaign/empower/contribute/#propose) real legislation for their representatives. After verification, representatives could engage in an iterative process - on the public record - to integrate (or not) the proposal into a current set of legislation. Representatives can keep their legislative platform public (see the very beginnings of this idea [here](/paul/policy)).
+In theory, anyone could [propose](/paul/campaign/empower/contribute/#propose) legislation and engage in an iterative process - on the public record - to integrate (or not) the proposal into a current set of legislation that is held by a party or representative. Representatives can and should keep their legislative platform public and engage with constituents about the details of their policy proposals. I started to think about my priorities as an example that you can see [here](/paul/policy)).
 
 {% include "partials/domain-honeycomb.njk" %}
 
 ## Other domains
 
-The remaining thirteen domains are in the project's framework but not yet under analytical pass. Several need methodological adjustment before the current approach applies cleanly; others are amenable but unscheduled. Click a name to jump to its short note.
+The remaining thirteen domains are in the project's framework but not yet under analytical pass. Several need methodological adjustment before the current approach could be applied; others are amenable but unscheduled. Click a name to jump to its short note.
 
 {% include "partials/domain-others.njk" %}
 
