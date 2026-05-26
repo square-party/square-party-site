@@ -1,7 +1,7 @@
 ---
 layout: empower.njk
 title: Food, Drug & Device
-shortTitle: Food, Drug & Device
+shortTitle: Food & Drug
 saveable: true
 savedContext: "Empower · Food, Drug & Device"
 state: in-review
