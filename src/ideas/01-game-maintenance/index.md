@@ -1,13 +1,13 @@
 ---
 layout: base.njk
-title: Capitalism as a Game That Can Be Won
+title: Capitalism needs Game Maintenance
 description: Rule design that keeps markets competitive — the "game maintenance" framework. Transparency, competition preservation, and dynamic balancing applied to wealth and market concentration.
 state: drafting
 order: 1
 updated: 2026-04-26
 ---
 
-# Idea 1 — Capitalism as a Game That Can Be Won
+# Capitalism needs Game Maintenance
 
 <p class="domain-lead">Capitalism is a game that can be won. Not "capitalism is unfair" — that's a moral debate. Not "capitalism is broken" — that's a systems argument. Just this: the system, as currently structured, allows a player to accumulate enough wealth, market power, and political influence to exit the competitive dynamics that make the system work. Once that happens, the engine that drives capitalism's value proposition — competition, price discovery, creative destruction — slows down. The proposal here is a framework called <strong>game maintenance</strong>: the same kind of ongoing competitive-balance design that every successful league, tournament, and market already uses, applied to the actual rules of the economy.</p>
 

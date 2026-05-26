@@ -22,7 +22,7 @@ bodyClass: home-landing-page
     <p class="home-landing__body">
       <strong>Write it in.</strong> Every election, every voter, every level — write someone in.  
       
-      <a href="/write-it-in/">Read more about the working mission →</a>
+      <a href="/write-it-in/">Read more about it →</a>
     </p>
 
   </div>
@@ -30,7 +30,7 @@ bodyClass: home-landing-page
   <div class="home-landing__hero-visual">
     {% include "partials/empty-square.njk" %}
     <p class="home-landing__hero-caption">
-      Intentionally open. <a href="/square/">Make yours →</a>
+      Forever open to change. <a href="/square/">Make yours →</a>
     </p>
   </div>
 </section>
@@ -40,33 +40,33 @@ bodyClass: home-landing-page
   <div class="home-landing__cards-grid home-landing__cards-grid--4">
     <a class="home-landing__card" href="/write-it-in/">
       <div>
-        <p class="home-landing__card-meta">the action</p>
+        <p class="home-landing__card-meta">the act</p>
         <h3 class="home-landing__card-title">Where do I start?</h3>
-        <p class="home-landing__card-blurb">The simplest action — pledge to write someone in, every election.</p>
+        <p class="home-landing__card-blurb">For yourself — pledge to write someone in, every election.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
     <a class="home-landing__card" href="/income-viz/">
       <div>
-        <p class="home-landing__card-meta">the picture</p>
-        <h3 class="home-landing__card-title">Show me the wealth</h3>
-        <p class="home-landing__card-blurb">Get a feel for income inequality. Why we need game maintenance.</p>
+        <p class="home-landing__card-meta">the viz</p>
+        <h3 class="home-landing__card-title">A broken system</h3>
+        <p class="home-landing__card-blurb">Feel inequality. Why capitalism needs game maintenance.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="home-landing__card" href="/paul/campaign/empower/">
+    <a class="home-landing__card" href="/ideas/">
       <div>
-        <p class="home-landing__card-meta">the ground</p>
-        <h3 class="home-landing__card-title">People's Assembly</h3>
-        <p class="home-landing__card-blurb">PA-3, mapped by issue domain. Where formal representation falls short.</p>
+        <p class="home-landing__card-meta">the ideas</p>
+        <h3 class="home-landing__card-title">Big ideas</h3>
+        <p class="home-landing__card-blurb">Problems and solutions in a giant complex system.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
     <a class="home-landing__card" href="/square-party/">
       <div>
-        <p class="home-landing__card-meta">the idea</p>
+        <p class="home-landing__card-meta">the group</p>
         <h3 class="home-landing__card-title">What is this?</h3>
-        <p class="home-landing__card-blurb">The empty square, the People's Assembly, the guts and ideas.</p>
+        <p class="home-landing__card-blurb">An empty square and a group of people who imagine change.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
@@ -82,7 +82,7 @@ bodyClass: home-landing-page
 <p class="home-landing__section-eyebrow">The lightest possible ask</p>
 <h2 class="home-landing__section-title">Sign up.</h2>
 <p class="home-landing__section-body">
-Name and email, takes a few seconds. Get on the list so you can hear when there's something to hear.
+Name and email. Get on the list.
 </p>
 <p class="home-landing__section-aux">
 Want to learn more? <a href="/representation/">Read about the fundamental problem in representation →</a>

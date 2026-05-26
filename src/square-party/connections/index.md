@@ -1,10 +1,10 @@
 ---
 layout: base.njk
-title: Making sure we're all connected
-description: The third participation primitive — a small, semi-formal network of people you stay connected to, and why a population of those networks makes the rest of this work.
+title: Human connection
+description: A semi-formal network of people, connected but decentralized, is essential.
 ---
 
-# Making sure we're all connected
+# Human connection
 
 The empty square and the People's Assembly both presume something the rest of the country has been quietly losing: ordinary people staying connected to other ordinary people, in webs that aren't held together by family obligation or workplace requirement. The connections that wouldn't happen by default — the ones that need a small, steady act of attention to maintain — are also the ones that make the rest of this work.
 

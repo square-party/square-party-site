@@ -6,18 +6,14 @@ description: Long-form essays about how the system works — the rules, structur
 
 # Ideas
 
-About the language, structures, and incentives that shape how decisions get made. How markets stay competitive. How citizens engage with self-governance. How the country plans for finite resources. Get these right and the room for productive policy widens. As it stands, these areas might be preventing us from producitve discussions.
+About power and the language, structures, and incentives that shape how decisions get made. How markets stay competitive. How citizens engage with self-governance. How the country plans for finite resources. Get these right and the room for productive policy widens. As it stands, these areas might be preventing us from producitve discussions.
 
-These ideas cut across specific issue domains. They differ from the [Policy Areas](/paul/policy/), which are substantive interventions inside specific issue domains.
+## Fundamental representation failures
 
-## Foundational frameworks
+- [Representation →](/representation/) — the structural problem that points to a constitutional convention
+- [People's Assembly →](/paul/campaign/empower/) — a framework for topical citizen oversight, with an example for PA-3
 
-- [Representation →](/representation/) — the bigger essay on the structural problem
-- [People's Assembly →](/paul/campaign/empower/) — a framework for topical citizen oversight, with the PA-3 application as a working example
-
-## Essays
-
-State indicators describe drafting state, not importance. *Drafting* means a substantive draft exists. *In review* means ready for outside scrutiny. *Planned* would be a slot identified but not yet written.
+## Fundamental failures in economics, governance, and resource management
 
 <div class="standard-row" id="ideas-grid">
 {%- for idea in collections.ideas -%}
