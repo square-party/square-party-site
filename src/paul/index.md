@@ -1,34 +1,32 @@
 ---
 layout: base.njk
-title: Paul Plonski
+title: paul
 description: is a person.
 reviewed: true
 ---
 
-# Paul Plonski
+# paul's square
 
 <img src="/assets/svg/paul-square.svg" class="bio-square" alt="Paul's square — Peace, Power, Planet">
 
-## In brief
+## in brief
 
-I am a scientist, educator, and artist. I made the Square Party website. I grew up outside a small town and now I live in a city. 
+I am a scientist, educator, and artist. I made the Square Party website. I grew up anxious but wonderfully naive, living outside a small town, wandering acres of pine trees and creeks, and now I live in a city, with a broken concrete yard and a metal gate with a lock.  
 
-## My square
+## my square
 
 My square has the words **Peace, Power, Planet, People**. These are topics I consider important and central to a well-functioning society.
 
-## What I'm doing
+## what is going on here
 
-In addition to my day job, I developed the Square Party framework. I was, and still am, frustrated because I don't feel like people are represented in government; politicians are like a different species than the majority and the system is like a world with an admission price tag that costs some personality in addition to a huge financial price tag. I *feel* like we are capable of so much as a species and the world feels increasingly dystopian. I plan to continue my research career until/unless there is a clearly viable alternative.  
+In addition to my day job, I developed the Square Party framework. I was, and still am, frustrated because I don't feel like people are represented in government; politicians have always looked like a different species and the system like a world with an admission cost of blood and personality in addition to a huge financial price. I *feel* like we are capable of so much as a species and yet the world feels increasingly dystopian. I plan to continue my research career until/unless there is a clearly viable alternative.  
 
-[More on the project →](/paul/campaign/)
+[more stuff →](/paul/campaign/)
 
-## Where the work lives
-
-- [The empower project →](/paul/campaign/empower/) — a simulated example of a congressional campaign
 - [Ideas →](/ideas/) — the broadest problems with economics, government, and resource management
 - [Policy areas →](/paul/policy/) — examples of how AI can be used to serve change by assisting in policy development
-- [Square Party →](/) — mah baby
+- [The empower project →](/paul/campaign/empower/) — a partial simulated example of a congressional campaign strcture
+- [Square Party →](/) — the thing
 
 ## News and updates
 
