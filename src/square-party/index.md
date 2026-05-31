@@ -28,7 +28,7 @@ You make your own square. It can change. It can signal. It lets you take ownersh
 
 ## The People's Assembly
 
-The **[People's Assembly](/paul/campaign/empower/)** is one part of a solution to the representation problem. The assmebly is an to organize representative participation into something with leverage on the actual law.
+The **[People's Assembly](/paul/campaign/empower/)** is one part of a solution to the representation problem. The assembly is a way to organize representative participation into something with leverage on the actual law.
 
 The assembly is a topical structure. Designed to cover every place government touches life, issue domains point to leadership roles for the kind of sustained citizen oversight that geography-based representation alone can't provide. Geographic representation can stay. But topical specialization joins in.
 
@@ -50,7 +50,7 @@ Four non-negotiable values:
 
 These are basics that a society needs to deliberate and act together, regardless of where any member lands on any specific issue. How those values translate into laws and regulations is an open question.
 
-[Read the tenets →](/square-party/tenets/)
+[Read the tenets →](/square-party/tenets/) · [Read the Declaration and pledge →](/square-party/declaration/)
 
 ## Get involved
 

@@ -8,6 +8,8 @@ description: Four structural commitments the party operates by — representatio
 
 The tenets are non-political in the conventional sense. They're the basics — the systems a society needs to deliberate and act together, regardless of where any member lands on any specific issue. Four for now: representation, reality, resource management, peace. The list is open to revision; if a basic that belongs here is missing, the framework asks to be told.
 
+For the short, recitable form of all of this — ten articles and a pledge — see [the Declaration](/square-party/declaration/).
+
 ## Representation
 <a id="representation"></a>
 

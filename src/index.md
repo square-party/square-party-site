@@ -74,7 +74,35 @@ bodyClass: home-landing-page
 
 </section>
 
-
+<section class="home-landing__foil">
+<div class="home-landing__foil-grid">
+<div class="home-landing__foil-copy">
+<ol class="home-landing__foil-list">
+<li>Your freedoms come first.</li>
+<li>Government is a necessary inconvenience.</li>
+<li>You will be represented as a person.</li>
+<li>You will be represented by your place.</li>
+<li>You will be represented by what you know.</li>
+<li>You will be represented through the people close to you.</li>
+<li>We share one reality.</li>
+<li>We plan for what's coming.</li>
+<li>We keep the peace at home.</li>
+<li>We keep the peace abroad.</li>
+</ol>
+<p class="home-landing__foil-cta"><a href="/square-party/declaration/">Read the Declaration and the pledge →</a></p>
+</div>
+<div class="home-landing__pledge-card">
+<p class="home-landing__pledge-eyebrow">The pledge</p>
+<p class="home-landing__pledge-body">
+I pledge allegiance to the square,<br>
+and to the representative government for which it stands —<br>
+a people living in peace,<br>
+protected in our beliefs and free to hold them,<br>
+with liberty and justice for all.
+</p>
+</div>
+</div>
+</section>
 
 <section class="home-landing__sub">
 <div class="home-landing__sub-grid">
