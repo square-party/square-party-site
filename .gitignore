@@ -26,6 +26,10 @@ _site-sandbox/
 # analysis, admin coordination — moved OUT of the site repo to
 # ../PA3_assembly_work/_not-site-content/. No longer needs gitignoring here.)
 
+# Marketing collateral — flyers, QR, convention prototypes (2026-05-31).
+# Work-in-progress assets kept local for now; not part of the site build.
+marketing/
+
 # WM-1 smoke-test pages — build locally but never commit.
 # Note: wm1b-test.md intentionally not listed here; Eleventy 3 respects .gitignore
 # and would skip the file. The file stays untracked — admin to remove after WM-1D.

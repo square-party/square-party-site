@@ -13,7 +13,7 @@ For the short, recitable form of all of this — ten articles and a pledge — s
 ## Representation
 <a id="representation"></a>
 
-Decisions should reach the people they're going to affect. Not as a slogan — as a structural property of the system. Geography is one axis of representation, topical specialization (the [People's Assembly](/paul/campaign/empower/)) is another, and the practice of [staying connected](/square-party/connections/) to people in your community is a third. Square Party doesn't endorse any one ideal model. We commit to the goal of comprehensive coverage, and to redesigning the mechanisms when the existing ones aren't producing it.
+Decisions should reach the people they're going to affect. Not as a slogan — as a structural property of the system. Geography is the foundational axis: where you live binds you to concrete, shared stakes — schools, roads, water, the local economy — and someone has to be accountable for that place. Geographic representation isn't a relic to be replaced; it stays, and the rest builds on top of it. Topical specialization (the [People's Assembly](/paul/campaign/empower/)) is a second axis, and the practice of [staying connected](/square-party/connections/) to people in your community is a third. Square Party doesn't endorse any one ideal model. We commit to the goal of comprehensive coverage, and to redesigning the mechanisms when the existing ones aren't producing it.
 
 ## Reality
 <a id="reality"></a>
