@@ -12,7 +12,7 @@ bodyClass: home-landing-page
 
     <p class="home-landing__eyebrow">
       <span class="home-landing__eyebrow-dot" aria-hidden="true"></span>
-      A work in progress · 2026
+      Write. It. In.
     </p>
 
     <h1 class="home-landing__title">Square Party</h1>
@@ -38,11 +38,11 @@ bodyClass: home-landing-page
 <section class="home-landing__cards">
 
   <div class="home-landing__cards-grid home-landing__cards-grid--4">
-    <a class="home-landing__card" href="/write-it-in/">
+    <a class="home-landing__card" href="/representation/">
       <div>
-        <p class="home-landing__card-meta">the act</p>
+        <p class="home-landing__card-meta">the why</p>
         <h3 class="home-landing__card-title">Where do I start?</h3>
-        <p class="home-landing__card-blurb">For yourself — pledge to write someone in, every election.</p>
+        <p class="home-landing__card-blurb">Why you're not really represented — and how we'd fix it.</p>
       </div>
       <span class="home-landing__card-arrow" aria-hidden="true">→</span>
     </a>
@@ -80,10 +80,7 @@ bodyClass: home-landing-page
 <ol class="home-landing__foil-list">
 <li>Your freedoms come first.</li>
 <li>Government is a necessary inconvenience.</li>
-<li>You will be represented as a person.</li>
-<li>You will be represented by your place.</li>
-<li>You will be represented by what you know.</li>
-<li>You will be represented through the people close to you.</li>
+<li>You will be represented — and you'll know it.</li>
 <li>We share one reality.</li>
 <li>We plan for what's coming.</li>
 <li>We keep the peace at home.</li>

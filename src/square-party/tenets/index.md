@@ -8,7 +8,7 @@ description: Four structural commitments the party operates by — representatio
 
 The tenets are non-political in the conventional sense. They're the basics — the systems a society needs to deliberate and act together, regardless of where any member lands on any specific issue. Four for now: representation, reality, resource management, peace. The list is open to revision; if a basic that belongs here is missing, the framework asks to be told.
 
-For the short, recitable form of all of this — ten articles and a pledge — see [the Declaration](/square-party/declaration/).
+For the short, recitable form of all of this — seven articles and a pledge — see [the Declaration](/square-party/declaration/).
 
 ## Representation
 <a id="representation"></a>
@@ -28,6 +28,6 @@ Plan for the things you know are coming. Fossil fuels are finite; the climate is
 ## Peace
 <a id="peace"></a>
 
-Peace, here, is more concrete than the word usually implies. It means resolving disputes without violence — at home, in policing and criminal justice; abroad, in the conduct of foreign policy. It also means the everyday peace of being able to live without constant threat to your safety, your family, your livelihood, or your place. The structural commitment is to building and defending the systems that make those forms of peace possible.
+Peace, here, is more concrete than the word usually implies. It means resolving disputes without violence — at home, in policing and criminal justice; abroad, in the conduct of foreign policy. Abroad it also means being the kind of actor we would want others to be: keeping our word, and holding ourselves to the same rules we expect of everyone else rather than carving out exceptions because we can. And it means the everyday peace of being able to live without constant threat to your safety, your family, your livelihood, or your place. The structural commitment is to building and defending the systems that make those forms of peace possible.
 
 {% include "partials/page-meta.njk" %}

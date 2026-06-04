@@ -51,9 +51,11 @@ The existing parties have become more about defending their brand than about rep
 
 That signal, scaled, is something the system has to read. We aggregate the count and publish it. Legislatures, parties, and journalists can see it.
 
+If you're represented and you know it, you don't need this page. Most of us aren't — so write someone in.
+
 If you want to engage further:
 
 - [About the party →](/square-party/) — the empty square, the People's Assembly, the connective layer
-- [The Declaration →](/square-party/declaration/) — ten articles and the pledge, the short form of what the party stands on
+- [The Declaration →](/square-party/declaration/) — seven articles and the pledge, the short form of what the party stands on
 - [Read the analysis →](/paul/campaign/empower/) — PA-3 mapped, domain by domain
 - [Read the newsletter →](/newsletter/) — Substack, ongoing diagnostic essays
