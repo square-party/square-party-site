@@ -1,7 +1,9 @@
 ---
+title: "The Square Deal lineage"
 layout: base.njk
-title: The Square Deal lineage
-description: What Square Party draws from Theodore Roosevelt's Square Deal — what's in the historical record, what isn't, and where the comparison strains.
+description: What Square Party draws from Theodore Roosevelt's Square Deal — what's
+  in the historical record, what isn't, and where the comparison strains.
+output: word_document
 ---
 
 # The Square Deal lineage

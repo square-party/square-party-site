@@ -30,3 +30,4 @@ _site-sandbox/
 # Note: wm1b-test.md intentionally not listed here; Eleventy 3 respects .gitignore
 # and would skip the file. The file stays untracked — admin to remove after WM-1D.
 src/_not-published/_site_test/
+*.Rhistory

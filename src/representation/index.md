@@ -114,7 +114,7 @@ To be clear: I *do not* stand on any particular blueprint for what government sh
 
 ## References
 
-- American Academy of Arts & Sciences. (2024). *Voters Seek Overhaul of Congress for a Stronger Democracy* (survey fielded by the UMass Lowell Center for Public Opinion, Sept. 25 – Oct. 1, 2024).
+- American Academy of Arts & Sciences & UMass Lowell Center for Public Opinion. (2024). *Poll: Voters seek overhaul of Congress for a stronger democracy* (3,200 likely voters surveyed Sept. 25 – Oct. 1, 2024; released Jan. 16, 2025; margin of error ±1.8 points). https://www.amacad.org/news/poll-voters-congress-democracy
 - Bell, J. (2001). *French Legal Cultures.* Cambridge University Press.
 - Caplan, R. (1988). *The Constitutional Convention: A Cautious Recommendation.* Center for the Study of Federalism.
 - Church, C. H., & Head, R. C. (2013). *A Concise History of Switzerland.* Cambridge University Press.

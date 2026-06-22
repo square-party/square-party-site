@@ -110,9 +110,6 @@ with liberty and justice for all.
 Name and email. Get on the list.
 </p>
 <p class="home-landing__section-aux">
-Want to learn more? <a href="/representation/">Read about the fundamental problem in representation →</a>
-</p>
-<p class="home-landing__section-aux">
 Or just <a href="/write-it-in/#pledge">pledge to write someone in →</a>
 </p>
 <div class="home-landing__sub-embed">
